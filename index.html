@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FOMO AI — Learn How AI Works Through Interactive Gameplay</title>
+    <meta name="description" content="Free educational game that teaches AI through play. 32 modules, 29 AI labs, 9 game mechanics. Available on iOS and Android in English, Arabic, and French.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://makeit.solutions">
+    <meta property="og:title" content="FOMO AI — Learn How AI Works Through Interactive Gameplay">
+    <meta property="og:description" content="Free educational game that teaches AI through play. 32 modules, 29 AI labs, 9 game mechanics. Available on iOS and Android in English, Arabic, and French.">
+    <meta property="og:image" content="uploads/3.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="FOMO AI — Learn How AI Works Through Interactive Gameplay">
+    <meta name="twitter:description" content="Free educational game that teaches AI through play. 32 modules, 29 AI labs, 9 game mechanics.">
+    <meta name="twitter:image" content="uploads/3.png">
+    <link rel="canonical" href="https://makeit.solutions">
+    <meta name="robots" content="index, follow">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "FOMO AI",
+      "applicationCategory": "EducationApplication",
+      "operatingSystem": "iOS, Android",
+      "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+      "description": "Free educational game that teaches AI through interactive gameplay."
+    }
+    </script>
+    <style>
+        *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+        :root {
+            --bg: #0F1629;
+            --bg-alt: #0a0f1e;
+            --cyan: #00E5FF;
+            --purple: #A855F7;
+            --magenta: #E91E8C;
+            --gold: #FFA500;
+            --green: #00E676;
+            --card: rgba(255,255,255,0.05);
+            --border: rgba(0,229,255,0.15);
+            --text: #FFFFFF;
+            --text2: rgba(255,255,255,0.7);
+            --font-head: 'Syne', sans-serif;
+            --font-body: 'Space Mono', monospace;
+        }
+
+        html { scroll-behavior: smooth; }
+
+        body {
+            font-family: var(--font-body);
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+        body::before {
+            content: '';
+            position: fixed; inset: 0;
+            background-image: radial-gradient(circle, rgba(0,229,255,0.03) 1px, transparent 1px);
+            background-size: 40px 40px;
+            z-index: -1;
+            pointer-events: none;
+        }
+
+        h1, h2, h3, h4 { font-family: var(--font-head); font-weight: 700; line-height: 1.15; text-wrap: balance; }
+        h1 { font-size: clamp(2.5rem, 6vw, 4.5rem); }
+        h2 { font-size: clamp(1.8rem, 4vw, 3rem); }
+        h3 { font-size: clamp(1.25rem, 2.5vw, 1.75rem); }
+
+        .container { max-width: 1200px; margin: 0 auto; padding: 0 24px; }
+
+        /* ── NAV ── */
+        nav {
+            position: fixed; top: 0; left: 0; right: 0; z-index: 1000;
+            background: rgba(15,22,41,0.92);
+            backdrop-filter: blur(12px);
+            border-bottom: 1px solid var(--border);
+            padding: 12px 24px;
+        }
+        .nav-inner { max-width: 1200px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; }
+        .logo { display: flex; align-items: center; gap: 10px; text-decoration: none; color: var(--text); font-family: var(--font-head); font-weight: 700; font-size: 1.4rem; }
+        .logo img { width: 36px; height: 36px; border-radius: 8px; }
+        .nav-links { display: flex; gap: 28px; list-style: none; align-items: center; }
+        .nav-links a { color: var(--text2); text-decoration: none; font-size: 0.9rem; transition: color 0.2s; }
+        .nav-links a:hover { color: var(--cyan); }
+        .nav-cta {
+            background: var(--cyan); color: var(--bg) !important; padding: 10px 20px;
+            border-radius: 8px; font-weight: 700; font-size: 0.9rem;
+            box-shadow: 0 0 20px rgba(0,229,255,0.35); transition: all 0.2s;
+        }
+        .nav-cta:hover { box-shadow: 0 0 30px rgba(0,229,255,0.55); transform: translateY(-1px); }
+        .hamburger { display: none; background: none; border: none; cursor: pointer; padding: 8px; flex-direction: column; gap: 5px; }
+        .hamburger span { width: 22px; height: 2px; background: var(--cyan); transition: all 0.3s; display: block; }
+
+        /* ── HERO ── */
+        .hero {
+            min-height: 100vh; display: flex; align-items: center;
+            padding: 100px 0 48px; position: relative;
+        }
+        .hero-grid {
+            display: grid; grid-template-columns: 1fr 1fr;
+            gap: 48px; align-items: center;
+        }
+        .hero h1 {
+            margin-bottom: 20px;
+            background: linear-gradient(135deg, #fff 0%, var(--cyan) 60%, var(--purple) 100%);
+            -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;
+        }
+        .hero-sub { font-size: 1.15rem; color: var(--text2); margin-bottom: 28px; max-width: 500px; }
+        .cta-row { display: flex; gap: 12px; margin-bottom: 20px; flex-wrap: wrap; }
+        .btn {
+            display: inline-flex; align-items: center; gap: 10px;
+            padding: 14px 28px; border-radius: 12px; text-decoration: none;
+            font-weight: 700; font-size: 0.95rem; transition: all 0.2s; border: 2px solid transparent;
+            font-family: var(--font-body);
+        }
+        .btn-cyan { background: var(--cyan); color: var(--bg); box-shadow: 0 0 20px rgba(0,229,255,0.3); }
+        .btn-cyan:hover { box-shadow: 0 0 30px rgba(0,229,255,0.5); transform: translateY(-2px); }
+        .btn-ghost { background: rgba(255,255,255,0.08); color: var(--text); border-color: rgba(0,229,255,0.25); }
+        .btn-ghost:hover { border-color: var(--cyan); background: rgba(255,255,255,0.12); }
+        .trust-row { display: flex; gap: 20px; font-size: 0.85rem; color: var(--text2); flex-wrap: wrap; }
+        .trust-row span::before { content: '✓ '; color: var(--green); font-weight: 700; }
+
+        /* Phone */
+        .phone-wrap { perspective: 1000px; display: flex; justify-content: center; }
+        .phone {
+            width: 280px; padding: 10px;
+            background: linear-gradient(135deg, rgba(0,229,255,0.12), rgba(168,85,247,0.12));
+            border: 2px solid rgba(0,229,255,0.35); border-radius: 36px;
+            box-shadow: 0 24px 64px rgba(0,229,255,0.25), 0 16px 48px rgba(168,85,247,0.15);
+            transform: perspective(1000px) rotateY(-5deg); transition: transform 0.4s;
+        }
+        .phone:hover { transform: perspective(1000px) rotateY(0deg); }
+        .phone-inner {
+            width: 100%; aspect-ratio: 9/19.5; border-radius: 28px;
+            overflow: hidden; background: #0d1225;
+        }
+        .phone-inner img { width: 100%; height: 100%; object-fit: cover; display: block; }
+
+        /* ── BRAND ACCENT ── */
+        .brand-accent {
+            padding: 40px 0; opacity: 1; transform: none;
+        }
+        .brand-accent-inner {
+            max-width: 520px; margin: 0 auto;
+            border-radius: 16px; overflow: hidden;
+            border: 1px solid var(--border);
+            box-shadow: 0 8px 40px rgba(0,229,255,0.08);
+        }
+        .brand-accent-inner img { width: 100%; display: block; }
+
+        /* ── STATS ── */
+        .stats {
+            background: rgba(0,229,255,0.04);
+            border-top: 1px solid var(--border); border-bottom: 1px solid var(--border);
+            padding: 32px 0; opacity: 1; transform: none;
+        }
+        .stats-row { display: flex; justify-content: space-around; gap: 16px; flex-wrap: wrap; }
+        .stat { text-align: center; min-width: 100px; }
+        .stat-num { font-family: var(--font-head); font-size: clamp(2rem, 4vw, 3rem); font-weight: 700; color: var(--cyan); }
+        .stat-lbl { font-size: 0.85rem; color: var(--text2); }
+
+        /* ── SECTIONS ── */
+        section { padding: 80px 0; }
+        .fade-in { opacity: 0; transform: translateY(24px); transition: opacity 0.5s ease, transform 0.5s ease; }
+        .fade-in.visible { opacity: 1; transform: translateY(0); }
+        .section-head { text-align: center; margin-bottom: 48px; }
+        .section-head p { color: var(--text2); font-size: 1.05rem; max-width: 640px; margin: 12px auto 0; }
+
+        /* ── FEATURES ── */
+        .feat-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 24px; }
+        .feat {
+            background: var(--card); border: 1px solid var(--border);
+            border-radius: 16px; padding: 28px; transition: all 0.25s;
+        }
+        .feat:hover { border-color: var(--cyan); box-shadow: 0 0 24px rgba(0,229,255,0.15); transform: translateY(-3px); }
+        .feat h3 { margin-bottom: 10px; }
+        .feat p { color: var(--text2); font-size: 0.95rem; }
+
+        /* ── HOW IT WORKS ── */
+        .steps { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 40px; }
+        .step { text-align: center; }
+        .step-n {
+            width: 56px; height: 56px; margin: 0 auto 16px;
+            background: var(--cyan); color: var(--bg); border-radius: 50%;
+            display: flex; align-items: center; justify-content: center;
+            font-family: var(--font-head); font-size: 1.4rem; font-weight: 700;
+            box-shadow: 0 0 20px rgba(0,229,255,0.5);
+        }
+        .step h3 { margin-bottom: 8px; }
+        .step p { color: var(--text2); font-size: 0.95rem; }
+
+        /* ── MODULES (compact chips) ── */
+        .modules-section { background: var(--bg-alt); }
+        .mod-group { margin-bottom: 32px; }
+        .mod-group h3 { margin-bottom: 16px; color: var(--cyan); }
+        .chip-grid { display: flex; flex-wrap: wrap; gap: 10px; }
+        .chip {
+            background: var(--card); border: 1px solid var(--border);
+            border-radius: 20px; padding: 8px 18px; font-size: 0.85rem;
+            color: var(--text); transition: all 0.2s; cursor: default;
+            white-space: nowrap;
+        }
+        .chip:hover { border-color: var(--cyan); background: rgba(0,229,255,0.08); }
+        .chip-hidden { display: none; }
+        .show-more-btn {
+            background: none; border: 1px solid var(--border); color: var(--cyan);
+            padding: 8px 20px; border-radius: 20px; cursor: pointer;
+            font-family: var(--font-body); font-size: 0.85rem; transition: all 0.2s;
+            margin-top: 12px;
+        }
+        .show-more-btn:hover { background: rgba(0,229,255,0.1); border-color: var(--cyan); }
+
+        /* ── LABS ── */
+        .lab-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 20px; }
+        .lab-card {
+            background: var(--card); border: 1px solid var(--border);
+            border-radius: 16px; padding: 24px; transition: all 0.25s;
+        }
+        .lab-card:hover { border-color: var(--cyan); transform: translateY(-3px); }
+        .lab-card h4 { color: var(--cyan); margin-bottom: 8px; font-size: 1.1rem; }
+        .lab-card .lab-count { font-size: 2rem; font-family: var(--font-head); font-weight: 700; color: var(--text); margin-bottom: 8px; }
+        .lab-card ul { list-style: none; color: var(--text2); font-size: 0.85rem; }
+        .lab-card li::before { content: '→ '; color: var(--cyan); }
+
+        /* ── MECHANICS CAROUSEL ── */
+        .carousel-wrap {
+            overflow-x: auto; scroll-snap-type: x mandatory;
+            -webkit-overflow-scrolling: touch;
+            scrollbar-width: none; -ms-overflow-style: none;
+        }
+        .carousel-wrap::-webkit-scrollbar { display: none; }
+        .carousel-track { display: flex; gap: 16px; padding: 4px 0 16px; }
+        .mech-card {
+            flex: 0 0 260px; scroll-snap-align: start;
+            background: var(--card); border: 1px solid var(--border);
+            border-radius: 16px; padding: 24px; transition: all 0.25s;
+        }
+        .mech-card:hover { border-color: var(--cyan); }
+        .mech-card h4 { margin-bottom: 8px; font-size: 1.1rem; }
+        .mech-card p { color: var(--text2); font-size: 0.85rem; }
+
+        /* ── PATHS ── */
+        .paths-row { display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; }
+        .path {
+            background: var(--card); border: 2px solid var(--border);
+            border-radius: 16px; padding: 24px 20px; text-align: center;
+            min-width: 180px; flex: 1; max-width: 220px; transition: all 0.25s;
+        }
+        .path:hover { border-color: var(--cyan); box-shadow: 0 0 24px rgba(0,229,255,0.2); }
+        .path-emoji { font-size: 2.2rem; margin-bottom: 10px; }
+        .path h4 { font-size: 1rem; margin-bottom: 6px; }
+        .path p { color: var(--text2); font-size: 0.8rem; }
+
+        /* ── DOWNLOAD ── */
+        .dl-section { text-align: center; }
+        .dl-badges { display: flex; gap: 16px; justify-content: center; margin: 40px 0; flex-wrap: wrap; }
+        .dl-badge {
+            padding: 0; background: #000; border: none; border-radius: 8px;
+            text-decoration: none; color: var(--text);
+            display: inline-flex; align-items: center; transition: all 0.2s;
+            overflow: hidden; height: 56px;
+        }
+        .dl-badge:hover { box-shadow: 0 4px 20px rgba(255,255,255,0.15); transform: translateY(-2px); }
+        .dl-badge svg { height: 56px; width: auto; }
+
+        /* ── CONTACT ── */
+        .contact-inner { text-align: center; }
+        .social-row { display: flex; gap: 16px; justify-content: center; margin-top: 24px; }
+        .soc-link {
+            width: 48px; height: 48px; background: var(--card);
+            border: 1px solid var(--border); border-radius: 50%;
+            display: flex; align-items: center; justify-content: center;
+            text-decoration: none; color: var(--text); transition: all 0.2s;
+        }
+        .soc-link:hover { border-color: var(--cyan); box-shadow: 0 0 16px rgba(0,229,255,0.4); transform: scale(1.1); }
+
+        /* ── FOOTER ── */
+        footer {
+            border-top: 1px solid var(--border); padding: 40px 0 24px;
+            margin-top: 48px; background: rgba(0,0,0,0.2);
+        }
+        .foot-grid { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 24px; }
+        .foot-links { display: flex; gap: 20px; list-style: none; flex-wrap: wrap; }
+        .foot-links a { color: var(--text2); text-decoration: none; font-size: 0.85rem; transition: color 0.2s; }
+        .foot-links a:hover { color: var(--cyan); }
+        .foot-note { color: var(--text2); font-size: 0.85rem; }
+
+        /* ── RESPONSIVE ── */
+        @media (max-width: 1024px) {
+            .hero-grid { grid-template-columns: 1fr; text-align: center; }
+            .hero-sub { margin: 0 auto 28px; }
+            .cta-row, .trust-row { justify-content: center; }
+            .phone { width: 240px; }
+        }
+        @media (max-width: 768px) {
+            .nav-links {
+                position: fixed; top: 56px; left: -100%; width: 100%;
+                height: calc(100vh - 56px); background: rgba(15,22,41,0.98);
+                backdrop-filter: blur(20px); flex-direction: column;
+                padding: 40px 24px; transition: left 0.3s; align-items: flex-start; gap: 20px;
+            }
+            .nav-links.open { left: 0; }
+            .hamburger { display: flex; }
+            .hamburger.open span:nth-child(1) { transform: rotate(45deg) translate(5px, 5px); }
+            .hamburger.open span:nth-child(2) { opacity: 0; }
+            .hamburger.open span:nth-child(3) { transform: rotate(-45deg) translate(5px, -5px); }
+            .phone { width: 200px; }
+            .path { min-width: 140px; }
+            .foot-grid { flex-direction: column; text-align: center; }
+        }
+        @media (max-width: 640px) {
+            .cta-row { flex-direction: column; width: 100%; }
+            .btn { width: 100%; justify-content: center; }
+            .feat-grid { grid-template-columns: 1fr; }
+            .paths-row { flex-direction: column; align-items: center; }
+            .path { max-width: 100%; width: 100%; }
+            .dl-badges { flex-direction: column; align-items: center; }
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="nav-inner">
+            <a href="#" class="logo">
+                <img src="uploads/Icon-maskable-512.png" alt="FOMO AI" width="36" height="36">
+                FOMO AI
+            </a>
+            <button class="hamburger" aria-label="Toggle menu">
+                <span></span><span></span><span></span>
+            </button>
+            <ul class="nav-links">
+                <li><a href="#features">Features</a></li>
+                <li><a href="#how-it-works">How It Works</a></li>
+                <li><a href="#labs">AI Labs</a></li>
+                <li><a href="#download">Download</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#download" class="nav-cta">Download</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <!-- HERO -->
+        <section class="hero">
+            <div class="container">
+                <div class="hero-grid">
+                    <div>
+                        <h1>Learn AI by Playing, Not Studying</h1>
+                        <p class="hero-sub">Complete the sentence. See what AI predicts. The gap is your lesson.</p>
+                        <div class="cta-row">
+                            <a href="https://apps.apple.com/app/fomo-ai/id[PLACEHOLDER]" class="dl-badge" target="_blank" rel="noopener noreferrer" aria-label="Download on the App Store">
+                                <svg viewBox="0 0 120 40" xmlns="http://www.w3.org/2000/svg"><rect width="120" height="40" rx="6" fill="#000"/><rect x=".5" y=".5" width="119" height="39" rx="5.5" stroke="#A6A6A6" fill="none"/><path d="M24.77 20.3a4.95 4.95 0 012.36-4.15 5.07 5.07 0 00-3.99-2.16c-1.68-.18-3.31 1.01-4.17 1.01-.87 0-2.2-.99-3.63-.96a5.35 5.35 0 00-4.5 2.74c-1.94 3.35-.49 8.27 1.37 10.98.93 1.33 2.03 2.82 3.46 2.76 1.4-.06 1.92-.89 3.61-.89 1.68 0 2.16.89 3.62.86 1.5-.03 2.44-1.33 3.35-2.67a11.04 11.04 0 001.52-3.13 4.78 4.78 0 01-2.9-4.39zM22.04 12.21a4.87 4.87 0 001.12-3.49 4.96 4.96 0 00-3.21 1.66 4.64 4.64 0 00-1.14 3.37 4.1 4.1 0 003.23-1.54z" fill="#fff"/><text fill="#fff" font-family="system-ui,-apple-system,sans-serif" font-size="8" x="36" y="15" font-weight="400">Download on the</text><text fill="#fff" font-family="system-ui,-apple-system,sans-serif" font-size="14" x="36" y="29" font-weight="600">App Store</text></svg>
+                            </a>
+                            <a href="https://play.google.com/store/apps/details?id=[PLACEHOLDER]" class="dl-badge" target="_blank" rel="noopener noreferrer" aria-label="Get it on Google Play">
+                                <svg viewBox="0 0 135 40" xmlns="http://www.w3.org/2000/svg"><rect width="135" height="40" rx="6" fill="#000"/><rect x=".5" y=".5" width="134" height="39" rx="5.5" stroke="#A6A6A6" fill="none"/><path d="M13.54 7.82l10.87 6.28 3.55-3.55L13.54 2.5a1.2 1.2 0 00-.52.15l.52 5.17zm0 24.36l-.52 5.17a1.2 1.2 0 00.52.15l14.42-8.05-3.55-3.55-10.87 6.28zm-1.42-1.2V9.02L7.3 4.2a1.19 1.19 0 00-.3.82v29.96c0 .3.1.58.3.82l4.82-4.82zm16.89-11l3.83-2.14a1.2 1.2 0 000-2.08L29 13.62l-3.85 3.85L29 21.33l.01-.01z" fill="url(#gp1)" transform="translate(4,5) scale(.75)"/><defs><linearGradient id="gp1" x1="7" y1="2.5" x2="25" y2="35" gradientUnits="userSpaceOnUse"><stop stop-color="#00A0FF"/><stop offset=".25" stop-color="#00A1FF"/><stop offset=".5" stop-color="#00E3FF"/><stop offset=".75" stop-color="#03DAC5"/><stop offset="1" stop-color="#0AF"/></linearGradient></defs><text fill="#fff" font-family="system-ui,-apple-system,sans-serif" font-size="7.5" x="36" y="14" font-weight="400" letter-spacing=".5">GET IT ON</text><text fill="#fff" font-family="system-ui,-apple-system,sans-serif" font-size="13.5" x="36" y="28" font-weight="500">Google Play</text></svg>
+                            </a>
+                        </div>
+                        <div class="trust-row">
+                            <span>Free to Play</span>
+                            <span>No Account Required</span>
+                            <span>3 Languages</span>
+                        </div>
+                    </div>
+                    <div class="phone-wrap">
+                        <div class="phone">
+                            <div class="phone-inner">
+                                <img src="uploads/1.png" alt="FOMO AI Home Screen">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- STATS -->
+        <div class="stats">
+            <div class="container">
+                <div class="stats-row">
+                    <div class="stat"><div class="stat-num" data-target="32">0</div><div class="stat-lbl">Modules</div></div>
+                    <div class="stat"><div class="stat-num" data-target="29">0</div><div class="stat-lbl">AI Labs</div></div>
+                    <div class="stat"><div class="stat-num" data-target="33">0</div><div class="stat-lbl">Achievements</div></div>
+                    <div class="stat"><div class="stat-num" data-target="5">0</div><div class="stat-lbl">Learning Paths</div></div>
+                    <div class="stat"><div class="stat-num" data-target="3">0</div><div class="stat-lbl">Languages</div></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- FEATURES -->
+        <section id="features" class="fade-in">
+            <div class="container">
+                <div class="section-head"><h2>Why FOMO AI Is Different</h2></div>
+                <div class="feat-grid">
+                    <div class="feat"><h3>🎮 No Lectures</h3><p>Insight comes AFTER play, not before. You learn by doing.</p></div>
+                    <div class="feat"><h3>❌ Wrong Answers Teach</h3><p>Every wrong answer still earns points and teaches something.</p></div>
+                    <div class="feat"><h3>🧠 29 AI Labs</h3><p>Build, route, tokenize, and puzzle through real AI concepts hands-on.</p></div>
+                    <div class="feat"><h3>👶👤💼 3 Difficulty Tracks</h3><p>Kids (8–12), Everyone, and Professional — never condescending.</p></div>
+                    <div class="feat"><h3>🌍 3 Languages</h3><p>English, Arabic (full RTL), and French. Fully localized.</p></div>
+                    <div class="feat"><h3>🏆 Boss Fights</h3><p>6 unique bosses, 33 achievements, daily challenges.</p></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- HOW IT WORKS -->
+        <section id="how-it-works" class="fade-in">
+            <div class="container">
+                <div class="section-head"><h2>How It Works</h2></div>
+                <div class="steps">
+                    <div class="step">
+                        <div class="step-n">1</div>
+                        <h3>Play a Round</h3>
+                        <p>Complete sentences, spot hallucinations, detect bias across 9 game mechanics.</p>
+                    </div>
+                    <div class="step">
+                        <div class="step-n">2</div>
+                        <h3>See What AI Thinks</h3>
+                        <p>Compare your answer with the AI's prediction. Sometimes you match. Sometimes you don't.</p>
+                    </div>
+                    <div class="step">
+                        <div class="step-n">3</div>
+                        <h3>Get the Insight</h3>
+                        <p>Every round ends with one memorable sentence about how AI actually works.</p>
+                    </div>
+                </div>
+                <div class="phone-wrap" style="margin-top: 48px;">
+                    <div class="phone">
+                        <div class="phone-inner">
+                            <img src="uploads/2.png" alt="FOMO AI Storytelling Gameplay" loading="lazy">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- BRAND ACCENT -->
+        <div class="brand-accent fade-in">
+            <div class="container">
+                <div class="brand-accent-inner">
+                    <img src="uploads/3.png" alt="FOMO AI — Think · Learn · Win" loading="lazy">
+                </div>
+            </div>
+        </div>
+
+        <!-- MODULES (compact chips) -->
+        <section id="modules" class="modules-section fade-in">
+            <div class="container">
+                <div class="section-head">
+                    <h2>32 Topics. Basics to Architecture.</h2>
+                </div>
+                <div class="mod-group">
+                    <h3>Foundations</h3>
+                    <div class="chip-grid" id="foundations-chips">
+                        <span class="chip">How AI Thinks</span>
+                        <span class="chip">How AI Learns</span>
+                        <span class="chip">Prompt Engineering</span>
+                        <span class="chip">AI Hallucinations</span>
+                        <span class="chip">AI Bias & Fairness</span>
+                        <span class="chip">RAG</span>
+                        <span class="chip">Neural Networks</span>
+                        <span class="chip chip-hidden">AI vs Human Intelligence</span>
+                        <span class="chip chip-hidden">Data & Privacy</span>
+                        <span class="chip chip-hidden">History of AI</span>
+                        <span class="chip chip-hidden">Computer Vision</span>
+                        <span class="chip chip-hidden">NLP</span>
+                        <span class="chip chip-hidden">Generative AI</span>
+                        <span class="chip chip-hidden">AI Ethics</span>
+                        <span class="chip chip-hidden">Reinforcement Learning</span>
+                        <span class="chip chip-hidden">AI in Healthcare</span>
+                        <span class="chip chip-hidden">Autonomous Systems</span>
+                        <span class="chip chip-hidden">AI Creativity</span>
+                        <span class="chip chip-hidden">LLMs</span>
+                        <span class="chip chip-hidden">Future of AI</span>
+                    </div>
+                    <button class="show-more-btn" data-target="foundations-chips">Show all 20 →</button>
+                </div>
+                <div class="mod-group">
+                    <h3>Deep Dive Architecture</h3>
+                    <div class="chip-grid" id="arch-chips">
+                        <span class="chip">Transformers</span>
+                        <span class="chip">Attention Mechanisms</span>
+                        <span class="chip">Tokenization</span>
+                        <span class="chip">Positional Encoding</span>
+                        <span class="chip">Mixture of Experts</span>
+                        <span class="chip chip-hidden">Normalization & Activation</span>
+                        <span class="chip chip-hidden">Training Optimization</span>
+                        <span class="chip chip-hidden">Fine-Tuning</span>
+                        <span class="chip chip-hidden">Scaling Laws</span>
+                        <span class="chip chip-hidden">Context Windows</span>
+                        <span class="chip chip-hidden">Inference & Decoding</span>
+                        <span class="chip chip-hidden">AI Safety & Alignment</span>
+                    </div>
+                    <button class="show-more-btn" data-target="arch-chips">Show all 12 →</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- AI LABS -->
+        <section id="labs" class="fade-in">
+            <div class="container">
+                <div class="section-head">
+                    <h2>29 Hands-On AI Labs</h2>
+                    <p>Interactive games across 6 categories. Each lab has 5 levels.</p>
+                </div>
+                <div class="lab-grid">
+                    <div class="lab-card">
+                        <div class="lab-count">7</div>
+                        <h4>Stability & Control</h4>
+                        <ul><li>Temperature Control</li><li>Top-P Sampling</li><li>Frequency Penalty</li></ul>
+                    </div>
+                    <div class="lab-card">
+                        <div class="lab-count">7</div>
+                        <h4>Efficiency & Memory</h4>
+                        <ul><li>KV Cache</li><li>Quantization</li><li>Pruning</li></ul>
+                    </div>
+                    <div class="lab-card">
+                        <div class="lab-count">7</div>
+                        <h4>Routing & Speed</h4>
+                        <ul><li>Speculative Decoding</li><li>Model Routing</li><li>Batch Processing</li></ul>
+                    </div>
+                    <div class="lab-card">
+                        <div class="lab-count">8</div>
+                        <h4>Original Labs</h4>
+                        <ul><li>Prompt Engineering</li><li>RAG Builder</li><li>Bias Detection</li></ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 9 WAYS TO PLAY -->
+        <section id="mechanics" class="fade-in">
+            <div class="container">
+                <div class="section-head"><h2>9 Ways to Play</h2></div>
+                <div class="carousel-wrap" id="mechCarousel">
+                    <div class="carousel-track">
+                        <div class="mech-card"><h4>Complete the Sentence</h4><p>Fill in the blanks and see how AI would complete it.</p></div>
+                        <div class="mech-card"><h4>Spot the Hallucination</h4><p>Identify when AI makes up false information.</p></div>
+                        <div class="mech-card"><h4>Choose the Better Prompt</h4><p>Learn prompt engineering by comparing results.</p></div>
+                        <div class="mech-card"><h4>Train the AI</h4><p>Adjust parameters and see how behavior changes.</p></div>
+                        <div class="mech-card"><h4>Bias Detector</h4><p>Recognize unfair patterns in AI outputs.</p></div>
+                        <div class="mech-card"><h4>Confidence Meter</h4><p>Understand AI uncertainty and confidence levels.</p></div>
+                        <div class="mech-card"><h4>Architecture</h4><p>Build neural network structures visually.</p></div>
+                        <div class="mech-card"><h4>Compare</h4><p>See how different models respond to the same input.</p></div>
+                        <div class="mech-card"><h4>Diagram</h4><p>Map out AI processes and data flows.</p></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- LEARNING PATHS -->
+        <section id="paths" class="fade-in">
+            <div class="container">
+                <div class="section-head"><h2>5 Learning Paths</h2></div>
+                <div class="paths-row">
+                    <div class="path"><div class="path-emoji">🏗️</div><h4>LLM Architect</h4><p>Master transformer architecture and model design</p></div>
+                    <div class="path"><div class="path-emoji">🔧</div><h4>AI Builder</h4><p>Build practical AI applications and tools</p></div>
+                    <div class="path"><div class="path-emoji">🌐</div><h4>AI Citizen</h4><p>Understand AI's impact on society and ethics</p></div>
+                    <div class="path"><div class="path-emoji">🧬</div><h4>Deep Learning Pro</h4><p>Neural networks, optimization, and beyond</p></div>
+                    <div class="path"><div class="path-emoji">🛡️</div><h4>AI Safety Expert</h4><p>Alignment, safety, and responsible AI</p></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- DOWNLOAD -->
+        <section id="download" class="fade-in">
+            <div class="container dl-section">
+                <div class="section-head">
+                    <h2>Start Learning AI Today</h2>
+                    <p>Free. No account required. Available on iOS and Android.</p>
+                </div>
+                <div class="dl-badges">
+                    <a href="https://apps.apple.com/app/fomo-ai/id[PLACEHOLDER]" class="dl-badge" target="_blank" rel="noopener noreferrer" aria-label="Download on the App Store">
+                        <svg viewBox="0 0 120 40" xmlns="http://www.w3.org/2000/svg"><rect width="120" height="40" rx="6" fill="#000"/><rect x=".5" y=".5" width="119" height="39" rx="5.5" stroke="#A6A6A6" fill="none"/><path d="M24.77 20.3a4.95 4.95 0 012.36-4.15 5.07 5.07 0 00-3.99-2.16c-1.68-.18-3.31 1.01-4.17 1.01-.87 0-2.2-.99-3.63-.96a5.35 5.35 0 00-4.5 2.74c-1.94 3.35-.49 8.27 1.37 10.98.93 1.33 2.03 2.82 3.46 2.76 1.4-.06 1.92-.89 3.61-.89 1.68 0 2.16.89 3.62.86 1.5-.03 2.44-1.33 3.35-2.67a11.04 11.04 0 001.52-3.13 4.78 4.78 0 01-2.9-4.39zM22.04 12.21a4.87 4.87 0 001.12-3.49 4.96 4.96 0 00-3.21 1.66 4.64 4.64 0 00-1.14 3.37 4.1 4.1 0 003.23-1.54z" fill="#fff"/><text fill="#fff" font-family="system-ui,-apple-system,sans-serif" font-size="8" x="36" y="15" font-weight="400">Download on the</text><text fill="#fff" font-family="system-ui,-apple-system,sans-serif" font-size="14" x="36" y="29" font-weight="600">App Store</text></svg>
+                    </a>
+                    <a href="https://play.google.com/store/apps/details?id=[PLACEHOLDER]" class="dl-badge" target="_blank" rel="noopener noreferrer" aria-label="Get it on Google Play">
+                        <svg viewBox="0 0 135 40" xmlns="http://www.w3.org/2000/svg"><rect width="135" height="40" rx="6" fill="#000"/><rect x=".5" y=".5" width="134" height="39" rx="5.5" stroke="#A6A6A6" fill="none"/><path d="M13.54 7.82l10.87 6.28 3.55-3.55L13.54 2.5a1.2 1.2 0 00-.52.15l.52 5.17zm0 24.36l-.52 5.17a1.2 1.2 0 00.52.15l14.42-8.05-3.55-3.55-10.87 6.28zm-1.42-1.2V9.02L7.3 4.2a1.19 1.19 0 00-.3.82v29.96c0 .3.1.58.3.82l4.82-4.82zm16.89-11l3.83-2.14a1.2 1.2 0 000-2.08L29 13.62l-3.85 3.85L29 21.33l.01-.01z" fill="url(#gp2)" transform="translate(4,5) scale(.75)"/><defs><linearGradient id="gp2" x1="7" y1="2.5" x2="25" y2="35" gradientUnits="userSpaceOnUse"><stop stop-color="#00A0FF"/><stop offset=".25" stop-color="#00A1FF"/><stop offset=".5" stop-color="#00E3FF"/><stop offset=".75" stop-color="#03DAC5"/><stop offset="1" stop-color="#0AF"/></linearGradient></defs><text fill="#fff" font-family="system-ui,-apple-system,sans-serif" font-size="7.5" x="36" y="14" font-weight="400" letter-spacing=".5">GET IT ON</text><text fill="#fff" font-family="system-ui,-apple-system,sans-serif" font-size="13.5" x="36" y="28" font-weight="500">Google Play</text></svg>
+                    </a>
+                </div>
+                <div class="phone-wrap">
+                    <div class="phone">
+                        <div class="phone-inner">
+                            <img src="uploads/4.png" alt="FOMO AI Learning Journey" loading="lazy">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT -->
+        <section id="contact" class="fade-in">
+            <div class="container contact-inner">
+                <div class="section-head"><h2>Get in Touch</h2></div>
+                <a href="/cdn-cgi/l/email-protection#82eae7eeeeedc2e4edefede3ebace3f2f2bdf1f7e0e8e7e1f6bfc4cdcfcda7b0b2c3cba7b0b2600216a7b0b2a7b7c0dbedf7f0a7b0b2d1f7e0e8e7e1f6a7b7c6a4e0ede6fbbfcaeba7b0b2c4cdcfcda7b0b2c3cba7b0b2d6e7e3efa7b0c1a7b2c3a7b2c3a7b7c0dbedf7f0a7b0b2efe7f1f1e3e5e7a7b0b2eae7f0e7a7b7c6a7b2c3a7b2c3c0e7f1f6a7b0b2f0e7e5e3f0e6f1" class="btn btn-cyan">
+                    ✉️ Contact Us
+                </a>
+                <div class="social-row">
+                    <a href="https://github.com/[PLACEHOLDER]" class="soc-link" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                    </a>
+                    <a href="https://x.com/[PLACEHOLDER]" class="soc-link" target="_blank" rel="noopener noreferrer" aria-label="X (Twitter)">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="foot-grid">
+                <div class="foot-note">
+                    <strong style="font-family: var(--font-head);">FOMO AI</strong> · © 2025 MIT License
+                </div>
+                <ul class="foot-links">
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#how-it-works">How It Works</a></li>
+                    <li><a href="#labs">Labs</a></li>
+                    <li><a href="#download">Download</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="foot-note">Made with 🧠 for curious minds</div>
+            </div>
+        </div>
+    </footer>
+
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+        // Mobile menu
+        const ham = document.querySelector('.hamburger');
+        const navLinks = document.querySelector('.nav-links');
+        ham.addEventListener('click', () => { ham.classList.toggle('open'); navLinks.classList.toggle('open'); });
+        document.querySelectorAll('.nav-links a').forEach(a => a.addEventListener('click', () => { ham.classList.remove('open'); navLinks.classList.remove('open'); }));
+
+        // Fade-in on scroll
+        const fadeObs = new IntersectionObserver((entries) => {
+            entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
+        }, { threshold: 0.08, rootMargin: '0px 0px -40px 0px' });
+        document.querySelectorAll('.fade-in').forEach(el => fadeObs.observe(el));
+
+        // Counter animation
+        let counted = false;
+        const countObs = new IntersectionObserver((entries) => {
+            if (counted || !entries[0].isIntersecting) return;
+            counted = true;
+            document.querySelectorAll('.stat-num').forEach(el => {
+                const t = +el.dataset.target; let c = 0;
+                const step = t / 60;
+                const tick = () => { c += step; if (c >= t) { el.textContent = t; return; } el.textContent = Math.floor(c); requestAnimationFrame(tick); };
+                tick();
+            });
+        }, { threshold: 0.5 });
+        countObs.observe(document.querySelector('.stats'));
+
+        // Show more chips
+        document.querySelectorAll('.show-more-btn').forEach(btn => {
+            btn.addEventListener('click', () => {
+                const grid = document.getElementById(btn.dataset.target);
+                grid.querySelectorAll('.chip-hidden').forEach(c => c.classList.remove('chip-hidden'));
+                btn.style.display = 'none';
+            });
+        });
+
+        // Auto-scroll carousel
+        const carousel = document.getElementById('mechCarousel');
+        let scrollDir = 1;
+        let autoScroll;
+        function startAutoScroll() {
+            autoScroll = setInterval(() => {
+                carousel.scrollLeft += scrollDir;
+                if (carousel.scrollLeft >= carousel.scrollWidth - carousel.clientWidth - 1) scrollDir = -1;
+                if (carousel.scrollLeft <= 0) scrollDir = 1;
+            }, 30);
+        }
+        startAutoScroll();
+        carousel.addEventListener('pointerdown', () => clearInterval(autoScroll));
+        carousel.addEventListener('pointerup', () => startAutoScroll());
+
+        // Smooth scroll
+        document.querySelectorAll('a[href^="#"]').forEach(a => {
+            a.addEventListener('click', e => {
+                const href = a.getAttribute('href');
+                if (href === '#') return;
+                e.preventDefault();
+                const el = document.querySelector(href);
+                if (el) window.scrollTo({ top: el.offsetTop - 70, behavior: 'smooth' });
+            });
+        });
+    </script>
+</body>
+</html>
