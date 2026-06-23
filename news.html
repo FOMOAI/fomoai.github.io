@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI News Hub</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
+    <style>
+        /* ── Same CSS as before (unchanged) ── */
+        :root {
+            --bg: #0F1629;
+            --bg-alt: #0a0f1e;
+            --cyan: #00E5FF;
+            --purple: #A855F7;
+            --magenta: #E91E8C;
+            --gold: #FFA500;
+            --green: #00E676;
+            --card: rgba(255, 255, 255, 0.05);
+            --border: rgba(0, 229, 255, 0.15);
+            --text: #FFFFFF;
+            --text2: rgba(255, 255, 255, 0.7);
+            --font-head: 'Syne', sans-serif;
+            --font-body: 'Space Mono', monospace;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body::before {
+            content: '';
+            position: fixed; inset: 0;
+            background-image: radial-gradient(circle, rgba(0,229,255,0.03) 1px, transparent 1px);
+            background-size: 40px 40px;
+            z-index: -1; pointer-events: none;
+        }
+        body {
+            font-family: var(--font-body);
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.7;
+            min-height: 100vh;
+        }
+        .container { max-width: 1200px; margin: 0 auto; padding: 0 24px; }
+        h1, h2, h3, h4 {
+            font-family: var(--font-head);
+            font-weight: 700;
+            line-height: 1.15;
+            text-wrap: balance;
+        }
+        h1 { font-size: clamp(2.5rem, 6vw, 4.5rem); }
+        h2 { font-size: clamp(1.8rem, 4vw, 3rem); }
+        h3 { font-size: clamp(1.25rem, 2.5vw, 1.75rem); }
+        .text2 { color: var(--text2); }
+        .btn {
+            display: inline-flex; align-items: center; gap: 10px;
+            padding: 14px 28px; border-radius: 12px; text-decoration: none;
+            font-weight: 700; font-size: 0.95rem; transition: all 0.2s;
+            border: 2px solid transparent; font-family: var(--font-body); cursor: pointer;
+        }
+        .btn-cyan {
+            background: var(--cyan); color: var(--bg);
+            box-shadow: 0 0 1.25rem rgba(0,229,255,0.3);
+        }
+        .btn-cyan:hover { box-shadow: 0 0 30px rgba(0,229,255,0.5); transform: translateY(-2px); }
+        .btn-ghost {
+            background: rgba(255,255,255,0.08); color: var(--text);
+            border-color: rgba(0,229,255,0.25);
+        }
+        .btn-ghost:hover { border-color: var(--cyan); background: rgba(255,255,255,0.12); }
+        .btn-ghost.active {
+            background: var(--cyan); color: var(--bg);
+            border-color: var(--cyan); box-shadow: 0 0 1.25rem rgba(0,229,255,0.3);
+        }
+        .btn:disabled { opacity: 0.5; cursor: not-allowed; }
+        .chip {
+            background: var(--card); border: 1px solid var(--border);
+            border-radius: 20px; padding: 8px 18px; font-size: 0.85rem;
+            white-space: nowrap; cursor: pointer; transition: all 0.2s;
+            font-family: var(--font-body); color: var(--text2);
+        }
+        .chip:hover { border-color: var(--cyan); background: rgba(0,229,255,0.08); color: var(--text); }
+        .chip.active { background: var(--cyan); color: var(--bg); border-color: var(--cyan); font-weight: 700; }
+        .card {
+            background: var(--card); border: 1px solid var(--border);
+            border-radius: 16px; padding: 28px; transition: all 0.25s;
+        }
+        .card:hover { border-color: var(--cyan); transform: translateY(-3px); }
+        .fade-in { opacity: 0; transform: translateY(24px); transition: opacity 0.5s ease, transform 0.5s ease; }
+        .fade-in.visible { opacity: 1; transform: translateY(0); }
+        header {
+            background: rgba(15,22,41,0.92); backdrop-filter: blur(12px);
+            border-bottom: 1px solid var(--border);
+            padding: 40px 0 20px; display: flex; flex-wrap: wrap;
+            align-items: center; justify-content: space-between;
+            gap: 24px; position: sticky; top: 0; z-index: 10;
+        }
+        .logo { font-family: var(--font-head); font-weight: 700; font-size: 1.4rem; display: flex; align-items: center; gap: 10px; }
+        .logo-icon { width: 36px; height: 36px; }
+        .gradient-text {
+            background: linear-gradient(135deg, var(--cyan), var(--purple));
+            -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;
+        }
+        .toolbar { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; }
+        .filters { display: flex; flex-wrap: wrap; gap: 8px; }
+        .news-grid {
+            display: grid; grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+            gap: 24px; padding: 80px 0;
+        }
+        .news-card .badge {
+            display: inline-block; font-size: 0.7rem; font-weight: 700;
+            text-transform: uppercase; letter-spacing: 0.08em;
+            padding: 5px 14px; border-radius: 20px; margin-bottom: 16px;
+        }
+        .badge-official { background: rgba(0,229,255,0.12); color: var(--cyan); }
+        .badge-community { background: rgba(168,85,247,0.12); color: var(--purple); }
+        .badge-media { background: rgba(233,30,140,0.12); color: var(--magenta); }
+        .badge-research { background: rgba(0,230,118,0.12); color: var(--green); }
+        .news-card h3 a { color: var(--text); text-decoration: none; transition: color 0.2s; }
+        .news-card h3 a:hover { color: var(--cyan); }
+        .news-card .meta {
+            font-size: 0.75rem; color: var(--text2);
+            display: flex; flex-wrap: wrap; gap: 8px 16px;
+            margin: 10px 0 14px; padding-bottom: 14px;
+            border-bottom: 1px solid var(--border);
+        }
+        .news-card .summary {
+            font-size: 0.9rem; line-height: 1.7; color: var(--text2);
+            display: -webkit-box; -webkit-line-clamp: 4; -webkit-box-orient: vertical;
+            overflow: hidden; margin-bottom: 16px;
+        }
+        .news-card .refs {
+            font-size: 0.78rem; border-top: 1px solid var(--border);
+            padding-top: 12px; display: flex; flex-wrap: wrap;
+            justify-content: space-between; align-items: center; gap: 8px;
+        }
+        .news-card .refs a { color: var(--cyan); text-decoration: none; font-weight: 700; }
+        .news-card .refs a:hover { text-decoration: underline; }
+        .toast {
+            position: fixed; bottom: 32px; left: 50%; transform: translateX(-50%);
+            background: var(--cyan); color: var(--bg); padding: 12px 28px;
+            border-radius: 30px; font-weight: 700; font-size: 0.85rem;
+            font-family: var(--font-body); opacity: 0; transition: opacity 0.25s;
+            z-index: 999; box-shadow: 0 0 30px rgba(0,229,255,0.4); pointer-events: none;
+        }
+        .toast.show { opacity: 1; }
+        .empty-state { grid-column: 1 / -1; text-align: center; padding: 60px 20px; }
+        .empty-state p { color: var(--text2); margin-top: 8px; }
+        .skeleton-card { background: var(--card); border: 1px solid var(--border); border-radius: 16px; padding: 28px; opacity: 0.4; }
+        .skeleton-card .line { height: 14px; background: var(--border); border-radius: 8px; margin-bottom: 12px; }
+        .skeleton-card .line.short { width: 55%; }
+        .skeleton-card .line.med { width: 75%; }
+        @media (max-width: 1024px) { .news-grid { grid-template-columns: 1fr; } }
+        @media (max-width: 855px) {
+            header { flex-direction: column; align-items: flex-start; }
+            .toolbar { width: 100%; flex-direction: column; align-items: stretch; }
+            .filters { justify-content: flex-start; }
+            .btn { width: 100%; justify-content: center; }
+        }
+        @media (max-width: 640px) { .news-card { padding: 20px; } .chip { padding: 6px 14px; font-size: 0.78rem; } }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <svg class="logo-icon" viewBox="0 0 36 36" fill="none">
+                    <rect width="36" height="36" rx="10" fill="url(#g1)" />
+                    <text x="18" y="24" text-anchor="middle" font-size="18" font-family="sans-serif" font-weight="700" fill="#0F1629">AI</text>
+                    <defs><linearGradient id="g1" x1="0" y1="0" x2="36" y2="36"><stop stop-color="#00E5FF"/><stop offset="1" stop-color="#A855F7"/></linearGradient></defs>
+                </svg>
+                <span class="gradient-text">AI News Hub</span>
+            </div>
+            <div class="toolbar">
+                <div class="filters" id="filterContainer" role="tablist">
+                    <button class="chip active" data-cat="all" role="tab" aria-selected="true">All</button>
+                    <button class="chip" data-cat="official" role="tab" aria-selected="false">Official</button>
+                    <button class="chip" data-cat="community" role="tab" aria-selected="false">Community</button>
+                    <button class="chip" data-cat="media" role="tab" aria-selected="false">Media</button>
+                    <button class="chip" data-cat="research" role="tab" aria-selected="false">Research</button>
+                </div>
+                <span id="stats" class="text2" style="font-size:0.85rem;">⏳ loading…</span>
+                <button id="refreshBtn" class="btn btn-cyan" style="padding:10px 20px;font-size:0.85rem;">↻ Refresh</button>
+            </div>
+        </header>
+
+        <div id="newsGrid" class="news-grid">
+            <div class="skeleton-card"><div class="line"></div><div class="line med"></div><div class="line short"></div></div>
+            <div class="skeleton-card"><div class="line"></div><div class="line med"></div><div class="line short"></div></div>
+            <div class="skeleton-card"><div class="line"></div><div class="line med"></div><div class="line short"></div></div>
+        </div>
+    </div>
+    <div class="toast" id="toast"></div>
+
+    <script>
+        (function() {
+            // ── Configuration: point to the JSON generated by the Python script ──
+            // Use relative path if served from same directory, or absolute URL to raw GitHub file.
+            const DATA_URL = 'assets/articles.json';  // or 'https://raw.githubusercontent.com/your/repo/main/articles.json'
+
+            let allArticles = [];
+            let activeCategory = 'all';
+
+            const grid = document.getElementById('newsGrid');
+            const stats = document.getElementById('stats');
+            const filterBtns = document.querySelectorAll('#filterContainer .chip');
+            const refreshBtn = document.getElementById('refreshBtn');
+            const toast = document.getElementById('toast');
+
+            const escapeHTML = str => String(str).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;').replace(/'/g, '&#039;');
+            const escapeAttr = str => String(str).replace(/"/g, '%22');
+
+            const showToast = (msg, isError = false) => {
+                toast.textContent = msg;
+                toast.style.background = isError ? 'var(--magenta)' : 'var(--cyan)';
+                toast.classList.add('show');
+                setTimeout(() => toast.classList.remove('show'), 3000);
+            };
+
+            const formatDate = str => {
+                if (!str) return '';
+                try {
+                    const d = new Date(str);
+                    if (isNaN(d.getTime())) return '';
+                    return d.toLocaleDateString('en-US', { month:'short', day:'numeric', year:'numeric' }) +
+                        ' · ' + d.toLocaleTimeString('en-US', { hour:'2-digit', minute:'2-digit' });
+                } catch { return ''; }
+            };
+
+            const loadArticles = async () => {
+                grid.innerHTML = Array(3).fill('<div class="skeleton-card"><div class="line"></div><div class="line med"></div><div class="line short"></div></div>').join('');
+                try {
+                    const resp = await fetch(DATA_URL);
+                    if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
+                    const data = await resp.json();
+                    if (!Array.isArray(data)) throw new Error('Invalid JSON format');
+                    allArticles = data;
+                    showToast(`✅ ${data.length} articles loaded`);
+                    render();
+                } catch (err) {
+                    console.error(err);
+                    grid.innerHTML = '<div class="empty-state fade-in visible"><div class="stat-num">⚠️</div><p>Could not load news.</p><p class="text2">Check that articles.json is available.</p></div>';
+                    stats.textContent = '0 articles';
+                    showToast('❌ Failed to load data', true);
+                }
+            };
+
+            const render = () => {
+                let filtered = allArticles;
+                if (activeCategory !== 'all') {
+                    filtered = filtered.filter(a => a.category === activeCategory);
+                }
+
+                if (!filtered.length) {
+                    grid.innerHTML = `<div class="empty-state fade-in visible"><div class="stat-num">0</div><p>No articles found.</p><p class="text2">Try another category.</p></div>`;
+                    stats.textContent = '0 articles';
+                    return;
+                }
+
+                const html = filtered.map(item => {
+                    const badgeClass = 'badge-' + (item.category || 'official');
+                    const refs = item.references || [];
+                    const refHtml = refs.length ? refs.map(u => `<a href="${escapeAttr(u)}" target="_blank" rel="noopener">🔗</a>`).join(' ') : '<span class="text2">—</span>';
+                    return `
+                    <div class="card news-card fade-in">
+                        <span class="badge ${badgeClass}">${escapeHTML(item.source)}</span>
+                        <h3><a href="${escapeAttr(item.link)}" target="_blank" rel="noopener">${escapeHTML(item.title)}</a></h3>
+                        <div class="meta">
+                            <span>${formatDate(item.published)}</span>
+                            ${item.author ? `<span>✍️ ${escapeHTML(item.author)}</span>` : ''}
+                        </div>
+                        <p class="summary">${escapeHTML(item.summary)}</p>
+                        <div class="refs">
+                            <span>📎 ${refHtml}</span>
+                            <button class="btn btn-ghost share-btn" style="padding:6px 14px;font-size:0.72rem;" data-url="${escapeAttr(item.link)}" data-title="${escapeHTML(item.title)}">📤 Share</button>
+                        </div>
+                    </div>`;
+                }).join('');
+
+                grid.innerHTML = html;
+                stats.textContent = `${filtered.length} articles`;
+
+                // Fade-in observer
+                const observer = new IntersectionObserver(entries => {
+                    entries.forEach(entry => { if (entry.isIntersecting) entry.target.classList.add('visible'); });
+                }, { threshold: 0.1 });
+                document.querySelectorAll('.news-card.fade-in').forEach(card => observer.observe(card));
+
+                // Share buttons
+                document.querySelectorAll('.share-btn').forEach(btn => {
+                    btn.addEventListener('click', async () => {
+                        const url = btn.dataset.url;
+                        const title = btn.dataset.title;
+                        try {
+                            if (navigator.share) {
+                                await navigator.share({ title, url });
+                            } else {
+                                await navigator.clipboard.writeText(`${title} — ${url}`);
+                                showToast('✅ Link copied!');
+                            }
+                        } catch (err) {
+                            const input = document.createElement('input');
+                            input.value = `${title} — ${url}`;
+                            document.body.appendChild(input);
+                            input.select();
+                            document.execCommand('copy');
+                            document.body.removeChild(input);
+                            showToast('✅ Link copied!');
+                        }
+                    });
+                });
+            };
+
+            // Filter buttons
+            filterBtns.forEach(btn => btn.addEventListener('click', () => {
+                filterBtns.forEach(b => { b.classList.remove('active'); b.setAttribute('aria-selected', 'false'); });
+                btn.classList.add('active');
+                btn.setAttribute('aria-selected', 'true');
+                activeCategory = btn.dataset.cat;
+                render();
+            }));
+
+            refreshBtn.addEventListener('click', loadArticles);
+
+            // Boot
+            loadArticles();
+        })();
+    </script>
+</body>
+</html>
