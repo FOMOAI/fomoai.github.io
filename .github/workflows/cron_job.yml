@@ -1,0 +1,28 @@
+name: Hourly Python Script
+
+on:
+  schedule:
+    - cron: '*/15 * * * *'
+  workflow_dispatch:  # keep manual trigger for testing
+
+jobs:
+  run-python-script:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4.2.2
+
+      - name: Set up Python
+        uses: actions/setup-python@v5.3.0
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: |
+          if [ -f requirements.txt ]; then
+            pip install -r requirements.txt
+          fi
+
+      - name: Execute Python script
+        run: python assets/news_fetcher.py
