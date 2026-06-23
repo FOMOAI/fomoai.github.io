@@ -29,4 +29,4 @@ jobs:
           fi
 
       - name: Execute Python script
-        run: python scripts/script.py
+        run: python assets/news_fetcher.py
