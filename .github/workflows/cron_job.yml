@@ -1,9 +1,13 @@
-name: Hourly Python Script
+name: 15 min Python Script
 
 on:
   schedule:
     - cron: '*/15 * * * *'
-  workflow_dispatch:  # keep manual trigger for testing
+  workflow_dispatch:
+
+# This clears the warning by explicitly allowing the runner to bridge the Node versions
+env:
+  ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION: 'true'
 
 jobs:
   run-python-script:
@@ -11,10 +15,10 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4.2.2
+        uses: actions/checkout@v4
 
       - name: Set up Python
-        uses: actions/setup-python@v5.3.0
+        uses: actions/setup-python@v5
         with:
           python-version: '3.10'
 
@@ -25,4 +29,4 @@ jobs:
           fi
 
       - name: Execute Python script
-        run: python assets/news_fetcher.py
+        run: python scripts/script.py
