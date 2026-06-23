@@ -1,4 +1,4 @@
-name: 15 min Python Script
+name: Update AI News
 
 on:
   schedule:
@@ -12,7 +12,7 @@ env:
 jobs:
   run-python-script:
     runs-on: ubuntu-latest
-
+      contents: write      # needed to push back
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -20,13 +20,30 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.10'
+          python-version: '3.11'
 
       - name: Install dependencies
-        run: |
-          if [ -f requirements.txt ]; then
-            pip install -r requirements.txt
-          fi
+        run: pip install feedparser requests python-dateutil
 
-      - name: Execute Python script
+      - name: Fetch news
         run: python assets/news_fetcher.py
+
+      - name: Embed JSON into HTML
+        run: |
+          python -c "
+          import json
+          with open('articles.json', 'r') as f:
+              data = f.read()
+          with open('index.html', 'r') as f:
+              html = f.read()
+          html = html.replace('__ARTICLES_JSON__', data)
+          with open('index.html', 'w') as f:
+              f.write(html)
+          "
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add index.html articles.json
+          git diff --staged --quiet || (git commit -m "🤖 Update news [skip ci]" && git push)
