@@ -6,10 +6,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: write 
-
-env:
-  ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION: 'true'
+  contents: write
 
 jobs:
   run-python-script:
@@ -27,6 +24,9 @@ jobs:
       - name: Install dependencies
         run: pip install feedparser requests python-dateutil
 
+      - name: Ensure assets directory exists
+        run: mkdir -p assets
+
       - name: Fetch news
         run: python assets/news_fetcher.py
 
@@ -34,7 +34,7 @@ jobs:
         run: |
           python -c "
           import json
-          with open('articles.json', 'r') as f:
+          with open('assets/articles.json', 'r') as f:
               data = f.read()
           with open('index.html', 'r') as f:
               html = f.read()
@@ -49,14 +49,22 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
 
-          # Ensure we are on the correct branch (adjust if needed)
+          # Ensure we are on the correct branch
           BRANCH="${GITHUB_REF#refs/heads/}"
           git checkout "$BRANCH" 2>/dev/null || git checkout -b "$BRANCH"
 
-          git add index.html articles.json
+          # Remove the old root file from Git tracking (if it exists)
+          git rm --ignore-unmatch articles.json
+
+          # Stage the new files
+          git add index.html assets/articles.json
+
+          # Commit only if there are changes
           if ! git diff --staged --quiet; then
             git commit -m "🤖 Update news [skip ci]"
-            # Pull latest changes before pushing
-            git pull --rebase origin "$BRANCH" || true  # or handle conflict
+
+            # Pull latest changes with rebase (fail loudly if conflicts arise)
+            git pull --rebase origin "$BRANCH"
+
             git push origin "$BRANCH"
           fi
