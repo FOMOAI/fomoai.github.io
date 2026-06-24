@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
     <style>
-        /* ── Same CSS as before (unchanged) ── */
+        /* ── Same styling as before ── */
         :root {
             --bg: #0F1629;
             --bg-alt: #0a0f1e;
@@ -46,9 +46,6 @@
             line-height: 1.15;
             text-wrap: balance;
         }
-        h1 { font-size: clamp(2.5rem, 6vw, 4.5rem); }
-        h2 { font-size: clamp(1.8rem, 4vw, 3rem); }
-        h3 { font-size: clamp(1.25rem, 2.5vw, 1.75rem); }
         .text2 { color: var(--text2); }
         .btn {
             display: inline-flex; align-items: center; gap: 10px;
@@ -66,11 +63,6 @@
             border-color: rgba(0,229,255,0.25);
         }
         .btn-ghost:hover { border-color: var(--cyan); background: rgba(255,255,255,0.12); }
-        .btn-ghost.active {
-            background: var(--cyan); color: var(--bg);
-            border-color: var(--cyan); box-shadow: 0 0 1.25rem rgba(0,229,255,0.3);
-        }
-        .btn:disabled { opacity: 0.5; cursor: not-allowed; }
         .chip {
             background: var(--card); border: 1px solid var(--border);
             border-radius: 20px; padding: 8px 18px; font-size: 0.85rem;
@@ -93,8 +85,20 @@
             align-items: center; justify-content: space-between;
             gap: 24px; position: sticky; top: 0; z-index: 10;
         }
-        .logo { font-family: var(--font-head); font-weight: 700; font-size: 1.4rem; display: flex; align-items: center; gap: 10px; }
-        .logo-icon { width: 36px; height: 36px; }
+        .logo {
+            font-family: var(--font-head);
+            font-weight: 700;
+            font-size: 1.4rem;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            text-decoration: none;
+            color: var(--text);
+        }
+        .logo img {
+            width: 36px;
+            height: 36px;
+        }
         .gradient-text {
             background: linear-gradient(135deg, var(--cyan), var(--purple));
             -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;
@@ -103,7 +107,7 @@
         .filters { display: flex; flex-wrap: wrap; gap: 8px; }
         .news-grid {
             display: grid; grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
-            gap: 24px; padding: 80px 0;
+            gap: 24px; padding: 40px 0 20px;
         }
         .news-card .badge {
             display: inline-block; font-size: 0.7rem; font-weight: 700;
@@ -148,12 +152,57 @@
         .skeleton-card .line { height: 14px; background: var(--border); border-radius: 8px; margin-bottom: 12px; }
         .skeleton-card .line.short { width: 55%; }
         .skeleton-card .line.med { width: 75%; }
+        .loader-more {
+            grid-column: 1 / -1;
+            text-align: center;
+            padding: 20px 0 40px;
+            color: var(--text2);
+            font-size: 0.9rem;
+        }
+        .loader-more .spinner {
+            display: inline-block;
+            width: 24px;
+            height: 24px;
+            border: 3px solid var(--border);
+            border-top-color: var(--cyan);
+            border-radius: 50%;
+            animation: spin 0.8s linear infinite;
+            margin-right: 12px;
+            vertical-align: middle;
+        }
+        @keyframes spin { to { transform: rotate(360deg); } }
+        footer {
+            border-top: 1px solid var(--border);
+            padding: 32px 0 24px;
+            margin-top: 24px;
+            color: var(--text2);
+            font-size: 0.8rem;
+        }
+        footer .source-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px 20px;
+            margin-top: 8px;
+        }
+        footer .source-list span {
+            background: var(--card);
+            padding: 4px 14px;
+            border-radius: 12px;
+            border: 1px solid var(--border);
+        }
+        .back-link {
+            display: inline-block;
+            margin-top: 8px;
+            color: var(--cyan);
+            text-decoration: none;
+            font-weight: 700;
+        }
+        .back-link:hover { text-decoration: underline; }
         @media (max-width: 1024px) { .news-grid { grid-template-columns: 1fr; } }
         @media (max-width: 855px) {
             header { flex-direction: column; align-items: flex-start; }
             .toolbar { width: 100%; flex-direction: column; align-items: stretch; }
             .filters { justify-content: flex-start; }
-            .btn { width: 100%; justify-content: center; }
         }
         @media (max-width: 640px) { .news-card { padding: 20px; } .chip { padding: 6px 14px; font-size: 0.78rem; } }
     </style>
@@ -161,14 +210,10 @@
 <body>
     <div class="container">
         <header>
-            <div class="logo">
-                <svg class="logo-icon" viewBox="0 0 36 36" fill="none">
-                    <rect width="36" height="36" rx="10" fill="url(#g1)" />
-                    <text x="18" y="24" text-anchor="middle" font-size="18" font-family="sans-serif" font-weight="700" fill="#0F1629">AI</text>
-                    <defs><linearGradient id="g1" x1="0" y1="0" x2="36" y2="36"><stop stop-color="#00E5FF"/><stop offset="1" stop-color="#A855F7"/></linearGradient></defs>
-                </svg>
+            <a href="index.html" class="logo">
+                <img src="uploads/1.png" alt="FOMO AI" width="36" height="36">
                 <span class="gradient-text">AI News Hub</span>
-            </div>
+            </a>
             <div class="toolbar">
                 <div class="filters" id="filterContainer" role="tablist">
                     <button class="chip active" data-cat="all" role="tab" aria-selected="true">All</button>
@@ -177,32 +222,49 @@
                     <button class="chip" data-cat="media" role="tab" aria-selected="false">Media</button>
                     <button class="chip" data-cat="research" role="tab" aria-selected="false">Research</button>
                 </div>
-                <span id="stats" class="text2" style="font-size:0.85rem;">⏳ loading…</span>
-                <button id="refreshBtn" class="btn btn-cyan" style="padding:10px 20px;font-size:0.85rem;">↻ Refresh</button>
             </div>
         </header>
 
         <div id="newsGrid" class="news-grid">
-            <div class="skeleton-card"><div class="line"></div><div class="line med"></div><div class="line short"></div></div>
-            <div class="skeleton-card"><div class="line"></div><div class="line med"></div><div class="line short"></div></div>
-            <div class="skeleton-card"><div class="line"></div><div class="line med"></div><div class="line short"></div></div>
+            <!-- skeletons injected by JS -->
         </div>
     </div>
+
+    <footer>
+        <div class="container">
+            <div><strong>Data Sources</strong> — articles are aggregated from:</div>
+            <div class="source-list">
+                <span>OpenAI</span>
+                <span>Google AI Blog</span>
+                <span>Hugging Face</span>
+                <span>arXiv cs.AI</span>
+                <span>MIT Technology Review</span>
+                <span>The Verge AI</span>
+            </div>
+            <div style="margin-top:16px; font-size:0.7rem; opacity:0.6;">
+                <a href="index.html" class="back-link">← Back to FOMO AI</a>
+                &nbsp;·&nbsp; &copy; 2026 FOMO AI
+            </div>
+        </div>
+    </footer>
+
     <div class="toast" id="toast"></div>
 
     <script>
         (function() {
-            // ── Configuration: point to the JSON generated by the Python script ──
-            // Use relative path if served from same directory, or absolute URL to raw GitHub file.
-            const DATA_URL = 'assets/articles.json';  // or 'https://raw.githubusercontent.com/your/repo/main/articles.json'
+            // ── Configuration ──
+            const DATA_URL = 'assets/articles.json';
+            const PAGE_SIZE = 10;
 
             let allArticles = [];
+            let filteredArticles = [];
             let activeCategory = 'all';
+            let currentPage = 0;
+            let isLoading = false;
+            let hasMore = true;
 
             const grid = document.getElementById('newsGrid');
-            const stats = document.getElementById('stats');
             const filterBtns = document.querySelectorAll('#filterContainer .chip');
-            const refreshBtn = document.getElementById('refreshBtn');
             const toast = document.getElementById('toast');
 
             const escapeHTML = str => String(str).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;').replace(/'/g, '&#039;');
@@ -225,37 +287,17 @@
                 } catch { return ''; }
             };
 
-            const loadArticles = async () => {
-                grid.innerHTML = Array(3).fill('<div class="skeleton-card"><div class="line"></div><div class="line med"></div><div class="line short"></div></div>').join('');
-                try {
-                    const resp = await fetch(DATA_URL);
-                    if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
-                    const data = await resp.json();
-                    if (!Array.isArray(data)) throw new Error('Invalid JSON format');
-                    allArticles = data;
-                    showToast(`✅ ${data.length} articles loaded`);
-                    render();
-                } catch (err) {
-                    console.error(err);
-                    grid.innerHTML = '<div class="empty-state fade-in visible"><div class="stat-num">⚠️</div><p>Could not load news.</p><p class="text2">Check that articles.json is available.</p></div>';
-                    stats.textContent = '0 articles';
-                    showToast('❌ Failed to load data', true);
-                }
-            };
+            function renderPage() {
+                const end = (currentPage + 1) * PAGE_SIZE;
+                const slice = filteredArticles.slice(0, end);
+                hasMore = end < filteredArticles.length;
 
-            const render = () => {
-                let filtered = allArticles;
-                if (activeCategory !== 'all') {
-                    filtered = filtered.filter(a => a.category === activeCategory);
-                }
-
-                if (!filtered.length) {
-                    grid.innerHTML = `<div class="empty-state fade-in visible"><div class="stat-num">0</div><p>No articles found.</p><p class="text2">Try another category.</p></div>`;
-                    stats.textContent = '0 articles';
+                if (slice.length === 0) {
+                    grid.innerHTML = `<div class="empty-state fade-in visible"><div class="stat-num">📭</div><p>No articles match this filter.</p><p class="text2">Try a different category.</p></div>`;
                     return;
                 }
 
-                const html = filtered.map(item => {
+                const html = slice.map(item => {
                     const badgeClass = 'badge-' + (item.category || 'official');
                     const refs = item.references || [];
                     const refHtml = refs.length ? refs.map(u => `<a href="${escapeAttr(u)}" target="_blank" rel="noopener">🔗</a>`).join(' ') : '<span class="text2">—</span>';
@@ -275,10 +317,14 @@
                     </div>`;
                 }).join('');
 
-                grid.innerHTML = html;
-                stats.textContent = `${filtered.length} articles`;
+                let loaderHtml = '';
+                if (hasMore) {
+                    loaderHtml = `<div class="loader-more" id="loaderMore"><span class="spinner"></span> Loading more…</div>`;
+                }
 
-                // Fade-in observer
+                grid.innerHTML = html + loaderHtml;
+
+                // Fade-in observer for new cards
                 const observer = new IntersectionObserver(entries => {
                     entries.forEach(entry => { if (entry.isIntersecting) entry.target.classList.add('visible'); });
                 }, { threshold: 0.1 });
@@ -297,6 +343,7 @@
                                 showToast('✅ Link copied!');
                             }
                         } catch (err) {
+                            // fallback
                             const input = document.createElement('input');
                             input.value = `${title} — ${url}`;
                             document.body.appendChild(input);
@@ -307,20 +354,81 @@
                         }
                     });
                 });
-            };
 
-            // Filter buttons
+                // Observe loader for infinite scroll
+                if (hasMore) {
+                    const loader = document.getElementById('loaderMore');
+                    if (loader) {
+                        const loaderObserver = new IntersectionObserver(entries => {
+                            if (entries[0].isIntersecting && !isLoading) {
+                                loadMore();
+                            }
+                        }, { rootMargin: '0px 0px 100px 0px' });
+                        loaderObserver.observe(loader);
+                    }
+                }
+            }
+
+            function loadMore() {
+                if (isLoading || !hasMore) return;
+                isLoading = true;
+                currentPage++;
+                renderPage();
+                isLoading = false;
+            }
+
+            function resetAndRender() {
+                currentPage = 0;
+                filteredArticles = activeCategory === 'all'
+                    ? allArticles
+                    : allArticles.filter(a => a.category === activeCategory);
+                renderPage();
+            }
+
+            async function loadArticles() {
+                grid.innerHTML = Array(3).fill('<div class="skeleton-card"><div class="line"></div><div class="line med"></div><div class="line short"></div></div>').join('');
+                try {
+                    const resp = await fetch(DATA_URL);
+                    if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
+                    const data = await resp.json();
+                    if (!Array.isArray(data)) throw new Error('Invalid JSON format');
+                    allArticles = data;
+                    showToast(`✅ ${data.length} articles ready`);
+                    resetAndRender();
+                } catch (err) {
+                    console.error(err);
+                    grid.innerHTML = `
+                        <div class="empty-state fade-in visible">
+                            <div class="stat-num">⚠️</div>
+                            <p>Could not load news data.</p>
+                            <p class="text2">Make sure <code>assets/articles.json</code> exists.</p>
+                            <p class="text2" style="margin-top:12px;font-size:0.8rem;">Run <code>python news_fetcher.py</code> to generate it.</p>
+                        </div>`;
+                    showToast('❌ Failed to load data', true);
+                }
+            }
+
+            // Filter events
             filterBtns.forEach(btn => btn.addEventListener('click', () => {
                 filterBtns.forEach(b => { b.classList.remove('active'); b.setAttribute('aria-selected', 'false'); });
                 btn.classList.add('active');
                 btn.setAttribute('aria-selected', 'true');
                 activeCategory = btn.dataset.cat;
-                render();
+                resetAndRender();
             }));
 
-            refreshBtn.addEventListener('click', loadArticles);
+            // Scroll event for infinite scroll
+            window.addEventListener('scroll', () => {
+                if (isLoading || !hasMore) return;
+                const scrollY = window.scrollY;
+                const viewHeight = window.innerHeight;
+                const docHeight = document.documentElement.scrollHeight;
+                if (scrollY + viewHeight >= docHeight - 200) {
+                    loadMore();
+                }
+            });
 
-            // Boot
+            // Start
             loadArticles();
         })();
     </script>
