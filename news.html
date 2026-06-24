@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
     <style>
-        /* ── Same styling as before ── */
+        /* ── Same styling, with fixed footer additions ── */
         :root {
             --bg: #0F1629;
             --bg-alt: #0a0f1e;
@@ -38,6 +38,7 @@
             color: var(--text);
             line-height: 1.7;
             min-height: 100vh;
+            padding-bottom: 70px; /* space for fixed footer */
         }
         .container { max-width: 1200px; margin: 0 auto; padding: 0 24px; }
         h1, h2, h3, h4 {
@@ -85,20 +86,8 @@
             align-items: center; justify-content: space-between;
             gap: 24px; position: sticky; top: 0; z-index: 10;
         }
-        .logo {
-            font-family: var(--font-head);
-            font-weight: 700;
-            font-size: 1.4rem;
-            display: flex;
-            align-items: center;
-            gap: 10px;
-            text-decoration: none;
-            color: var(--text);
-        }
-        .logo img {
-            width: 36px;
-            height: 36px;
-        }
+        .logo { display: flex; align-items: center; gap: 10px; text-decoration: none; color: var(--text); font-family: var(--font-head); font-weight: 700; font-size: 1.4rem; }
+        .logo img { width: 36px; height: 36px; border-radius: 8px; }
         .gradient-text {
             background: linear-gradient(135deg, var(--cyan), var(--purple));
             -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;
@@ -139,7 +128,7 @@
         .news-card .refs a { color: var(--cyan); text-decoration: none; font-weight: 700; }
         .news-card .refs a:hover { text-decoration: underline; }
         .toast {
-            position: fixed; bottom: 32px; left: 50%; transform: translateX(-50%);
+            position: fixed; bottom: 80px; left: 50%; transform: translateX(-50%);
             background: var(--cyan); color: var(--bg); padding: 12px 28px;
             border-radius: 30px; font-weight: 700; font-size: 0.85rem;
             font-family: var(--font-body); opacity: 0; transition: opacity 0.25s;
@@ -171,48 +160,56 @@
             vertical-align: middle;
         }
         @keyframes spin { to { transform: rotate(360deg); } }
-        footer {
+
+        /* ─── Fixed mini footer ─── */
+        .mini-footer {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: rgba(15,22,41,0.92);
+            backdrop-filter: blur(12px);
             border-top: 1px solid var(--border);
-            padding: 32px 0 24px;
-            margin-top: 24px;
-            color: var(--text2);
-            font-size: 0.8rem;
-        }
-        footer .source-list {
+            padding: 8px 24px;
             display: flex;
             flex-wrap: wrap;
-            gap: 8px 20px;
-            margin-top: 8px;
+            align-items: center;
+            justify-content: space-between;
+            z-index: 10;
+            gap: 8px 16px;
+            font-size: 0.75rem;
+            color: var(--text2);
         }
-        footer .source-list span {
-            background: var(--card);
-            padding: 4px 14px;
-            border-radius: 12px;
-            border: 1px solid var(--border);
+        .mini-footer .source-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px 16px;
         }
-        .back-link {
-            display: inline-block;
-            margin-top: 8px;
+        .mini-footer .source-list span {
+            cursor: pointer;
+            transition: color 0.2s;
+            border-bottom: 1px dashed transparent;
+            padding-bottom: 2px;
+        }
+        .mini-footer .source-list span:hover {
             color: var(--cyan);
-            text-decoration: none;
-            font-weight: 700;
+            border-bottom-color: var(--cyan);
         }
-        .back-link:hover { text-decoration: underline; }
-        @media (max-width: 1024px) { .news-grid { grid-template-columns: 1fr; } }
-        @media (max-width: 855px) {
-            header { flex-direction: column; align-items: flex-start; }
-            .toolbar { width: 100%; flex-direction: column; align-items: stretch; }
-            .filters { justify-content: flex-start; }
+        .mini-footer .copy-hint {
+            font-size: 0.65rem;
+            opacity: 0.5;
+            white-space: nowrap;
         }
+		.foot-note { color: var(--text2); font-size: 0.85rem; }
         @media (max-width: 640px) { .news-card { padding: 20px; } .chip { padding: 6px 14px; font-size: 0.78rem; } }
     </style>
 </head>
 <body>
     <div class="container">
         <header>
-            <a href="index.html" class="logo">
+            <a class="logo">
                 <img src="uploads/1.png" alt="FOMO AI" width="36" height="36">
-                <span class="gradient-text">AI News Hub</span>
+                <span class="gradient-text">FOMO AI - News Hub</span>
             </a>
             <div class="toolbar">
                 <div class="filters" id="filterContainer" role="tablist">
@@ -230,23 +227,21 @@
         </div>
     </div>
 
-    <footer>
-        <div class="container">
-            <div><strong>Data Sources</strong> — articles are aggregated from:</div>
-            <div class="source-list">
-                <span>OpenAI</span>
-                <span>Google AI Blog</span>
-                <span>Hugging Face</span>
-                <span>arXiv cs.AI</span>
-                <span>MIT Technology Review</span>
-                <span>The Verge AI</span>
-            </div>
-            <div style="margin-top:16px; font-size:0.7rem; opacity:0.6;">
-                <a href="index.html" class="back-link">← Back to FOMO AI</a>
-                &nbsp;·&nbsp; &copy; 2026 FOMO AI
-            </div>
+    <!-- Fixed mini footer with clickable sources -->
+    <div class="mini-footer" id="miniFooter">
+        <div style="display: flex; align-items: center; gap: 8px; flex-wrap: wrap;">
+            <span class="foot-note">FOMO AI © 2026 AGPL-3.0 License</a>
         </div>
-    </footer>
+			<div class="source-list" id="sourceList">
+				<span data-url="https://fomo.ai.makeit.solutions/" style="font-weight:700; color:var(--text);">Data Sources</span>
+				<span data-url="https://openai.com/news/">OpenAI</span>
+				<span data-url="https://blog.google/technology/ai/">Google</span>
+				<span data-url="https://huggingface.co/">HF</span>
+				<span data-url="https://arxiv.org/">arXiv</span>
+				<span data-url="https://www.technologyreview.com/">MIT</span>
+				<span data-url="https://www.theverge.com/">The Verge</span>
+			</div>
+    </div>
 
     <div class="toast" id="toast"></div>
 
@@ -254,7 +249,7 @@
         (function() {
             // ── Configuration ──
             const DATA_URL = 'assets/articles.json';
-            const PAGE_SIZE = 10;
+            const PAGE_SIZE = 9;
 
             let allArticles = [];
             let filteredArticles = [];
@@ -293,7 +288,7 @@
                 hasMore = end < filteredArticles.length;
 
                 if (slice.length === 0) {
-                    grid.innerHTML = `<div class="empty-state fade-in visible"><div class="stat-num">📭</div><p>No articles match this filter.</p><p class="text2">Try a different category.</p></div>`;
+                    grid.innerHTML = `<div class="empty-state fade-in visible"><div class="stat-num">📭</div><p>No Available Articles!</p><p class="text2">Try Different categories.</p></div>`;
                     return;
                 }
 
@@ -343,7 +338,6 @@
                                 showToast('✅ Link copied!');
                             }
                         } catch (err) {
-                            // fallback
                             const input = document.createElement('input');
                             input.value = `${title} — ${url}`;
                             document.body.appendChild(input);
@@ -393,22 +387,40 @@
                     const data = await resp.json();
                     if (!Array.isArray(data)) throw new Error('Invalid JSON format');
                     allArticles = data;
-                    showToast(`✅ ${data.length} articles ready`);
+                    showToast('All Articles ready');
                     resetAndRender();
                 } catch (err) {
                     console.error(err);
                     grid.innerHTML = `
                         <div class="empty-state fade-in visible">
                             <div class="stat-num">⚠️</div>
-                            <p>Could not load news data.</p>
-                            <p class="text2">Make sure <code>assets/articles.json</code> exists.</p>
-                            <p class="text2" style="margin-top:12px;font-size:0.8rem;">Run <code>python news_fetcher.py</code> to generate it.</p>
+                            <p>Under Maintenance</p>
                         </div>`;
-                    showToast('❌ Failed to load data', true);
+                    showToast('Failed to load data', true);
                 }
             }
 
-            // Filter events
+            // ── Copy source URL on click ──
+            document.querySelectorAll('#sourceList span').forEach(el => {
+                el.addEventListener('click', async () => {
+                    const url = el.dataset.url;
+                    try {
+                        await navigator.clipboard.writeText(url);
+                        showToast(`✅ Link Copied!`);
+                    } catch {
+                        // fallback
+                        const input = document.createElement('input');
+                        input.value = url;
+                        document.body.appendChild(input);
+                        input.select();
+                        document.execCommand('copy');
+                        document.body.removeChild(input);
+                        showToast(`✅ Link Copied!`);
+                    }
+                });
+            });
+
+            // ── Filter events ──
             filterBtns.forEach(btn => btn.addEventListener('click', () => {
                 filterBtns.forEach(b => { b.classList.remove('active'); b.setAttribute('aria-selected', 'false'); });
                 btn.classList.add('active');
@@ -417,7 +429,7 @@
                 resetAndRender();
             }));
 
-            // Scroll event for infinite scroll
+            // ── Scroll event for infinite scroll ──
             window.addEventListener('scroll', () => {
                 if (isLoading || !hasMore) return;
                 const scrollY = window.scrollY;
@@ -428,7 +440,7 @@
                 }
             });
 
-            // Start
+            // ── Start ──
             loadArticles();
         })();
     </script>
