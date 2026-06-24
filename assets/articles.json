@@ -120,6 +120,140 @@
     ]
   },
   {
+    "title": "InSight: Self-Guided Skill Acquisition via Steerable VLAs",
+    "link": "http://arxiv.org/abs/2606.24884v1",
+    "published": "2026-06-23T17:59:01+00:00",
+    "summary": "Vision-language-action (VLA) models can learn manipulation skills from demonstrations, but their capabilities are bounded by the skills in the training data. We present InSight, a framework that unlocks autonomous skill acquisition by rendering VLAs steerable at the primitive-action level (e.g., \"move gripper to the bowl\", \"lift upward\", \"pour the bottle\"). InSight consists of two primary stages: (1) an automated segmentation pipeline that partitions demonstrations into labeled primitives via VL",
+    "author": "Maggie Wang, Lars Osterberg, Stephen Tian, Ola Shorinwa, Jiajun Wu, Mac Schwager",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "https://insight-vla.github.io",
+      "http://arxiv.org/abs/2606.24884v1"
+    ]
+  },
+  {
+    "title": "FLUX3D: High-Fidelity 3D Gaussian Generation with Diffusion-Aligned Sparse Representation",
+    "link": "http://arxiv.org/abs/2606.24874v1",
+    "published": "2026-06-23T17:52:21+00:00",
+    "summary": "Sparse voxel representation has emerged as a scalable foundation for image-to-3D Gaussian Splatting (3DGS) generation, yet current methods struggle to preserve high-frequency visual details of input images due to two structural bottlenecks. First, they adopt discriminative 2D features optimized for semantic abstraction to construct sparse voxel latents, which suppress reconstructive cues and induce a representation bottleneck. Second, in the generation stage, standard diffusion transformers lack",
+    "author": "Haorui Ji, Weizhe Liu, Hongdong Li, Hengkai Guo",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2606.24874v1"
+    ]
+  },
+  {
+    "title": "OpenThoughts-Agent: Data Recipes for Agentic Models",
+    "link": "http://arxiv.org/abs/2606.24855v1",
+    "published": "2026-06-23T17:34:29+00:00",
+    "summary": "Agentic language models dramatically expand the applications of AI yet little is publicly known about how to curate training data for broadly capable agents. Existing open efforts such as SWE-Smith, SERA, and Nemotron-Terminal typically target a single benchmark, leaving open the question of how to train models that generalize across diverse agentic tasks. The OpenThoughts-Agent (OT-Agent) project addresses this gap with a fully open data curation pipeline for training agentic models. We conduct",
+    "author": "Negin Raoof, Richard Zhuang, Marianna Nezhurina, Etash Guha, Atula Tejaswi, Ryan Marten, Charlie F. Ruan, Tyler Griggs, Alexander Glenn Shaw, Hritik Bansal, E. Kelly Buchanan, Artem Gazizov, Reinhard Heckel, Chinmay Hegde, Sankalp Jajee, Daanish Khazi, Emmanouil Koukoumidis, Xiangyi Li, Hange Liu, Shlok Natarajan, Harsh Raj, Nicholas Roberts, Ethan Shen, Nishad Singhi, Michael Siu, Ashima Suvarna, Hanwen Xing, Patrick Yubeaton, Robert Zhang, Leon Liangyu Chen, Xiaokun Chen, Steven Dillmann, Saadia Gabriel, Xunyi Jiang, Anurag Kashyap, Boxuan Li, Yein Park, Minh Pham, Sujay Sanghavi, Lin Shi, Ke Sun, Yixin Wang, Zhiwei Xu, Erica Zhang, Siyan Zhao, Wanjia Zhao, Jenia Jitsev, Alex Dimakis, Benjamin Feuer, Ludwig Schmidt",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2606.24855v1"
+    ]
+  },
+  {
+    "title": "It's Complicated: On the Design and Evaluation of AI-Powered AAC Interfaces",
+    "link": "http://arxiv.org/abs/2606.24854v1",
+    "published": "2026-06-23T17:34:18+00:00",
+    "summary": "Artificial intelligence (AI) can enhance what people who use augmentative and alternative communication (AAC) are able to do with their systems. However, evaluating AI-powered AAC interfaces can be difficult. People are intersectional beings and current evaluation metrics can struggle to capture the multifaceted and nuanced desires people may have for their AAC. We explore the complicated nature of six AAC problem spaces, explore how AI might be used in these spaces, and suggest more robust meth",
+    "author": "Blade Frisch, Will Wade, Dylan Gaines, Michelle Kinsella, Betts Peters, Tamara Broderick, Keith Vertanen",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2606.24854v1"
+    ]
+  },
+  {
+    "title": "IV-CoT: Implicit Visual Chain-of-Thought for Structure-Aware Text-to-Image Generation",
+    "link": "http://arxiv.org/abs/2606.24849v1",
+    "published": "2026-06-23T17:28:00+00:00",
+    "summary": "Unified multi-modal large language models (MLLMs) have achieved strong text-to-image generation quality, but still struggle with structure-aware prompt following, where object counts, spatial relations, attribute bindings, and coarse layouts must be preserved. We attribute this limitation in part to the entanglement of structural planning and appearance rendering within a single conditioning stream. To address this issue, we propose Implicit Visual Chain-of-Thought (IV-CoT), a latent visual reas",
+    "author": "Zixuan Li, Haokun Lin, Yicheng Xiao, Zhiwei Li, Xinyang Song, Zelong Zheng, Yong He, Heng Yao, Ke Ding, Chao Yu, Chuan Yuan, Qi Li, Zhenan Sun",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2606.24849v1"
+    ]
+  },
+  {
+    "title": "World Models in Pieces: Structural Certification for General Agents",
+    "link": "http://arxiv.org/abs/2606.24842v1",
+    "published": "2026-06-23T17:21:09+00:00",
+    "summary": "In the big-world regime, agents cannot be universally capable and their ability is inevitably specialized across a world model in pieces. Consequently, standard uniform guarantees fail to distinguish between the understanding of critical bottlenecks and irrelevant failures. We first formalize this limitation by proving that general agents are not universal, rendering standard worst-case analysis uninformative. To overcome this, we introduce structural certification, a transition-local framework ",
+    "author": "Yikai Lu, Yifei Wu, Xinyu Lu, Tongxin Li",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2606.24842v1"
+    ]
+  },
+  {
+    "title": "Matching Tasks to Objectives: Fine-Tuning and Prompt-Tuning Strategies for Encoder-Decoder Pre-trained Language Models",
+    "link": "http://arxiv.org/abs/2606.24841v1",
+    "published": "2026-06-23T17:21:03+00:00",
+    "summary": "Prompt-based learning has emerged as a dominant paradigm in natural language processing. This study explores the impact of diverse pre-training objectives on the performance of encoder-decoder pre-trained language models across generation and question answering tasks, with a focus on commonsense knowledge retrieval and completion. We highlight the benefits of incorporating multiple objectives during both pre-training and fine-tuning stages. We introduce the Match Task to Objective (MTO) framewor",
+    "author": "Ahmad Pouramini, Hesham Faili",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "https://github.com/puraminy/MTO/",
+      "http://arxiv.org/abs/2606.24841v1"
+    ]
+  },
+  {
+    "title": "Grading the Grader: Lessons from Evaluating an Agentic Data Analysis System",
+    "link": "http://arxiv.org/abs/2606.24839v1",
+    "published": "2026-06-23T17:18:28+00:00",
+    "summary": "Agentic data analysis systems produce rich outputs, including code, numerical results, and verbal diagnostics. This makes them more challenging to evaluate than single-turn LLM responses. It is therefore necessary to distinguish genuine disagreement between an agent's output and a ground-truth answer from grading artifacts. We investigate how reliably automated graders assess such a system and what strategies improve grading quality by applying LAMBDA, a multi-agent data-analysis system, on 153 ",
+    "author": "Tian Zheng, Kai-Tai Hsu",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2606.24839v1"
+    ]
+  },
+  {
+    "title": "Accuracy and Satisfaction in Multi-Turn LLM Dialogues for NFR Assessment",
+    "link": "http://arxiv.org/abs/2606.24834v1",
+    "published": "2026-06-23T17:15:40+00:00",
+    "summary": "LLM-based dialogue assistants have become mainstream tools for software developers, yet current evaluation benchmarks focus exclusively on functional correctness. This leaves a critical gap in assessing the quality and accuracy of these conversations when handling Non-Functional Requirements (NFRs), which are inherently vague, context-dependent, and involve many parts of a program. Evaluating how well these systems support collaborative reasoning about NFRs requires methods that go beyond single",
+    "author": "Ali Pourghasemi Fatideh, Wilder Baldwin, Maria Dhakal, Collin McMillan, Sepideh Ghanavati",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2606.24834v1"
+    ]
+  },
+  {
+    "title": "Difference-Making without Making a Difference",
+    "link": "http://arxiv.org/abs/2606.24832v1",
+    "published": "2026-06-23T17:15:26+00:00",
+    "summary": "Over a series of seven papers, Andreas & Günther have introduced seven definitions of actual causation and have classified them as belonging to three different, competing, types of accounts: factual difference-making, counterfactual difference-making, and regularity-based. I show that their most recent - factual difference-making - definition instantiates all three types, thereby proving that these are distinctions without a difference. I further compare their novel account to the other six acco",
+    "author": "Sander Beckers",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2606.24832v1"
+    ]
+  },
+  {
+    "title": "Solving Inverse Problems of Chaotic Systems with Bidirectional Conditional Flow Matching",
+    "link": "http://arxiv.org/abs/2606.24824v1",
+    "published": "2026-06-23T17:07:47+00:00",
+    "summary": "Modeling chaotic systems is crucial yet challenging. Inverse problems in chaotic dynamics, namely inferring initial conditions from final states, remain largely unsolved because of ill-posedness, non-uniqueness, instability, and potentially chaotic time-reverse dynamics. We address this open problem with Bidirectional Conditional Flow Matching (Bi-CFM), which learns bidirectional mappings between distributions of initial and final states to capture the stochasticity of chaotic evolution and miti",
+    "author": "Peiyan Hu, Jian Zhang, Jiashu Pan, Ruiqi Feng, Tao Zhang, Zhi-Ming Ma, Yuan-Sen Ting, Gongjie Li, Tailin Wu",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2606.24824v1"
+    ]
+  },
+  {
     "title": "How GPT-5 helped immunologist Derya Unutmaz solve a 3-year-old mystery",
     "link": "https://openai.com/index/gpt-5-immunology-mystery",
     "published": "2026-06-23T17:00:00+00:00",
@@ -129,6 +263,54 @@
     "category": "official",
     "references": [
       "https://openai.com/index/gpt-5-immunology-mystery"
+    ]
+  },
+  {
+    "title": "Large-Language-Model Discovery of Quantum LDPC Codes through Structured Concept Evolution",
+    "link": "http://arxiv.org/abs/2606.24808v1",
+    "published": "2026-06-23T16:56:24+00:00",
+    "summary": "Quantum computers could outperform classical machines on important problems, but only if the errors that pervade quantum hardware can be corrected at scale. Quantum low-density parity-check (qLDPC) codes offer a promising route to this goal by combining sparse parity checks with finite encoding rate and growing distance, but their construction remains a challenging discrete design problem. Here we introduce structured concept evolution (SCE), a search framework that pairs a large language model ",
+    "author": "Zidu Liu, Florian Marquardt",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2606.24808v1"
+    ]
+  },
+  {
+    "title": "OrbitForge: Text-to-3D Scene Generation via Reconstruction-Anchored Video Synthesis",
+    "link": "http://arxiv.org/abs/2606.24799v1",
+    "published": "2026-06-23T16:50:47+00:00",
+    "summary": "Generic text-to-video models can be used as rich open-world scene priors. Despite the high quality of today's generated videos, they do not directly yield reliable 3D assets: camera motion is difficult to control, view coverage is partial, and frames often contain inconsistencies across time. We introduce OrbitForge, an adapter built from frozen video priors and per-prompt Gaussian Splatting reconstruction optimization that converts a single text-generated video into a canonical closed-orbit 3D ",
+    "author": "Chenrui Fan, Paolo Favaro",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2606.24799v1"
+    ]
+  },
+  {
+    "title": "EG-VQA: Benchmarking Verifiable Video Question Answering with Grounded Temporal Evidence",
+    "link": "http://arxiv.org/abs/2606.24797v1",
+    "published": "2026-06-23T16:49:28+00:00",
+    "summary": "Recent advances in Video Large Language Models (Video-LLMs) have yielded promising performance on video question answering (VideoQA). Nevertheless, existing benchmarks are predominantly evaluated through answer correctness, while the grounding of predictions in relevant video evidence remains largely unexamined. This disconnect between answer generation and evidence understanding motivates the construction of the Evidence-Grounded Video Question Answering Benchmark (EG-VQA), an open-ended evalua",
+    "author": "Linpeng Huang, Weixing Chen, Zexin Chen, Yang Liu, Liang Lin",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2606.24797v1"
+    ]
+  },
+  {
+    "title": "Grad Detect: Gradient-Based Hallucination Detection in LLMs",
+    "link": "http://arxiv.org/abs/2606.24790v1",
+    "published": "2026-06-23T16:46:36+00:00",
+    "summary": "Large Language Models (LLMs) have demonstrated remarkable capabilities across diverse tasks, yet they remain prone to generating hallucinations. Detecting these hallucinations is critical for deploying LLMs reliably in high-stakes applications. We present Grad Detect, a gradient-based approach for predicting hallucinations by analyzing layer-wise gradient patterns from a single forward-backward pass during inference. Our method shows that the internal gradient structure of a model carries rich i",
+    "author": "Anand Kamat, Daniel Blake, Brent M. Werness",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2606.24790v1"
     ]
   },
   {
