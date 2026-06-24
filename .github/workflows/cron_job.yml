@@ -5,7 +5,9 @@ on:
     - cron: '*/15 * * * *'
   workflow_dispatch:
 
-# This clears the warning by explicitly allowing the runner to bridge the Node versions
+permissions:
+  contents: write 
+
 env:
   ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION: 'true'
 
