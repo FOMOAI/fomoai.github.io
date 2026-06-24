@@ -23,7 +23,7 @@ SOURCES = [
     {"name": "The Verge AI",   "type": "rss",   "url": "https://www.theverge.com/ai-artificial-intelligence/rss/index.xml",              "cat": "media"},
 ]
 
-OUTPUT_FILE = "articles.json"
+OUTPUT_FILE = "assets/articles.json"
 REQUEST_TIMEOUT = 15  # seconds
 
 # ── Helpers ────────────────────────────────────────────────
