@@ -46,5 +46,15 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git remote set-url origin https://x-access-token:${{ secrets.DEPLOY_TOKEN }}@github.com/${{ github.repository }}.git
+
+          # Ensure we are on the correct branch (adjust if needed)
+          BRANCH="${GITHUB_REF#refs/heads/}"
+          git checkout "$BRANCH" 2>/dev/null || git checkout -b "$BRANCH"
+
           git add index.html articles.json
-          git diff --staged --quiet || (git commit -m "🤖 Update news [skip ci]" && git push)
+          if ! git diff --staged --quiet; then
+            git commit -m "🤖 Update news [skip ci]"
+            # Pull latest changes before pushing
+            git pull --rebase origin "$BRANCH" || true  # or handle conflict
+            git push origin "$BRANCH"
+          fi
