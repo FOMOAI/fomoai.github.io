@@ -1,26 +1,186 @@
 [
   {
-    "title": "Ask, Don't Judge: Binary Questions for Interpretable LLM Evaluation and Self-Improvement",
-    "link": "http://arxiv.org/abs/2606.27226v1",
-    "published": "2026-06-25T16:14:50+00:00",
-    "summary": "Evaluating LLM outputs remains a major bottleneck in NLP: human evaluation is expensive and slow, lexical metrics correlate poorly with human judgments on open-ended generation, and holistic LLM judges often produce opaque scores that are hard to debug. We propose BINEVAL, a framework that decomposes evaluation criteria into atomic binary questions and aggregates the resulting verdicts into interpretable, multi-dimensional scores. Given a task prompt, a meta-prompt generates fine-grained evaluat",
-    "author": "Sangwoo Cho, Kushal Chawla, Pengshan Cai, Zefang Liu, Chenyang Zhu, Shi-Xiong Zhang, Sambit Sahu",
+    "title": "Autoregressive Boltzmann Generators",
+    "link": "http://arxiv.org/abs/2606.27361v1",
+    "published": "2026-06-25T17:58:21+00:00",
+    "summary": "Efficient sampling of molecular systems at thermodynamic equilibrium is a hallmark challenge in statistical physics. This challenge has driven the development of Boltzmann Generators (BGs), which allow rapid generation of uncorrelated equilibrium samples by combining a generative model with exact likelihoods and an importance sampling correction. However, modern BGs predominantly rely on normalizing flows (NFs), which either suffer from limited expressivity due to strict invertibility constraint",
+    "author": "Danyal Rehman, Charlie B. Tan, Yoshua Bengio, Avishek Joey Bose, Alexander Tong",
     "source": "arXiv cs.AI",
     "category": "research",
     "references": [
-      "http://arxiv.org/abs/2606.27226v1"
+      "https://github.com/danyalrehman/autobg",
+      "http://arxiv.org/abs/2606.27361v1"
     ]
   },
   {
-    "title": "Vulnerability of Natural Language Classifiers to Evolutionary Generated Adversarial Text",
-    "link": "http://arxiv.org/abs/2606.27215v1",
-    "published": "2026-06-25T16:05:38+00:00",
-    "summary": "Deep learning models have achieved impressive performance across various fields but remain vulnerable to adversarial inputs, particularly in NLP, where such attacks can have significant real-world consequences. Adversarial attacks often involve small, semantically similar token replacements to fool NLP models, and recent methods have become more precise by targeting specific vulnerable words, often by exploiting some level of access to the model's internal structure. This paper proposes GAversar",
-    "author": "Manjinder Singh, Alexander E. I. Brownlee, Mohamed Elawady",
+    "title": "Error-Conditioned Neural Solvers",
+    "link": "http://arxiv.org/abs/2606.27354v1",
+    "published": "2026-06-25T17:56:27+00:00",
+    "summary": "Neural surrogate models offer fast approximate mappings from PDE parameters to solutions, but they typically treat solving as a purely statistical task: once trained, they struggle to correct their own constraint violations and extrapolate beyond the training distribution. Recent hybrid methods promote physical correctness by targeting the PDE residual via gradient descent or Gauss--Newton steps, but inherit the compute cost and instability of the underlying classical optimizers. We show, theore",
+    "author": "Haina Jiang, Liam Wang, Peng-Chen Chen, Min Seop Kwak, Seungryong Kim, Brian Bell, Jeong Joon Park",
     "source": "arXiv cs.AI",
     "category": "research",
     "references": [
-      "http://arxiv.org/abs/2606.27215v1"
+      "https://neuralsolver.github.io/",
+      "http://arxiv.org/abs/2606.27354v1"
+    ]
+  },
+  {
+    "title": "Understanding Domain-Aware Distribution Alignment in Budgeted Entity Matching",
+    "link": "http://arxiv.org/abs/2606.27342v1",
+    "published": "2026-06-25T17:49:48+00:00",
+    "summary": "Entity Matching (EM) is a core operation in the data integration pipeline, where records from different sources are compared to determine whether they refer to the same real-world entity. Recent work has incorporated domain information and low-resource learning techniques to better adapt EM systems to realistic settings. While these approaches have demonstrated strong performance, it remains unclear how they behave under varying data constraints and levels of supervision in practice. In this pap",
+    "author": "Nicholas Pulsone, Gregory Goren, Roee Shraga",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2606.27342v1"
+    ]
+  },
+  {
+    "title": "Language-Based Digital Twins for Elderly Cognitive Assistance",
+    "link": "http://arxiv.org/abs/2606.27334v1",
+    "published": "2026-06-25T17:45:53+00:00",
+    "summary": "Digital twins have emerged as a promising paradigm for personalized healthcare, enabling modeling of individual behavior and health trajectories. In cognitive health, early detection of Mild Cognitive Impairment (MCI) remains challenging, where language and conversational patterns serve as non-invasive biomarkers. In this work, we propose a language-based digital twin framework that leverages large language models (LLMs) to mimic the conversational behavior of elderly individuals by incorporatin",
+    "author": "Mohammad Mehdi Hosseini, Mohammad H. Mahoor, Hiroko H. Dodge",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2606.27334v1"
+    ]
+  },
+  {
+    "title": "Empowering GUI Agents via Autonomous Experience Exploration and Hindsight Experience Utilization for Task Planning",
+    "link": "http://arxiv.org/abs/2606.27330v1",
+    "published": "2026-06-25T17:44:48+00:00",
+    "summary": "Multimodal web agents can assist humans in operating repetitive GUI tasks, where effective task planning is essential for decomposing complex tasks into executable actions. While small open source MLLMs are cost efficient and privacy preserving compared with commercial large models, they suffer from weak planning and limited cross website generalization. To address these limitations, we introduce the planning experience exploration and utilization (PEEU) method, which autonomously explores envir",
+    "author": "Tianyi Men, Zhuoran Jin, Pengfei Cao, Yubo Chen, Kang Liu, Jun Zhao",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2606.27330v1"
+    ]
+  },
+  {
+    "title": "Beyond the Hard Budget: Sparsity Regularizers for More Interpretable Top-k Sparse Autoencoders",
+    "link": "http://arxiv.org/abs/2606.27321v1",
+    "published": "2026-06-25T17:34:39+00:00",
+    "summary": "Sparse autoencoders (SAEs) have become a leading tool for interpreting the representations of vision foundation models, decomposing their polysemantic activations into a larger set of sparse, more monosemantic features. The Top-$k$ SAE, a now-standard variant, enforces sparsity architecturally through its activation function, retaining only the $k$ most active latents per input. Because it was designed precisely to avoid the $\\ell_1$ penalty used by earlier SAEs and its known drawbacks, it has n",
+    "author": "Nathanaël Jacquier, Maria Vakalopoulou, Mahdi S. Hosseini",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2606.27321v1"
+    ]
+  },
+  {
+    "title": "AI Healthcare Chatbots as Information Infrastructure: A Large-Scale Study of User-Reported Breakdowns",
+    "link": "http://arxiv.org/abs/2606.27302v1",
+    "published": "2026-06-25T17:24:26+00:00",
+    "summary": "AI healthcare chatbots are increasingly used to support health information seeking and self-management, yet their performance and impact on users remains to be studied. This study examines over 15,000 user reviews from 59 AI healthcare chatbot apps to explore how these systems function in everyday informational and emotional contexts. Topic modeling and interpretive analysis identify three recurring breakdowns: access barriers and service unreliability, user experience and interaction quality, a",
+    "author": "Muhammad Hassan, Ramazan Yener, Ece Gumusel, Masooda Bashir",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2606.27302v1"
+    ]
+  },
+  {
+    "title": "When Does Combining Language Models Help? A Co-Failure Ceiling on Routing, Voting, and Mixture-of-Agents Across 67 Frontier Models",
+    "link": "http://arxiv.org/abs/2606.27288v1",
+    "published": "2026-06-25T17:06:06+00:00",
+    "summary": "Multi-model LLM systems such as routing, voting, cascades, fusion, and mixture-of-agents are used to beat single-model accuracy. We show that their gain is capped by a quantity the field rarely reports. For any policy whose output is one member model answer, accuracy cannot exceed one minus beta, where beta is the rate at which every model is wrong on the same query. In contrast, the usual diagnostic, average pairwise error correlation rho, cannot identify beta: error laws with identical margina",
+    "author": "Josef Chen",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2606.27288v1"
+    ]
+  },
+  {
+    "title": "Prompt Injection in Automated Résumé Screening with Large Language Models: Single and Multi-Injection Settings",
+    "link": "http://arxiv.org/abs/2606.27287v1",
+    "published": "2026-06-25T17:04:51+00:00",
+    "summary": "Large language models (LLMs) are increasingly used to screen and rank job applicants, creating incentives for candidates to strategically manipulate algorithmic hiring systems. We study prompt injection in automated résumé screening, defined as subtle self-promotional text that introduces no new qualifications but is designed to influence LLM evaluations. Using controlled experiments, we show that prompt injection reliably improves applicant rankings when résumé quality is homogeneous and few ca",
+    "author": "Preet Baxi, Jiannan Xu, Jane Yi Jiang, Stefanus Jasin",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "https://github.com/preetb1199/Prompt_Injection_ACL26",
+      "http://arxiv.org/abs/2606.27287v1"
+    ]
+  },
+  {
+    "title": "Simulation-based inference for rapid Bayesian parameter estimation in epidemiological models: a comparison with MCMC",
+    "link": "http://arxiv.org/abs/2606.27286v1",
+    "published": "2026-06-25T17:03:30+00:00",
+    "summary": "Mechanistic epidemiological models are widely used to support infectious disease forecasting and public-health decision making. Bayesian calibration of such models is commonly performed using Markov chain Monte Carlo (MCMC), which can become computationally expensive for high-dimensional nonlinear systems and repeated near-real-time analyses. Here, we investigate simulation-based inference (SBI) using neural posterior estimation as a scalable alternative for Bayesian calibration of a mechanistic",
+    "author": "Alina Bazarova, Johann Fredrik Jadebeck, Henrik Zunker, Carolina J. Klett-Tammen, Torben Heinsohn, Wolfgang Wiechert, Katharina Noeh, Stefan Kesselheim",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2606.27286v1"
+    ]
+  },
+  {
+    "title": "EO-WM: A Physically Informed World Model for Probabilistic Earth Observation Forecasting",
+    "link": "http://arxiv.org/abs/2606.27277v1",
+    "published": "2026-06-25T16:53:30+00:00",
+    "summary": "Earth Observation (EO) forecasting aims to predict future Earth surface dynamics from satellite observations under changing meteorological conditions. In this paper, we view this task as a partially observed, weather-driven world modeling problem, in which weather acts as a conditioning signal, while forecasting remains uncertain due to sparse observations and unobserved land-surface states. However, existing methods do not fully capture this setting: deterministic models collapse uncertainty in",
+    "author": "Junwei Luo, Shuai Yuan, Zhenya Yang, Yansheng Li, Zhe Liu, Hengshuang Zhao",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "https://github.com/Luo-Z13/EO-WM",
+      "http://arxiv.org/abs/2606.27277v1"
+    ]
+  },
+  {
+    "title": "E-TTS: A New Embodied Test-Time Scaling Framework for Robotic Manipulation",
+    "link": "http://arxiv.org/abs/2606.27268v1",
+    "published": "2026-06-25T16:50:21+00:00",
+    "summary": "Recently, a few works have made early attempts to study test-time scaling for embodied tasks. However, two major challenges remain unsolved: (1) reasoning can effectively improve the performance of the policy, but its scaling mechanism has seldom been studied; (2) historical information is essential, as embodied tasks are inherently long-horizon and sequential, making sole reliance on current observations for action scaling inadequate due to the lack of historical context utilization. To address",
+    "author": "Wen Ye, Peiyan Li, Tingyu Yuan, Yuan Xu, Xiangnan Wu, Chaoyang Zhao, Jing Liu, Nianfeng Liu, Yan Huang, Liang Wang",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2606.27268v1"
+    ]
+  },
+  {
+    "title": "Advancing Omnimodal Embodied Agents from Isolated Skills to Everyday Physical Autonomy",
+    "link": "http://arxiv.org/abs/2606.27251v1",
+    "published": "2026-06-25T16:36:35+00:00",
+    "summary": "Building persistent embodied agents in unstructured environments demands unified orchestration of heterogeneous tools spanning both cyber (APIs, IoT) and physical (manipulation, navigation) domains, coupled with autonomous recovery from physical failures that inevitably arise over extended operation. Existing systems treat these as separate problems: VLM-based planners lack a unified cyber-physical action space, agent frameworks accumulate unbounded context that degrades temporal coherence, and ",
+    "author": "Junhao Shi, Zezheng Huai, Siyin Wang, Jia Chen, Yubang Wang, Zhaoye Fei, Hechang Chen, Jingjing Gong, Xipeng Qiu, Yu-Gang Jiang",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2606.27251v1"
+    ]
+  },
+  {
+    "title": "From Celebrities to Anyone: Characterizing AI Nudification Content, Technology, and Community Dynamics on 4chan",
+    "link": "http://arxiv.org/abs/2606.27234v1",
+    "published": "2026-06-25T16:21:38+00:00",
+    "summary": "AI nudification uses generative models to create synthetic non-consensual sexually explicit imagery (SNEACI) of real individuals. Prior work has examined dedicated nudification platforms and model repositories, finding that most targets are female celebrities. However, the anonymous content community, where SNEACI is actively requested, generated, and exchanged, remains unexplored. In this work, we present a large-scale study of AI nudification in the wild, identifying 24,105 SNEACI items. We fi",
+    "author": "Chi Cui, Yixin Wu, Yang Zhang",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2606.27234v1"
+    ]
+  },
+  {
+    "title": "Bridging Talk and Thought: Understanding Dialogue Dynamics Across Collaborative Problem-Solving Contexts",
+    "link": "http://arxiv.org/abs/2606.27233v1",
+    "published": "2026-06-25T16:20:49+00:00",
+    "summary": "We present a conceptual framework for analyzing dialogue in collaborative problem-solving contexts, with an emphasis on the emerging dynamics of human-AI and multi-agent collaboration. As intelligent systems become active agents capable of autonomous reasoning and strategic cooperation, understanding the dialogic interaction during collaborative problem solving is increasingly important for optimizing and evaluating such partnerships. Our framework addresses key limitations in current analytical",
+    "author": "Zhengyuan Liu, Stella Xin Yin, Min-Yen Kan, Nancy F. Chen",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2606.27233v1"
     ]
   },
   {
@@ -33,163 +193,6 @@
     "category": "official",
     "references": [
       "https://blog.google/products-and-platforms/products/search/google-finance-updates-june-2026/"
-    ]
-  },
-  {
-    "title": "A Process Harness for Uplifting Legacy Workflows to Agentic BPM: Design and Realization in CUGA FLO",
-    "link": "http://arxiv.org/abs/2606.27188v1",
-    "published": "2026-06-25T15:50:42+00:00",
-    "summary": "We introduce the process harness, a new mechanism for uplifting legacy workflows into Agentic Business Process Management (Agentic BPM) without replacing the underlying workflow engine. A process harness places a policy-governed agentic layer around a deterministic workflow engine, intercepting designated control points to contribute reasoning, adaptation, and oversight while the engine retains structural authority over the process. To define the process harness rigorously, we develop the Task-D",
-    "author": "Fabiana Fournier, Lior Limonad",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2606.27188v1"
-    ]
-  },
-  {
-    "title": "Automating Potential-based Reward Shaping with Vision Language Model Guidance",
-    "link": "http://arxiv.org/abs/2606.27180v1",
-    "published": "2026-06-25T15:45:57+00:00",
-    "summary": "Sparse rewards are inherently challenging for reinforcement learning agents as they lack intermediate feedback to guide exploration and to correctly attribute the sparse success rewards to relevant parts of the trajectory. Naive reward shaping can induce reward hacking, yielding policies that exploit auxiliary signals instead of solving the intended task. Potential-based reward shaping (PBRS) guarantees preservation of the optimal policy set, but requires the definition of a heuristic potential ",
-    "author": "Henrik Müller, Daniel Kudenko",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2606.27180v1"
-    ]
-  },
-  {
-    "title": "Learning to Fold: prizewinning solution at LeHome Challenge 2026 (1st place online, 2nd offline)",
-    "link": "http://arxiv.org/abs/2606.27163v1",
-    "published": "2026-06-25T15:31:23+00:00",
-    "summary": "I describe my solution to the LeHome Challenge 2026, an ICRA 2026 competition on bimanual garment folding. The system placed 1st of 62 teams in the online (simulation) round and 2nd in the real-world final. It improves a vision-language-action (VLA) policy with a reinforcement-learning loop. The policy is its own value function: the same network that predicts actions also predicts success, progress, and a few task-relevant future quantities, and those predictions drive advantage estimation, live",
-    "author": "Ilia Larchenko",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2606.27163v1"
-    ]
-  },
-  {
-    "title": "TOPS: First-Principles Visual Token Pruning via Constructing Token Optimal Preservation Sets for Efficient MLLM Inference",
-    "link": "http://arxiv.org/abs/2606.27161v1",
-    "published": "2026-06-25T15:29:37+00:00",
-    "summary": "Multimodal large language models (MLLMs) have achieved strong multimodal reasoning capabilities, but their efficiency is limited by the large number of visual tokens, which introduces substantial computational overhead. Visual token pruning offers a natural solution, yet existing methods are imperfect: attention-based criteria tend to retain redundant tokens, while diversity-based criteria are often agnostic to user instructions. Even methods that combine multiple criteria still lack a principle",
-    "author": "Tinghao Wang, Yichen Guo, Rui Huang, Zheng Lu, Qizhe Zhang, Chenxi Li, Yuan Zhang, Jiajun Cao, Zhirong Shen, Yaosong Du, Guangyan Gan, Wenya Wang, Lin William Cong, Shanghang Zhang",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2606.27161v1"
-    ]
-  },
-  {
-    "title": "OpenRCA 2.0: From Outcome Labels to Causal Process Supervision",
-    "link": "http://arxiv.org/abs/2606.27154v1",
-    "published": "2026-06-25T15:24:23+00:00",
-    "summary": "Root cause analysis (RCA) poses a holistic test of LLM agentic capabilities, such as long-context understanding, multi-step reasoning, and tool use. However, existing datasets suffer from a fundamental gap: they label only the root cause, not the propagation path connecting it to the observed symptom, which largely simplifies the task to naive pattern matching. To support rigorous evaluation, we introduce PAVE, a step-wise labeling protocol that leverages known interventions from fault injection",
-    "author": "Aoyang Fang, Yifan Yang, Jin'ao Shang, Qisheng Lu, Junjielung Xu, Rui Wang, Songhan Zhang, Yuzhong Zhang, Boxi Yu, Pinjia He",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2606.27154v1"
-    ]
-  },
-  {
-    "title": "Safe Autoregressive Image Generation with Iterative Self-Improving Codebooks",
-    "link": "http://arxiv.org/abs/2606.27147v1",
-    "published": "2026-06-25T15:18:31+00:00",
-    "summary": "Unlike diffusion-based models that operate in continuous latent spaces, autoregressive unified multimodal models produce images by sequentially predicting discretized visual tokens. These tokens are derived from a codebook that maps embeddings to quantized visual patterns. The language-like architecture enables unified multimodal models to effectively capture text conditional information for generation, making them promising for text-to-image tasks. This also raises an interesting question: how ",
-    "author": "Yunqi Xue, Zhijiang Li, Philip Torr, Jindong Gu",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2606.27147v1"
-    ]
-  },
-  {
-    "title": "Joint Learning of Experiential Rules and Policies for Large Language Model Agents",
-    "link": "http://arxiv.org/abs/2606.27136v1",
-    "published": "2026-06-25T15:11:02+00:00",
-    "summary": "For LLM agents in multi-step interactive environments, a key challenge is to make effective use of accumulated interaction experience. Existing work has typically separated two uses of such experience: keeping it outside the model as natural-language rules for later prompting, or using trajectories and feedback to update the model parameters. The former is easy to interpret but can fall out of sync with the evolving policy; the latter improves the policy more broadly but provides only limited co",
-    "author": "Shicheng Ye, Chao Yu",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2606.27136v1"
-    ]
-  },
-  {
-    "title": "Efficient foundation decoders for fault-tolerant quantum computing",
-    "link": "http://arxiv.org/abs/2606.27119v1",
-    "published": "2026-06-25T14:58:33+00:00",
-    "summary": "Foundation decoders, a class of high-capacity neural decoders, are leading candidates for fault-tolerant quantum computing, with accurate and efficient decoding at large code distances. However, their construction often faces a steep scaling barrier, as larger code distances rapidly amplify the cost of syndrome generation and neural optimization. To address this bottleneck, here we devise neural transfer unification (NTU), a unified framework for efficient foundation decoders. A central feature ",
-    "author": "Ge Yan, Shanchuan Li, Shiyi Xiao, Pengyue Ma, Hanyan Cao, Feng Pan, Yuxuan Du",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2606.27119v1"
-    ]
-  },
-  {
-    "title": "Heavy-Ball Q-Learning with Residual Weighting Correction",
-    "link": "http://arxiv.org/abs/2606.27112v1",
-    "published": "2026-06-25T14:48:58+00:00",
-    "summary": "This paper proposes a corrected heavy-ball Q-learning method for reinforcement learning (RL) and establishes its convergence. It also identifies conditions under which the method is theoretically guaranteed to converge faster than standard Q-learning. The same construction is then extended to Q-learning with linear function approximation, where analogous convergence and acceleration statements are derived. The analysis is based on a switched linear system (SLS) representation of Q-learning algor",
-    "author": "Donghwan Lee",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2606.27112v1"
-    ]
-  },
-  {
-    "title": "Application of LLMs to Threat Assessment of Foreign Peacekeeping Missions",
-    "link": "http://arxiv.org/abs/2606.27106v1",
-    "published": "2026-06-25T14:43:42+00:00",
-    "summary": "We present a novel approach for applying Large Language Models (LLMs) to threat assessment in the context of foreign peacekeeping missions. Building on the PINPOINT project and its use case, the EU Monitoring Mission in Georgia, we combine an interdisciplinary risk-model with OSINT-based media collection and LLM-supported threat extraction. The proposed workflow maps media contents to mission-relevant threats, extracts structured information and applies several additional LLM-based processing st",
-    "author": "Gerhard Backfried, Christian Schmidt, Diego Pilutti, Michael Suker",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2606.27106v1"
-    ]
-  },
-  {
-    "title": "Data-Free Reservoir Features for Efficient Long-Horizon Cold-Start Continual Learning",
-    "link": "http://arxiv.org/abs/2606.27095v1",
-    "published": "2026-06-25T14:31:55+00:00",
-    "summary": "Cold-start exemplar-free class-incremental learning requires learning a growing set of classes without replay, external pretraining, or a large initial task. Existing cold-start methods typically either train the backbone throughout the stream and compensate for semantic drift, or freeze a backbone after the first task, producing features biased toward the initial classes. These choices also create a computational tension: drift-compensation methods require repeated backbone training and increas",
-    "author": "Augustinas Jučas, Yangchen Pan",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2606.27095v1"
-    ]
-  },
-  {
-    "title": "Inherited Circuits, Learned Semantics: How Fine-Tuning Creates Evasion Vulnerabilities Invisible to Standard Evaluation",
-    "link": "http://arxiv.org/abs/2606.27091v1",
-    "published": "2026-06-25T14:29:03+00:00",
-    "summary": "LLMs fine-tuned for security classification are usually evaluated on held-out examples from the same distribution as their training data. We show that this can miss vulnerabilities introduced by fine-tuning itself: models can learn token-level indicator semantics that preserve canonical accuracy while failing under behavior-preserving transformations such as PowerShell alias substitution, command reconstruction, string construction, execution indirection, and case mutation. We study Foundation-S",
-    "author": "Ryan Fetterman",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2606.27091v1"
-    ]
-  },
-  {
-    "title": "Beyond Global Divergences: A Local-Mass Perspective on Bayesian Inference",
-    "link": "http://arxiv.org/abs/2606.27090v1",
-    "published": "2026-06-25T14:26:42+00:00",
-    "summary": "Global objectives, such as KL divergence and ELBO, are widely used in Bayesian inference for measuring distributional discrepancy. This paper studies their local-mass behaviour that is not directly captured by such objectives. We introduce and use two mathematical tools: (1) Mass Index for recording the polynomial and logarithmic decay scales of local mass, and (2) regularised extended KL (RE-KL), a set-localised divergence that can be formulated in the presence of singular components. Mass Indi",
-    "author": "Hanli Xu, Fengxiang He, Sarat Moka",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "https://github.com/Forsythia0604/Local-Mass-Framework",
-      "http://arxiv.org/abs/2606.27090v1"
     ]
   },
   {
