@@ -1,5 +1,29 @@
 [
   {
+    "title": "Ask, Don't Judge: Binary Questions for Interpretable LLM Evaluation and Self-Improvement",
+    "link": "http://arxiv.org/abs/2606.27226v1",
+    "published": "2026-06-25T16:14:50+00:00",
+    "summary": "Evaluating LLM outputs remains a major bottleneck in NLP: human evaluation is expensive and slow, lexical metrics correlate poorly with human judgments on open-ended generation, and holistic LLM judges often produce opaque scores that are hard to debug. We propose BINEVAL, a framework that decomposes evaluation criteria into atomic binary questions and aggregates the resulting verdicts into interpretable, multi-dimensional scores. Given a task prompt, a meta-prompt generates fine-grained evaluat",
+    "author": "Sangwoo Cho, Kushal Chawla, Pengshan Cai, Zefang Liu, Chenyang Zhu, Shi-Xiong Zhang, Sambit Sahu",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2606.27226v1"
+    ]
+  },
+  {
+    "title": "Vulnerability of Natural Language Classifiers to Evolutionary Generated Adversarial Text",
+    "link": "http://arxiv.org/abs/2606.27215v1",
+    "published": "2026-06-25T16:05:38+00:00",
+    "summary": "Deep learning models have achieved impressive performance across various fields but remain vulnerable to adversarial inputs, particularly in NLP, where such attacks can have significant real-world consequences. Adversarial attacks often involve small, semantically similar token replacements to fool NLP models, and recent methods have become more precise by targeting specific vulnerable words, often by exploiting some level of access to the model's internal structure. This paper proposes GAversar",
+    "author": "Manjinder Singh, Alexander E. I. Brownlee, Mohamed Elawady",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2606.27215v1"
+    ]
+  },
+  {
     "title": "Our latest Google Finance upgrades, including a new app",
     "link": "https://blog.google/products-and-platforms/products/search/google-finance-updates-june-2026/",
     "published": "2026-06-25T16:00:00+00:00",
@@ -9,6 +33,163 @@
     "category": "official",
     "references": [
       "https://blog.google/products-and-platforms/products/search/google-finance-updates-june-2026/"
+    ]
+  },
+  {
+    "title": "A Process Harness for Uplifting Legacy Workflows to Agentic BPM: Design and Realization in CUGA FLO",
+    "link": "http://arxiv.org/abs/2606.27188v1",
+    "published": "2026-06-25T15:50:42+00:00",
+    "summary": "We introduce the process harness, a new mechanism for uplifting legacy workflows into Agentic Business Process Management (Agentic BPM) without replacing the underlying workflow engine. A process harness places a policy-governed agentic layer around a deterministic workflow engine, intercepting designated control points to contribute reasoning, adaptation, and oversight while the engine retains structural authority over the process. To define the process harness rigorously, we develop the Task-D",
+    "author": "Fabiana Fournier, Lior Limonad",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2606.27188v1"
+    ]
+  },
+  {
+    "title": "Automating Potential-based Reward Shaping with Vision Language Model Guidance",
+    "link": "http://arxiv.org/abs/2606.27180v1",
+    "published": "2026-06-25T15:45:57+00:00",
+    "summary": "Sparse rewards are inherently challenging for reinforcement learning agents as they lack intermediate feedback to guide exploration and to correctly attribute the sparse success rewards to relevant parts of the trajectory. Naive reward shaping can induce reward hacking, yielding policies that exploit auxiliary signals instead of solving the intended task. Potential-based reward shaping (PBRS) guarantees preservation of the optimal policy set, but requires the definition of a heuristic potential ",
+    "author": "Henrik Müller, Daniel Kudenko",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2606.27180v1"
+    ]
+  },
+  {
+    "title": "Learning to Fold: prizewinning solution at LeHome Challenge 2026 (1st place online, 2nd offline)",
+    "link": "http://arxiv.org/abs/2606.27163v1",
+    "published": "2026-06-25T15:31:23+00:00",
+    "summary": "I describe my solution to the LeHome Challenge 2026, an ICRA 2026 competition on bimanual garment folding. The system placed 1st of 62 teams in the online (simulation) round and 2nd in the real-world final. It improves a vision-language-action (VLA) policy with a reinforcement-learning loop. The policy is its own value function: the same network that predicts actions also predicts success, progress, and a few task-relevant future quantities, and those predictions drive advantage estimation, live",
+    "author": "Ilia Larchenko",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2606.27163v1"
+    ]
+  },
+  {
+    "title": "TOPS: First-Principles Visual Token Pruning via Constructing Token Optimal Preservation Sets for Efficient MLLM Inference",
+    "link": "http://arxiv.org/abs/2606.27161v1",
+    "published": "2026-06-25T15:29:37+00:00",
+    "summary": "Multimodal large language models (MLLMs) have achieved strong multimodal reasoning capabilities, but their efficiency is limited by the large number of visual tokens, which introduces substantial computational overhead. Visual token pruning offers a natural solution, yet existing methods are imperfect: attention-based criteria tend to retain redundant tokens, while diversity-based criteria are often agnostic to user instructions. Even methods that combine multiple criteria still lack a principle",
+    "author": "Tinghao Wang, Yichen Guo, Rui Huang, Zheng Lu, Qizhe Zhang, Chenxi Li, Yuan Zhang, Jiajun Cao, Zhirong Shen, Yaosong Du, Guangyan Gan, Wenya Wang, Lin William Cong, Shanghang Zhang",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2606.27161v1"
+    ]
+  },
+  {
+    "title": "OpenRCA 2.0: From Outcome Labels to Causal Process Supervision",
+    "link": "http://arxiv.org/abs/2606.27154v1",
+    "published": "2026-06-25T15:24:23+00:00",
+    "summary": "Root cause analysis (RCA) poses a holistic test of LLM agentic capabilities, such as long-context understanding, multi-step reasoning, and tool use. However, existing datasets suffer from a fundamental gap: they label only the root cause, not the propagation path connecting it to the observed symptom, which largely simplifies the task to naive pattern matching. To support rigorous evaluation, we introduce PAVE, a step-wise labeling protocol that leverages known interventions from fault injection",
+    "author": "Aoyang Fang, Yifan Yang, Jin'ao Shang, Qisheng Lu, Junjielung Xu, Rui Wang, Songhan Zhang, Yuzhong Zhang, Boxi Yu, Pinjia He",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2606.27154v1"
+    ]
+  },
+  {
+    "title": "Safe Autoregressive Image Generation with Iterative Self-Improving Codebooks",
+    "link": "http://arxiv.org/abs/2606.27147v1",
+    "published": "2026-06-25T15:18:31+00:00",
+    "summary": "Unlike diffusion-based models that operate in continuous latent spaces, autoregressive unified multimodal models produce images by sequentially predicting discretized visual tokens. These tokens are derived from a codebook that maps embeddings to quantized visual patterns. The language-like architecture enables unified multimodal models to effectively capture text conditional information for generation, making them promising for text-to-image tasks. This also raises an interesting question: how ",
+    "author": "Yunqi Xue, Zhijiang Li, Philip Torr, Jindong Gu",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2606.27147v1"
+    ]
+  },
+  {
+    "title": "Joint Learning of Experiential Rules and Policies for Large Language Model Agents",
+    "link": "http://arxiv.org/abs/2606.27136v1",
+    "published": "2026-06-25T15:11:02+00:00",
+    "summary": "For LLM agents in multi-step interactive environments, a key challenge is to make effective use of accumulated interaction experience. Existing work has typically separated two uses of such experience: keeping it outside the model as natural-language rules for later prompting, or using trajectories and feedback to update the model parameters. The former is easy to interpret but can fall out of sync with the evolving policy; the latter improves the policy more broadly but provides only limited co",
+    "author": "Shicheng Ye, Chao Yu",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2606.27136v1"
+    ]
+  },
+  {
+    "title": "Efficient foundation decoders for fault-tolerant quantum computing",
+    "link": "http://arxiv.org/abs/2606.27119v1",
+    "published": "2026-06-25T14:58:33+00:00",
+    "summary": "Foundation decoders, a class of high-capacity neural decoders, are leading candidates for fault-tolerant quantum computing, with accurate and efficient decoding at large code distances. However, their construction often faces a steep scaling barrier, as larger code distances rapidly amplify the cost of syndrome generation and neural optimization. To address this bottleneck, here we devise neural transfer unification (NTU), a unified framework for efficient foundation decoders. A central feature ",
+    "author": "Ge Yan, Shanchuan Li, Shiyi Xiao, Pengyue Ma, Hanyan Cao, Feng Pan, Yuxuan Du",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2606.27119v1"
+    ]
+  },
+  {
+    "title": "Heavy-Ball Q-Learning with Residual Weighting Correction",
+    "link": "http://arxiv.org/abs/2606.27112v1",
+    "published": "2026-06-25T14:48:58+00:00",
+    "summary": "This paper proposes a corrected heavy-ball Q-learning method for reinforcement learning (RL) and establishes its convergence. It also identifies conditions under which the method is theoretically guaranteed to converge faster than standard Q-learning. The same construction is then extended to Q-learning with linear function approximation, where analogous convergence and acceleration statements are derived. The analysis is based on a switched linear system (SLS) representation of Q-learning algor",
+    "author": "Donghwan Lee",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2606.27112v1"
+    ]
+  },
+  {
+    "title": "Application of LLMs to Threat Assessment of Foreign Peacekeeping Missions",
+    "link": "http://arxiv.org/abs/2606.27106v1",
+    "published": "2026-06-25T14:43:42+00:00",
+    "summary": "We present a novel approach for applying Large Language Models (LLMs) to threat assessment in the context of foreign peacekeeping missions. Building on the PINPOINT project and its use case, the EU Monitoring Mission in Georgia, we combine an interdisciplinary risk-model with OSINT-based media collection and LLM-supported threat extraction. The proposed workflow maps media contents to mission-relevant threats, extracts structured information and applies several additional LLM-based processing st",
+    "author": "Gerhard Backfried, Christian Schmidt, Diego Pilutti, Michael Suker",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2606.27106v1"
+    ]
+  },
+  {
+    "title": "Data-Free Reservoir Features for Efficient Long-Horizon Cold-Start Continual Learning",
+    "link": "http://arxiv.org/abs/2606.27095v1",
+    "published": "2026-06-25T14:31:55+00:00",
+    "summary": "Cold-start exemplar-free class-incremental learning requires learning a growing set of classes without replay, external pretraining, or a large initial task. Existing cold-start methods typically either train the backbone throughout the stream and compensate for semantic drift, or freeze a backbone after the first task, producing features biased toward the initial classes. These choices also create a computational tension: drift-compensation methods require repeated backbone training and increas",
+    "author": "Augustinas Jučas, Yangchen Pan",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2606.27095v1"
+    ]
+  },
+  {
+    "title": "Inherited Circuits, Learned Semantics: How Fine-Tuning Creates Evasion Vulnerabilities Invisible to Standard Evaluation",
+    "link": "http://arxiv.org/abs/2606.27091v1",
+    "published": "2026-06-25T14:29:03+00:00",
+    "summary": "LLMs fine-tuned for security classification are usually evaluated on held-out examples from the same distribution as their training data. We show that this can miss vulnerabilities introduced by fine-tuning itself: models can learn token-level indicator semantics that preserve canonical accuracy while failing under behavior-preserving transformations such as PowerShell alias substitution, command reconstruction, string construction, execution indirection, and case mutation. We study Foundation-S",
+    "author": "Ryan Fetterman",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2606.27091v1"
+    ]
+  },
+  {
+    "title": "Beyond Global Divergences: A Local-Mass Perspective on Bayesian Inference",
+    "link": "http://arxiv.org/abs/2606.27090v1",
+    "published": "2026-06-25T14:26:42+00:00",
+    "summary": "Global objectives, such as KL divergence and ELBO, are widely used in Bayesian inference for measuring distributional discrepancy. This paper studies their local-mass behaviour that is not directly captured by such objectives. We introduce and use two mathematical tools: (1) Mass Index for recording the polynomial and logarithmic decay scales of local mass, and (2) regularised extended KL (RE-KL), a set-localised divergence that can be formulated in the presence of singular components. Mass Indi",
+    "author": "Hanli Xu, Fengxiang He, Sarat Moka",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "https://github.com/Forsythia0604/Local-Mass-Framework",
+      "http://arxiv.org/abs/2606.27090v1"
     ]
   },
   {
@@ -69,186 +250,6 @@
     "category": "official",
     "references": [
       "https://openai.com/index/how-agents-are-transforming-work"
-    ]
-  },
-  {
-    "title": "Learning Action Priors for Cross-embodiment Robot Manipulation",
-    "link": "http://arxiv.org/abs/2606.26095v1",
-    "published": "2026-06-24T17:59:56+00:00",
-    "summary": "Most Vision-Language-Action (VLA) models build on a Vision-Language Model (VLM) backbone by attaching an action module and optimizing the full policy jointly. This design inherits strong visual and linguistic priors from the VLM, but leaves the action module to learn physical motion almost from scratch. As a result, the policy lacks an explicit motion prior, forcing early optimization to simultaneously discover temporal action dynamics and cross-modal alignment, a challenge further amplified in ",
-    "author": "Dong Jing, Tianqi Zhang, Jiaqi Liu, Jinman Zhao, Zelong Sun, Li Erran Li, Zhiwu Lu, Mingyu Ding",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2606.26095v1"
-    ]
-  },
-  {
-    "title": "On-Policy Self-Distillation with Sampled Demonstrations Reduces Output Diversity",
-    "link": "http://arxiv.org/abs/2606.26091v1",
-    "published": "2026-06-24T17:59:02+00:00",
-    "summary": "On-policy self-distillation achieves strong pass@1 accuracy by using a single model as both teacher and student, with the teacher conditioned on a correct demonstration to provide dense token-level feedback. We show that this could come at a hidden cost: rollout diversity decreases and pass@k curves flatten (i.e., generating more rollouts fails to improve accuracy). We trace this to compounding biases in the design of self-distillation with sampled demonstrations. The teacher scores each student",
-    "author": "Andrei Liviu Nicolicioiu, Mohammad Pezeshki, Aaron Courville",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2606.26091v1"
-    ]
-  },
-  {
-    "title": "Neglected Free Lunch from Post-training: Progress Advantage for LLM Agents",
-    "link": "http://arxiv.org/abs/2606.26080v1",
-    "published": "2026-06-24T17:54:08+00:00",
-    "summary": "Process reward models enable fine-grained, step-level evaluation of LLMs, yet building them for agentic settings remains prohibitively difficult: long-horizon interactions, irreversible actions, and stochastic environment feedback make both human annotation and Monte Carlo estimation infeasible at scale. In this work, we show that reinforcement learning (RL) post-training already provides the ingredients for effective step-level scoring, eliminating the need for dedicated reward model training a",
-    "author": "Changdae Oh, Wendi Li, Seongheon Park, Samuel Yeh, Tanwi Mallick, Sharon Li",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2606.26080v1"
-    ]
-  },
-  {
-    "title": "A cross-process welding penetration status prediction algorithm based on unsupervised domain adaptation in laser and TIG welding",
-    "link": "http://arxiv.org/abs/2606.26078v1",
-    "published": "2026-06-24T17:52:57+00:00",
-    "summary": "Supervised deep learning has been widely used for weld penetration state classification; however, its performance often degrades significantly under domain shift, such as when transferring models between welding processes with distinct physical mechanisms:for instance, from arc-dominated tungsten inert gas (TIG) welding to keyhole-based laser welding. To overcome this limitation, we propose an unsupervised domain adaptation (UDA) framework integrated with a gradual source domain expansion (GSDE)",
-    "author": "Sen Li, Haichao Cui, Chendong Shao, Yaqi Wang, Xinhua Tang",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2606.26078v1"
-    ]
-  },
-  {
-    "title": "Model Forensics: Investigating Whether Concerning Behavior Reflects Misalignment",
-    "link": "http://arxiv.org/abs/2606.26071v1",
-    "published": "2026-06-24T17:45:47+00:00",
-    "summary": "A central goal of safety research is determining whether a model is misaligned. Prior work has largely focused on detecting concerning behavior. But behavior alone does not establish misalignment: a concerning action can arise from benign causes such as confusion. This motivates model forensics: investigating whether the action was driven by malign intent. In this paper, we propose a baseline protocol for model forensics consisting of two steps, iterated as needed. First, we read the chain of th",
-    "author": "Aditya Singh, Gerson Kroiz, Senthooran Rajamanoharan, Neel Nanda",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2606.26071v1"
-    ]
-  },
-  {
-    "title": "A welding penetration prediction model for laser welding process based on self-supervised learning using physics-informed neural networks",
-    "link": "http://arxiv.org/abs/2606.26059v1",
-    "published": "2026-06-24T17:33:41+00:00",
-    "summary": "The laser welding full-penetration is of critical importance, as it constitutes one of the fundamental factors in achieving defect-free welded joints. Accurate prediction of the penetration state is therefore essential for ensuring weld quality. To this end, this paper introduces SimPhysNet, a novel algorithm that achieves high classification accuracy in laser welding penetration prediction using only a limited number of labelled images. This approach effectively overcomes the limitations of sup",
-    "author": "Sen Li, Xiaoying Liu, Xiaojian Xu, Chendong Shao, Yaqi Wang, Ling Lan, Xinhua Tang, Haichao Cui",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2606.26059v1"
-    ]
-  },
-  {
-    "title": "The Unfireable Safety Kernel: Execution-Time AI Alignment for AI Agents and Other Escapable AI Systems",
-    "link": "http://arxiv.org/abs/2606.26057v1",
-    "published": "2026-06-24T17:32:27+00:00",
-    "summary": "AI agents are granted access to tools, APIs, and other infrastructure, making them active principals in those systems. The dominant approach places controls inside the agent's own runtime: system prompts, output filters, and guardrail libraries. Any control in the agent's address space is reachable by inputs that influence it; this generalizes to any AI system with sufficient reach into its own runtime, a class we term escapable AI systems. We identify four properties that an authorization mecha",
-    "author": "Seth Dobrin, Łukasz Chmiel",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2606.26057v1"
-    ]
-  },
-  {
-    "title": "Natural Ungrokking: Asymmetric Control of Which Rules Survive Pretraining",
-    "link": "http://arxiv.org/abs/2606.26050v1",
-    "published": "2026-06-24T17:27:13+00:00",
-    "summary": "Midway through an ordinary pretraining run, a small language model learns the pronoun-gender rule: cued with a girl's name (\"Sue cried because\"), it resolves the next pronoun to she, generalizing to held-out probes (0.94 by step 925). By step 3,500 the same model scores near zero on the same probes, although the rule's evidence is still in the training data. We call this within-run reversal natural ungrokking: the corpus decides, with no trace in the loss curve, which learned rules a model keeps",
-    "author": "Juliana Li, Diya Sreedhar",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2606.26050v1"
-    ]
-  },
-  {
-    "title": "TriViewBench: Controlled Complexity Scaling for Multi-View Structural Reasoning in MLLMs",
-    "link": "http://arxiv.org/abs/2606.26029v1",
-    "published": "2026-06-24T17:00:05+00:00",
-    "summary": "Multimodal Large Language Models (MLLMs) demonstrate strong performance on standard visual question answering benchmarks, yet their scalability under controlled structural complexity remains poorly understood. We introduce TriViewBench, a controlled three-view visual reasoning benchmark constructed from synthetic 3D scenes with explicitly parameterized object count and occlusion. The benchmark contains 1,923 scenes and over 14K Question-Answer (QA) pairs organized into four complexity levels and",
-    "author": "Yu-Yang Chen, Lan-Zhe Guo",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2606.26029v1"
-    ]
-  },
-  {
-    "title": "Can Trustless Agents Be Trusted? An Empirical Study of the ERC-8004 Decentralized AI Agent Ecosystem",
-    "link": "http://arxiv.org/abs/2606.26028v1",
-    "published": "2026-06-24T16:57:49+00:00",
-    "summary": "As autonomous AI agents increasingly transact across organizational boundaries, a fundamental trust challenge emerges: how can an agent assess whether an unknown counterpart is trustworthy? The ERC-8004 protocol addresses this challenge with the first permissionless trust layer for AI agent economies, built around three on-chain registries for Identity, Reputation, and Validation. Despite its rapid adoption, the protocol has not been studied empirically, leaving it unclear whether the informatio",
-    "author": "Xihan Xiong, Zelin Li, Wei Wei, Qin Wang, William Knottenbelt, Zhipeng Wang",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2606.26028v1"
-    ]
-  },
-  {
-    "title": "Privacy Vulnerabilities of Attention Layers in Tabular Foundation Models and Protection of High-Risk Queries",
-    "link": "http://arxiv.org/abs/2606.26021v1",
-    "published": "2026-06-24T16:42:21+00:00",
-    "summary": "Tabular foundation models are commonly assumed to present limited privacy concerns as they are often pre-trained on large collections of synthetic data. However, these models leverage in-context learning, where sensitive records may be provided directly at inference time as labelled context examples. In this paper, we demonstrate that predictions generated via the attention mechanism leak sufficient information to enable effective Membership Inference Attacks (MIAs). To highlight this vulnerabil",
-    "author": "Tânia Carvalho, Maxime Cordy",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2606.26021v1"
-    ]
-  },
-  {
-    "title": "FORCE: Efficient VLA Reinforcement Fine-Tuning via Value-Calibrated Warm-up and Self-Distillation",
-    "link": "http://arxiv.org/abs/2606.26006v1",
-    "published": "2026-06-24T16:23:18+00:00",
-    "summary": "Vision-Language-Action (VLA) models are often constrained by the imitation ceiling imposed by sub-optimal data. While Reinforcement Learning (RL) fine-tuning can surpass this limit, it is notoriously sample inefficient. This challenge arises from two core issues: (1) catastrophic initial unlearning due to an unstable Q-function and (2) inefficient policy updates caused by low-quality exploration data, often forcing a reliance on costly human interventions. We introduce FORCE, a 3-stage framework",
-    "author": "Shuyi Zhang, Yunfan Lou, Hongyang Cheng, Yichen Guo, Chuyao Fu, Yaoxu Lyu, Xiaojie Zhang, Haoran Li, Pengwei Wang, Zhongyuan Wang, Shanghang Zhang",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2606.26006v1"
-    ]
-  },
-  {
-    "title": "Hierarchical Reinforcement Learning for Neural Network Compression (HiReLC): Pruning and Quantization",
-    "link": "http://arxiv.org/abs/2606.26002v1",
-    "published": "2026-06-24T16:19:29+00:00",
-    "summary": "We present HiReLC, a hierarchical ensemble-reinforcement learning framework for automated joint quantization and structured pruning of deep neural networks. The framework decomposes the compression search across two levels of abstraction: low-level agents (LLAs) operate independently per block, selecting per-kernel configurations over a multi-discrete action space spanning bitwidth, pruning keep-ratio, quantization type, and granularity, while high-level agents (HLAs) coordinate global budget al",
-    "author": "Kamar Hibatallah Baghdadi, Kawther Guoual Belhamidi, Sara Belhadj, Aissa Boulmerka, Nadir Farhi",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2606.26002v1"
-    ]
-  },
-  {
-    "title": "Variable Bound Tightening for Nash Equilibrium Computation in Multiplayer Imperfect-Information Games",
-    "link": "http://arxiv.org/abs/2606.25997v1",
-    "published": "2026-06-24T16:08:33+00:00",
-    "summary": "There has been significant recent progress in algorithms for approximation of Nash equilibrium in large two-player zero-sum imperfect-information games and exact computation of Nash equilibrium in multiplayer strategic-form games. While counterfactual regret minimization and fictitious play are scalable to large games and have convergence guarantees in two-player zero-sum games, they do not guarantee convergence to Nash equilibrium in multiplayer games. Recently, an approach has been presented f",
-    "author": "Sam Ganzfried",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2606.25997v1"
-    ]
-  },
-  {
-    "title": "Autodata: An agentic data scientist to create high quality synthetic data",
-    "link": "http://arxiv.org/abs/2606.25996v1",
-    "published": "2026-06-24T16:08:31+00:00",
-    "summary": "We introduce Autodata, a general method that enables AI agents to act as data scientists who build high quality training and evaluation data. We show how to train (meta-optimize) such a data scientist agent, so that it learns to create even stronger data. We describe the overall formulation, and a specific practical implementation, Agentic Self-Instruct. We conduct experiments on computer science research tasks, legal reasoning tasks and reasoning with mathematical objects, where we obtain impro",
-    "author": "Ilia Kulikov, Chenxi Whitehouse, Tianhao Wu, Yixin Nie, Swarnadeep Saha, Eryk Helenowski, Weizhe Yuan, Olga Golovneva, Jack Lanchantin, Yoram Bachrach, Jakob Foerster, Xian Li, Han Fang, Sainbayar Sukhbaatar, Jason Weston",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2606.25996v1"
     ]
   },
   {
