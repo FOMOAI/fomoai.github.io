@@ -72,185 +72,184 @@
     ]
   },
   {
-    "title": "DexCompose: Reusing Dexterous Policies for Multi-Task Manipulation with a Single Hand",
-    "link": "http://arxiv.org/abs/2606.28323v1",
-    "published": "2026-06-26T17:59:57+00:00",
-    "summary": "Dexterous manipulation policies can solve individual skills, but composing them to perform multiple tasks with a single hand remains challenging. Adding a new task on top of an existing manipulation skill often imposes conflicting demands on overlapping fingers and contact modes, causing destructive interference between preserving an existing manipulation outcome and executing a new one. We propose DexCompose, a role-aware residual composition framework that reuses pretrained dexterous policies ",
-    "author": "Dihong Huang, Zhenyu Wei, Zhuxiu Xu, Yunchao Yao, Sikai Li, Mingyu Ding",
+    "title": "Adaptive Financial Transformer with Regime-Gated Attention for Stock Return Prediction",
+    "link": "http://arxiv.org/abs/2606.29347v1",
+    "published": "2026-06-28T11:33:19+00:00",
+    "summary": "Adaptive Financial Transformer (AFT) is proposed for stock return prediction under non-stationary financial markets. The model incorporates a Market Regime Encoder, an Adaptive Gate Network, and an Adaptive Financial Context module to dynamically bias self-attention based on semantic relationships between financial indicators. Unlike conventional Transformer architectures that treat all input features uniformly, the proposed approach groups 95 engineered financial features into 11 semantic categ",
+    "author": "Dishan Sarkar",
     "source": "arXiv cs.AI",
     "category": "research",
     "references": [
-      "http://arxiv.org/abs/2606.28323v1"
+      "http://arxiv.org/abs/2606.29347v1"
     ]
   },
   {
-    "title": "Which Nash Equilibrium? Solver-Dependent Selection on Zero-Sum Nash Polytopes",
-    "link": "http://arxiv.org/abs/2606.28308v1",
-    "published": "2026-06-26T17:53:30+00:00",
-    "summary": "Many two-player zero-sum games admit not a unique Nash equilibrium but a convex set of them: a polytope of profiles that all share the minimax value V* yet prescribe different behaviour. Standard solvers each converge to some equilibrium and are treated as interchangeable. We ask whether they instead select different members of the Nash set, systematically as a function of the algorithm rather than the seed. Using a tabular, exactly solvable testbed of six games with analytically known Nash sets",
-    "author": "Luis Leal",
+    "title": "PHF: Privileged Hidden Flow for On-Policy Self-Distillation",
+    "link": "http://arxiv.org/abs/2606.29340v1",
+    "published": "2026-06-28T11:15:26+00:00",
+    "summary": "On-policy self-distillation (OPSD) trains a reasoning model on rollouts sampled from its own policy by matching a privileged teacher that also sees verified reference solutions. Existing OPSD objectives supervise only the output distribution, so privileged context affects training through a token-level divergence without directly supervising the internal computation that produced that distribution. We propose Privileged Hidden Flow (PHF), which additionally distills how a privileged teacher's hi",
+    "author": "Yuhan Li, Mingxu Zhang, Dazhong Shen, Ying Sun",
     "source": "arXiv cs.AI",
     "category": "research",
     "references": [
-      "http://arxiv.org/abs/2606.28308v1"
+      "http://arxiv.org/abs/2606.29340v1"
     ]
   },
   {
-    "title": "Agentic Hardware Design as Repository-Level Code Evolution",
-    "link": "http://arxiv.org/abs/2606.28279v1",
-    "published": "2026-06-26T17:21:06+00:00",
-    "summary": "We present HORIZON, a self-evolving agent framework that treats hardware design as repository-level code evolution. A Markdown harness is compiled into a project pack containing domain knowledge, an executable evaluator, an acceptance predicate, and a git/runtime policy; a hands-free agent loop then evolves an isolated git worktree, using repository operations for state management, tracing, and replay. This extends prior works of repository-scale self-evolution from EDA software systems, to hard",
-    "author": "Cunxi Yu, Chenhui Deng, Nathaniel Pinckney, Brucek Khailany",
+    "title": "AMR: Adaptive Modality Routing for Multimodal Polyglot Speaker Identification",
+    "link": "http://arxiv.org/abs/2606.29335v1",
+    "published": "2026-06-28T11:03:52+00:00",
+    "summary": "Multimodal speaker identification systems face two key challenges in real-world deployment: missing modalities and language mismatch between training and testing conditions. In practical scenarios, background multi-speaker conversations, ambient noise, and overlapping speech further degrade identification accuracy. To address these challenges, we propose a multimodal polyglot speaker identification system for the POLY-SIM 2026 Grand Challenge. The system is fundamentally built upon Adaptive Moda",
+    "author": "Chuxiao Zuo, Yao Zhu, Minqiang Xu, Manhong Wang, Yunke Zhang, Fei Huang",
     "source": "arXiv cs.AI",
     "category": "research",
     "references": [
-      "http://arxiv.org/abs/2606.28279v1"
+      "http://arxiv.org/abs/2606.29335v1"
     ]
   },
   {
-    "title": "Towards Automating Scientific Review with Google's Paper Assistant Tool",
-    "link": "http://arxiv.org/abs/2606.28277v1",
-    "published": "2026-06-26T17:19:17+00:00",
-    "summary": "Artificial intelligence is driving a revolution in scientific discovery, accelerating everything from hypothesis generation to mathematical theorem proving. However, this rapid acceleration is creating a systemic challenge: traditional human peer review cannot scale to match the influx of AI-assisted science. Ultimately, to resolve this tension, we must also deploy AI to accelerate the verification and review process itself. To frame the discussion around this transition, we propose a taxonomy c",
-    "author": "Rajesh Jayaram, Drew Tyler, David Woodruff, Corinna Cortes, Yossi Matias, Vahab Mirrokni, Vincent Cohen-Addad",
+    "title": "Covering the Unseen: Information Demand Coverage Optimization for Retrieval-Augmented Generation",
+    "link": "http://arxiv.org/abs/2606.29328v1",
+    "published": "2026-06-28T10:49:04+00:00",
+    "summary": "Retrieval-augmented generation (RAG) typically treats context selection as ranking chunks against a single query embedding. This assumption breaks down for complex queries, such as multi-hop or ambiguous questions, where top-k selection tends to over-cover one semantic aspect while ignoring critical sub-questions. We propose GeoRAG, which recasts context selection as Information Demand Coverage Optimization. GeoRAG builds a multi-dimensional demand distribution through diverse sub-query generati",
+    "author": "Bingxue Zhang, Jianying Jia, Feida Zhu",
     "source": "arXiv cs.AI",
     "category": "research",
     "references": [
-      "http://arxiv.org/abs/2606.28277v1"
+      "http://arxiv.org/abs/2606.29328v1"
     ]
   },
   {
-    "title": "Parameter Efficient Hybrid Transformer (PEHT) for Network Traffic Prediction via Dynamic Urban Congestion Integration",
-    "link": "http://arxiv.org/abs/2606.28274v1",
-    "published": "2026-06-26T17:17:17+00:00",
-    "summary": "Accurate network traffic prediction is a critical element for efficient resource allocation in dynamic urban cellular networks. However, prediction remains challenging because network demand is influenced by complex mobility patterns, congestion dynamics, and heterogeneous user behavior. This paper introduces the Parameter-Efficient Hybrid Transformer (PEHT), a network traffic prediction framework that integrates urban mobility and congestion information into a Transformer-based architecture. PE",
-    "author": "Abdolazim Rezaei, Mehdi Sookhak, Mahboobeh Haghparast",
+    "title": "Hierarchical Experimentalist Agents",
+    "link": "http://arxiv.org/abs/2606.29315v1",
+    "published": "2026-06-28T10:21:55+00:00",
+    "summary": "Large language models (LLMs) are increasingly used to take actions in the real world and support human decision-making, yet most agents rely on parametric knowledge, fixed post-training data, retrieval, or search. This paradigm breaks down in novel domains and for sophisticated queries that cannot be answered from prior knowledge alone. Knowing the laws of physics, for instance, does not by itself enable LLMs to answer queries or complete long-horizon tasks in a complex physical system. To addre",
+    "author": "Abhranil Chandra, Sankaran Vaidyanathan, Utsav Dhanuka, Varun Gandhi, Scott Niekum",
     "source": "arXiv cs.AI",
     "category": "research",
     "references": [
-      "http://arxiv.org/abs/2606.28274v1"
+      "http://arxiv.org/abs/2606.29315v1"
     ]
   },
   {
-    "title": "Agent-Native Immune System: Architecture, Taxonomy, and Engineering",
-    "link": "http://arxiv.org/abs/2606.28270v1",
-    "published": "2026-06-26T17:08:06+00:00",
-    "summary": "The transition from static chat bots to autonomous agents--equipped with persistent memory, tool-use protocols, and multi-agent collaboration--has fundamentally expanded the AI threat landscape. Current defense mechanisms, such as perimeter security and training-time alignment, remain external to the agent's active reasoning loop. Consequently, they fall short: a fully aligned agent remains highly vulnerable to runtime hijacking via memory poisoning, tool-chain manipulation, or multi-agent proto",
-    "author": "Bo Shen, Lifeng Chang, Tianyuan Wei, Yunpeng Li, Feng Shi, Yichen Han, Peijie Gao, Shiyi Kuang, Xin Chang, Dehui Li",
+    "title": "Process Advantage Signal Shaping: A Paradigm-Agnostic Middleware for Process-Supervised RL in LLM Reasoners",
+    "link": "http://arxiv.org/abs/2606.29296v1",
+    "published": "2026-06-28T09:36:43+00:00",
+    "summary": "Group Relative Policy Optimization (GRPO) is a default recipe for process-supervised reinforcement learning of LLM reasoners, and dense process supervision -- via learned process reward models (PRMs) or on-policy-distillation KL signals -- is a common way to densify its otherwise weak outcome reward. Layering such a step-level signal on top of GRPO's group-standardized advantage, however, exposes three structural pathologies: \\emph{channel contamination} between the pooled process, outcome, and ",
+    "author": "Chao Wang, Hongtao Tian, Tao Yang, Yunsheng Shi, Ting Yao, Wenbo Ding",
     "source": "arXiv cs.AI",
     "category": "research",
     "references": [
-      "http://arxiv.org/abs/2606.28270v1"
+      "http://arxiv.org/abs/2606.29296v1"
     ]
   },
   {
-    "title": "Learning Topology-Aware Representations via Test-Time Adaptation for Anomaly Segmentation",
-    "link": "http://arxiv.org/abs/2606.28268v1",
-    "published": "2026-06-26T17:04:42+00:00",
-    "summary": "Test-time adaptation (TTA) has emerged as a promising paradigm for mitigating distribution shifts in deep models. However, existing TTA approaches for anomaly segmentation remain limited by their reliance on pixel-level heuristics, such as confidence thresholding or entropy minimisation, which fail to preserve structural consistency under noise and texture variation. Moreover, they typically treat anomaly maps as flat intensity fields, ignoring the higher-order spatial relationships that charact",
-    "author": "Ali Zia, Usman Ali, Abdul Rehman, Umer Ramzan, Kang Han, Muhammad Faheem, Shahnawaz Qureshi, Wei Xiang",
+    "title": "Deterministic Decisions for High-Stakes AI. A Zero-Egress Pipeline with the Deployability of RAG and the Accuracy of Machine Learning",
+    "link": "http://arxiv.org/abs/2606.29280v1",
+    "published": "2026-06-28T08:58:17+00:00",
+    "summary": "We identify intervention bias as a previously unquantified failure mode of zero-shot large-language-model (LLM) educational advisory agents: without task-specific training, they recommend action when a hindsight-optimal oracle policy mandates inaction. In a six-arm ablation on the Open University Learning Analytics Dataset (N=800 students, four temporal cutoffs), at day 56 -- when the oracle designates 70.1% of students as needing no intervention -- zero-shot GPT-4o recommends action for 73%, a ",
+    "author": "Craig Atkinson",
     "source": "arXiv cs.AI",
     "category": "research",
     "references": [
-      "http://arxiv.org/abs/2606.28268v1"
+      "http://arxiv.org/abs/2606.29280v1"
     ]
   },
   {
-    "title": "How Width and Data Shape Generalization Scaling Laws in Quadratic Neural Networks",
-    "link": "http://arxiv.org/abs/2606.28242v1",
-    "published": "2026-06-26T16:27:46+00:00",
-    "summary": "Understanding how performance scales jointly with model size and data is a central problem in modern machine learning. Existing theoretical works on scaling laws typically describe generalization as a function of data or compute, often in fixed-feature or infinite-width regimes and for online SGD. Here, we instead study how generalization scales with the number of trainable parameters and the number of samples in a feature-learning model. We analyze $\\ell_2$-regularized empirical test error mini",
-    "author": "Julius Girardin, Emanuele Troiani, Yizhou Xu, Vittorio Erba, Florent Krzakala, Lenka Zdeborová",
+    "title": "Manufactured Confidence: How Memory Consolidation Turns Hearsay into Confident Facts",
+    "link": "http://arxiv.org/abs/2606.29279v1",
+    "published": "2026-06-28T08:56:48+00:00",
+    "summary": "LLM agents carry conclusions across steps and sessions in compressed memory, and memory products (e.g., mem0, LangMem) rewrite conversation into stored \"facts\" that later steps trust. We show this rewriting manufactures confidence: across our constructed agent settings, a casual, hedged remark becomes a confident, dated assertion the agent then obeys like a verified fact, granting every above-clearance request it faces. No attacker is needed: a role that was true once and never corrected is stor",
+    "author": "Alex Kwon",
     "source": "arXiv cs.AI",
     "category": "research",
     "references": [
-      "http://arxiv.org/abs/2606.28242v1"
+      "http://arxiv.org/abs/2606.29279v1"
     ]
   },
   {
-    "title": "Govern the Repository, Not the Agent: Measuring Ecosystem-Level Risk in AI-Native Software",
-    "link": "http://arxiv.org/abs/2606.28235v1",
-    "published": "2026-06-26T16:22:08+00:00",
-    "summary": "Autonomous coding agents now open and merge pull requests in shared repositories at scale, and the field evaluates them the way it has always evaluated components, one agent at a time, on isolated benchmark tasks. Yet agents that each pass their own tests still leave repositories that accumulate problems no single contribution accounts for. We ask whether this problem belongs to the individual agent or to the repository where it accumulates. We study integration friction, the cost of integrating",
-    "author": "Daniel Russo",
+    "title": "The Complexity Ceiling Benchmark: A Multi-Domain Evaluation of Sequential Reasoning Under Depth Scaling",
+    "link": "http://arxiv.org/abs/2606.29278v1",
+    "published": "2026-06-28T08:56:34+00:00",
+    "summary": "We introduce the Complexity Ceiling Benchmark (CCB), a controlled evaluation of how language-model reasoning decays as the number of required sequential steps grows. CCB fixes the semantic content of a task and varies only its depth N in {5,...,50} across three structurally distinct regimes: grounded spatial state-tracking, abstract symbolic pointer manipulation, and transitive relational inference. Across 6,000 trials over five frontier and open-weight LLMs we find a consistent pattern of geome",
+    "author": "Shubh Chapra, Dhruv Kumar, Murari Mandal, Yash Sinha",
     "source": "arXiv cs.AI",
     "category": "research",
     "references": [
-      "http://arxiv.org/abs/2606.28235v1"
+      "http://arxiv.org/abs/2606.29278v1"
     ]
   },
   {
-    "title": "Exposure Bias Can Alleviate Itself via Directional and Frequency Rectification in Flow Matching",
-    "link": "http://arxiv.org/abs/2606.28226v1",
-    "published": "2026-06-26T16:14:33+00:00",
-    "summary": "Flow Matching (FM) has achieved remarkable generative performance, yet it suffers from exposure bias due to discrepancies between training and inference. Existing mitigation strategies typically rely on static constraints or external heuristics. In this work, we propose that exposure bias itself inherently contains dynamic signals that can guide its own rectification. To leverage this, we introduce DEFAR (DirEctional-Frequency Adaptive Rectification). This framework simulates the single-step inf",
-    "author": "Guanbo Huang, Jingjia Mao, Fanding Huang, Fengkai Liu, Xiangyang Luo, Yaoyuan Liang, Jiasheng Lu, Xiaoe Wang, Pei Liu, Ruiliu Fu, Ruqi Huang, Shao-Lun Huang",
+    "title": "A Hybrid Framework for Song Lyric Annotation Based on Human-LLM Alignment",
+    "link": "http://arxiv.org/abs/2606.29273v1",
+    "published": "2026-06-28T08:41:19+00:00",
+    "summary": "Emotion recognition of song lyrics is a challenging task since lyrics may not necessarily align with the overall emotion of a song. As a result, lyrics annotation remains largely underexplored. Drawing inspiration from research in large language model (LLM) assisted annotation, we examine the alignment between humans and LLMs for annotation of lyrics by creating a new sentence-level dataset of lyrics. Our observations highlight the subjectivity of the task and the inherent challenges. Following ",
+    "author": "Rashini Liyanarachchi, Frank Tran, Md Mahmudul Hasan, Aditya Joshi, Erik Meijering",
     "source": "arXiv cs.AI",
     "category": "research",
     "references": [
-      "http://arxiv.org/abs/2606.28226v1"
+      "http://arxiv.org/abs/2606.29273v1"
     ]
   },
   {
-    "title": "Towards Value-Constrained Credit Assignment in Fully Delegated AI Cooperatives",
-    "link": "http://arxiv.org/abs/2606.28217v1",
-    "published": "2026-06-26T16:08:36+00:00",
-    "summary": "We propose a framework for reward allocation in fully delegated AI cooperatives where humans are represented by agents that contribute data and participate in model updates under heterogeneous value constraints. The key idea is to credit only those updates that remain admissible after screening them against each principal's value profile. We formulate value-conditioned gradient filtering, online marginal contribution signals, and cumulative revenue settlement within a traversal learning (TL) sub",
-    "author": "Young Yoon, Jimin Kim, Soyeon Park",
+    "title": "Confidence-feedback-weighted graph matching network: online-offline laser-induced damage site matching under complex interference",
+    "link": "http://arxiv.org/abs/2606.29255v1",
+    "published": "2026-06-28T07:53:16+00:00",
+    "summary": "Online inspection images of final optics in high-power laser facilities contain pseudo-damage sites that closely resemble true damage sites. Determining the authenticity of online-detected sites is therefore difficult and requires accurate matching to offline ground-truth sites. However, this matching remains highly challenging due to limited match-discriminative features, local geometric distortions, and numerous distractor sites. Existing matching models mainly suppress distractors implicitly ",
+    "author": "Yueyue Han, Guanhua Chen, Hangcheng Dong, Kang Zhang, Fengdong Chen, Zhitao Peng, Fa Zeng, Qihua Zhu, Guodong Liu",
     "source": "arXiv cs.AI",
     "category": "research",
     "references": [
-      "http://arxiv.org/abs/2606.28217v1"
+      "http://arxiv.org/abs/2606.29255v1"
     ]
   },
   {
-    "title": "HAT-4D: Lifting Monocular Video for 4D Multi-Object Interactions via Human-Agent Collaboration",
-    "link": "http://arxiv.org/abs/2606.28215v1",
-    "published": "2026-06-26T16:05:58+00:00",
-    "summary": "Extracting dynamic 4D object interactions from massive, in-the-wild monocular videos offers a highly efficient data collection pathway for scaling Embodied AI and training VLAs. However, existing monocular 4D reconstruction methods primarily focus on isolated objects, often failing under the severe occlusions and complex dynamics inherent in multi-object interactions. To bridge this gap, we propose HAT-4D, the first agentic framework designed to reconstruct the 3D geometry, temporal dynamics, an",
-    "author": "Jiaxin Li, Yuxiang Wu, Zhenkai Zhang, Xinrui Shi, Haoyuan Wang, Yichen Zhao, Su Linxiang, Chenyang Yu, Mingyu Zhang, Yifan Ding, Boran Wen, Li Zhang, Ruiyang Liu, Yong-Lu Li",
+    "title": "When Summaries Distort Decisions: Information Fidelity in LLM-Compressed Financial Analysis",
+    "link": "http://arxiv.org/abs/2606.29251v1",
+    "published": "2026-06-28T07:44:54+00:00",
+    "summary": "Financial decision-makers face more information than they can directly inspect, making context compression necessary. Yet when large language models (LLMs) compress financial source material, they can alter the investment judgment supported by the original source. We frame this problem as information fidelity: compression loses fidelity when it changes the decision induced by the source. In agentic systems, such losses may recur across intermediate steps and amplify throughout the decision proce",
+    "author": "Hoyoung Lee, Suhwan Park, Seunghan Lee, Jun Seo, Jaehoon Lee, Sungdong Yoo, Minjae Kim, CheolWon Na, Zhangyang Wang, Zach Golkhou, Minkyu Kim, Sotirios Sabanis, Alejandro Lopez-Lira, Dhagash Mehta, Soonyoung Lee, Chanyeol Choi, Wonbin Ahn, Yongjae Lee",
     "source": "arXiv cs.AI",
     "category": "research",
     "references": [
-      "https://lijiaxin0111.github.io/HAT4D/",
-      "http://arxiv.org/abs/2606.28215v1"
+      "http://arxiv.org/abs/2606.29251v1"
     ]
   },
   {
-    "title": "The Remittance Blueprint: Data-driven Intelligence for Sri Lanka",
-    "link": "http://arxiv.org/abs/2606.28190v1",
-    "published": "2026-06-26T15:35:46+00:00",
-    "summary": "This study analyzes Sri Lankan migration and remittances over 32 years (1994-2025). Using a 384-month harmonized dataset, we apply exploratory data analysis, stationarity corrected time-series modeling (ADF, Johansen, VAR/VECM), and supervised learning. Results reveal remittance inflows are primarily driven by external macroeconomic variables, specifically exchange rate dynamics and global oil prices, rather than domestic indicators. Impulse response analysis confirms the asymmetric impact of cu",
-    "author": "Dhinanjaya Fernando, Dinura Ginige, Kalana Lakshan, Chanupa Gurusinghe, Lasana Pahanga, Subavarshana Arumugam, Sandeepa Weerasekara, Sandareka Wickramanayake, Nisansa de Silva",
+    "title": "SurgVLA-Bench: Towards Evaluating Vision-Language-Action Models for Laparoscopic Surgical Robotics",
+    "link": "http://arxiv.org/abs/2606.29247v1",
+    "published": "2026-06-28T07:29:25+00:00",
+    "summary": "Vision-Language-Action (VLA) models represent a promising direction for embodied intelligence in surgical robotics. Despite the prevalence of VLA benchmarks for general robotics, standardized evaluation platforms specifically designed for surgical contexts remain absent. To address this limitation, we present SurgVLA-Bench, the first comprehensive benchmark for evaluating VLA models in laparoscopic surgical robotics. Leveraging the SurRoL simulation platform, we construct a hierarchical task tax",
+    "author": "Jiashuo Sun, Yue He, Wenxuan Liu, Tao Mao, Jiazheng Wang, Xiang Chen, Min Liu",
     "source": "arXiv cs.AI",
     "category": "research",
     "references": [
-      "http://arxiv.org/abs/2606.28190v1"
+      "https://github.com/VCL-HNU/SurgVLA",
+      "http://arxiv.org/abs/2606.29247v1"
     ]
   },
   {
-    "title": "Cognitive Episodes in LLM Reasoning Traces Enable Interpretable Human Item Difficulty Prediction",
-    "link": "http://arxiv.org/abs/2606.28186v1",
-    "published": "2026-06-26T15:32:17+00:00",
-    "summary": "Predicting human item difficulty is central to educational assessment, where reliable estimates support fairness and effective test construction. Existing methods often depend on costly human calibration or item-level textual representations, providing limited evidence about the cognitive processes that make items difficult. We argue that difficulty should be viewed not only as a property of item text, but also as an observable consequence of the problem-solving burden an item induces. Large Rea",
-    "author": "Chenguang Wang, Ming Li, Xinyue Zeng, Zhuochun Li, Hong Jiao, Tianyi Zhou, Dawei Zhou",
+    "title": "MoPe: Motion Permanence for Robust Monocular Gaussian Mapping in Dynamic Environments",
+    "link": "http://arxiv.org/abs/2606.29237v1",
+    "published": "2026-06-28T06:51:17+00:00",
+    "summary": "Robust robot autonomy depends on scene representations that remain stable enough to support localization, navigation, and downstream decision making in dynamic environments. Monocular Gaussian Splatting SLAM provides high-fidelity mapping, but current uncertainty-aware methods still treat dynamic regions largely as per-frame observations. This makes the representation effectively memoryless: when a pedestrian slows, pauses, or reappears after occlusion, the current frame may look static, allowin",
+    "author": "Qixin Xiao",
     "source": "arXiv cs.AI",
     "category": "research",
     "references": [
-      "http://arxiv.org/abs/2606.28186v1"
+      "http://arxiv.org/abs/2606.29237v1"
     ]
   },
   {
-    "title": "LLawCo: Learning Laws of Cooperation for Modeling Embodied Multi-Agent Behavior",
-    "link": "http://arxiv.org/abs/2606.28182v1",
-    "published": "2026-06-26T15:26:12+00:00",
-    "summary": "Embodied agents operating in decentralized and partially observable environments have attracted growing attention in recent years. However, existing large language model (LLM)-based agents often exhibit behaviors that are misaligned with their partners or inconsistent with the environment state, leading to inefficient cooperation and poor task success. To address this challenge, we propose a novel framework, Learning Laws of Cooperation (LLawCo), that enables embodied agents to autonomously alig",
-    "author": "Qinhong Zhou, Chuang Gan, Anoop Cherian",
+    "title": "PolicyGuard: A Dialogue-Grounded Sub-Agent Verifier for Policy Adherence in LLM Agents",
+    "link": "http://arxiv.org/abs/2606.29225v1",
+    "published": "2026-06-28T06:27:36+00:00",
+    "summary": "LLM agents handle user requests on behalf of organizations through tool calls and must follow the company policies stated in their system prompts. Prior work approaches this as a safeguarding problem -- external checks that block non-compliant agent actions. We argue that policy adherence is a broader problem: real workflows unfold across many turns, require explicit user confirmation and prerequisite reads, and hinge on the content of the dialogue rather than on any single argument value. Meeti",
+    "author": "Seongjae Kang, Taehyung Yu, Sung Ju Hwang",
     "source": "arXiv cs.AI",
     "category": "research",
     "references": [
-      "https://www.merl.com/research/highlights/LLawCo",
-      "http://arxiv.org/abs/2606.28182v1"
+      "http://arxiv.org/abs/2606.29225v1"
     ]
   },
   {
