@@ -12,6 +12,127 @@
     ]
   },
   {
+    "title": "Introspective Coupling: Self-Explanation Training Tracks Behavioral Change Despite Fixed Supervision",
+    "link": "http://arxiv.org/abs/2606.32038v1",
+    "published": "2026-06-30T17:59:32+00:00",
+    "summary": "When does training language models (LMs) to generate explanations of their predictions yield faithful introspection, rather than superficial imitation? We study LMs trained to explain which features of their inputs influenced their behavior, using models' counterfactual behavior on modified inputs as supervision. Surprisingly, we find that LMs trained on fixed counterfactual explanations derived from earlier checkpoints of themselves, or even from behaviorally similar models in different familie",
+    "author": "Zifan Carl Guo, Laura Ruis, Jacob Andreas, Belinda Z. Li",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2606.32038v1"
+    ]
+  },
+  {
+    "title": "QVal: Cheaply Evaluating Dense Supervision Signals for Long-Horizon LLM Agents",
+    "link": "http://arxiv.org/abs/2606.32034v1",
+    "published": "2026-06-30T17:58:23+00:00",
+    "summary": "LLM agents increasingly act over long horizons, where a single trajectory can contain hundreds or thousands of actions. In these settings, outcome-only rewards provide too sparse guidance, failing to inform the model about the goodness of intermediate actions. Dense supervision methods aim to solve this problem by scoring intermediate steps, from intrinsic confidence to self-distillation and embedding similarities. However, it is common practice to evaluate them by measuring the downstream perfo",
+    "author": "Sergio Hernández-Gutiérrez, Matteo Merler, Ilze Amanda Auzina, Joschka Strüber, Ameya Prabhu, Matthias Bethge",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2606.32034v1"
+    ]
+  },
+  {
+    "title": "Reinforcement Learning with Metacognitive Feedback Elicits Faithful Uncertainty Expression in LLMs",
+    "link": "http://arxiv.org/abs/2606.32032v1",
+    "published": "2026-06-30T17:56:01+00:00",
+    "summary": "Metacognition is a critical component of intelligence that describes the ability to monitor and regulate one's own cognitive processes. Yet LLMs exhibit systemic deficiencies in key metacognitive faculties: they hallucinate with high confidence, fail to recognize knowledge boundaries, and misrepresent their internal uncertainty--undermining trustworthiness and reliability. Since monitoring task performance and adapting behavior accordingly are central to metacognition, we posit that models capab",
+    "author": "Gabrielle Kaili-May Liu, Avi Caciularu, Gal Yona, Idan Szpektor, Arman Cohan",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2606.32032v1"
+    ]
+  },
+  {
+    "title": "When LLMs Read Tables Carelessly: Measuring and Reducing Data Referencing Errors",
+    "link": "http://arxiv.org/abs/2606.32029v1",
+    "published": "2026-06-30T17:54:50+00:00",
+    "summary": "While large language models (LLMs) perform well on table tasks, they still make data referencing errors (DREs), i.e., incorrectly citing or omitting table values, despite understanding the table structure. Beyond final-answer accuracy, DREs directly compromise the correctness and reliability of intermediate reasoning steps. Yet prior studies have only offered limited, small-scale analyses. In this work, we present the first systematic evaluation of tabular data referencing errors across differen",
+    "author": "Yuqing Yang, Qi Zhu, Zhen Han, Boran Han, Zhengyuan Shen, Shuai Wang, Vassilis N. Ioannidis, Huzefa Rangwala",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2606.32029v1"
+    ]
+  },
+  {
+    "title": "Freeform Preference Learning for Robotic Manipulation",
+    "link": "http://arxiv.org/abs/2606.32027v1",
+    "published": "2026-06-30T17:54:02+00:00",
+    "summary": "Reward design remains a central bottleneck for autonomous robot policy improvement, especially in long-horizon manipulation tasks where sparse success labels provide too little signal and binary preferences collapse many competing notions of quality into one ambiguous signal. We introduce Freeform Preference Learning (FPL), a method for learning robot policies from freeform human preferences. Rather than asking annotators which of two trajectories is better overall, FPL lets them define natural-",
+    "author": "Marcel Torne, Anubha Mahajan, Abhijnya Bhat, Chelsea Finn",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "https://freeform-pl.github.io/fpl.website/",
+      "http://arxiv.org/abs/2606.32027v1"
+    ]
+  },
+  {
+    "title": "AdaJEPA: An Adaptive Latent World Model",
+    "link": "http://arxiv.org/abs/2606.32026v1",
+    "published": "2026-06-30T17:53:48+00:00",
+    "summary": "Latent world models enable planning from high-dimensional observations by predicting future states in a compact latent space. However, these models are typically kept frozen at test time: when their predictions become inaccurate, planning can fail, especially under test-time distribution shift. To address this, we propose AdaJEPA, an adaptive latent world model that performs test-time adaptation within the closed loop of model predictive control (MPC). After training, AdaJEPA plans and executes ",
+    "author": "Ying Wang, Oumayma Bounou, Yann LeCun, Mengye Ren",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2606.32026v1"
+    ]
+  },
+  {
+    "title": "FLORA: A deep learning approach to predict forest attributes from heterogeneous LiDAR data",
+    "link": "http://arxiv.org/abs/2606.32023v1",
+    "published": "2026-06-30T17:52:28+00:00",
+    "summary": "Forest attributes are essential for national-scale resource monitoring. Airborne LiDAR metrics are among the auxiliary variables most strongly correlated with forest attributes used in National Forest Inventory (NFI) estimates. However, producing wall-to-wall predictions remains challenging when LiDAR data are acquired under heterogeneous conditions. As national LiDAR programs expand across Europe, variability in sensors, flight parameters, seasons, and scan angles limits the robustness of exist",
+    "author": "Emilie Vautier, Clément Mallet, Cédric Vega",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2606.32023v1"
+    ]
+  },
+  {
+    "title": "TRIAGE: Role-Typed Credit Assignment for Agentic Reinforcement Learning",
+    "link": "http://arxiv.org/abs/2606.32017v1",
+    "published": "2026-06-30T17:48:07+00:00",
+    "summary": "Agentic reinforcement learning requires assigning credit to environment-facing actions such as searches, clicks, edits, navigation commands, and object interactions. Standard GRPO uses the final verifier outcome as a uniform advantage over all action tokens. This outcome signal is useful but structurally incomplete: it punishes useful exploration in failed rollouts and reinforces redundant or regressive actions in successful rollouts. We propose TRIAGE, a role-typed credit assignment framework t",
+    "author": "Yuanda Xu, Zhengze Zhou, Hejian Sang, Xiaomin Li, Jiaxin Zhang, Xinchen Du, Zhipeng Wang, Alborz Geramifard",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2606.32017v1"
+    ]
+  },
+  {
+    "title": "AxDafny: Agentic Verified Code Generation in Dafny",
+    "link": "http://arxiv.org/abs/2606.32007v1",
+    "published": "2026-06-30T17:39:43+00:00",
+    "summary": "We study agentic code generation in Dafny, where a model must generate both executable code and the proof artifacts for verification. We present AxDafny, a verifier-guided repair framework that iteratively generates implementations, invariants, assertions, and termination arguments. We also introduce LiveCodeBench-Pro-Dafny (LCB-Pro-Dafny), a benchmark of 250 competition-style programming problems translated into Dafny with formal specifications and a verifier-based evaluation harness. On LCB-Pr",
+    "author": "Benjamin Breen, Austin Letson, Borja Requena Pozo, Leopoldo Sarra",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2606.32007v1"
+    ]
+  },
+  {
+    "title": "PolicyGuard: From Organizational Policies to Neuro-SymbolicCompliance Review Engines",
+    "link": "http://arxiv.org/abs/2606.32004v1",
+    "published": "2026-06-30T17:37:57+00:00",
+    "summary": "Policy-grounded document review requires determining whether a target document complies with organization-specific policies, guidelines, or playbooks. While large language models can assist with policy interpretation and document analysis, end-to-end prompting leaves the applied policy logic implicit, making compliance decisions difficult to inspect, update, and test. We present PolicyGuard, a neuro-symbolic framework for policy-grounded document compliance review. PolicyGuard converts organizat",
+    "author": "Sameer Malik, Ayush Singh, Amar Prakash Azad",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2606.32004v1"
+    ]
+  },
+  {
     "title": "Roundtables: Longevity’s Next Frontier: “Reprogramming” Your Body",
     "link": "https://www.technologyreview.com/2026/06/30/1139958/roundtables-longevitys-next-frontier-reprogramming-your-body/",
     "published": "2026-06-30T17:36:48+00:00",
@@ -21,6 +142,66 @@
     "category": "media",
     "references": [
       "https://www.technologyreview.com/2026/06/30/1139958/roundtables-longevitys-next-frontier-reprogramming-your-body/"
+    ]
+  },
+  {
+    "title": "Self-Study Reconsidered: The Hidden Fragility of Learning from Self-Generated QA",
+    "link": "http://arxiv.org/abs/2606.32002v1",
+    "published": "2026-06-30T17:35:14+00:00",
+    "summary": "Language models are increasingly taught from synthetic question--answer (QA) supervision: a model generates questions about a document, answers them from the same text, and the resulting pairs are used to fine-tune, distill, or compress knowledge into another model. We show that this generation step is not neutral preprocessing. It is an implicit policy that both selects which evidence becomes training signal and decides how that evidence is answered, and it is fragile at both stages. When choos",
+    "author": "Ekaterina Alimaskina, Denis Shveykin, Gleb Molodtsov, Igor Shalygin, Alexey Kadeishvili, Aleksandr Beznosikov",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2606.32002v1"
+    ]
+  },
+  {
+    "title": "Radial Suppression Accelerates Algorithmic Generalization: A Geometric Analysis of Delayed Generalization",
+    "link": "http://arxiv.org/abs/2606.32000v1",
+    "published": "2026-06-30T17:34:13+00:00",
+    "summary": "Why do neural networks memorize algorithmic training data long before they generalize? We present a geometric case study demonstrating that, on tasks where generalization requires discovering structured low-dimensional circuits, the memorization-generalization delay is driven by radial inflation of hidden representations under cross-entropy optimization. We formalize a radial-angular decomposition of activation-space dynamics and derive three testable propositions: (i) that penalizing radial inf",
+    "author": "Srijan Tiwari, Aditya Chauhan, Manjot Singh",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2606.32000v1"
+    ]
+  },
+  {
+    "title": "Amplifying Membership Signal Through Chained Regeneration",
+    "link": "http://arxiv.org/abs/2606.31991v1",
+    "published": "2026-06-30T17:29:04+00:00",
+    "summary": "The tendency of large generative models to memorize training data makes sample verification critical for privacy auditing and copyright enforcement. Current membership (MIA) and dataset inference (DI) attacks often rely on one-shot generations, which yield weak signals and limited sensitivity across modalities. Inspired by Model Autophagy Disorder (MAD), we introduce MADreMIA, a model-agnostic framework that enhances white-, gray-, and black-box MIA and DI. Rather than relying on shadow model tr",
+    "author": "Wojciech Łapacz, Stanisław Pawlak",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2606.31991v1"
+    ]
+  },
+  {
+    "title": "GR2 Technical Report",
+    "link": "http://arxiv.org/abs/2606.31984v1",
+    "published": "2026-06-30T17:22:22+00:00",
+    "summary": "Industrial recommendation systems serve billions of users through a multi-stage funnel -- retrieval, early-stage ranking, and re-ranking -- where the final re-ranking step disproportionately shapes user engagement and downstream performance, particularly for carousel and grid display formats. Despite growing enthusiasm for Large Language Models (LLMs) in recommendation, three gaps hinder industrial adoption: (1) most efforts target retrieval and ranking, leaving re-ranking -- the stage closest t",
+    "author": "Yufei Li, Zaiwei Zhang, Mingfu Liang, Kavosh Asadi, Jay Xu, Jimmy Kim, Chongyang Bai, Jieyi Zhang, Hongye Xie, Prachi Agrawal, Dian Yu, Tianyi Chen, Jean-Pascal Billaud, Garret Buell, YK, Zhu, Sachin Patil, Brooke Bian, Zhou Fang, Kevin Huang, Shiva Sudanagunta, Yuzhen Huang, Emma Lu, Chris O'Brien, Yang Song, Lihong Li, Jacob Tao, Zhicheng Zhu, Chao Li, Gaoxiang Liu, Neil Wu, Zhongyin Hu, Li Han, Loki Chen, Ming Lei, Greg Rehm, Siyuan Song, Tianwei Zhang, Li Li, Ketan Singh, Yavuz Yetim, Ilyas Atishev, Satendra Gera, Ashkan Sadeghi, Rachel Yan, Nikko Mizutani, Shuaiwen Wang, Song Yang, Zhijing Li, Jiang Liu, Mengying Sun, Fei Tian, Xiaohan Wei, Chonglin Sun, Parish Aggarwal, Kaushik Rangadurai, Zhi Hua, Frank Shyu, Ruchit Sharma, Liyuan Li, Shike Mei, Wenlin Chen, Santanu Kolay, Ben Schulte, Deepak Chandra, Adam, Song, Sandeep Pandey, Xi Liu, Hamed Firooz, Luke Simon",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2606.31984v1"
+    ]
+  },
+  {
+    "title": "LUNA: Learning Universal 3D Human Animation Beyond Skinning",
+    "link": "http://arxiv.org/abs/2606.31981v1",
+    "published": "2026-06-30T17:19:55+00:00",
+    "summary": "Creating photorealistic, animatable 3D human avatars from monocular images still largely depends on Linear Blend Skinning (LBS) and parametric body models, which constrain expressivity and often introduce artifacts due to imperfect fitting. We propose LUNA, an LBS-free universal neural animation model that directly maps multiple 2D controls like images, keypoints, sketches, and unseen characters into 3D Gaussian deformations, bypassing explicit body fitting. At its core, a transformer-based moti",
+    "author": "Peng Li, Rawal Khirodkar, Junxuan Li, Yuan Dong, Chen Cao, Yuan Liu, Wenhan Luo, Yike Guo, Shunsuke Saito",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2606.31981v1"
     ]
   },
   {
@@ -129,190 +310,6 @@
     "category": "media",
     "references": [
       "https://www.technologyreview.com/2026/06/29/1139849/ai-agents-are-not-your-coworkers/"
-    ]
-  },
-  {
-    "title": "VLK: Learning Humanoid Loco-Manipulation from Synthetic Interactions in Reconstructed Scenes",
-    "link": "http://arxiv.org/abs/2606.30645v1",
-    "published": "2026-06-29T17:59:55+00:00",
-    "summary": "Perception-based humanoid loco-manipulation requires connecting egocentric observations and task instructions to whole-body motion. Learning this mapping requires synchronized egocentric images, language commands, and robot-compatible kinematic trajectories, yet no existing data source provides this complete tuple at scale. We address this bottleneck by generating vision-language-kinematics (VLK) supervision synthetically in reconstructed scenes. Our pipeline leverages 3D Gaussian Splatting to r",
-    "author": "Yen-Jen Wang, Jiaman Li, Sirui Chen, Takara E. Truong, Pei Xu, Pieter Abbeel, Rocky Duan, Koushil Sreenath, Angjoo Kanazawa, Carmelo Sferrazza, Guanya Shi, Karen Liu",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "https://vision-language-kinematics.github.io/",
-      "http://arxiv.org/abs/2606.30645v1"
-    ]
-  },
-  {
-    "title": "LeVo 2: Stable and Melodious Song Generation via Hierarchical Representation Modeling and Progressive Post-Training",
-    "link": "http://arxiv.org/abs/2606.30642v1",
-    "published": "2026-06-29T17:59:20+00:00",
-    "summary": "Full-length song generation must preserve coherence and musicality, render detailed vocal and accompaniment acoustics, and follow lyrics and prompts. Existing language model-based systems face a structural trade-off: mixed-token modeling preserves vocal-instrument coordination but obscures track-specific details, whereas dual-track prediction improves acoustics but requires longer sequences and weakens global planning. We present LeVo 2, a hybrid LLM-Diffusion framework for controllable full-len",
-    "author": "Shun Lei, Huaicheng Zhang, Dapeng Wu, Yaoxun Xu, Lishi Zuo, Wei Tan, Hangting Chen, Guangzheng Li, Jianwei Yu, Zhiyong Wu, Dong Yu",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2606.30642v1"
-    ]
-  },
-  {
-    "title": "Self-Evolving World Models for LLM Agent Planning",
-    "link": "http://arxiv.org/abs/2606.30639v1",
-    "published": "2026-06-29T17:58:43+00:00",
-    "summary": "World models offer a principled way to equip long-horizon LLM agents with foresight: predictions of action consequences before execution. However, unreliable foresight can be ignored, misused, or even degrade downstream decision-making. In this paper, we introduce WorldEvolver, a self-evolving world model framework that revises its deployment-time context while keeping the downstream agent and all model parameters frozen. WorldEvolver integrates three modules: (i) Episodic Memory, which exploits",
-    "author": "Xuan Zhang, Wenxuan Zhang, See-Kiong Ng, Yang Deng",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2606.30639v1"
-    ]
-  },
-  {
-    "title": "GROW$^2$: Grounding Which and Where for Robot Tool Use",
-    "link": "http://arxiv.org/abs/2606.30632v1",
-    "published": "2026-06-29T17:56:53+00:00",
-    "summary": "Can the robot use a plate to cut a cake if no knife is available? Tool use greatly expands robot capabilities, but to use tools creatively beyond their intended functions, the robot faces the challenge of $\\textit{open-world affordance grounding}$: select an open-category object to act as a tool and localize its specific region of action. To this end, we introduce GROW$^2$ (GROunding Which and Where), which leverages object parts as a natural abstraction to split the grounding process hierarchic",
-    "author": "Yuhong Deng, Yuyao Liu, David Hsu",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2606.30632v1"
-    ]
-  },
-  {
-    "title": "Pessimism's Paradox: Conservative Offline Training Amplifies Reward Hacking During Online Adaptation in Reasoning Models",
-    "link": "http://arxiv.org/abs/2606.30627v1",
-    "published": "2026-06-29T17:56:03+00:00",
-    "summary": "Conservative offline training is widely advocated as a safe foundation for subsequent online adaptation: if a policy stays close to well-supported behaviour, the argument goes, it is less likely to exploit imperfections in a learned reward model. We challenge this intuition empirically and mechanistically. We train a Qwen3-14B policy under Direct Preference Optimisation (DPO) with three levels of conservatism ($β\\in \\{β_{\\mathrm{lo}}, β_{\\mathrm{mid}}, β_{\\mathrm{hi}}\\}$ derived from empirical l",
-    "author": "Subramanyam Sahoo, Aman Chadha, Vinija Jain, Divya Chaudhary",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2606.30627v1"
-    ]
-  },
-  {
-    "title": "DOPD: Dual On-policy Distillation",
-    "link": "http://arxiv.org/abs/2606.30626v1",
-    "published": "2026-06-29T17:55:53+00:00",
-    "summary": "On-policy distillation (OPD) offers superior capacity transfer by supervising student-sampled trajectories with dense token-level signals. To furnish high-quality supervision sources and thereby elevate the performance frontier of distillation, an intuitive direction is to infuse privileged information to either teacher or student itself. However, this additional input induces a potential failure mode we dub privilege illusion: a pattern that conflates the transferable capability gap that studen",
-    "author": "Xinlei Yu, Gen Li, Qingyi Si, Guibin Zhang, Yuqi Xu, Congcong Wang, Shuai Dong, Kaiwen Tuo, Xiangyu Zeng, Kaituo Feng, Qunzhong Wang, Yang Shi, Xiaobin Hu, Xiangyu Yue, Jiaqi Wang, Shuicheng Yan",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2606.30626v1"
-    ]
-  },
-  {
-    "title": "Optimization Dynamics Imprint Semantic Specificity in Contrastive Embedding Norms",
-    "link": "http://arxiv.org/abs/2606.30625v1",
-    "published": "2026-06-29T17:55:40+00:00",
-    "summary": "Contrastive embedding models trained with scale-invariant losses are typically paired with distance metrics like cosine similarity, effectively ignoring embedding magnitudes. However, surprisingly, empirical studies reveal that despite this, these \"discarded\" norms seem to correlate with semantic properties such as concept specificity, token frequency, and human uncertainty. In this work, we provide a formal theoretical framework explaining this phenomenon. By analyzing the optimization dynamics",
-    "author": "Ziwei Su, Junyu Ren, Victor Veitch",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2606.30625v1"
-    ]
-  },
-  {
-    "title": "C$^{2}$R: Cross-sample Consistency Regularization Mitigates Feature Splitting and Absorption in Sparse Autoencoders",
-    "link": "http://arxiv.org/abs/2606.30609v1",
-    "published": "2026-06-29T17:45:31+00:00",
-    "summary": "Sparse Autoencoders (SAEs) are widely used to interpret large language models by decomposing activations into sparse, human-understandable features, but scaling to large dictionaries exposes fundamental challenges. Systematic studies reveal pervasive feature splitting that fragments coherent concepts into non-atomic latents and widespread feature absorption that creates arbitrary exceptions in general features, severely compromising latent reliability. These issues stem from inconsistent latent ",
-    "author": "Haoran Jin, Xiting Wang, Shijie Ren, Hong Xie, Defu Lian",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "https://github.com/hr-jin/Cross-sample-Consistency-Regularization",
-      "http://arxiv.org/abs/2606.30609v1"
-    ]
-  },
-  {
-    "title": "MESA: Prioritizing Vulnerable Communication Channels for Securing Multi-Agent Systems",
-    "link": "http://arxiv.org/abs/2606.30602v1",
-    "published": "2026-06-29T17:40:45+00:00",
-    "summary": "Multi-agent systems (MAS) are increasingly used to automate complex, distributed workflows. However, their inter-agent communication channels introduce new attack surfaces that remain poorly understood and are difficult to defend against. In this paper, we address how defenders should prioritize limited security effort to protect vulnerable communication channels before attacks are observed. This is motivated by our observation that the channel-level attack impact is highly non-uniform: a single",
-    "author": "Kunyang Li, Kyle Domico, Jonathan Gregory, Patrick McDaniel",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2606.30602v1"
-    ]
-  },
-  {
-    "title": "Words Speak Louder Than Code: Investigating Cognitive Heuristics in LLM-Based Code Vulnerability Detection",
-    "link": "http://arxiv.org/abs/2606.30587v1",
-    "published": "2026-06-29T17:31:10+00:00",
-    "summary": "Researchers and practitioners increasingly apply Large Language Models (LLMs) for automated vulnerability detection. Recent work has shown that LLMs are susceptible to the same cognitive heuristics that bias human judgment. Yet, no work has investigated whether these heuristics affect a model's assessment of code vulnerabilities. In this paper, we present the first systematic exploration of cognitive heuristics in LLM-driven code vulnerability detection. We introduce a controlled framework that ",
-    "author": "Asif Shahriar, Hongyu Cai, Hadjer Benkraouda, Gang Wang, Z. Berkay Celik",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2606.30587v1"
-    ]
-  },
-  {
-    "title": "Beyond 2D Matching: A Unified Single-Stage Framework for Geometry-Aware Cross-View Object Geo-Localization",
-    "link": "http://arxiv.org/abs/2606.30576v1",
-    "published": "2026-06-29T17:19:49+00:00",
-    "summary": "Cross-view object geo-localization (CVOGL) aims to locate a target object from a query view (e.g., ground or drone) within a geo-tagged reference image (e.g., satellite). Existing approaches heavily rely on 2D appearance matching and are constrained by limited datasets lacking geometric metadata, diverse prompts, and standard field-of-view imagery. To address these intertwined challenges, we first introduce \\dataset, a large-scale, high-fidelity building dataset comprising over 220,000 ground-sa",
-    "author": "Liyao Wang, Ruipu Wu, Haojun Xu, Lei Shi, Linjiang Huang, Si Liu",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2606.30576v1"
-    ]
-  },
-  {
-    "title": "A Multi-task Mixture of Experts Framework for Malware Classification, Packing Detection, and Family Attribution",
-    "link": "http://arxiv.org/abs/2606.30572v1",
-    "published": "2026-06-29T17:15:25+00:00",
-    "summary": "Malware classification remains a challenging problem due to its inherent heterogeneity, the presence of packed binaries, and the diverse distribution of malware families. Traditional single-model detection mechanisms often fail to generalize across such diverse data, leading to degraded performance, particularly on obfuscated and rare malware samples. In this work, we propose a unified multi-task malware analysis framework based on Mixture of Experts (MoE) architectures. The proposed system eval",
-    "author": "Jithin S., Roshin Sleeba C., Anvin Mariya P. B., Asmitha K. A., Vinod P., Serena Nicolazzo, Antonino Nocera",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2606.30572v1"
-    ]
-  },
-  {
-    "title": "The Human Creativity Benchmark",
-    "link": "http://arxiv.org/abs/2606.30561v1",
-    "published": "2026-06-29T16:59:46+00:00",
-    "summary": "Modern AI evaluation frameworks treat evaluator disagreement as noise to be resolved. In creative domains, professional disagreement reflects genuine differences in taste, not measurement error. We argue that evaluating creative AI requires preserving two distinct signals: convergence, where professionals align around shared best practices, and divergence, where individual taste legitimately varies. We present the Human Creativity Benchmark (HCB), a benchmark that operationalizes this separation",
-    "author": "Aspen Hopkins, Allison Nulty, Alexandria Minetti, Anoop Pakki, Angad Singh",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2606.30561v1"
-    ]
-  },
-  {
-    "title": "TraceLab: Characterizing Coding Agent Workloads for LLM Serving",
-    "link": "http://arxiv.org/abs/2606.30560v1",
-    "published": "2026-06-29T16:59:05+00:00",
-    "summary": "Coding agents are rapidly becoming a major application of agentic LLMs, but serving them efficiently remains challenging. Progress on this challenge requires understanding real workload patterns, yet the data needed for such analysis is largely absent. Existing public traces and benchmarks do not capture real, day-to-day coding-agent usage across multiple agents and model families for serving-system analysis. To help fill this gap, we collect and release a trace of roughly 4,300 coding-agent ses",
-    "author": "Kan Zhu, Mathew Jacob, Chenxi Ma, Yi Pan, Stephanie Wang, Arvind Krishnamurthy, Baris Kasikci",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "https://github.com/uw-syfi/TraceLab.git",
-      "https://tracelab.cs.washington.edu",
-      "http://arxiv.org/abs/2606.30560v1"
-    ]
-  },
-  {
-    "title": "Linguistic Firewall: Geometry as Defense in Multi-Agent Systems Routing",
-    "link": "http://arxiv.org/abs/2606.30555v1",
-    "published": "2026-06-29T16:51:06+00:00",
-    "summary": "The rapid integration of Large Language Models (LLMs) has driven the evolution of Multi-Agent Systems (MAS), where specialized agents collaborate to execute complex workflows. Effective orchestration in these environments requires robust routing mechanisms to efficiently allocate tasks to the most suitable agent. However, existing routers fundamentally rely on unverified proxies, ranging from textual self-descriptions to static surrogate representations, to gauge an agent's competence. This reli",
-    "author": "Dvir Alsheich, Adar Peleg, Ben Hagag, Rom Himelstein, Amit Levi, Avi Mendelson",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2606.30555v1"
     ]
   },
   {
