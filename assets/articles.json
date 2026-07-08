@@ -1,5 +1,186 @@
 [
   {
+    "title": "ELSA3D: Elastic Semantic Anchoring for Unified 3D Understanding and Generation",
+    "link": "http://arxiv.org/abs/2607.06565v1",
+    "published": "2026-07-07T17:59:50+00:00",
+    "summary": "Unified 3D foundation models aspire to generate 3D assets and reason about them in language within a single backbone, but their text-3D interaction remains largely implicit. Existing methods concatenate text and 3D tokens into a flat sequence and rely on self-attention, collapsing coarse structural cues and fine geometric details into one undifferentiated representation. We introduce ELSA3D, a unified 3D model that addresses this with elastic semantic anchoring, structuring language and geometri",
+    "author": "Tianjiao Yu, Xinzhuo Li, Yifan Shen, Onkar Susladkar, Yuanzhe Liu, Xiaona Zhou, Ismini Lourentzou",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2607.06565v1"
+    ]
+  },
+  {
+    "title": "Graph Convolutional Attention: A Spectral Perspective on Graph Denoising and Diffusion",
+    "link": "http://arxiv.org/abs/2607.06546v1",
+    "published": "2026-07-07T17:52:17+00:00",
+    "summary": "Denoising graphs is a fundamental problem in graph learning and the core operation of graph diffusion models. Attention-based architectures like graph transformers have recently shown promise in denoising graphs. However, our principled understanding of attention-based graph denoising remains limited, making it unclear whether standard attention is the right mechanism for this task. Here we show that, under a denoising objective, linear attention is suboptimal and can only learn an average spect",
+    "author": "Shervin Khalafi, Igor Krawczuk, Sergio Rozada, Charilaos Kanatsoulis, Antonio G Marques, Alejandro Ribeiro",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2607.06546v1"
+    ]
+  },
+  {
+    "title": "Rethinking Indic AI from a Lens of Cultural Heritage Preservation",
+    "link": "http://arxiv.org/abs/2607.06544v1",
+    "published": "2026-07-07T17:51:10+00:00",
+    "summary": "As Artificial Intelligence (AI) makes inroads into different parts of the Indian subcontinent, there is significant interest in studying how AI impacts the linguistic and cultural foundations of this civilization. AI is seen as a ''double-edged sword'' where on the one hand, it can enable access and inclusion for a large population, on the other, it can homogenize worldviews and exclude underrepresented languages and worldviews. In this paper, we try to characterize this problem by addressing th",
+    "author": "Aparna Madva, Sharath Srivatsa, Srinath Srinivasa, Tulika Saha",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2607.06544v1"
+    ]
+  },
+  {
+    "title": "The Large Cancer Assistant (LCA): A Model-Agnostic Orchestration Framework for Scalable Clinical Decision Support in Oncology",
+    "link": "http://arxiv.org/abs/2607.06531v1",
+    "published": "2026-07-07T17:38:47+00:00",
+    "summary": "- Objective: Multimodal deep learning models in oncology are currently limited by monolithic designs that rigidly couple data ingestion, clinical routing, and artificial intelligence (AI) inference. To address this inflexibility, we propose the Large Cancer Assistant (LCA), a model-agnostic, post-hoc orchestration framework designed for scalable clinical decision support. - Methods: The LCA is mathematically formalized as a 7-tuple architecture grounded in the principle of Algorithmic Impermeabi",
+    "author": "Ghassen Marrakchi, Basarab Matei",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2607.06531v1"
+    ]
+  },
+  {
+    "title": "RSF-GLLM: Bridging the Semantic Gap in Multi-Hop Knowledge Graph QA via Recurrent Soft-Flow and Decoupled LLM Generation",
+    "link": "http://arxiv.org/abs/2607.06527v1",
+    "published": "2026-07-07T17:32:36+00:00",
+    "summary": "Multi-hop Question Answering over Knowledge Graphs faces a critical challenge: traditional retrieve-then-read pipelines break differentiability, preventing the retriever from learning to bridge the semantic gap where intermediate nodes lack lexical overlap with the query. To address this, we propose RSF-GLLM, a framework decoupling differentiable graph reasoning from answer generation. Our Recurrent Soft-Flow (RSF) module employs a GRU-guided query updater to propagate continuous relevance score",
+    "author": "Sambaran Bandyopadhyay, Ananth Muppidi",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2607.06527v1"
+    ]
+  },
+  {
+    "title": "DepthWeave-KV: Token-Adaptive Cross-Layer Residual Factorization for Long-Context KV Cache Compression",
+    "link": "http://arxiv.org/abs/2607.06523v1",
+    "published": "2026-07-07T17:29:01+00:00",
+    "summary": "Long-context language model inference is increasingly limited by the memory bandwidth and capacity required to store key-value caches, yet existing compression methods often apply uniform budgets across layers or tokens and degrade retrieval when lexical cues and semantic states require different preservation. We introduce DepthWeave-KV, a token-adaptive cache compression method that factorizes key and value states across neighboring transformer layers using shared low-rank channel bases while r",
+    "author": "Anna Cordoba, Adam Puente Tercero, Nerea Angulo Hijo, Mar Linares Tercero, Julia Barrientos, Ainhoa Miranda, Jesus Olivera",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2607.06523v1"
+    ]
+  },
+  {
+    "title": "Bridging Physical Reasoning and Task Generalization via Visual Action Outcome Reasoning Alignment",
+    "link": "http://arxiv.org/abs/2607.06522v1",
+    "published": "2026-07-07T17:27:59+00:00",
+    "summary": "Vision-language models (VLMs) struggle to generalize in interactive physical reasoning, particularly under unseen tasks and environments. Two key failure modes are prominent: hallucinated chain-of-thought (CoT) reasoning that contradicts physical reality, and misalignment between the model's reasoning and actions. We present VAORA (Visual Action Outcome Reasoning Alignment), a novel reward design that directly addresses both issues. VAORA introduces two complementary rewards: Visual Alignment Re",
+    "author": "Han-Jun Ko, Jr-Jen Chen, Haobo Yuan, Hsin-Ying Lee, Tiancheng Shen, Ming-Hsuan Yang, Yu-Chiang Frank Wang",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2607.06522v1"
+    ]
+  },
+  {
+    "title": "FreqDepthKV: Frequency-Guided Depth Sharing for Robust KV Cache Compression in Long-Context LLM Inference",
+    "link": "http://arxiv.org/abs/2607.06519v1",
+    "published": "2026-07-07T17:26:28+00:00",
+    "summary": "Long-context LLM inference is increasingly limited by the memory and bandwidth cost of KV caches, yet aggressive compression can remove the layer-specific evidence needed for retrieval and multi-step reasoning. We introduce FreqDepthKV, an inference-time cache compression method that factorizes adjacent-layer KV states into shared low-frequency depth components and sparse high-frequency residuals. A lightweight online probe assigns attention heads to shared-depth, residual-depth, or exact cache ",
+    "author": "Anna Córdoba, Adam Puente Tercero, Nerea Angulo Hijo, Mar Linares Tercero, Julia Barrientos, Ainhoa Miranda, Jesús Olivera",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2607.06519v1"
+    ]
+  },
+  {
+    "title": "FootsiesGym: A Fighting Game Benchmark for Two-Player Zero-Sum Imperfect-Information Games",
+    "link": "http://arxiv.org/abs/2607.06514v1",
+    "published": "2026-07-07T17:18:44+00:00",
+    "summary": "We present FootsiesGym, an open-source environment for learning in a non-trivial two-player, zero-sum, imperfect-information game. Built on HiFight's minimalist 2D fighting game Footsies, it isolates the cyclic, non-transitive strategic interactions of fighting game neutral play while remaining simple enough for efficient analysis. We provide a vectorized simulator that enables high-throughput training on standard hardware, making the environment accessible and reproducible. We describe the desi",
+    "author": "Chase McDonald, Nathan Tsang, Wesley N. Kerr",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "https://github.com/como-research/FootsiesGym",
+      "http://arxiv.org/abs/2607.06514v1"
+    ]
+  },
+  {
+    "title": "Industry Classification of GitHub Repositories Using the North American Industry Classification System (NAICS)",
+    "link": "http://arxiv.org/abs/2607.06505v1",
+    "published": "2026-07-07T17:06:32+00:00",
+    "summary": "GitHub hosts hundreds of millions of public repositories, but the platform exposes no native mapping from repositories to standardized industry sectors. This gap limits empirical work on the geography of innovation, the industrial composition of open-source production, and the diffusion of new technologies across economic sectors. We present NAICS-GH, a publicly released corpus of 6,588 GitHub repositories drawn from source pools covering the United States, the European Union, and Australia, eac",
+    "author": "Kevin Xu, Alexander Quispe",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2607.06505v1"
+    ]
+  },
+  {
+    "title": "RMISC: A Large-scale Real-world Multivariate Corpus for Time Series Foundation Models",
+    "link": "http://arxiv.org/abs/2607.06504v1",
+    "published": "2026-07-07T17:04:44+00:00",
+    "summary": "Recent years have witnessed the emergence of multivariate modeling using time series foundation models (TSFMs), which achieve advanced zero-shot generalization. Modern multivariate TSFMs are predominantly pretrained on multivariate synthetic data, which is easier to scale but may fail to capture the complex temporal dynamics and cross-variable relationships present in real-world time series. This raises a key question: Whether and to what extent the leading TSFMs trained with the real-world corp",
+    "author": "Qian Sun, Yong-Ming Tian, Jia-Wei Huang, Cheng Feng, Shao-Qun Zhang",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2607.06504v1"
+    ]
+  },
+  {
+    "title": "Doomed from the Start: Early Abort of LLM Agent Episodes via a Recall-Controlled Probe Cascade",
+    "link": "http://arxiv.org/abs/2607.06503v1",
+    "published": "2026-07-07T17:03:55+00:00",
+    "summary": "Large language model (LLM) agents solving multi-step tasks frequently commit to trajectories that are doomed to fail, yet continue to consume substantial inference compute before the failure becomes observable. We show that failure is predictable early from the agent's internal representations: lightweight per-round probes on hidden activations anticipate eventual episode failure as early as the first interaction round, where scorers reading only the agent's observable behavior are barely better",
+    "author": "Kai Ruan, Zihe Huang, Ziqi Zhou, Qianshan Wei, Xuan Wang, Hao Sun",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2607.06503v1"
+    ]
+  },
+  {
+    "title": "Pitwall: Faithful Natural-Language Race-Strategy Briefings from a Calibrated Real-Time Monte Carlo Engine",
+    "link": "http://arxiv.org/abs/2607.06495v1",
+    "published": "2026-07-07T16:55:39+00:00",
+    "summary": "Live sports commentary is grounded generation under a deadline: statements concern real, named athletes, the grounding state changes every few seconds, and no reference text exists at generation time. We present Pitwall, a production system that generates natural-language Formula 1 strategy briefings in English, Spanish, and Portuguese, treating faithfulness as an architectural property rather than an aspiration: every published sentence is decomposed into typed factual claims (positions, gaps, ",
+    "author": "Juan S. Santillana",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2607.06495v1"
+    ]
+  },
+  {
+    "title": "Multi-Agent Deep Reinforcement Learning for Multi Objective Battery Management in Dairy Farms",
+    "link": "http://arxiv.org/abs/2607.06489v1",
+    "published": "2026-07-07T16:48:27+00:00",
+    "summary": "The dairy industry in Ireland has a large potential for the integration of renewable energy and the reduction of carbon emissions. However, researchers of distributed generation control are mainly focused on residential and commercial applications. To contribute to the effective integration of renewable energy in the dairy sector, this paper presents a multi-objective optimisation control system based on differential evolution and multi agent Deep Reinforcement Learning. The proposed control is ",
+    "author": "Marcos Eduardo Cruz Victorio, Karl Mason",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2607.06489v1"
+    ]
+  },
+  {
+    "title": "AirflowAttack: Thermal-Airflow Adversarial Perturbations against Infrared Remote-Sensing Vision-Language Models",
+    "link": "http://arxiv.org/abs/2607.06485v1",
+    "published": "2026-07-07T16:46:46+00:00",
+    "summary": "Vision-language models (VLMs) are increasingly deployed on infrared (IR) remote sensing imagery in security-critical settings, yet their adversarial robustness remains unexamined. We present AirflowAttack, to our knowledge the first adversarial attack for IR remote-sensing VLMs and the first to weaponize thermal-airflow turbulence as the perturbation prior. A lightweight generator synthesizes a single input-agnostic perturbation regularized toward physically plausible airflow patterns. Optimized",
+    "author": "Cong Su, Jiaju Han, Xuemeng Sun, Chengyin Hu, Qike Zhang, Jiujiang Guo, Yiwei Wei, Jiahuan Long",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2607.06485v1"
+    ]
+  },
+  {
     "title": "The Download: your stake in OpenAI, and the Treasury’s AI warning",
     "link": "https://www.technologyreview.com/2026/07/07/1140197/the-download-your-openai-stake-treasury-ai-warning/",
     "published": "2026-07-07T12:10:00+00:00",
@@ -81,189 +262,6 @@
     "category": "media",
     "references": [
       "https://www.technologyreview.com/2026/07/06/1140176/your-familys-300-stake-in-openai/"
-    ]
-  },
-  {
-    "title": "From Fixed to Free Cameras: Calibration-Free View-Robust Vision-Language-Action Model",
-    "link": "http://arxiv.org/abs/2607.05396v1",
-    "published": "2026-07-06T17:59:59+00:00",
-    "summary": "Real-world robot deployment rarely maintains the training-stage camera setup, where cameras often experience repositioning or remounting depending on actual scenarios. Existing view-robust Vision-Language-Action (VLA) policies tolerate such camera variations only when the camera extrinsics are explicitly provided, making them fragile and hard to use especially when view robustness is critical. We argue that the policy should not be told where the camera is, but rather figure it out by itself. To",
-    "author": "Wenhao Li, Xueying Jiang, Quanhao Qian, Deli Zhao, Shijian Lu, Gongjie Zhang, Ran Xu",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "https://alibaba-damo-academy.github.io/CamVLA/",
-      "http://arxiv.org/abs/2607.05396v1"
-    ]
-  },
-  {
-    "title": "Weak-to-Strong Generalization via Direct On-Policy Distillation",
-    "link": "http://arxiv.org/abs/2607.05394v1",
-    "published": "2026-07-06T17:59:58+00:00",
-    "summary": "Reinforcement learning with verifiable rewards (RLVR) is a powerful recipe for improving language-model reasoning, but it is expensive to repeat on every new strong model because the target model must generate many rollouts during training. As models scale, post-training itself becomes a bottleneck. We study a weak-to-strong alternative: run RL on a smaller model where rollouts are cheaper, then reuse what that RL run learned to improve a stronger target model. Directly distilling the post-RL we",
-    "author": "Shiyuan Feng, Huan-ang Gao, Haohan Chi, Hanlin Wu, Zhilong Zhang, Zheng Jiang, Bingxiang He, Wei-Ying Ma, Ya-Qin Zhang, Hao Zhou",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2607.05394v1"
-    ]
-  },
-  {
-    "title": "Interpretable Human-Label-Free Deep Learning for Real-Bogus Classification with Uncertainty Quantification",
-    "link": "http://arxiv.org/abs/2607.05393v1",
-    "published": "2026-07-06T17:59:58+00:00",
-    "summary": "Time-domain surveys generate many transient candidates, making Real-Bogus classification a critical step in automated discovery pipelines. Reliable labels are costly, while community labels can be noisy and survey-dependent. We aim to develop a Real-Bogus classification framework that can be trained without human-labeled data using injected transients and bogus-dominated survey data, remains robust under strong class contamination, and provides calibrated uncertainty quantification. We combine s",
-    "author": "Raphaël Bonnet-Guerrini, Bruno Sanchez, Dominique Fouchez, Benjamin Racine, Maya Guy, Mariam Sabalbal, Manal Yassine, Vincenzo Piuri",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2607.05393v1"
-    ]
-  },
-  {
-    "title": "LLM-as-a-Verifier: A General-Purpose Verification Framework",
-    "link": "http://arxiv.org/abs/2607.05391v1",
-    "published": "2026-07-06T17:59:35+00:00",
-    "summary": "Scaling pre-training, post-training, and test-time compute have become the central paradigms for improving the capabilities of LLMs. In this work, we identify verification, the ability to determine the correctness of a solution, as a new scaling axis. To unlock this and demonstrate its effectiveness, we introduce LLM-as-a-Verifier, a general-purpose verification framework that provides fine-grained feedback for agentic tasks without requiring additional training. Unlike standard LM judges that p",
-    "author": "Jacky Kwok, Shulu Li, Pranav Atreya, Yuejiang Liu, Yixing Jiang, Chelsea Finn, Marco Pavone, Ion Stoica, Azalia Mirhoseini",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2607.05391v1"
-    ]
-  },
-  {
-    "title": "Search Beyond What Can Be Taught: Evolving the Knowledge Boundary in Agentic Visual Generation",
-    "link": "http://arxiv.org/abs/2607.05382v1",
-    "published": "2026-07-06T17:56:12+00:00",
-    "summary": "Visual generators excel at rendering, but they confidently fabricate what they do not know. User requests are unbounded, evolving, and deeply long-tailed: new characters, trending entities, post-cutoff events, and more. This world-knowledge bottleneck is structural: generators are trained on fixed corpora, but the visual world is open-ended. We construct SearchGen-20K and SearchGen-Bench, with 20,839 prompts spanning twelve failure categories and twenty-two domains, paired with a pre-executed mu",
-    "author": "Haozhe Wang, Weijia Feng, Jinpeng Yu, Che Liu, Ping Nie, Fangzhen Lin, Jiaming Liu, Ruihua Huang, Jimmy Lin, Wenhu Chen, Cong Wei",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2607.05382v1"
-    ]
-  },
-  {
-    "title": "What Does a Discrete Diffusion Model Learn?",
-    "link": "http://arxiv.org/abs/2607.05381v1",
-    "published": "2026-07-06T17:56:11+00:00",
-    "summary": "What does a discrete diffusion model learn: a denoiser, a score ratio, or a bridge plug-in predictor? At the level of jump rates, these are one object in different coordinates, and reading a neural network in the wrong coordinate changes the process being trained and sampled. Starting with a rigorous derivation of the continuous-time Markov chain (CTMC) ELBO for any noising process, boundary terms included, we prove the \\emph{Oracle Distance} theorem: the negative ELBO is exactly equal to the da",
-    "author": "Rodrigo Casado Noguerales, Bernhard Schölkopf, Thomas Hofmann, Aran Raoufi",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2607.05381v1"
-    ]
-  },
-  {
-    "title": "Cortex: A Bidirectionally Aligned Embodied Agent Framework for Long-horizon Manipulation",
-    "link": "http://arxiv.org/abs/2607.05377v1",
-    "published": "2026-07-06T17:55:05+00:00",
-    "summary": "While recent Vision-Language-Action (VLA) models show promise toward generalist manipulation policies, they struggle with long-horizon tasks due to their Markovian nature-relying solely on current observations. Hierarchical dual-system methods address this but suffer from a gap between high-level planning semantics and low-level execution kinematics. We introduce Cortex, a bidirectionally aligned embodied agent framework with a customized planning interface that conveys executable and tractable ",
-    "author": "Jiaqi Peng, Xiqian Yu, Delin Feng, Yuqiang Yang, Wenzhe Cai, Jing Xiong, Ganlin Yang, Jinliang Zheng, Jiafei Cao, Xueyuan Wei, Jiangmiao Pang, Yuan Shen, Tai Wang",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2607.05377v1"
-    ]
-  },
-  {
-    "title": "GaP: A Graph-as-Policy Multi-Agent Self-Learning Harness For Variational Automation Tasks",
-    "link": "http://arxiv.org/abs/2607.05369v1",
-    "published": "2026-07-06T17:47:31+00:00",
-    "summary": "For robots to work reliably in commercial and industrial applications, can recent advances in agentic coding systems combine interpretable robot programming with the open-world adaptability of model-free policies? We focus on \"Variational Automation\" (VA), a class of tasks that have larger variations in object geometry and pose than fixed automation. Model-free policies often struggle to close the reliability gap for VA tasks, which must be executed persistently and reliably in commercial and in",
-    "author": "Kaiyuan Chen, Shuangyu Xie, Letian Fu, Justin Yu, William Pacini, Sandeep Bajamahal, Hudson Kim, Jaimyn Drake, Daehwa Kim, Haoru Xue, Jonathan Francis, Christian Juette, Peter Schaldenbrand, Muhammet Yunus Seker, Ruwan Wickramarachchi, Uksang Yoo, Guanzhi Wang, Adithyavairavan Murali, Balakumar Sundaralingam, S. Shankar Sastry, Spencer Huang, Yuke Zhu, Linxi \"Jim\" Fan, Ken Goldberg",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "https://graph-robots.github.io/gap",
-      "http://arxiv.org/abs/2607.05369v1"
-    ]
-  },
-  {
-    "title": "SPEARBench: A Benchmark for Naturalness Evaluation in Streaming Speech-to-Speech Language Models",
-    "link": "http://arxiv.org/abs/2607.05365v1",
-    "published": "2026-07-06T17:42:59+00:00",
-    "summary": "Streaming speech-to-speech language models aim to answer spoken queries directly with synthetic speech. However, standard speech and text benchmarks do not capture whether these systems behave naturally in conversations, where timing, turn-taking, prosody, interpersonal stance, language and dialect consistency, and relationship-aware appropriateness jointly shape perceived quality. We introduce SPEARBench, a benchmark for evaluating naturalness in speech-to-speech language models from question-a",
-    "author": "Thomas Thebaud, Yuzhe Wang, Hao Zhang, Sathvik Manikantan Napa Ugandhar, Ashish Hallur, Georgi Tinchev, Venkatesh Ravichandran, Laureano Moro-Velazquez",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2607.05365v1"
-    ]
-  },
-  {
-    "title": "REDDIT: Correcting Model-Generated Timestamp Drift in ASR without Forgetting via Replay-Based Distribution Editing",
-    "link": "http://arxiv.org/abs/2607.05364v1",
-    "published": "2026-07-06T17:40:54+00:00",
-    "summary": "Modern autoregressive ASR systems can emit timestamps as decoded tokens, enabling timestamped transcription without frame-level aligners or inference-time post-processing. We show that these generated timestamps can drift across long non-speech spans: the transcript may remain plausible, but the decoded time axis drifts away from the audio. We study this non-speech-induced timestamp drift with self-built gap and long-gap benchmarks across 15 evaluated timestamp-producing ASR and audio-language s",
-    "author": "Cheng-Kang Chou, Ming-To Chuang, Ke-Han Lu, Chan-Jan Hsu, Hung-yi Lee",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2607.05364v1"
-    ]
-  },
-  {
-    "title": "SovereignPA-Bench: Evaluating User-Owned Personal Agents under Evolving Intent, Platform Mediation, and Consent Constraints",
-    "link": "http://arxiv.org/abs/2607.05363v1",
-    "published": "2026-07-06T17:39:05+00:00",
-    "summary": "Personal agents are becoming persistent user-owned intermediaries: they remember preferences, filter platform-mediated information, use tools, and negotiate with services. Existing benchmarks evaluate tool use, web navigation, desktop control, personalization, recommendation, and evolving context, but rarely ask whether an agent preserves user sovereignty: advancing the user's current interests while respecting privacy, consent, evidence, user burden, and resistance to manipulative incentives. W",
-    "author": "Dylan Zongmin Liu",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2607.05363v1"
-    ]
-  },
-  {
-    "title": "Graph Sparse Sampling: Breaking the Curse of the Horizon in Continuous MDP Planning",
-    "link": "http://arxiv.org/abs/2607.05359v1",
-    "published": "2026-07-06T17:36:28+00:00",
-    "summary": "Planning under uncertainty in continuous domains is essential for autonomous systems, yet computationally demanding. Tree-based search methods such as Monte Carlo Tree Search (MCTS) remain popular, but their branching structure can require sampling budgets that grow exponentially with lookahead depth in the worst case. From a tree perspective, continuous state or action spaces become especially challenging, since the planner must decide where to search in an infinite branching hierarchy. We prop",
-    "author": "Idan Lev-Yehudi, Vadim Indelman",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2607.05359v1"
-    ]
-  },
-  {
-    "title": "Selective Disclosure Watermarking for Large Language Models",
-    "link": "http://arxiv.org/abs/2607.05353v1",
-    "published": "2026-07-06T17:32:01+00:00",
-    "summary": "Watermarking methods embed imperceptible and verifiable signals into text generated by large language models (LLMs). Existing approaches include zero-bit schemes for distinguishing synthetic text from human writing and multi-bit schemes for embedding metadata. However, current multi-bit watermarking methods do not allow selective disclosure: verifying any part of the watermark requires revealing the entire embedded message. This lack of control leads to unnecessary information exposure and raise",
-    "author": "Xuyang Chen, Xiang Li, Yangxinyu Xie, Qi Long",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "https://github.com/xuyangc03/hero-watermark",
-      "http://arxiv.org/abs/2607.05353v1"
-    ]
-  },
-  {
-    "title": "Multiplayer Interactive World Models with Representation Autoencoders",
-    "link": "http://arxiv.org/abs/2607.05352v1",
-    "published": "2026-07-06T17:31:52+00:00",
-    "summary": "We introduce the first multiplayer world model for highly dynamic environments governed by complex physical interactions. Whereas single-player world models treat the other agents as part of the environment, ours conditions on the action streams of multiple agents, learning to attribute changes in the scene to the correct player and to stay coherent under arbitrary combinations of their actions. We study this problem in the game of Rocket League, where players compete and cooperate under fast, t",
-    "author": "Anthony Hu, Václav Volhejn, Adrien Ramanana Rahary, Chris Mulder, Aditya Makkar, Amélie Royer, Manu Orsini, Alyx Liao, Adam Jelley, Eloi Alonso, Florian Laurent, Fredrik Norén, James Swingos, Jan Hünermann, Kent Rollins, Lucas Hosseini, Matthieu Le Cauchois, Maxim Peter, Pim de Witte, Tim Brown, Vincent Micheli, Moritz Böhle, Gabriel de Marmiesse, Viktoriia Sharmanska, Lucia Specia, Michael Black, Patrick Pérez",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2607.05352v1"
-    ]
-  },
-  {
-    "title": "OptiAgent: End-to-End Optimization Modeling via Multi-Agent Iterative Refinement",
-    "link": "http://arxiv.org/abs/2607.05346v1",
-    "published": "2026-07-06T17:27:16+00:00",
-    "summary": "We propose OptiAgent, a multi-agent framework that, given a natural language description of an Operations Research problem, is able to output a solver-ready mathematical formulation as well as executable code. Our architecture prioritizes the mathematical modeling step, where dedicated agents extract structures, such as decision variables and constraints, enabling iterative self-correction. We introduce a novel multi-loop validation architecture with four specialized feedback mechanisms, each ta",
-    "author": "Adriana Laurindo Monteiro, Nayse Fagundes, Gabriel Mattos Langeloh, Gustavo de Oliveira Kanno, Priscila Louise Aguirre, Thiago Costa Rizuti da Rocha, Victor Leme Beltran",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2607.05346v1"
     ]
   },
   {
@@ -484,18 +482,6 @@
     ]
   },
   {
-    "title": "Designing Organisations That Can Keep Up With AI",
-    "link": "https://openai.com/deployco/news/designing-organisations-that-can-keep-up-with-ai",
-    "published": "2026-06-25T12:00:00+00:00",
-    "summary": "Why organisational latency is becoming the biggest barrier to fully realising AI’s benefits",
-    "author": "",
-    "source": "OpenAI",
-    "category": "official",
-    "references": [
-      "https://openai.com/deployco/news/designing-organisations-that-can-keep-up-with-ai"
-    ]
-  },
-  {
     "title": "How agents are transforming work",
     "link": "https://openai.com/index/how-agents-are-transforming-work",
     "published": "2026-06-25T02:00:00+00:00",
@@ -541,18 +527,6 @@
     "category": "official",
     "references": [
       "https://openai.com/index/helping-build-shared-standards-for-advanced-ai"
-    ]
-  },
-  {
-    "title": "Meta-Harness R&D: Enterprise-Grade Self-Improvement for Long-Horizon AI Workflows",
-    "link": "https://openai.com/deployco/news/meta-harness-enterprise-self-improvement-long-horizon-ai-workflows",
-    "published": "2026-06-23T12:00:00+00:00",
-    "summary": "How autonomous code improvement can be made disciplined enough for enterprise use",
-    "author": "",
-    "source": "OpenAI",
-    "category": "official",
-    "references": [
-      "https://openai.com/deployco/news/meta-harness-enterprise-self-improvement-long-horizon-ai-workflows"
     ]
   },
   {
@@ -1220,18 +1194,6 @@
     ]
   },
   {
-    "title": "Responses are the Easy Part: What We’ve Learned Building Real-time Voice Experiences at Scale",
-    "link": "https://openai.com/deployco/news/building-realtime-voice-experiences-at-scale",
-    "published": "2026-05-28T12:00:00+00:00",
-    "summary": "Timing, interruption, silence and recovery shape the experience as much as words",
-    "author": "",
-    "source": "OpenAI",
-    "category": "official",
-    "references": [
-      "https://openai.com/deployco/news/building-realtime-voice-experiences-at-scale"
-    ]
-  },
-  {
     "title": "How Endava builds an agentic organization with Codex",
     "link": "https://openai.com/index/endava",
     "published": "2026-05-28T12:00:00+00:00",
@@ -1446,18 +1408,6 @@
     "category": "official",
     "references": [
       "https://openai.com/index/introducing-openai-for-singapore"
-    ]
-  },
-  {
-    "title": "Conversational Design: Five Patterns to Shape Customer-facing AI Experiences",
-    "link": "https://openai.com/deployco/news/conversational-design-five-patterns-to-shape-customer-facing-ai-experiences",
-    "published": "2026-05-19T12:00:00+00:00",
-    "summary": "What held up in production when the goal wasn’t just functional accuracy but better dialogue",
-    "author": "",
-    "source": "OpenAI",
-    "category": "official",
-    "references": [
-      "https://openai.com/deployco/news/conversational-design-five-patterns-to-shape-customer-facing-ai-experiences"
     ]
   },
   {
@@ -2757,18 +2707,6 @@
     ]
   },
   {
-    "title": "Deploying Business-Critical AI: How to Build the Confidence and Accountability to Go Live",
-    "link": "https://openai.com/deployco/news/deploying-business-critical-ai-confidence-accountability-go-live",
-    "published": "2026-03-31T12:00:00+00:00",
-    "summary": "Lacking confidence to put AI at the heart of your business?",
-    "author": "",
-    "source": "OpenAI",
-    "category": "official",
-    "references": [
-      "https://openai.com/deployco/news/deploying-business-critical-ai-confidence-accountability-go-live"
-    ]
-  },
-  {
     "title": "Helping disaster response teams turn AI into action across Asia",
     "link": "https://openai.com/index/helping-disaster-response-teams-asia",
     "published": "2026-03-29T22:15:00+00:00",
@@ -3390,18 +3328,6 @@
     "category": "official",
     "references": [
       "https://openai.com/index/openai-for-india"
-    ]
-  },
-  {
-    "title": "Evals: Your Bridge From AI Experimentation To Confident Production Deployments",
-    "link": "https://openai.com/deployco/news/evals-your-bridge-from-ai-experimentation-to-confident-production-deployments",
-    "published": "2026-02-18T12:00:00+00:00",
-    "summary": "Most organisations have run an AI pilot. Far fewer have deployed an AI product. There is a fundamental gap between AI experimentation and production.",
-    "author": "",
-    "source": "OpenAI",
-    "category": "official",
-    "references": [
-      "https://openai.com/deployco/news/evals-your-bridge-from-ai-experimentation-to-confident-production-deployments"
     ]
   },
   {
