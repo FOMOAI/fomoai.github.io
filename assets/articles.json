@@ -12,6 +12,186 @@
     ]
   },
   {
+    "title": "OpenCoF: Learning to Reason Through Video Generation",
+    "link": "http://arxiv.org/abs/2607.08763v1",
+    "published": "2026-07-09T17:58:29+00:00",
+    "summary": "Reasoning has become a core capability for large models, especially when reliable decisions require understanding logical consequences. Recent video generation models offer a reasoning path distinct from previous Chain-of-Thought (CoT): reasoning can unfold through temporally connected frames, known as Chain-of-Frame (CoF) reasoning. However, existing video generators are primarily trained on general video corpora, still lacking diverse supervision and dedicated designs for CoF reasoning. To add",
+    "author": "Xinyan Chen, Ziyu Guo, Renrui Zhang, Dongzhi Jiang, Hongsheng Li",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2607.08763v1"
+    ]
+  },
+  {
+    "title": "Ideas Have Genomes: Benchmarking Scientific Lineage Reasoning and Lineage-Grounded Idea Generation",
+    "link": "http://arxiv.org/abs/2607.08758v1",
+    "published": "2026-07-09T17:55:53+00:00",
+    "summary": "Scientific ideas rarely start from a blank page. They inherit mechanisms, repair known limitations, and recombine pieces of earlier work, much like biological genomes. Current benchmarks still say little about whether AI systems can follow this inheritance structure. We present IdeaGene-Bench (IG-Bench), a benchmark for scientific lineage reasoning and lineage-grounded idea generation. IG-Bench is organized around the IdeaGene framework: each paper or proposal is represented as a set of minimal,",
+    "author": "Yifan Zhou, Qihao Yang, Yan Li, Donggang Li, Xiru Hu, Hokin Deng, Ziyang Gong, Xuanyi Zhou, Huacan Wang, Xiangchao Yan, Wanghan Xu, Wenlong Zhang, Shaofeng Zhang, Yue Zhou, Yifan Yang, Zhihang Zhong, Xue Yang",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2607.08758v1"
+    ]
+  },
+  {
+    "title": "SLORR: Simple and Efficient In-Training Low-Rank Regularization",
+    "link": "http://arxiv.org/abs/2607.08754v1",
+    "published": "2026-07-09T17:51:50+00:00",
+    "summary": "Low-rank factorization is widely used to compress neural networks, but modern models are often not naturally amenable to aggressive factorization without significant accuracy loss. Existing training-time low-rank regularizers can improve compressibility, but they often require SVDs of large weight matrices, modify the model architecture (introducing additional trainable parameters), or rely on stateful cached quantities. To address these limitations, we introduce SLORR, a simple, stateless, and ",
+    "author": "David González-Martínez, Shiwei Liu",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2607.08754v1"
+    ]
+  },
+  {
+    "title": "Using AI-based Learning Assistants in Higher Education: A Large-Scale Descriptive Analysis",
+    "link": "http://arxiv.org/abs/2607.08748v1",
+    "published": "2026-07-09T17:49:14+00:00",
+    "summary": "In this study, we present a large-scale descriptive analysis of the use of an AI-based learning assistant (Syntea) in higher education. Based on objective log data from 77,543 students enrolled in distance studies, we examine usage patterns across gender, age group, study cluster, degree, and study mode. To date, existing research on educational chatbots has largely relied on comparatively small samples and self-reported survey data, while large-scale evidence on actual usage behavior remains li",
+    "author": "Kristina Schaaff, Quintus Stierstorfer, Valerie Heckel",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2607.08748v1"
+    ]
+  },
+  {
+    "title": "Dimensionality Reduction Meets Network Science: Sensemaking on UMAP's kNN Graph",
+    "link": "http://arxiv.org/abs/2607.08746v1",
+    "published": "2026-07-09T17:47:08+00:00",
+    "summary": "While UMAP is widely used for exploring high-dimensional data, typical workflows focus on its lower-dimensional embedding, largely overlooking the rich k-nearest-neighbor (kNN) graph that UMAP constructs internally. This graph encodes the data manifold in its original high-dimensional space, before the distortion that UMAP's 2D projection introduces. We demonstrate the untapped potential of this internal representation, showing how standard graph algorithms applied to this graph enhance data sen",
+    "author": "Duen Horng Chau, Donghao Ren, Fred Hohman, Dominik Moritz",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2607.08746v1"
+    ]
+  },
+  {
+    "title": "AUTOPILOT VQA: Benchmarking Vision-Language Models for Incident-Centric Dashcam Understanding",
+    "link": "http://arxiv.org/abs/2607.08745v1",
+    "published": "2026-07-09T17:46:24+00:00",
+    "summary": "Recent advances in Vision-Language Models, Large Language Models, and Multimodal Large Language Models have improved autonomous driving tasks such as scene understanding, decision making, trajectory prediction, and visual question answering. However, evaluating whether these models can reliably reason about safety-critical incidents remains challenging. To address this gap, we present AUTOPILOT-VQA, an incident-centric visual question answering benchmark for dashcam video understanding. The data",
+    "author": "Siddharth Damodharan, Radhika Gupta, Ali Alshami, Ryan Rabinowitz, Jugal Kalita",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2607.08745v1"
+    ]
+  },
+  {
+    "title": "Workflow as Knowledge: Semantic Persistence for LLM-Mediated Workflows",
+    "link": "http://arxiv.org/abs/2607.08740v1",
+    "published": "2026-07-09T17:40:46+00:00",
+    "summary": "Large language model (LLM) applications increasingly use explicit workflows for tool use, retrieval, branching, checkpointing, and human approval. Existing workflow systems already address many execution concerns. This paper proposes a Lisp-inspired but language-independent conceptual model: symbolic forms, object identity, and live-image thinking are used as explanatory lenses, not implementation commitments. In this model, workflow definitions, workflow instances, inference records, context sn",
+    "author": "Emanuele Quinto, Carlo Andrea Rozzi, Francesco Zanitti",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2607.08740v1"
+    ]
+  },
+  {
+    "title": "The Illusion of Equivalency: Statistical Characterization of Quantization Effects in LLMs",
+    "link": "http://arxiv.org/abs/2607.08734v1",
+    "published": "2026-07-09T17:35:02+00:00",
+    "summary": "Post-training quantization is widely used to deploy large language models in resource-constrained settings, yet its evaluation relies almost exclusively on accuracy and perplexity. We show that these metrics fail to capture behavioral changes induced by quantization. We introduce correctness agreement, a decision-level metric that measures overlap in correct predictions between a base model and its quantized variants, independent of absolute accuracy. Across multiple models and quantization sche",
+    "author": "Baha Rababah, Cuneyt Gurcan Akcora, Carson K. Leung",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2607.08734v1"
+    ]
+  },
+  {
+    "title": "Validity of LLMs as data annotators: AMALIA on authority",
+    "link": "http://arxiv.org/abs/2607.08731v1",
+    "published": "2026-07-09T17:34:25+00:00",
+    "summary": "A national language model offers a linguistic community its own instrument for measuring what its citizens say and value. Portugal's AMALIA, a publicly funded 9B-parameter model for European Portuguese, appears competitive on agreement alone: asked to code the moral foundation of authority, it agrees with trained human coders to within six F1 points of open models eight to thirteen times its size. Yet agreement is reliability, not validity. For theoretical constructs that must be inferred rather",
+    "author": "Manuel Pita",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2607.08731v1"
+    ]
+  },
+  {
+    "title": "Pose-to-Biomechanics: Bridging 3D Human Pose Estimation and Biomechanical Attribute Prediction",
+    "link": "http://arxiv.org/abs/2607.08725v1",
+    "published": "2026-07-09T17:31:16+00:00",
+    "summary": "Recent progress in 3D human pose estimation has made markerless recovery of skeletal motion increasingly accurate and scalable. However, most pose estimators remain optimized for geometric keypoint accuracy, while many real-world applications in rehabilitation, sports science, ergonomics, and clinical movement analysis require biomechanical quantities that describe how the body moves, loads, and activates. In this work, we propose BioModule, a lightweight plug-in temporal transformer that attach",
+    "author": "Ayda Eghbalian, Kevin Desai",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2607.08725v1"
+    ]
+  },
+  {
+    "title": "Remember When It Matters: Proactive Memory Agent for Long-Horizon Agents",
+    "link": "http://arxiv.org/abs/2607.08716v1",
+    "published": "2026-07-09T17:26:28+00:00",
+    "summary": "In long-horizon tasks, decision-relevant state is often scattered across an expanding trajectory, while the action agent must surface it and act. As trajectories grow, task requirements, environment facts, prior attempts, diagnoses, and open subgoals can be buried in the context window or pushed beyond it, failing to influence decisions when needed. We call this failure mode \"behavioral state decay\". We study memory as an active intervention mechanism rather than passive retrieval. A separate me",
+    "author": "Yifan Wu, Lizhu Zhang, Yuhang Zhou, Mingyi Wang, Bo Peng, Serena Li, Xiangjun Fan, Zhuokai Zhao",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2607.08716v1"
+    ]
+  },
+  {
+    "title": "ProjAgent: Procedural Similarity Retrieval for Repository-Level Code Generation",
+    "link": "http://arxiv.org/abs/2607.08691v1",
+    "published": "2026-07-09T16:50:54+00:00",
+    "summary": "Repository-level code generation requires implementing target functions while accounting for complex cross-file dependencies and project-specific conventions. Existing retrieval methods predominantly rely on lexical, structural, or semantic similarity, often overlooking repository functions that implement similar procedural logic despite differing in identifiers or application domains. We propose ProjAgent, a repository-level code generation system that introduces procedural similarity as an exp",
+    "author": "QiHong Chen, Aaron Imani, Iftekhar Ahmed",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2607.08691v1"
+    ]
+  },
+  {
+    "title": "A Practical Investigation of Training-free Relaxed Speculative Decoding",
+    "link": "http://arxiv.org/abs/2607.08690v1",
+    "published": "2026-07-09T16:50:41+00:00",
+    "summary": "Speculative decoding accelerates sampling from an autoregressive LLM by using a faster auxiliary model to draft tokens which are then verified in parallel by the LLM. Standard speculative decoding is lossless: its rejection and resampling steps exactly preserve the LLM's sampling distribution. Recent work argues that relaxing this strict guarantee can yield further speed-ups, controlled capability-speed trade-offs, or even capability gains. We practically investigate training-free relaxed specul",
+    "author": "Guoxuan Xia, Luka Ribar, Paul Balanca",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2607.08690v1"
+    ]
+  },
+  {
+    "title": "SolarChain-Eval: A Physics-Constrained Benchmark for Trustworthy Economic Agents in Decentralized Energy Markets",
+    "link": "http://arxiv.org/abs/2607.08681v1",
+    "published": "2026-07-09T16:43:42+00:00",
+    "summary": "As agentic AI systems are increasingly applied to cyber-physical environments, their evaluation requires assessment of both task performance and trustworthiness. In decentralized energy markets, autonomous agents may improve market utility, but may also exploit invalid physical data, create artificial liquidity, and produce unstable governance decisions. Therefore, we propose SolarChain-Eval, a physics-constrained benchmark for evaluating trustworthy economic agents. It formulates market governa",
+    "author": "Shilin Ou, Yifan Xu, Luyao Zhang",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2607.08681v1"
+    ]
+  },
+  {
+    "title": "WebSwarm: Recursive Multi-Agent Orchestration for Deep-and-Wide Web Search",
+    "link": "http://arxiv.org/abs/2607.08662v1",
+    "published": "2026-07-09T16:28:49+00:00",
+    "summary": "Large language model (LLM)-based web search agents are transforming information seeking from simple factoid question answering into complex, deep-and-wide search and research-oriented tasks. A single ReAct-style agent is constrained by one long trajectory and limited context, making it difficult to handle depth and coverage simultaneously. Existing multi-agent systems improve search coverage through parallel execution and aggregation, but still exhibit clear limitations in recursive depth, colla",
+    "author": "Xiaoshuai Song, Liancheng Zhang, Kangzhi Zhao, Yutao Zhu, Zhongyuan Wang, Guanting Dong, Jinghan Yang, Han Li, Kun Gai, Ji-Rong Wen, Zhicheng Dou",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2607.08662v1"
+    ]
+  },
+  {
     "title": "GPT-5.6 is now the preferred model in Microsoft 365 Copilot",
     "link": "https://openai.com/index/gpt-5-6-preferred-model-microsoft-365-copilot",
     "published": "2026-07-09T13:00:00+00:00",
@@ -84,174 +264,6 @@
     ]
   },
   {
-    "title": "Accurate, Interdisciplinary and Transparent Structure-property Understanding with Deep Native Structural Reasoning",
-    "link": "http://arxiv.org/abs/2607.07708v1",
-    "published": "2026-07-08T17:59:59+00:00",
-    "summary": "Structure-property relationships are foundational to biology, chemistry and materials science, where function, reactivity and physical response emerge from spatial, chemical and periodic organization. Mechanistically explaining these relationships requires interpreting structural evidence through scientific principles and physical constraints, from stereochemistry and bonding to symmetry, energetics and periodic order. However, applying artificial intelligence to this process presents a joint ch",
-    "author": "Chen Tang, Yizhou Wang, Jianyu Wu, Lintao Wang, Shixiang Tang, Pengze Li, Encheng Su, Jun Yao, Jiabei Xiao, Yuqi Shi, Jielan Li, Hongxia Hao, Zhangyang Gao, Fang Wu, Ben Fei, Xiangyu Yue, Pan Tan, Bozitao Zhong, Jinouwen Zhang, Aoran Wang, Yan Lu, Jiaheng Liu, Xinzhu Ma, Liang Hong, Mingyue Zheng, Phil Torr, Bowen Zhou, Wanli Ouyang, Lei Bai",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2607.07708v1"
-    ]
-  },
-  {
-    "title": "Co-LMLM: Continuous-Query Limited Memory Language Models",
-    "link": "http://arxiv.org/abs/2607.07707v1",
-    "published": "2026-07-08T17:59:45+00:00",
-    "summary": "Limited memory language models (LMLMs) externalize factual knowledge during pretraining to a knowledge base (KB), rather than memorizing it in their weights. During generation, the model then fetches knowledge from the KB as needed. This recently introduced paradigm provides multiple advantages, including knowledge control capabilities that remain beyond conventional LLMs. We propose continuous-query LMLM (CO-LMLM), where the KB pairs continuous keys with textual knowledge values, a significant ",
-    "author": "Yair Feldman, Linxi Zhao, Nathan Godey, Dongyoung Go, Yilun Hua, Kilian Q. Weinberger, Jennifer J. Sun, Yoav Artzi",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2607.07707v1"
-    ]
-  },
-  {
-    "title": "Breaking Database Lock-in: Agentic Regeneration of High Performance Storage Readers for Database Bypass",
-    "link": "http://arxiv.org/abs/2607.07696v1",
-    "published": "2026-07-08T17:55:00+00:00",
-    "summary": "Analytical workloads operating on data stored in external database systems face a fundamental bottleneck: data access is guarded entirely by the database driver, like JDBC or ODBC, forcing all reads through query execution and other driver layers that are not designed for bulk columnar analytics. We present Jailbreak, an approach that bypasses the database engine entirely by reading storage files directly and materializing data as in-memory columnar buffers. Jailbreak's key insight is that datab",
-    "author": "Victor Giannakouris, Immanuel Trummer",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2607.07696v1"
-    ]
-  },
-  {
-    "title": "Institutional Red-Teaming: Deployment Rules, Not Just Models, Causally Shape Multi-Agent AI Safety",
-    "link": "http://arxiv.org/abs/2607.07695v1",
-    "published": "2026-07-08T17:53:56+00:00",
-    "summary": "We introduce institutional red-teaming, an evaluation methodology for testing deployment rules in multi-agent AI: hold the agents, objectives, and task state fixed, vary only one rule, and attribute the resulting change in collective behavior to that rule. We instantiate the methodology in IABench-CA, a consequence-allocation benchmark spanning 228 contexts, five canonical rules, and seven model populations (33,924 games), with a normative cooperative reference and auto-labelled reasoning traces",
-    "author": "Yujiao Chen",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2607.07695v1"
-    ]
-  },
-  {
-    "title": "Selective Timestep Weighting and Advantage-Based Replay for Sample-Efficient Diffusion RLHF",
-    "link": "http://arxiv.org/abs/2607.07693v1",
-    "published": "2026-07-08T17:49:49+00:00",
-    "summary": "Reinforcement learning from human feedback (RLHF) has emerged as a powerful paradigm for aligning generative models with human preferences. However, applying RLHF to diffusion models remains highly feedback inefficient, as existing approaches typically require large amounts of human or reward model evaluations. This limitation reduces the practicality of diffusion RLHF in realworld settings where feedback is the primary bottleneck. In this paper, we propose two complementary strategies that subs",
-    "author": "Eric Zhu, Abhinav Shrivastava, Soumik Mukhopadhyay",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2607.07693v1"
-    ]
-  },
-  {
-    "title": "Agon: Competitive Cross-Model RL with Implicit Rival Grading of Reasoning",
-    "link": "http://arxiv.org/abs/2607.07690v1",
-    "published": "2026-07-08T17:49:14+00:00",
-    "summary": "Reinforcement learning from verifiable rewards (e.g. GRPO) is the engine behind today's reasoning models, yet it grades only the final answer. On hard problems this trains models to write more rather than to think better, since the trace itself is never graded and no label for good thinking exists. We introduce Agon, which makes two competing models each other's graders. Both attempt the same problem; in alternating roles, one drafts a solution and the other reads it while solving, and each is r",
-    "author": "Vladislav Beliaev",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2607.07690v1"
-    ]
-  },
-  {
-    "title": "SkillCenter: A Large-Scale Source-Grounded Skill Library for Autonomous AI Agents",
-    "link": "http://arxiv.org/abs/2607.07676v1",
-    "published": "2026-07-08T17:34:28+00:00",
-    "summary": "Autonomous AI agents can execute complex tasks with limited human review, yet they often lack the grounded operational knowledge to make their outputs not just executable but correct, secure, and maintainable. We introduce SkillCenter, to our knowledge the largest open skill library for agents by total count: 216,938 structured skills across 24 domain bundles. A SkillGate-filtered pipeline contributes 114,565 source-grounded skills from peer-reviewed journals, ArXiv, and over 24,000 technical so",
-    "author": "Tianming Sha, Yue Zhao, Lichao Sun, Yushun Dong",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2607.07676v1"
-    ]
-  },
-  {
-    "title": "DiaLLM: An Investigation into the Robustness-Generation Gap in English Dialect Adaptation",
-    "link": "http://arxiv.org/abs/2607.07669v1",
-    "published": "2026-07-08T17:24:27+00:00",
-    "summary": "Large language models increasingly \\emph{understand} dialectal English, yet still \\emph{produce} only standard, US-leaning English, leaving dialectal generation, the harder half of the problem, largely unaddressed. We introduce \\textbf{DiaLLM}, which continually pretrains three open-weight language model families on the International Corpus of English and applies implicit and explicit post-training paradigms, each combined with three model alignment strategies, giving the first controlled compar",
-    "author": "Jordan Painter, Dipankar Srirag, Adarsh Kappiyath, Diptesh Kanojia, Aditya Joshi, Lu Yin",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2607.07669v1"
-    ]
-  },
-  {
-    "title": "Recursive Self-Improvement in AI: From Bounded Self-Refinement to Autonomous Research Loops",
-    "link": "http://arxiv.org/abs/2607.07663v1",
-    "published": "2026-07-08T17:19:50+00:00",
-    "summary": "AI systems increasingly participate in their own improvement: revising their outputs, adapting their own harnesses during deployment, training on data they generate, and, increasingly, conducting AI research itself. This literature is described under a vocabulary (\"self-refine,\" \"self-reward,\" \"self-play,\" \"self-evolve\") that conflates fundamentally different ambitions. We survey 1,250 arXiv papers (2024-2026) along two axes: what the system improves -- its behavior in deployment, its policy thr",
-    "author": "Mingguang Chen, Licheng Wang, Bo Qu",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2607.07663v1"
-    ]
-  },
-  {
-    "title": "RL Post-Training Builds Compositional Reasoning Strategies",
-    "link": "http://arxiv.org/abs/2607.07646v1",
-    "published": "2026-07-08T17:04:42+00:00",
-    "summary": "Does RL post-training merely amplify primitive skills already latent in a base model, or can it compose primitive skills into new higher-level strategies? We study this question in a fully observable rewrite-grammar environment where the pretraining distribution is known and every generated rewrite can be audited. A Transformer is pretrained on primitive symbol-rewrite chains and post-trained on a Trace-based reasoning task with only a binary final-answer reward. RL solves held-out problems that",
-    "author": "Azwar Abdulsalam, Nishil Patel, Andrew Saxe",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2607.07646v1"
-    ]
-  },
-  {
-    "title": "ALER-TI: Aligned Latent Embedding Retrieval for Time Series Imputation",
-    "link": "http://arxiv.org/abs/2607.07640v1",
-    "published": "2026-07-08T16:59:38+00:00",
-    "summary": "Deep learning has significantly advanced time series imputation, yet most existing architectures primarily rely on localized temporal context within the corrupted input sequence. This reliance can be limiting in real-world scenarios, where time series often exhibit non-stationary dynamics, weak temporal correlations, and infrequent patterns that are difficult to reconstruct from nearby observations alone. In this paper, we propose ALER-TI, Aligned Latent Embedding Retrieval for Time Series Imput",
-    "author": "Xuan-Thong Truong, Trung-Kien Le, Tung Kieu, Thi-Thu Nguyen, Nhat-Hai Nguyen",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2607.07640v1"
-    ]
-  },
-  {
-    "title": "QCNN with Rough Path Signature Kernels",
-    "link": "http://arxiv.org/abs/2607.07634v1",
-    "published": "2026-07-08T16:50:46+00:00",
-    "summary": "Time series analysis plays a vital role across a wide range of scientific and engineering domains but poses substantial computational challenges. A major difficulty arises from the time reparameterization invariance of time series data, which complicates the extraction of meaningful temporal features. In this work, we address the problem of time series classification by exploring the application of quantum computation techniques. We propose a hybrid quantum-classical architecture that integrates",
-    "author": "Leonardo Nogueira Falabella, Vasily Sazonov",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2607.07634v1"
-    ]
-  },
-  {
-    "title": "Future Confidence Distillation in Large Language Models",
-    "link": "http://arxiv.org/abs/2607.07626v1",
-    "published": "2026-07-08T16:43:11+00:00",
-    "summary": "Reliable confidence estimation is essential for deploying large language models (LLMs) in confidence-aware systems, where downstream decisions such as retrieval, tool use, and adaptive computation depend on accurately estimating answer reliability. Existing approaches, however, largely treat confidence as a property of completed responses, overlooking how confidence-related information evolves throughout the answering process. In this work, we investigate confidence from a temporal perspective b",
-    "author": "Sahil Kale",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2607.07626v1"
-    ]
-  },
-  {
-    "title": "Towards Agentic AI Governance: A Preliminary Assessment",
-    "link": "http://arxiv.org/abs/2607.07612v1",
-    "published": "2026-07-08T16:29:18+00:00",
-    "summary": "Artificial intelligence is rapidly evolving from generative systems to agentic AI capable of autonomously planning and executing tasks. Widely characterized as the Year of Agentic AI, 2025 marked accelerated development and deployment, introducing new ethical and governance challenges. This paper presents a systematic review of the emerging literature on agentic AI governance. Our analysis identifies features that distinguish agentic AI from traditional systems and why it warrants targeted gover",
-    "author": "Mubarak Raji, Masooda Bashir",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2607.07612v1"
-    ]
-  },
-  {
     "title": "EmTech AI 2026: The Rise of the AI Platform",
     "link": "https://www.technologyreview.com/2026/07/08/1140223/emtech-ai-2026-the-rise-of-the-ai-platform/",
     "published": "2026-07-08T16:26:10+00:00",
@@ -261,18 +273,6 @@
     "category": "media",
     "references": [
       "https://www.technologyreview.com/2026/07/08/1140223/emtech-ai-2026-the-rise-of-the-ai-platform/"
-    ]
-  },
-  {
-    "title": "CARLA-GS: Decoupling Representation, Reasoning, and Physics Simulation for Autonomous Driving Corner-Case Synthesis",
-    "link": "http://arxiv.org/abs/2607.07601v1",
-    "published": "2026-07-08T16:20:19+00:00",
-    "summary": "Safety evaluation for autonomous driving is dominated by rare, safety-critical interactions, motivating simulators that can deliberately synthesize corner cases with photorealistic observations. Corner-case generation is inherently a multi-source problem spanning visual representation, scene reasoning, and vehicle trajectory generation and control. Prior knowledge- and model-based approaches typically focus on scene or trajectory components in isolation, while diffusion-based methods attempt end",
-    "author": "Kaicong Huang, Meng Ma, Ruimin Ke",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2607.07601v1"
     ]
   },
   {
