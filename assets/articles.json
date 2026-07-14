@@ -12,6 +12,192 @@
     ]
   },
   {
+    "title": "Metacognition in LLMs: Foundations, Progress, and Opportunities",
+    "link": "http://arxiv.org/abs/2607.11881v1",
+    "published": "2026-07-13T17:58:37+00:00",
+    "summary": "Metacognition is a foundational component of intelligence critical to effective learning, problem solving, decision-making, communication, and more. In recent years, it has become increasingly recognized as a cornerstone of capable, transparent AI systems. Yet while LLMs have made significant progress across diverse real-world tasks, it is not yet clear when, how, or to what extent they can exhibit or be endowed with effective metacognitive abilities, nor how such abilities can be adapted to adv",
+    "author": "Gabrielle Kaili-May Liu, Areeb Gani, Jacqueline Lu, Jordan Thomas, Mark Steyvers, Arman Cohan",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "https://github.com/yale-nlp/LLM-Metacognition",
+      "http://arxiv.org/abs/2607.11881v1"
+    ]
+  },
+  {
+    "title": "Invariant Learning Dynamics of Transformers in Inductive Reasoning Tasks",
+    "link": "http://arxiv.org/abs/2607.11875v1",
+    "published": "2026-07-13T17:56:11+00:00",
+    "summary": "We present a theoretical framework to explain the emergence of inductive reasoning abilities in Transformer language models. While previous works on Transformer learning dynamics have so far been mostly tied to specific tasks, we study a generalized class of inductive tasks that unifies several synthetic tasks known in the literature, including in-context n-grams and multi-hop reasoning. In this class, we theoretically prove that the training dynamics of attention models can be confined to a hig",
+    "author": "Tiberiu Musat, Tiago Pimentel, Nicholas Zucchet, Thomas Hofmann",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2607.11875v1"
+    ]
+  },
+  {
+    "title": "A Minimalist Retargeting-Guided Reinforcement Learning Recipe for Dexterous Manipulation",
+    "link": "http://arxiv.org/abs/2607.11874v1",
+    "published": "2026-07-13T17:56:08+00:00",
+    "summary": "Recent work in humanoid whole-body control has found success with a simple recipe: retarget human motion to robot kinematic references, then train policies via reinforcement learning (RL) to track them. But how does this recipe transfer to dexterous manipulation? The answer is not obvious, as manipulation involves complex, contact-rich dynamics and requires delicate regulation of contact modes and forces. We present REGRIND, a minimalist retargeting-guided RL pipeline that learns dexterous manip",
+    "author": "Yunhai Feng, Natalie Leung, Jiaxuan Wang, Lujie Yang, Haozhi Qi, Preston Culbertson",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "https://yunhaifeng.com/REGRIND",
+      "http://arxiv.org/abs/2607.11874v1"
+    ]
+  },
+  {
+    "title": "Inside the Unfair Judge: A Mechanistic Interpretability Account of LLM-as-Judge Bias",
+    "link": "http://arxiv.org/abs/2607.11871v1",
+    "published": "2026-07-13T17:55:19+00:00",
+    "summary": "Existing studies of LLM-as-judge scoring bias work predominantly at the input-output level: they perturb inputs, measure score deltas, and propose prompt-level mitigations. We argue that the same biases admit a representation-level account in the judge's hidden state, complementary to the input-output view and operationally useful in ways it does not afford. We report three findings, across seven judges, seven bias types, and nine benchmarks. Geometry: baseline judging inputs occupy a tight acti",
+    "author": "Zixiang Xu, Sixian Li, Huaxing Liu, Xiang Wang, Shuai Li, Zirui Song, Xiuying Chen",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "https://xzx34.github.io/unfair-judge/",
+      "http://arxiv.org/abs/2607.11871v1"
+    ]
+  },
+  {
+    "title": "Evidence-Backed Video Question Answering",
+    "link": "http://arxiv.org/abs/2607.11862v1",
+    "published": "2026-07-13T17:49:10+00:00",
+    "summary": "Current Video Large Language Models (Video LLMs) excel in question answering (QA) but largely operate as black boxes, providing textual answers without verifiable visual grounding. Existing explainability efforts rely on textual rationales or sparse bounding boxes, which struggle to capture complex video dynamics such as occlusions and non-rigid deformations. We propose Evidence-Backed Video Question Answering (E-VQA), a novel task requiring models to jointly output a semantic answer and precise",
+    "author": "Shijie Wang, Honglu Zhou, Ziyang Wang, Ran Xu, Caiming Xiong, Silvio Savarese, Chen Sun, Juan Carlos Niebles",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "https://github.com/SalesforceAIResearch/EVQA",
+      "http://arxiv.org/abs/2607.11862v1"
+    ]
+  },
+  {
+    "title": "LoRA-Based Cascaded Multimodal Fusion for Action Recognition in Medical Training Environments",
+    "link": "http://arxiv.org/abs/2607.11839v1",
+    "published": "2026-07-13T17:27:58+00:00",
+    "summary": "This paper presents a cascaded Low-Rank Adaptation (LoRA)-based multimodal fusion framework for action and activity recognition in healthcare-oriented training environments. The proposed architecture combines parameter-efficient modality-specific adaptation with sequential fusion, enabling modalities to be integrated in stages without retraining previously learned components. Rather than assuming a fixed fusion structure, the framework first integrates more closely related modalities and then in",
+    "author": "Divya Mereddy, Jeevan Beedareddy",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "https://github.com/anonymous0-ai/LoRA-Based-Cascaded-Multimodal-Fusion-.git",
+      "http://arxiv.org/abs/2607.11839v1"
+    ]
+  },
+  {
+    "title": "Transformer-Guided Swarm Intelligence for Frugal Neural Architecture Search",
+    "link": "http://arxiv.org/abs/2607.11826v1",
+    "published": "2026-07-13T17:18:24+00:00",
+    "summary": "Neural Architecture Search (NAS) has automated the design of deep learning models but traditionally requires massive computational resources, often measured in thousands of GPU-days. In this paper, we propose a frugal and memetic NAS framework designed to democratize architecture design on consumer-grade hardware. Our approach combines the global macro-search capabilities of an autoregressive Transformer controller, trained via Reinforcement Learning (RL), with the local micro-exploitation of an",
+    "author": "Romain Amigon",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2607.11826v1"
+    ]
+  },
+  {
+    "title": "MM-ToolSandBox: A Unified Framework for Evaluating Visual Tool-Calling Agents",
+    "link": "http://arxiv.org/abs/2607.11818v1",
+    "published": "2026-07-13T17:13:09+00:00",
+    "summary": "We introduce MM-ToolSandBox, a benchmark and evaluation framework for visually grounded tool-calling agents. The framework provides a stateful execution environment spanning 500+ tools across 16 application domains, supporting multi-image, multi-turn tasks where agents must ground progressively arriving visual inputs into executable tool calls while handling realistic conversational phenomena (goal revisions, error corrections, state mutations). An automated scenario generation pipeline produces",
+    "author": "Kaixin Ma, Di Feng, Alexander Metz, Jiarui Lu, Eshan Verma, Afshin Dehghan",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "https://github.com/apple/ml-mmtoolsandbox",
+      "http://arxiv.org/abs/2607.11818v1"
+    ]
+  },
+  {
+    "title": "Introducing Human-Centeredness in AI-Assisted Lexicography",
+    "link": "http://arxiv.org/abs/2607.11808v1",
+    "published": "2026-07-13T17:00:39+00:00",
+    "summary": "This paper proposes a human-centered artificial intelligence (HCAI) framework for AI-assisted lexicography. While generative AI offers significant opportunities to enhance lexicographic work, it also raises concerns regarding the future role of lexicographers and the preservation of linguistic and cultural diversity. Drawing on HCAI principles and previous applications in other language professions, the paper identifies four interrelated dimensions through which AI integration in lexicography ca",
+    "author": "Antonio San Martin, Catherine Trekker",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2607.11808v1"
+    ]
+  },
+  {
+    "title": "Encoder-Side Neuron Identification and Amplification for Acoustic Perception in Large Audio-Language Models",
+    "link": "http://arxiv.org/abs/2607.11801v1",
+    "published": "2026-07-13T16:53:08+00:00",
+    "summary": "Large audio-language models (LALMs) often underperform on fine-grained, non-semantic attributes of speech, such as a speaker's emotion, despite strong performance on speech content. Improving this without the cost of retraining calls for an effective inference-time intervention, yet most existing methods intervene only after the audio encoder and operate at a relatively coarse granularity. The encoder itself, where acoustic information is first extracted from the waveform, remains largely unexpl",
+    "author": "Yu-Han Huang, Chih-Kai Yang, Ke-Han Lu, An-Yu Cheng, Hung-yi Lee",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2607.11801v1"
+    ]
+  },
+  {
+    "title": "StoryTeller: Training-Free Narrative Grounding for Long-Form Audio Description",
+    "link": "http://arxiv.org/abs/2607.11798v1",
+    "published": "2026-07-13T16:50:03+00:00",
+    "summary": "Long-form audio description (AD) requires more than describing visible actions: it must preserve characters, events, relationships, and story context across scenes so that blind and low-vision (BLV) audiences can follow a film. Modern video-language models (VLMs) are effective on short clips, but they often treat each moment independently, producing descriptions that miss who characters are, why events matter, and how the current scene connects to earlier narrative context. We propose StoryTelle",
+    "author": "Seung Hyun Hahm, Minh T. Dinh, SouYoung Jin",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2607.11798v1"
+    ]
+  },
+  {
+    "title": "Evaluating RE Practices for Explainability: Synthesizing Insights from Daimler Truck into an Explainable RE Framework Proposal",
+    "link": "http://arxiv.org/abs/2607.11771v1",
+    "published": "2026-07-13T16:28:45+00:00",
+    "summary": "Explainability has emerged as a critical requirement for AI-based systems, particularly in safety-critical and regulated domains. Although prior research has proposed frameworks, patterns, and user-centered approaches to support explainability, there is limited empirical understanding of how existing Requirements Engineering (RE) practices support explainability requirements across the RE lifecycle, especially in an industrial context. This paper reports early findings from an ongoing industry-b",
+    "author": "Umm-e- Habiba, Lucas Mauser, Jonas Fritzsch, Justus Bogner, Stefan Wagner",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2607.11771v1"
+    ]
+  },
+  {
+    "title": "Playful AI in Professional Email: A Field Experiment on Tone and Recipient Engagement",
+    "link": "http://arxiv.org/abs/2607.11749v1",
+    "published": "2026-07-13T16:06:23+00:00",
+    "summary": "Large language models (LLMs) are rapidly reshaping workplace communication, yet whether AI-assisted writing changes how recipients actually behave, and through what channel, remains unknown. Here, in a randomized crossover field experiment, 121 employees across six companies sent work emails under three conditions over three weeks: unaided writing, GPT-5 rewriting in a playful tone, and GPT-5 rewriting in a professional tone. Across 16,880 emails, playful editing increased emotional positivity (",
+    "author": "Ziv Ben-Zion, Teddy Lazebnik",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2607.11749v1"
+    ]
+  },
+  {
+    "title": "Time-Lag-Aware Deep Reinforcement Learning for Flexible Job-Shop Scheduling in PPVC Module Factories",
+    "link": "http://arxiv.org/abs/2607.11725v1",
+    "published": "2026-07-13T15:50:00+00:00",
+    "summary": "Prefabricated prefinished volumetric construction moves most building work into module factories, whose production floor operates as a flexible job shop. A major complication is decisive: long post-operation time-lags caused by concrete curing, watertightness ponding tests, and paint drying, during which a module is blocked while its workstation stays free. On benchmark instances grounded in an official national prefabrication guidebook, these lags inflate even the optimal reference makespan by ",
+    "author": "Ziheng Zhang, Wei Zhang",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2607.11725v1"
+    ]
+  },
+  {
+    "title": "Active Offline-to-Online Reinforcement Learning",
+    "link": "http://arxiv.org/abs/2607.11720v1",
+    "published": "2026-07-13T15:46:11+00:00",
+    "summary": "Background: Offline reinforcement learning (RL) enables effective policies to be trained from large, previously collected datasets and subsequently improved through limited online interaction. This offline-to-online RL (O2O-RL) paradigm is particularly promising in nonstationary domains where interaction is costly or potentially hazardous. Standard O2O-RL pipelines train multiple candidate policies offline, evaluate them using off-policy or online evaluation, and then deploy and fine-tune the po",
+    "author": "Alper Kamil Bozkurt, Shangtong Zhang, Yuichi Motai",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2607.11720v1"
+    ]
+  },
+  {
     "title": "The Download: a donor conception cap and world models for AI",
     "link": "https://www.technologyreview.com/2026/07/13/1140339/the-download-sperm-donor-limits-ai-world-models/",
     "published": "2026-07-13T12:10:00+00:00",
@@ -21,187 +207,6 @@
     "category": "media",
     "references": [
       "https://www.technologyreview.com/2026/07/13/1140339/the-download-sperm-donor-limits-ai-world-models/"
-    ]
-  },
-  {
-    "title": "PHINN-EEG: Topological Time-Series Analysis of Dream-State EEG -- Dynamic Betti Curves for Dream Content Classification and Topology-Conditioned Neural Signal Synthesis",
-    "link": "http://arxiv.org/abs/2607.09662v1",
-    "published": "2026-07-10T17:59:45+00:00",
-    "summary": "Current electroencephalography (EEG)-based dream detection relies on power spectral density (PSD) and statistical moment features, achieving a state-of-the-art area under the receiver operating characteristic curve (AUC) of approximately 0.70 on the DREAM database (Wong et al., 2025, Nature Communications). We introduce PHINN-EEG (Persistent Homology Inspired Neural Network for EEG), the first topological time-series framework for dream mentation analysis. Using sliding-window Takens delay embed",
-    "author": "Ren Takahashi, Emre Yusuf, Jayabrata Bhaduri",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2607.09662v1"
-    ]
-  },
-  {
-    "title": "Scalable Visual Pretraining for Language Intelligence",
-    "link": "http://arxiv.org/abs/2607.09657v1",
-    "published": "2026-07-10T17:57:03+00:00",
-    "summary": "The rapid progress of large foundation models has been driven predominantly by pretraining on large-scale text corpora. However, many forms of knowledge are conveyed through visual representations, where figures, typeset equations, and page layouts carry rich information that cannot be faithfully or completely captured by text alone. Yet current pretraining approaches discard these visual cues by converting visually rich sources, such as documents and web pages, into plain text for learning lang",
-    "author": "Yiming Zhang, Zhonghan Zhao, Wenwei Zhang, Haiteng Zhao, Tianyang Lin, Yunhua Zhou, Demin Song, Kuikun Liu, Haochen Ye, Haian Huang, Yuzhe Gu, Haijun Lv, Qipeng Guo, Bin Liu, Gaoang Wang, Kai Chen",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2607.09657v1"
-    ]
-  },
-  {
-    "title": "Evolution of Accuracy and Visual-Cognitive Errors in a Decade of Vision-Language AI Models",
-    "link": "http://arxiv.org/abs/2607.09654v1",
-    "published": "2026-07-10T17:53:37+00:00",
-    "summary": "Vision language models (VLMs) have made remarkable progress in visual reasoning during the last decade. Most evaluations have used simple scenes (MS-COCO) that do not showcase complex human interactions or behaviors, only a handful of non-curated human descriptions as a benchmark, and have not focused on understanding the model's error types. Here, we introduce the Complex Social Behavior (CSB) dataset, containing 100 images depicting complex social interactions/behaviors. We analyze the progres",
-    "author": "Shravan Murlidaran, Miguel P. Eckstein",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2607.09654v1"
-    ]
-  },
-  {
-    "title": "VEXAIoT: Autonomous IoT Vulnerability EXploitation using AI Agents",
-    "link": "http://arxiv.org/abs/2607.09653v1",
-    "published": "2026-07-10T17:52:29+00:00",
-    "summary": "Internet of Things (IoT) systems are inherently vulnerable due to constrained hardware, outdated firmware, and insecure default configurations, creating a need for scalable and adaptive security testing approaches. While recent adoptions of Large Language Model (LLM) agents have demonstrated promise in penetration testing and Capture-the-Flag (CTF) environments, their application to IoT specific vulnerabilities remains unexplored. This paper presents an autonomous multi-agent framework, referred",
-    "author": "Katherine Swinea, Kshitiz Aryal, Lopamudra Praharaj, Maanak Gupta",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2607.09653v1"
-    ]
-  },
-  {
-    "title": "ConceptSMILE: Auditing the Trustworthiness of Concept-Based Explainable AI",
-    "link": "http://arxiv.org/abs/2607.09649v1",
-    "published": "2026-07-10T17:47:38+00:00",
-    "summary": "Concept-based explainable artificial intelligence (AI) can make model reasoning more human-understandable, but concept-level outputs are not automatically trustworthy. We introduce ConceptSMILE, a model-agnostic perturbation-based auditing framework for evaluating the reliability of concept-based explanations. Rather than replacing SMILE, ConceptSMILE extends its perturbation-based logic from feature- or region-level attribution to the auditing of human-understandable concept explanations. The f",
-    "author": "Mohadeseh Mollapour, Koorosh Aslansefat, Zeinab Dehghani, Bhupesh Kumar Mishra, Tejal Shah, Zhibao Mian",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2607.09649v1"
-    ]
-  },
-  {
-    "title": "Semantic Pareto-DQN: A Multi-Objective Reinforcement Learning Framework for Financial Anomaly Detection",
-    "link": "http://arxiv.org/abs/2607.09641v1",
-    "published": "2026-07-10T17:39:00+00:00",
-    "summary": "Financial anomaly detection suffers from extreme class imbalance, causing traditional single-objective algorithms to exhibit ``fraud collapse'', defaulting to the majority class and failing to balance anomaly interdiction with customer friction. To overcome this without distortive data resampling, we propose the Semantic Pareto-DQN, a multi-objective reinforcement learning framework. Our approach synthesizes heterogeneous transaction features into cohesive natural-language narratives, encoded by",
-    "author": "Cláudio Lúcio do Val Lopes, Lucca Machado da Silva",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2607.09641v1"
-    ]
-  },
-  {
-    "title": "Lean-QIT: Towards a Formal Infrastructure for Quantum Information Theory",
-    "link": "http://arxiv.org/abs/2607.09632v1",
-    "published": "2026-07-10T17:28:26+00:00",
-    "summary": "Quantum information theory (QIT) characterizes the capabilities and fundamental limits of quantum information processing, underpinning quantum communication, computation, and error correction. Formalizing its coding theorems requires connecting finite-block protocols, analytic inequalities, and asymptotic limits within a unified machine-checked framework. Existing developments, however, lack a reusable operational layer that defines codes, error criteria, achievable rates, and capacities indepen",
-    "author": "Chengkai Zhu, Ziao Tang, Guocheng Zhen, Yimeng Cao, Yusheng Zhao, Ranyiliu Chen, Xuanqiang Zhao, Lei Zhang, Xin Wang",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2607.09632v1"
-    ]
-  },
-  {
-    "title": "4DR360: State Reasoning for Joint 3D Detection and Occupancy Prediction in 4D Radar-Camera Full-Scene Perception",
-    "link": "http://arxiv.org/abs/2607.09629v1",
-    "published": "2026-07-10T17:26:19+00:00",
-    "summary": "Reliable autonomous driving requires full-scene perception that couples foreground objects with dense semantic layout. Recently, 4D millimeter-wave radar has emerged as a robust and affordable sensor, yet its sparse returns make radar-camera fusion necessary for comprehensive scene understanding. Existing radar-camera methods mainly optimize detection, while dual-task systems usually decode boxes and occupancy with limited interaction. To address this gap and advance radar-based multi-task learn",
-    "author": "Xiaokai Bai, Lianqing Zheng, Runwei Guan, Songkai Wang, Siyuan Cao, Hui-liang Shen",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2607.09629v1"
-    ]
-  },
-  {
-    "title": "Task-Specific Multimodal Question Answering Agents via Confidence Calibration and Incremental Reasoning for QANTA 2026",
-    "link": "http://arxiv.org/abs/2607.09623v1",
-    "published": "2026-07-10T17:22:49+00:00",
-    "summary": "We present our submission to the QANTA 2026 shared challenge at the ICML 2026 Workshop on Efficient Multimodal Question Answering (EMM-QA). Quanta evaluates multimodal quizbowl systems that answer pyramid-style questions from incrementally revealed text and accompanying images while operating under realistic efficiency constraints. The challenge consists of two distinct tasks: Tossup questions, which require deciding when to answer under uncertainty, and Bonus questions, which emphasize accurate",
-    "author": "Nirjhar Das, Md. Al-Mamun Provath",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2607.09623v1"
-    ]
-  },
-  {
-    "title": "Agora: Enhancing LLM Agent Reasoning Via Auction-Based Task Allocation",
-    "link": "http://arxiv.org/abs/2607.09600v1",
-    "published": "2026-07-10T16:54:52+00:00",
-    "summary": "Enhancing the reasoning capabilities of large language model (LLM) agents requires effective orchestration of diverse expert models and tools. However, existing frameworks typically call APIs based on coarse-grained matching between tasks and the functions of expert models or tools, while overlooking critical factors such as performance variability and cost efficiency among functionally similar alternatives. To address this, we propose Agora, a framework that introduces an incentive-compatible a",
-    "author": "Kaiji Zhou, Ales Leonardis, Yue Feng",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2607.09600v1"
-    ]
-  },
-  {
-    "title": "PAC-ACT: Post-training Actor-Critic for Action Chunking Transformers",
-    "link": "http://arxiv.org/abs/2607.09590v1",
-    "published": "2026-07-10T16:42:17+00:00",
-    "summary": "Precision industrial contact manipulation requires reliable robot policies under pose perturbations and contact-force constraints. Vision-language-action models offer broad generalization but often introduce high inference latency and GPU-memory cost, while vision-action chunking policies are more suitable for real-time industrial control. However, these policies are usually trained by behavior cloning and suffer from distribution shift in contact-rich tasks. This paper proposes PAC-ACT, a reinf",
-    "author": "Yujie Pang, Zudong Li",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2607.09590v1"
-    ]
-  },
-  {
-    "title": "TrustX Agent Risk Classification Framework (ARC): Risk-Tiering Internally Created Agentic AI Systems",
-    "link": "http://arxiv.org/abs/2607.09586v1",
-    "published": "2026-07-10T16:36:44+00:00",
-    "summary": "The proliferation of agentic AI systems across enterprise and public-sector contexts has outpaced the capacity of general-purpose AI risk frameworks to classify and govern them. In this paper, we introduce the TrustX Agent Risk Classification Framework, a structured, repeatable instrument that can be applied to seven types of agentic AI systems and is grounded in foundational pre-existing AI governance frameworks. At the core of the framework is a twelve-dimension scoring rubric that robustly qu",
-    "author": "Hannah M. Liu, Rhea Saxena, Shiv Asthana",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "https://arc.responsible.ai/",
-      "http://arxiv.org/abs/2607.09586v1"
-    ]
-  },
-  {
-    "title": "Knowledge Graphs and Explainable AI as Complementary Resources for Urban Mining",
-    "link": "http://arxiv.org/abs/2607.09578v1",
-    "published": "2026-07-10T16:27:29+00:00",
-    "summary": "Pre-demolition assessment, the regulated audit process at the heart of urban mining, is an information process in which AI support must serve qualified auditors who remain accountable for the decisions taken. The relevant unit of value is not prediction accuracy alone, but the defensibility of the supported decisions: their legibility, plausibility, sourcing, and contestability. Explainable AI techniques and domain knowledge graphs each address parts of this requirement, and existing taxonomies ",
-    "author": "Jan Gronewald, Andreas Emrich, Nijat Mehdiyev",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2607.09578v1"
-    ]
-  },
-  {
-    "title": "Conceptual Networks for Cross-Linguistic Idiomatic Expressions:A Feature-Based Graph Approach",
-    "link": "http://arxiv.org/abs/2607.09576v1",
-    "published": "2026-07-10T16:25:51+00:00",
-    "summary": "We present an interpretable network-based framework for representing idiomatic and figurative meaning across eight typologically diverse languages, totaling 160 conventional expressions, the large majority of which are idiomatic. Each expression is annotated with binary conceptual features (containment, concealment, emotional, social, etc.) derived from cognitive-linguistic theory, and pairwise Jaccard similarities define a weighted graph. Community detection reveals that idioms cluster by conce",
-    "author": "Kiran Pala, Punam Silu, Lixun Yu",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2607.09576v1"
-    ]
-  },
-  {
-    "title": "Large-Scale Portfolio Optimization Problem Under Cardinality Constraint With Enhanced Multi-Objective Evolutionary Algorithms",
-    "link": "http://arxiv.org/abs/2607.09566v1",
-    "published": "2026-07-10T16:12:58+00:00",
-    "summary": "Decision-making is posing an increasingly formidable challenge to investors because of the growing number of alternatives available in financial markets. A hot area of research over the past few decades has been portfolio optimization that seeks to determine how much an investor should invest in which asset. Introducing real-world conditions to the optimization model turns the problem into an NP-hard one for whose solution exact methods become inefficient; hence, researchers have turned to evolu",
-    "author": "Danial Ramezani, Mostafa Abouei Ardakan",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2607.09566v1"
     ]
   },
   {
