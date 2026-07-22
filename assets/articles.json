@@ -1,5 +1,174 @@
 [
   {
+    "title": "Copy Less, Ground More: Overcoming Repetitive Copying in Long-Context Reasoning via Evidence-Aware Reinforcement Learning",
+    "link": "http://arxiv.org/abs/2607.19345v1",
+    "published": "2026-07-21T17:59:21+00:00",
+    "summary": "Large language models that generate step-by-step reasoning traces have achieved strong performance on complex tasks, and extending them to long-context settings has emerged as an important frontier. However, we identify a critical failure mode in this regime: \\emph{repetitive copying}, where models extensively copy text from the input into their reasoning traces rather than productively solving the problem. We show that this behavior is pervasive across frontier long-context LLMs and intensifies",
+    "author": "Lizhe Fang, Weizhou Shen, Tianyi Tang, Yisen Wang",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2607.19345v1"
+    ]
+  },
+  {
+    "title": "Appearance Pointers -- Multimodal Region Control of Diffusion Transformers",
+    "link": "http://arxiv.org/abs/2607.19344v1",
+    "published": "2026-07-21T17:59:12+00:00",
+    "summary": "Controllable image generation remains challenging for creative professionals, who often require precise regional control over materials, object identities, and spatial arrangements that cannot be reliably achieved through text prompting alone. Diffusion Transformers (DiTs) can natively ingest heterogeneous tokens stemming from texts and images, but they lack mechanisms for determining where and how these tokens should influence the output. We introduce appearance pointers, compact tokens that gu",
+    "author": "Rahul Sajnani, Yulia Gryaditskaya, Radomír Měch, Srinath Sridhar, Matheus Gadelha",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2607.19344v1"
+    ]
+  },
+  {
+    "title": "CodeRescue: Budget-Calibrated Recovery Routing for Coding Agents",
+    "link": "http://arxiv.org/abs/2607.19338v1",
+    "published": "2026-07-21T17:56:49+00:00",
+    "summary": "Coding agents increasingly operate in executable environments where a failed attempt produces actionable feedback rather than merely an incorrect answer. Existing cost-aware systems typically treat such failures as cascade decisions: try a cheap model first, then escalate hard cases to a stronger and more expensive model. In coding, however, execution feedback can also make further cheap-model recovery worthwhile, raising a budgeted deployment question: when should an agent spend more cheap comp",
+    "author": "Qijia He, Jiayi Cheng, Chenqian Le, Rui Wang, Xunmei Liu, Yixian Chen, Jie Mei, Zhihao Wang, Xupeng Chen, Yuhuan Chen, Tao Wang",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "https://github.com/Qijia-He/agent-budget-control",
+      "http://arxiv.org/abs/2607.19338v1"
+    ]
+  },
+  {
+    "title": "Agents in the Wild: Where Research Meets Deployment",
+    "link": "http://arxiv.org/abs/2607.19336v1",
+    "published": "2026-07-21T17:55:10+00:00",
+    "summary": "Agentic systems large language model (LLM) based architectures capable of reasoning, planning, acting, and coordinating with tools and other agents are rapidly transitioning from research prototypes to production scale deployments across domains such as software engineering, scientific discovery, and finance. While academic work has emphasized benchmarks and algorithmic innovation, deployment raises new challenges around robustness, safety, and reliability. This tutorial brings together research",
+    "author": "Grace Hui Yang, Pranav N. Venkit, Hooman Sedghamiz, Enrico Santus, Victor Dibia, Ioana Baldini",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2607.19336v1"
+    ]
+  },
+  {
+    "title": "Provable diffusion-based posterior sampling for linear inverse problems via DDIM",
+    "link": "http://arxiv.org/abs/2607.19333v1",
+    "published": "2026-07-21T17:53:36+00:00",
+    "summary": "Diffusion-based methods have achieved remarkable empirical success in solving inverse problems. However, many existing posterior samplers either lack rigorous theoretical guarantees or incur substantial computational overhead. We propose a simple and efficient algorithm, called \\pddim, for solving linear inverse problems with diffusion priors via a DDIM-type sampler. Our method requires only lightweight, coordinate-wise modifications to the standard DDIM update, while explicitly incorporating th",
+    "author": "Yuchen Jiao, Na Li, Changxiao Cai, Yuxin Chen, Gen Li",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2607.19333v1"
+    ]
+  },
+  {
+    "title": "ISO: An RLVR-Native Optimization Stack",
+    "link": "http://arxiv.org/abs/2607.19331v1",
+    "published": "2026-07-21T17:51:36+00:00",
+    "summary": "Reinforcement learning with verifiable rewards (RLVR) is rapidly advancing the reasoning capabilities of language models, yet the optimization layer that converts reward feedback into weight-space updates remains poorly understood. Building on our prior analysis (Zhu et al., 2025), we study this missing layer through the singular structure of model weights and identify spectral inheritance: RLVR can reuse the base model's weight spectra while acquiring new behavior through changes in the associa",
+    "author": "Hanqing Zhu, Wenyan Cong, Zhizhou Sha, Sagnik Mukherjee, Xinyuan Song, David González-Martínez, Xiaoxia Wu, Yuandong Tian, Shiwei Liu, David Z. Pan, Zhangyang \"Atlas\" Wang",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2607.19331v1"
+    ]
+  },
+  {
+    "title": "Associative Emotional Learning in Convolutional Neural Networks",
+    "link": "http://arxiv.org/abs/2607.19327v1",
+    "published": "2026-07-21T17:49:19+00:00",
+    "summary": "Associative emotional learning enables organisms to adaptively link pleasant or unpleasant outcomes to the presence of predictive stimuli. Whereas computational models such as the Rescorla-Wagner model have shed light on this important function, the limitations of these models are also known, especially when they are applied to neural data. The advent of deep neural networks has opened another avenue for modeling associative emotional learning. In this work we proposed a deep neural network mode",
+    "author": "Seowung Leem, Andreas Keil, Mingzhou Ding, Ruogu Fang",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2607.19327v1"
+    ]
+  },
+  {
+    "title": "ResearchArena: Evaluating Sabotage and Monitoring in Automated AI R&D",
+    "link": "http://arxiv.org/abs/2607.19321v1",
+    "published": "2026-07-21T17:41:12+00:00",
+    "summary": "As AI agents begin to automate AI R&D, we need ways to assess whether their outputs are safe to deploy, even when the agents themselves may be untrusted. AI control offers one such approach: rather than trusting the agent, it treats it as a potential adversary and uses a monitor to detect covert sabotage before deployment. We evaluate AI control for automated AI R&D with ResearchArena, a framework spanning four long-horizon tasks: safety post-training, capabilities post-training, CUDA-kernel opt",
+    "author": "Lena Libon, Ben Rank, Jehyeok Yeon, David Schmotz, Jeremy Qin, Daniel Donnelly, Derck Prinzhorn, Maksym Andriushchenko",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2607.19321v1"
+    ]
+  },
+  {
+    "title": "Off-Context GRPO: Learning to Reason on Hard Problems using Privileged Information",
+    "link": "http://arxiv.org/abs/2607.19313v1",
+    "published": "2026-07-21T17:28:40+00:00",
+    "summary": "Reinforcement learning with verifiable rewards (RLVR) improves reasoning in large language models. Yet, typical RLVR approaches fail on difficult problems: when a model cannot generate any correct solutions, it receives \\textit{zero} learning signal. Providing privileged guidance during training, such as solution prefixes, can help overcome this learning cliff by steering the model towards {correct solutions with non-zero reward}. {We call these rollouts \\textit{off-context}: they are generated ",
+    "author": "Priyank Agrawal, Ankur Samanta, Shervin Ghasemlou, Jalaj Bhandari, Kavosh Asadi, Daniel Jiang, Aditya Modi",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2607.19313v1"
+    ]
+  },
+  {
+    "title": "From Distances to Trajectories: Real-Time Signed Distance Function Mapping and Distance-Accelerated Motion Planning for UAVs",
+    "link": "http://arxiv.org/abs/2607.19306v1",
+    "published": "2026-07-21T17:18:46+00:00",
+    "summary": "Autonomous flight in cluttered environments requires a robot to build a geometric map of its surroundings and plan safe, dynamically feasible trajectories, all onboard and in real time. Conventional approaches treat mapping and planning as separate stages and often rely on binary occupancy for collision checking. We argue that these two stages should be co-designed around a single representation: a signed distance function (SDF). By encoding distance to the nearest obstacle, an SDF provides rich",
+    "author": "Jason Stanley, Zhirui Dai, Qihao Qian, Tzu-Chin Ho, Tianxing Fan, Siddharth Saha, Christopher Barngrover, Ki Myung Brian Lee, Nikolay Atanasov",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2607.19306v1"
+    ]
+  },
+  {
+    "title": "Riemannian Deep Learning:Modules, Networks, and Geometries",
+    "link": "http://arxiv.org/abs/2607.19305v1",
+    "published": "2026-07-21T17:17:35+00:00",
+    "summary": "Deep neural networks on manifold-valued representations have attracted growing interest, but many basic components remain tied to specific manifolds, rely on Euclidean approximations, or require costly and numerically fragile geometric operations. This thesis develops a unified framework for Riemannian deep learning from three complementary perspectives: reusable neural modules, manifold-specific network architectures, and the design of underlying geometries. It generalizes batch normalization f",
+    "author": "Chen Ziheng",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2607.19305v1"
+    ]
+  },
+  {
+    "title": "LLM Detection as an Intervention: Downstream Impact under Strategic User Behavior",
+    "link": "http://arxiv.org/abs/2607.19300v1",
+    "published": "2026-07-21T17:11:02+00:00",
+    "summary": "As LLM adoption becomes more widespread, there is a growing interest in detecting LLM-generated content, for example through LLM detection tools and through heuristics based on language patterns. Detectors operate as an intervention that steers not only the detected attribute itself, but also downstream metrics such as LLM usage and output quality. In this work, we demonstrate how imperfect LLM detectors lead to counterintuitive impacts on these downstream metrics, by distorting how users are in",
+    "author": "Meena Jagadeesan, Tatsunori Hashimoto, Jon Kleinberg",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2607.19300v1"
+    ]
+  },
+  {
+    "title": "Graph-Based Agentic AI with LangGraph: Workflow Pathways for Long-Running Stateful Business Processes",
+    "link": "http://arxiv.org/abs/2607.19297v1",
+    "published": "2026-07-21T17:07:13+00:00",
+    "summary": "This paper is a practitioner guide to graph-based workflow pathways for long-running, stateful, multi-step generative AI systems in business processes. Rather than treating LangGraph, a low-level orchestration framework for stateful agents, as a model-quality benchmark target, we present three executable recipes -- SQL analytics with repair loops, agentic retrieval-augmented generation with evidence gating, and human-in-the-loop policy review with interrupt and checkpoint recovery -- to show how",
+    "author": "Daniel Pearson, Sidney Shapiro, Emiliano Sebastian Gonzalez Venegas, Sanad Al-Khatib, Aurora Pinzón Arzola",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2607.19297v1"
+    ]
+  },
+  {
+    "title": "The safety failures we are not instrumenting: a perspective on hidden safety-critical challenges in modern AI systems",
+    "link": "http://arxiv.org/abs/2607.19292v1",
+    "published": "2026-07-21T17:02:37+00:00",
+    "summary": "Current AI safety discourse still focuses disproportionately on visible failures, including obvious harms, dramatic misuse, and hypothetical catastrophic scenarios. That focus is incomplete. In deployed systems, many of the most consequential failures are quieter: plausible rather than spectacular, distributed across components rather than localized in a single output, and normalized by workflows before they are recognized as hazards. We argue that a central safety challenge in modern AI systems",
+    "author": "Gjergji Kasneci, Enkelejda Kasneci",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2607.19292v1"
+    ]
+  },
+  {
     "title": "Introducing the ChatGPT for small business program",
     "link": "https://openai.com/index/introducing-chatgpt-small-business-program",
     "published": "2026-07-21T17:00:00+00:00",
@@ -9,6 +178,18 @@
     "category": "official",
     "references": [
       "https://openai.com/index/introducing-chatgpt-small-business-program"
+    ]
+  },
+  {
+    "title": "GUIDED Network-Agnostic Feature Initialization for Spatial Transferability in GNN-based Models",
+    "link": "http://arxiv.org/abs/2607.19270v1",
+    "published": "2026-07-21T16:41:59+00:00",
+    "summary": "The Traffic Assignment Problem is a fundamental but computationally expensive component of transportation planning. While Graph Neural Networks have emerged as fast, data-driven surrogates, their practical deployment is severely constrained by a spatial generalization gap. Standard models rely on transductive feature initializations that tie travel demand to fixed network topologies, preventing seamless transfer to new urban environments. To overcome this structural limitation, this research pro",
+    "author": "Alessandro Scalese, Santhanakrishnan Narayanan, Constantinos Antoniou",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2607.19270v1"
     ]
   },
   {
@@ -69,188 +250,6 @@
     "category": "media",
     "references": [
       "https://www.technologyreview.com/2026/07/20/1140675/chinas-ai-models-have-trumps-ai-world-at-war-with-itself/"
-    ]
-  },
-  {
-    "title": "Automated Discovery Has No Universally Superior Harness",
-    "link": "http://arxiv.org/abs/2607.18235v1",
-    "published": "2026-07-20T17:59:37+00:00",
-    "summary": "Autonomous discovery systems such as OpenEvolve and TTT-Discover are often used as general-purpose harnesses. However, in practice these are composite systems combining several design choices about archives, parent selection, exploration, and budget allocation into a single recipe. Because discovery runs are expensive and inherently stochastic, existing harnesses are often compared using too few independent trials to distinguish key methodological improvements from run-to-run variance. We system",
-    "author": "Akshat Gupta, Jermaine Lei, Alexander Lu, Gopala Anumanchipalli, Leshem Choshen",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2607.18235v1"
-    ]
-  },
-  {
-    "title": "Simple Domain Generalization for Strong Pixel-Level Image Tampering Detection in Modern VLMs",
-    "link": "http://arxiv.org/abs/2607.18230v1",
-    "published": "2026-07-20T17:58:13+00:00",
-    "summary": "Modern vision-language models (VLMs) have significantly improved image generation and editing capabilities, making pixel-level image tampering detection increasingly important yet challenging under cross-model and out-of-distribution shifts. This work studies domain generalization for pixel-level image tampering detection in modern VLMs like ChatGPT, Gemini, Qwen-Image, etc., aiming to learn tampering localization models that remain robust across diverse VLM-generated manipulation distributions.",
-    "author": "Yi Tang, Xinyi Shang, Jiacheng Cui, Sondos Mahmoud Bsharat, Jiacheng Liu, Xiaohan Zhao, Tran Dinh Tien, Ahmed Elhagry, Salwa K. Al Khatib, Tianjun Yao, Yonina C. Eldar, Jing-Hao Xue, Hao Li, Salman Khan, Zhiqiang Shen",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "https://github.com/VILA-Lab/PIXAR-DG",
-      "http://arxiv.org/abs/2607.18230v1"
-    ]
-  },
-  {
-    "title": "Logical Judgments Under Pressure: Diagnosing Syllogistic Stability with Learned Soft Prefixes",
-    "link": "http://arxiv.org/abs/2607.18228v1",
-    "published": "2026-07-20T17:58:05+00:00",
-    "summary": "To test how correct logical judgments respond to learned context, we prepend a soft prefix to an exactly labeled syllogistic reasoning benchmark while keeping the model fixed. Soft prefixes are opaque continuous vectors, so we characterize them through the behavior they induce across controlled variations in logical form and interface. By studying which prefixes succeed and how their effects generalize, we characterize how learned contextual pressure can override correct judgments and expose lim",
-    "author": "Brian K Chen",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2607.18228v1"
-    ]
-  },
-  {
-    "title": "GigaPath-Flash and GigaTIME-Flash: Efficient Pathology Foundation Models for Whole-Slide and Tumor Microenvironment Analysis",
-    "link": "http://arxiv.org/abs/2607.18218v1",
-    "published": "2026-07-20T17:52:33+00:00",
-    "summary": "Foundation models have emerged as a driving force in computational pathology, with the potential to transform cancer diagnosis, prognosis, and treatment selection by learning transferable representations from large-scale histopathology data. A growing landscape of pathology foundation models now spans diverse data sources, architectures, and downstream applications. However, most pretrained models operate only at the image-tile level, use restrictive licenses, and remain computationally expensiv",
-    "author": "Naoto Usuyama, Jeya Maria Jose Valanarasu, Sicong Yao, Hanwen Xu, Jaspreet Bagga, Guanghui Qin, Robert E. Kramer, Cliff Wong, Soohee Lee, Hao Qiu, Theodore Zhengde Zhao, Racheli Ben Shimol, Angela Crabtree, Kevin Matlock, Eduardo Alejandro Lozano Garcia, Naiteek Sangani, Alberto Santamaria-Pang, Jason Entenmann, Alexandra Q. Bartlett, Bill J. Wright, Bernard A. Fox, Brian Piening, Sheng Zhang, Sheng Wang, Tristan Naumann, Carlo Bifulco, Hoifung Poon",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2607.18218v1"
-    ]
-  },
-  {
-    "title": "Learning Adaptive Safety Margins for Visual Navigation",
-    "link": "http://arxiv.org/abs/2607.18200v1",
-    "published": "2026-07-20T17:40:25+00:00",
-    "summary": "Robots in cluttered indoor spaces often fail not because they cannot generate collision-free paths, but because a fixed safety margin is mis-calibrated: conservative margins cause detours and timeouts, while permissive margins lead to near-boundary shortcuts under perception bias. Diffusion-based planners propose diverse trajectory candidates from egocentric RGB-D, yet reliable selection remains the bottleneck. We propose a context-conditioned safety critic that learns an adaptive clearance pref",
-    "author": "Junyi Hu, Shuaihang Yuan, Geeta Chandra Raju Bethala, Anthony Tzes, Yi Fang",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2607.18200v1"
-    ]
-  },
-  {
-    "title": "A Continual Validation, Updating, and Decision-Making Framework for Self-Adaptive Digital Twins via Robust Model Predictive Control: A Case Study in Additive Manufacturing",
-    "link": "http://arxiv.org/abs/2607.18164v1",
-    "published": "2026-07-20T17:07:41+00:00",
-    "summary": "Digital Twins rely on surrogate models to mirror physical systems in real time, yet these models can degrade as operating conditions evolve, a phenomenon known as concept drift. Maintaining surrogate fidelity under drift, particularly when models must also capture aleatoric uncertainty, remains an open challenge. Existing adaptive frameworks lack principled mechanisms for detecting when updates are needed, for efficiently adapting models from limited streaming data, and for certifying that updat",
-    "author": "Yi-Ping Chen, Ying-Kuan Tsai, Vispi Karkaria, Seul Lee, Daniel Apley, Wei Chen",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2607.18164v1"
-    ]
-  },
-  {
-    "title": "OR Else: A Differentiable Trust Region for Policy Optimization",
-    "link": "http://arxiv.org/abs/2607.18163v1",
-    "published": "2026-07-20T17:07:40+00:00",
-    "summary": "PPO and the GRPO baseline studied here use clipped surrogate objectives whose favorable-direction saturation introduces an abrupt change in the scalar objective's derivative. We ask whether Output Reset (OR), a smooth one-sided saturation rule, offers a useful alternative for large language model post-training. PPO-OR and GRPO-OR replace the clipped policy term with an OR squared-margin loss in rollout-relative token log-ratio space; the advantage sign determines the update direction, and a toke",
-    "author": "Chinmay Rane, Kanishka Tyagi, Michael Manry",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2607.18163v1"
-    ]
-  },
-  {
-    "title": "TRIM: Reducing AI-Generated CodeSlop via Agent Trajectory Minimization",
-    "link": "http://arxiv.org/abs/2607.18161v1",
-    "published": "2026-07-20T17:06:19+00:00",
-    "summary": "Coding agents are increasingly used to accelerate code generation in many downstream tasks, such as fixing bugs, building applications, and prototyping. However, despite their value as coding assistants, agent-generated code tends to be larger and more verbose than the corresponding human-written implementation. In this work, we show that the cause lies in the agent's own search process: while iterating toward a passing solution, an agent accumulates speculative edits, abandoned hypotheses, and ",
-    "author": "Alex Mathai, Shobini Iyer, Aleksandr Nogikh, Petros Maniatis, Franjo Ivancic, Junfeng Yang, Baishakhi Ray",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2607.18161v1"
-    ]
-  },
-  {
-    "title": "Differentiable Logic Gate Networks for Low-Latency EEG Classification on Edge Devices",
-    "link": "http://arxiv.org/abs/2607.18149v1",
-    "published": "2026-07-20T16:49:30+00:00",
-    "summary": "Real-time EEG classification on edge devices is bottlenecked by the floating-point arithmetic of conventional neural networks. We investigated Differentiable Logic Gate Networks (Diff-Logic) as a hardware-native alternative that compiles models into pure Boolean circuits executable via bitwise CPU operations. Through rigorous iso-parameter experiments across four EEG datasets spanning two classification tasks, binary dementia detection and 3-class emotion recognition, we compared Diff-Logic agai",
-    "author": "Shyamal Y. Dharia, Stephen D. Smith, Camilo E. Valderrama",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "https://github.com/Shyamal-Dharia/eeg-difflogic",
-      "http://arxiv.org/abs/2607.18149v1"
-    ]
-  },
-  {
-    "title": "LLMs and Agentic AI Systems for Smart Grids: A Tutorial on Architectures and Applications",
-    "link": "http://arxiv.org/abs/2607.18147v1",
-    "published": "2026-07-20T16:45:13+00:00",
-    "summary": "Large language models (LLMs) and agentic AI systems have evolved from natural language tasks to using external tools to plan, retrieve, and act in technical domains. In smart grids, recent work applies agentic schemes to forecasting, optimization, and control, wrapping trusted solvers behind language interfaces and orchestrating multi-step workflows. The literature lacks a unified approach to designing and evaluating such systems. LLMs can produce numerically plausible yet physically infeasible ",
-    "author": "Daniela Rojas, Abdulwahab Albassam, Aidan G. Leung, Jett Ngo, Ryan Luo, Peter R. Quawas, Junpyung Kim, Kangkai Liang, Mansi Nanavati, Jonathan Mai, Meng-Chi Tsai, Yun-Tong Tsai, Yize Chen, Yuanyuan Shi",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2607.18147v1"
-    ]
-  },
-  {
-    "title": "Do Language Models Dream of Binding Molecules? Benchmarking LLMs under Spatial Constraints",
-    "link": "http://arxiv.org/abs/2607.18144v1",
-    "published": "2026-07-20T16:43:54+00:00",
-    "summary": "Structure-based drug design (SBDD) leverages the 3D structure of protein targets, often complemented by other spatial constraints, to generate candidate binding molecules. While diffusion models have dominated as a leading paradigm for high-quality 3D molecule generation, LLM-based methods are rapidly emerging in molecular design and have shown competitive performance in pocket-conditioned molecular generation. However, their ability to reason about physics and 3D spatial environments is largely",
-    "author": "Thomas MacDougall, Maksim Kuznetsov, Roman Schutski, Rim Shayakhmetov, Maxim Malkov, Vladimir Aladinskiy, Alex Aliper, Alex Zhavoronkov",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2607.18144v1"
-    ]
-  },
-  {
-    "title": "O-VAD: Industrial Video Anomaly Detection through Object-Centric Tracking and Reasoning",
-    "link": "http://arxiv.org/abs/2607.18142v1",
-    "published": "2026-07-20T16:36:00+00:00",
-    "summary": "Industrial Video Anomaly Detection (IVAD) aims to identify anomalous objects and events in an industrial process, which is crucial for modern manufacturing and quality control systems. Existing VLM-based anomaly reasoning methods are capable of detecting open-ended anomalies in general domains. However, their performance declines in industrial settings characterized by intricate object transformations, strict physics, and procedural constraints. To tackle the complexity of such interaction-inten",
-    "author": "Mei Yuan, Qi Long, Qifeng Wu, Zhenyang Li, Yizhou Zhao, Lei Wang, Yang Liu, Min Xu",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2607.18142v1"
-    ]
-  },
-  {
-    "title": "SGA: Plug&Play Geometric Verification for Educational Video Synthesis",
-    "link": "http://arxiv.org/abs/2607.18116v1",
-    "published": "2026-07-20T16:11:19+00:00",
-    "summary": "Recent work leverages Large Language Models (LLMs) to generate executable code for pedagogical animations using libraries such as Manim. However, ensuring spatial correctness and visual legibility remains challenging, as existing frameworks emphasize pedagogical content while overlooking geometric occlusions. We propose the Symbolic Geometric Agent (SGA), a plug-and-play module for code-centric animation pipelines that intercepts LLM-generated code, performs partial execution to extract symbolic",
-    "author": "Lopez Jhon, Hinojosa Carlos, Ghanem Bernard",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2607.18116v1"
-    ]
-  },
-  {
-    "title": "How Does Alignment Tuning Shape Representations of Sycophancy and Related Cue-Induced Biases in LLMs?",
-    "link": "http://arxiv.org/abs/2607.18114v1",
-    "published": "2026-07-20T16:10:06+00:00",
-    "summary": "Modern LLMs are alarmingly susceptible to surprisingly simple immaterial changes of input prompts: a casual hint, an incorrectly labeled few-shot example, or a fake prior assistant turn often flips an originally correct answer. We study where this susceptibility, spanning sycophancy and related cue-induced biases, lives inside the model. Across five model families and seven BCT bias types, we extract a per-bias direction from hidden states and triangulate it through three measures: probing, leav",
-    "author": "Prakhar Gupta, Terry Jingchen Zhang, Florent Draye, Bernhard Schölkopf, Zhijing Jin",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2607.18114v1"
-    ]
-  },
-  {
-    "title": "Can We Break LLMs Out of Self-Loops? Fine-Grained Reasoning Control with Activation Steering",
-    "link": "http://arxiv.org/abs/2607.18100v1",
-    "published": "2026-07-20T16:01:57+00:00",
-    "summary": "Extended reasoning has become standard for frontier Large Language Models (LLMs), yet the trajectories these models produce remain largely uncontrollable. Existing methods for shaping how a model reasons are prompt based approaches and operate at the input level, offering no fine-grained control over the reasoning process itself. Related work analyzes and discovers latent transition dynamics in the reasoning traces from Large Language Models. Building on this, we statistically characterize these",
-    "author": "Sheldon Yu, Tong Yu, Xunyi Jiang, Rohan Surana, Gagan Mundada, Sungchul Kim, Lina Yao, Julian McAuley, Junda Wu",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2607.18100v1"
     ]
   },
   {
