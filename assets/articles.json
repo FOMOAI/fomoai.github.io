@@ -1,5 +1,185 @@
 [
   {
+    "title": "SoftReason: A Fully Differentiable Neuro-Soft-Symbolic Deductive Reasoning Architecture over High-Dimensional Perceptual Data",
+    "link": "http://arxiv.org/abs/2607.20402v1",
+    "published": "2026-07-22T17:38:39+00:00",
+    "summary": "In many reasoning problems, the premises are not observed as discrete symbols, but must be inferred from high-dimensional inputs. Further, the predicate vocabulary, argument structure, and trusted evidence are supplied by a Knowledge Graph (KG), or rule definitions. Classical neuro-symbolic pipelines have a discrete interface between perception and deduction. We present a neuro-soft-symbolic architecture for differentiable deductive reasoning over latent perceptual facts and knowledge-provided p",
+    "author": "Wael AbdAlmageed",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2607.20402v1"
+    ]
+  },
+  {
+    "title": "Persian Pixel: A large-scale synthetic OCR dataset for Persian language",
+    "link": "http://arxiv.org/abs/2607.20385v1",
+    "published": "2026-07-22T17:13:25+00:00",
+    "summary": "Optical Character Recognition (OCR) for Persian remains substantially less mature than for Latin-script languages despite Persian being spoken by more than 110 million people across multiple countries. This gap arises from two fundamental challenges: the intrinsic complexity of the Perso-Arabic writing system and the limited availability of large-scale, high-quality annotated datasets. Persian script exhibits obligatory cursive connectivity, context-dependent glyph shaping, extensive ligatures, ",
+    "author": "Pouria Mahdi, Haq Nawaz Malik",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2607.20385v1"
+    ]
+  },
+  {
+    "title": "FMRP-LEAN: A HIPAA-Compliant AI-Augmented LIMS Architecture for End-to-End Clinical Assay Workflow Optimization",
+    "link": "http://arxiv.org/abs/2607.20382v1",
+    "published": "2026-07-22T17:11:52+00:00",
+    "summary": "Clinical biomarker workflows in translational research settings often rely on spreadsheet-driven tracking, manual quality control (QC) reconciliation, and loosely integrated systems, resulting in limited state visibility, delayed reporting, and increased operational risk. These challenges are particularly pronounced in multi-day assays such as Luminex-based quantification of Fragile X Messenger Ribonucleoprotein (FMRP), where HIPAA-compliant data governance, deterministic workflow progression, a",
+    "author": "Eva McCord, Ernest Pedapati, Zag ElSayed",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2607.20382v1"
+    ]
+  },
+  {
+    "title": "Train the Model, Not the Reader: Decodability Supervision for Verifiable Activation Explanations",
+    "link": "http://arxiv.org/abs/2607.20379v1",
+    "published": "2026-07-22T17:10:23+00:00",
+    "summary": "Natural-language autoencoders score explanations of hidden activations by reconstruction: an explanation is deemed faithful if the activation can be regenerated from it. The test is structurally insensitive to individual false claims: if flipping a claim does not change the reconstruction, the claim is never penalized. We show the test is passed in two ways, neither faithful. On a released Qwen-2.5-7B verbalizer, explanations reconstruct well above chance while ~2% of specific claims are reconst",
+    "author": "Hiskias Dingeto",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2607.20379v1"
+    ]
+  },
+  {
+    "title": "Generative AI floods and dilutes the market for books",
+    "link": "http://arxiv.org/abs/2607.20349v1",
+    "published": "2026-07-22T16:33:20+00:00",
+    "summary": "Generative AI can produce book-length works of fiction at near-zero cost. These books are often dismissed as low-quality ``slop'' that buyers will ignore, and are assumed to carry little commercial weight. We test that assumption with full-text AI detection across 14,419 self-published genre-fiction books sold on Amazon from 2023 to 2026, matched to daily sales records through June 2026. None of these books disclose whether or not they contain AI-produced content. We find that books for which we",
+    "author": "Tuhin Chakrabarty, Xinyue Liu, Jane C. Ginsburg, Paramveer Dhillon",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2607.20349v1"
+    ]
+  },
+  {
+    "title": "Closing the Lab-to-Store Gap: A Data-Efficient Post-Training and Experience-Driven Learning VLA Framework for Retail Humanoids",
+    "link": "http://arxiv.org/abs/2607.20345v1",
+    "published": "2026-07-22T16:30:51+00:00",
+    "summary": "Closing the gap between benchmark performance and reliable real-world operation remains a central challenge for Vision-Language-Action (VLA) humanoid robots, which must handle execution errors, distribution shifts, and environmental variability. This paper presents DEED (Data-Efficient Post-Training and Experience-Driven Learning), a systems-level approach evaluated on a supermarket chip-restocking task using a Unitree G1-Edu humanoid robot and the GR00T N1.6 foundation model. DEED comprises thr",
+    "author": "Roger Sala Sisó, Tiago Silvério, Jakob Sand, Tran Nguyen Le",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2607.20345v1"
+    ]
+  },
+  {
+    "title": "Understanding Generative AI-mediated User Engagement with Academic Library Resources",
+    "link": "http://arxiv.org/abs/2607.20328v1",
+    "published": "2026-07-22T16:14:38+00:00",
+    "summary": "This study empirically analyzed generative AI as an emerging discovery pathway to academic library resources. Utilizing web analytics from August 2023 to October 2025, the research identifies a significant increase in AI-mediated traffic, particularly following the integration of linked citation features. Referral analysis identified ChatGPT, Perplexity, and Gemini as the primary platforms driving this traffic. A substantial portion of users reached the institutional repository, primarily access",
+    "author": "Hae Min Kim, Stacy Stanislaw",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2607.20328v1"
+    ]
+  },
+  {
+    "title": "Toward Reliable RGB-D Semantic Segmentation: Handling Missing Modalities via Condition Dropout",
+    "link": "http://arxiv.org/abs/2607.20326v1",
+    "published": "2026-07-22T16:12:27+00:00",
+    "summary": "RGB-D semantic segmentation has achieved remarkable progress, yet most models assume that RGB and depth are always available. In practice, failures or occlusions of surveillance sensors often remove one modality. Although RGB or depth alone can contain sufficient cues, models trained only on full-modality inputs fail to exploit the remaining modality once one is missing, causing severe degradation. We tackle this issue with a simple continued-training paradigm, \\emph{Condition Dropout (ConD)}, w",
+    "author": "Xuchen Zhu, Yajuan Wei, Shuang Hao, Jiwei Jiang, Guanxiang Mao, Fang Ren",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2607.20326v1"
+    ]
+  },
+  {
+    "title": "Don't Trust the Label: License Laundering in AI Supply Chains",
+    "link": "http://arxiv.org/abs/2607.20300v1",
+    "published": "2026-07-22T15:48:04+00:00",
+    "summary": "AI artifacts move through a multi-platform supply chain, spanning datasets and models on Hugging Face and applications on GitHub. While each artifact carries a license whose obligations should propagate through redistribution, no study has yet measured whether those obligations survive the chain or are stripped and replaced as artifacts move downstream. We trace 232,270 dataset$\\rightarrow$model$\\rightarrow$application chains and quantify two forms of license laundering: when artifacts with no d",
+    "author": "James Jewitt, Hao Li, Gopi Krishnan Rajbahadur, Bram Adams, Ahmed E. Hassan",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2607.20300v1"
+    ]
+  },
+  {
+    "title": "Courteous Anticipation: Improving Long-Lived Task Planning in Persistent Shared Environments",
+    "link": "http://arxiv.org/abs/2607.20289v1",
+    "published": "2026-07-22T15:36:11+00:00",
+    "summary": "We consider a task planning scenario in which robots sharing a persistent environment are assigned tasks one at a time from a held-out sequence. Standard task planners, lacking foresight of future tasks and inconsiderate of others' constraints, solve each task in isolation, leaving terminal states that increase future cost for all, side effects that compound over lengthy task sequences. To reduce cost over the sequence, a robot must anticipate how its actions now may impact performance on future",
+    "author": "Md Ridwan Hossain Talukder, Roshan Dhakal, Elizabeth Phillips, Gregory J. Stein",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2607.20289v1"
+    ]
+  },
+  {
+    "title": "Sound Probabilistic Safety Bounds for Large Language Models",
+    "link": "http://arxiv.org/abs/2607.20286v1",
+    "published": "2026-07-22T15:31:28+00:00",
+    "summary": "We propose a novel framework for computing rigorous bounds on the probability that a large language model (LLM) generates harmful output to a given prompt. We study a new application of the Clopper-Pearson confidence intervals to obtain probably approximately correct (PAC) bounds for this problem. As our main technical contribution, we propose an algorithm that leverages features in the latent space to prioritize exploring branches in the auto-regressive generation tree that are more likely to p",
+    "author": "Mahdi Nazeri, Anne-Kathrin Schmuck, Sadegh Soudjani, Alessandro Abate",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2607.20286v1"
+    ]
+  },
+  {
+    "title": "Self-supervision drives representational convergence in medical foundation models more than clinical supervision",
+    "link": "http://arxiv.org/abs/2607.20274v1",
+    "published": "2026-07-22T15:25:05+00:00",
+    "summary": "Medical image encoders from different groups are increasingly treated as interchangeable, on the assumption that scale and clinical supervision concentrate their representations onto a shared structure. Whether this convergence is real, what produces it, and whether it is clinically usable are untested, and the similarity measures behind such claims are fragile. We present a controlled dissection across 18 image and 7 text encoders, all open-weight and run locally, spanning 7M to 27B parameters ",
+    "author": "Soroosh Tayebi Arasteh, Sebastian Ziegelmayer, Mahshad Lotfinia, Lisa Adams, Sven Nebelung, Jakob Nikolas Kather, Daniel Truhn",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2607.20274v1"
+    ]
+  },
+  {
+    "title": "PoTRE: Test-Time Reasoning inspired by Cognitive Heterogeneity",
+    "link": "http://arxiv.org/abs/2607.20268v1",
+    "published": "2026-07-22T15:20:53+00:00",
+    "summary": "While Large Language Models (LLMs) excel at many tasks, they frequently struggle with complex reasoning that requires long-horizon planning and iterative error correction. Furthermore, standard single-stream prompting proves brittle when models encounter novel abstractions or rigorous domain constraints. We introduce PoTRE (Poly-Topological Reasoning Ensembles), a heterogeneous framework that decouples inference into four agents: (1) Adversarial Refinement Agent, (2) Hierarchical strategic Plann",
+    "author": "Anmol Kankariya, Sercan Ö. Arık",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2607.20268v1"
+    ]
+  },
+  {
+    "title": "The Maskability Index: Predicting Task-Objective Alignment in Pretrained Language Models",
+    "link": "http://arxiv.org/abs/2607.20265v1",
+    "published": "2026-07-22T15:19:23+00:00",
+    "summary": "Large-scale pretrained language models such as T5 and BERT have demonstrated strong capabilities for generating structured knowledge. However, their performance depends on how closely the prompting strategy matches the objectives used during pretraining. We introduce the Maskability Index (MI), a quantitative metric that estimates whether a knowledge relation is better suited to masked-style prompting or prefix-style prompting in few-shot generation. MI is computed from differences in DepthRank ",
+    "author": "Ahmad Pouramini, Mahsa Afsharzadeh",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2607.20265v1"
+    ]
+  },
+  {
+    "title": "The Ethics of Autonomous AI Agents for Offensive Security",
+    "link": "http://arxiv.org/abs/2607.20255v1",
+    "published": "2026-07-22T15:13:15+00:00",
+    "summary": "LLM-driven autonomous agents are reshaping offensive security. Unlike traditional penetration-testing tooling -- deterministic, narrowly scoped, and operated by trained practitioners -- agentic security tools exhibit \\textit{indeterminacy} along three independent dimensions. First, their actions are drawn from a non-deterministic policy whose outputs resist both ex-ante and ex-post explanation, frustrating incident attribution and pre-deployment safety review. Second, their impact is open-ended ",
+    "author": "Andreas Happe, Jürgen Cito, Jasmin Wachter",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2607.20255v1"
+    ]
+  },
+  {
     "title": "Building AI infrastructure with the Effingham County community",
     "link": "https://openai.com/index/building-ai-infrastructure-with-the-effingham-county-community",
     "published": "2026-07-22T13:00:00+00:00",
@@ -96,175 +276,6 @@
     ]
   },
   {
-    "title": "Copy Less, Ground More: Overcoming Repetitive Copying in Long-Context Reasoning via Evidence-Aware Reinforcement Learning",
-    "link": "http://arxiv.org/abs/2607.19345v1",
-    "published": "2026-07-21T17:59:21+00:00",
-    "summary": "Large language models that generate step-by-step reasoning traces have achieved strong performance on complex tasks, and extending them to long-context settings has emerged as an important frontier. However, we identify a critical failure mode in this regime: \\emph{repetitive copying}, where models extensively copy text from the input into their reasoning traces rather than productively solving the problem. We show that this behavior is pervasive across frontier long-context LLMs and intensifies",
-    "author": "Lizhe Fang, Weizhou Shen, Tianyi Tang, Yisen Wang",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2607.19345v1"
-    ]
-  },
-  {
-    "title": "Appearance Pointers -- Multimodal Region Control of Diffusion Transformers",
-    "link": "http://arxiv.org/abs/2607.19344v1",
-    "published": "2026-07-21T17:59:12+00:00",
-    "summary": "Controllable image generation remains challenging for creative professionals, who often require precise regional control over materials, object identities, and spatial arrangements that cannot be reliably achieved through text prompting alone. Diffusion Transformers (DiTs) can natively ingest heterogeneous tokens stemming from texts and images, but they lack mechanisms for determining where and how these tokens should influence the output. We introduce appearance pointers, compact tokens that gu",
-    "author": "Rahul Sajnani, Yulia Gryaditskaya, Radomír Měch, Srinath Sridhar, Matheus Gadelha",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2607.19344v1"
-    ]
-  },
-  {
-    "title": "CodeRescue: Budget-Calibrated Recovery Routing for Coding Agents",
-    "link": "http://arxiv.org/abs/2607.19338v1",
-    "published": "2026-07-21T17:56:49+00:00",
-    "summary": "Coding agents increasingly operate in executable environments where a failed attempt produces actionable feedback rather than merely an incorrect answer. Existing cost-aware systems typically treat such failures as cascade decisions: try a cheap model first, then escalate hard cases to a stronger and more expensive model. In coding, however, execution feedback can also make further cheap-model recovery worthwhile, raising a budgeted deployment question: when should an agent spend more cheap comp",
-    "author": "Qijia He, Jiayi Cheng, Chenqian Le, Rui Wang, Xunmei Liu, Yixian Chen, Jie Mei, Zhihao Wang, Xupeng Chen, Yuhuan Chen, Tao Wang",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "https://github.com/Qijia-He/agent-budget-control",
-      "http://arxiv.org/abs/2607.19338v1"
-    ]
-  },
-  {
-    "title": "Agents in the Wild: Where Research Meets Deployment",
-    "link": "http://arxiv.org/abs/2607.19336v1",
-    "published": "2026-07-21T17:55:10+00:00",
-    "summary": "Agentic systems large language model (LLM) based architectures capable of reasoning, planning, acting, and coordinating with tools and other agents are rapidly transitioning from research prototypes to production scale deployments across domains such as software engineering, scientific discovery, and finance. While academic work has emphasized benchmarks and algorithmic innovation, deployment raises new challenges around robustness, safety, and reliability. This tutorial brings together research",
-    "author": "Grace Hui Yang, Pranav N. Venkit, Hooman Sedghamiz, Enrico Santus, Victor Dibia, Ioana Baldini",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2607.19336v1"
-    ]
-  },
-  {
-    "title": "Provable diffusion-based posterior sampling for linear inverse problems via DDIM",
-    "link": "http://arxiv.org/abs/2607.19333v1",
-    "published": "2026-07-21T17:53:36+00:00",
-    "summary": "Diffusion-based methods have achieved remarkable empirical success in solving inverse problems. However, many existing posterior samplers either lack rigorous theoretical guarantees or incur substantial computational overhead. We propose a simple and efficient algorithm, called \\pddim, for solving linear inverse problems with diffusion priors via a DDIM-type sampler. Our method requires only lightweight, coordinate-wise modifications to the standard DDIM update, while explicitly incorporating th",
-    "author": "Yuchen Jiao, Na Li, Changxiao Cai, Yuxin Chen, Gen Li",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2607.19333v1"
-    ]
-  },
-  {
-    "title": "ISO: An RLVR-Native Optimization Stack",
-    "link": "http://arxiv.org/abs/2607.19331v1",
-    "published": "2026-07-21T17:51:36+00:00",
-    "summary": "Reinforcement learning with verifiable rewards (RLVR) is rapidly advancing the reasoning capabilities of language models, yet the optimization layer that converts reward feedback into weight-space updates remains poorly understood. Building on our prior analysis (Zhu et al., 2025), we study this missing layer through the singular structure of model weights and identify spectral inheritance: RLVR can reuse the base model's weight spectra while acquiring new behavior through changes in the associa",
-    "author": "Hanqing Zhu, Wenyan Cong, Zhizhou Sha, Sagnik Mukherjee, Xinyuan Song, David González-Martínez, Xiaoxia Wu, Yuandong Tian, Shiwei Liu, David Z. Pan, Zhangyang \"Atlas\" Wang",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2607.19331v1"
-    ]
-  },
-  {
-    "title": "Associative Emotional Learning in Convolutional Neural Networks",
-    "link": "http://arxiv.org/abs/2607.19327v1",
-    "published": "2026-07-21T17:49:19+00:00",
-    "summary": "Associative emotional learning enables organisms to adaptively link pleasant or unpleasant outcomes to the presence of predictive stimuli. Whereas computational models such as the Rescorla-Wagner model have shed light on this important function, the limitations of these models are also known, especially when they are applied to neural data. The advent of deep neural networks has opened another avenue for modeling associative emotional learning. In this work we proposed a deep neural network mode",
-    "author": "Seowung Leem, Andreas Keil, Mingzhou Ding, Ruogu Fang",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2607.19327v1"
-    ]
-  },
-  {
-    "title": "ResearchArena: Evaluating Sabotage and Monitoring in Automated AI R&D",
-    "link": "http://arxiv.org/abs/2607.19321v1",
-    "published": "2026-07-21T17:41:12+00:00",
-    "summary": "As AI agents begin to automate AI R&D, we need ways to assess whether their outputs are safe to deploy, even when the agents themselves may be untrusted. AI control offers one such approach: rather than trusting the agent, it treats it as a potential adversary and uses a monitor to detect covert sabotage before deployment. We evaluate AI control for automated AI R&D with ResearchArena, a framework spanning four long-horizon tasks: safety post-training, capabilities post-training, CUDA-kernel opt",
-    "author": "Lena Libon, Ben Rank, Jehyeok Yeon, David Schmotz, Jeremy Qin, Daniel Donnelly, Derck Prinzhorn, Maksym Andriushchenko",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2607.19321v1"
-    ]
-  },
-  {
-    "title": "Off-Context GRPO: Learning to Reason on Hard Problems using Privileged Information",
-    "link": "http://arxiv.org/abs/2607.19313v1",
-    "published": "2026-07-21T17:28:40+00:00",
-    "summary": "Reinforcement learning with verifiable rewards (RLVR) improves reasoning in large language models. Yet, typical RLVR approaches fail on difficult problems: when a model cannot generate any correct solutions, it receives \\textit{zero} learning signal. Providing privileged guidance during training, such as solution prefixes, can help overcome this learning cliff by steering the model towards {correct solutions with non-zero reward}. {We call these rollouts \\textit{off-context}: they are generated ",
-    "author": "Priyank Agrawal, Ankur Samanta, Shervin Ghasemlou, Jalaj Bhandari, Kavosh Asadi, Daniel Jiang, Aditya Modi",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2607.19313v1"
-    ]
-  },
-  {
-    "title": "From Distances to Trajectories: Real-Time Signed Distance Function Mapping and Distance-Accelerated Motion Planning for UAVs",
-    "link": "http://arxiv.org/abs/2607.19306v1",
-    "published": "2026-07-21T17:18:46+00:00",
-    "summary": "Autonomous flight in cluttered environments requires a robot to build a geometric map of its surroundings and plan safe, dynamically feasible trajectories, all onboard and in real time. Conventional approaches treat mapping and planning as separate stages and often rely on binary occupancy for collision checking. We argue that these two stages should be co-designed around a single representation: a signed distance function (SDF). By encoding distance to the nearest obstacle, an SDF provides rich",
-    "author": "Jason Stanley, Zhirui Dai, Qihao Qian, Tzu-Chin Ho, Tianxing Fan, Siddharth Saha, Christopher Barngrover, Ki Myung Brian Lee, Nikolay Atanasov",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2607.19306v1"
-    ]
-  },
-  {
-    "title": "Riemannian Deep Learning:Modules, Networks, and Geometries",
-    "link": "http://arxiv.org/abs/2607.19305v1",
-    "published": "2026-07-21T17:17:35+00:00",
-    "summary": "Deep neural networks on manifold-valued representations have attracted growing interest, but many basic components remain tied to specific manifolds, rely on Euclidean approximations, or require costly and numerically fragile geometric operations. This thesis develops a unified framework for Riemannian deep learning from three complementary perspectives: reusable neural modules, manifold-specific network architectures, and the design of underlying geometries. It generalizes batch normalization f",
-    "author": "Chen Ziheng",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2607.19305v1"
-    ]
-  },
-  {
-    "title": "LLM Detection as an Intervention: Downstream Impact under Strategic User Behavior",
-    "link": "http://arxiv.org/abs/2607.19300v1",
-    "published": "2026-07-21T17:11:02+00:00",
-    "summary": "As LLM adoption becomes more widespread, there is a growing interest in detecting LLM-generated content, for example through LLM detection tools and through heuristics based on language patterns. Detectors operate as an intervention that steers not only the detected attribute itself, but also downstream metrics such as LLM usage and output quality. In this work, we demonstrate how imperfect LLM detectors lead to counterintuitive impacts on these downstream metrics, by distorting how users are in",
-    "author": "Meena Jagadeesan, Tatsunori Hashimoto, Jon Kleinberg",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2607.19300v1"
-    ]
-  },
-  {
-    "title": "Graph-Based Agentic AI with LangGraph: Workflow Pathways for Long-Running Stateful Business Processes",
-    "link": "http://arxiv.org/abs/2607.19297v1",
-    "published": "2026-07-21T17:07:13+00:00",
-    "summary": "This paper is a practitioner guide to graph-based workflow pathways for long-running, stateful, multi-step generative AI systems in business processes. Rather than treating LangGraph, a low-level orchestration framework for stateful agents, as a model-quality benchmark target, we present three executable recipes -- SQL analytics with repair loops, agentic retrieval-augmented generation with evidence gating, and human-in-the-loop policy review with interrupt and checkpoint recovery -- to show how",
-    "author": "Daniel Pearson, Sidney Shapiro, Emiliano Sebastian Gonzalez Venegas, Sanad Al-Khatib, Aurora Pinzón Arzola",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2607.19297v1"
-    ]
-  },
-  {
-    "title": "The safety failures we are not instrumenting: a perspective on hidden safety-critical challenges in modern AI systems",
-    "link": "http://arxiv.org/abs/2607.19292v1",
-    "published": "2026-07-21T17:02:37+00:00",
-    "summary": "Current AI safety discourse still focuses disproportionately on visible failures, including obvious harms, dramatic misuse, and hypothetical catastrophic scenarios. That focus is incomplete. In deployed systems, many of the most consequential failures are quieter: plausible rather than spectacular, distributed across components rather than localized in a single output, and normalized by workflows before they are recognized as hazards. We argue that a central safety challenge in modern AI systems",
-    "author": "Gjergji Kasneci, Enkelejda Kasneci",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2607.19292v1"
-    ]
-  },
-  {
     "title": "Introducing the ChatGPT for small business program",
     "link": "https://openai.com/index/introducing-chatgpt-small-business-program",
     "published": "2026-07-21T17:00:00+00:00",
@@ -274,18 +285,6 @@
     "category": "official",
     "references": [
       "https://openai.com/index/introducing-chatgpt-small-business-program"
-    ]
-  },
-  {
-    "title": "GUIDED Network-Agnostic Feature Initialization for Spatial Transferability in GNN-based Models",
-    "link": "http://arxiv.org/abs/2607.19270v1",
-    "published": "2026-07-21T16:41:59+00:00",
-    "summary": "The Traffic Assignment Problem is a fundamental but computationally expensive component of transportation planning. While Graph Neural Networks have emerged as fast, data-driven surrogates, their practical deployment is severely constrained by a spatial generalization gap. Standard models rely on transductive feature initializations that tie travel demand to fixed network topologies, preventing seamless transfer to new urban environments. To overcome this structural limitation, this research pro",
-    "author": "Alessandro Scalese, Santhanakrishnan Narayanan, Constantinos Antoniou",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2607.19270v1"
     ]
   },
   {
