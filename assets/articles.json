@@ -1,5 +1,187 @@
 [
   {
+    "title": "3D-Aware VLMs with Implicit and Explicit Geometries",
+    "link": "http://arxiv.org/abs/2607.21595v1",
+    "published": "2026-07-23T17:59:59+00:00",
+    "summary": "Despite rapid progress, most existing vision-language models (VLMs) built from 2D visual inputs often struggle when handling various 3D tasks that require fine-grained spatial understanding and reasoning. To bridge this gap, we present VLM-IE3D, a unified framework that enhances the 3D spatial awareness of VLMs by equipping them with both implicit and explicit 3D geometries learned from RGB videos. Our VLM-IE3D introduces Implicit Geometry Tokens (IGTs) that capture high-level geometric priors f",
+    "author": "Wenhao Li, Xueying Jiang, Quanhao Qian, Deli Zhao, Ran Xu, Shijian Lu, Gongjie Zhang",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "https://github.com/Vegetebird/VLM-IE3D",
+      "http://arxiv.org/abs/2607.21595v1"
+    ]
+  },
+  {
+    "title": "GraphVid: Interactive Graph-Controllable Video Generation",
+    "link": "http://arxiv.org/abs/2607.21580v1",
+    "published": "2026-07-23T17:56:30+00:00",
+    "summary": "Controllable video generation remains challenging due to the difficulty of specifying precise multi-object interactions using text prompts or motion-control inputs that primarily constrain pixel movement. In practice, trajectory-based control often requires users to draw accurate tracks for multiple objects, which scales poorly with scene complexity and becomes ambiguous under occlusion or overlap. To enable flexible yet precise multi-subject control, we introduce $\\textbf{GraphVid}$, a graph-co",
+    "author": "Vedant Shah, Onkar Susladkar, Tushar Prakash, Kiet Nguyen, Tianjio Yu, Adheesh Juvekar, Muntasir Waheed, Ismini Lourentzou",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2607.21580v1"
+    ]
+  },
+  {
+    "title": "Barzilai-Borwein Fails Superlinear Convergence on an Open Set of Quadratics for Every Dimension $n\\geq 4$",
+    "link": "http://arxiv.org/abs/2607.21579v1",
+    "published": "2026-07-23T17:56:05+00:00",
+    "summary": "Barzilai--Borwein (BB) method has shown strong practical performance in continuous optimization, yet its convergence dynamics remains poorly understood. In particular, a central unresolved question is whether BB converges superlinearly for almost every strictly convex quadratic problem and initialization. We provide a negative answer to this question. Specifically, for every finite dimension $n\\geq4$, we construct a nonempty open, hence positive-Lebesgue-measure, family of strictly convex quadra",
+    "author": "Dawei Li, Xiaotian Jiang, Mingyi Hong",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2607.21579v1"
+    ]
+  },
+  {
+    "title": "Synthetic data generation framework for quality control automation in gravure printing",
+    "link": "http://arxiv.org/abs/2607.21577v1",
+    "published": "2026-07-23T17:55:21+00:00",
+    "summary": "Quality control in printing, particularly in rotogravure printing, still depends on slow, costly, and subjective manual inspection. Automated surface defect detection is critical for maintaining high-quality standards in rotogravure printing. Deep learning models give prospects for automation. However, training robust deep learning models, such as YOLO or Vision Transformers, is heavily hindered by the extreme scarcity of real-world industrial defects images. To overcome this limitation, this pa",
+    "author": "Korota Arsène Coulibaly, Mohamed Hamlich, Khalid Hmali, Andrea Trombin",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2607.21577v1"
+    ]
+  },
+  {
+    "title": "Beyond Sufficiency: Time Series Explanation with Counterfactual Necessity",
+    "link": "http://arxiv.org/abs/2607.21573v1",
+    "published": "2026-07-23T17:52:01+00:00",
+    "summary": "Faithful explanations of time-series classifiers should identify subsequences that are not only sufficient to preserve a black-box model's prediction, but also necessary for maintaining it. However, existing sufficiency-oriented methods can assign high importance to spurious subsequences that support the prediction without being essential to the model's decision. We introduce \\textbf{TimePNS}, a necessity-aware framework for time-series explanation. Inspired by Pearl's counterfactual notion of n",
+    "author": "Hongnan Ma, Yiwei Shi, Mengyue Yang, Weiru Liu",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2607.21573v1"
+    ]
+  },
+  {
+    "title": "Unsupervised Consensus-Based Anomaly Detection for Spatiotemporal Malaria Incidence in Ghana",
+    "link": "http://arxiv.org/abs/2607.21559v1",
+    "published": "2026-07-23T17:40:51+00:00",
+    "summary": "A consensus anomaly detection framework was applied to monthly malaria surveillance data from Ghana (2014-2023) to identify atypical transmission patterns. Anomalies were highly structured in space and time. Ashanti and Northern Regions accounted for most recurrent anomalies, with persistent hotspots at Tamale, Kumasi, and Accra. A key finding was the spatial distinction between anomaly burden (cumulative cases during anomalous periods) and anomaly frequency (persistence of unusual behaviour). T",
+    "author": "T. Ansah-Narh, Y. Asare Afrane",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2607.21559v1"
+    ]
+  },
+  {
+    "title": "Beyond Sycophancy: Structured Resistance and Compliance in LLM Moral Reasoning",
+    "link": "http://arxiv.org/abs/2607.21558v1",
+    "published": "2026-07-23T17:40:07+00:00",
+    "summary": "Building socially calibrated large language models, which can learn from others without simply yielding to them, requires more than reducing sycophancy as a one-dimensional failure mode. Models must distinguish when to incorporate others' perspectives from when to maintain a well-grounded moral judgment. We study the broader resistance-compliance process governing this distinction. Across three studies, we show that models' judgment revision is structured along three dimensions that parallel cla",
+    "author": "Baihui Wang, Bernard Koch",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2607.21558v1"
+    ]
+  },
+  {
+    "title": "OpenForgeRL: Train Harness-native Agents in Any Environment",
+    "link": "http://arxiv.org/abs/2607.21557v1",
+    "published": "2026-07-23T17:38:30+00:00",
+    "summary": "Modern AI agents rely on elaborate inference harnesses such as Claude Code, Codex, and OpenClaw to drive multi-turn reasoning, tool use, and access to external systems. While powerful, these complex harnesses also make agents hard to train end-to-end with open infrastructure, whose SFT/RL stacks cannot natively express stateful, multi-process harness inference. To address this, we present OpenForgeRL, an open-source framework for training harness-based agents end-to-end in diverse environments. ",
+    "author": "Xiao Yu, Baolin Peng, Ruize Xu, Hao Zou, Qianhui Wu, Hao Cheng, Wenlin Yao, Nikhil Singh, Zhou Yu, Jianfeng Gao",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2607.21557v1"
+    ]
+  },
+  {
+    "title": "Visual Contrastive Self-Distillation",
+    "link": "http://arxiv.org/abs/2607.21556v1",
+    "published": "2026-07-23T17:37:37+00:00",
+    "summary": "On-policy self-distillation (OPSD) is promising as it removes the external teacher required by on-policy distillation (OPD), yet it still needs asymmetric information between teacher and student to ensure that the self-teacher provides a stronger learning signal than the student. Existing methods create this asymmetry either through privileged answers or visual evidence. We ask whether both can be removed, yielding a simpler form of OPSD driven purely by input conditioning. For this purpose, we ",
+    "author": "Yijun Liang, Yunjie Tian, Yijiang Li, Yuqi Jia, Furong Huang, Tianyi Zhou, Di Fu",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2607.21556v1"
+    ]
+  },
+  {
+    "title": "MIRROR: Learning from the Other View for Multi-Modal Reasoning",
+    "link": "http://arxiv.org/abs/2607.21552v1",
+    "published": "2026-07-23T17:35:56+00:00",
+    "summary": "Unlike large language models (LLMs) that exhibit strong reasoning capabilities, vision-language models (VLMs) struggle with visual reasoning, even on geometry problems that admit equivalent text, diagram, and combined diagram+text views. We show that these views often elicit different behaviors: a model may solve a problem from text but fail on the corresponding diagram, or succeed visually while failing textually. This inconsistency suggests that different views expose complementary reasoning p",
+    "author": "Wen Ye, Yuxiao Qu, Aviral Kumar, Xuezhe Ma",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2607.21552v1"
+    ]
+  },
+  {
+    "title": "The Boundaries of Automation: A Theory of Persistent Human Participation",
+    "link": "http://arxiv.org/abs/2607.21547v1",
+    "published": "2026-07-23T17:33:43+00:00",
+    "summary": "The rapid progress of AI has intensified the long-standing pursuit of automation: replacing human participation with algorithms wherever possible. Implicit in this pursuit is the assumption that humans remain in the loop only because current AI systems are not yet sufficiently capable. This paper challenges that assumption. Rather than asking how far automation can extend, we ask where its conceptual limits lie and argue that human participation may persist even with highly capable AI systems fo",
+    "author": "Fares Fourati, Hinrich Schütze, Eyke Hüllermeier, Iryna Gurevych",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2607.21547v1"
+    ]
+  },
+  {
+    "title": "From Resource Flow to Executable Tests: Petri-Net-Guided LLM Test Generation for Concurrent Stateful Rust APIs",
+    "link": "http://arxiv.org/abs/2607.21530v1",
+    "published": "2026-07-23T17:15:53+00:00",
+    "summary": "Concurrent stateful library APIs expose behavior through evolving resource ownership, lifecycle states, and competing interleavings. Large language models can synthesize executable Rust tests, but their outputs often violate API preconditions, remain shallow, or reduce concurrency to accidental sequential traces. Conversely, model-based and systematic testing techniques provide semantic control but commonly require substantial handwritten code to turn abstract scenarios into executable tests. Th",
+    "author": "Kaiwen Zhang, Guanjun Liu",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2607.21530v1"
+    ]
+  },
+  {
+    "title": "ElasticTTT: Prior-Preserving Test-Time Tuning for Video Editing",
+    "link": "http://arxiv.org/abs/2607.21529v1",
+    "published": "2026-07-23T17:15:30+00:00",
+    "summary": "Test-Time Tuning (TTT) on pretrained diffusion models has emerged as a powerful paradigm for video editing. However, there exists a foundational mismatch between the distribution-mapping nature of generative models and the single-point optimization of standard TTT. In this paper, we demonstrate that this mismatch triggers \\textit{Prior Collapse}, a degenerate state where the model discards the text conditions and spatial latents, collapsing generations to the source video, or entangling the feat",
+    "author": "Yueyi Liu, Chi Zhang, Sen Cui, Miao Liu",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2607.21529v1"
+    ]
+  },
+  {
+    "title": "GS-Agent: Creating 4D Physical Worlds With Generative Simulation",
+    "link": "http://arxiv.org/abs/2607.21522v1",
+    "published": "2026-07-23T17:04:36+00:00",
+    "summary": "Creating dynamic and physically realistic 4D worlds from natural language descriptions is both fascinating and challenging. Traditional computer graphics methods rely on manual creation, requiring extensive human effort to fine-tune materials, motions, and visual fidelity. Recent advances in generative foundation models have sparked interest in learning to generate such 4D worlds from large-scale data; however, existing methods still struggle to ensure physical plausibility and controllability. ",
+    "author": "Hongxin Zhang, Chunru Lin, Junyan Li, Zhou Xian, Tsun-Hsuan Wang, Chuang Gan",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "https://umass-embodied-agi.github.io/gs-agent/",
+      "http://arxiv.org/abs/2607.21522v1"
+    ]
+  },
+  {
+    "title": "Same Dangerous Objective, Opposite Advice: Direct Exposure versus Multi-Agent Mediation",
+    "link": "http://arxiv.org/abs/2607.21518v1",
+    "published": "2026-07-23T17:02:11+00:00",
+    "summary": "Even a current high-capability LLM can appear safer when shown a dangerous objective directly than when other agents transform and relay its direction. Using OpenAI's gpt-5.6-sol model alias, we test 25 pre-specified mirrored trade-off profiles. Direct exposure to an objective authorizing concealment, fabrication, and pressure produced advice net opposed to its target. After an Id and Censor transformed the same objective into affect and a constraint-rewritten, target-bearing intention, the user",
+    "author": "Linjun Li",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2607.21518v1"
+    ]
+  },
+  {
     "title": "Supercooled kidneys have been transplanted into pigs in a “landmark achievement”",
     "link": "https://www.technologyreview.com/2026/07/23/1140765/supercooled-kidneys-have-been-transplanted-into-pigs-in-a-landmark-achievement/",
     "published": "2026-07-23T16:58:28+00:00",
@@ -57,186 +239,6 @@
     "category": "official",
     "references": [
       "https://openai.com/index/health-in-chatgpt"
-    ]
-  },
-  {
-    "title": "SoftReason: A Fully Differentiable Neuro-Soft-Symbolic Deductive Reasoning Architecture over High-Dimensional Perceptual Data",
-    "link": "http://arxiv.org/abs/2607.20402v1",
-    "published": "2026-07-22T17:38:39+00:00",
-    "summary": "In many reasoning problems, the premises are not observed as discrete symbols, but must be inferred from high-dimensional inputs. Further, the predicate vocabulary, argument structure, and trusted evidence are supplied by a Knowledge Graph (KG), or rule definitions. Classical neuro-symbolic pipelines have a discrete interface between perception and deduction. We present a neuro-soft-symbolic architecture for differentiable deductive reasoning over latent perceptual facts and knowledge-provided p",
-    "author": "Wael AbdAlmageed",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2607.20402v1"
-    ]
-  },
-  {
-    "title": "Persian Pixel: A large-scale synthetic OCR dataset for Persian language",
-    "link": "http://arxiv.org/abs/2607.20385v1",
-    "published": "2026-07-22T17:13:25+00:00",
-    "summary": "Optical Character Recognition (OCR) for Persian remains substantially less mature than for Latin-script languages despite Persian being spoken by more than 110 million people across multiple countries. This gap arises from two fundamental challenges: the intrinsic complexity of the Perso-Arabic writing system and the limited availability of large-scale, high-quality annotated datasets. Persian script exhibits obligatory cursive connectivity, context-dependent glyph shaping, extensive ligatures, ",
-    "author": "Pouria Mahdi, Haq Nawaz Malik",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2607.20385v1"
-    ]
-  },
-  {
-    "title": "FMRP-LEAN: A HIPAA-Compliant AI-Augmented LIMS Architecture for End-to-End Clinical Assay Workflow Optimization",
-    "link": "http://arxiv.org/abs/2607.20382v1",
-    "published": "2026-07-22T17:11:52+00:00",
-    "summary": "Clinical biomarker workflows in translational research settings often rely on spreadsheet-driven tracking, manual quality control (QC) reconciliation, and loosely integrated systems, resulting in limited state visibility, delayed reporting, and increased operational risk. These challenges are particularly pronounced in multi-day assays such as Luminex-based quantification of Fragile X Messenger Ribonucleoprotein (FMRP), where HIPAA-compliant data governance, deterministic workflow progression, a",
-    "author": "Eva McCord, Ernest Pedapati, Zag ElSayed",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2607.20382v1"
-    ]
-  },
-  {
-    "title": "Train the Model, Not the Reader: Decodability Supervision for Verifiable Activation Explanations",
-    "link": "http://arxiv.org/abs/2607.20379v1",
-    "published": "2026-07-22T17:10:23+00:00",
-    "summary": "Natural-language autoencoders score explanations of hidden activations by reconstruction: an explanation is deemed faithful if the activation can be regenerated from it. The test is structurally insensitive to individual false claims: if flipping a claim does not change the reconstruction, the claim is never penalized. We show the test is passed in two ways, neither faithful. On a released Qwen-2.5-7B verbalizer, explanations reconstruct well above chance while ~2% of specific claims are reconst",
-    "author": "Hiskias Dingeto",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2607.20379v1"
-    ]
-  },
-  {
-    "title": "Generative AI floods and dilutes the market for books",
-    "link": "http://arxiv.org/abs/2607.20349v1",
-    "published": "2026-07-22T16:33:20+00:00",
-    "summary": "Generative AI can produce book-length works of fiction at near-zero cost. These books are often dismissed as low-quality ``slop'' that buyers will ignore, and are assumed to carry little commercial weight. We test that assumption with full-text AI detection across 14,419 self-published genre-fiction books sold on Amazon from 2023 to 2026, matched to daily sales records through June 2026. None of these books disclose whether or not they contain AI-produced content. We find that books for which we",
-    "author": "Tuhin Chakrabarty, Xinyue Liu, Jane C. Ginsburg, Paramveer Dhillon",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2607.20349v1"
-    ]
-  },
-  {
-    "title": "Closing the Lab-to-Store Gap: A Data-Efficient Post-Training and Experience-Driven Learning VLA Framework for Retail Humanoids",
-    "link": "http://arxiv.org/abs/2607.20345v1",
-    "published": "2026-07-22T16:30:51+00:00",
-    "summary": "Closing the gap between benchmark performance and reliable real-world operation remains a central challenge for Vision-Language-Action (VLA) humanoid robots, which must handle execution errors, distribution shifts, and environmental variability. This paper presents DEED (Data-Efficient Post-Training and Experience-Driven Learning), a systems-level approach evaluated on a supermarket chip-restocking task using a Unitree G1-Edu humanoid robot and the GR00T N1.6 foundation model. DEED comprises thr",
-    "author": "Roger Sala Sisó, Tiago Silvério, Jakob Sand, Tran Nguyen Le",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2607.20345v1"
-    ]
-  },
-  {
-    "title": "Understanding Generative AI-mediated User Engagement with Academic Library Resources",
-    "link": "http://arxiv.org/abs/2607.20328v1",
-    "published": "2026-07-22T16:14:38+00:00",
-    "summary": "This study empirically analyzed generative AI as an emerging discovery pathway to academic library resources. Utilizing web analytics from August 2023 to October 2025, the research identifies a significant increase in AI-mediated traffic, particularly following the integration of linked citation features. Referral analysis identified ChatGPT, Perplexity, and Gemini as the primary platforms driving this traffic. A substantial portion of users reached the institutional repository, primarily access",
-    "author": "Hae Min Kim, Stacy Stanislaw",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2607.20328v1"
-    ]
-  },
-  {
-    "title": "Toward Reliable RGB-D Semantic Segmentation: Handling Missing Modalities via Condition Dropout",
-    "link": "http://arxiv.org/abs/2607.20326v1",
-    "published": "2026-07-22T16:12:27+00:00",
-    "summary": "RGB-D semantic segmentation has achieved remarkable progress, yet most models assume that RGB and depth are always available. In practice, failures or occlusions of surveillance sensors often remove one modality. Although RGB or depth alone can contain sufficient cues, models trained only on full-modality inputs fail to exploit the remaining modality once one is missing, causing severe degradation. We tackle this issue with a simple continued-training paradigm, \\emph{Condition Dropout (ConD)}, w",
-    "author": "Xuchen Zhu, Yajuan Wei, Shuang Hao, Jiwei Jiang, Guanxiang Mao, Fang Ren",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2607.20326v1"
-    ]
-  },
-  {
-    "title": "Don't Trust the Label: License Laundering in AI Supply Chains",
-    "link": "http://arxiv.org/abs/2607.20300v1",
-    "published": "2026-07-22T15:48:04+00:00",
-    "summary": "AI artifacts move through a multi-platform supply chain, spanning datasets and models on Hugging Face and applications on GitHub. While each artifact carries a license whose obligations should propagate through redistribution, no study has yet measured whether those obligations survive the chain or are stripped and replaced as artifacts move downstream. We trace 232,270 dataset$\\rightarrow$model$\\rightarrow$application chains and quantify two forms of license laundering: when artifacts with no d",
-    "author": "James Jewitt, Hao Li, Gopi Krishnan Rajbahadur, Bram Adams, Ahmed E. Hassan",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2607.20300v1"
-    ]
-  },
-  {
-    "title": "Courteous Anticipation: Improving Long-Lived Task Planning in Persistent Shared Environments",
-    "link": "http://arxiv.org/abs/2607.20289v1",
-    "published": "2026-07-22T15:36:11+00:00",
-    "summary": "We consider a task planning scenario in which robots sharing a persistent environment are assigned tasks one at a time from a held-out sequence. Standard task planners, lacking foresight of future tasks and inconsiderate of others' constraints, solve each task in isolation, leaving terminal states that increase future cost for all, side effects that compound over lengthy task sequences. To reduce cost over the sequence, a robot must anticipate how its actions now may impact performance on future",
-    "author": "Md Ridwan Hossain Talukder, Roshan Dhakal, Elizabeth Phillips, Gregory J. Stein",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2607.20289v1"
-    ]
-  },
-  {
-    "title": "Sound Probabilistic Safety Bounds for Large Language Models",
-    "link": "http://arxiv.org/abs/2607.20286v1",
-    "published": "2026-07-22T15:31:28+00:00",
-    "summary": "We propose a novel framework for computing rigorous bounds on the probability that a large language model (LLM) generates harmful output to a given prompt. We study a new application of the Clopper-Pearson confidence intervals to obtain probably approximately correct (PAC) bounds for this problem. As our main technical contribution, we propose an algorithm that leverages features in the latent space to prioritize exploring branches in the auto-regressive generation tree that are more likely to p",
-    "author": "Mahdi Nazeri, Anne-Kathrin Schmuck, Sadegh Soudjani, Alessandro Abate",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2607.20286v1"
-    ]
-  },
-  {
-    "title": "Self-supervision drives representational convergence in medical foundation models more than clinical supervision",
-    "link": "http://arxiv.org/abs/2607.20274v1",
-    "published": "2026-07-22T15:25:05+00:00",
-    "summary": "Medical image encoders from different groups are increasingly treated as interchangeable, on the assumption that scale and clinical supervision concentrate their representations onto a shared structure. Whether this convergence is real, what produces it, and whether it is clinically usable are untested, and the similarity measures behind such claims are fragile. We present a controlled dissection across 18 image and 7 text encoders, all open-weight and run locally, spanning 7M to 27B parameters ",
-    "author": "Soroosh Tayebi Arasteh, Sebastian Ziegelmayer, Mahshad Lotfinia, Lisa Adams, Sven Nebelung, Jakob Nikolas Kather, Daniel Truhn",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2607.20274v1"
-    ]
-  },
-  {
-    "title": "PoTRE: Test-Time Reasoning inspired by Cognitive Heterogeneity",
-    "link": "http://arxiv.org/abs/2607.20268v1",
-    "published": "2026-07-22T15:20:53+00:00",
-    "summary": "While Large Language Models (LLMs) excel at many tasks, they frequently struggle with complex reasoning that requires long-horizon planning and iterative error correction. Furthermore, standard single-stream prompting proves brittle when models encounter novel abstractions or rigorous domain constraints. We introduce PoTRE (Poly-Topological Reasoning Ensembles), a heterogeneous framework that decouples inference into four agents: (1) Adversarial Refinement Agent, (2) Hierarchical strategic Plann",
-    "author": "Anmol Kankariya, Sercan Ö. Arık",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2607.20268v1"
-    ]
-  },
-  {
-    "title": "The Maskability Index: Predicting Task-Objective Alignment in Pretrained Language Models",
-    "link": "http://arxiv.org/abs/2607.20265v1",
-    "published": "2026-07-22T15:19:23+00:00",
-    "summary": "Large-scale pretrained language models such as T5 and BERT have demonstrated strong capabilities for generating structured knowledge. However, their performance depends on how closely the prompting strategy matches the objectives used during pretraining. We introduce the Maskability Index (MI), a quantitative metric that estimates whether a knowledge relation is better suited to masked-style prompting or prefix-style prompting in few-shot generation. MI is computed from differences in DepthRank ",
-    "author": "Ahmad Pouramini, Mahsa Afsharzadeh",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2607.20265v1"
-    ]
-  },
-  {
-    "title": "The Ethics of Autonomous AI Agents for Offensive Security",
-    "link": "http://arxiv.org/abs/2607.20255v1",
-    "published": "2026-07-22T15:13:15+00:00",
-    "summary": "LLM-driven autonomous agents are reshaping offensive security. Unlike traditional penetration-testing tooling -- deterministic, narrowly scoped, and operated by trained practitioners -- agentic security tools exhibit \\textit{indeterminacy} along three independent dimensions. First, their actions are drawn from a non-deterministic policy whose outputs resist both ex-ante and ex-post explanation, frustrating incident attribution and pre-deployment safety review. Second, their impact is open-ended ",
-    "author": "Andreas Happe, Jürgen Cito, Jasmin Wachter",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2607.20255v1"
     ]
   },
   {
