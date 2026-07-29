@@ -1,5 +1,127 @@
 [
   {
+    "title": "Pass the Baton: Trajectory-Relayed On-Policy Distillation",
+    "link": "http://arxiv.org/abs/2607.26057v1",
+    "published": "2026-07-28T17:59:46+00:00",
+    "summary": "On-policy distillation (OPD) grounds token-level supervision in the student's own trajectory, yet suffers from prefix failure: once the student commits to a wrong reasoning direction, all subsequent generation builds on this deviation, producing misdirected continuations that elicit unreliable supervision and waste compute. We identify a teacher-student continuation asymmetry on failed prefixes, where the teacher tends to redirect while the student continues along the original direction, and con",
+    "author": "Haolei Xu, Xiaowen Xu, Haiwen Hong, Zixuan Ni, Hongxing Li, Yiwen Qiu, Weiming Lu, Yongliang Shen",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2607.26057v1"
+    ]
+  },
+  {
+    "title": "$π\\mathbf{R}^2$: Reactive Real-time Flow Policies",
+    "link": "http://arxiv.org/abs/2607.26055v1",
+    "published": "2026-07-28T17:59:31+00:00",
+    "summary": "Generalist manipulation policies increasingly take the form of action-chunking flow policies built on large pretrained backbones. Such chunks run open-loop, so the policy cannot react to sensory input arriving mid-execution, sacrificing \\emph{reactivity}. Replanning more often would restore it, but the perception-to-action pipeline (a large backbone plus multiple denoising steps) is too slow: this \\emph{latency} forbids frequent replanning and leaves committed actions stale, making such policies",
+    "author": "Sungjae Park, Shubham Tulsiani",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "https://pi-r2-flow.github.io/",
+      "http://arxiv.org/abs/2607.26055v1"
+    ]
+  },
+  {
+    "title": "Desktop-Delta Bench: Do Computer-Use Models Understand Desktop GUI Transitions?",
+    "link": "http://arxiv.org/abs/2607.26041v1",
+    "published": "2026-07-28T17:49:51+00:00",
+    "summary": "Computer-use agents (CUAs) increasingly act through desktop GUIs to complete long-horizon tasks. Current benchmarks primarily measure end-task success or single-frame grounding. Neither isolates whether a model can reconstruct the causal, task-relevant transition produced by an action- crucial for rejecting stale observations, verifying progress, and recovering from failure. This is difficult because inference, remote input, app rendering, and screenshot capture are asynchronous: the next observ",
+    "author": "Abhishek Pillai, Samir Kumar Nayak, Yuan Chen",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2607.26041v1"
+    ]
+  },
+  {
+    "title": "Falling Behind Drives Unsafe Development in an Idealised AI Race Experiment",
+    "link": "http://arxiv.org/abs/2607.26034v1",
+    "published": "2026-07-28T17:44:03+00:00",
+    "summary": "Technological races create tension between speed and safety: actors may gain by moving faster than competitors, even when risky development is harmful. This is prominent in debates about artificial intelligence (AI), where competitive pressure is often argued to incentivise riskier, less safety-conscious development. We study this using a framed behavioural experiment based on an idealised AI race, in which paired participants repeatedly chose between Safe and Unsafe development under an uncerta",
+    "author": "Elias Fernández Domingos, The Anh Han",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2607.26034v1"
+    ]
+  },
+  {
+    "title": "CHARM: A Multimodal Graph Foundation Model with Hierarchical Context Modeling for Zero-Shot Transfer",
+    "link": "http://arxiv.org/abs/2607.26023v1",
+    "published": "2026-07-28T17:35:26+00:00",
+    "summary": "Graph foundation models (GFMs) have emerged as a promising paradigm for transferring knowledge across graph domains and tasks. Real-world graphs associate nodes with text, images, and other modalities, making multimodal graphs essential for representing complex entities and relations. Moreover, collecting labels and adapting models for every new graph domain is costly and often infeasible, motivating zero-shot transfer. Unfortunately, zero-shot transfer on multimodal graphs remains underexplored",
+    "author": "Ankang Yang, Jitao Zhao, Di Jin, Yuxiao Huang, Dongxiao He",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2607.26023v1"
+    ]
+  },
+  {
+    "title": "MDTransformer: A Hardware-Software Co-Design of Mode-Division Photonic Transformer Accelerator with Inverse-Designed Coherent Crossbar",
+    "link": "http://arxiv.org/abs/2607.26016v1",
+    "published": "2026-07-28T17:27:49+00:00",
+    "summary": "Recently, photonic transformer accelerators (PTAs) have successfully achieved significant speedup and energy efficiency improvements over electronic accelerators for expediting Transformer inference. However, state-of-the-art rely on expensive multi-wavelength light generation and large dot-product units due to active phase-shifter components, thus making their approach inefficient and impractical. To address this, we propose MDTransformer, a novel hardware-software co-design of PTA based on mod",
+    "author": "Solomon Micheal Serunjogi, Rachmad Vidya Wicaksana Putra, Ayat Taha, Muhammad Shafique, Mahmoud Rasras",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2607.26016v1"
+    ]
+  },
+  {
+    "title": "Pictura: Perspective-View Self-Play at Scale for Driving",
+    "link": "http://arxiv.org/abs/2607.26005v1",
+    "published": "2026-07-28T17:20:39+00:00",
+    "summary": "Self-play in simulation produces robust driving policies at scale. Demonstrations of such behavior have been made using privileged vectorized observations such as exact poses and velocities, even for occluded agents. This assumes that perception is solved and introduces a representation gap with the partial observation of a deployed agent driving from the perspective view of egocentric cameras. A common fix, distilling the privileged policy into a camera-input student, leaves the student imitati",
+    "author": "Yuan Yin, Elias Ramzi, Marc Lafon, Valentin Charraut, Victor Bares, Yihong Xu, Éloi Zablocki, Alexandre Boulch, Thibault Buhet, Andrei Bursuc, Matthieu Cord",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "https://valeoai.github.io/Pictura/",
+      "http://arxiv.org/abs/2607.26005v1"
+    ]
+  },
+  {
+    "title": "Empirical Evaluation of Out-Of-Distribution Performance of Tabular Foundation Models",
+    "link": "http://arxiv.org/abs/2607.26000v1",
+    "published": "2026-07-28T17:16:01+00:00",
+    "summary": "Tabular Foundation Models (TFMs) have emerged as novel approaches for tabular predictive tasks, demonstrating competitive predictive performance to ensemble tree-based models. Most TFMs are trained and evaluated on independent and identically distributed data, but this assumption changes in real-world scenarios due to distribution shifts, which compromise the robustness of models. Limited research has been conducted of TFMs under distribution shifts. We present an empirical evaluation of Out-Of-",
+    "author": "Malena Loza, David Chushig-Muzo, Eva Milara, Luis Bote-Curiel, Luis Estrada-Petrocelli, Felipe Grijalva",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2607.26000v1"
+    ]
+  },
+  {
+    "title": "Does Runtime Topology Context Improve LLM-Generated Kubernetes Security Patches?",
+    "link": "http://arxiv.org/abs/2607.25995v1",
+    "published": "2026-07-28T17:12:12+00:00",
+    "summary": "Kubernetes is central to the cloud-native ecosystem, orchestrating containerised workloads. Recent work suggests that large language models (LLMs) can automate cluster security remediation, generating configuration patches from Kubernetes Security Posture Management (KSPM) findings without human authoring. Such systems, however, prompt the model with each finding in isolation from the live service call graph, assuming general hardening knowledge suffices. This assumption breaks down whenever a p",
+    "author": "Farooq Shaikh",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2607.25995v1"
+    ]
+  },
+  {
+    "title": "MemLens: A Value-Aware Memory Management System with Interactive Analytics for LLM-based Agents",
+    "link": "http://arxiv.org/abs/2607.25992v1",
+    "published": "2026-07-28T17:08:56+00:00",
+    "summary": "Recently, memory management has become a key infrastructure for LLM-based agents, as it directly affects long-horizon reasoning, personalized responses, and knowledge reuse. However, existing LLM memory systems typically adopt a coarse-grained (utility-agnostic) manner that treats heterogeneous user-LLM interaction records uniformly, leading to redundant and low-impact records persisting in the memory repository. To address this challenge, we present MemLens, a value-aware memory management syst",
+    "author": "Shuyue Wei, Chang Liu, Zimu Zhou, Yongxin Tong, Lizhen Cui",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2607.25992v1"
+    ]
+  },
+  {
     "title": "Scientific computing in the age of agentic AI",
     "link": "https://openai.com/index/scientific-computing-agentic-ai",
     "published": "2026-07-28T17:00:00+00:00",
@@ -9,6 +131,68 @@
     "category": "official",
     "references": [
       "https://openai.com/index/scientific-computing-agentic-ai"
+    ]
+  },
+  {
+    "title": "Reinforcement Learning for Code Optimization",
+    "link": "http://arxiv.org/abs/2607.25970v1",
+    "published": "2026-07-28T16:52:31+00:00",
+    "summary": "RL for code correctness is now established: have the model generate a program, run it against hidden test cases, and reward solutions that pass. Extending this to code optimization seems straightforward: just add execution time to the reward. But in practice, once timing drives the reward, small problems in measurement noise, reward sparsity, or GRPO instability overwhelm the signal and make RL fail: generated solutions are barely faster, and more of them can fail. We make execution time learnab",
+    "author": "Pierre Chambon, Kunhao Zheng, Juliette Decugis, Benoit Sagot, Gabriel Synnaeve",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2607.25970v1"
+    ]
+  },
+  {
+    "title": "Knowledge-Guided Multimodal Reasoning over Interacting Streams for Video-Level Ambivalence and Hesitancy Recognition",
+    "link": "http://arxiv.org/abs/2607.25961v1",
+    "published": "2026-07-28T16:44:38+00:00",
+    "summary": "Ambivalence and hesitancy (A/H) are conflicting affective states that precede the delay or abandonment of health behaviour change. Recognition of A/H at the video level is difficult, since the signal arises from disagreement across and within facial, vocal, linguistic, and bodily modalities, and manifests differently across individuals. The proposed PRISM-AH (Predictive Reasoning over Interacting Streams for Multimodal Ambivalence/Hesitancy Recognition), is a framework that treats A/H as a multi",
+    "author": "Podakanti Satyajith Chary, Barath Parthiban, Pranesh Velmurugan, Adeeba Khan, Nagarajan Ganapathy",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2607.25961v1"
+    ]
+  },
+  {
+    "title": "Detecting Knowledge Inconsistencies Across Text, Tables, and Knowledge Graphs",
+    "link": "http://arxiv.org/abs/2607.25959v1",
+    "published": "2026-07-28T16:43:56+00:00",
+    "summary": "Wikipedia and Wikidata are widely used for information access, LLM pre-training, and retrieval-augmented generation. Their knowledge is deeply connected but scattered across text, tables, and knowledge graphs. This raises a practical question: when these modalities disagree, how can we detect and explain the conflict? We study this problem as \\emph{modality-level inconsistency detection}. We first introduce a taxonomy of cross-modal knowledge inconsistencies, covering information granularity dif",
+    "author": "Fanfu Wei, Thibault Ehrhart, Raphaël Troncy",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "https://github.com/ECLADATTA/KONTRAST",
+      "http://arxiv.org/abs/2607.25959v1"
+    ]
+  },
+  {
+    "title": "Large Language Model for Operations Research Formulation Selection in Multi-Warehouse Inventory Allocation",
+    "link": "http://arxiv.org/abs/2607.25956v1",
+    "published": "2026-07-28T16:41:54+00:00",
+    "summary": "Multi-warehouse inventory allocation is typically formulated as a mixed-integer programming (MIP) problem, yet no single formulation consistently matches heterogeneous instance-level regimes induced by demand concentration, inventory imbalance, replenishment scale, service constraints, and forecast volatility. We study this issue as instance-wise operations research (OR) formulation selection, where each allocation instance is assigned to a solver-executable formulation from a candidate OR exper",
+    "author": "Jintao Xu, Yingzheng Ma, Jiong Dong, Yongzhi Qi, Jianshen Zhang",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2607.25956v1"
+    ]
+  },
+  {
+    "title": "MODUS: Decoder-Only Any-to-Any Modeling of Diverse Modalities",
+    "link": "http://arxiv.org/abs/2607.25948v1",
+    "published": "2026-07-28T16:34:23+00:00",
+    "summary": "Any-to-any models predict any modality from any combination of others within a single network, a formulation used in multimodal vision and vision-language models, and increasingly in scientific domains such as ecology and astronomy. Existing any-to-any models are typically trained from scratch using encoder-decoder or diffusion architectures, impacting their performance and preventing them from using strong pre-trained decoder-only models as a prior. In this work, we investigate decoder-only any",
+    "author": "Mingqiao Ye, Zhaochong An, Zhitong Gao, Xian Liu, François Fleuret, Chuan Li, Amir Zadeh, Serge Belongie, Afshin Dehghan, Jesse Allardice, David Mizrahi, Oğuzhan Fatih Kar, Roman Bachmann, Amir Zamir",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "https://modus-multimodal.epfl.ch/",
+      "http://arxiv.org/abs/2607.25948v1"
     ]
   },
   {
@@ -81,188 +265,6 @@
     "category": "media",
     "references": [
       "https://www.technologyreview.com/2026/07/27/1140836/openai-hugging-face-attack-precedent/"
-    ]
-  },
-  {
-    "title": "ClinFusion: A Vision-Centric Multimodal LLM System for Holistic Medical Understanding",
-    "link": "http://arxiv.org/abs/2607.24743v1",
-    "published": "2026-07-27T17:59:49+00:00",
-    "summary": "Multimodal large language models (MLLMs) hold immense potential to revolutionize clinical practice, yet deploying them in the medical domain is fundamentally a vision-centric challenge: models must absorb knowledge from heterogeneous 2D and 3D medical images, and evaluation protocols must align with radiologists' clinical practice and provide an accurate, fine-grained and factualness-driven assessment. In this paper, we introduce ClinFusion, a vision-centric MLLM designed for holistic medical un",
-    "author": "Hangjie Yuan, Yichen Qian, Zhiwei Tang, Xianzhe Xu, Lirong Wu, Sicheng Yang, Jinwang Wang, Pengju Wang, Zhitao Zeng, Yizeng Han, Yan Xing, Shengxuan Luo, Tao Feng, Qing Xie, Weigen Yao, Yi Yang, Zuozhu Liu, Jiasheng Tang, Shaocheng Wang, Jitao Wang, Jiahong Dong, Weihua Chen, Feng Xu, Fan Wang",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2607.24743v1"
-    ]
-  },
-  {
-    "title": "Rethinking Classifier-Free Guidance in On-Policy Diffusion Distillation",
-    "link": "http://arxiv.org/abs/2607.24731v1",
-    "published": "2026-07-27T17:57:02+00:00",
-    "summary": "On-policy distillation (OPD) adapts diffusion models by querying a teacher along trajectories generated by the current student, but how it should behave under classifier-free guidance (CFG), a default component of modern diffusion systems, remains poorly understood. Existing OPD methods naturally extend velocity matching to the CFG-composed prediction, directly matching teacher and student guided velocities. We show that this objective is under-identified at the branch level: positive- and negat",
-    "author": "Bingnan Li, Haozhe Wang, Haozhong Xiong, Fangtai Wu, Jinpeng Yu, Yang Shi, Jiaming Liu, Ruihua Huang",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2607.24731v1"
-    ]
-  },
-  {
-    "title": "KANEx: Translating Kolmogorov-Arnold Networks' Interpretability to Medical Explainability",
-    "link": "http://arxiv.org/abs/2607.24730v1",
-    "published": "2026-07-27T17:57:02+00:00",
-    "summary": "Computer vision models have become highly effective for medical applications, yet their black-box nature continues to undermine clinician trust. In clinical workflows, chest X-ray classifiers are increasingly paired with Vision-Language Models (VLMs) to generate natural-language explanations. However, these systems add linguistic fluency without addressing the underlying opacity of the visual model. With the emergence of Kolmogorov-Arnold Networks (KANs), whose spline-based components provide in",
-    "author": "Krithi Shailya, Ananya Lakshmi Ravi, Venkatanathan K. V., Sowmya S. Sundaram, Gokul S. Krishnan, Aditi Anand, Balaraman Ravindran",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2607.24730v1"
-    ]
-  },
-  {
-    "title": "The Physics of Multi-Turn Long-Horizon Planning: From Pre-training to Post-training via Single- and Multi-Teacher On-Policy Agentic Distillation",
-    "link": "http://arxiv.org/abs/2607.24720v1",
-    "published": "2026-07-27T17:55:03+00:00",
-    "summary": "Multi-turn long-horizon planning is critical for foundation model agents, yet how to fundamentally improve it remains unclear. Existing models are trained on uncontrollable and opaque Internet data, making it difficult to identify how planning ability is acquired, shaped, and integrated. To address this challenge, we introduce a unified and controlled multi-turn environment that enables precise control. It allows systematically study long-horizon planning across three stages. (1) Planning abilit",
-    "author": "Tianyi Men, Zhuoran Jin, Kang Liu, Jun Zhao",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2607.24720v1"
-    ]
-  },
-  {
-    "title": "DataOrchestra: Learning to Orchestrate Per-Example Curation of Pretraining Data",
-    "link": "http://arxiv.org/abs/2607.24717v1",
-    "published": "2026-07-27T17:54:12+00:00",
-    "summary": "Pretraining data processing is critical to the downstream performance of Large Language Models (LLMs). However, many existing approaches define a fixed processing strategy at the corpus or domain level and apply it uniformly to many examples, without adapting to the needs of each example. We propose DataOrchestra, a framework that unifies different processing operations and orchestrates an example-specific pipeline for each example. Given a chunk of pretraining data, an orchestrator decides whet",
-    "author": "Zhen Huang, Yikun Wang, Shijie Xia, Pengfei Liu",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2607.24717v1"
-    ]
-  },
-  {
-    "title": "Efficient LLM-Generated Shuttling Compilers for Complex Trapped-Ion Architectures",
-    "link": "http://arxiv.org/abs/2607.24714v1",
-    "published": "2026-07-27T17:51:18+00:00",
-    "summary": "Trapped-ion quantum computers rely on shuttling compilers, which cast an input algorithm into a sequence of ion-qubit movements within a given architecture. We present the first study in which a single frontier large language model (LLM), Claude Opus 4.7, generates and iteratively refines the full Python code of shuttling compilers from written specifications. We start with a compiler for (i) a linear segmented trap, extend it to (ii) a trap with junctions, and finally achieve efficient compilat",
-    "author": "Fabian Kreppel, Reza Salkhordeh, Ferdinand Schmidt-Kaler, André Brinkmann",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2607.24714v1"
-    ]
-  },
-  {
-    "title": "ERUnderstand: Evaluating Vision-Language Models on Structured ER Diagrams",
-    "link": "http://arxiv.org/abs/2607.24707v1",
-    "published": "2026-07-27T17:46:43+00:00",
-    "summary": "Entity-Relationship Diagrams (ERDs) are central to conceptual database design, yet they are typically available only as rendered images rather than machine-readable schemas, limiting AI-assisted database engineering. We introduce ERUnderstand, the first large-scale benchmark for structured understanding of ER diagrams, comprising 2,960 diagrams collected from curated educational sources, real-world schemas, and synthetically generated examples spanning diverse domains, notations, complexity leve",
-    "author": "Ali Ansari, Yasmin Mohammadi, Farnoush Nili, Parsa Esmaeilkhani, Longin Jan Latecki, Eduard Dragut",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "https://github.com/salinaria/ERUnderstand",
-      "http://arxiv.org/abs/2607.24707v1"
-    ]
-  },
-  {
-    "title": "Denial of Deadline: Network-Driven Accuracy Collapse in Distributed Inference Pipelines",
-    "link": "http://arxiv.org/abs/2607.24692v1",
-    "published": "2026-07-27T17:34:09+00:00",
-    "summary": "Inference systems increasingly combine a fast path that returns predictions within the application's latency deadline together with a higher-accuracy slow path that runs higher-compute methods on stronger, remote hardware, so its results can be returned on time and combined with the fast path predictions. Across several application domains, we abstract this inference architecture as a fast path, a slow path, and a coordination layer with two functions: a router that invokes the slow path and a m",
-    "author": "Jhonatan Tavori, Gur-Eyal Sela, Ion Stoica, Gil Zussman",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2607.24692v1"
-    ]
-  },
-  {
-    "title": "Co-Learning for Missing Arbitrary Modalities in Multi-modal Classification",
-    "link": "http://arxiv.org/abs/2607.24683v1",
-    "published": "2026-07-27T17:23:30+00:00",
-    "summary": "Multi-modal classification leverages complementary information across diverse data sources to enhance predictive performance. However, real-world scenarios subject to operational constraints, such as sensor failures or privacy restrictions, lead to inconsistent modality availability between training and inference times. To handle missing modalities, prior studies have mainly covered bimodal data setups and focused on designing robust fusion processes. Instead, we adopt a multi-modal co-learning ",
-    "author": "Francisco Mena, Dino Ienco, Roberto Interdonato, Cassio F. Dantas, Simon Besnard",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "https://github.com/fmenat/Co4Miss",
-      "http://arxiv.org/abs/2607.24683v1"
-    ]
-  },
-  {
-    "title": "Eviction as Estimation: A Fixed-Lag Smoothing View of Test-Time Memory, and When Measuring Beats Accumulating",
-    "link": "http://arxiv.org/abs/2607.24667v1",
-    "published": "2026-07-27T17:08:27+00:00",
-    "summary": "A language model with a bounded working memory must repeatedly decide which stored items to keep. Every deployed method decides the moment an item arrives, from the past (StreamingLLM, H2O) or from a guess about the future (SnapKV). We recast the choice as an estimation problem on a hidden signal, whether an item will be reused, placing existing methods on one axis, the commit lag $H$: online filters and learned predictors commit at $H=0$, while Belady's offline optimum sits where the whole futu",
-    "author": "Maruthi Vemula, Neeraj Praneeth Gajula",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2607.24667v1"
-    ]
-  },
-  {
-    "title": "A corrective agentic hybrid RAG and an operations-grounded evaluation for a scientific facility",
-    "link": "http://arxiv.org/abs/2607.24663v1",
-    "published": "2026-07-27T17:01:30+00:00",
-    "summary": "Scientific user facilities accumulate decades of operational knowledge that no single search index covers: electronic logbooks, technical documents, internal wikis, operations chat messages, maintenance records, and live control-system data. We present APS-RAG, Advanced Photon Source Retrieval Augmented Generation, a deployed platform that makes the institutional knowledge at the Advanced Photon Source (APS) accessible to staff through natural-language queries, along with an operations-grounded ",
-    "author": "Rajat Sainju, Dariusz Jarosz, Hairong Shang, Michael Prince, Ryan M. Aydelott, Mathew J. Cherukara, Yine Sun, Michael D. Borland",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2607.24663v1"
-    ]
-  },
-  {
-    "title": "Reason-Mediated Behavioral Models for Auditing LLM Social Simulators",
-    "link": "http://arxiv.org/abs/2607.24649v1",
-    "published": "2026-07-27T16:47:27+00:00",
-    "summary": "Large language models are increasingly used as social simulators, including as synthetic survey respondents. Most evaluations ask whether simulated outcomes resemble human outcomes. We argue that this is necessary but too weak: a simulator can match the final answer while using the wrong rationale-derived reason pattern. We study this problem through a 94-person sunscreen concept test in which each respondent evaluated three product concepts and wrote open-ended rationales. We map those rational",
-    "author": "Atharva Pandey, Gautam Jajoo",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2607.24649v1"
-    ]
-  },
-  {
-    "title": "Efficiency Matters in Autonomous Research",
-    "link": "http://arxiv.org/abs/2607.24647v1",
-    "published": "2026-07-27T16:46:33+00:00",
-    "summary": "AI-driven autonomous research (AR) systems are becoming increasingly effective across a broad range of tasks. Their performance, however, is still evaluated primarily by the quality of the final outcome. In this paper, we argue that the efficiency of the solution-search process is an equally important but often overlooked dimension of performance. A strong AR system should not only produce high-quality results, but also reach them with as small a budget as possible. Search efficiency will become",
-    "author": "Haiqian Yang, Yuan Cao",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2607.24647v1"
-    ]
-  },
-  {
-    "title": "Sparse Autoencoders Encode Both Concepts and Functions: The Downstream Geometry of Feature Effects",
-    "link": "http://arxiv.org/abs/2607.24645v1",
-    "published": "2026-07-27T16:45:08+00:00",
-    "summary": "The wide-scale use of sparse autoencoders (SAEs) as interpretability tools is limited by inconsistent links between SAE features and model behavior. Features with clear activation descriptions may have weak or unexpected causal effects; steering can vary across prompts or oppose the intended direction; and activation-based feature selection can miss features that produce the desired output change. Prior work has studied feature geometry inside the model, where features are computed. We instead s",
-    "author": "Phu Gia Hoang, Anwoy Chatterjee, Tanmoy Chakraborty, Iryna Gurevych, Subhabrata Dutta",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2607.24645v1"
-    ]
-  },
-  {
-    "title": "Agentic Permissions Policy Algebra for Taint Confinement in LLM Agents",
-    "link": "http://arxiv.org/abs/2607.24625v1",
-    "published": "2026-07-27T16:19:45+00:00",
-    "summary": "Autonomous LLM agents processing mixed-confidentiality data face severe security risks from prompt injection attacks and reasoning errors. While dynamic Information Flow Control (IFC) provides structural security guarantees, traditional taint tracking permanently taints an agent's context upon reading unvetted data, severely restricting downstream utility. We present APPA (Agentic Permissions Policy Algebra), an IFC framework that resolves this usability bottleneck through engine-managed context",
-    "author": "Arseny Kravchenko, Vadim Liventsev, Innokentii Konstantinov, Ildar Iskhakov, Matvey Kukuy",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2607.24625v1"
     ]
   },
   {
