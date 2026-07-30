@@ -12,6 +12,139 @@
     ]
   },
   {
+    "title": "Can AI agents conduct open-ended AI research? Early evidence from two case studies",
+    "link": "http://arxiv.org/abs/2607.27191v1",
+    "published": "2026-07-29T17:57:19+00:00",
+    "summary": "Forecasts of explosive AI progress hinge on AI agents automating AI research. But evidence on whether agents can carry out open-ended AI research is thin. Current evaluations either test agents on narrow, verifiable tasks, which excludes open-ended research, or submit AI-generated papers to blind peer review, which is overstretched, stochastic, and suffers from poor review quality. We introduce a third way to measure progress towards AI R\\&D automation. An agent takes on the central, open-ended ",
+    "author": "Peter Kirgis, Sayash Kapoor, Andrew Schwartz, Stephan Rabanser, David Africa, Konstantinos Voudouris, Viet Nguyen, Toby Pilditch, Magda Dubois, Harry Coppock, Cozmin Ududec, Nitya Nadgir, Matilda Orona, Tilman Bayer, Derrick Chan-Sew, Yue Ling, Abhishek Shetty, Helen Toner, Gillian Hadfield, Seth Lazar, Steve Newman, Shoshannah Tekofsky, Rishi Bommasani, Arvind Narayanan",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2607.27191v1"
+    ]
+  },
+  {
+    "title": "APEX-Accounting",
+    "link": "http://arxiv.org/abs/2607.27189v1",
+    "published": "2026-07-29T17:56:49+00:00",
+    "summary": "We introduce APEX-Accounting, a benchmark built by Mercor in partnership with Ramp, to assess whether frontier models can do the real work of accountants. Tasks include reconciling accounts, accruing expenses, posting transactions, and producing reports. The private eval set comprises 160 tasks, split across 10 worlds. Each world contains an accounting system, as well as spreadsheets, PDFs, and other files. Every task was authored and solved by experts in accounting and bookkeeping, who also wro",
+    "author": "Julien Benchek, Austin Bennett, Jasmin Kern, Ryan Stevens, Rene Sultan, Charis Ching, Hayley Popiel, Vaibhav Mittal, Felix Mercier, Brendan Foody, Bertie Vidgen",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2607.27189v1"
+    ]
+  },
+  {
+    "title": "The Social Cost of an AI Teammate: How an Artificial Teammate Reshapes Human-Human Communication in Small-Team Decision-Making",
+    "link": "http://arxiv.org/abs/2607.27179v1",
+    "published": "2026-07-29T17:51:32+00:00",
+    "summary": "Conversational AI is increasingly positioned as a teammate rather than a tool, yet we know little about how its presence reshapes communication among the humans on the team. We examined sociocognitive communication dynamics in team decision-making using Group Communication Analysis (GCA), team surveys, and lexical analyses of team discourse. Teams completed a high-stakes moral-dilemma decision task in a randomized controlled study: 16 teams of two students plus an AI teammate, and 17 all-human t",
+    "author": "Nia Nixon, Jaeyoon Choi, Pedro Martins De Bastos, Mohammad Amin Samadi, Luise Mehner, Seehee Park, Spencer JaQuay",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2607.27179v1"
+    ]
+  },
+  {
+    "title": "Partner Capability Estimation for Task-Agnostic Adaptation in Ad-Hoc Teamwork",
+    "link": "http://arxiv.org/abs/2607.27177v1",
+    "published": "2026-07-29T17:50:39+00:00",
+    "summary": "Effective collaboration with novel and diverse partners is a crucial skill for autonomous agents. Most current ad-hoc teamwork (AHT) approaches assume that agents will collaborate on a single, fixed task and that the partner's capabilities, their ability to successfully execute the desired action, are already known. In reality, a partner's true capabilities are often hidden, and human collaborators may act sub-optimally on tasks with multiple valid strategies. To address these limitations, we ex",
+    "author": "Peter Tisnikar, Maja Swieczkowska, Benteng Ma, Gerard Canal, Matteo Leonetti",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2607.27177v1"
+    ]
+  },
+  {
+    "title": "Improving Item Discoverability in e-Commerce Search via Related Intent Generation",
+    "link": "http://arxiv.org/abs/2607.27172v1",
+    "published": "2026-07-29T17:46:35+00:00",
+    "summary": "Traditional search systems are optimized to retrieve items that strictly match a query, often prioritizing precision over recall. In e-commerce marketplaces and particularly grocery, this paradigm is limiting, as user satisfaction and commercial outcomes depend heavily on the discoverability of substitute, complementary, and thematically related items. In this paper, we present a scalable system for discovery-augmented search that leverages intent-conditioned recall expansion. Our approach gener",
+    "author": "Ji Xin, Xiao Xiao, Ishan Bhatt, Vinesh Gudla, Trace Levinson, Raochuan Fan, Shishir Kumar Prasad, Prakash Putta, Tejaswi Tenneti",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2607.27172v1"
+    ]
+  },
+  {
+    "title": "OmegaUse-OfficeVal: Benchmarking LLM Agents on Long-Horizon Office-Suite Tasks with Economic Grounding",
+    "link": "http://arxiv.org/abs/2607.27155v1",
+    "published": "2026-07-29T17:33:47+00:00",
+    "summary": "Large language model (LLM) agents are increasingly expected to assist users in completing tasks. However, existing benchmarks provide limited support for evaluating whether agents can carry out office-suite workflows at a reasonable cost. We introduce OmegaUse-OfficeVal, a benchmark for evaluating LLM agents on long-horizon office-suite tasks with task-level economic grounding. The benchmark comprises 100 tasks derived from office-suite requests proposed by practitioners and adapted through a pr",
+    "author": "Jingbo Zhou, Yusai Zhao, Qi Bao, Jingjia Cao, Zhenghai Chen, Chang Gao, Kaiqi Guo, Muxin Guo, Mingxuan Li, Xinjiang Lu, Yanru Ma, Yixiong Xiao, Zenghui Zhang, Le Zhang, Hua Wu",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "https://omegause-officeval.github.io",
+      "http://arxiv.org/abs/2607.27155v1"
+    ]
+  },
+  {
+    "title": "Anatomy Contextualized Adaption of CT Foundation Models",
+    "link": "http://arxiv.org/abs/2607.27154v1",
+    "published": "2026-07-29T17:32:57+00:00",
+    "summary": "CT vision-language foundation models have demonstrated promising performance across downstream tasks, but are typically trained with whole-volume representations that dilute fine-grained anatomical signals. Fine-grained vision-language pre-training addresses this by aligning anatomy-level visual features with anatomy-specific text, but in doing so discards the global context that whole-volume models provide. Furthermore, existing fine-grained approaches train from scratch, making them computatio",
+    "author": "Roshan Kenia, Stephanie L McNamara, William Lotter",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2607.27154v1"
+    ]
+  },
+  {
+    "title": "Cost-Sensitive Conformal Prediction and Human-in-the-Loop Abstention for Imbalanced High-Stakes Decision Support: A Multi-Domain Benchmark",
+    "link": "http://arxiv.org/abs/2607.27143v1",
+    "published": "2026-07-29T17:15:33+00:00",
+    "summary": "High-stakes decision systems in credit scoring, fraud detection, healthcare, and industrial safety require reliable uncertainty quantification under severe class imbalance and asymmetric error costs. Standard marginal conformal prediction (CP) provides valid overall coverage guarantees; however, we show that it severely under-covers rare, costly minority classes, with minority-class coverage dropping to as low as 0.5% on certain datasets. To characterize and address this limitation, we conduct a",
+    "author": "Manpreet Singh, Akshatha Srikantha, Shyamal Lakhanpal",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2607.27143v1"
+    ]
+  },
+  {
+    "title": "DLAM: Distributional Latent Actions with Temporal Constraints",
+    "link": "http://arxiv.org/abs/2607.27138v1",
+    "published": "2026-07-29T17:09:48+00:00",
+    "summary": "Vision-language-action (VLA) models remain constrained by scarce action-labeled robot data, whereas action-free videos offer abundant observations of physical change. Latent action models can extract such priors, but reconstruction-trained codes may predict future observations without the structure required for joint generation with robot actions. Existing structured methods add temporal constraints but retain deterministic transition points, so residual errors in locally inferred transitions ma",
+    "author": "Zuojin Tang, Feifan Luo, Haoyun Liu, Botai Yuan, Dekang Qi, Ronghan Chen, Yandan Yang, Tong Lin, Xinyuan Chang, Mu Xu, Bin Liu, De Ma, Zhiheng Ma",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2607.27138v1"
+    ]
+  },
+  {
+    "title": "Linguistic Monoculture in LLM-Assisted Language Use",
+    "link": "http://arxiv.org/abs/2607.27134v1",
+    "published": "2026-07-29T17:04:36+00:00",
+    "summary": "Writing and communication are increasingly mediated by large language models (LLMs) that are being used to draft, revise and polish text. Although such assistance can improve clarity and help authors meet institutional expectations, widespread reliance on shared models may reduce population-level variation in linguistic form, a phenomenon we refer to as linguistic monoculture. We develop a mathematical framework in which authors and LLMs are represented as distributions over linguistic features ",
+    "author": "Suhas Thejaswi, Juhi Kulshreshta, Lutz Oettershagen",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2607.27134v1"
+    ]
+  },
+  {
+    "title": "AgentMap: Joint Equivalence and Subsumption Discovery for Ontology Matching",
+    "link": "http://arxiv.org/abs/2607.27130v1",
+    "published": "2026-07-29T16:58:10+00:00",
+    "summary": "Ontology matching (OM) has traditionally been formulated as either equivalence discovery or subsumption matching. The existing OM systems identify only one type of semantic correspondence and cannot simultaneously discover equivalence and subsumption mappings. In this paper, we introduce Hybrid Ontology Matching (HOM), a new OM task that unifies equivalence and subsumption discovery, and accordingly propose a Large Language Model (LLM)-based multi-agent OM framework AgentMap that is implemented ",
+    "author": "Yiping Song, Jiaoyan Chen, Renate Schmidt, Hui Yang, Wen Zhang",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2607.27130v1"
+    ]
+  },
+  {
     "title": "MMAC: A Massive Multi-dimensional Benchmark for Audio Captioning",
     "link": "http://arxiv.org/abs/2607.27109v1",
     "published": "2026-07-29T16:38:08+00:00",
@@ -60,102 +193,6 @@
     ]
   },
   {
-    "title": "MemSecBench: Tracking Agent Memory Poisoning from Persistence to Consequence and Repair",
-    "link": "http://arxiv.org/abs/2607.27080v1",
-    "published": "2026-07-29T16:06:54+00:00",
-    "summary": "Memory systems allow agents to retain and reuse information from past interactions, but they can also let malicious content persist. A malicious instruction crafted by an attacker may be stored in long-term memory, recalled much later, and quietly shape a real action. Recent benchmarks increasingly examine agent memory security, yet few trace the same malicious semantics across persistence, downstream consequences, and selective repair under diverse memory-backend comparisons. To address this ga",
-    "author": "Xuanze Chen, Xukang Xie, Wentao Fu, Jiajun Zhou, Shanqing Yu, Qi Xuan",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2607.27080v1"
-    ]
-  },
-  {
-    "title": "Parameter-Free Dynamic Regret for Online Convex Optimization under Heavy-Tailed Noise",
-    "link": "http://arxiv.org/abs/2607.27073v1",
-    "published": "2026-07-29T15:58:18+00:00",
-    "summary": "We study online convex optimization (OCO) in non-stationary environments under heavy-tailed noise, where the stochastic gradient oracle admits only a finite $p$-th central moment for some $p \\in (1, 2]$. While static regret is well-understood, achieving universal dynamic regret in a parameter-free manner remains an open challenge. We resolve this by proposing \\textbf{HT-PAder}, a parameter-free algorithm combining restarted AdaGrad experts over a geometric pool of block lengths with a pathwise m",
-    "author": "Vaneet Aggarwal",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2607.27073v1"
-    ]
-  },
-  {
-    "title": "Visual Credit Audit for Multimodal Spatial Reasoning",
-    "link": "http://arxiv.org/abs/2607.27069v1",
-    "published": "2026-07-29T15:55:31+00:00",
-    "summary": "Closed yes/no spatial benchmarks can reward a correct answer even when the image adds little support beyond no-image contexts. Under a fixed forced-choice interface, Visual Credit Audit (VCA) separates two estimands: whether the benchmark image gives the model's declared decision more support than text-only and blank controls, and whether the model responds to relation-specific visual evidence. The first audit is training- and label-free and does not require an answer flip. Applying labels yield",
-    "author": "Feixiang Liu, Qiang Qiu, Lanbo Sun, Nan Wei, Huawei Shen, Xueqi Cheng",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2607.27069v1"
-    ]
-  },
-  {
-    "title": "SciFigAlign: Scoring Scientific Figures by Fine-tuned Alignment of Visuals with Manuscript Evidence",
-    "link": "http://arxiv.org/abs/2607.27066v1",
-    "published": "2026-07-29T15:54:14+00:00",
-    "summary": "Scientific figure assessment in peer review differs fundamentally from general image quality evaluation: a figure must be visually legible, faithfully support the manuscript's claims, and communicate evidence with a clear visual hierarchy. However, if we apply traditional image assessment methods to scientific figure quality assessment, limitations emerge: classic IQA models capture perceptual quality or aesthetics but cannot judge whether a figure serves the paper's scientific argument; CLIP-ba",
-    "author": "Chuanzhi Xu, Zihan Deng, Huiqi Liang, Chengkun Yue, Zhanlin Cui, Pengfei Ye, Weidong Cai",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2607.27066v1"
-    ]
-  },
-  {
-    "title": "ScratchSim: A Procedural Synthetic Data Pipeline for Surface Scratch Detection",
-    "link": "http://arxiv.org/abs/2607.27065v1",
-    "published": "2026-07-29T15:54:01+00:00",
-    "summary": "While automated defect detection such as the detection of surface scratched is an important aspect in industrial quality control, the scarcity of annotated defect data make this task challenging. This paper presents a procedural rendering pipeline that generates large-scale annotated synthetic training data using BlenderProc, with configurable material appearance, camera modes, and domain randomization, producing automatic COCO-format annotations. To show the potential of our approach, we evalua",
-    "author": "Paul Julius Kühn, Saptarshi Neil Sinha, Tiago Kleist, Richard Hoffmann, Arjan kuijper, Michael Weinmann",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2607.27065v1"
-    ]
-  },
-  {
-    "title": "Setoka: A Benchmark for Hierarchical User Understanding in Personalized Agents over Heterogeneous Data",
-    "link": "http://arxiv.org/abs/2607.27056v1",
-    "published": "2026-07-29T15:47:40+00:00",
-    "summary": "Personalized agents are increasingly applied to assist users across a wide range of tasks. Effective personalized assistance requires not only retrieving explicit facts from past interactions stored in agent memory, but also inferring abstract personal characteristics. However, existing memory benchmarks primarily evaluate whether an agent can retrieve information explicitly stated in conversational histories, failing to provide an effective assessment of deeper user understanding. In this work,",
-    "author": "Lingyang Zeng, Guangze Chen, Kaichen Yu, Zhicheng Pan, Siyang Weng, Zirui Hu, Xiangyun Du, Hailin He, Rong Zhang, Chengcheng Yang, Kai Huang, Xuan Zhou",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2607.27056v1"
-    ]
-  },
-  {
-    "title": "CoCaRS: Correlation Calibration-Based Redundancy Suppression for Heterogeneous Knowledge Distillation",
-    "link": "http://arxiv.org/abs/2607.27054v1",
-    "published": "2026-07-29T15:47:11+00:00",
-    "summary": "Knowledge distillation (KD) enables a compact student model to learn from a powerful teacher and has become an effective paradigm for model compression. The emergence of diverse model architectures has extended KD from homogeneous to heterogeneous settings. However, differences in architectural inductive biases between the teacher and student models often result in substantial representation discrepancies, limiting the effectiveness of direct knowledge transfer. Recently, redundancy suppression ",
-    "author": "Fengming Yu, Haiwei Pan, Kejia Zhang, Chunling Chen, Jian Guan, Baoying Ma",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2607.27054v1"
-    ]
-  },
-  {
-    "title": "BayesAME: Bayesian Active Model Evaluation",
-    "link": "http://arxiv.org/abs/2607.27023v1",
-    "published": "2026-07-29T15:20:39+00:00",
-    "summary": "Evaluating large generative models across benchmarks is time-consuming and computationally expensive. This drives the need for methods that can estimate full benchmark performance by evaluating models on only a subset of items, known as a coreset. Current literature mostly requires the practitioner to input a coreset size. However, when reliable performance estimation takes priority over efficiency, an evaluation method should also be capable of automatically determining a coreset size that refl",
-    "author": "Paula Cordero Encinar, Taylan Cemgil, Arnaud Doucet, Virginia Aglietti, Silvia Chiappa",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2607.27023v1"
-    ]
-  },
-  {
     "title": "How enabling two settings tripled our scores on the ARC-AGI-3 benchmark",
     "link": "https://openai.com/index/how-two-settings-tripled-our-arc-agi-3-scores",
     "published": "2026-07-29T15:00:00+00:00",
@@ -165,42 +202,6 @@
     "category": "official",
     "references": [
       "https://openai.com/index/how-two-settings-tripled-our-arc-agi-3-scores"
-    ]
-  },
-  {
-    "title": "SymmGrid: Super-Scaling On-Robot Learning with Parallelized Symmetries and Egocentric-Exocentric Visual Perception",
-    "link": "http://arxiv.org/abs/2607.26985v1",
-    "published": "2026-07-29T14:41:02+00:00",
-    "summary": "Deep reinforcement policy learning directly in physical robots (on-robot learning) remains bottlenecked by slow wall-clock training times. We present SymmGrid, a trajectory level augmentation framework inspired by parallelized symmetries that super-scales group transformations to significantly accelerate on-robot learning in both egocentric and exocentric visual setups. We model a Markov Decision Process (MDP) under a symmetry tree, in which state-action pairs have admissible parallelized invari",
-    "author": "Gabe Everett, Brice Gunter, Ryan Vander Stelt, Cleiver Ruiz-Martinez, Blake Hull, Juan Rojas",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2607.26985v1"
-    ]
-  },
-  {
-    "title": "Progressive Multimodal Alignment for Continual Instruction Tuning",
-    "link": "http://arxiv.org/abs/2607.26947v1",
-    "published": "2026-07-29T14:15:55+00:00",
-    "summary": "Multimodal Large Language Models (MLLMs) rely on a projector to align visual representations with the language embedding space, making it central to cross-modal understanding. In Multimodal Continual Instruction Tuning (MCIT), however, shifting visual distributions and evolving instruction semantics cause this shared projector to drift, leading to projector-level forgetting, an issue largely overlooked by methods that focus primarily on the LLM backbone. We introduce Progressive Multimodal Align",
-    "author": "Duzhen Zhang, Yahan Yu, Qiaoyi Su, Jiahua Dong, Tielin Zhang",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2607.26947v1"
-    ]
-  },
-  {
-    "title": "Belief-Guided Decision Making with Uncertainty Gating in the Game of Go",
-    "link": "http://arxiv.org/abs/2607.26946v1",
-    "published": "2026-07-29T14:15:29+00:00",
-    "summary": "Recent advancements in Computer Go, driven by AlphaZero and MuZero, rely heavily on Monte Carlo Tree Search (MCTS) to correct the errors of the neural network policy. While effective on massive computational clusters, this dependence creates a critical bottleneck on consumer-grade hardware, where the computational cost of tree management severely limits inference rates. Furthermore, without deep search, these models suffer from hallucination, proposing moves with high confidence that are strateg",
-    "author": "Mehrad Yaghoubi, Azam Bastanfard, Abbas Jalilvand, Ashkan Rezaei",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2607.26946v1"
     ]
   },
   {
