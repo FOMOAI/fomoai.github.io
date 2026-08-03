@@ -12,6 +12,189 @@
     ]
   },
   {
+    "title": "ExtractBench: A Benchmark for Schema-Guided Enterprise Document Extraction",
+    "link": "http://arxiv.org/abs/2607.29677v1",
+    "published": "2026-07-31T17:55:58+00:00",
+    "summary": "Enterprise workflows increasingly rely on agents for \\emph{schema-guided extraction}: given a document and a user-defined schema, the agent faithfully follows the schema to produce the correct output with source evidence as grounding metadata. We present ExtractBench, a benchmark for schema-guided extraction and, to our knowledge, the first to score value accuracy, record completeness at scale, grounding, and measured cost together. The evaluation system contains 4,869 pages across 370 enterpris",
+    "author": "Boyang Zhang, Adrian Lyjak, Eli Stewart, Zhaoqi Li, Simon Suo",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "https://huggingface.co/datasets/llamaindex/ExtractBench}{HuggingFace}",
+      "https://github.com/run-llama/ExtractBench}{GitHub}",
+      "http://arxiv.org/abs/2607.29677v1"
+    ]
+  },
+  {
+    "title": "Development of FDD-ON: an Ontology for VAV HVAC System Fault Detection and Diagnostics",
+    "link": "http://arxiv.org/abs/2607.29657v1",
+    "published": "2026-07-31T17:37:34+00:00",
+    "summary": "Fault detection and diagnosis (FDD) technology is essential for improving HVAC system reliability, energy efficiency, and maintenance effectiveness. However, effective deployment of FDD solutions in buildings requires structured domain knowledge that can bridge heterogeneous data sources, diverse equipment types, and varied diagnostic outputs. Limited data interpretability and interoperability within the FDD domain have led to fragmented information silos, hindering the implementation of FDD and",
+    "author": "Yimin Chen, Brian Fricke, Bo Shen, Jamie Lian, Mingkan Zhang, James Lo, Yun Zhang, Shi Ye, Jiajing Huang, Han Hu, Chujie Lu, Rui Tang, George Zhuang",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2607.29657v1"
+    ]
+  },
+  {
+    "title": "AgentHPOBench: A Benchmark For Evaluating LLM Agents as Sequential Hyperparameter Optimizers",
+    "link": "http://arxiv.org/abs/2607.29626v1",
+    "published": "2026-07-31T16:58:00+00:00",
+    "summary": "As LLMs evolve from code completion systems into autonomous scientific agents, evaluating their ability to conduct experiments has become increasingly important. Existing benchmarks typically focus on static code generation, paper replication, or final answer correctness, but do not directly assess whether agents can interpret experimental evidence and use it to guide subsequent hyperparameter decisions. To address this gap, we introduce AgentHPOBench, a sequential benchmark comprising 30 execut",
+    "author": "Tianyu Huai, Tingshuo Fan, Xinchi Chen, Yining Zheng, Yuxin Wang, Shuang Chen, Jie Zhou, Xuanjing Huang",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2607.29626v1"
+    ]
+  },
+  {
+    "title": "The Theoretical Foundation of Socratic Tests: Dynamic, Multimodal, Conversational Examinations",
+    "link": "http://arxiv.org/abs/2607.29624v1",
+    "published": "2026-07-31T16:57:49+00:00",
+    "summary": "Traditional static assessments rely on a subtractive, deficit-based grading model that often penalizes ambition and obscures diagnostic feedback. Conversely, traditional face-to-face oral examinations introduce severe construct-irrelevant variance by exacerbating performative anxiety and the sociological power imbalances inherent to academic hierarchies. This paper presents the theoretical foundation for the \"Socratic Test,\" an automated, computer-mediated conversational assessment. By integrati",
+    "author": "Ilya Mikhelson",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2607.29624v1"
+    ]
+  },
+  {
+    "title": "CENDRe: Concept Extraction with Natural Domain Representations",
+    "link": "http://arxiv.org/abs/2607.29621v1",
+    "published": "2026-07-31T16:56:27+00:00",
+    "summary": "Convolutional neural networks (CNNs) are widely used for time-series classification, but their deployment in critical domains requires understanding the temporal and spectral patterns that drive their predictions. Concept extraction (CE) methods identify such patterns by analyzing representations within the models' latent space. However, existing time-series CE methods have three limitations: they operate only in the time domain and overlook frequency features, predefine the number of concepts, ",
+    "author": "Antonia Holzapfel, Andres Felipe Posada Moreno, Sebastian Trimpe",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2607.29621v1"
+    ]
+  },
+  {
+    "title": "When Does On-Policy Interaction Help? Representational Tradeoffs in Value-Based Imitation Learning",
+    "link": "http://arxiv.org/abs/2607.29617v1",
+    "published": "2026-07-31T16:52:47+00:00",
+    "summary": "Imitation learning (IL)---training an agent to replicate expert behavior from demonstrations---underpins applications from robotics to language model training. Standard approaches such as Behavior Cloning (BC) are known to suffer from compounding errors and performance plateaus, particularly when the learner cannot perfectly represent the expert's policy (as is typical, e.g., in distillation). Two interventions are widely understood empirically to improve performance: querying the expert interac",
+    "author": "Luca Viano, Antoine Moulin, Audrey Huang, Volkan Cevher, Philip Amortila, Dylan J. Foster",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2607.29617v1"
+    ]
+  },
+  {
+    "title": "A Human-Centered Validation of the Explainability-Performance Coefficient",
+    "link": "http://arxiv.org/abs/2607.29614v1",
+    "published": "2026-07-31T16:50:51+00:00",
+    "summary": "The rapid adoption of deep learning models in high-risk domains has intensified the need for trustworthy Explainable Artificial Intelligence (XAI). However, objectively evaluating explanation fidelity and aligning XAI metrics with human-centered understanding remain critical open challenges. In this work, we propose a model-agnostic metric, the EPC score, which is an extension of the Explainability-Performance Coefficient (EPC), that quantifies explanation quality by explicitly balancing the tra",
+    "author": "Christian Oliva, Luis F. Lago-Fernández",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2607.29614v1"
+    ]
+  },
+  {
+    "title": "FriendBench: Benchmarking Dyadic Familiarity Inference in Humans and Multimodal Large Language Models",
+    "link": "http://arxiv.org/abs/2607.29602v1",
+    "published": "2026-07-31T16:33:39+00:00",
+    "summary": "Reading a social situation often depends on behavior, not words alone. We introduce FriendBench, a benchmark for inferring whether two people are already familiar or are meeting as strangers, from a 20-second clip of a dyadic ice-breaker conversation. Every pair answers the same type of prompt, so only the manner of interaction can reveal the answer. Across text, audio, and video, we compare 26 models from seven companies against matched human panels over 96 balanced dyads. The best model and th",
+    "author": "Jeffrey M. Girard, Jason Z. Zheng, Jacqueline R. Vertino, Antony D'Avirro, Benjamin Peloquin",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2607.29602v1"
+    ]
+  },
+  {
+    "title": "TraceViT: Grounded Trace Supervision for Visual Abstract Reasoning",
+    "link": "http://arxiv.org/abs/2607.29586v1",
+    "published": "2026-07-31T16:09:44+00:00",
+    "summary": "The Abstraction and Reasoning Corpus (ARC) tests whether a model can infer an unseen transformation from a few input-output examples and apply it to a new grid. Looped visual reasoners refine predictions over multiple iterations, but conventional training constrains only the final output, leaving intermediate refinements unconstrained. We propose that these refinements should instead follow the transformation step by step. We introduce TraceViT, a looped visual reasoner trained with semantically",
+    "author": "Binnan Liu, Yechi Ma, Tian Xie, Wei Hua",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "https://github.com/LiuBinnan/TraceViT",
+      "http://arxiv.org/abs/2607.29586v1"
+    ]
+  },
+  {
+    "title": "DungeonBench: A Benchmark for Rules-Rich Tactical Reasoning in Dungeons & Dragons Combat",
+    "link": "http://arxiv.org/abs/2607.29577v1",
+    "published": "2026-07-31T16:03:38+00:00",
+    "summary": "Games and simulators make valuable benchmarks by turning decisions into measurable outcomes, but many current suites under-test rules-rich tactical reasoning: the ability to choose well when geometry, timing, resources, objectives, and rule interactions all matter at once. We introduce DungeonBench, a benchmark for tactical reasoning in Dungeons & Dragons combat, built to cover the vast majority of combat-relevant 2014 System Reference Document content whose effects can be resolved by the simula",
+    "author": "Ismayil Ismayilov, Atakan Kara, Kaan Oktay",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2607.29577v1"
+    ]
+  },
+  {
+    "title": "MOT-SR: Multi-Objective Tool-Augmented Scientific Equation Discovery with Large Language Models",
+    "link": "http://arxiv.org/abs/2607.29561v1",
+    "published": "2026-07-31T15:52:07+00:00",
+    "summary": "Symbolic Regression (SR) aims to discover analytical equations from observational data and plays a central role in scientific modeling. While recent Large Language Model (LLM) based approaches show promise, they face two limitations. First, they lack data analysis mechanisms for uncovering variable dependencies, which reduces the efficiency of equation discovery. Second, most methods rely on single-objective evaluation focused solely on fitting error. This neglect of structural complexity and ge",
+    "author": "Boxiao Wang, Runxiang Wang, Kai Li, Chongming Li, Zhiwei Chen, Yifan Zhang, Jian Cheng",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2607.29561v1"
+    ]
+  },
+  {
+    "title": "LEMUR: Learning to Align with Multi-Objective Reinforcement Learning from Preference Feedback",
+    "link": "http://arxiv.org/abs/2607.29559v1",
+    "published": "2026-07-31T15:50:29+00:00",
+    "summary": "Reinforcement Learning (RL) systems are typically trained using a single, well-specified scalar reward function. However, real-world decision-making tasks often involve multiple, competing objectives, such as performance versus efficiency, where ground-truth reward functions are difficult to specify or inaccessible. While Multi-Objective RL (MORL) addresses such trade-offs by modeling rewards as vectors, existing approaches typically assume access to a well-specified reward function for each obj",
+    "author": "Manith Adikari, Bei Peng, Samuele Vinanzi, Angelo Cangelosi",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2607.29559v1"
+    ]
+  },
+  {
+    "title": "COntExt: Towards Context-Aware Ontology Extension from Operational Metrics",
+    "link": "http://arxiv.org/abs/2607.29553v1",
+    "published": "2026-07-31T15:46:02+00:00",
+    "summary": "Organizations increasingly define operational metrics in structured, machine-readable formats to monitor systems, processes, and compliance. These metric definitions implicitly encode domain knowledge, such as referencing concepts, properties, and relationships, that often extends what is captured in formal ontologies. Yet the connection between operational metric catalogues and ontological knowledge remains manual, ad-hoc, and labor-intensive. We present COntExt, a framework for context-aware o",
+    "author": "Hussain Hussain, Stefan Schöberl, Angelika Schneider, Verena Geist",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2607.29553v1"
+    ]
+  },
+  {
+    "title": "AMTFV: Agentic Mathematical Tool-Flow Verification for LLM Self-Correction",
+    "link": "http://arxiv.org/abs/2607.29549v1",
+    "published": "2026-07-31T15:42:00+00:00",
+    "summary": "Large language models have demonstrated strong mathematical problem-solving capabilities, yet reliably verifying their candidate answers remains challenging. Existing representative methods mainly revise outputs through natural-language reflection or assist verification by directly generating verification programs; the former may not reliably support exact computation, whereas the latter prematurely couples mathematical modeling with low-level implementation. We propose AMTFV (Agentic Mathematic",
+    "author": "Rui Zou, Yutao Zhu, Mengqi Wei, Ji-Rong Wen",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2607.29549v1"
+    ]
+  },
+  {
+    "title": "ARB: A Matched Authorship-Rewriting Benchmark Dataset for AI-Text Detector Evaluation",
+    "link": "http://arxiv.org/abs/2607.29539v1",
+    "published": "2026-07-31T15:35:57+00:00",
+    "summary": "Standard AI-text detection benchmarks compare human-written text against text generated directly by large language models (LLMs). While prior work has shown that rewriting and paraphrasing can degrade detector performance, it remains unclear whether performance measured on this conventional benchmark predicts detector behavior when human-authored content is rewritten by an LLM. To address this gap, we introduce Authorship-Rewriting Benchmark (ARB), built from 1,800 human source texts (600 each f",
+    "author": "Gaetano Perrone, Simon Pietro Romano",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2607.29539v1"
+    ]
+  },
+  {
     "title": "Advancing responsible AI across Europe",
     "link": "https://openai.com/index/advancing-responsible-ai-across-europe",
     "published": "2026-07-31T15:00:00+00:00",
@@ -84,166 +267,6 @@
     ]
   },
   {
-    "title": "Learning to Trace Seiberg Dualities",
-    "link": "http://arxiv.org/abs/2607.28628v1",
-    "published": "2026-07-30T17:59:56+00:00",
-    "summary": "Dualities play an important role in establishing both microscopic and emergent phenomena in a wide range of physical systems. In practice, though, it can often be computationally challenging to establish when two systems are dual, even when all of the \"rules of the game\" are well-known. Said differently, when confronted with two systems, how can one efficiently establish that they are in fact dual? In this paper we use machine learning methods to address this question for Seiberg dualities of su",
-    "author": "Jonathan J. Heckman, Shani Meynet, Alessandro Mininno, Gary Shiu",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2607.28628v1"
-    ]
-  },
-  {
-    "title": "ReToken: One Token to Improve Vision-Language Models for Visual Retrieval",
-    "link": "http://arxiv.org/abs/2607.28627v1",
-    "published": "2026-07-30T17:59:56+00:00",
-    "summary": "Long visual context poses a challenge for vision-language models: performance degrades as the number of distractors grows, and processing all tokens at once is computationally infeasible under GPU memory constraints. We present ReToken, a single learnable embedding trained as an explicit retrieval target that selects a sparse set of query-relevant visual tokens from a pre-filled visual KV cache. Trained on only a small image-QA dataset, ReToken yields consistent gains across image and video benc",
-    "author": "Yao Xiao, Reuben Tan, Zhen Zhu, Yuqun Wu, Jianfeng Gao, Derek Hoiem",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "https://github.com/avaxiao/ReToken",
-      "http://arxiv.org/abs/2607.28627v1"
-    ]
-  },
-  {
-    "title": "PAC-MAN: Perception-Aware CBF-RL for Whole-Body Safety in Humanoid Dodgeball",
-    "link": "http://arxiv.org/abs/2607.28623v1",
-    "published": "2026-07-30T17:59:35+00:00",
-    "summary": "We present PAC-MAN, a perception-aware CBF-RL framework that couples control-barrier safety with deployment-realistic onboard sensing for whole-body humanoid dodgeball. The deployed policy sees the ball only as segmentation-masked depth from a head-mounted camera, while training-time CBF guidance represents clearance to every body link, and an adversarial motion prior regularizes the resulting evasive reflexes. We evaluate on a controlled any-link contact benchmark with seeded throws in two regi",
-    "author": "Lizhi Yang, Junheng Li, Aaron D. Ames",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2607.28623v1"
-    ]
-  },
-  {
-    "title": "AskChem: Claim-Centered Infrastructure for Chemistry Literature Synthesis",
-    "link": "http://arxiv.org/abs/2607.28618v1",
-    "published": "2026-07-30T17:59:11+00:00",
-    "summary": "Chemistry literature synthesis often requires assembling specific findings scattered across many publications, yet existing literature-search systems primarily return ranked document lists. As a result, scientists and AI agents need to locate relevant information, verify their provenance, and assemble cross-paper answers manually. We present AskChem, a claim-centered infrastructure for cross-paper chemistry search. AskChem changes the unit of retrieval from the paper to the provenance-carrying c",
-    "author": "Bing Yan, Gregory Wolfe, Stefano Martiniani, Kyunghyun Cho",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "https://askchem.org",
-      "http://arxiv.org/abs/2607.28618v1"
-    ]
-  },
-  {
-    "title": "AISPA: User-Centric System Prompt Auditing for Large Language Model Applications",
-    "link": "http://arxiv.org/abs/2607.28617v1",
-    "published": "2026-07-30T17:58:58+00:00",
-    "summary": "System prompts are instructions configured by developers to govern the behaviors of foundation models in AI applications. They are used throughout commercial AI products, but are rarely disclosed to the public or regulators, creating a serious trust and accountability gap in the wide deployment of AI systems. In this paper, we introduce Artificial Intelligence System Prompt Assurance (AISPA), a user-centric framework for systematically auditing system prompts in AI systems. AISPA examines specif",
-    "author": "Xiangning Lin, Shenzhe Zhu, Shu Yang, Zhenyu Zhang, Haoqian Zhang, Yipeng Zhao, Chengxuan Qian, Tianwei Wang, Ziheng Zhang, Zhenlong Yuan, Dingcheng Wang, Juncheng Wu, Yuan Si, Jiaxin Liu, Baolong Bi, Robert Mahari, Tobin South, Dazza Greenwood, Zexue He, Rishi Bommasani, Sophia Kazinnik, Andreas Haupt, Samuele Marro, Erik Brynjolfsson, Alex Pentland, Jiaxin Pei",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2607.28617v1"
-    ]
-  },
-  {
-    "title": "OSReward: Instituting Standardized Evaluation for Cross-Platform Computer-Use Reward Models",
-    "link": "http://arxiv.org/abs/2607.28609v1",
-    "published": "2026-07-30T17:57:41+00:00",
-    "summary": "Computer-using agents (CUAs) are advancing rapidly across the digital world. A CUA trajectory records the agent's actions, states, and reasoning. Verifying whether it fulfilled the task instruction is central to CUA evaluation, data curation, and reinforcement learning. Neither human-written verifiers nor human annotators can provide such verification at scale, so the field increasingly turns to vision-language models (VLMs) as judges of CUA trajectories. But a fundamental question has long gone",
-    "author": "Qiushi Sun, Kanzhi Cheng, Yian Wang, Bowen Yang, Hang Yan, Liheng Chen, Fangzhi Xu, Zichen Ding, Nuo Chen, Jialin Cao, Xingdong Gong, Zehao Li, Kaiming Jin, Xinfeng Yuan, Zhoumianze Liu, Jingyang Gong, Zhangyue Yin, Jiahui Gao, Zhiyong Wu, Tianbao Xie, Jianbing Zhang, Ben Kao, Lingpeng Kong",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "https://os-copilot.github.io/OSReward-Home/",
-      "http://arxiv.org/abs/2607.28609v1"
-    ]
-  },
-  {
-    "title": "PAIChecker: Uncovering and Checking PR-Issue Misalignment in SWE-Bench-Like Benchmarks",
-    "link": "http://arxiv.org/abs/2607.28587v1",
-    "published": "2026-07-30T17:42:44+00:00",
-    "summary": "SWE-bench-like benchmarks are widely used for evaluating LLM's issue resolution capability. They typically follow a common construction pipeline: each PR (Pull Request) is paired with its linked issue by extracting issue references from the PR description; the issue description is used as the problem statement, and the PR patch serves as the test oracle. However, due to the inherent complexity of developing and maintaining large repositories, such PR-Issue pairings are often misaligned in practi",
-    "author": "Manyi Wang, Junjielong Xu, Pinjia He",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2607.28587v1"
-    ]
-  },
-  {
-    "title": "DualG-MRAG: Decoupling Macro-Reasoning and Micro-Matching for Multimodal Retrieval-Augmented Generation",
-    "link": "http://arxiv.org/abs/2607.28580v1",
-    "published": "2026-07-30T17:40:05+00:00",
-    "summary": "While Multimodal Retrieval-Augmented Generation (MM-RAG) has shown promising results, it still struggles with complex multi-hop reasoning tasks. Existing methods primarily focus on independent instance-level matching, which often fails to capture explicit relationships across modalities and documents. Although Graph-enhanced methods introduce structural modeling, they face a fundamental challenge in multimodal scenarios: incorporating fine-grained visual features leads to rapid graph expansion a",
-    "author": "Jiacheng Tao, Qingyun Sun, Haonan Yuan, Ziwei Zhang, Jianxin Li",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2607.28580v1"
-    ]
-  },
-  {
-    "title": "Sample More, Reflect Less: Self-Refine and Reflexion Lose to Repeated Sampling at Equal Token Cost, from 1.5B to 7B",
-    "link": "http://arxiv.org/abs/2607.28576v1",
-    "published": "2026-07-30T17:38:23+00:00",
-    "summary": "Methods that make a language model plan, criticise and rewrite its own answer, reflect on mistakes, pick the best of several attempts, or debate with copies of itself nearly all make it generate far more text than a single chain of thought. Because generating more text raises accuracy by itself, a gain over one chain of thought does not show the method's idea is what helped. Wang et al. (2024) reported that a simple baseline, sampling the same question repeatedly and keeping the most common answ",
-    "author": "Iliya Mirzaei",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2607.28576v1"
-    ]
-  },
-  {
-    "title": "Algorithms for Structured Elections under Thiele Voting Rules",
-    "link": "http://arxiv.org/abs/2607.28575v1",
-    "published": "2026-07-30T17:37:14+00:00",
-    "summary": "We study the computational complexity of winner determination problems in approval-based committee elections under Thiele voting rules. These form a class of rules parameterized by a fixed weight vector that specifies how a voter's satisfaction depends on the number of approved candidates elected. We first analyze the structure of optimal solutions based on the sets of voters who approve each candidate---that is, how voters' approval ballots induce dependencies between candidates---revealing con",
-    "author": "Alexandra Lassota, Krzysztof Sornat",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2607.28575v1"
-    ]
-  },
-  {
-    "title": "Rethinking Inference-Time Scaling in Local Computer-Use Agents: Failure Modes and Compute Tradeoffs",
-    "link": "http://arxiv.org/abs/2607.28573v1",
-    "published": "2026-07-30T17:36:36+00:00",
-    "summary": "Deploying autonomous computer-use agents (CUAs) locally is increasingly important for privacy, cost efficiency, and practical usability, yet improving their performance under strict hardware constraints remains challenging. While recent studies show that inference-time scaling can improve frontier computer-use agents through additional computation during execution, its effectiveness for resource-constrained local models remains poorly understood. We present a systematic empirical study of infere",
-    "author": "Woongkyu Lee, Jungwook Choi",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2607.28573v1"
-    ]
-  },
-  {
-    "title": "APO: Unsupervised Atomic Policy Optimization for 3D Structure Prediction of Atomic Systems",
-    "link": "http://arxiv.org/abs/2607.28553v1",
-    "published": "2026-07-30T17:21:58+00:00",
-    "summary": "Predicting the 3D structures of atomic systems is fundamental to advancing material science and drug discovery. While flow-matching models (, FlowDPO) have recently shown promise in this domain, their performance relies heavily on alignment with ground-truth coordinates via supervised preference learning. However, obtaining experimental labels for novel crystal phases or de novo proteins is prohibitively expensive, creating a bottleneck for structural modeling in data-scarce regimes. In this wor",
-    "author": "Shentong Mo, Yatao Bian",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2607.28553v1"
-    ]
-  },
-  {
-    "title": "ORCA-bench: How Ready Are Language Model Agents for Oncall?",
-    "link": "http://arxiv.org/abs/2607.28545v1",
-    "published": "2026-07-30T17:14:07+00:00",
-    "summary": "Large language models can write, patch, and search code, but oncall root cause analysis (RCA) demands something different: reasoning over noisy metrics, logs, traces, and source code, starting from ambiguous user-facing reports, often hours after the incident began. We introduce ORCA-bench, a benchmark that puts general-purpose coding agents in a production-fidelity oncall setting. ORCA-bench pairs a live OpenTelemetry-instrumented microservice system--exposing six days of metrics, logs, and tra",
-    "author": "Albert Gong, Kyuseong Choi, Abhineet Agarwal, Jason Schechner, Ryan Huang, Raj Agrawal, Anish Agarwal, Raaz Dwivedi",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "https://hub.harborframework.com/datasets/orca-bench/ORCA-bench",
-      "http://arxiv.org/abs/2607.28545v1"
-    ]
-  },
-  {
     "title": "Montana’s plan to become an experimental medical hub just pushed forward",
     "link": "https://www.technologyreview.com/2026/07/30/1140942/montana-experimental-medical-hub-pushed-forward-right-to-try/",
     "published": "2026-07-30T17:10:00+00:00",
@@ -253,30 +276,6 @@
     "category": "media",
     "references": [
       "https://www.technologyreview.com/2026/07/30/1140942/montana-experimental-medical-hub-pushed-forward-right-to-try/"
-    ]
-  },
-  {
-    "title": "MANTA: Multi-Agent Network Topology Adaptation for Self-Evolving Multi-Agent Systems",
-    "link": "http://arxiv.org/abs/2607.28527v1",
-    "published": "2026-07-30T17:01:27+00:00",
-    "summary": "Large language model-based multi-agent systems improve complex problem solving through task decomposition, agent specialization, information exchange, and intermediate validation. However, existing systems typically treat communication topology as a fixed design choice or an offline optimization target. We introduce MANTA, a framework for Multi-Agent Network Topology Adaptation that enables communication structures to self-evolve at inference time. Before execution, MANTA initializes a task-cond",
-    "author": "Mao-xun Huang, Jerry Wang, Yi-Cheng Lai, Zhengxin Zhang, Claire Cardie, Hen-Hsen Huang",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2607.28527v1"
-    ]
-  },
-  {
-    "title": "What to Remove, What to Preserve: Dual-Ambiguity Rectification for All-in-One Image Restoration",
-    "link": "http://arxiv.org/abs/2607.28526v1",
-    "published": "2026-07-30T17:01:24+00:00",
-    "summary": "All-in-one image restoration aims to handle diverse degradations within a unified framework. Existing methods commonly encode heterogeneous degradation conditions in a shared latent space, where degradation-related cues and scene content can remain entangled. We characterize the resulting challenge as dual ambiguity: semantic ambiguity in channel-wise modulation and spatial ambiguity in restoration responses, which can lead to content corruption and residual artifacts. To mitigate this issue, we",
-    "author": "Cencen Liu, Wen Yin, Dongyang Zhang, Dongmin Li, Shan Zhao, Bing Su, Tao He, Jielei Wang, Guoming Lu",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2607.28526v1"
     ]
   },
   {
