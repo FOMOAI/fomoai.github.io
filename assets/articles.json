@@ -1,5 +1,185 @@
 [
   {
+    "title": "Learning When to Trust via Selective Context Preference Optimization",
+    "link": "http://arxiv.org/abs/2608.06377v1",
+    "published": "2026-08-06T17:59:58+00:00",
+    "summary": "Language models increasingly condition their answers on external signals, and a single misleading one can turn a correct answer wrong. The obvious remedy, training models to resist such signals, hides a failure mode: a model that ignores all context looks robust yet is useless when the context is worth trusting. We recast the problem as selective trust and introduce MIST, a human-annotated benchmark that renders each reasoning item under four matched conditions (clean, misleading, correct-contex",
+    "author": "Xian Sun, Wei Chow, Yingshuo Wang, Junhao Liu, Wei Gao, Qing Wu, Lingdong Kong",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2608.06377v1"
+    ]
+  },
+  {
+    "title": "Tracing the Heart: An Evidence-Linked Pipeline for Heart-Failure Feature Engineering",
+    "link": "http://arxiv.org/abs/2608.06366v1",
+    "published": "2026-08-06T17:57:37+00:00",
+    "summary": "Electronic health record (EHR) feature engineering is a major bottleneck in clinical research and AI, accounting for 39-45% of data scientists' workload. This is especially pronounced in heart failure, which affects an estimated 6.7 million U.S. adults and requires integrating fragmented EHR data with disease-specific, guideline-based clinical reasoning. Existing rule-based and large language model (LLM)-based approaches offer only partial automation with limited maintainability and evidence tra",
+    "author": "Soorya Ram Shimgekar, Michelle Hu, Dorisa Shehi, Daniel Kang, Roy Ka-Wei Lee, Koustuv Saha, Christian Poellabauer, Christopher Lee, Sajeev Singh, Piyum Zonooz, Navin Kumar, Zeeshan Ahmed, Priyadarshini Kachroo",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2608.06366v1"
+    ]
+  },
+  {
+    "title": "Investigating Artificial Intelligence Digital Sovereignty in Mobile Shopping Apps: A Case Study of Nigeria",
+    "link": "http://arxiv.org/abs/2608.06364v1",
+    "published": "2026-08-06T17:57:28+00:00",
+    "summary": "The use of e-commerce mobile applications is expanding in Nigeria, creating both opportunities and risks, including fraud and reduced user control over digital technologies, raising concerns about digital sovereignty. This research examines how Artificial Intelligence (AI) in Nigerian mobile applications affects digital sovereignty, examined through platform transparency as a key indicator of user awareness and control. Using an interpretive approach, the research combines the forensic analysis ",
+    "author": "George Grispos, Sajda Qureshi",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2608.06364v1"
+    ]
+  },
+  {
+    "title": "An Optimal Agnostic PAC Algorithm",
+    "link": "http://arxiv.org/abs/2608.06363v1",
+    "published": "2026-08-06T17:57:25+00:00",
+    "summary": "Let $H\\subseteq\\{-1,+1\\}^X$ be a class of finite VC dimension $d\\ge1$. Writing $L$ for the binary risk and $L^*=\\min_{h\\in H}L(h)$, we construct a learner achieving the statistically optimal risk bound: from an i.i.d.\\ sample of size $n$, for every $0<δ\\le 1/2$, with probability at least $1-δ$, \\[ L(\\widehat h) \\le L^*+ 7\\cdot10^8\\left( \\sqrt{\\frac{L^*(d+\\log(1/δ))}{n}} +\\frac{d+\\log(1/δ)}{n} \\right). \\] This settles the sample complexity of agnostic PAC learning up to universal constants at eve",
+    "author": "Markus Engelund Mathiasen, Jian Qian, Nikita Zhivotovskiy",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2608.06363v1"
+    ]
+  },
+  {
+    "title": "AV-AIVAT: 74x Cheaper Agent Evaluation with Certified Anytime-Valid Stopping in Imperfect-Information Games",
+    "link": "http://arxiv.org/abs/2608.06362v1",
+    "published": "2026-08-06T17:57:11+00:00",
+    "summary": "Deciding which of two agents is stronger means playing games until skill outweighs luck, and every game costs money, model inference, or expert time. Since the number of games needed is unknown, fixed-budget evaluations either keep paying after the result is settled or stop before the agents can be told apart, while naive optional stopping with an ordinary confidence interval invalidates the stated level. We make such an evaluation stop as soon as its evidence suffices, with the guarantee intact",
+    "author": "Boning Li, Yu Chen, Longbo Huang",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2608.06362v1"
+    ]
+  },
+  {
+    "title": "The Low Frequency Trap: Video Language Models Fail at Simple Event Bookkeeping",
+    "link": "http://arxiv.org/abs/2608.06361v1",
+    "published": "2026-08-06T17:57:06+00:00",
+    "summary": "Real-world video benchmarks provide broad coverage, but their fixed clips entangle event count, rate, duration, and visual complexity, making failure modes hard to isolate. While existing programmatic benchmarks offer better control, they score only the final answer rather than auditing reported events against executable ground truth. To bridge this gap, we introduce trace-grounded parametric profiling for event counting in three controlled video tasks: bouncing-ball wall contacts, visual blinks",
+    "author": "Sarvesh Baskar, Zikui Cai, Shayan Shabihi, Anirudh Satheesh, Muhammad R. Islam, Udari Madhushani Sehwag, Tom Goldstein, Furong Huang",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2608.06361v1"
+    ]
+  },
+  {
+    "title": "Resourced Authority A Mechanism-Design Model for Participatory Governance of Deployed AI Agents",
+    "link": "http://arxiv.org/abs/2608.06353v1",
+    "published": "2026-08-06T17:53:24+00:00",
+    "summary": "We give a formal mechanism design model for the continuous participatory governance of a deployed AI agent. The mechanism is built on the principle that governance should control an AI agent through resource allocation so as to make authorization self enforcing via compute budgets. The mechanism seeks to establish the Safe AI paradigm that compute is an effective governance lever. We situate our work as a compliance or commons overlay on a deployer. One governance period is an extensive form gam",
+    "author": "Praphul Chandra, Sujit Gujar, Ganesh Ghalme",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2608.06353v1"
+    ]
+  },
+  {
+    "title": "Challenges in Evaluating Explanation Methods for Static and Evolving Data",
+    "link": "http://arxiv.org/abs/2608.06351v1",
+    "published": "2026-08-06T17:53:10+00:00",
+    "summary": "This paper addresses the limitations of Explainable Artificial Intelligence (XAI) with respect to insufficient evaluation. They are illustrated through the DetoxAI image recognition system for bias detection and concept unlearning. Then, an example of a human-grounded evaluation of methods for explaining image classification is presented. The paper further explores methods for adapting explanations to evolving data streams with concept drift. Experiences with adapting counterfactuals for this pr",
+    "author": "Jerzy Stefanowski",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2608.06351v1"
+    ]
+  },
+  {
+    "title": "TRAJDEBUG: Tracing Error Lifecycle to Identify Critical Failures in Long-Horizon Agent Trajectories",
+    "link": "http://arxiv.org/abs/2608.06346v1",
+    "published": "2026-08-06T17:51:20+00:00",
+    "summary": "LLM-based agentic systems have shown remarkable capabilities in complex domains, while suffering from cascading errors and difficulty in debugging. Critical error detection aims to locate the earliest error step in a failed trajectory that is responsible for the final failure. However, progress faces two main challenges. First, long trajectories make it difficult to identify individual errors, since the evidence for judging a step may be scattered across distant instructions, observations, and p",
+    "author": "Yunjia Qi, Zehua Yin, Xintong Shi, Hao Peng, Songyuanyi Lu, Yixian Liu, Richeng Xuan, Yuhong Liu, Zhichao Hu, Xiaozhi Wang, Lei Hou, Bin Xu, Juanzi Li",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2608.06346v1"
+    ]
+  },
+  {
+    "title": "Tytan: Interactive Neurosymbolic Construction of Analytic Semantic Schemas from Relational Data",
+    "link": "http://arxiv.org/abs/2608.06331v1",
+    "published": "2026-08-06T17:40:26+00:00",
+    "summary": "From natural-language query interfaces to automated report generation, data analysis tools need a description of the data: the real-world entities it contains, which columns function as measures or identifiers, and how tables connect into units of analysis. Today, this semantic layer is usually written by hand. This is a knowledge-acquisition bottleneck that limits the scalability of analytic systems, keeps non-technical users dependent on experts, and is itself error-prone. We present TYTAN, a ",
+    "author": "Donna Hooshmand, Shubham Shahi, Cameron Barrie, Abhratanu Dutta, Marko Sterbentz, Harper Pack, Kristian J. Hammond",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2608.06331v1"
+    ]
+  },
+  {
+    "title": "Benchmarking the Benchmarks: Evaluating Benchmarks for Conversational Agents",
+    "link": "http://arxiv.org/abs/2608.06329v1",
+    "published": "2026-08-06T17:39:21+00:00",
+    "summary": "Task-oriented conversational agents are evaluated using curated or automatically generated benchmarks, yet benchmark quality is rarely assessed. Poor benchmarks may contain inconsistent tasks, simplistic scenarios, or limited policy coverage, leading to unreliable evaluations. We introduce a reference-free framework that uses LLM judges to assess benchmark consistency, complexity, and policy coverage, while providing actionable diagnostics of weaknesses. We validate the framework by demonstratin",
+    "author": "Noam Koren, Roy Bar-Haim, Abigail Goldsteen",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2608.06329v1"
+    ]
+  },
+  {
+    "title": "Does FLAIR super-resolution erase or hallucinate small white-matter lesions?",
+    "link": "http://arxiv.org/abs/2608.06311v1",
+    "published": "2026-08-06T17:26:01+00:00",
+    "summary": "White matter hyperintensities (WMH), bright regions on Fluid-attenuated Inversion Recovery (FLAIR) scans are associated with cerebrovascular pathology and neurodegeneration. FLAIR is usually acquired with thick slices in clinical settings, giving it poor through-plane resolution. Super-resolution (SR) is a widely used method for recovering an isotropic volume from an anisotropic scan. Yet whether applying it prior to WMH segmentation preserves lesion content remains unknown: a model may erase sm",
+    "author": "Zahra Khodakarami, Yue Li, Pulkit Khandelwal, John Detre, Sandhitsu Das, Christopher Brown, David Wolk, Paul Yushkevich",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2608.06311v1"
+    ]
+  },
+  {
+    "title": "Beyond Top-K: Replacing Black-Box Retrieval with Interpretable Agentic Operations",
+    "link": "http://arxiv.org/abs/2608.06305v1",
+    "published": "2026-08-06T17:23:13+00:00",
+    "summary": "Retrieval-augmented generation over long documents is dominated by one design: chunk the text, embed the chunks, and surface the top-k nearest neighbours of the query. We argue that for an important class of documents -- financial statements, audit reports, regulatory returns -- this design is structurally unsound, and we make the argument measurable. On a 780-page government financial report, 86.8% of content lines are table rows, thousands of near-identical figures compete in one embedding spa",
+    "author": "Sagar Tamang, Ayush Vyas, Tabarakul Hazarika",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2608.06305v1"
+    ]
+  },
+  {
+    "title": "HarnessOpt-Bench: Evaluating LLMs at Harness Optimization",
+    "link": "http://arxiv.org/abs/2608.06301v1",
+    "published": "2026-08-06T17:21:05+00:00",
+    "summary": "As LLMs are increasingly deployed within agentic systems, their capabilities depend not only on the model weights but also on the harness: the prompts, tools, control flow, memory, and orchestration code surrounding them. This makes automated harness optimization -- the iterative and evaluation-guided improvement of a harness by an AI system -- both an important route to improving AI systems and a demanding capability for AI systems themselves. Yet the community lacks a common protocol for measu",
+    "author": "Varun Ursekar, Apaar Shanker, Yash Maurya, Shehab Yasser, Vijay S. Kalmath, Veronica Chatrath, Yuan Xue",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2608.06301v1"
+    ]
+  },
+  {
+    "title": "Bias Analysis of L2 Speaking Assessment Systems Using Concept Activation Vectors",
+    "link": "http://arxiv.org/abs/2608.06300v1",
+    "published": "2026-08-06T17:20:58+00:00",
+    "summary": "Automatic speaking assessment systems are increasingly deployed in high-stakes settings to mark second language (L2) learners' speaking tests, making it critical to show that their scores depend on speaking proficiency rather than irrelevant speaker attributes such as first language (L1) or age. Transformer-based foundation models have improved the accuracy of these L2 speaking graders, but their black-box representations make fairness and interpretability analysis more difficult. Building on pr",
+    "author": "Arya Labroo, Mengjie Qian, Kate Knill",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2608.06300v1"
+    ]
+  },
+  {
     "title": "The Download: Google’s AI shake-up and Meta’s rogue model",
     "link": "https://www.technologyreview.com/2026/08/06/1141278/the-download-google-ai-shake-up-meta-rogue-model/",
     "published": "2026-08-06T12:10:00+00:00",
@@ -45,187 +225,6 @@
     "category": "official",
     "references": [
       "https://openai.com/index/how-the-world-is-putting-chatgpt-to-work"
-    ]
-  },
-  {
-    "title": "Argus: A General-Purpose Agentic Runtime for Long-Horizon Reasoning",
-    "link": "http://arxiv.org/abs/2608.05144v1",
-    "published": "2026-08-05T17:58:58+00:00",
-    "summary": "Long-horizon reasoning requires an agentic runtime that can persist when evidence supports its current approach and pivot when measurements reveal failure, hidden constraints, or a misspecified objective. We present Argus, a persistent, self-evolving runtime in which Manager, Planner, Engineer, and Reviewer execute bounded missions over durable project state. Argus separates stable user intent from operational objectives, constraints, and verification criteria, and admits memories, skills, proce",
-    "author": "Boxiu Li, Zimo Wen, Yijia Fan, Junxiang Lei, Sufeng Guo, Jiaao Wu, Ruize Tang, Mukai Li, Yifei Shen, Xiaoyu Chen, Wanbo Zhang, Runjing Gu, Yifei Gao, Yuheng Wu, Xuyao Huang, Zelong Zhao, Jiachen Zhang, Shibo Hu, Hangxi Guo, Yilin Chen, Yuzhe Zhang, Fan Yang, Chuan Wen, Xian Zhang, Xuanhe Zhou, Zhijie Deng",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2608.05144v1"
-    ]
-  },
-  {
-    "title": "OctoLong: Mid-Training On Cross-Repository Code Contexts Enhances Long-Context Modeling",
-    "link": "http://arxiv.org/abs/2608.05141v1",
-    "published": "2026-08-05T17:58:15+00:00",
-    "summary": "Context lengths of language models (LMs) have dramatically increased, driven by the demands for in-context learning, self-improvement, and long-horizon agentic workflows. Existing long-context corpora, however, are dominated by books, academic articles, and code repositories, which are finite resources and often scarce in long-distance dependencies. In this work, we introduce OctoLong, a context engineering pipeline that instruments an AST parser, a language server backend, and a package manager",
-    "author": "Indraneil Paul, Falko Helm, Goran Glavaš, Iryna Gurevych",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2608.05141v1"
-    ]
-  },
-  {
-    "title": "Teaching Nemotron Greek: Mining a Corpus, Adapting Retrieval, and Grounding Generation for Modern Greek across Specialist Domains",
-    "link": "http://arxiv.org/abs/2608.05138v1",
-    "published": "2026-08-05T17:56:40+00:00",
-    "summary": "Modern Greek is absent from NVIDIA's Nemotron retrieval models and from major multilingual retrieval benchmarks, despite being important for retrieval-augmented generation (RAG) in legal, energy, financial, and medical applications. We present an end-to-end adaptation of the Nemotron retrieval stack for Modern Greek, including corpus mining, synthetic supervision, retrieval model training, reranker adaptation, reader fine-tuning, and a new benchmark called HERA. Our study shows that a parameter-",
-    "author": "Ayoub Kirouane, Christos Petrocheilos",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2608.05138v1"
-    ]
-  },
-  {
-    "title": "OPD-V: Visual On-Policy Self-Distillation with Modality Balance",
-    "link": "http://arxiv.org/abs/2608.05131v1",
-    "published": "2026-08-05T17:53:06+00:00",
-    "summary": "On-Policy Self-Distillation (OPSD) has become a standard post-training approach for improving visual reasoning in multimodal large language models (MLLMs). Existing methods draw privileged information from diverse input sources to guide self-distillation. Yet these designs overlook Modality Imbalance, a challenge inherent to MLLM reasoning. When textual information dominates generation, the model cannot fully integrate its multimodal input. Consequently, carefully designed privileged information",
-    "author": "Aniri, Jinhe Bi, Peng Liao, Zengjie Jin, Volker Tresp, Fei Shen, Yunpu Ma, Tat-Seng Chua",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2608.05131v1"
-    ]
-  },
-  {
-    "title": "SSTQ:Privacy-Preserving Vector Quantization via Subsampled Stochastic TurboQuant",
-    "link": "http://arxiv.org/abs/2608.05127v1",
-    "published": "2026-08-05T17:51:25+00:00",
-    "summary": "Achieving local differential privacy in distributed optimization while maintaining low communication cost remains challenging. Existing vector quantization methods, such as vqSGD, use high-dimensional geometric constructions but incur unfavorable dimension-dependent variance. In this work, we propose Subsampled Stochastic TurboQuant (SSTQ), a framework that combines overcomplete equal-norm tight frames, coordinate subsampling, and privacy-aware one-dimensional quantization. SSTQ includes two var",
-    "author": "Adel Javanmard, David P. Woodruff, Vahab Mirrokni",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2608.05127v1"
-    ]
-  },
-  {
-    "title": "Chained Recursive Language Models for Multi-Iteration Reasoning",
-    "link": "http://arxiv.org/abs/2608.05124v1",
-    "published": "2026-08-05T17:50:08+00:00",
-    "summary": "Long context reasoning in large language models (LLMs) is usually constrained by the fact that a single inference trajectory has to simultaneously explore the context, store intermediate state, verify evidence, and produce the final answer. This becomes particularly difficult in tasks that require extraction, counting, ordering, or multi-hop reasoning, where an early mistake can propagate until the final response. In this work, we propose Chained Recursive Language Models (Chained RLM), an infer",
-    "author": "Purbesh Mitra, Sennur Ulukus",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2608.05124v1"
-    ]
-  },
-  {
-    "title": "Robust and Efficient Motion Reasoning for Privacy-Aware Classroom Incident Recognition",
-    "link": "http://arxiv.org/abs/2608.05115v1",
-    "published": "2026-08-05T17:46:28+00:00",
-    "summary": "Can computer vision help make classrooms safer? In this pilot study, we investigate privacy-aware and computationally efficient classroom incident recognition from CCTV-style observations. This setting remains underexplored, with limited benchmarks and few methods designed for the privacy, efficiency, and generalization demands of real-world deployment. We introduce a novel hybrid benchmark combining generative CCTV-style videos with real-world classroom pose data, and propose a lightweight, but",
-    "author": "Paritosh Parmar, Landy Lan, Hong Yang, Chen Yi, Chiat Pin Tay",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2608.05115v1"
-    ]
-  },
-  {
-    "title": "Representational separation between unitary and channel quantum generative models via shared classical randomness at shallow depth",
-    "link": "http://arxiv.org/abs/2608.05110v1",
-    "published": "2026-08-05T17:44:36+00:00",
-    "summary": "Near-term quantum hardware limits circuit depth and often imposes geometrically local connectivity for quantum generative models, restricting the output distributions accessible to shallow unitary Born models. Introducing stochasticity into a unitary quantum Born model can improve the empirical generative performance of the resulting channel model and, for a restricted small-scale architecture, has been proven to represent a strictly larger family of distributions than its unitary counterpart. H",
-    "author": "Arunava Majumder, Marius Krumm, Hendrik Poulsen Nautrup, Hans J. Briegel",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2608.05110v1"
-    ]
-  },
-  {
-    "title": "CoPlan: A Trustworthy Co-Intelligence Interface for Care Planning through Role-Based Contestable Argument Graphs",
-    "link": "http://arxiv.org/abs/2608.05107v1",
-    "published": "2026-08-05T17:43:51+00:00",
-    "summary": "AI-supported care planning can help clinicians, patients, caregivers, and care teams coordinate complex decisions across clinical, functional, psychosocial, and environmental needs. However, many AI systems present recommendations as fixed outputs, limiting stakeholders' ability to inspect, challenge, and revise plans when they conflict with clinical judgment, patient values, or real-world feasibility. We present CoPlan - a Co-Intelligent and Contestable Interface for Human-AI Care Planning. CoP",
-    "author": "Hung Truong Thanh Nguyen, Hélène Fournier, Piper Jackson, Makoto Itoh, Shannon Freeman, Rene Richard, Hung Cao",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2608.05107v1"
-    ]
-  },
-  {
-    "title": "ABSeeker: Training Long-Horizon Search Agents via Answer-Backtracked Credit Assignment",
-    "link": "http://arxiv.org/abs/2608.05102v1",
-    "published": "2026-08-05T17:41:31+00:00",
-    "summary": "Long-horizon search agents must make multiple sequential actions (steps) to search, retrieve, verify, and integrate evidence to reach a final answer. However, existing methods for training these agents typically treat all steps within a trajectory uniformly during both supervised fine-tuning (SFT) and reinforcement learning (RL), failing to distinguish useful actions from erroneous or redundant ones. In this paper, we propose Answer-Backtracked Credit Assignment (ABC), a fine-grained credit assi",
-    "author": "Yijun Lu, Rui Ye, Jiajun Wang, Yuwen Du, Tian Jin, Songhua Liu, Siheng Chen",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2608.05102v1"
-    ]
-  },
-  {
-    "title": "Hierarchical Graph Memory for LLM Agents with Path-level Localization and Rewrite",
-    "link": "http://arxiv.org/abs/2608.05095v1",
-    "published": "2026-08-05T17:32:43+00:00",
-    "summary": "Agents for long term reasoning require a memory that can be efficiently and effectively updated over time, as new facts and external feedback continue to arrive. Recently, graph memory has been adopted to offer structural organization for multi-hop retrieval and reasoning. However, existing methods store all memories in a flat graph, and accumulated historical memories can introduce irrelevant contexts and increase the cost of evidence selection during retrieval. Moreover, they typically update ",
-    "author": "Xiawei Yue, Boran Wang, Xiaoqing Zhang, Shuxin Zheng, Ziwei Zhang",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2608.05095v1"
-    ]
-  },
-  {
-    "title": "Item Response Theory for AI Safety",
-    "link": "http://arxiv.org/abs/2608.05086v1",
-    "published": "2026-08-05T17:25:27+00:00",
-    "summary": "Language models differ in how safely they behave and these differences are measured by safety benchmarks. But aggregated benchmark scores are hard to trust and interpret, because benchmarks duplicate one another, correlate heavily, and models may sandbag when they detect evaluation. To address these issues, we draw on Item Response Theory (IRT), a statistical toolkit for measuring these latents from performance on items with inferred psychometric properties. We fit IRT models to eight safety ben",
-    "author": "Joshua Fonseca Rivera, Neil Shah, David Demitri Africa, Konstantinos Voudouris",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2608.05086v1"
-    ]
-  },
-  {
-    "title": "Capability-Gated Planning: Cost-to-Goal Discovery and the Limits of Myopic Experiment Selection",
-    "link": "http://arxiv.org/abs/2608.05085v1",
-    "published": "2026-08-05T17:25:17+00:00",
-    "summary": "Systems that automate scientific discovery must repeatedly decide which experiment to run, which hypothesis to test, which tool to build, and when to stop. Many systems make these decisions by maximizing a myopic score such as expected information gain per unit cost or a learned plausibility score. We identify a structural limitation of this approach. Some actions are constructive: they acquire an epistemic capability (an instrument, assay, pipeline, simulator, or abstraction) whose value lies n",
-    "author": "Ahmed Hassoon, Mark Dredze",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2608.05085v1"
-    ]
-  },
-  {
-    "title": "MultiPathFormer: Towards a Foundation Model for Multipath Wireless Propagation",
-    "link": "http://arxiv.org/abs/2608.05076v1",
-    "published": "2026-08-05T17:20:16+00:00",
-    "summary": "Recent advances in machine learning have enabled training of wireless foundation models, which aim to support tasks such as channel estimation, beam prediction, and localization based on wireless signals. Existing wireless foundation models typically pretrain on channel tensors using masked reconstruction over subcarriers, antennas, or time but ignore the physical characteristics of wireless propagation. In this work, we propose to instead use multipath propagation as the fundamental pretraining",
-    "author": "Blessed Guda, Kayley Sze, Carlee Joe-Wong",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2608.05076v1"
-    ]
-  },
-  {
-    "title": "VQ-VAD: Vector-quantized Motion Representation Learning for Human-centric Video Anomaly Detection",
-    "link": "http://arxiv.org/abs/2608.05069v1",
-    "published": "2026-08-05T17:12:39+00:00",
-    "summary": "Video Anomaly Detection (VAD) is inherently challenging due to the scarcity of anomalies and the large visual variability in surveillance footage, including changes in lighting, viewpoint, and human appearance. To mitigate visual noise and address privacy concerns, recent work has shifted to pose-based VAD, which focuses on motion dynamics rather than raw video data. However, existing pose-based approaches model human behavior in continuous latent spaces, limiting their ability to learn compact ",
-    "author": "Narges Rashvand, Ghazal Alinezhad Noghre, Shanle Yao, Gabriel Maldonado, Hamed Tabkhi",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "https://github.com/TeCSAR-UNCC/VQ-VAD",
-      "http://arxiv.org/abs/2608.05069v1"
     ]
   },
   {
