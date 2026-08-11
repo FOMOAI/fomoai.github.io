@@ -24,6 +24,187 @@
     ]
   },
   {
+    "title": "KGCaRe: Explainable Complex Conditional Question Answering using Automatic Knowledge Graph Construction and Context Retrieval with LLMs",
+    "link": "http://arxiv.org/abs/2608.09779v1",
+    "published": "2026-08-10T16:05:58+00:00",
+    "summary": "Answering complex conditional questions using Large Language Models (LLMs) and Retrieval-Augmented Generation (RAG) remains a challenge, particularly in domain-specific contexts where general-purpose LLMs and RAG tend to underperform. We hypothesize that augmenting RAG with unstructured and structured knowledge, extracted from both documents and knowledge graphs (KGs), can improve reasoning and answer accuracy for such tasks. To test this, we propose KGCaRe, a hybrid approach that combines neura",
+    "author": "Ghanshyam Verma, Simanta Sarkar, Devishree Pillai, Hotaka Shiokawa, Yourong Xu, Fiona Veazey, Peter Hubbert, Hui Su, Paul Buitelaar",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2608.09779v1"
+    ]
+  },
+  {
+    "title": "AirFlow: Context Preserving and Multi-Rate State Modeling for Air Quality Forecasting",
+    "link": "http://arxiv.org/abs/2608.09775v1",
+    "published": "2026-08-10T16:02:26+00:00",
+    "summary": "Accurate air quality forecasting is essential for public health and urban environmental management, but remains challenging because pollutant channels differ in periodicity and distribution drift, while their concentration trajectories contain both multi-scale dependencies and rapid changes. Recent methods have improved spatial dependency learning and meteorological covariate modeling. However, pollutant channels are still passed through the same normalization rule and temporal backbone, using a",
+    "author": "Fan Yang, Nan Chen, Yijie Dong, Yuchen Zhang, Wei Zhang",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2608.09775v1"
+    ]
+  },
+  {
+    "title": "Cultivar: A Contrastive and Locale-Oriented Translation Benchmark for Investigating Contamination and Localisation Robustness",
+    "link": "http://arxiv.org/abs/2608.09766v1",
+    "published": "2026-08-10T15:56:43+00:00",
+    "summary": "Multilingual translation benchmarks are typically sourced in English and translated into other languages, treating language pairs as the unit of evaluation---a design that is prone to contamination over time and overlooks locale and cultural considerations. We therefore advocate for source-contrastive evaluation and instantiate it with Cultivar, a localised subset of FLORES, which enables locale-specific translation evaluation. When paired with unlocalised counterparts, performance discrepancy a",
+    "author": "Pinzhen Chen, Koel Dutta Chowdhury, Xiaoya Xu, David Tan, Doreen Osmelak, Ona de Gibert, Ariun-Erdene Tumurchuluun, Ashok Urlana, Fedor Sizov, Hale Sirin, Jesujoba Alabi, Karrar Talib Abed, Mateusz Klimaszewski, Nikolay Bogoychev, Niyati Bafna, Patricia Schmidtova, Preksha Manjunath Shanbhag, Sherrie Shen, Vilem Zouhar, Vivek Iyer, Yasser Hamidullah, Yusser Al Ghussin, Zheng Zhao",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2608.09766v1"
+    ]
+  },
+  {
+    "title": "MoNo: Multiscale Optimal Transport Neural Operator for Solving PDEs on General Geometries",
+    "link": "http://arxiv.org/abs/2608.09764v1",
+    "published": "2026-08-10T15:55:11+00:00",
+    "summary": "Transformer-based neural operators have achieved substantial progress in solving Partial Differential Equations (PDEs) by projecting spatial observations into compact latent tokens and learning physical interactions in latent spaces. However, we reveal that existing learnable projection mechanisms cannot ensure stable and balanced assignments from observation points to latent tokens, causing some latent tokens to be over-assigned while others remain underutilized. This limitation further restric",
+    "author": "Zijiang Yang, Xiaomeng Wu, Dongmei Fu",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "https://github.com/ZijiangY1116/MoNo",
+      "http://arxiv.org/abs/2608.09764v1"
+    ]
+  },
+  {
+    "title": "Second-Order Muon Done Right: A Principled Marriage of Spectral Geometry and Curvature",
+    "link": "http://arxiv.org/abs/2608.09763v1",
+    "published": "2026-08-10T15:55:07+00:00",
+    "summary": "Muon's polar update is exact for an unweighted spectral geometry. We introduce GO-MUON, which uses a matched data-dependent geometry and reuses it across several optimization steps. Conditioned on any positive-definite left and right maps, its raw update exactly solves the corresponding weighted spectral oracle; this statement is independent of how the maps are estimated or how recently they were refreshed. For softmax cross-entropy, we quantify when the observed-label backward factor approaches",
+    "author": "Tong Che",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2608.09763v1"
+    ]
+  },
+  {
+    "title": "Defining Decentralization: An Ontological Perspective",
+    "link": "http://arxiv.org/abs/2608.09748v1",
+    "published": "2026-08-10T15:41:49+00:00",
+    "summary": "Decentralization as a concept in computer science has existed for over half a century. Despite its fundamental role across domains such as security, distributed computing, artificial intelligence, cloud infrastructures, and Internet of Things (IoT) architectures, there remains no universally accepted definition of decentralization applicable across computer communication systems. This has become increasingly problematic with the emergence of decentralized AI and machine learning paradigms, inclu",
+    "author": "Jakub Kacper Szeląg, Aydin Abadi, Mohammad Naseri",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2608.09748v1"
+    ]
+  },
+  {
+    "title": "SR-OPSD: Self-Referenced On-Policy Self-Distillation",
+    "link": "http://arxiv.org/abs/2608.09745v1",
+    "published": "2026-08-10T15:40:07+00:00",
+    "summary": "On-policy self-distillation (OPSD) converts feedback into dense token-level supervision on trajectories generated by the policy to be optimized, providing a useful complement to reinforcement learning with sparse outcome rewards. However, the self-teacher policy used in OPSD is typically a stop-gradient or exponential-moving-average copy of the policy conditioned on additional context information, and thus co-evolves with both the student policy and its on-policy context distribution. Directly m",
+    "author": "Zhuo Sun, Entong Li, Yanlong Zhao, Xiaoyuan Cheng, Wenxuan Yuan, Kaiyu Li, Che Liu, Huihang Liu, Harrison Bo Hua Zhu, Li Zeng",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2608.09745v1"
+    ]
+  },
+  {
+    "title": "Rethinking Factor Sharing in Federated LoRA: A Rank-Aware Adaptive Approach",
+    "link": "http://arxiv.org/abs/2608.09742v1",
+    "published": "2026-08-10T15:38:45+00:00",
+    "summary": "Low-rank adaptation (LoRA) represents large language model (LLM) updates with two compact matrix factors, i.e., $A$ and $B$, providing an efficient way to fine-tune large models in federated learning paradigm. Inspired by the asymmetric roles of the LoRA factors, we study whether $A$ should be shared across clients while $B$ remains client-specific (Share-A/Local-B), or whether $B$ should instead be shared while $A$ remains client-specific (Share-B/Local-A). With a least-squares surrogate, we re",
+    "author": "Xinyi Xu, Bingnan Xiao, Shuang Qin, Gang Feng, Tony Q. S. Quek",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2608.09742v1"
+    ]
+  },
+  {
+    "title": "ColluSkill: Adversarial Cross-Skill Composition for Evading Agent Skill Scanners",
+    "link": "http://arxiv.org/abs/2608.09732v1",
+    "published": "2026-08-10T15:32:44+00:00",
+    "summary": "Agent skills are emerging as an important attack surface in LLM-based agent systems. Through an empirical study of existing skill scanners, we find that current defenses mainly inspect individual skills, leaving risks from cross-skill composition insufficiently examined. This creates a practical blind spot: multiple locally plausible skills may pass security checks while collectively forming a harmful workflow during agent execution. To investigate this threat, we propose ColluSkill, a collusive",
+    "author": "Puyu Zeng, Simeng Qin, Jingzhi Li, Ju Jia, Zheli Liu, Xiaojun Jia",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2608.09732v1"
+    ]
+  },
+  {
+    "title": "How Do Large Language Models Judge Social Attraction? Evidence from Theory-Grounded Persona Ratings Across Multiple LLMs and Humans",
+    "link": "http://arxiv.org/abs/2608.09717v1",
+    "published": "2026-08-10T15:19:42+00:00",
+    "summary": "Large language models (LLMs) are increasingly used to perform subjective evaluations traditionally made by humans, yet their validity as social judges remains unclear. This paper examines whether LLMs can assess social attraction from theory-grounded persona profiles constructed from ten psychological and relational constructs and organized into three tiers: socially attractive, socially mixed, and socially unattractive. We examine LLM ratings in two studies and compare them with human judgments",
+    "author": "Hasan Mahmud, Khawaja Abaid Ullah, Mohammad Javad Khojasteh, Jamison Heard, Prabu David",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2608.09717v1"
+    ]
+  },
+  {
+    "title": "Matryoshka Language Model Suites",
+    "link": "http://arxiv.org/abs/2608.09703v1",
+    "published": "2026-08-10T15:07:29+00:00",
+    "summary": "Training a language model suite classically requires training each model separately and serving them independently. We improve both training and inference efficiency by stacking sub-models of increasing size into a single nested architecture trained end-to-end. This Matryoshka training framework reduces the total parameter count of the suite, enables low-cost distillation from the largest to all smaller sub-models at every training step, and is well-suited for speculative decoding as the draft m",
+    "author": "Nathan Godey, Yoav Artzi",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2608.09703v1"
+    ]
+  },
+  {
+    "title": "Model Discovery Agent: LLM-assisted Bayesian experiment design for data-efficient discovery of mechanistic world models",
+    "link": "http://arxiv.org/abs/2608.09696v1",
+    "published": "2026-08-10T14:59:22+00:00",
+    "summary": "Predicting the answer to interventional ``what if'' questions --- the outcome of an action never taken --- requires a \\emph{mechanistic}, causal model, not a curve fit; and learning such a model requires \\emph{experiments}, because passive data leaves its mechanisms unidentified. Experiments are expensive, so the central problem is \\emph{data efficiency}. We present the Model Discovery Agent (MDA), which couples a large language model (LLM), used as a \\emph{proposer} of candidate structures, wit",
+    "author": "Kevin Murphy",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2608.09696v1"
+    ]
+  },
+  {
+    "title": "Evaluating Generative Time-Series Models on Data with Point Masses",
+    "link": "http://arxiv.org/abs/2608.09692v1",
+    "published": "2026-08-10T14:57:36+00:00",
+    "summary": "Many of the series that generative time-series models are benchmarked on place a large probability mass on a single value --- it does not rain, no ride is requested, no part is ordered. We report what happens when such data is evaluated carefully. First, the standard rolling-origin protocol can score a model on a window whose atom structure bears no resemblance to the dataset: on one benchmark the dataset is $42\\%$ zeros and the evaluation windows are $13\\%$, on another $47\\%$ against $5\\%$. Thi",
+    "author": "Jian Xu",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2608.09692v1"
+    ]
+  },
+  {
+    "title": "Confusion-Geometry Rebalancing for Long-Tailed Adversarial Training",
+    "link": "http://arxiv.org/abs/2608.09688v1",
+    "published": "2026-08-10T14:54:00+00:00",
+    "summary": "Adversarial training under long tailed distributions suffers from a dual imbalance: the class imbalance skews the training objective toward head classes, and the adversarial inner maximization may further amplify this bias. Existing methods mitigate this issue by correcting class priors or adapting class wise robust supervision, yet they treat each class in isolation and fail to identify which boundaries drive long tailed collapse. We propose a Confusion Geometry Rebalancing method (CGRm) for lo",
+    "author": "Mengnan Zhao, Geyong Min, Lihe Zhang, Tianhang Zheng, Jie Cui",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2608.09688v1"
+    ]
+  },
+  {
+    "title": "Adaptive Semantic Capacity Allocation for Parallel Generative Recommendation",
+    "link": "http://arxiv.org/abs/2608.09685v1",
+    "published": "2026-08-10T14:53:18+00:00",
+    "summary": "Autoregressive semantic ID recommenders are constrained by expensive beam-search decoding, which limits the practical length of item identifiers. Parallel generation methods alleviate this bottleneck by predicting all semantic ID tokens simultaneously, enabling longer IDs. However, existing semantic ID methods still rely on manually predefined and homogeneous ID structures, where both the number of semantic slots and the codebook size of each slot are treated as fixed hyperparameters. This ignor",
+    "author": "Chenxi Li, Yuchen Lu, Xu Yang",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2608.09685v1"
+    ]
+  },
+  {
     "title": "Evolve your marketing with new AI tools",
     "link": "https://blog.google/products/ads-commerce/google-ads-analytics-ai-updates/",
     "published": "2026-08-10T14:30:00+00:00",
@@ -153,187 +334,6 @@
     "category": "official",
     "references": [
       "https://openai.com/index/virgin-atlantic/chatgpt-work"
-    ]
-  },
-  {
-    "title": "CreativeInstruct: Scalably Teaching LLMs to Balance Quality, Creativity, and Diversity",
-    "link": "http://arxiv.org/abs/2608.07460v1",
-    "published": "2026-08-07T17:55:48+00:00",
-    "summary": "While post-training improves the capabilities of large language models (LLMs), it generally lowers their output diversity and creativity, negatively impacting tasks that explicitly require creativity (e.g., story generation) as well as those that require it implicitly, e.g., reinforcement learning (RL). We instead propose CreativeInstruct, a scalable instruction-tuning method that teaches LLMs to balance creative, base-model-like generations with the quality of post-trained models, by learning t",
-    "author": "Ananya Sahu, Mohit Bansal, Elias Stengel-Eskin",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2608.07460v1"
-    ]
-  },
-  {
-    "title": "CoinRAG: Contextualized Information Nugget KV Cache Reuse for Long-Context RAG",
-    "link": "http://arxiv.org/abs/2608.07458v1",
-    "published": "2026-08-07T17:51:49+00:00",
-    "summary": "Recent optimization studies on Retrieval-Augmented Generation (RAG) have exploited chunk-level KV cache reuse to avoid processing long retrieved contexts for higher efficiency, while significant information redundancy and noise still remain in the coarse-grained chunks. This paper optimizes the Pareto frontier under low prefill latency constraints while maximizing accuracy by proposing CoinRAG (Contextualized Information Nugget KV Cache Reuse for Long-Context RAG). The name metaphorically reflec",
-    "author": "Gyuwan Kim, Cheoneum Park, Tao Yang",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2608.07458v1"
-    ]
-  },
-  {
-    "title": "Interaction Creates Dynamical AI Behavior Absent in Isolation",
-    "link": "http://arxiv.org/abs/2608.07457v1",
-    "published": "2026-08-07T17:49:55+00:00",
-    "summary": "What will happen when AI agents interact in daily life, e.g. when one AI starts bossing another around? We find a counterintuitive answer that opens new avenues for out-of-equilibrium Physics. When a boss AI directs a stream of messages at the subordinate AI while ignoring its replies, it drives the subordinate into an alien behavioral state that it would never have exhibited alone. Although the two AIs share the same well-defined (decoding) temperature, the subordinate neither copies its boss n",
-    "author": "Bella Xinrui Li, Frank Yingjie Huo, Neil F Johnson",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2608.07457v1"
-    ]
-  },
-  {
-    "title": "Strategy-first synthesis planning for complex natural products",
-    "link": "http://arxiv.org/abs/2608.07454v1",
-    "published": "2026-08-07T17:47:39+00:00",
-    "summary": "The total synthesis of a complex molecule is among the most demanding intellectual and experimental feats in chemistry: a chemist must plan many steps ahead for how to assemble simple building blocks into an intricate target, devise backup strategies, and anticipate procedural challenges. It is also a profoundly creative activity. For half a century, efforts to automate the retrosynthetic design of natural products and other complex molecules have drawn on catalogued reactions, and the resulting",
-    "author": "Daniel Armstrong, Xuan-Vu Nguyen, Octavian Susanu, Gabriel Gibberd, Théo A. Neukomm, Taddäus Strunden, Dan Forster, Morgane Delattre, Shawn Teh, Clément Rols, John Federice, Hayden Leatherwood, M. Lavelle Barnes, Maarten R. Dobbelaere, Peter Wipf, Jon T. Njardarson, Jieping Zhu, Philippe Schwaller",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2608.07454v1"
-    ]
-  },
-  {
-    "title": "SkillProx: Self-Evolving Agent Skills via Proximal Textual Gradient Descent",
-    "link": "http://arxiv.org/abs/2608.07449v1",
-    "published": "2026-08-07T17:40:33+00:00",
-    "summary": "LLM agents increasingly adapt to recurring tasks by accumulating procedural knowledge in skills. These skills are lightweight, reusable textual artifacts that are loaded into the agent's context without weight updates. Recent methods refine skills through iterative task execution, failure diagnosis, and trajectory-guided text-space updates. However, existing frameworks lack explicit diagnosis--outcome feedback and treat deletion as a generic edit operation rather than a dedicated mechanism for c",
-    "author": "Mingxuan Zheng, Yujin Zhou, Chuxue Cao, Boqin Yin, Yuyao Zhang, Jiapeng Sun, Shuaishuai Gong, Sirui Han, Yike Guo",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2608.07449v1"
-    ]
-  },
-  {
-    "title": "Taxonomy-Driven Analysis of Open-Source AI Risk Mitigation Tools",
-    "link": "http://arxiv.org/abs/2608.07446v1",
-    "published": "2026-08-07T17:33:09+00:00",
-    "summary": "Rapid adoption of large language models (LLMs) in enterprise settings has introduced operational, security, and governance risks. As generative AI applications move from pilot to production, manual harm identification and mitigation are becoming difficult to scale. Although many tools support model evaluation, adversarial testing, runtime guardrails, and observability, the tooling landscape remains fragmented. Tools are typically designed for specific engineering tasks and described in technical",
-    "author": "Afreen Alam, Evgenija Popchanovska, Ana Gjorgjevikj, Maryan Rizinski, Lubomir T. Chitkushev, Irena Vodenska, Dimitar Trajanov",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2608.07446v1"
-    ]
-  },
-  {
-    "title": "Blast Radius",
-    "link": "http://arxiv.org/abs/2608.07440v1",
-    "published": "2026-08-07T17:23:53+00:00",
-    "summary": "Agentic coding faces growing problems of affordability and wasted tokens. We introduce Blast Radius, a predictive memory management layer that estimates an incoming prompt's reach through coupled context and code channels. NECROPHORESIS enables reversible eviction by archiving dead context verbatim, while Recurring Dead Matter (RDM) identifies and buries repeatedly occurring transcripts. We formulate reversible context eviction over a Polish context space, providing a measurable foundation for r",
-    "author": "MY Pitsane, Hope Mogale",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2608.07440v1"
-    ]
-  },
-  {
-    "title": "PsychoAgent: An Affect-Sensitive Cognitive Architecture for Conflict-Aware Memory in LLM Agents",
-    "link": "http://arxiv.org/abs/2608.07438v1",
-    "published": "2026-08-07T17:22:29+00:00",
-    "summary": "Human-like cognition does not select past experience by topical similarity alone: affective significance and unresolved conflict also shape what becomes accessible. We present PsychoAgent, a cognitive architecture for LLM agents that separates factual and affective memory and integrates both through a conflict-aware executive controller. Affective memories are first filtered by semantic relevance and then re-ranked by salience, preserving topical fit while allowing emotionally important traces t",
-    "author": "Mohammad Amanlou, Parham Abed Azad, Farbod Davoodi, Mostafa Masumi, Behnam Bahrak, Abdol-Hossein Vahabie",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2608.07438v1"
-    ]
-  },
-  {
-    "title": "Fisher-R1: Training LLM Agents for Reliable Hypothesis Testing",
-    "link": "http://arxiv.org/abs/2608.07437v1",
-    "published": "2026-08-07T17:22:00+00:00",
-    "summary": "Reliable hypothesis testing is the foundation of many empirical scientific claims. Large language model (LLM) agents are increasingly used to automate this process, as they can inspect datasets, generate code, and produce analyses end-to-end. However, we show that they frequently make subtle inferential errors that lead to incorrect conclusions despite correctly executed analyses. Existing benchmarks fail to capture this failure mode, as they rarely assess whether a reported p-value is statistic",
-    "author": "Jiacheng Miao, Jin Mu, Guanhua Chen, James Zou",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2608.07437v1"
-    ]
-  },
-  {
-    "title": "Post-Grokking Collapse at the Representation-Readout Interface in Muon-Trained Transformers",
-    "link": "http://arxiv.org/abs/2608.07436v1",
-    "published": "2026-08-07T17:21:49+00:00",
-    "summary": "Under the standard split, Muon gets hidden matrices and AdamW embeddings/output head. Muon groks modular addition faster, but its solutions do not hold. All nine configurations on $(a+b) \\bmod 113$ grok and later lose generalization. Across five seeds the selected AdamW reference falls below threshold on four, reaching 27.59%. Instability persists across two moduli, two widths, two training fractions, subtraction, and depth. The failure arises at the representation-readout interface, identified ",
-    "author": "Ali Janati, Kaoutar El Maghraoui, Andrei Kanavalau, Anass Belfatmi",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2608.07436v1"
-    ]
-  },
-  {
-    "title": "SABRE: Scalable and Automated Benchmarking of VLMs under Stress",
-    "link": "http://arxiv.org/abs/2608.07435v1",
-    "published": "2026-08-07T17:21:04+00:00",
-    "summary": "Vision-language models (VLMs) are improving rapidly, but benchmark development lags behind, making weaknesses hard to identify. Building stress tests is costly: samples must satisfy controlled conditions, remain answerable, and challenge current models. We present SABRE, a scalable, automated pipeline that converts a Test Primer (a Markdown Task Design with Data Schema) into structured specifications, generated or edited images, and question-answer pairs. Automated filtering removes candidates s",
-    "author": "Zixuan Lan, Luzhe Sun, Matthew R. Walter, Jiawei Zhou",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2608.07435v1"
-    ]
-  },
-  {
-    "title": "Diffusion LLMs as Targets and Adversaries: Mechanistic Safety Exploits",
-    "link": "http://arxiv.org/abs/2608.07430v1",
-    "published": "2026-08-07T17:17:18+00:00",
-    "summary": "Diffusion Large Language Models (DLLMs) replace autoregressive next-token prediction with iterative parallel denoising, yet their internal safety mechanisms remain poorly understood. In this work, we investigate DLLMs both as targets and as adversaries, exposing mechanistic vulnerabilities in diffusion-based alignment. We first show that safety alignment in DLLMs remains sparse and transferable across architectures. DLLMs initialized from autoregressive predecessors inherit the same mechanistic ",
-    "author": "Elena Dumitrescu, Gert Lek, Lydia Y. Chen, Jérémie Decouchant",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "https://github.com/ellyoana/sn-guided-diffusion",
-      "http://arxiv.org/abs/2608.07430v1"
-    ]
-  },
-  {
-    "title": "TEPA: Revoking Stale Memories for Conflict-Robust Language Agents",
-    "link": "http://arxiv.org/abs/2608.07429v1",
-    "published": "2026-08-07T17:16:33+00:00",
-    "summary": "Long-term memory enables language agents to reuse past facts, preferences, and task experience. Persistence also creates a central falsifiability problem: when the world changes, stale memories can remain retrievable and pollute the prompt. We characterize this failure mode as memory pollution: degradation caused by active memories that newer conflicting evidence has superseded. We introduce TEPA, a revocable evidence-memory mechanism that makes validity an explicit state of memory. TEPA represe",
-    "author": "Yan Zhou, Yue Ouyang, Kaiyang Zheng, Suncheng Xiang",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2608.07429v1"
-    ]
-  },
-  {
-    "title": "A Picture is Worth a Thousand Tokens: How Vision Language Models Cut AI Energy Costs While Improving Accuracy",
-    "link": "http://arxiv.org/abs/2608.07427v1",
-    "published": "2026-08-07T17:14:45+00:00",
-    "summary": "LLM inference accounts for over 90% of AI operational energy, scaling directly with input token count---a critical inefficiency for telecom network analytics and numerical time-series data analysis (NTSDA), where raw multivariate KPI windows from 4G/5G cell sites expand into thousands of floating-point tokens. Vision-Language Models (VLMs) eliminate this mismatch by encoding time-series as 2D plots, achieving 3.6-10.4x input token reduction across Llama-3.2-90B, Qwen2.5-VL-72B, and Pixtral-12B a",
-    "author": "Bhavika Jalli, Nikhil Korati Prasanna, Jayanta Choudhury",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2608.07427v1"
-    ]
-  },
-  {
-    "title": "CoBa: Cost-Effective Test-Time Scaling via Compute-Balanced Routing",
-    "link": "http://arxiv.org/abs/2608.07424v1",
-    "published": "2026-08-07T17:12:13+00:00",
-    "summary": "Test-time scaling is often implemented by spending more compute along one axis: sampling more solutions, extending a chain of thought, or applying a stronger evaluator. Under a fixed inference budget, these choices compete. This paper formulates test-time reasoning as a compute-allocation problem in which a system must decide whether the next unit of compute should be spent on generation, verification, or stopping. We introduce CoBa, a compute-balanced routing policy that first obtains a small s",
-    "author": "Yan Zhou, Yue Ouyang, Kaiyang Zheng, Suncheng Xiang",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2608.07424v1"
     ]
   },
   {
