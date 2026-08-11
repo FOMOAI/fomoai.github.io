@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+# AI discovery
+Allow: /llms.txt
+
+Sitemap: https://ai.makeit.solutions/sitemap.xml
