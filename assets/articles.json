@@ -1,5 +1,185 @@
 [
   {
+    "title": "Decoding the Past: An Uncertainty-Aware Deep Learning Framework for Sex Attribution in Prehistoric Hand Stencils",
+    "link": "http://arxiv.org/abs/2608.14539v1",
+    "published": "2026-08-14T17:51:30+00:00",
+    "summary": "Determining the biological sex of the individuals who created Upper Paleolithic hand stencils remains a challenging problem due to the absence of ground truth, population differences between contemporary and prehistoric groups, and the uncertainty introduced by image degradation. Traditional morphometric methods suffer from high structural overlap across sexes, poor cross-population generalizability, and subjective feature engineering. This study presents an uncertainty-aware deep learning frame",
+    "author": "Karel Becerra, Boris Mederos, Dean Snow, Ramón A. Mollineda",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2608.14539v1"
+    ]
+  },
+  {
+    "title": "Marionette: Predicting World States, Rendering Geometry, Painting Appearance",
+    "link": "http://arxiv.org/abs/2608.14530v1",
+    "published": "2026-08-14T17:48:16+00:00",
+    "summary": "Interactive game world models typically autoregress visual observations directly in pixel or latent space, forcing structured properties such as pose, geometry, and occlusion to be implicitly maintained by the same generative sequence. Over long horizons, errors in these latent world properties accumulate, making consistency and controllability fragile. We explicitly model the evolving world state, delegate exact geometric computation to a fixed, zero-parameter renderer, and leave the neural mod",
+    "author": "Zian Meng, Zhen Li, Chuanhao Li, Qiang Li, Kaipeng Zhang",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2608.14530v1"
+    ]
+  },
+  {
+    "title": "Handover of In-Context Learning State Across Session Boundaries",
+    "link": "http://arxiv.org/abs/2608.14528v1",
+    "published": "2026-08-14T17:47:13+00:00",
+    "summary": "This study investigates the methodological and theoretical properties of session handover in applications that use large language models. A task may continue in a new session when the context reaches the model's input limit, when the application restarts, or when another agent is asked to finish the task. The application must then decide which information from the earlier session to pass on. We formulate handover as the transfer of a task-relative in-context learning (ICL) state and distinguish ",
+    "author": "Masahiro Kato, Taka Kato",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2608.14528v1"
+    ]
+  },
+  {
+    "title": "Participatory Moral AI Is Not Neutral: The Invisible Hand of Developers",
+    "link": "http://arxiv.org/abs/2608.14522v1",
+    "published": "2026-08-14T17:43:16+00:00",
+    "summary": "As AI systems make more morally loaded decisions across society, one response has been moral preference elicitation. In this approach, researchers poll participants on hypothetical dilemmas and use the aggregated votes to train a policy that an AI model then applies at scale. Before any vote is cast, developers make three key choices in the moral AI elicitation pipeline: feature scoping, voter sampling, and question framing. In other words, they decide which features go to a vote, which voters t",
+    "author": "Taenyun Kim, Edyta Bogucka, Daniele Quercia",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2608.14522v1"
+    ]
+  },
+  {
+    "title": "Learning-to-Transition for Large-scale and High-Order MIMO Detection",
+    "link": "http://arxiv.org/abs/2608.14511v1",
+    "published": "2026-08-14T17:29:07+00:00",
+    "summary": "High-order multiple-input multiple-output (MIMO) detection requires efficient search over a large discrete symbol space while producing reliable soft information for channel decoding. This paper develops a learning-to-transition (L2T) framework that formulates MIMO detection as a stochastic sequence of complete-vector transitions. At each transition, a channel-coupled Transformer updates both the instance embedding and the sampling policy, while a blockwise autoregressive factorization captures ",
+    "author": "Yubo Zhang, Yiyao Liu, Xiaodong Wang",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2608.14511v1"
+    ]
+  },
+  {
+    "title": "Split the Labor: Separating Evidence Interpretation from Decision Aggregation",
+    "link": "http://arxiv.org/abs/2608.14509v1",
+    "published": "2026-08-14T17:24:55+00:00",
+    "summary": "Systems that ask a language model to reach a conclusion from many sources usually concatenate them into one prompt. This conflates two operations with different requirements. Interpreting a source rewards capacity and context. Combining interpretations rewards fixed arithmetic, comparability across instances, and the option to return nothing. Once separated, the design problem becomes the interface between them. We propose a four-field evidence tuple (hypothesis, reliability bucket, rationale, p",
+    "author": "Zhelun Wu",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2608.14509v1"
+    ]
+  },
+  {
+    "title": "RecipeNet: A Hierarchical Transformer for Recipe Data",
+    "link": "http://arxiv.org/abs/2608.14505v1",
+    "published": "2026-08-14T17:18:36+00:00",
+    "summary": "Recipe data arises in domains such as materials synthesis, pharmaceutical formulation, and industrial manufacturing, where procedures are represented as ordered sequences of steps containing heterogeneous structured fields. Existing tabular learning methods typically flatten this structure into fixed-schema representations, limiting their ability to capture hierarchical field interactions and procedural dependencies. We propose RecipeNet, a hierarchical Transformer architecture that encodes fiel",
+    "author": "Pin-Yen Huang, Sachin Chhabra, Prasanth Sai Gouripeddi, Abhinav Kumar, Baoxin Li",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2608.14505v1"
+    ]
+  },
+  {
+    "title": "Universal Thermodynamic Interatomic Potentials for Crystalline Materials",
+    "link": "http://arxiv.org/abs/2608.14502v1",
+    "published": "2026-08-14T17:16:27+00:00",
+    "summary": "Free energies govern solid-state phase stability, yet computational materials discovery still relies largely on ground-state energies because free energy calculations require ensemble averages. We introduce the thermodynamic interatomic potential (TIP), which extends an interatomic potential from its static energy to a thermodynamically consistent Gibbs free energy model, with thermodynamic responses following from temperature and pressure by automatic differentiation. We implement TIP[UMA] usin",
+    "author": "Juno Nam, Bowen Deng, Xiaochen Du, Luis Barroso-Luque, Benjamin Kurt Miller, Rafael Gómez-Bombarelli",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2608.14502v1"
+    ]
+  },
+  {
+    "title": "Generating Benchmark Health Data Using a Tabular Diffusion Transformer",
+    "link": "http://arxiv.org/abs/2608.14496v1",
+    "published": "2026-08-14T17:10:44+00:00",
+    "summary": "Cross-Tabular Data Generation (CTDG) seeks to learn a generative model from multiple heterogeneous tables and produce new synthetic tabular datasets. However, existing synthetic tabular data generation methods are largely restricted to single-input-table scenarios and struggle to effectively handle multiple heterogeneous tables with diverse feature sets. To address this limitation, we propose a two-stage framework for cross-tabular data generation. In the first stage, each heterogeneous raw tabl",
+    "author": "Hao Yan, Lisa Pilgram, Dan Liu, Linglong Kong, Fida Dankar, Khaled El Emam",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2608.14496v1"
+    ]
+  },
+  {
+    "title": "Optimal Scheduling of Road Maintenance Jobs Considering Impact on Traffic Flows",
+    "link": "http://arxiv.org/abs/2608.14491v1",
+    "published": "2026-08-14T17:07:14+00:00",
+    "summary": "Network-level maintenance planning requires repeated evaluations of equilibrium traffic flows under road capacity reductions. While equilibrium traffic assignment models are well established, their repeated solution quickly becomes computationally prohibitive and challenging to embed within maintenance scheduling problems. This paper investigates data-driven surrogate models that approximate equilibrium arc flows directly from origin-destination demand, using optimization-based equilibrium solut",
+    "author": "Charitha Nandepu, Lohitha Kalepu, Gabriele Ciavarella, SangWoo Park",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2608.14491v1"
+    ]
+  },
+  {
+    "title": "Twin: Playing an Unknown Game with a Test-Time Digital Twin",
+    "link": "http://arxiv.org/abs/2608.14490v1",
+    "published": "2026-08-14T17:06:00+00:00",
+    "summary": "We present a Test-time World-model Inference (Twin) system, in which a frontier coding agent writes an executable world model for completing continual learning tasks, such as ARC-AGI-3 games. Traditional approaches hand-engineer such models, one custom design per task. Each game hides its rules and goal, and our system constructs them from simulation and interaction alone. Its inductive prior over grid games is strong enough to recover the true transitions of the game and the goal on nearly all ",
+    "author": "Alexy Skoutnev, Kirill Acharya, Gaston Longhitano, Madeleine Udell, Kevin Ellis, Iddo Drori",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2608.14490v1"
+    ]
+  },
+  {
+    "title": "Ensuring Safe Physical AI in Urban Mobility via Hazard-Informed Synthesized Envelopes",
+    "link": "http://arxiv.org/abs/2608.14481v1",
+    "published": "2026-08-14T16:57:54+00:00",
+    "summary": "As heterogeneous robotic systems deploy across diverse urban zones, maintaining safety amid complex human-robot interactions remains a critical challenge. We present a unified framework that bridges systematic hazard analysis and runtime enforcement using hazard-informed safety envelopes. Rather than treating safety as a static constraint isolated within individual software modules, we introduce a cross-layer safety transformation process spanning symbolic, spatial, and dynamic world models. We ",
+    "author": "Alexei Odinokov, Rostislav Yavorskiy",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2608.14481v1"
+    ]
+  },
+  {
+    "title": "LP-NAS: Linear Programming-based Neural Architecture Search",
+    "link": "http://arxiv.org/abs/2608.14472v1",
+    "published": "2026-08-14T16:53:11+00:00",
+    "summary": "Neural Architecture Search (NAS) aims to automate neural network architecture design, reducing reliance on human expertise. Among the various NAS methods, differentiable NAS has gained prominence due to its efficiency and accuracy compared to conventional NAS approaches. Since differentiable NAS relaxes the architecture search space into a continuous domain, it is possible to apply principles from continuous optimization to NAS. In this paper, we propose Linear Programming-based NAS (LP-NAS), a ",
+    "author": "Abhishek Shukla, Ankur Sinha, Faiz Hamid",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2608.14472v1"
+    ]
+  },
+  {
+    "title": "Shift Aware Transfer Learning with Adaptive Dual-Encoder Fusion for PM Forecasting in Data-Limited Environments",
+    "link": "http://arxiv.org/abs/2608.14456v1",
+    "published": "2026-08-14T16:41:16+00:00",
+    "summary": "Short-horizon forecasting of fine particulate matter (PM2.5) remains difficult when observations from the target domain are limited and the statistical properties of the source and target domains differ. In these settings, models trained only on local data may not capture complex temporal dynamics, while direct transfer learning can result in negative transfer. This study develops a shift-aware dual-encoder transfer framework that combines source-domain knowledge with target-specific representat",
+    "author": "Shahab Band, Hamed Mohammadi",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2608.14456v1"
+    ]
+  },
+  {
+    "title": "SheetCompass: Hierarchical Relation Graphs for Agentic Spreadsheet Reasoning",
+    "link": "http://arxiv.org/abs/2608.14452v1",
+    "published": "2026-08-14T16:39:16+00:00",
+    "summary": "Spreadsheets are widely used to organize, analyze, and manipulate semi-structured data, yet automated spreadsheet reasoning remains challenging for large language models (LLMs). Real-world workbooks often contain implicit cross-table associations, fine-grained column dependencies, and complex spatial layouts. Existing methods typically flatten these multidimensional structures into sequential strings, losing important intra-sheet boundaries and inter-sheet semantics. Consequently, LLMs cannot ex",
+    "author": "Panjing He, Mingyue Cheng, Yucong Luo, Li Li, Xiaohan Zhang",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2608.14452v1"
+    ]
+  },
+  {
     "title": "The Download: Flock’s new rules, cloning’s future, and children’s cells",
     "link": "https://www.technologyreview.com/2026/08/14/1142033/the-download-flock-new-rules-cloning-future/",
     "published": "2026-08-14T12:17:21+00:00",
@@ -69,189 +249,6 @@
     "category": "media",
     "references": [
       "https://www.technologyreview.com/2026/08/13/1141041/building-a-practical-path-to-post-quantum-cryptography/"
-    ]
-  },
-  {
-    "title": "AutoDesign: Meta-Harness Optimization for Long-Horizon Agentic Design",
-    "link": "http://arxiv.org/abs/2608.13560v1",
-    "published": "2026-08-13T17:59:57+00:00",
-    "summary": "Transforming multimodal sources into condensed and structured media outputs can be fundamentally conceptualized as a long-horizon agentic process centered on a model-harness system. While an ideal harness system should align with human design priors and accumulate reusable experience through empirical exploration to drive recursive self-improvement, existing paradigms remain static and fall short of this capability. In this paper, we present AutoDesign, a framework that aligns with human design ",
-    "author": "Yaxin Luo, Haobin Jiang, Jialv Zou, Xu Huang, Wenhao Yan, Haodong Li, Zhengrong Yue, Jing Li, Xiaofu Chen, Xiaohan Zhao, Jiacheng Liu, Jiacheng Cui, Zhiqiang Shen, Xiaotong Li",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2608.13560v1"
-    ]
-  },
-  {
-    "title": "OmniScientist: An Omni-Modal Omni-Discipline AI Scientist",
-    "link": "http://arxiv.org/abs/2608.13558v1",
-    "published": "2026-08-13T17:59:52+00:00",
-    "summary": "Recent advances in foundation models have enabled AI scientists to automate increasingly complete research workflows, from hypothesis generation and code execution to manuscript preparation. Yet workflow coverage alone does not provide access to the full evidence on which scientific discovery depends. Existing systems typically reason over text, code, labels, or precomputed summaries, leaving scientifically decisive spatial, temporal, cross-channel, and procedural relations unavailable to the ag",
-    "author": "Bobo Li, Hao Fei, Tianjie Ju, Mong-Li Lee, Wynne Hsu",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2608.13558v1"
-    ]
-  },
-  {
-    "title": "HumanTracker: Towards Comprehensive and Human-Aligned Motion Tracking Benchmark",
-    "link": "http://arxiv.org/abs/2608.13555v1",
-    "published": "2026-08-13T17:59:40+00:00",
-    "summary": "Humanoid motion tracking is central to teleoperation and whole-body imitation, yet evaluation often disagrees with what people perceive in videos. Kinematic errors average per-frame pose differences but miss the physical artifacts that matter most, particularly unstable support and incorrect contacts such as foot skating and mistimed touch-downs. Meanwhile, widely used test suites are small and lack the diversity needed to stress contact-rich, long-horizon behaviors. We introduce HumanTracker to",
-    "author": "Dairu Liu, Zekun Qi, Jiayu Zeng, Ruixi Yu, Yu Guan, Yintianrun Zhang, Xuchuan Chen, Sikai Liang, Zekai Li, Chenghuai Lin, Xinqiang Yu, Wenyao Zhang, He Wang, Li Yi",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2608.13555v1"
-    ]
-  },
-  {
-    "title": "QuoteBench: How Matched Scores Can Hide Command-Path Failures",
-    "link": "http://arxiv.org/abs/2608.13547v1",
-    "published": "2026-08-13T17:57:20+00:00",
-    "summary": "LLM coding agents issue Bash commands through interfaces that may serialize, wrap, and reparse model output. Matched execution scores alone cannot distinguish command-generation errors from failures introduced after generation. QuoteBench measures this boundary with exact final-state validation on 56 one-shot tasks from 14 incident-derived families, crossing the generation contract with the execution transport around one deliberately unescaped added parser. Escaping at the interpolation point re",
-    "author": "Shangao Li, Yao Zhang, Volker Tresp, Yuanyuan Yang",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2608.13547v1"
-    ]
-  },
-  {
-    "title": "LittleLearner: Language Models Under Pedagogically Controlled Knowledge Exposure",
-    "link": "http://arxiv.org/abs/2608.13545v1",
-    "published": "2026-08-13T17:56:12+00:00",
-    "summary": "Modern language models are trained on heterogeneous web-scale text corpora. Consequently, studying knowledge and skill acquisition is difficult, as prior exposure to related content is hard to characterize. To address this challenge, we introduce LITTLECURRICULUM, a curated 88B-token pretraining corpus tailored to U.S. elementary school material, explicitly excluding concepts, facts, and vocabulary taught above Grade 5. Training a 5B-parameter LLM from scratch on LITTLECURRICULUM yields LITTLELE",
-    "author": "Fanfei Li, Jana Zeller, Manuel Prada-Corral, Thaddäus Wiedemer, Prasanna Mayilvahanan, Ryan Cotterell, Wieland Brendel",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2608.13545v1"
-    ]
-  },
-  {
-    "title": "Vero: Can AI Agents Build Formally Verified Software Repositories?",
-    "link": "http://arxiv.org/abs/2608.13522v1",
-    "published": "2026-08-13T17:41:27+00:00",
-    "summary": "AI agents are increasingly used for programming, but do not provide any guarantee on the correctness of generated code. Verified code generation, in which an agent produces both an implementation and a machine-checked proof of its specification, offers a stronger path toward trustworthy AI-generated software. Existing benchmarks in this direction either focus on individual functions or only evaluate proof generation with provided implementations. It is still an open question whether agents can m",
-    "author": "Zhe Ye, Hantao Lou, Yuechun Sun, Peiyang Song, Zhengxu Yan, Timothe Kasriel, Qingyang Zhang, Kaiyu Yang, Soonho Kong, Jingxuan He, Dawn Song",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "https://github.com/sunblaze-ucb/vero",
-      "http://arxiv.org/abs/2608.13522v1"
-    ]
-  },
-  {
-    "title": "The data geometry of masking diffusion: Certified-optimal schedules via unmasking growth complexity",
-    "link": "http://arxiv.org/abs/2608.13520v1",
-    "published": "2026-08-13T17:40:17+00:00",
-    "summary": "We study masking diffusion for discrete sampling and introduce a path-resolved measure of data geometry called the \\emph{unmasking growth complexity} ({\\textsf{UGC}\\xspace}). Its local increments directly control Kullback--Leibler (KL) discretization error, yielding a unified analysis of Bernoulli-subset and fixed-cardinality unmasking schemes. In log-reveal-odds coordinates, this structure yields optimized single-block and multi-block schedules, and quantifies the gains from adapting computatio",
-    "author": "Martin J. Wainwright",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2608.13520v1"
-    ]
-  },
-  {
-    "title": "DFM Mimir v1: An Open HRM Delivering Frontier Performance at 1B Parameters Using Only Permissible Post-Training Data",
-    "link": "http://arxiv.org/abs/2608.13517v1",
-    "published": "2026-08-13T17:37:53+00:00",
-    "summary": "Current large language model development relies on massive, often non-permissible datasets, creating a high barrier for researchers committed to open-source and ethically sourced data. We introduce Mimir v1, a 1-billion-parameter language model based on the Hierarchical Reasoning Model (HRM) architecture, that is trained from scratch and delivers highly competitive performance for English and sets a new state of the art for Danish using only permissible post-training data. Trained on a mixture o",
-    "author": "Peter Schneider-Kamp, Jacob Nielsen, Gianluca Barmina, Kenneth Enevoldsen, Lukas Galke Poech",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "https://huggingface.co/danish-foundation-models/DFM-Mimir",
-      "http://arxiv.org/abs/2608.13517v1"
-    ]
-  },
-  {
-    "title": "AlayaWorld: Interactive Long-Horizon World Modeling - Full Technical Report (v1.1)",
-    "link": "http://arxiv.org/abs/2608.13492v1",
-    "published": "2026-08-13T17:21:03+00:00",
-    "summary": "This report presents an improved version of AlayaWorld. While the backbone architecture, chunk-wise autoregressive generation scheme, and training data remain unchanged from the previous release, we substantially revise how conditioning signals are represented and integrated into the model. The new design is guided by a simple principle: conditioning signals should match the generated content as closely as possible in both latent representation and temporal structure. To this end, we make two ma",
-    "author": "AlayaWorld Team, Kaipeng Zhang, Chuanhao Li, Yifan Zhan, Yongtao Ge, Yuanyang Yin, Jiaming Tan, Kang He, Liaoyuan Fan, Mingliang Zhai, Ruicong Liu, Xiaojie Xu, Xuangeng Chu, Zhen Li, Zhengyuan Lin, Zhixiang Wang, Zian Meng, Zihui Gao",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2608.13492v1"
-    ]
-  },
-  {
-    "title": "Toward a Gricean Retreat: Probing LLMs for Knowledge Boundaries and Referent Specificity",
-    "link": "http://arxiv.org/abs/2608.13484v1",
-    "published": "2026-08-13T17:13:41+00:00",
-    "summary": "When asked about entities outside their knowledge boundary, LLMs routinely fabricate plausible-sounding details rather than backing off to safer, more general claims. We frame this failure through a Gricean lens: a cooperative speaker who is uncertain about a referent retreats up the specificity hierarchy, trading informativeness for truthfulness. We ask whether LLMs have the ingredients to perform this retreat. Using a T-REx-based benchmark that varies entity familiarity and referent specificit",
-    "author": "Dananjay Srinivas, Saksham Khatwani, Maria Pacheco",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2608.13484v1"
-    ]
-  },
-  {
-    "title": "Synthetic Persona Pretraining: Alignment from Token Zero",
-    "link": "http://arxiv.org/abs/2608.13482v1",
-    "published": "2026-08-13T17:12:04+00:00",
-    "summary": "As language-model-based AI is increasingly deployed in autonomous settings, aligning its goals and values with those of humans becomes critical. Today, alignment, and the assistant identity itself, are typically introduced only after pretraining, once behavioral priors are already established. This can make values a thin overlay, rather than deeply rooted, and facilitate subsequent misalignment. Pursuing a different paradigm, we introduce Synthetic Persona Pretraining (SPP), which installs the d",
-    "author": "Julian Minder, Viktor Moskvoretskii, Raghav Singhal, Difan Jiao, Andy Arditi, Shaobo Cui, Yiderigun Borjigin, Kartik Bali, Stefan Krsteski, Harsh Raj, Huu Nguyen, Jannik Brinkmann, Ashton Anderson, Roland Aydin, Robert West",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2608.13482v1"
-    ]
-  },
-  {
-    "title": "MARC v1: An Open-Source Multi-Agent Framework for Clinical AI Reasoning and Coordination",
-    "link": "http://arxiv.org/abs/2608.13476v1",
-    "published": "2026-08-13T17:00:08+00:00",
-    "summary": "We present Multi-Agent Reasoning and Coordination (MARC), an open-source framework that replaces monolithic LLM prompting with deterministic multi-agent orchestration for clinical reasoning. MARC coordinates role-specialized agents for extraction, reasoning, answer generation, and evaluation, with explicit context passing and traceable intermediate outputs, enabling stage-wise failure attribution. We additionally introduce a Decomposer module that generates task-specific agent prompts from a pla",
-    "author": "Saisha Shetty, Satvik Tripathi, Austin Lin, Colin Zhao, Theodore Kim, Don Enwerem, Jacinta Arnold, Shahriar Faghani, Tessa S Cook",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "https://github.com/Penn-RAIL/MARC-v1",
-      "http://arxiv.org/abs/2608.13476v1"
-    ]
-  },
-  {
-    "title": "AaLLM: An End-to-End Analog Circuit Design Framework from Topology Generation to Sizing Using Large Language Models",
-    "link": "http://arxiv.org/abs/2608.13472v1",
-    "published": "2026-08-13T16:57:07+00:00",
-    "summary": "Analog circuit design is a time-consuming, iterative process in a nonlinear and high-dimensional design space that relies heavily on expert intuition. Among recent developments, LLMs have introduced a promising approach by bringing natural language reasoning to circuit design tasks. The majority of conventional LLM-based approaches provide fragmented solutions that focus either only on sizing or topology generation. These methods require adding specific technical knowledge manually, which is ine",
-    "author": "Mohammed Ayman Habib, Rylan Hart, Morteza Fayazi",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2608.13472v1"
-    ]
-  },
-  {
-    "title": "Concept Drift Detection and Adaptive Retraining of Malware Classification Models",
-    "link": "http://arxiv.org/abs/2608.13465v1",
-    "published": "2026-08-13T16:46:56+00:00",
-    "summary": "Concept drift refers to changes over time in the statistical properties of data, as compared to the data that was used to train a learning model. Machine learning models for malware detection or classification are particularly susceptible to performance degradation caused by concept drift, as attackers constantly modify existing malware. In this chapter, we analyze two machine learning-based approaches to automated concept drift detection-a novel approach based on One-Class Support Vector Machin",
-    "author": "Christofer Washington Berruz Chungata, Martin Jurecek, Katerina Potika, William B. Andreopoulos, Mark Stamp",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2608.13465v1"
-    ]
-  },
-  {
-    "title": "MLLM-Routed Heterogeneous Ensembles for Robust Cross-Dataset Image Classification",
-    "link": "http://arxiv.org/abs/2608.13463v1",
-    "published": "2026-08-13T16:45:24+00:00",
-    "summary": "Modern image classification models excel when trained on single task-specific datasets but often struggle to generalize across domains and difficulty levels. We propose ARMDIL, an Adaptive Router for Multi-Domain Image classification with LLMs. ARMDIL is an ensemble that uses a multimodal large language model (MLLM) agent to dynamically route each image to the most suitable vision backbone. Our diverse ensemble employs convolutional neural networks (ResNets), self-supervised representation learn",
-    "author": "Daniel Perkins, John Squires, Janou Milligan, Chandra Raskoti, Linda Ungerboeck",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2608.13463v1"
     ]
   },
   {
