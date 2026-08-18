@@ -12,6 +12,187 @@
     ]
   },
   {
+    "title": "Don't Drop the BATON: Long-Horizon Robot Manipulation via Agentic Subtask Exploration and Transition-aware Memory",
+    "link": "http://arxiv.org/abs/2608.16889v1",
+    "published": "2026-08-17T17:59:57+00:00",
+    "summary": "Long-horizon robot manipulation chains many contact-rich skills into one multi-stage task. Vision-language-action (VLA) models increasingly master the individual skills, yet the chain still fails: errors compound beyond the policy's ability to correct, and one subtask silently constrains the next. A promising recipe freezes the VLA and puts an LLM agent in charge: it plans in language, moves in free space with analytic primitives, invokes the VLA only for contact-rich segments, and writes adapta",
+    "author": "Bingxin Xu, Yuzhang Shang, Emilio Ferrara",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2608.16889v1"
+    ]
+  },
+  {
+    "title": "Improving the matrix multiplication exponent with modern optimization and AlphaEvolve",
+    "link": "http://arxiv.org/abs/2608.16884v1",
+    "published": "2026-08-17T17:59:05+00:00",
+    "summary": "The current best bounds on the matrix multiplication exponent $ω$ are obtained through a refinement of the laser method called combination loss analysis (Duan et al., 2022; Williams et al., 2024; Alman et al., 2025). In this note, we address the optimization problem at the core of this approach and propose several improvements. First, we reformulate the optimization problem allowing us to solve it in a larger setting than was previously possible. Second, we leverage recent advances in machine le",
+    "author": "Emilien Dupont, Marvin Eisenberger, Borislav Kozlovskii, Abbas Mehrabian, Francisco J. R. Ruiz, Abigail See, Renfei Zhou, Josh Alman, Virginia Vassilevska Williams, Matej Balog",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2608.16884v1"
+    ]
+  },
+  {
+    "title": "AutoSR: Automatic Symbolic Regression by Searching Research States",
+    "link": "http://arxiv.org/abs/2608.16876v1",
+    "published": "2026-08-17T17:55:26+00:00",
+    "summary": "We introduce Automatic Symbolic Regression (AutoSR), a fully automated system that instantiates Research-Space Symbolic Regression by searching persistent scientific investigations rather than isolated equations. Finite, noisy data often yield numerically competitive expressions that imply very different behavior outside the observed regime, making numerical fit and syntactic complexity insufficient measures of scientific credibility. Existing approaches largely focus on improving expressions, y",
+    "author": "Kejia Zhang, Youran Sun, Xinyu Ren, Chugang Yi, Haizhao Yang",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2608.16876v1"
+    ]
+  },
+  {
+    "title": "Towards Computational Provenance: Carrying Causal-State Evidence in Generated Text",
+    "link": "http://arxiv.org/abs/2608.16868v1",
+    "published": "2026-08-17T17:50:04+00:00",
+    "summary": "A language model's output does not by itself provide verifiable evidence about the internal computation that produced it. We study computational provenance: whether generated text can carry detectable evidence of which causally relevant internal state occurred. We test a bounded form of this idea in two controlled architectures: a modular feed-forward neural network and a transformer-based model. Both architectures are trained on the same arithmetic task with a mandatory pathway through two disc",
+    "author": "Benjamin Belay",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2608.16868v1"
+    ]
+  },
+  {
+    "title": "What Do Compliance Detectors Read? An Audit of Activation Probes and Guard Models",
+    "link": "http://arxiv.org/abs/2608.16852v1",
+    "published": "2026-08-17T17:37:07+00:00",
+    "summary": "Regulatory compliance monitoring in deployed language models is increasingly implemented as a legal and audit control, checking model outputs against written rules spanning data protection, healthcare, financial regulation, and platform policy. Such monitoring is meaningful only if a detector's verdict depends on the stated rule rather than on surface features of the scenario. We show this condition fails across the current class of compliance detectors, a failure we call rule blindness. Deletin",
+    "author": "Saisab Sadhu, Aadit Sengupta, Vinay Kumar Sankarapu, Pratinav Seth",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2608.16852v1"
+    ]
+  },
+  {
+    "title": "Proteus: Incremental Memory Activation for Long-Context Sequence Modeling",
+    "link": "http://arxiv.org/abs/2608.16844v1",
+    "published": "2026-08-17T17:30:43+00:00",
+    "summary": "The quadratic cost of attention-based sequence models for long contexts has motivated a growing line of research on memory-based models that can compress context into a compact state. However, most existing memory models expose a static memory throughout the entire sequence. Because early tokens face no compression pressure, they occupy too many degrees of freedom and \"pollute\" the memory state, leaving little capacity for later context and increasing interference between what is stored and what",
+    "author": "Reza Bayat, Ali Behrouz, Vahab Mirrokni, Aaron Courville",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2608.16844v1"
+    ]
+  },
+  {
+    "title": "HAF: Adapting Generalist VLAs to Humanoid Whole-Body Loco-manipulation via Hierarchical Action Flow and Spectral Latent RL",
+    "link": "http://arxiv.org/abs/2608.16837v1",
+    "published": "2026-08-17T17:22:33+00:00",
+    "summary": "Humanoid robots hold great promise as general-purpose agents in human-centered environments, yet generalist vision-language-action (VLA) foundation models are not readily applicable to humanoid whole-body loco-manipulation. The high dimensionality and interdependence of humanoid motions make it challenging for conventional single-stage VLA architectures to coordinate locomotion, waist posture, and dual-arm manipulation effectively. Moreover, policies trained through offline behavior cloning can ",
+    "author": "Langzhe Gu, Chengkai Hou, Meng Li, Xinhua Wang, Jiaming Liu, Xinyuan Lv, Bowei Zhang, Shuanghao Bai, Guangrun Li, Jingyang He, Gaole Dai, Ziluo Ding, Zhiyuan Xu, Kuan Cheng, Jian Tang, Zhengping Che, Shanghang Zhang",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "https://grange007.github.io/HAF",
+      "http://arxiv.org/abs/2608.16837v1"
+    ]
+  },
+  {
+    "title": "Model Hypnosis: Strong control of AI via additive subliminal effects",
+    "link": "http://arxiv.org/abs/2608.16834v1",
+    "published": "2026-08-17T17:20:10+00:00",
+    "summary": "We demonstrate that AI models are broadly susceptible to a phenomenon we call model hypnosis, in which individually weak and seemingly irrelevant cues in the prompt can be systematically combined to strongly control model behavior. Model hypnosis occurs across model families and scales, including in frontier reasoning models, and hypnotic prompts can transfer between models. Because the model is controlled by inconspicuous textual choices, such as paraphrases and typos, model hypnosis presents n",
+    "author": "Enric Boix-Adsera, Benedict Tessler",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2608.16834v1"
+    ]
+  },
+  {
+    "title": "Policy Iteration with Human Feedback: Bringing Post-Training RL to In-context Learning",
+    "link": "http://arxiv.org/abs/2608.16831v1",
+    "published": "2026-08-17T17:16:43+00:00",
+    "summary": "Generative pretraining established reusable task representations; later work on language-based task conditioning and in-context learning showed that a fixed model could adapt its behavior from instructions and demonstrations. Policy Iteration with Human Feedback (PIHF) builds on this development and the recurrent evaluate-and-improve structure of generalized policy iteration. PIHF uses a pretrained language model as its execution substrate and moves persistent revision to a versioned natural-lan",
+    "author": "Minh-Ha Nguyen, Cathy Shyr",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2608.16831v1"
+    ]
+  },
+  {
+    "title": "CaliBench: Are the Stochastic Dynamics of Video World Models Physically Calibrated?",
+    "link": "http://arxiv.org/abs/2608.16829v1",
+    "published": "2026-08-17T17:14:50+00:00",
+    "summary": "Video world models approximate the stochastic distribution of physical outcomes through generative sampling, but existing benchmarks score individual generations or compare distributions coarsely over a whole dataset, leaving the fine-grained aleatoric uncertainty of specific phenomena untested. We introduce CaliBench, which scores outcomes in a physically interpretable discrete space - a bin index, a die face, a suit, a colour - rather than a learned feature space such as in FID, so the distanc",
+    "author": "Jonathan Sadeghi, Jenny Seidenschwarz, Jesse Allardice, Sirish Srinivasan, Benjamin Graham, Jeffrey Hawke",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2608.16829v1"
+    ]
+  },
+  {
+    "title": "Quipu: A Governed Bitemporal Knowledge Graph Store",
+    "link": "http://arxiv.org/abs/2608.16813v1",
+    "published": "2026-08-17T17:04:29+00:00",
+    "summary": "Agents now write knowledge graphs, but knowledge-graph stores still carry defaults set when humans curated them: accept writes now and clean later, keep one time axis or none, treat every writer's facts as equally trustworthy, and leave governance to dashboards and middleware. These four defaults are individually convenient and jointly untenable under agent workloads. We present Quipu, an embeddable store that inverts all four: no fact enters except through a gate whose predicates evaluate the p",
+    "author": "Steve Brown",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2608.16813v1"
+    ]
+  },
+  {
+    "title": "When State Becomes an Attack Surface: State-Semantic Injection in LLM-Driven Embodied Agents",
+    "link": "http://arxiv.org/abs/2608.16806v1",
+    "published": "2026-08-17T17:02:07+00:00",
+    "summary": "Large Language Models (LLMs) have demonstrated capabilities in in-context learning, task decomposition, step-by-step reasoning, and code generation, driving their gradual evolution from text generation models into the core of agents capable of perceiving environments, invoking tools, and executing tasks. Traditional LLM Agents typically obtain information through webpages, documents, databases, or external tools and generate corresponding invocation sequences according to user goals; when this t",
+    "author": "Jiawei Liu, Jiacheng Guo, Tian Zhang, Yiwei Xu, Juan Wang, Jinlin Fan, Bowen Xiao, Chi Guo, Keyan Guo, Hongxin Hu",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2608.16806v1"
+    ]
+  },
+  {
+    "title": "Diagnosing Dense Same-Class Attribute Misbinding in Large Vision-Language Models",
+    "link": "http://arxiv.org/abs/2608.16805v1",
+    "published": "2026-08-17T17:01:21+00:00",
+    "summary": "Large vision-language models can recognize the objects and attributes in a crowded scene yet assign an attribute to the wrong same-class instance. Generic visual-question-answering accuracy marks the response as wrong, while object-hallucination metrics may regard both the object and attribute as image-supported; neither reveals the transfer. This study formalizes this blind spot as Dense Same-Class Attribute Misbinding (DSCAM) and presents InstaBind-Lite, a controlled benchmark that makes it di",
+    "author": "Yuanzhi Xu, Qian Gao, Jun Fan, Guohui Ding, Zhenyu Yang, Yuteng Xiao, Sixue Lin",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2608.16805v1"
+    ]
+  },
+  {
+    "title": "Cross-Sign Language Transfer Learning Using Domain Adaptation with Multi-scale Temporal Alignment",
+    "link": "http://arxiv.org/abs/2608.16804v1",
+    "published": "2026-08-17T17:00:36+00:00",
+    "summary": "Sign language serves as a vital means of communication for individuals with hearing impairments, yet recognition resources for the over 100 distinct sign languages are severely lacking. In response, we present our work on sign language recognition using transfer learning and the domain adaptation method TA3N, which utilizes the Temporal Relational Network (TRN) module for aligning multi-scale temporal relations. Our findings highlight the superior performance of Domain Adaptation to neural netwo",
+    "author": "Keren Artiaga, Yang Li, Ercan Engin Kuruoglu, Wai Kin, Chan",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2608.16804v1"
+    ]
+  },
+  {
+    "title": "When Agents Coordinate: Measuring Coordination in Multi-Agent AI Coding",
+    "link": "http://arxiv.org/abs/2608.16801v1",
+    "published": "2026-08-17T16:57:38+00:00",
+    "summary": "We study how teams of AI coding agents coordinate while solving programming tasks. Current evaluations usually report whether the agents complete the task and how much the run costs, leaving the coordination inside the team largely unmeasured. We introduce an instrument to measure this coordination. Each run is represented as a temporal network in which agents and files are nodes, and messages, file writes, and file reads are timestamped directed edges with an associated cost. We apply this inst",
+    "author": "Giuseppe Destefanis, Tomaso Aste",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2608.16801v1"
+    ]
+  },
+  {
     "title": "The Download: dead robot friends and the “censorship-industrial complex”",
     "link": "https://www.technologyreview.com/2026/08/17/1142175/the-download-dead-robot-friends-censorship-industrial-complex/",
     "published": "2026-08-17T12:10:00+00:00",
@@ -93,187 +274,6 @@
     "category": "official",
     "references": [
       "https://openai.com/index/new-policy-ideas-for-the-intelligence-age"
-    ]
-  },
-  {
-    "title": "The Authority Resolution Framework: A Five-Domain Ontology for Governing Who and What Decides, at Scale",
-    "link": "http://arxiv.org/abs/2608.15832v1",
-    "published": "2026-08-16T16:05:50+00:00",
-    "summary": "As AI systems become increasingly capable of autonomous action, determining whether an agent is technically capable of performing an action is insufficient: the system must also determine whether the action is authorised in its context. This paper introduces the Authority Resolution Framework (ARF), a five-domain ontology for representing and resolving authority across organisational roles and informal influence, business concepts, codified processes, machine-readable permissions and executable ",
-    "author": "Parviz Shariff",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2608.15832v1"
-    ]
-  },
-  {
-    "title": "CardiacMamba: Fair and Robust RGB-RF Fusion for Remote Heart Rate Estimation via State Space Modeling",
-    "link": "http://arxiv.org/abs/2608.15831v1",
-    "published": "2026-08-16T16:05:24+00:00",
-    "summary": "Remote photoplethysmography (rPPG) enables non-contact heart rate (HR) monitoring from facial videos, but RGB-only methods are vulnerable to illumination changes, motion artifacts, and skin-tone-dependent optical reflectance. We propose CardiacMamba, a fair and robust RGB-RF fusion framework that integrates optical facial cues and radio-frequency cardiac motion cues through state space modeling. CardiacMamba introduces a Temporal Difference Mamba Module (TDMM) to enhance subtle RF temporal varia",
-    "author": "Bo Zhao, Zheng Wu, Yiping Xie, Zitong YU",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2608.15831v1"
-    ]
-  },
-  {
-    "title": "A Cognitively Motivated Multidimensional Framework for Evaluating Metaphor Explanations",
-    "link": "http://arxiv.org/abs/2608.15828v1",
-    "published": "2026-08-16T16:02:19+00:00",
-    "summary": "Current evaluation of metaphor explanations relies mainly on holistic quality ratings, revealing little about how explanation quality is structured or where human judgments agree and diverge. We introduce a cognitively motivated framework that decomposes metaphor explanation quality into six theoretically grounded dimensions. In a dense annotation study (11,200 ratings), we find that: {\\bfseries(i)} explanation quality is genuinely multidimensional; {\\bfseries(ii)} annotator disagreement is syst",
-    "author": "Ana Naveriani, Jakob Suchan, Stefano Zoia, Mehul Bhatt, Antonio Lieto, Gian Luca Pozzato",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2608.15828v1"
-    ]
-  },
-  {
-    "title": "RLCascadeRouter: Quality-Estimator-Free Cascade Routing via Reinforcement Learning",
-    "link": "http://arxiv.org/abs/2608.15817v1",
-    "published": "2026-08-16T15:47:04+00:00",
-    "summary": "The growing ecosystem of large language models (LLMs) offers huge potential to optimize performance-cost trade-offs. However, their heterogeneous capabilities and inference costs make efficiently routing queries a significant challenge. Existing paradigms are inflexible: one-shot routers commit before observing responses, whereas conventional cascades stop adaptively but follow a fixed model order. Cascade routing removes both restrictions by reconsidering whether to stop or invoke another model",
-    "author": "Shihong Huang, Shengjie Wang, Hong Ma, Zhou Xu",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2608.15817v1"
-    ]
-  },
-  {
-    "title": "Pricing the Risk of Runtime Compression: Anytime-Valid Admission and a Served-Output Law for Compressed Serving State",
-    "link": "http://arxiv.org/abs/2608.15810v1",
-    "published": "2026-08-16T15:37:44+00:00",
-    "summary": "Runtime compression of serving state trades quality for capacity with no priced guarantee: systems adapt precision on load signals with no soundness statement, and certified approaches budget request-level risk by a union bound over a pre-declared event count. We show the union budget exhausts on every long request in a production serving stack (100% of requests), and replace it with an anytime-valid, physically accounted ledger whose bound holds at every one of 352,333 admission calls on live t",
-    "author": "Fanzhe Wei, Li Liu",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2608.15810v1"
-    ]
-  },
-  {
-    "title": "KV-Rescue: Recovering Reasoning Language Model KV Eviction Loss via Stepwise Interleaving",
-    "link": "http://arxiv.org/abs/2608.15797v1",
-    "published": "2026-08-16T15:23:25+00:00",
-    "summary": "KV-cache eviction caps the memory cost of long reasoning traces but is inherently lossy because the model decodes from a partial view of its history. Under aggressive budgets, this not only lowers accuracy but can also cause runaway degeneration, where the model produces incoherent or repetitive tokens until reaching the length limit. We characterize much of this loss as an information gapf caused by missing context, rather than a capability gap caused by limited model capacity. An evicted 7B mo",
-    "author": "Minsoo Cheong, Woosang Lim, Vincent-Daniel Yun, Sungjoo Yoo",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2608.15797v1"
-    ]
-  },
-  {
-    "title": "Routing Divergence Is Not Evidence of Behavioral Influence in Same-Weight MoE Self-Distillation",
-    "link": "http://arxiv.org/abs/2608.15787v1",
-    "published": "2026-08-16T15:07:17+00:00",
-    "summary": "Two Mixture-of-Experts (MoE) forward passes can share every weight yet route the same token through different experts. This creates a possible blind spot in same-weight self-distillation, where a demonstration-conditioned teacher supervises a query-only student. We study this mismatch in its single-step form, with frozen weights rather than as a proxy for a full training trajectory. An exact blockwise decomposition separates a routing term, which changes gates at fixed content, from a dense-like",
-    "author": "Cedric Caruzzo, Donggeun Yoo, Tae Soo Kim",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2608.15787v1"
-    ]
-  },
-  {
-    "title": "Decomposing Staleness in Recommender Systems: A Dual-Filter Framework for Supersession and Decay",
-    "link": "http://arxiv.org/abs/2608.15780v1",
-    "published": "2026-08-16T15:00:24+00:00",
-    "summary": "Stale recommendations are a pervasive challenge and a leading source of user complaints on large-scale content platforms. Items lose relevance through two primary mechanisms: supersession, where emerging updates render prior coverage stale, and relevance decay, where an item's informational value naturally diminishes over its lifecycle. Traditional countermeasures serve as crude proxies: age cutoffs poorly reflect actual relevance loss, while engagement heuristics rely on lagging signals, broadl",
-    "author": "Di Bai, Feng Han, Zhenwei Tang, Jintao Liu, Luoshu Wang, Jialu Liu",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2608.15780v1"
-    ]
-  },
-  {
-    "title": "ALKEMIE Agent: an autonomous platform for computational materials design",
-    "link": "http://arxiv.org/abs/2608.15776v1",
-    "published": "2026-08-16T14:54:00+00:00",
-    "summary": "Despite the powerful multi-scale modeling methods and high-throughput infrastructures established in the materials community, real material computation workflows remain fragmented and heavily manual, requiring researchers to constantly bridge software tools, data analysis, and intermediate decisions. This growing gap between methodological capability and practical execution highlights the need for a new kind of autonomous computational framework, one that can coordinate tools, knowledge, and wor",
-    "author": "Hongfu Huang, Yuzhe Li, Ao Xu, Bo Liu, Changrui Wang, Kan Tang, Ning Yang, Shengxian Liu, Hanyu Liu, Pengpeng Zhang, Linggang Zhu, Fengkai Liu, Yichen Lu, Tong Zhao, Naihua Miao, Jian Zhou, Zhimei Sun",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2608.15776v1"
-    ]
-  },
-  {
-    "title": "Broken Symmetry in LLM Refusal: Answer Release Is More Local Than Refusal Restoration",
-    "link": "http://arxiv.org/abs/2608.15772v1",
-    "published": "2026-08-16T14:47:33+00:00",
-    "summary": "When a language model refuses to answer a prompt, it is unclear whether the correct answer is erased from its internal representations, or merely suppressed at the output layer. We investigate this mechanism using a controlled withhold setting, which yields perfectly matched answering and refusal trajectories for bidirectional activation patching. We uncover a causal asymmetry in intervention locality under matched causal interventions, which we term broken symmetry. Even when a model generates ",
-    "author": "Yiqi Liu, Yang Wang, Songxin Wang, Chenghao Xiao, Chenghua Lin",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2608.15772v1"
-    ]
-  },
-  {
-    "title": "Temporal Graph Prototype-conditioned Conformal Prediction for Fraud Detection",
-    "link": "http://arxiv.org/abs/2608.15768v1",
-    "published": "2026-08-16T14:44:16+00:00",
-    "summary": "Conformal prediction (CP) provides distribution-free coverage guarantees and has emerged as a principled tool for uncertainty quantification. In edge-level fraud detection on temporal interaction graphs, where false positives and false negatives both carry substantial cost, such coverage guarantees are particularly appealing for risk-aware decision making. However, directly applying existing graph conformal predictors yields inefficient prediction sets due to two recurring properties of fraud da",
-    "author": "Xudong Chen, Shengbo Gong, Lu Cheng, Wei Jin",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "https://github.com/Picard1701ent/ProtoCP.git",
-      "http://arxiv.org/abs/2608.15768v1"
-    ]
-  },
-  {
-    "title": "TinyCast: Probabilistic Zero-Shot Forecasting with Computed Periodicity",
-    "link": "http://arxiv.org/abs/2608.15767v1",
-    "published": "2026-08-16T14:40:44+00:00",
-    "summary": "We introduce TinyCast, an attention-free zero-shot forecaster that emits a predictive distribution from 146,505 parameters, on the premise that at this size the periodic structure of a context is worth computing rather than learning. A zero-parameter spectral detector supplies the dominant periods, the context is folded on their phase, and a dilated convolutional encoder and a block-autoregressive quantile decoder model the rest. It is smaller than every zero-shot entry on the GIFT-Eval board wh",
-    "author": "Armin Steinhauser",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2608.15767v1"
-    ]
-  },
-  {
-    "title": "Intent-Driven Situation Tracking for User-Centric Multi-Turn Agents",
-    "link": "http://arxiv.org/abs/2608.15755v1",
-    "published": "2026-08-16T14:14:07+00:00",
-    "summary": "User-centric multi-turn agents must act on an evolving task situation shaped by changing user intents, accumulated tool-grounded facts, missing information, and execution constraints. Existing context-management methods improve the use of past interaction history, but rarely maintain an explicit situation state that separates grounded facts from task-state judgments. As a result, agents often need to infer fine-grained attributes, task dependencies, and constraint satisfaction implicitly from di",
-    "author": "Meiling Tao, Yiling Tao, Peng Wang",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2608.15755v1"
-    ]
-  },
-  {
-    "title": "Propaganda Forensics: Recovering the Generation Pipeline of an AI-Driven Influence Campaign",
-    "link": "http://arxiv.org/abs/2608.15746v1",
-    "published": "2026-08-16T13:53:30+00:00",
-    "summary": "We present a forensic analysis of the generation pipeline behind a recent AI-driven influence campaign. We introduce PROPAGIA, a corpus of 2,646 propagandist French articles from the Storm-1516/CopyCop campaign disclosed by VIGINUM and INSIKT GROUP in 2025. For comparison, we rely on SIPA, a corpus of human-written French mainstream press from the same period. Using topic modeling, vagueness and sentiment analysis, we first isolate persuasion techniques characteristic of propaganda, with PROPAGI",
-    "author": "Benjamin Icard, Elouan Vuichard, Louis Lefebvre, Lila Sainero, Thomas Girault, Alice Breton, Tanguy Launay, Gauvain Bourgne, Morgane Casanova, Guillaume Gadek, Victor Klötzer, Michel Le Nouy, Guillaume Gravier, Jean-Gabriel Ganascia, Paul Égré",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2608.15746v1"
-    ]
-  },
-  {
-    "title": "Toward AI-Friendly Cartography: Understanding How Color Design Influences Foundation Model Spatial Reasoning on Sequential Choropleth Maps",
-    "link": "http://arxiv.org/abs/2608.15736v1",
-    "published": "2026-08-16T13:24:31+00:00",
-    "summary": "Foundation models (FMs) increasingly support multimodal and geospatial reasoning, yet it remains unclear whether cartographic principles designed for human perception are equally effective for machines. Focusing on sequential choropleth maps, we examine how hue palette, color ordering, and lightness contrast influence FM spatial reasoning. We construct a controlled benchmark of 5,760 maps and 28,800 questions spanning Attribute Identify, Spatial Recognition, Compare, Rank, and Pattern Delineate,",
-    "author": "Yonghe Sun, Zhenjia Liu, Hua Liao, Wenjia Xu, Nai Yang, Weihua Dong, Zhiwei Wei",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2608.15736v1"
     ]
   },
   {
