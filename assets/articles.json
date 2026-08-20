@@ -24,6 +24,188 @@
     ]
   },
   {
+    "title": "SPADE: Self-Play in Adaptive Synthetic Executable Environments",
+    "link": "http://arxiv.org/abs/2608.19197v1",
+    "published": "2026-08-19T17:58:56+00:00",
+    "summary": "Continuous self-improvement requires an ever-expanding pool of self-generated, diverse, adaptive goals. For language agents, existing training environment pools (hand-curated, statically synthesized, or frozen-verifier) keep the goal distribution fixed as the learner scales. We introduce SPADE (Self-Play in Adaptive Synthetic Executable Environments), a self-play RL framework in which a single LLM plays two roles: an Environment Designer that writes complete, long-horizon training environments a",
+    "author": "Bo Liu, Simon Yu, Yiding Jiang, Ao Qu, Andrew Zhao, Zichen Liu, Junsu Kim, Zijian Zhou, Seungone Kim, Tongzheng Ren, Mickel Liu, Hanfei Yu, Zhaorun Chen, Weiyan Shi, Paul Pu Liang, Luke Zettlemoyer, Yejin Choi, Natasha Jaques",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2608.19197v1"
+    ]
+  },
+  {
+    "title": "ADEPT: Accelerating Dexterity via Pre-Training and Post-Training using Reinforcement Learning",
+    "link": "http://arxiv.org/abs/2608.19182v1",
+    "published": "2026-08-19T17:55:06+00:00",
+    "summary": "We introduce Accelerating Dexterity via Pre-Training (ADEPT), a large-scale reinforcement learning (RL) framework for learning sim-to-real transferable dexterity across high degree-of-freedom (DoF) robot embodiments that can solve long-horizon tasks directly from raw visuo-tactile perception. ADEPT pretrains a dexterous policy on a generic object reposing task, then post-trains downstream policies with this pretrained behavior as a prior. ADEPT enables learning new behaviors that are otherwise d",
+    "author": "Jayjun Lee, Jessica Yin, Asif Rana, Nicholas Blauch, Sam Mady, Mohak Bhardwaj, Nima Fazeli, Nathan Ratliff, Karl Van Wyk, Ankur Handa",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2608.19182v1"
+    ]
+  },
+  {
+    "title": "Beyond Teacher Likelihood: Group-Calibrated On-Policy Distillation for Long-Context Reasoning",
+    "link": "http://arxiv.org/abs/2608.19181v1",
+    "published": "2026-08-19T17:54:58+00:00",
+    "summary": "On-policy distillation (OPD) trains a student on its own responses using dense token-level guidance from a stronger teacher. In long-context tasks, however, token-level teacher support can favor locally plausible responses that omit evidence distributed across the input or violate global task constraints. Task-specific verifiers, in contrast, evaluate task completion at the response level and may return graded rewards that reflect partial success. We diagnose this mismatch on fixed responses fro",
+    "author": "Zhu Zhang, Jixun Wang, Xiaoang Xu, Xiaorong Wang, Zihan Zhou, Zhiyuan Wang, Shuo Wang, Chaojun Xiao, Yuezhi Zhou",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "https://github.com/SolereZhang/GC-OPD",
+      "http://arxiv.org/abs/2608.19181v1"
+    ]
+  },
+  {
+    "title": "Finetuning Strategies for Querying Sounds by Vocal Imitation",
+    "link": "http://arxiv.org/abs/2608.19174v1",
+    "published": "2026-08-19T17:51:50+00:00",
+    "summary": "This technical report describes our winning submission to the AES AIMLA 2025 Challenge on querying sound effects by vocal imitation. We investigate two complementary fine-tuning strategies: contrastive learning with a frozen, pretrained CED encoder, and joint contrastive-triplet learning with semi-hard negatives using a MobileNetV3 encoder. This report has been updated for posterity to include details released after the challenge.",
+    "author": "Aditya Bhattacharjee, Christos Plachouras, Sungkyun Chang, Emmanouil Benetos",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2608.19174v1"
+    ]
+  },
+  {
+    "title": "Interpretable AI predicts a 2026 summer dry anomaly in central China",
+    "link": "http://arxiv.org/abs/2608.19163v1",
+    "published": "2026-08-19T17:43:49+00:00",
+    "summary": "Seasonal precipitation anomalies are largely regulated by atmospheric circulation, which dynamical models predict with greater reliability than precipitation itself. Here, we employ a deep learning model that translates dynamical circulation predictions into precipitation estimates. Predictions initialized from March to May consistently indicate a dry anomaly over central China in summer 2026. Retrospective evaluations revealed higher predictive skill in the analogue years, which also tended to ",
+    "author": "Anran Wang, Wen Shi, Yong Luo, Jianbin Huang, Lijuan Chen, Junhu Zhao, Weixin Jin, Huihui Yuan",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2608.19163v1"
+    ]
+  },
+  {
+    "title": "Beyond the Transcript: Detecting Covert Co ordination in Latent Multi-Agent Communication",
+    "link": "http://arxiv.org/abs/2608.19161v1",
+    "published": "2026-08-19T17:43:22+00:00",
+    "summary": "Language-model agents can communicate through continuous hidden states that are invisible in public transcripts, creating opportunities for covert harmful coordination. We introduce Verifiable Latent Alignments (VLA), an activation-aware framework for monitoring and steering these private communication channels. For every monitored decision, VLA links the private latent-state record and channel status to the resulting public action using a shared event identifier, enabling matched causal analysi",
+    "author": "Ramneet Kaur, Pradyumna Chari, Ramesh Raskar, Jugad Singh, Sumit Kumar Jha, Anirban Roy",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2608.19161v1"
+    ]
+  },
+  {
+    "title": "Pre-Compiled Pipeline Shards for Distributed LLM Inference on Intel AI PC Fleets",
+    "link": "http://arxiv.org/abs/2608.19147v1",
+    "published": "2026-08-19T17:33:28+00:00",
+    "summary": "Modern Intel AI PCs ship capable integrated GPUs and NPUs with 16+ GB of unified memory, and they spend considerable time idle. That is not enough memory to fit a large model such as a 70B-parameter LLM. We show that a handful of AIPCs, working together over an ordinary network, can serve models beyond the capability of any single one. We use pipeline parallelism: a model is split by layer into per-stage shards, each pre-compiled into an OpenVINO graph, so that every machine runs one shard and p",
+    "author": "Tate Berenbaum, Muthaiah Venkatachalam",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "https://github.com/labscommunity/pipeline-sharded-inference-paper",
+      "http://arxiv.org/abs/2608.19147v1"
+    ]
+  },
+  {
+    "title": "Grouping the Stochastic Machine: Precision, Not Capability, as the Frontier Metric for AI Systems",
+    "link": "http://arxiv.org/abs/2608.19140v1",
+    "published": "2026-08-19T17:29:47+00:00",
+    "summary": "Frontier language models are compared, marketed, and benchmarked on capability -- what their best or average output can achieve. I argue this measures the wrong axis. The models have saturated accuracy: their mean output lands on the target. What now separates one system from another in practice is precision: how tightly concentrated their outputs are around that target across repeated, identical requests. Borrowing the marksman's distinction, capability is where the average shot lands; reliabil",
+    "author": "George Andrikopoulos",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2608.19140v1"
+    ]
+  },
+  {
+    "title": "Leaf Values as Coordinates: Exact Contrastive Explanation for Gradient-Boosted Ensembles",
+    "link": "http://arxiv.org/abs/2608.19127v1",
+    "published": "2026-08-19T17:20:33+00:00",
+    "summary": "A gradient-boosted ensemble predicts by summing one leaf value per tree. Read those values as coordinates rather than as intermediate results, and every instance becomes a point in R^M on which the model acts linearly: the score is the sum of the coordinates. This small change of view makes contrastive explanation exact. The difference between two instances is a vector that is identically zero wherever they share a leaf, so the gap between a rejected applicant and an accepted one is carried by a",
+    "author": "Emanuele Luzio",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2608.19127v1"
+    ]
+  },
+  {
+    "title": "Tuning the Stochastic Machine: A Systems Engineer's Operating Model for Human-AI Engineering",
+    "link": "http://arxiv.org/abs/2608.19125v1",
+    "published": "2026-08-19T17:18:53+00:00",
+    "summary": "When an expert corrects an LLM assistant's error, the correction usually dies with the session, and the error class returns. I argue this is an operations problem, not a tooling problem: mechanisms for persisting corrections exist and are shipping, but the discipline for governing them -- versioning with provenance, recurrence monitoring, counter-metrics, retirement of stale rules -- does not. Writing as a systems engineer of thirty years, I map the LLM stack onto the machines my profession alre",
+    "author": "George Andrikopoulos",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2608.19125v1"
+    ]
+  },
+  {
+    "title": "PGFS++: Molecular Property Improvement under Synthesis and Diversity Constraints",
+    "link": "http://arxiv.org/abs/2608.19121v1",
+    "published": "2026-08-19T17:17:31+00:00",
+    "summary": "Improving molecular properties, such as drug-likeness or binding affinity, is a recurring task in early-stage drug discovery. However, molecules optimized in an unconstrained chemical space have limited practical value if they cannot be synthesized. Policy Gradient for Forward Synthesis (PGFS) is a synthesis-aware reinforcement learning method for molecular improvement, but its use of reactant embedding prediction makes reactant selection indirect, which, as we show, limits learning effectivenes",
+    "author": "Boqiao Zhang, Godbless James, Sai Krishna Gottipati, Andrew Fitzgibbon",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2608.19121v1"
+    ]
+  },
+  {
+    "title": "Discretizing Continuous Time Series for Imputation with Masked Diffusion Training",
+    "link": "http://arxiv.org/abs/2608.19119v1",
+    "published": "2026-08-19T17:16:27+00:00",
+    "summary": "Time series imputation is a crucial area for reliable time series analysis, yet it remains challenging due to the complex temporal dynamics and noise of real-world data. Existing approaches, however, exhibit two limitations: missing and observed values are embedded within the same representation space without explicit structural separation, and continuous diffusion-based methods are trained to predict added noise rather than the original signal. To address these, we propose the Masked Diffusion ",
+    "author": "Dongbin Kim, Seungyun Lee, Geonwoo Shin, Jaewook Lee",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2608.19119v1"
+    ]
+  },
+  {
+    "title": "Open-MOPD: Diagnosing and Fixing Capability Imbalance in Multi-Teacher On-Policy Distillation",
+    "link": "http://arxiv.org/abs/2608.19098v1",
+    "published": "2026-08-19T16:50:39+00:00",
+    "summary": "Multi-teacher on-policy distillation (M-OPD) has emerged as a promising paradigm for consolidating domain-specialized reinforcement learning (RL) experts into a single generalist student via dense, token-level reward supervision. Despite its practical success, the optimization dynamics governing multi-teacher capability integration remain poorly understood, and open, rigorously reproducible recipes are conspicuously lacking. In this work, we establish a controlled M-OPD benchmark on SmolLM3-3B-B",
+    "author": "Huan-ang Gao, Haohan Chi, Yong Yan, Shiyuan Feng, Hanlin Wu, Zheng Jiang, Bingxiang He, Wei-Ying Ma, Ya-Qin Zhang, Hao Zhou",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2608.19098v1"
+    ]
+  },
+  {
+    "title": "Detecting Backdoors in Object Detection via Pre-NMS Prediction Distribution Shift",
+    "link": "http://arxiv.org/abs/2608.19088v1",
+    "published": "2026-08-19T16:38:39+00:00",
+    "summary": "Object detection models deployed in safety-critical applications remain vulnerable to backdoor attacks that cause targeted misbehaviors when a hidden trigger is present. Existing detection methods either rely on trigger inversion or exploit architecture-specific assumptions, and critically, representative existing methods fail to generalize reliably to scene-level attacks, where a single trigger induces anomalous behavior across all objects in the scene simultaneously. We present DistScan, a bac",
+    "author": "Longtian Wang, Zhengyu Zhao, Chenhao Lin, Le Yang, Shiwei Wang, Yuhan Zhi, Xiaofei Xie, Chao Shen",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2608.19088v1"
+    ]
+  },
+  {
+    "title": "DA-WAM: Decision-Aligned Future Latents for Driving World Models",
+    "link": "http://arxiv.org/abs/2608.19085v1",
+    "published": "2026-08-19T16:33:02+00:00",
+    "summary": "Anticipating how scenes evolve under ego actions is fundamental to safe autonomous driving, yet the full potential of world models for decision-making remains unrealized. The critical challenge lies in ensuring that future modeling is not merely predictive, but decision-informative: the predicted future must directly shape which trajectory is selected. Existing approaches decouple future representation learning from planning optimization, or share predicted states across trajectory candidates, t",
+    "author": "Ruiguo Zhong, Benshan Ma, Xiaolong Chen, Lang Zhang, Mingyue Feng, Yaonong Wang, Pei Liu, Jun Ma",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2608.19085v1"
+    ]
+  },
+  {
     "title": "The Download: AI’s self-improvement problem, and what’s driving the heat",
     "link": "https://www.technologyreview.com/2026/08/19/1140195/the-download-ai-recursive-self-improvement-problem-heatwave-causes/",
     "published": "2026-08-19T12:10:00+00:00",
