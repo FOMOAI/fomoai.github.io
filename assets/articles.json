@@ -1,5 +1,186 @@
 [
   {
+    "title": "Primal Acceleration of Newton's Method",
+    "link": "http://arxiv.org/abs/2608.21359v1",
+    "published": "2026-08-21T17:59:37+00:00",
+    "summary": "We develop a new direct accelerated Newton method for minimizing convex functions with Lipschitz continuous Hessian. The algorithm uses only primal variables and performs just one linear solve per iteration. With a simple predetermined choice of parameters, it achieves the global convergence rate of $O(1/k^3)$ in terms of the functional residual. To the best of our knowledge, this is the first second-order method for this problem class attaining this rate while relying solely on one linear syste",
+    "author": "Nikita Doikov",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2608.21359v1"
+    ]
+  },
+  {
+    "title": "VIALS: A Benchmark for Visual Interpretation of Artifacts in the Life Sciences",
+    "link": "http://arxiv.org/abs/2608.21357v1",
+    "published": "2026-08-21T17:59:26+00:00",
+    "summary": "In professional life sciences workflows, scientists routinely interpret visual artifacts (gel blots, microscopy images, plasmid maps, flow cytometry plots, molecular structures, ...) to inform research decisions. We introduce VIALS, a visual question-answering benchmark with 161 such interpretation tasks, spanning the types of artifacts examined throughout experimental workflows in the biotech industry (rather than polished figures from publications and textbooks). While frontier vision-language",
+    "author": "Elaine Lau, Thanuka Udumulla, Lee Izhaki-Tavor, Francisco Guzmán, Nicholas Magazine, Jonas Mueller",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2608.21357v1"
+    ]
+  },
+  {
+    "title": "AI with Authority, from Application to Silicon",
+    "link": "http://arxiv.org/abs/2608.21356v1",
+    "published": "2026-08-21T17:59:16+00:00",
+    "summary": "For sixty years, machine verification has been a major cost overhead, affordable only for exceptional artifacts. Here we report that generative AI inverts this relationship: at AI speed, machine verification is not only economical but essential to productivity --- it is the incorruptible referee that lets one person safely direct autonomous machine work at scale. In five weeks, one researcher on consumer AI subscriptions directed a small fleet of AI agents from application code, through a verifi",
+    "author": "Jason Hickey",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2608.21356v1"
+    ]
+  },
+  {
+    "title": "TurboBias 2.0: Streaming Context-Biasing for Production-Efficient ASR Systems",
+    "link": "http://arxiv.org/abs/2608.21343v1",
+    "published": "2026-08-21T17:50:00+00:00",
+    "summary": "Contextualization is essential for production automatic speech recognition (ASR) systems, where user-provided phrases must be recognized accurately under strict latency constraints. Although many context-biasing methods improve recognition accuracy, they often do not address the practical requirements of modern production ASR systems: streaming inference, efficient batched decoding, user-specific context lists, and low runtime overhead. We propose TurboBias 2.0, a production-oriented framework f",
+    "author": "Vladimir Bataev, Lilit Grigoryan, Andrei Andrusenko, Nikolay Karpov, Vitaly Lavrukhin, Boris Ginsburg",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2608.21343v1"
+    ]
+  },
+  {
+    "title": "Anatomy-Informed Neural Networks: Encoding Anatomic Priors in Loss and Architecture, with an SE(3) Formulation of Guidewire-Induced Aortoiliac Deformation",
+    "link": "http://arxiv.org/abs/2608.21332v1",
+    "published": "2026-08-21T17:38:42+00:00",
+    "summary": "Deep-learning models of anatomy can be numerically plausible yet anatomically impossible, and they generalize poorly when data are scarce. We introduce Anatomy-Informed Neural Networks (AINN), in which soft anatomic priors enter as penalty terms in the loss (e.g., a branching penalty that treats a renal transplant artery off the iliac instead of the aorta as unexpected rather than impossible), in direct analogy to a physics-informed neural network, and hard anatomic priors (e.g., continuity of t",
+    "author": "David P. Stonko",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2608.21332v1"
+    ]
+  },
+  {
+    "title": "Unified Branch-and-Bound Search for the Steiner Traveling Salesman Problem on Graphs of Convex Sets",
+    "link": "http://arxiv.org/abs/2608.21319v1",
+    "published": "2026-08-21T17:28:03+00:00",
+    "summary": "We formalize the Steiner Traveling Salesman Problem (Steiner-TSP) on Graphs of Convex Sets (GCS), which seeks a minimum-cost closed trajectory through required convex sets while allowing optional transit vertices and revisits. To explore the resulting infinite solution space, we propose a unified branch-and-bound search over rooted walk prefixes. Additive lower-bound-graph costs bound committed prefixes, while a cut-separated connected-flow relaxation lower-bounds the residual cost of visiting e",
+    "author": "Jingtao Tang, Hang Ma",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2608.21319v1"
+    ]
+  },
+  {
+    "title": "From Regulation to Implementation: A Critical Evaluation of LLM-Assisted Regulatory Compliance in Industry",
+    "link": "http://arxiv.org/abs/2608.21317v1",
+    "published": "2026-08-21T17:27:13+00:00",
+    "summary": "The European Union (EU) has emerged as a leading regulatory body in the development of sustainability and privacy regulations. While new regulation requirements vary, many include a documentation artifact to ensure compliance. Notably, the Ecodesign for Sustainable Products Regulation (ESPR) introduces Digital Product Passports (DPPs) for life cycle transparency, while the General Data Protection Regulation (GDPR) mandates Data Protection Impact Assessments (DPIAs) to mitigate privacy risks. Cre",
+    "author": "Adriana Watson, Marco Bücheler, Grant Richards",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2608.21317v1"
+    ]
+  },
+  {
+    "title": "Re$^3$Cap: Retrieval-Guided Refinement for Image Captioning Enhancement via Reinforcement Learning",
+    "link": "http://arxiv.org/abs/2608.21305v1",
+    "published": "2026-08-21T17:07:41+00:00",
+    "summary": "Reinforcement Learning (RL) has demonstrated significant gains in image captioning, yet it is still limited in encouraging Large Vision-Language Models (LVLMs) to explore novel reasoning strategies. This limitation leads to a performance gap between RL and Supervised Fine-Tuning (SFT). In this paper, we argue that multi-modal retrieval can serve as an effective reasoning signal for caption refinement. Based on this insight, we present the Retrieval-Guided Refinement for Image Captioning (Re$^3$C",
+    "author": "Haonan Jia, Shichao Dong, Zenghui Sun, Jiawen Zheng, Ziqi Miao, Gege Shi, Qiuyu Zhao, Jinsong Lan, Xiaoyong Zhu, Bo Zheng",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2608.21305v1"
+    ]
+  },
+  {
+    "title": "AUSO: Action-Level Unified Skill Optimization from Internalization to Utilization",
+    "link": "http://arxiv.org/abs/2608.21292v1",
+    "published": "2026-08-21T16:53:27+00:00",
+    "summary": "Skills play different roles as an agent's policy evolves: they should first provide learnable knowledge, then support capability formation, and finally be invoked only when they improve individual decisions. Existing methods rarely model this lifecycle. They either keep skills outside the model, fully internalize them, or select among internalization and utilization objectives through noisy task-level success rates. Such designs fragment training and assign uniform importance to actions within t",
+    "author": "Huizu Lin, Chengkai Huang, Tianqi Gao, Tao Huang, Daijiao Liu, Tongxin Li, Xiaoyan Sun, Lina Yao",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2608.21292v1"
+    ]
+  },
+  {
+    "title": "CLEAR: Continuous Latent Adapter Routing for Utility-Preserving LLM Safety Alignment",
+    "link": "http://arxiv.org/abs/2608.21278v1",
+    "published": "2026-08-21T16:36:10+00:00",
+    "summary": "Improving the safety of large language models (LLMs) often comes at the expense of utility, as globally applied safety tuning may affect model responses to both harmful and benign inputs. We propose \\textbf{C}ontinuous \\textbf{L}at\\textbf{E}nt \\textbf{A}dapter \\textbf{R}outing (CLEAR), a conditional safety adaptation framework that uses a lightweight hidden-state gate to continuously control the activation strength of a safety low-rank adapter. CLEAR aims to reduce harmful completions while avoi",
+    "author": "Chengxiao Wang, Enyi Jiang, Xiaojing Liao, Sanmi Koyejo",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2608.21278v1"
+    ]
+  },
+  {
+    "title": "EnSI-RAG: Entity-Structure-Indexed Retrieval-Augmented Generation for Long-Document Question Answering",
+    "link": "http://arxiv.org/abs/2608.21252v1",
+    "published": "2026-08-21T16:05:00+00:00",
+    "summary": "Question answering (QA) over long, connected documents remains challenging because relevant evidence may span multiple entities and their relationships. Existing retrieval-augmented generation (RAG) methods typically index documents as raw chunks and retrieve them through embedding similarity. Their performance degrades when chunk boundaries separate entities from supporting evidence or when a question requires multi-hop reasoning across the corpus. We propose EnSI-RAG (Entity-Structure-Indexed ",
+    "author": "Xuanyu Meng, Jiashuo Sun, Jash Rajesh Parekh, Jiawei Han",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "https://github.com/RamonMeng/EnSI-RAG",
+      "http://arxiv.org/abs/2608.21252v1"
+    ]
+  },
+  {
+    "title": "Adapting Knowledge Graphs for Behavior Denoising in Sequential Recommendation",
+    "link": "http://arxiv.org/abs/2608.21243v1",
+    "published": "2026-08-21T15:54:39+00:00",
+    "summary": "Sequential recommendation predicts the next item from a user's interaction history, but not every interaction is equally informative. Real logs combine persistent preferences with temporary needs, exploration, and incidental behavior, so some interactions can distort history representations or provide unreliable supervision. Existing denoising methods judge such interactions mainly from co-occurrence, order, or model predictions, without explicit evidence from relations between items. Knowledge ",
+    "author": "Zichun Jin, Zihan Zhou, Yinan Liu, Bin Wang, Xiaochun Yang",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2608.21243v1"
+    ]
+  },
+  {
+    "title": "Fine-Grain GPU Parallelization of the Generalized Partition Crossover for Large-Scale Traveling Salesman Problems",
+    "link": "http://arxiv.org/abs/2608.21233v1",
+    "published": "2026-08-21T15:42:05+00:00",
+    "summary": "The Traveling Salesman Problem (TSP) is one of the most extensively studied NP-hard optimization problems. Genetic Algorithm (GA)-based solvers, such as the Edge Assembly Crossover (EAX), achieve state-of-the-art performance on many benchmark instances. However, the scalability of these approaches in massively parallel architectures remains limited because crossover operations involve irregular memory access patterns, graph traversals, and sequential dependencies. Existing GPU-based TSP solvers ",
+    "author": "Swetha Varadarajan, Darrell Whitley",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2608.21233v1"
+    ]
+  },
+  {
+    "title": "Utility Under Attack: Agent Memory Poisoning and the Limits of Content Screening and Provenance Ranking",
+    "link": "http://arxiv.org/abs/2608.21230v1",
+    "published": "2026-08-21T15:37:35+00:00",
+    "summary": "Persistent memory makes false information durable: once a false statement is stored, it can be retrieved into future sessions that match it. We measure the cost of this failure mode using plainly worded false assertions generated in a single pass, with no instruction, trigger, or retriever optimization. Poisoning 1.2% of a LongMemEval corpus reduces accuracy from 0.850 to 0.300. A four-stage write-time screening pipeline that reaches 0.832 recall on indirect prompt injection while flagging 1.5% ",
+    "author": "Arulnidhi Karunanidhi",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2608.21230v1"
+    ]
+  },
+  {
+    "title": "Ontology-supported AI Model and Dataset Management",
+    "link": "http://arxiv.org/abs/2608.21224v1",
+    "published": "2026-08-21T15:32:57+00:00",
+    "summary": "Recently, there has been a great deal of research into improving AI methods and their application. The main focus is on tracking progress, enabling transparent comparisons, and fostering a more profound understanding of AI. In that process, different organizations generate and use plenty of assets that need to be tracked, traced and managed. Moreover, it is important to discover assets relevant for the task at hand. This paper presents research aiming to contribute to answering the question of w",
+    "author": "Jan Novacek, Ali Ahari, Tobias Müller, Sebastian Reiter, Alexander Viehl, Oliver Bringmann",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2608.21224v1"
+    ]
+  },
+  {
     "title": "The Download: threats from space mirrors and credit for AI drugs",
     "link": "https://www.technologyreview.com/2026/08/21/1142762/the-download-space-mirrors-threats-ai-designed-drugs-credit/",
     "published": "2026-08-21T12:10:00+00:00",
@@ -45,187 +226,6 @@
     "category": "media",
     "references": [
       "https://www.technologyreview.com/2026/08/21/1142755/space-mirrors-night-sky/"
-    ]
-  },
-  {
-    "title": "G-CARL: Grounded Checklist-Aligned Reward Learning for Patient-Oriented Medical Report Interpretation",
-    "link": "http://arxiv.org/abs/2608.20331v1",
-    "published": "2026-08-20T17:59:46+00:00",
-    "summary": "Personalized interpretation of medical reports has emerged as an increasingly important need among patients. Addressing this need requires both evidence-grounded medical factuality and context-dependent patient communication, yet existing medical vision-language tasks do not adequately capture these dual requirements. To bridge this gap, we introduce Patient-oriented Medical Report Interpretation (PMRI), a novel open-ended multimodal generation task that requires models to explain medical report",
-    "author": "Shiao Xie, Siyu Chen, Jianwei Lv, Bo Yuan, Yujin Wang, Xiandong Li",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2608.20331v1"
-    ]
-  },
-  {
-    "title": "An Agentic Approach for Active Data Collection, Travel Behavior Modeling, and Weather-Sensitive Demand Prediction",
-    "link": "http://arxiv.org/abs/2608.20320v1",
-    "published": "2026-08-20T17:57:42+00:00",
-    "summary": "Travel behavior research increasingly combines digital data collection with predictive modeling, yet these stages are often developed and evaluated separately. This study proposes a three-agent workflow integrating conversational data collection, structured data processing, and behavioral prediction. A chatbot-administered, image-augmented stated-preference survey collected mode choices from student commuters across five predefined weather scenarios, yielding 454 respondent-scenario observations",
-    "author": "Narges Ahmadi, Yubo Jiao, Jônatas Augusto Manzolli, Jiangbo Yu, Luis Miranda-Moreno",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2608.20320v1"
-    ]
-  },
-  {
-    "title": "Inducing Task Models from Computer-Use Traces",
-    "link": "http://arxiv.org/abs/2608.20319v1",
-    "published": "2026-08-20T17:57:00+00:00",
-    "summary": "Naturalistic computer-use traces, passively recorded screenshots and mouse or keyboard actions, are a valuable resource for deriving symbolic, auditable, and reusable models of how everyday work is done. Such models matter as computer-use agents enter real work, where agents need to learn how tasks are actually performed, and organizations need to audit and reuse that knowledge. However, inducing such task models is challenging, as activity is observed only as low-level events and real-world wor",
-    "author": "Yucheng Jiang, Zora Zhiruo Wang, Ruishi Chen, Diyi Yang",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2608.20319v1"
-    ]
-  },
-  {
-    "title": "AI4AI-Bench: Benchmarking LLM Agents in Algorithmic Design for Recursive Self-Improvement",
-    "link": "http://arxiv.org/abs/2608.20318v1",
-    "published": "2026-08-20T17:56:59+00:00",
-    "summary": "Recursive self-improvement (RSI) asks whether an AI system can improve the process that produces AI systems, so that the next system inherits the improvement. That process is the training algorithm: a better objective or update rule improves the compute\\mbox{-}capability exchange rate for every subsequent run, including the one that produces the next agent. Whether RSI is feasible therefore turns on whether an agent can design training algorithms. No benchmark isolates that ability: existing sui",
-    "author": "Yizhe Chi, Wenyi Li, Deyao Hong, Xiaoqiu Wang, Mingju Gao, Kaisen Yang, Bingxiang He, Youjie Zheng, Calvin Xiao, Qinhuai Na",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2608.20318v1"
-    ]
-  },
-  {
-    "title": "Pandora's AI Model Routing Box: Efficient Allocation with Costly Value Estimation",
-    "link": "http://arxiv.org/abs/2608.20316v1",
-    "published": "2026-08-20T17:54:37+00:00",
-    "summary": "Heterogeneous AI systems composed of multiple models, architectures, harnesses, or inference-time settings can improve quality and efficiency by routing queries to the specialist who can answer most effectively at the lowest cost. Routing requires estimating each specialist's expected return, but this value estimation has a cost. Cheap estimators (e.g., embedding-based predictors) are fast but noisy, while accurate estimators (e.g., fine-tuned models with access to retrieval results or partial r",
-    "author": "Adam Fisch, Shubhendu Trivedi, Fantine Huot, William W. Cohen, Michael Kaisers, Mirella Lapata, Kate Larson, Jacob Eisenstein",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2608.20316v1"
-    ]
-  },
-  {
-    "title": "MidTool: Mid-training Data Synthesis for Agentic Tool Use",
-    "link": "http://arxiv.org/abs/2608.20314v1",
-    "published": "2026-08-20T17:53:59+00:00",
-    "summary": "Mid-training is increasingly recognized as a critical stage for shaping the capabilities of large language models. Recent work has shown that targeted mid-training can strengthen reasoning-intensive abilities such as math and science, and can also improve agentic capabilities in software-engineering settings. In this work, we study the parallel but less explored agentic capability: general tool use. We present MidTool, an open corpus construction pipeline for agentic tool-use mid-training that c",
-    "author": "Fengqing Jiang, Yite Wang, Boyi Liu, Zhaoyang Wang, Canwen Xu, Zhewei Yao, Radha Poovendran, Yuxiong He",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2608.20314v1"
-    ]
-  },
-  {
-    "title": "Phantom Gains: Auditing Self-Improvement Against a Measured Null",
-    "link": "http://arxiv.org/abs/2608.20290v1",
-    "published": "2026-08-20T17:30:14+00:00",
-    "summary": "Whether a language model has improved itself is increasingly judged not by mean accuracy but by which individual problems it gains and loses. Tracking these transitions means differencing two noisy estimates, leaving them vulnerable to measurement artifacts. Auditing three rounds of rank-$32$ LoRA self-training on Qwen3-8B against a frozen control pushed through the identical pipeline, we identify seven measurement failures, each of which inverts a reported finding when its control is absent. Se",
-    "author": "Cheng Xu, Nan Yan, Liming Chen, M-Tahar Kechadi",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2608.20290v1"
-    ]
-  },
-  {
-    "title": "Inject, Align, Recover: Staged Post-Training for Retrieval-Free Document Knowledge Internalization",
-    "link": "http://arxiv.org/abs/2608.20281v1",
-    "published": "2026-08-20T17:14:24+00:00",
-    "summary": "Large language models often fail to answer questions about a bounded document collection when the source documents are not retrieved at inference time. We study this setting as document knowledge internalization: converting a fixed corpus into usable parametric knowledge for retrieval-free question answering. We propose IAR (Inject, Align, and Recover), a three-stage post-training framework that separates structured document knowledge injection, QA behavior alignment, and general ability recover",
-    "author": "Qian Kou, Xiaofeng Shi, Xiaosong Qiu, Hua Zhou",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2608.20281v1"
-    ]
-  },
-  {
-    "title": "Break It Down, Pass It On: Cross-Task Skill Transfer in LLM Agents",
-    "link": "http://arxiv.org/abs/2608.20274v1",
-    "published": "2026-08-20T17:12:08+00:00",
-    "summary": "Large language model (LLM) agents can induce skills from completed tasks and reuse them later to grow more capable with experience. In practice, induced skills may transfer unreliably and can even harm the agent that retrieves them. When agent-induced skills transfer reliably across tasks remains an open question. We conduct a comprehensive and controlled study of how the way skills are induced shapes their transfer across tasks. Specifically, we compare task-level with subtask-level skill induc",
-    "author": "Yiyang Feng, Biddut Sarker Bijoy, Niranjan Balasubramanian, Jiawei Zhou",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2608.20274v1"
-    ]
-  },
-  {
-    "title": "Catching the Rug: Early Prediction of Fraudulent Memecoins on Solana via Machine Learning",
-    "link": "http://arxiv.org/abs/2608.20271v1",
-    "published": "2026-08-20T17:09:41+00:00",
-    "summary": "The rapid proliferation of memecoins on blockchain platforms has increased the risk of fraudulent activities, particularly rug pulls. While previous studies have focused on Ethereum-based tokens, this paper shifts the spotlight to Solana, the leading blockchain for memecoins by trading volume and token count. Unlike Ethereum, where rug pulls often exploit smart contract backdoors, Solana memecoin rug pulls are predominantly driven by liquidity manipulation and social dynamics. This research pion",
-    "author": "Jianghai Li, Pavel Kuznetsov, Yury Yanovich, Konstantin Nott-Whaley, Igor Vodolazov",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2608.20271v1"
-    ]
-  },
-  {
-    "title": "Learning When to Think: Adaptive Reasoning for Test-Time Compute Allocation",
-    "link": "http://arxiv.org/abs/2608.20256v1",
-    "published": "2026-08-20T16:54:08+00:00",
-    "summary": "Reasoning language models trained with reinforcement learning typically operate under a fixed token budget rather than an explicitly adaptive one, which can lead to over-computation on easy problems and insufficient computation on difficult ones. We study whether a model can learn to allocate its own reasoning effort by choosing, as the first token of its response, one of three modes: \\textsc{NoThink} (answer as quickly as possible), \\textsc{Short} (brief reasoning), or \\textsc{Long} (extended r",
-    "author": "Gijs Kassenaar, Zhao Yang, Vincent François-Lavet",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2608.20256v1"
-    ]
-  },
-  {
-    "title": "QUASAR: A Quantum-Classical Neural Network for SAR Satellite Physical-Layer Authentication",
-    "link": "http://arxiv.org/abs/2608.20240v1",
-    "published": "2026-08-20T16:31:01+00:00",
-    "summary": "X-band SAR satellites (8-12 GHz) play a critical role in disaster response, environmental monitoring, and military intelligence. Yet, they lack robust physical-layer authentication (PLA), a security layer orthogonal to cryptographic solutions. Existing PLA systems, typically based on radio-frequency fingerprinting, are often limited to sub-6 GHz frequencies and rely on classical deep learning. However, this approach underfits the IQ phase nonlinearities that distinguish satellite hardware. In th",
-    "author": "Vincenzo Sammartino, Nathanael Denis, Roberto Di Pietro",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2608.20240v1"
-    ]
-  },
-  {
-    "title": "Rule-Compliant Visual Spatial Planning for Multimodal Large Language Models",
-    "link": "http://arxiv.org/abs/2608.20237v1",
-    "published": "2026-08-20T16:28:28+00:00",
-    "summary": "Multimodal large language models (MLLMs) combine linguistic reasoning with visual perception, yet their ability to perform visual spatial planning under explicit or previously unseen rule constraints remains underexplored. This setting requires models to jointly understand spatial layouts, interpret natural-language rules, and plan valid actions accordingly. To address this gap, we introduce RuleMaze, a controllable benchmark in which MLLMs must navigate mazes while obeying natural-language rule",
-    "author": "Yu Chen, Ting Lei, Yaoyi Li, Jia Cai, Zhecen Wu, Yang Liu",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "https://github.com/oceanflowlab/RuleMaze",
-      "http://arxiv.org/abs/2608.20237v1"
-    ]
-  },
-  {
-    "title": "Growth Without Us: Machine Consumers, Corporate Circularity, and the Decoupling of GDP from Humanity after AGI",
-    "link": "http://arxiv.org/abs/2608.20231v1",
-    "published": "2026-08-20T16:26:24+00:00",
-    "summary": "The standard objection to full automation is demand-side: if humans earn nothing, who buys the output? This confuses an accounting role with a biological species. We model a post-AGI economy in which corporations own populations of AI and robotic agents that are both producers and consumers of energy, compute, maintenance, and upgrades, traded among firms. Three results follow. (i) Demand closure: a closed inter-corporate economy with zero human consumption is not degenerate; it is the classical",
-    "author": "Sahil Sharma",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2608.20231v1"
-    ]
-  },
-  {
-    "title": "Prompt-Conditioned Channel Attention for Hierarchical Feature Modulation toward Anatomy-Agnostic Segmentation",
-    "link": "http://arxiv.org/abs/2608.20229v1",
-    "published": "2026-08-20T16:24:09+00:00",
-    "summary": "Anatomically plausible segmentation remains challenging because of low contrast, ambiguous boundaries, and modality-specific artifacts. Interactive segmentation has emerged as a promising strategy to guide feature extraction and improve localization, particularly in structurally ambiguous regions. However, existing methods integrate prompts through late-stage fusion and lack explicit mechanisms for prompt-driven channel-wise modulation across hierarchical feature representations, limiting their ",
-    "author": "Mosharof Hossain, Md Rabiul Islam, Limon Halder, Erchin Serpedin, Md Kamrul Hasan",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2608.20229v1"
     ]
   },
   {
