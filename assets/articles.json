@@ -1,5 +1,187 @@
 [
   {
+    "title": "Discriminative World Models for Web Agents",
+    "link": "http://arxiv.org/abs/2609.02885v1",
+    "published": "2026-09-02T17:59:40+00:00",
+    "summary": "Recent web agents use world models for test-time action selection by sampling candidate actions, predicting the resulting web states, and ranking them with a ranker model or a Process Reward Model (PRM). These world models are typically trained via supervised next-state prediction to generate fixed representations like HTML or AXTree snapshots. However, this objective is misaligned with the downstream ranker, which relies on predicted states being discriminative across candidates to accurately s",
+    "author": "Kelvin Li, Dhruv Pendharkar, Anish Pahilajani, Chuyi Shang, Leon Oks, Leonid Karlinsky, Rogerio Feris, Trevor Darrell, Roei Herzig",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "https://dhruvpendharkar.github.io/dwm/",
+      "http://arxiv.org/abs/2609.02885v1"
+    ]
+  },
+  {
+    "title": "Towards Trustworthy Autonomous Robots: An Explainable AI-Based Decision Framework",
+    "link": "http://arxiv.org/abs/2609.02861v1",
+    "published": "2026-09-02T17:44:25+00:00",
+    "summary": "Autonomous robots powered by deep learning face a fundamental auditability challenge: when incidents occur, investigators cannot reconstruct why the system made specific decisions. This paper presents TRACE (Transparent Reasoning Architecture for Credible Execution), a decision framework that ensures every autonomous action can be traced back to sensor evidence through documented causal chains. The framework organizes decision-making into four auditable layers: Semantic Perception for evidence-g",
+    "author": "Cagri Temel",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2609.02861v1"
+    ]
+  },
+  {
+    "title": "Post-Training Language Models for Gold-Medal Performance in Coding Competitions",
+    "link": "http://arxiv.org/abs/2609.02849v1",
+    "published": "2026-09-02T17:33:37+00:00",
+    "summary": "Competitive programming has become a key test of large language model reasoning, with international competitions such as IOI and ICPC representing its most challenging settings. We present an end-to-end specialization pipeline combining large-scale problem curation, synthetic reasoning traces, supervised fine-tuning (SFT), and reinforcement learning (RL). Using 22,000 curated problems, we train Nemotron-3-Nano-CC (30B-A3B) with SFT and RL and Nemotron-3-Ultra-CC (550B-A55B) with SFT alone. We fu",
+    "author": "Aleksander Ficek, Sean Narenthiran, Mehrzad Samadi, Somshubra Majumdar, Boris Ginsburg",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2609.02849v1"
+    ]
+  },
+  {
+    "title": "AI Contextual Measurement for Recovering Individual and Group-Level Effects: Validation Against Survey Measures and an Occupational Application",
+    "link": "http://arxiv.org/abs/2609.02821v1",
+    "published": "2026-09-02T17:09:30+00:00",
+    "summary": "Researchers increasingly use artificial intelligence to construct measures of social, organizational, and occupational characteristics that are absent from conventional surveys. We propose AICOME, AI COntextual MEasurement, a framework for evaluating whether AI-derived respondent-level measures can recover individual and group-level effects in contextual models. The key idea is that an AI measure constructed at the respondent level can be used to derive its group-level aggregate and its individu",
+    "author": "Wenxin Jiang, Xuyang Wang, Yuxiao Wu",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2609.02821v1"
+    ]
+  },
+  {
+    "title": "Large Language Models (LLMs) for Telecom Root Cause Analysis (RCA): A Structured Reasoning Framework for Evidence-Grounded Diagnosis",
+    "link": "http://arxiv.org/abs/2609.02805v1",
+    "published": "2026-09-02T16:43:22+00:00",
+    "summary": "Root cause analysis (RCA) is a critical task in telecom network operations, but diagnosing performance degradations in modern 5G and emerging 6G networks remains challenging due to complex cross-layer dependencies. While large language models (LLMs) offer promising capabilities for reasoning and knowledge integration, directly applying vanilla LLMs to telecom RCA often leads to hallucination, unstable reasoning, and poor alignment with structured network evidence. This work first reviews the evo",
+    "author": "Hao Zhou, Mandar Kulkarni, Hao Chen, Yan Xin, Charlie, Zhang",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2609.02805v1"
+    ]
+  },
+  {
+    "title": "frb100-40 After Two Decades: An Optimality Certificate and a Preregistered Search Study",
+    "link": "http://arxiv.org/abs/2609.02804v1",
+    "published": "2026-09-02T16:40:46+00:00",
+    "summary": "For more than 20 years, the Model-RB benchmark frb100-40 remained an open challenge; since 2014, its public record had stood at 99 of 100 variables. We give a directly checkable 100-vertex independent set for its 4,000-vertex graph. Together with a verified partition into 100 cliques of size 40, the witness proves that the maximum independent-set size is 100 and the minimum vertex-cover size is 3,900. The stochastic run that found the witness is kept separate from this proof. We evaluated its ad",
+    "author": "Onur Uğurlu",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2609.02804v1"
+    ]
+  },
+  {
+    "title": "Dutch Books for Language Models",
+    "link": "http://arxiv.org/abs/2609.02797v1",
+    "published": "2026-09-02T16:31:47+00:00",
+    "summary": "People increasingly use language models to support life decisions. Many such decisions involve a probabilistic forecast: How likely is a major life event, a natural disaster, or an economic outcome? Users of language models may implicitly trust that these forecasts fall out of a coherent world model. In this paper, we evaluate the coherence of language model probabilistic forecasts through a procedure that builds on a theorem due to de Finetti. We elicit forecasts from language models across eve",
+    "author": "Isaiah Andrews, Suproteem Sarkar",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2609.02797v1"
+    ]
+  },
+  {
+    "title": "SafeEvolve: Harness-Policy Co-Evolution from Agent Experience for Safety Alignment",
+    "link": "http://arxiv.org/abs/2609.02786v1",
+    "published": "2026-09-02T16:19:54+00:00",
+    "summary": "The performance of LLM-based agents is jointly shaped by the base model and the harness used when interacting with the environment. This exposes them to safety risks in both harmful final responses and multi-step execution trajectories. Existing safety alignment mechanisms often rely on either external harness updates or policy optimization, yet applying either paradigm in isolation fails to bridge runtime control with intrinsic safety. We propose SafeEvolve, an experience-driven self-evolving f",
+    "author": "Qinghua Mao, Wanying Qu, Dadi Guo, Leitao Yuan, Qingyu Liu, Yu Li, Guanxu Chen, Yanwei Fu, Xi Lin, Xia Hu, Dongrui Liu",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2609.02786v1"
+    ]
+  },
+  {
+    "title": "From Reweighting to Rewriting: Unlocking the Intervention Effects of Influential Samples in Training Data Attribution",
+    "link": "http://arxiv.org/abs/2609.02771v1",
+    "published": "2026-09-02T16:07:21+00:00",
+    "summary": "Training data attribution (TDA) aims to identify training examples that shape model behavior, but its intervention value depends on both which examples are selected and how they are modified. Influence functions (IF) estimate behavioral changes under infinitesimal reweighting, yet IF-selected examples often show limited advantages over random selection under conventional weight-based interventions. This raises the question of whether influential examples lack intervention value or whether reweig",
+    "author": "Yuzhang Luo, Chenpeng Wang, Jianhui Chen, Liangming Pan",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2609.02771v1"
+    ]
+  },
+  {
+    "title": "Measurement-Driven Sub-Network Selection for On-Premise Retrieval-Augmented Factory Agents",
+    "link": "http://arxiv.org/abs/2609.02760v1",
+    "published": "2026-09-02T16:00:05+00:00",
+    "summary": "On-premise assistants can give factory workers conversational access to machine documentation, but models capable of the task rarely fit shop-floor hardware. We show that after structural compression and retrieval-grounded adaptation, model size is no longer a reliable predictor of adapted answer quality: general capability falls almost linearly with parameter count, while judged retrieval-augmented answer quality does not. We therefore treat deployment as a post-adaptation selection problem, co",
+    "author": "Vasileios Rizeakos, Georgios Paisios, Alexandros Machairas, Michael Birbas, Athanasios Bachoumis",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2609.02760v1"
+    ]
+  },
+  {
+    "title": "Untangling the Mechanisms of Misleading Context in Medical Question Answering",
+    "link": "http://arxiv.org/abs/2609.02754v1",
+    "published": "2026-09-02T15:55:56+00:00",
+    "summary": "Large language models now answer medical questions with expert-level performance. However, the context these systems act on can be misleading, and misleading context can corrupt a model's medical judgment. To understand how misleading context corrupts this judgment, we examine the model's susceptibility to the context, disclosure of it, mechanism of corrupted reasoning, and monitorability of the decision. On the medical reasoning subset of MedMisBench, a clinician-reviewed question-answering ben",
+    "author": "Robin Linzmayer, Noémie Elhadad",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2609.02754v1"
+    ]
+  },
+  {
+    "title": "Bilevel Coordinated Reflection: A Game-Theoretic Approach to Multi-Agent LLM Systems",
+    "link": "http://arxiv.org/abs/2609.02750v1",
+    "published": "2026-09-02T15:50:10+00:00",
+    "summary": "Multi-agent LLM systems commonly use an orchestrator to decompose a task for a team of workers and then improve through textual reflection. Despite strong empirical results, these systems lack a unified account of coordination, memory improvement, and the role of external verification. We model orchestrator-worker interaction as a bilevel coordination game: under bounded coupling, the workers' local-update game is an approximate potential game whose equilibrium slack is controlled by decompositi",
+    "author": "Yihang Chen, Yuxiang Chen, Yuxuan Huang, Meng Fang, Weilin Luo, Jun Wang",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "https://github.com/YihangChen9/Bilevel-Coordinated-Reflection",
+      "http://arxiv.org/abs/2609.02750v1"
+    ]
+  },
+  {
+    "title": "Repo-To-Skill: Distilling GitHub Repositories Into AI4AI Skills",
+    "link": "http://arxiv.org/abs/2609.02749v1",
+    "published": "2026-09-02T15:49:41+00:00",
+    "summary": "Autonomous agents are beginning to carry out machine-learning (ML) research end to end. These agents combine a model backbone with a harness for planning, execution, memory, and verification, but this architecture still leaves domain-specific know-how outside the agent. We call this missing layer operational knowledge, the know-how that separates knowing a method from making it work. That knowledge is not absent from the field. It appears in repositories and papers, but in forms written for huma",
+    "author": "Jianlyu Chen, Yuyang Hu, Hongjin Qian, Jiawei Liu, Wenqing Wei, Xiaolong Chen, Defu Lian, Zhicheng Dou, Chaozhuo Li, Qiwei Ye, Zheng Liu",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2609.02749v1"
+    ]
+  },
+  {
+    "title": "HiPoly: a hierarchical polymer-native AI framework for property prediction and generative design",
+    "link": "http://arxiv.org/abs/2609.02746v1",
+    "published": "2026-09-02T15:48:11+00:00",
+    "summary": "Polymeric materials are central to modern technologies, with applications ranging from energy to health and transportation. Although AI has made significant advances in materials discovery, the hierarchical structure of polymers across multiple length scales makes them inherently difficult to represent in a unified and physically meaningful way. Here we introduce HiPoly, a polymer-native AI framework that processes complete polymer descriptions through a three-level hierarchical graph architectu",
+    "author": "Ge Sun, Gervasio Zaldivar, Yuan Tian, Gustavo Perez Lemus, Juhae Park, Dasha Safarian, Ming Han, Juan J. de Pablo",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2609.02746v1"
+    ]
+  },
+  {
+    "title": "Language Models Can Control Their Own Attention",
+    "link": "http://arxiv.org/abs/2609.02737v1",
+    "published": "2026-09-02T15:43:38+00:00",
+    "summary": "Language models spend most of their attention on a small fraction of context, yet they read the entire KV cache to find the few tokens that matter. If the user asks about a previous detail in a 1M-token conversation, global attention layers must scan the full context to generate each token of the reply. A prominent approach mitigates this cost by pre-selecting relevant tokens via lightweight proxy scores, but this extrinsic scoring still incurs O(N) per step. We take an intrinsic approach motiva",
+    "author": "Namgyu Ho, Huzama Ahmad, Woosung Koh, Se-Young Yun, Tal Schuster, Cicero Nogueira dos Santos",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2609.02737v1"
+    ]
+  },
+  {
     "title": "Proactive cyber defense for governments and enterprises",
     "link": "https://blog.google/innovation-and-ai/technology/safety-security/fairwind-program/",
     "published": "2026-09-02T15:40:00+00:00",
@@ -69,189 +251,6 @@
     "category": "media",
     "references": [
       "https://www.technologyreview.com/2026/09/01/1143247/ai-interstellar-journey-alpha-centauri/"
-    ]
-  },
-  {
-    "title": "Efficient SWE Agent Benchmarking via Trajectory-Aware Evaluation",
-    "link": "http://arxiv.org/abs/2609.01603v1",
-    "published": "2026-09-01T17:59:46+00:00",
-    "summary": "Evaluating software engineering agents on realistic benchmarks is costly, since each task may require multi-step code exploration, modification, and test execution. Existing efficient evaluation methods select representative subsets to estimate full-benchmark performance, but are largely result-only: they fit historical pass/fail response matrices or static task semantics, discarding how agents solve problems. We propose PTA-IRT, a Privileged Trajectory-Aware Item Response Theory framework that ",
-    "author": "Kefeng Duan, Dewu Zheng, Yanlin Wang, Xiwen Wang, Ensheng Shi, Xilin Liu, Yuchi Ma, Jiachi Chen, Mingwei Liu, Zibin Zheng",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "https://github.com/DeepSoftwareAnalytics/PTA-IRT",
-      "http://arxiv.org/abs/2609.01603v1"
-    ]
-  },
-  {
-    "title": "Adaptive Critical Token-Aware Retrieval for Repository-Level Code Generation",
-    "link": "http://arxiv.org/abs/2609.01601v1",
-    "published": "2026-09-01T17:59:39+00:00",
-    "summary": "The repository-level code generation task requires synthesizing code that satisfies task requirements while remaining consistent with the target repository context. Since real-world repositories often exceed the input length limits of LLMs, existing approaches commonly adopt retrieval-augmented generation (RAG) to provide repository-specific context. Despite improving repository-context retrieval, existing methods typically provide context as task-level support, without explicitly identifying th",
-    "author": "Kefeng Duan, Dewu Zheng, Yanlin Wang, Terry Yue Zhuo, Mingwei Liu, Jianxing Yu, Jiachi Chen, Ensheng Shi, Xilin Liu, Yuchi Ma, Zibin Zheng",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "https://github.com/DeepSoftwareAnalytics/ACToR",
-      "http://arxiv.org/abs/2609.01601v1"
-    ]
-  },
-  {
-    "title": "CordisBench: Can Language Models Reason About Component Lifecycles in Dynamic Agent Harnesses?",
-    "link": "http://arxiv.org/abs/2609.01600v1",
-    "published": "2026-09-01T17:59:13+00:00",
-    "summary": "Dynamic agent harnesses let language models change the software that shapes their own execution. This flexibility brings a new reasoning burden: a local plugin change can propagate through dependencies and cleanup. We introduce CordisBench, a 1,200-question benchmark of this lifecycle reasoning. It combines a controlled formal setting with programs executed against Cordis, a runtime that manages component dependencies and cleanup, and asks models to identify affected components, predict state af",
-    "author": "Damien Sileo, Dimitri Kachler",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2609.01600v1"
-    ]
-  },
-  {
-    "title": "The Rise of Verbal Reinforcement Learning",
-    "link": "http://arxiv.org/abs/2609.01597v1",
-    "published": "2026-09-01T17:58:18+00:00",
-    "summary": "Natural language is emerging as a primary feedback channel for improving language agents, capable of conveying intent, preferences, and causal structure in forms interpretable by both humans and modern language models. We call this paradigm Verbal Reinforcement Learning (VRL) and offer the first unified account of it. We organize the field around a single axis, \\textit{when} verbal feedback takes effect in an agent's lifecycle and \\textit{what} it modifies, yielding three pillars: (1) \\textbf{La",
-    "author": "Kshitij Tayal, Arun Sharma, Genta Indra Winata, Anirban Das, Sambit Sahu",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2609.01597v1"
-    ]
-  },
-  {
-    "title": "Mechanism Design for Alignment and Control",
-    "link": "http://arxiv.org/abs/2609.01595v1",
-    "published": "2026-09-01T17:57:50+00:00",
-    "summary": "We develop a framework for mechanism design with AI agents whose alignment (preferences) and capabilities (feasible actions and information) are unknown. We want such agents to act on our behalf so mechanisms must incentivize both honesty and obedience. A one-sided imitation structure---capabilities can be concealed but not counterfeited---yields a revelation principle, a characterization of implementable policies via nested cyclical monotonicity, and conditions under which eliciting higher-orde",
-    "author": "Dirk Bergemann, Andrew Koh, Stephen Morris",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2609.01595v1"
-    ]
-  },
-  {
-    "title": "Designing Proactive Thought Partners for Writing",
-    "link": "http://arxiv.org/abs/2609.01588v1",
-    "published": "2026-09-01T17:54:32+00:00",
-    "summary": "Writing involves diverse cognitive activities, from ideation to revision, and writers' needs vary across individuals and moments. Proactive AI promises to provide the right support at the right time, yet existing proactive tools largely focus on generic textual assistance, such as autocomplete. This paper studies the design space of proactive thought partners: AI agents that proactively offer customizable, higher-level cognitive support during writing. We instantiated this concept in a technolog",
-    "author": "Chao Zhang, Abe Davis, Chih-Wei Chen, Chin-Chia Hsu",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2609.01588v1"
-    ]
-  },
-  {
-    "title": "Scaling Near-Optimal SFT-RL Annotation Budget Allocation from Small to Large LLMs",
-    "link": "http://arxiv.org/abs/2609.01573v1",
-    "published": "2026-09-01T17:39:55+00:00",
-    "summary": "How to divide a fixed annotation budget between supervised fine-tuning (SFT) and reinforcement learning (RL) during LLM post-training remains an open problem. Existing work characterizes only broad trends (e.g., SFT dominates in low-data regimes), lacks a principled allocation framework, and does not examine whether the optimal ratio transfers across model sizes. We frame this problem in terms of near-optimality: rather than seeking a single optimal SFT-RL ratio, we characterize the near-optimal",
-    "author": "Jingtan Wang, Arun Verma, Xiaoqiang Lin, Zhengyuan Liu, Nancy F. Chen, Daniela Rus, Bryan Kian Hsiang Low",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2609.01573v1"
-    ]
-  },
-  {
-    "title": "Selective Agent Guidance via Entropy: Learning Autonomous Policies from Imperfect VLM Teachers",
-    "link": "http://arxiv.org/abs/2609.01567v1",
-    "published": "2026-09-01T17:33:41+00:00",
-    "summary": "Vision-Language Models (VLMs) provide useful priors for interactive decision-making, but using them directly as policies is expensive and brittle: they must be queried at every step, do not improve from environment interaction, and can repeat systematic errors. We study how to learn a cheap autonomous policy from an online, expensive, and imperfect but informative VLM teacher. We propose SAGE (Selective Agent Guidance via Entropy), a framework that queries a VLM only when the learner is uncertai",
-    "author": "Matteo Merler, Giovanni Bonetta, Davide Zago, Rossella Cancelliere, Bernardo Magnini",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2609.01567v1"
-    ]
-  },
-  {
-    "title": "From Confusion to Clarity: Confusion-Aware Retrieval and Knowledge Injection for Text Classification",
-    "link": "http://arxiv.org/abs/2609.01564v1",
-    "published": "2026-09-01T17:31:02+00:00",
-    "summary": "Large language models (LLMs) struggle to classify text into taxonomies with many semantically similar labels, as the distinctions are domain-specific and not captured by pre-training. To handle large label spaces, a common approach retrieves top-$K$ candidate labels by embedding similarity and prompt the LLM to choose among them. However, top-$K$ retrieval reduces the number of candidates but does not help the model tell similar ones apart. When two similar labels both appear as candidates, the ",
-    "author": "Manish Gupta, Chaitanya Giri, Jayasimha Talur",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2609.01564v1"
-    ]
-  },
-  {
-    "title": "H3-World: Turning Language Understanding into World Control",
-    "link": "http://arxiv.org/abs/2609.01560v1",
-    "published": "2026-09-01T17:21:40+00:00",
-    "summary": "We present H3-World, an efficient framework that turns the 33B MiniMax-H3 video generator into an interactive world model. Our key finding is that, as large video generators become more capable, language is emerging as a natural interface for control. MiniMax-H3, for example, already supports zero-shot control of character behavior and camera motion through natural-language instructions. Building on this, H3-World turns this coarse language interface into precise, temporally grounded world contr",
-    "author": "Danze Chen, Zeqing Wang, Ziyue Lin, Xingyi Yang, Yeying Jin",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2609.01560v1"
-    ]
-  },
-  {
-    "title": "Retrieved but not ranked: surface-form bias in structural retrieval, from mathematics to agent trajectories",
-    "link": "http://arxiv.org/abs/2609.01556v1",
-    "published": "2026-09-01T17:19:57+00:00",
-    "summary": "We evaluate embedding retrieval where surface form and meaning are pulled apart on purpose: retrieving items that share underlying structure but not wording, in two unrelated domains under one protocol, competition mathematics (MathNet-Retrieve; 500 queries, 117,088-item corpus) and embodied-agent trajectories (ALFWorld-derived; 118 queries, 336 trajectories). In mathematics the failure is complete: strict Hit@1 at the heaviest disguise tier is 0.0% for both production embedders (bootstrap 95% C",
-    "author": "Nabira Rashid, Manolis Kellis",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2609.01556v1"
-    ]
-  },
-  {
-    "title": "BS: Take the Hint - Interactive Multitracer PET/CT Lesion Segmentation with a Scribble-Conditioned ResEnc U-Net",
-    "link": "http://arxiv.org/abs/2609.01554v1",
-    "published": "2026-09-01T17:19:34+00:00",
-    "summary": "Automated lesion segmentation in whole-body PET/CT is complicated by the variety of physiological tracer uptake patterns and by the differing appearance of lesions across tracers. The autoPET/CT V challenge addresses this by making segmentation interactive: user scribbles marking foreground and background are supplied alongside the image, and the algorithm is expected to exploit them. We present our submission, a scribble-conditioned residual encoder U-Net operating on four input channels: CT, P",
-    "author": "Marven Sherif, Amgad Elmasry, Youssef Ghazal, Ayman Elghotni",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2609.01554v1"
-    ]
-  },
-  {
-    "title": "Can LLMs Discover Scientific Laws in Real and Parallel Worlds?",
-    "link": "http://arxiv.org/abs/2609.01552v1",
-    "published": "2026-09-01T17:17:59+00:00",
-    "summary": "Scientific equation discovery has long been central to scientific progress, proceeding through iterative cycles of hypothesis generation, observational testing, and refinement under scientific constraints. As LLM capabilities advance and their role in AI for Science expands, it remains an open problem whether they can genuinely discover scientific laws and how this ability should be evaluated. Existing evaluations, however, often either simplify discovery through synthetic settings or reuse publ",
-    "author": "Yiming Huang, Ziche Liu, Zhuohang Wu, Yiqian Wang, Junxia Cui, Xinkai Zou, Linjun Mao, Nan Huang, Naicheng Yu, Kaijie Zhu, Yue Ma, Kun Zhou, Letian Peng, Jingbo Shang",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "https://yiyihum.github.io/SciLaws-Bench",
-      "http://arxiv.org/abs/2609.01552v1"
-    ]
-  },
-  {
-    "title": "A Mathematical Theory of Reusable Neural Bases for Network Compression",
-    "link": "http://arxiv.org/abs/2609.01550v1",
-    "published": "2026-09-01T17:16:21+00:00",
-    "summary": "As large AI models become increasingly prevalent across a wide range of applications, memory cost has become a critical bottleneck in both training and inference. To mitigate this issue, we introduce the Linear Reusable Neural Bases Architecture (LRNBA), a novel framework aimed at improving parameter efficiency and reducing memory cost. Inspired by recurrent neural network (RNN) designs, the core idea of our approach is to represent each network block as a linear combination of a shared set of n",
-    "author": "Binshuai Wang",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2609.01550v1"
-    ]
-  },
-  {
-    "title": "Can LLMs Design Video Coding Tools? A Case Study on Planar Mode",
-    "link": "http://arxiv.org/abs/2609.01535v1",
-    "published": "2026-09-01T17:04:47+00:00",
-    "summary": "This paper explores whether large language models (LLMs) can design video coding tools, a highly challenging task due to the intricate algorithmic coupling of tool modifications. In particular, we present an empirical case study on the Planar mode, a long-standing intra prediction tool in video coding standards. Our experiments operate within a generation-and-evaluation loop, with the LLM generating new Planar predictors, encoder trials evaluating their coding performance, and the LLM re-generat",
-    "author": "Yingwen Zhang, Meng Wang, Liqiang He, Shiqi Wang",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2609.01535v1"
     ]
   },
   {
