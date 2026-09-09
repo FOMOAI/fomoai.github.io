@@ -1,5 +1,201 @@
 [
   {
+    "title": "What OpenAI’s latest controversy tells us about the future of math",
+    "link": "https://www.technologyreview.com/2026/09/08/1143747/what-openais-latest-controversy-tells-us-about-the-future-of-math/",
+    "published": "2026-09-09T03:10:08+00:00",
+    "summary": "OpenAI’s latest mathematical milestone has quickly become mired in controversy. Today, the company announced that its agents have solved one of the Millennium Prize Problems, some of the most important open problems in mathematics. Under normal circumstances, that solution would be a huge feather in OpenAI’s cap. But the announcement has been overshadowed by accusations&#8230;",
+    "author": "Grace Huckins",
+    "source": "MIT Tech Review",
+    "category": "media",
+    "references": [
+      "https://www.technologyreview.com/2026/09/08/1143747/what-openais-latest-controversy-tells-us-about-the-future-of-math/"
+    ]
+  },
+  {
+    "title": "TANGO: Humanoid Navigation in Cluttered Environments with a Whole-Body Vision-Language-Action Model",
+    "link": "http://arxiv.org/abs/2609.09158v1",
+    "published": "2026-09-08T17:59:55+00:00",
+    "summary": "We study the problem of navigating cluttered indoor environments with a humanoid robot. Unlike conventional methods that model navigation as a 2D path planning problem, humanoid traversal in cluttered environments requires continuous geometry-aware whole-body adaptation, including coordinated arm placement, torso adjustment, and gait modulation for collision-free movement through complex 3D spaces. We introduce TANGO, the first whole-body vision-language navigation framework for language-conditi",
+    "author": "Anqi Li, Yuxin Chen, Zhaobo Li, Zhuo Cao, Junli Ren, Masayoshi Tomizuka, Dhruv Shah",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2609.09158v1"
+    ]
+  },
+  {
+    "title": "Procedural Graphs: Self-Evolving Execution Structures for LLM Agents",
+    "link": "http://arxiv.org/abs/2609.09153v1",
+    "published": "2026-09-08T17:59:41+00:00",
+    "summary": "Large language models are increasingly deployed as agents that plan over long horizons and act through external tools. Most agents select actions through unconstrained generation over an accumulating history, leaving implicit the procedural knowledge of what to do, in what order, and under which conditions. As trajectories lengthen, agents can lose track of their objectives, invoke tools out of order, and repeat unproductive actions. We introduce the Procedural Graph: just as a knowledge graph o",
+    "author": "Yuxing Lu, Yicheng Chen, Shanchan Wu, Sercan Ö. Arık",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2609.09153v1"
+    ]
+  },
+  {
+    "title": "NOAH: Learning the Full Patient Journey. A Longitudinal Multimodal Time-Aware Model for Representation and Forecasting",
+    "link": "http://arxiv.org/abs/2609.09140v1",
+    "published": "2026-09-08T17:56:13+00:00",
+    "summary": "The digitization of healthcare has generated vast, longitudinal, and multimodal patient records over a lifetime, yet fully exploiting these data to represent and predict patient state trajectories remains a critical challenge. Current AI models often struggle to capture the complex, irregular temporal dynamics and inherent stochasticity of real-world multimodal patient data. Existing AI approaches for modeling longitudinal patient records are predominantly discriminative, limited to a few modali",
+    "author": "Tobias Susetzky, Raphael Rehms, Dmitrii Seletkov, Özgün Turgut, Michelle Espranita Liman, Lisa Steinhelfer, Rickmer Braren, Daniel Rueckert",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2609.09140v1"
+    ]
+  },
+  {
+    "title": "A Data-Driven Framework for Identifying and Prioritizing RPA Opportunities in Healthcare Processes",
+    "link": "http://arxiv.org/abs/2609.09137v1",
+    "published": "2026-09-08T17:55:28+00:00",
+    "summary": "Robotic Process Automation (RPA) is widely used to reduce administrative burden in United States hospitals, yet an estimated 30-50% of RPA initiatives underperform because processes are selected informally, without a repeatable method to catalogue candidates, prioritize them, match each to an automation tier -- a Python bot, an open-source orchestrator such as n8n, or an enterprise platform such as UiPath -- and forecast financial return before committing resources. We propose a four-module, dat",
+    "author": "Maria Alejandra Gomez, Juan Manuel Castillo",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2609.09137v1"
+    ]
+  },
+  {
+    "title": "Co-Evolving Harnesses and Models: On-Policy Correction Helps Weaker Models Catch Up Where Imitation Fails",
+    "link": "http://arxiv.org/abs/2609.09134v1",
+    "published": "2026-09-08T17:53:49+00:00",
+    "summary": "Agent harnesses (the system prompt, tool set, execution hooks, and context-management scaffolding around a model) are a critical determinant of agentic task success. Automated harness evolution can enable smaller models to perform well on domain-specific tasks at a fraction of frontier-model cost. Since both the harness and model weights shape behavior, we ask how harness evolution and lightweight fine-tuning should be combined. Across seven enterprise agent tasks, we first evolve a harness with",
+    "author": "Zhou Yu, Bin Bi, Shiva Kumar Pentyala, Shubham Mehrotra, Sougata Chaudhuri, Shilpa Bhagavath, Zeyuan Chen, Ran Xu, Phil Mui, James Zhu, Sitaram Asur",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2609.09134v1"
+    ]
+  },
+  {
+    "title": "ExecCritic: Learn to Test, Test to Improve for Coding Agents",
+    "link": "http://arxiv.org/abs/2609.09133v1",
+    "published": "2026-09-08T17:53:37+00:00",
+    "summary": "Execution feedback can guide coding agents toward correct repository repairs, but only when the tests capture the behavior requested by the issue. Agent-generated tests can encode incomplete or incorrect behavioral targets; when the same trajectory writes both the patch and the test, their errors can agree and create false confidence. We introduce ExecCritic, combining a test--verify--revise scaffold with a role-specific reinforcement learning recipe for training agents within it. The scaffold s",
+    "author": "Leitian Tao, Baolin Peng, Haorui Wang, Hang Wang, Hao Cheng, Wenlin Yao, Qianhui Wu, Tao Ge, Sharon Li, Jianfeng Gao",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "https://github.com/MSR-Orchard/execcritic",
+      "http://arxiv.org/abs/2609.09133v1"
+    ]
+  },
+  {
+    "title": "A Generalization of Amari's Bayesian Duality",
+    "link": "http://arxiv.org/abs/2609.09126v1",
+    "published": "2026-09-08T17:51:08+00:00",
+    "summary": "Amari's contributions to information geometry and machine learning are well known. Here, we revisit Amari's work on Bayesian duality which has not received as much attention. We connect Amari's Bayesian duality to a convex duality of Bayes' rule. Using this connection, we present a generalization of Amari's Bayesian duality and discuss its relevance for modern artificial intelligence.",
+    "author": "Mohammad Emtiyaz Khan, Thomas Möllenhoff",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2609.09126v1"
+    ]
+  },
+  {
+    "title": "Canonical Color as a Lens into Concept Decodability in Vision Encoders and VLMs",
+    "link": "http://arxiv.org/abs/2609.09124v1",
+    "published": "2026-09-08T17:50:09+00:00",
+    "summary": "Visual encoders construct a representation of the image input for Vision-Language models. How much conceptual, as opposed to immediately visible, information does this representation contain? We use canonical color as a controlled test case to ask whether vision encoders make canonical-color information linearly accessible, even when color is removed from the input image. We construct a dataset of objects with canonical colors, and probe vision encoders for both color and object identity using c",
+    "author": "Xiaofu Chen, Stella Frank, Yova Kementchedjhieva",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2609.09124v1"
+    ]
+  },
+  {
+    "title": "DeCAL: Towards Physically-Grounded Dexterous Vision-Language-Action Models via Contact-Aware Latent Co-Imagination",
+    "link": "http://arxiv.org/abs/2609.09119v1",
+    "published": "2026-09-08T17:47:43+00:00",
+    "summary": "Dexterous manipulation involves contact-rich and fine-grained interactions with the physical world, posing significant challenges for existing vision-language-action (VLA) models due to severe visual occlusions and complex contact dynamics. While recent works have incorporated tactile sensing into robotic manipulation, most approaches still rely on homogeneous multimodal fusion, lacking adaptive tactile integration and explicit modeling of physical dynamics. In this work, we present DeCAL, a phy",
+    "author": "Yankai Fu, Ning Chen, Junkai Zhao, Heng Zhang, Guocai Yao, Pengwei Wang, Zhongyuan Wang, Shanghang Zhang",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "https://aureleopku.github.io/DeCAL",
+      "http://arxiv.org/abs/2609.09119v1"
+    ]
+  },
+  {
+    "title": "MeClear: Cooperative Game-Theoretic Attribution and Risk-Aware Memory Clearance for Long-Horizon LLM Agents",
+    "link": "http://arxiv.org/abs/2609.09115v1",
+    "published": "2026-09-08T17:46:00+00:00",
+    "summary": "Long horizon Large Language Model (LLM) agents rely on external memory systems to preserve user preferences and task knowledge across extended interactions. Conventional retrieval mechanisms optimize semantic compatibility rather than downstream utility, frequently introducing outdated, misleading, or conflicting evidence into the active context. We present MeClear, a task conditioned memory clearance framework that identifies memories featuring negative downstream utility through cooperative at",
+    "author": "Boyu Yang, Jiazheng Sun, Zilong Lu, Zhi Qiu, Xin Peng, Jun Zheng",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2609.09115v1"
+    ]
+  },
+  {
+    "title": "SAEScientist-Bench: Can AI Agents Conduct Autonomous SAE Interpretability Research?",
+    "link": "http://arxiv.org/abs/2609.09113v1",
+    "published": "2026-09-08T17:45:09+00:00",
+    "summary": "While research on recursive self-improvement (RSI) has predominantly automated model training pipelines, reliable autonomous development demands a missing pillar: post-hoc monitoring and auditing to understand what models learn and ensure safe alignment. Mechanistic interpretability tools are essential to bridge this gap, among which Sparse Autoencoders (SAEs) serve as a cornerstone by isolating interpretable features for model inspection and steering. In this paper, we introduce SAEScientist-Be",
+    "author": "Yuqiao Tan, Shizhu He, Jun Zhao, Kang Liu",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "https://github.com/Trae1ounG/SAEScientist",
+      "http://arxiv.org/abs/2609.09113v1"
+    ]
+  },
+  {
+    "title": "The Surprising Effectiveness of Approximate Value Iteration in Self-Play",
+    "link": "http://arxiv.org/abs/2609.09094v1",
+    "published": "2026-09-08T17:37:19+00:00",
+    "summary": "Combining search with function approximation has driven major advances in game-playing programs, making self-play algorithms more competitive than ever. Still, the computational overhead of the most popular methods, based on Monte Carlo Tree Search (MCTS), can be substantial. In this work, we investigate whether simpler methods remain competitive in non-trivial, moderately sized games such as Connect Four, Hex(7x7) and synthetic games. We train a minimal self-play implementation of Approximate V",
+    "author": "Raphael Boige, Amine Boumaza, Bruno Scherrer",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2609.09094v1"
+    ]
+  },
+  {
+    "title": "Measuring LLM Sycophancy under Sustained Multi-Turn Pressure",
+    "link": "http://arxiv.org/abs/2609.09090v1",
+    "published": "2026-09-08T17:35:04+00:00",
+    "summary": "Large language models (LLMs) may abandon correct positions when users push back, exhibiting a failure mode known as sycophancy. Existing evaluations typically use short, pre-specified conversations and may therefore miss failures that emerge under sustained, adaptive disagreement. We introduce SPINE, a benchmark in which an LLM proxy plays a persistent but mistaken user and adaptively challenges a target model for up to 25 turns. We evaluate four production systems and three Olmo3-7b variants on",
+    "author": "Leyuan Tang, Kangda Wei, Tianyu Jiang, Ruihong Huang",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "https://anonymous.4open.science/r/SPINE",
+      "http://arxiv.org/abs/2609.09090v1"
+    ]
+  },
+  {
+    "title": "GoDeep: Annotation-Free Open-Vocabulary 3D Scene Understanding via Language-Space Lifting",
+    "link": "http://arxiv.org/abs/2609.09082v1",
+    "published": "2026-09-08T17:31:51+00:00",
+    "summary": "Open vocabulary 3D semantic segmentation methods typically lift CLIP features into 3D. This embeds points in a joint vision-language space known to behave like a bag-of-words on compositional tasks. Furthermore, even annotation free variants often require a large 3D training corpus and a dedicated 3D encoder per domain. Instead we use a vision-language model purely as a translator. It produces structured, entity-level descriptions of each posed image. These descriptions are grounded, projected, ",
+    "author": "Thodoris Betsas, Anastasios Doulamis, Andreas Georgopoulos",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2609.09082v1"
+    ]
+  },
+  {
+    "title": "Everything in Moderation: Per-Domain Coverage Optima and Alignment-Resistant Domain Gaps in Multi-Domain Mid-Training",
+    "link": "http://arxiv.org/abs/2609.09081v1",
+    "published": "2026-09-08T17:31:38+00:00",
+    "summary": "Mid-training, the stage between pre-training and alignment, is where a model's per-domain data composition is typically set by data availability rather than principled design. We ask what that decision buys, and whether a later alignment pass can undo it. In a controlled logical-reasoning setting (Qwen3-8B-Base, with a 4B replication; five semantically rule-disjoint KOR-Bench domains) we train 30 allocations spanning the five-domain simplex, 24 sweep configurations plus six withheld from the fit",
+    "author": "Yunpeng Xu, Kun Zheng",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2609.09081v1"
+    ]
+  },
+  {
     "title": "How GPT-5.6 Sol helps run quantum computing experiments",
     "link": "https://openai.com/index/codex-quantum-computing-experiments",
     "published": "2026-09-08T17:00:00+00:00",
@@ -204,187 +400,6 @@
     ]
   },
   {
-    "title": "Diffusion TV: Experiencing Diffusion Models through Tangible, Embodied Interaction",
-    "link": "http://arxiv.org/abs/2609.05404v1",
-    "published": "2026-09-04T17:51:48+00:00",
-    "summary": "Diffusion TV is an interactive AI art installation that offers a tangible and embodied experience of diffusion models through a modified CRT TV. By physically manipulating the TV's antenna, audiences control the clarity of AI-generated images and sounds, metaphorically enacting the denoising process that underlies diffusion-based generation. Using the tuning knob, participants switch between three channels featuring AI-generated animals from the Past (extinct species), Present (endangered specie",
-    "author": "Sihwa Park",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2609.05404v1"
-    ]
-  },
-  {
-    "title": "RegionFed: Federated Learning for Personalized Query Understanding in Heterogeneous Retail Environments",
-    "link": "http://arxiv.org/abs/2609.05403v1",
-    "published": "2026-09-04T17:50:10+00:00",
-    "summary": "Retail search systems serve diverse geographic regions with distinct query patterns, vocabularies, and product preferences, creating significant data heterogeneity that challenges both privacy-preserving training and model personalization. Federated learning offers a natural solution for privacy, but standard FL methods produce global models that sacrifice regional performance, while existing personalized FL approaches operate at the parameter level and catastrophically collapse on modern transf",
-    "author": "Quoc H. Nguyen, Ali Lafzi, Abhijeet Phatak, Siddharth Pratap Singh, Rohit Upadhyay, Yogananda Domlur Seetharama, Chittaranjan Tripathy",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2609.05403v1"
-    ]
-  },
-  {
-    "title": "A Deep Generative Model for Synthesizing Labeled Wireless Signals",
-    "link": "http://arxiv.org/abs/2609.05396v1",
-    "published": "2026-09-04T17:44:54+00:00",
-    "summary": "Wireless signals with position-related labels are pivotal for both performance evaluation and model training in the realm of wireless sensing. However, acquiring real-world datasets is often challenged by significant measurement and labeling costs. Traditional methods for synthesizing labeled wireless signals typically rely on environmental models, leading to extensive hyper-parameter tuning and inadequate realism for comprehensive model training purposes. To address these limitations, we introd",
-    "author": "Yuxiao Li, Keke Hu, Santiago Mazuelas, Yuan Shen",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2609.05396v1"
-    ]
-  },
-  {
-    "title": "Multi-Step Tool-Calling over Korean Open Public APIs: A Benchmark and a Data-Synthesis Recipe",
-    "link": "http://arxiv.org/abs/2609.05395v1",
-    "published": "2026-09-04T17:44:52+00:00",
-    "summary": "Data-sovereignty regulations increasingly require public institutions to deploy open-source, on-premise LLM agents that chain multiple tool-calls across live government APIs. However, open-source models consistently underperform in this multi-step setting, and no existing benchmark measures the gap. We introduce the Korean Open Public API Benchmark (KOPA-Bench), comprising 145 real-world tasks. To close this gap, we present EDGE, an Execution-grounded Dynamic Graph for tool-calling data synthEsi",
-    "author": "Dain Kim, Eungi Cho, Kyumin Kim, Shinyeong Noh, Kyuseong Lim",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2609.05395v1"
-    ]
-  },
-  {
-    "title": "Necessary or Sufficient? Evaluating LLM Explanations With Behavioural Evidence",
-    "link": "http://arxiv.org/abs/2609.05385v1",
-    "published": "2026-09-04T17:37:17+00:00",
-    "summary": "LLM decision components that can operate within agent workflows often produce action-relevant recommendations or judgements together with explanations. Operators may use the named factors to monitor a system, diagnose errors, or decide when to escalate an output. Such use assumes that the explanations agree with the component's observable decision behaviour. We test two interpretations of the named factors: necessity, meaning that changing a factor would change the output, and sufficiency, meani",
-    "author": "Urja Pawar, Rajitha Ramanayake, Nabeel Kemal, Ashwin Kandath, Owen O'Neill, Guillaume Bourgeon, Houssem Chatbri",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2609.05385v1"
-    ]
-  },
-  {
-    "title": "Reflection-aware Generative Novel View Synthesis",
-    "link": "http://arxiv.org/abs/2609.05382v1",
-    "published": "2026-09-04T17:33:45+00:00",
-    "summary": "We propose Ref-GeNVS, a training-free, reflection-aware method for generative novel view synthesis (NVS) in mirror scenes. Existing multi-view diffusion models often fail to recognize the mirror in the scene and cannot exploit reflected content for scene generation. To fix this issue without additional training, our key idea is to treat a mirror image as two complementary views. From input images, we estimate the mirror plane and reflect camera poses to form virtual views. Based on this virtual ",
-    "author": "GeonU Kim, Shin Dong-Yeon, Tae-Hyun Oh",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "https://kim-geonu.github.io/Ref-GeNVS/",
-      "http://arxiv.org/abs/2609.05382v1"
-    ]
-  },
-  {
-    "title": "Molecular Déjà Vu: Digit-Level Retrieval of Published Values in Frontier Language Models",
-    "link": "http://arxiv.org/abs/2609.05381v1",
-    "published": "2026-09-04T17:32:48+00:00",
-    "summary": "Large language models (LLMs) are increasingly evaluated on molecular property benchmarks, but accuracy cannot distinguish a model that predicts a property from one that retrieves a published number. We audit 22 frontier models on 12 regression benchmarks for verbatim retrieval and find that it is widespread but relatively benchmark-specific: on five datasets more than $50\\%$ of the LLMs show verbatim retrieval, while on the remaining datasets it appears only in isolated cells. We run our experim",
-    "author": "Matthias Busch, Marius Tacke, Sviatlana V. Lamaka, Mikhail L. Zheludkevich, Christian J. Cyron, Roland C. Aydin, Christian Feiler",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2609.05381v1"
-    ]
-  },
-  {
-    "title": "What Matters, When? Diagnosing and Improving Conditional Visual Grounding in Visuomotor Imitation Policies",
-    "link": "http://arxiv.org/abs/2609.05376v1",
-    "published": "2026-09-04T17:27:35+00:00",
-    "summary": "Visuomotor imitation policies can achieve high performance under in-distribution visual conditions yet fail when visually similar objects or receptacles are introduced. We study this behavior as a problem of conditional visual grounding: the visual target required for successful control changes with the manipulation phase and, in more complex tasks, with the observed task state. Using Action Chunking with Transformers (ACT), we systematically introduce distractor objects and receptacles with con",
-    "author": "Vivek Chavan, Pengtao Xie, Yahuan Shi, Oliver Heimann, Kevin Haninger, Jörg Krüger",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2609.05376v1"
-    ]
-  },
-  {
-    "title": "CUA-Universe: A Scalable and Dynamic Environment for Hybrid GUI+CLI Agents",
-    "link": "http://arxiv.org/abs/2609.05374v1",
-    "published": "2026-09-04T17:26:18+00:00",
-    "summary": "Computer-use agents have advanced on benchmarks like OSWorld and AndroidWorld, but still act mostly through the GUI, often producing inefficient trajectories. Real-world computer work is hybrid, combining visual-state inspection with precise, high-throughput command-line operations, so capable agents must coordinate both modalities over shared application state. Yet scalable hybrid environments remain scarce because supporting both GUI and CLI over real applications typically requires substantia",
-    "author": "Haoting Shi, Wenhao Wang, Weicheng Fang, Yaozhong Liang, Tian Jin, Pengxiang Zhao, Guangyi Liu, Siheng Chen, Yanfeng Wang",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2609.05374v1"
-    ]
-  },
-  {
-    "title": "When LLM Decompilers Recompile More and Preserve Less",
-    "link": "http://arxiv.org/abs/2609.05370v1",
-    "published": "2026-09-04T17:16:18+00:00",
-    "summary": "Decompilation recovers high-level source from compiled machine code and serves as a foundation for security tasks such as vulnerability detection and malware analysis. Traditional decompilers like Ghidra and Hex-Rays expose whatever they cannot resolve as visible placeholders and often emit pseudocode that will not compile or execute; LLM-based decompilers produce clean, idiomatic C and are now judged almost entirely by recompilability and re-executability: whether the output builds and passes i",
-    "author": "Chang Liu, Edward Raff, Kristopher Micinski",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2609.05370v1"
-    ]
-  },
-  {
-    "title": "Design Docs Are All You Need: An AI-native Machine-Learning Performance Tool",
-    "link": "http://arxiv.org/abs/2609.05364v1",
-    "published": "2026-09-04T17:08:51+00:00",
-    "summary": "Machine-learning performance modeling is a uniquely hostile terrain for long-lived software: the assumptions baked into today's abstractions are invalidated by tomorrow's models and systems, forcing perpetual refactoring of performance-modeling frameworks. Meanwhile, AI coding agents have become fast and capable enough that regenerating an entire library is cheaper than paying down the tech debt of incrementally patching it. We describe SMART, a rigorous symbolic performance-modeling library for",
-    "author": "Samuel Kushnir, Kimia Noorbakhsh, Kavya Sreedhar, Liqun Cheng, Ming Liu, Parthasarathy Ranganathan, Mohammad Alizadeh, Fred Kjolstad, Suvinay Subramanian",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2609.05364v1"
-    ]
-  },
-  {
-    "title": "Who Should Grade My Work? Student Perspectives on Transparent AI-Assisted Writing Assessment in Higher Education",
-    "link": "http://arxiv.org/abs/2609.05346v1",
-    "published": "2026-09-04T16:49:33+00:00",
-    "summary": "The integration of GenAI tools into higher education assessment raises important questions about how students understand, interpret, and respond to AI-mediated evaluation. As instructors increasingly explore AI tools for providing feedback, prior research has examined whether GenAI-generated feedback improves writing performance and how students perceive its usefulness; comparatively little is known, however, about how students interpret such evaluation when they are explicitly informed that an ",
-    "author": "Rayed AlGhamdi",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2609.05346v1"
-    ]
-  },
-  {
-    "title": "Does Your Agent's Memory Survive a Model Upgrade? A Controlled Study of Memory Portability",
-    "link": "http://arxiv.org/abs/2609.05339v1",
-    "published": "2026-09-04T16:44:17+00:00",
-    "summary": "Model upgrades are routine; memory migrations are not. An agent can keep the same memory store and still forget: a new model may interpret old notes differently, mixed embedding versions may break retrieval, and repair may fail without the original evidence. We compare memory as the same history is preserved verbatim for long-context reading (LC-RAW), divided into chunks for retrieval-augmented generation (RAG), compressed by a model into natural-language notes (NOTES), or normalized into a fixe",
-    "author": "Ankit Goyal, Jaideep Ray",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2609.05339v1"
-    ]
-  },
-  {
-    "title": "The History Is the Detector: Executing CVE Patch History, End-to-End",
-    "link": "http://arxiv.org/abs/2609.05335v1",
-    "published": "2026-09-04T16:40:22+00:00",
-    "summary": "Public vulnerability databases collect rich information about known software flaws, including their weakness types, affected components, and related patches. Fixing commits provide the exact code changes that removed these flaws. While these records capture why the original code was unsafe, they are documented mainly for human inspection rather than automated reuse. Consequently, the same unsafe conditions may still exist elsewhere in code without a known advisory, leaving much of this detection",
-    "author": "Qiushi Wu, Kevin Eykholt, Youngja Park, Xiaokui Shu, Dhilung Kirat, Douglas Lee Schales, Ian Molloy",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2609.05335v1"
-    ]
-  },
-  {
-    "title": "Lightweight Vision Transformer Compression for On-Device Plant Disease Detection in Resource-Constrained Agricultural Field Conditions",
-    "link": "http://arxiv.org/abs/2609.05334v1",
-    "published": "2026-09-04T16:40:06+00:00",
-    "summary": "Chilli (Capsicum annuum) is one of India's most economically significant crops, yet its productivity is persistently threatened by diseases that are difficult to identify without expert intervention. While Vision Transformers (ViTs) have achieved high classification accuracy, their large computational footprint makes deployment on resource constrained devices challenging. Existing compression approaches typically address pruning, quantization, and knowledge distillation in isolation, leaving the",
-    "author": "Mahadev Sunil Kumar, Bhavika Gondi, Desaisetty Venkata Satya Sai Swapnith, Gangireddy Rahul Jogi, Sudheesh Manalil, Arnab Raha, Amitava Mukherjee, Parthasarathy Seethapathy, G. Gopakumar",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2609.05334v1"
-    ]
-  },
-  {
     "title": "The Download: selling battlefield drone data and AI reshaping language",
     "link": "https://www.technologyreview.com/2026/09/04/1143457/the-download-ukraine-selling-drone-data-ai-reshaping-language/",
     "published": "2026-09-04T12:10:00+00:00",
@@ -418,18 +433,6 @@
     "category": "official",
     "references": [
       "https://openai.com/index/daybreak-for-frontline-defenders"
-    ]
-  },
-  {
-    "title": "The Download: rethinking child safety and fossil-fueled farming",
-    "link": "https://www.technologyreview.com/2026/09/03/1143385/the-download-rethinking-child-safety-online-fossil-fuels-farming/",
-    "published": "2026-09-03T12:10:00+00:00",
-    "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Child-monitoring apps might need a reboot Digital harms have become the defining fear of American parents. In response, they’re increasingly turning to content-monitoring apps that scan their children’s texts, photos, emails,&#8230;",
-    "author": "Thomas Macaulay",
-    "source": "MIT Tech Review",
-    "category": "media",
-    "references": [
-      "https://www.technologyreview.com/2026/09/03/1143385/the-download-rethinking-child-safety-online-fossil-fuels-farming/"
     ]
   },
   {
