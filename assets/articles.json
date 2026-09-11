@@ -1,5 +1,187 @@
 [
   {
+    "title": "GPU-CFR: 80x Faster Counterfactual Regret Minimization by Compiling the Game to Static Dataflow and CUDA Graph Replay",
+    "link": "http://arxiv.org/abs/2609.11923v1",
+    "published": "2026-09-10T17:58:14+00:00",
+    "summary": "Counterfactual regret minimization (CFR) is one of the few large numerical workloads that still runs faster on CPUs than on GPUs. Each iteration sweeps a game tree with up to billions of states in millions of small, interdependent gather and scatter steps issued through a generic tree interface. On a GPU every kernel finishes in microseconds, so kernel launches and framework dispatch dominate the run time, and prior GPU implementations have lost to optimized CPU code. We observe that for a fixed",
+    "author": "Boning Li, Longbo Huang",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2609.11923v1"
+    ]
+  },
+  {
+    "title": "General Quantification of Covariate and Concept Shifts",
+    "link": "http://arxiv.org/abs/2609.11918v1",
+    "published": "2026-09-10T17:57:52+00:00",
+    "summary": "Generalization under distribution shift remains a core challenge in modern machine learning, yet existing learning bound theory is limited to narrow, idealized settings and is non-estimable from samples. In this paper, we bridge the gap between theory and practical applications. We first show that existing definition of concept shift breaks when the source and target supports mismatch. Leveraging entropic optimal transport, we propose a key notion: $γ^{*}\\!$-concept shifts, and derive a general ",
+    "author": "Hongbo Chen, Li Charlie Xia",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2609.11918v1"
+    ]
+  },
+  {
+    "title": "Can Edge-Deployable Vision-Language Models Identify Species?",
+    "link": "http://arxiv.org/abs/2609.11916v1",
+    "published": "2026-09-10T17:57:32+00:00",
+    "summary": "Camera traps often run in the field on edge hardware with limited or no connectivity, making small, locally-deployable vision-language models (VLMs) -- not frontier-scale ones -- the practically relevant class to evaluate for species identification. We test whether models in this deployment-relevant 2--8B range carry genuine taxonomic knowledge, evaluating four such VLMs (Qwen3-VL 2B/4B/8B, Gemma3 4B) against the domain-specific specialist BioCLIP (300M parameters) on a 96-species task, comparin",
+    "author": "William Zhou, Mayukha Siripuram, Xiao Yan, Ziqi Liu, Yi Ding",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2609.11916v1"
+    ]
+  },
+  {
+    "title": "Generative Marketing Mix Modeling: A Causal Inference Framework Linking GEO and GEM to Business Impact",
+    "link": "http://arxiv.org/abs/2609.11915v1",
+    "published": "2026-09-10T17:57:28+00:00",
+    "summary": "Generative artificial intelligence changes how firms reach customers, but standard marketing data do not record how often users see and notice a firm's name in generated answers. We develop Generative Marketing Mix Modeling (GMMM) to estimate the causal effects of Generative Engine Optimization (GEO) and Generative Engine Marketing (GEM). For GEO, GMMM combines repeated generated answers with question counts, shares of use across generative systems, and notice probabilities. For GEM, it combines",
+    "author": "Masahiro Kato, Daiki Honma, Taka Kato",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2609.11915v1"
+    ]
+  },
+  {
+    "title": "Artificial Id: Drive and Persistent Alignment in Agentic AI",
+    "link": "http://arxiv.org/abs/2609.11911v1",
+    "published": "2026-09-10T17:56:41+00:00",
+    "summary": "Agentic AI is moving from bounded task execution toward systems that retain consequential state, continue operating and adapt across task boundaries. That shift creates a control problem that current harnesses largely solve by hand: objectives, retries, verification, stopping rules and other behavioral transitions are specified externally. We propose an artificial id, an adaptive internal drive for determining whether behavior should continue, stop or change. In a minimal virtual Petri-dish expe",
+    "author": "Yakov Pyotr Shkolnikov",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2609.11911v1"
+    ]
+  },
+  {
+    "title": "MindTopo: Can Foundation Models Reason in Topological Space?",
+    "link": "http://arxiv.org/abs/2609.11900v1",
+    "published": "2026-09-10T17:54:32+00:00",
+    "summary": "Spatial reasoning depends not only on metric properties such as distance, angle, and shape, but also on topological relations that remain invariant under continuous deformation. Cognitive science identifies these relations as foundational to spatial understanding, yet foundation-model evaluations largely focus on metric or viewpoint-dependent relations. We introduce MindTopo, a benchmark of topological intuition across five properties grounded in cognitive science and formal topology: continuity",
+    "author": "Yunfei Ge, Anbang Liu, Qineng Wang, Johnalbert Garnica, Jianwen Lyu, Zihan Wang, Reuben Tan, Jianfeng Gao, Ruohan Zhang, Yining Hong, Jiajun Wu, Manling Li",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "https://mind-topo.github.io/",
+      "http://arxiv.org/abs/2609.11900v1"
+    ]
+  },
+  {
+    "title": "Domain-Specific Hallucination Detection in Large Language Models",
+    "link": "http://arxiv.org/abs/2609.11878v1",
+    "published": "2026-09-10T17:45:36+00:00",
+    "summary": "Large language models generate fluent text that can contain unfaithful claims -- a phenomenon known as hallucination. We present a multi-signal detection pipeline combining fine-tuned DeBERTa-v3 classification, Monte Carlo (MC) Dropout uncertainty quantification, and temperature-scaled calibration for response-level hallucination detection. Evaluated on the HaluEval benchmark, our pipeline achieves F1=0.915 and AUROC=0.977 on general-domain tasks, with per-task F1 scores of 0.97 (QA), 0.96 (Summ",
+    "author": "Varun Teja Chundru, Debasmita Biswas",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "https://github.com/varunteja99/hallucination-detection-nlp",
+      "http://arxiv.org/abs/2609.11878v1"
+    ]
+  },
+  {
+    "title": "Biology-in-the-loop: Amortized Adaptive Hit Discovery in CRISPR Screens",
+    "link": "http://arxiv.org/abs/2609.11877v1",
+    "published": "2026-09-10T17:45:18+00:00",
+    "summary": "Many biological discovery problems require experiments to be selected sequentially under constrained budgets. CRISPR screening is a prominent example, as exhaustive perturbation testing is often infeasible and candidate perturbations must instead be prioritized over multiple experimental rounds. Despite the importance of this problem, existing benchmarks for adaptive hit discovery remain limited in scale and diversity. Here, we introduce AssayBench-Loop, a large-scale benchmark for adaptive hit ",
+    "author": "Carl Edwards, Edward De Brouwer, Xiner Li, Namkyeong Lee, Ehsan Hajiramezanali, Anne Biton, Sara Mostafavi, Gabriele Scalia",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2609.11877v1"
+    ]
+  },
+  {
+    "title": "On the Regularization Landscape for the Linear Recommendation Models",
+    "link": "http://arxiv.org/abs/2609.11876v1",
+    "published": "2026-09-10T17:45:06+00:00",
+    "summary": "Recently, a wide range of recommendation algorithms inspired by deep learning techniques have emerged as the performance leaders on several standard recommendation benchmarks. While these algorithms were built on different DL techniques (e.g., dropouts, autoencoder), they have similar performance and even similar cost functions. This paper studies whether the models' comparable performance are sheer coincidence, or they can be unified under a single framework. We find that all linear performance",
+    "author": "Dong Li, Zhenming Liu, Ruoming Jin, Hao Zhou, Zhi Liu, Jing Gao, Bin Ren",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2609.11876v1"
+    ]
+  },
+  {
+    "title": "The Last AI Built by Humans: Toward Genuine Recursive Self-Improvement",
+    "link": "http://arxiv.org/abs/2609.11873v1",
+    "published": "2026-09-10T17:44:23+00:00",
+    "summary": "Recursive self-improvement (RSI) enables AI systems to turn experience and feedback into persistent changes that improve both their capabilities and the process of future improvement. We first use the Headroom-Closed Index (HCI) to reveal the problems of existing LLMs, then introduce the RSI concept and its development roadmap: from improvement-execution autonomy, improvement-strategy autonomy, experience-acquisition autonomy, and environment-adaptation autonomy, to recursive meta-improvement. N",
+    "author": "Yi Duan, Ying Liu, Zirui Tang, Haodong Chen, Jun Zhou, Yumou Liu, Bangrui Xu, Yukai Wu, Sidi Chen, Yuhan Zhou, Haoyu Wang, Xiaoyou Yu, Shaokun Han, Xuzhou Zhu, Le Zhou, Bolin Lu, Wei Zhou, Jiachen Liu, Nuozhou Fang, Jiaxin Tian, Ruoyu Chen, Yuxuan Li, Kai Zuo, Kaiyan Zhang, Jiantao Qiu, Conghui He, Guoliang Li, Bowen Zhou, Zhiyuan Liu, Zhoufutu Wen, Jihua Kang, Xuanhe Zhou, Fan Wu",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2609.11873v1"
+    ]
+  },
+  {
+    "title": "RetroThinker: Enabling Retrospective Thinking in Speech LLMs",
+    "link": "http://arxiv.org/abs/2609.11864v1",
+    "published": "2026-09-10T17:41:53+00:00",
+    "summary": "Speech large language models (SpeechLLMs) offer reduced latency and retain paralinguistic nuances that are typically lost in cascaded automatic speech recognition (ASR) and text-based LM architectures. However, they continue to lag behind text-only LLMs on complex reasoning tasks, while real-time spoken interaction imposes strict latency constraints. Although prior works employ Chain-of-Thought (CoT) and concurrent reasoning to enhance reasoning capabilities without inducing prohibitive delays, ",
+    "author": "Yi-Jen Shih, Puyuan Peng, Abdelrahman Mohamed, David Harwath",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2609.11864v1"
+    ]
+  },
+  {
+    "title": "Explainability Assistant: A Conversational XAI Interface for Interpreting Energy Consumption Models",
+    "link": "http://arxiv.org/abs/2609.11860v1",
+    "published": "2026-09-10T17:40:11+00:00",
+    "summary": "Energy consumption forecasting relies on increasingly complex machine learning (ML) models, such as Genetic Programming-based symbolic regressors, whose predictions can be difficult for facility managers and building operators to interpret. Explainable Artificial Intelligence (XAI) techniques address this opacity, but traditional XAI dashboards require substantial technical expertise and provide limited flexibility for dynamic, context-aware inquiry. Conversational XAI systems offer a promising ",
+    "author": "Rodion Krjutškov, Eduard Barbu, Nikos Sakkas, Sofia Yfanti",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2609.11860v1"
+    ]
+  },
+  {
+    "title": "From Parameters to Answers: How LLMs Retrieve and Use Their Internal Knowledge",
+    "link": "http://arxiv.org/abs/2609.11859v1",
+    "published": "2026-09-10T17:39:55+00:00",
+    "summary": "How does a language model's dependence on query-routing information and target knowledge change as it answers a question? We study this question through layerwise interventions on the hidden state at the end of the question. Across Qwen, Llama, and Gemma, we compare country-continent questions with noun, adjective, and code answers while keeping several fitted measurements distinct. A pair-conditioned request direction describes which country is queried in natural single-country questions; a glo",
+    "author": "Wenkang Wei, Yuan Fang, Renhe Jiang, Hong Cheng, Xingtong Yu",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2609.11859v1"
+    ]
+  },
+  {
+    "title": "Model-Aware Schedules Improve Generation via Fiberwise Optimal Transport",
+    "link": "http://arxiv.org/abs/2609.11842v1",
+    "published": "2026-09-10T17:30:44+00:00",
+    "summary": "Diffusion and flow-matching schedules control the signal and noise coefficients that mix data and noise along affine probability paths. Minimizing a kinetic action defined on coefficient paths, motivated by optimal transport, helps explain strong baselines but remains model-agnostic and ignores prediction error. Here we introduce a model-aware schedule construction based on fiberwise optimal transport. At a fixed time and state on the probability path, compatible signal/noise decompositions form",
+    "author": "Luyi Jia, Boyan Zhang, Yilun Liu, Steffen Rulands",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2609.11842v1"
+    ]
+  },
+  {
+    "title": "Understanding Operator Attitudes Toward AI-Supported Decision Making in Maritime Operations",
+    "link": "http://arxiv.org/abs/2609.11805v1",
+    "published": "2026-09-10T16:57:44+00:00",
+    "summary": "Maritime Autonomous Surface Ships (MASS) and AI- supported decision assistants are expected to transform maritime operations, but their safe integration depends on how maritime professionals perceive and trust such systems. This paper presents a survey study on maritime stakeholders' attitudes toward an AI-supported assistant in collision-avoidance scenarios. Participants evaluated technology anxiety, trust in automation, and explanation quality using established and adapted questionnaires, comp",
+    "author": "Doreen Jirak, Armeen Saroukanoff, Dirk van Rooy",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2609.11805v1"
+    ]
+  },
+  {
     "title": "How a researcher uses Codex and ChatGPT to search for new antimicrobial molecules",
     "link": "https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials",
     "published": "2026-09-10T16:00:00+00:00",
@@ -156,43 +338,6 @@
     ]
   },
   {
-    "title": "Show-Harness: Just a VLM Agent Can Play Robots",
-    "link": "http://arxiv.org/abs/2609.10522v1",
-    "published": "2026-09-09T17:53:38+00:00",
-    "summary": "Foundation vision-language models (VLMs) exhibit broad intelligence about the world, yet translating this intelligence into robot control remains challenging. We present Show-Harness, an Embodied Harness that enables VLMs to \"play\" robots through a compact semantic interface linking intent to action. Show-Harness exposes discrete semantic action units that VLMs can naturally reason over, while embodiment-specific interpreters deterministically ground them into local robot actions, keeping the VL",
-    "author": "Yanzhe Chen, Zechen Bai, Zhijun Cao, Wenzheng Zeng, Kevin Qinghong Lin, Yiqi Lin, Guoqiang Liang, Kevin Yuchen Ma, Qiming Huang, Mike Zheng Shou",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2609.10522v1"
-    ]
-  },
-  {
-    "title": "IBIB: A Protocol for Measuring Enterprise AI Systems by Serving Route, Not Model Identifier",
-    "link": "http://arxiv.org/abs/2609.10494v1",
-    "published": "2026-09-09T17:31:29+00:00",
-    "summary": "Enterprises deploy systems, not checkpoints. Usable capability depends jointly on weights, serving route, precision, output contract, and harness, yet all 18 audited benchmarks score advertised model identifiers. We treat this as measurement error and give a protocol that makes it reportable. It has three parts. A gold-blind capability-binding preflight verifies that a route can execute the evaluation contract before any task reaches it; a reliability-inclusive first-pass scoring rule keeps fail",
-    "author": "Blake Stenstrom, Charangan Vasantharajan, Brian Sathianathan",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2609.10494v1"
-    ]
-  },
-  {
-    "title": "Semigroup-JEPA: Latent Dynamics Consistency for Zero-Shot Physics Generalization",
-    "link": "http://arxiv.org/abs/2609.10464v1",
-    "published": "2026-09-09T17:08:13+00:00",
-    "summary": "Joint-Embedding Predictive Architecture (JEPA) world models learn a compact latent representation of the world that supports prediction and planning, but their capability to learn physics and generate physically realistic dynamics remains hitherto untested. In this work, we introduce SemiGroup-JEPA (SG-JEPA), which extends the LeWorldModel framework by supplying the parameter governing the physics to the temporal model via action-conditioning and jointly training an encoder and predictor through",
-    "author": "Andy Zeyi Liu, Haoran Sun, Lucas Baker, Randall Balestriero, John Sous",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "https://sg-jepa.github.io",
-      "http://arxiv.org/abs/2609.10464v1"
-    ]
-  },
-  {
     "title": "Paul Christiano joins OpenAI Foundation Board",
     "link": "https://openai.com/index/paul-christiano-joins-openai-foundation-board",
     "published": "2026-09-09T17:00:00+00:00",
@@ -202,103 +347,6 @@
     "category": "official",
     "references": [
       "https://openai.com/index/paul-christiano-joins-openai-foundation-board"
-    ]
-  },
-  {
-    "title": "JarvisGUI: Towards Cross-Device GUI Agents with Dynamic Task Composition",
-    "link": "http://arxiv.org/abs/2609.10451v1",
-    "published": "2026-09-09T16:59:59+00:00",
-    "summary": "Real-world GUI usage frequently involves workflows that span multiple devices and platforms, requiring the transfer of intermediate results, maintenance of shared state, and coordination across heterogeneous environments. However, existing GUI benchmarks overwhelmingly evaluate agents on single-device, statically defined tasks, thus leaving such cross-device capabilities largely unexamined, resulting in an overly optimistic assessment of agents' readiness for real-world usage. We introduce Jarvi",
-    "author": "Zixiang Chen, Yuheng Lu, Zihao Cheng, Zeming Liu, Jizeng Bai, Ziye Huang, Zhiyin Lin, Zihan Li, Yuhang Guo, Yunhong Wang, Haifeng Wang",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2609.10451v1"
-    ]
-  },
-  {
-    "title": "ConvMem: Convolutional Memory for Long-Context Reasoning",
-    "link": "http://arxiv.org/abs/2609.10441v1",
-    "published": "2026-09-09T16:53:02+00:00",
-    "summary": "While Large Language Models (LLMs) have demonstrated impressive capabilities, they often struggle with extremely long contexts due to fixed context limits. To address this, sequential approaches like MemAgent extend the effective context by reading text in segments and iteratively updating a fixed-size memory. However, this sequential paradigm suffers from high latency and requires costly reinforcement learning (RL) training, which can lead to overfitting on specific datasets. To overcome these ",
-    "author": "Hongming Zhang, Zhaozhen Gu, Fengshuo Bai, Ming Hao, Qingyang Zhang, Yuanyuan Wang, Shiyang Tang, Yanna Wang, Bo Xu",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2609.10441v1"
-    ]
-  },
-  {
-    "title": "Forgetting Only What Matters: Layer-Selective Unlearning toward Robust LLMs",
-    "link": "http://arxiv.org/abs/2609.10439v1",
-    "published": "2026-09-09T16:50:41+00:00",
-    "summary": "Large Language Models (LLMs) can memorize and reproduce sensitive, copyrighted, or otherwise undesirable training content, creating privacy, safety, and regulatory concerns. Machine unlearning offers a practical alternative to full retraining, but many existing methods apply broad or fixed parameter updates that can degrade utility and remain brittle under deployment changes such as post-training quantization, where forgotten knowledge may partially re-emerge. We propose Forgetting Only What Mat",
-    "author": "Ravi Ranjan, Olivera Kotevska, Agoritsa Polyzou",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2609.10439v1"
-    ]
-  },
-  {
-    "title": "Emergency Department Revisit Quality Review Screening: Exploring Human Decision-Making and Artificial Intelligence Support",
-    "link": "http://arxiv.org/abs/2609.10421v1",
-    "published": "2026-09-09T16:37:35+00:00",
-    "summary": "Background: Emergency Department (ED) return visits are commonly reviewed for quality assurance, but are often limited (e.g., to revisits within 48-72 hours) to increase actionable finding yield while minimizing chart review burden. Those limitations may lead to missed quality improvement opportunities. Methods: We conducted an exploratory, retrospective study of randomly selected ED visits to a multihospital health system having an ED revisit within 1-14 days to the same health system. Given on",
-    "author": "Jonathan A. Handler, Marlene I. Robles-Granda, Jacob E. Mefford, Jeremy S. McGarvey, Gregory S. Podolej, Colleen J. Klein, Matthew D. Dalstrom, William F. Bond",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2609.10421v1"
-    ]
-  },
-  {
-    "title": "Fortunate Recall: Ontology-Driven Memory Lifecycle Management for Persistent Coherence in LLMs",
-    "link": "http://arxiv.org/abs/2609.10413v1",
-    "published": "2026-09-09T16:31:45+00:00",
-    "summary": "Current LLM memory systems treat all personal facts identically, so stores grow without bound while retrieval precision degrades. The core challenge is lifecycle management: which memories should persist, which should be replaced, and at what rate, conditioned on the behavioral type of each fact. Fortunate Recall (FR) is a composable policy layer that classifies personal facts into a 10+1 behavioral ontology and applies category-specific lifecycle policies (differential temporal decay, slot-key ",
-    "author": "Ansuman Mullick, Eray Tüzün",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2609.10413v1"
-    ]
-  },
-  {
-    "title": "Can Foundation Models Moderate Online Content? Evaluating Instruction- vs. Example-Driven Policy Operationalization",
-    "link": "http://arxiv.org/abs/2609.10410v1",
-    "published": "2026-09-09T16:30:15+00:00",
-    "summary": "The growing complexity of content moderation policies presents a critical challenge for their consistent operationalization. While foundation models possess the basic capabilities needed to confront this challenge, whether they can reliably moderate online content remains an unanswered question. In this paper, we systematically compare two competing paradigms for Vision-Language Model (VLM) guidance: an instruction-driven approach where models reason from policy precepts, and an example-driven a",
-    "author": "Ayan Majumdar, Shounak Paul, Pushpdeep Singh, Ines Abdelaziz, Sayeh Jarollahi, Seungeon Lee, Krishna P. Gummadi, Ingmar Weber, Abhisek Dash",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2609.10410v1"
-    ]
-  },
-  {
-    "title": "MOONWALK: Mediating Operations with Intent-Evidence-Action Alignment Across Junior-Supervisor Review Workflows in Animation/VFX Pre-Production",
-    "link": "http://arxiv.org/abs/2609.10385v1",
-    "published": "2026-09-09T16:10:29+00:00",
-    "summary": "Animation and VFX pre-production review requires teams to translate loosely specified creative intent--briefs, evolving specifications, heterogeneous references, and verbal decisions--into revisions that junior artists can execute without repeated clarification. In practice, criteria drift across iterations, review judgments lose their evidential basis, and the reasoning behind a request rarely survives the senior-junior handoff. We contribute a design framework for intent-evidence-action alignm",
-    "author": "Shih-Yu Lai, Wen-Fan Wang, Sai Ling, Shaune Jan, Bing-Yu Chen, Xiang Anthony Chen",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "https://github.com/Akinesia112/Moonwalk/tree/english-version",
-      "http://arxiv.org/abs/2609.10385v1"
-    ]
-  },
-  {
-    "title": "PACE: Perceived-Latency-Aware Cascading Service Routing and Filler Control for QoE-Efficient Retrieval-Augmented Dialogue Serving",
-    "link": "http://arxiv.org/abs/2609.10372v1",
-    "published": "2026-09-09T16:02:36+00:00",
-    "summary": "We present the PACE, a framework for retrieval-augmented dialogue serving that formalizes Perceived Time-to-First-Response (PTFR) as a QoE objective and minimizes it under quality/cost constraints. Unlike prior work on cascaded routing, semantic caching, or adaptive retrieval, PACE jointly controls which answer source composes the response and what fills the waiting window. Deployed on a humanoid-robot sales service, it combines three mechanisms: a load-adaptive cascading router, a joint path-fi",
-    "author": "Lin Huang, Yujuan Tan, Weisheng Li, Lixiang Zeng, Kun Yang, Suihan Xiao",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2609.10372v1"
     ]
   },
   {
@@ -323,54 +371,6 @@
     "category": "official",
     "references": [
       "https://blog.google/innovation-and-ai/technology/ai/love-rendered-film/"
-    ]
-  },
-  {
-    "title": "OmniMed-FL: A Robust Multimodal Federated Learning Framework for Clinical Diagnosis",
-    "link": "http://arxiv.org/abs/2609.10364v1",
-    "published": "2026-09-09T15:56:26+00:00",
-    "summary": "Simultaneous assessment of medical imaging and patient records is often required in clinical diagnosis. However, standard machine learning algorithms cannot analyze these data types together. Meanwhile, compliance with HIPAA and GDPR can constrain centralized aggregation of sensitive patient data. This leaves a crucial void of secure fusion of visual and textual context across distant networks. Thus, we present OmniMed-FL, a controlled systems study of multimodal federated learning for five-clas",
-    "author": "Ayush Debnath, Ruelia Saha, Sudip Misra",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2609.10364v1"
-    ]
-  },
-  {
-    "title": "Cyber-Financial Contagion: Modeling the Propagation of an AI Vendor Compromise Through the Banking System",
-    "link": "http://arxiv.org/abs/2609.10350v1",
-    "published": "2026-09-09T15:46:16+00:00",
-    "summary": "The banking system now depends on a small set of shared artificial intelligence vendors for fraud screening, credit decisioning, anti-money-laundering triage, customer analytics, and internal decision support. This paper studies how a compromise inside one of those vendors can propagate along a chain of operational, informational, and financial linkages until it triggers losses that look, from the outside, like a classical banking crisis. We build a four-layer heterogeneous network that couples ",
-    "author": "Alex Leytes",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2609.10350v1"
-    ]
-  },
-  {
-    "title": "Beyond One-Size-Fits-All: Sample-Adaptive Strategy Routing for Vision Token Pruning in MLLMs",
-    "link": "http://arxiv.org/abs/2609.10346v1",
-    "published": "2026-09-09T15:44:32+00:00",
-    "summary": "Multimodal large language models (MLLMs) process hundreds or thousands of visual tokens per image, incurring prohibitive inference costs. While existing vision token pruning methods mitigate this overhead, they implicitly assume that a single fixed pruning strategy can be applied uniformly across all inputs. Our analysis further reveals that ranking pruning methods by average benchmark accuracy conceals substantial sample-wise complementarity: although the average-best strategy excels overall, a",
-    "author": "Haiji Liang, Pengfei Zhou, Zhenglin Wan, Wei Wang, Yang You, Wangbo Zhao",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2609.10346v1"
-    ]
-  },
-  {
-    "title": "From Symbolic Perception to Logical Deduction: A Framework for Guiding Language Models in Geometric Reasoning",
-    "link": "http://arxiv.org/abs/2609.10335v1",
-    "published": "2026-09-09T15:33:25+00:00",
-    "summary": "Plane geometry remains a significant challenge in AI, requiring the integration of visual perception and mathematical reasoning. While Large Multimodal Models (LMMs) naturally handle visuo-linguistic inputs, they are often computationally intensive and opaque. We demonstrate that a pure Large Language Model (LLM), when equipped with specialized modules, can rival state-of-the-art LMMs on complex geometry problems. Our framework integrates a Geometric Vision Parser, which translates diagrams into",
-    "author": "Weichen Dai, Rafael Medeiros Cabral, Ziyi Shou, Yan Cao, Xin Shen, Dongcai Lu, Yi Zhou",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2609.10335v1"
     ]
   },
   {
