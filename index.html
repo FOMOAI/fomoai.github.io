@@ -779,6 +779,22 @@
         const footer = document.querySelector('footer');
         let lastFocusedElement = null;
 
+		function dlIosAndroid() {
+			var IOS_STORE     = "https://apps.apple.com/app/fomo-ai/id6786041063?ppid=cefc0719-2cfd-441d-9dc5-28ec158a5ecb";
+			var ANDROID_STORE = "https://play.google.com/store/apps/details?id=com.fomoai.app";
+			
+			var ua = navigator.userAgent || navigator.vendor || window.opera;
+			var url = null;
+			
+			if (/iPhone|iPad|iPod/i.test(ua) && !window.MSStream) {
+				url = IOS_STORE;
+			} else if (/Android/i.test(ua)) {
+				url = ANDROID_STORE;
+			}
+			
+			if (url) window.location.replace(url);
+		}
+		
         function showPrivacy() {
             if (!privacySection) return;
             lastFocusedElement = document.activeElement;
@@ -820,6 +836,8 @@
 		// Handle initial page load (if URL already has #news or #privacy)
 		if (window.location.hash === '#privacy') {
 			showPrivacy();
+		} else if (window.location.hash === '#dl') {
+			dlIosAndroid();
 		} else if (window.location.hash === '#news') {
 			window.location.href = 'news.html';
 		}
@@ -829,6 +847,8 @@
 			const hash = window.location.hash;
 			if (hash === '#privacy') {
 				showPrivacy();
+			} else if (hash === '#dl') {
+				dlIosAndroid();
 			} else if (hash === '#news') {
 				// Redirect to news.html (full page reload)
 				window.location.href = 'news.html';
