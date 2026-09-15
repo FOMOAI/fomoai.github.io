@@ -109,6 +109,186 @@
     ]
   },
   {
+    "title": "Rethinking Heterogeneous System Disaggregation for Subquadratic Attention",
+    "link": "http://arxiv.org/abs/2609.13134v1",
+    "published": "2026-09-11T17:55:45+00:00",
+    "summary": "Frontier language models are more aggressively using subquadratic attention to reduce the memory footprint and compute requirements during inference while still delivering frontier accuracy. While existing systems make dense attention-centric disaggregated serving decisions, we show that disaggregating inference around the unique arithmetic intensity and memory footprint of subquadratic attention LLMs can achieve significant throughput and energy efficiency gains on emerging DRAM-based and SRAM-",
+    "author": "Arya Tschand, Yaosheng Fu, Vikram Sharma Mailthody, Nicolai Oswald, Po-An Tsai, Ritchie Zhao, Oreste Villa, Vijay Janapa Reddi, Karu Sankaralingam",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2609.13134v1"
+    ]
+  },
+  {
+    "title": "A Hybrid LSTM-XGBoost Framework for Multi-Horizon Stock Return Prediction Across Diversified Equity Portfolios",
+    "link": "http://arxiv.org/abs/2609.13125v1",
+    "published": "2026-09-11T17:51:47+00:00",
+    "summary": "Accurate prediction of equity returns remains a major challenge in computational finance due to the non-stationary, nonlinear, and low signal-to-noise ratio nature of financial time series. This paper proposes a hybrid two-stage architecture that combines a long short-term memory (LSTM) network with an XGBoost gradient-boosted regressor for multi-horizon stock return prediction across a diversified panel of 14 U.S. equities spanning six industry sectors. The LSTM component, comprising two stacke",
+    "author": "Seif ElDein Mostafa, Yahia Ahmed, Farah Datwish, Marwa Solayman",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2609.13125v1"
+    ]
+  },
+  {
+    "title": "CMA-OT: Hierarchical Expert Supervision for Dance-to-Music Generation",
+    "link": "http://arxiv.org/abs/2609.13118v1",
+    "published": "2026-09-11T17:46:15+00:00",
+    "summary": "Dance-to-music (D2M) generation aims to synthesize music that is rhythmically and stylistically aligned with dance videos. A key challenge arises from the semantic mismatch between sparse dance cues, such as rhythm and style, and the dense information required for music composition, including structure, instrumentation, and expressive dynamics. Existing methods typically rely on these sparse cues and supervise only the final audio output, resulting in poorly learned music representations and gen",
+    "author": "Jinting Wang, Chenxing Li, Dong Yu, Li Liu",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2609.13118v1"
+    ]
+  },
+  {
+    "title": "ASTRIL-MPC: Autonomous Traversal Framework of Articulated Tracked Robots with Language-Guided Neural-Kinematic MPC",
+    "link": "http://arxiv.org/abs/2609.13083v1",
+    "published": "2026-09-11T17:17:52+00:00",
+    "summary": "In urban search and rescue, articulated tracked robots (ATRs) must traverse structured but contact-rich environments such as stairwells and cluttered building interiors. Reliable autonomy remains challenging because robot-terrain interaction (RTI) is hybrid and discontinuous, and effective flipper-track coordination is difficult to model analytically. We present ASTRIL-MPC, a language-guided neural kinematics model predictive control (MPC) framework for autonomous traversal. A learned kinematics",
+    "author": "Zhenfeng Gan, Yanbo Chen, Lirong Che, Junbo Tan, Xueqian Wang",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2609.13083v1"
+    ]
+  },
+  {
+    "title": "Embodied-BenchForge: A Closed-Loop Agentic Workflow for Embodied Benchmark Construction",
+    "link": "http://arxiv.org/abs/2609.13082v1",
+    "published": "2026-09-11T17:16:01+00:00",
+    "summary": "Agentic systems offer a promising way to automate embodied benchmark construction, but existing approaches typically cover isolated stages or remain specialized to predefined environments and task families. More importantly, multi-step construction produces dependent intermediate artifacts that are often passed downstream without artifact-specific verification, allowing local defects to propagate into the final benchmark. We present Embodied-BenchForge, an agentic framework that transforms user-",
+    "author": "Baoyang Jiang, Fengchun Zhang, Leyuan Wang, Haotian Li, Yida Wang, Zhe Ji, Jinshan Lai, Xi Ren, Danyang Li, Zheng Yang, Jianwei Hu, Qiang Ma",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2609.13082v1"
+    ]
+  },
+  {
+    "title": "MP-Bench: Evaluating Voice Agents as a Multiparty Conversation Participant",
+    "link": "http://arxiv.org/abs/2609.13076v1",
+    "published": "2026-09-11T17:11:55+00:00",
+    "summary": "Conversational voice agents have advanced significantly, offering increasingly natural human-machine interactions through both cascaded and end-to-end architectures. However, while recent benchmarks extensively evaluate dyadic interactions and passive audio comprehension, they largely overlook a prevalent real-world scenario: multi-party conversations. Evaluating agents in these settings is fundamentally more challenging than in dyadic interactions due to the exponentially greater conversational",
+    "author": "Yi-Jen Shih, Shih-Yun Shan Kuan, Guan-Ting Lin, Kai-Wei Chang, Siddhant Arora, Shu-wen Yang, Abdelrahman Mohamed, Shinji Watanabe, Hung-yi Lee, David Harwath",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2609.13076v1"
+    ]
+  },
+  {
+    "title": "Autonomous Research for Open-Ended Problems: A Case Study on Telecom Ticket Retrieval",
+    "link": "http://arxiv.org/abs/2609.13073v1",
+    "published": "2026-09-11T17:09:15+00:00",
+    "summary": "Recent breakthroughs in LLM-based systems and their abilities in problem solving and coding have allowed progress in the AI for Science paradigm, potentially replacing human roles in machine learning (ML) research. However, while several frameworks of fully autonomous end-to-end ML research have been proposed, successful implementations of them are often limited to problems with narrow search spaces, like language modeling or biomedical ML benchmarks. In this paper, we explore how autonomous res",
+    "author": "Junghyun Min, Huseyin Uzunalioglu, Mohamed Trabelsi",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2609.13073v1"
+    ]
+  },
+  {
+    "title": "MAxBench: A Multinomial Concept Recovery Benchmark",
+    "link": "http://arxiv.org/abs/2609.13072v1",
+    "published": "2026-09-11T17:08:57+00:00",
+    "summary": "Fine-grained control of language model behaviors (e.g., steering) is among the more actionable outcomes of interpretability research. For binary concepts such as refusal, a single direction in activation space often suffices for steering. However, many concepts are not binary: Animals and Countries contain many subcategories, each with multiple instances. For these concepts, the search space over possible representation geometries is far larger than for binary concepts; it is thus not clear what",
+    "author": "Divya Appapogu, Freya Behrens, Yonatan Belinkov, Aaron Mueller",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2609.13072v1"
+    ]
+  },
+  {
+    "title": "Involving before Evolving: A Vision for Trustworthy Enterprise Digital Twin Engineering",
+    "link": "http://arxiv.org/abs/2609.13071v1",
+    "published": "2026-09-11T17:06:48+00:00",
+    "summary": "Enterprise Digital Twins (EDTs) promise data-driven decision support at organizational scale, but realizing them requires navigating siloed departments, tacit knowledge, and high-stakes decisions with long-horizon consequences. Existing approaches involve domain experts during model development but focus less on early organizational buy-in in EDTs. We present a vision for trustworthy EDT engineering grounded in an `involving before evolving' paradigm: rapidly involving stakeholders through a wor",
+    "author": "Kérian Fiter, Adil Lagrou, Franck Dervault, Bentley Oakes",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2609.13071v1"
+    ]
+  },
+  {
+    "title": "Anchoring Clinical Events in Time: UID-Preserving Multimodal Reconstruction and Source-Grounded Adjudication",
+    "link": "http://arxiv.org/abs/2609.13062v1",
+    "published": "2026-09-11T17:01:10+00:00",
+    "summary": "Clinical timelines support treatment-window analysis and leakage-free modeling, but discharge summaries often obscure chronology and structured EHR tables describe only part of the patient course. We present a UID-preserving framework that links each narrative event occurrence to its source span and retains that identity through text-only estimation, structured-evidence retrieval, timestamped source-row grounding, and joint revision. We also present GAVEL, an LLM judge that compares two UID-alig",
+    "author": "Sayantan Kumar, Nicolas Grimaldi, Jack Cummins, Jeremy C. Weiss",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2609.13062v1"
+    ]
+  },
+  {
+    "title": "Dynin-Robotics: Omnimodal Unified Diffusion Vision-Language-Action Model",
+    "link": "http://arxiv.org/abs/2609.13053v1",
+    "published": "2026-09-11T16:49:26+00:00",
+    "summary": "Visual goal and dynamics prediction can provide language-conditioned robot policies with both a target outcome and a representation of action-dependent scene changes. We bring these predictions into action generation and selection through a shared trajectory model. Dynin-Robotics implements this formulation on Dynin-Omni, an omnimodal masked-diffusion backbone, representing language, visual observations, goals, and actions as discrete tokens. By varying conditioning and target spans, the same mo",
+    "author": "Hoeun Lee, Jaeik Kim, Jusang Oh, Jinhyeok Kim, Geon Choi, Hyeonggeun Kim, Jaeyoung Do",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2609.13053v1"
+    ]
+  },
+  {
+    "title": "Diffusion Models and Concept Formation",
+    "link": "http://arxiv.org/abs/2609.13047v1",
+    "published": "2026-09-11T16:43:48+00:00",
+    "summary": "Humans organize knowledge into a taxonomy of concepts with nested levels of abstraction and a \\emph{basic level} at which people recognize and name objects with the least cognitive effort. Cobweb is a classic cognitive account of this ability, an incremental learner that builds a probabilistic concept hierarchy by maximizing category utility. We argue that diffusion models, although designed for image synthesis, implicitly perform the same computation. The noisy marginals of a diffusion model ar",
+    "author": "Zekun Wang, Karthik Singaravadivelan, Christopher J. MacLellan",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2609.13047v1"
+    ]
+  },
+  {
+    "title": "Unified CT and MRI Pancreas Segmentation for Label-Efficient Cross-Modality Subregion Transfer",
+    "link": "http://arxiv.org/abs/2609.13043v1",
+    "published": "2026-09-11T16:40:25+00:00",
+    "summary": "Robust medical image segmentation across imaging modalities is challenging because of large differences in appearance and intensity distributions. Models trained on a single modality often show substantial performance drops when applied to unseen domains. In this work, we develop a unified 3D pancreas segmentation framework that applies domain-adversarial learning to 4,604 heterogeneous CT and MRI scans to learn anatomical representations. A shared nnU-Net encoder-decoder is trained for whole-pa",
+    "author": "Ziliang Hong, Hongyi Pan, Halil Ertugrul Aktas, Andrea Bejar, Elif Keles, Frank H. Miller, Michael B. Wallace, Rajesh N. Keswani, Gorkem Durak, Ulas Bagci",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2609.13043v1"
+    ]
+  },
+  {
+    "title": "DynSHAP: Towards Explainable Dynamic Survival Analysis",
+    "link": "http://arxiv.org/abs/2609.13042v1",
+    "published": "2026-09-11T16:39:55+00:00",
+    "summary": "Deep learning models for dynamic survival analysis (DSA) achieve strong predictive performance by incorporating longitudinal patient data, but their black box nature limits clinical trust and adoption. Existing explainability methods cannot handle longitudinal, irregular inputs and functional survival outputs simultaneously, which limits their usability in DSA. We propose DynSHAP, a SHAP framework suited specifically for dynamic survival analysis. It extends common marginal SHAP estimators to th",
+    "author": "Nastasya Anokhina, Jonas Jürß, Pietro Liò",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2609.13042v1"
+    ]
+  },
+  {
+    "title": "Groupoid-Based Internal State Representations for Reinforcement Learning with Local Symmetries",
+    "link": "http://arxiv.org/abs/2609.13035v1",
+    "published": "2026-09-11T16:32:58+00:00",
+    "summary": "Symmetries play a central role in reducing the complexity of reinforcement learning problems, yet most existing approaches rely on fixed group actions or predefined state abstractions. Classical reinforcement learning algorithms typically assume a globally structured Markov decision process with uniformly applicable actions and transitions, an assumption that limits their ability to exploit modularity and local, context-dependent regularities present in many realistic environments. We propose a ",
+    "author": "Ben Opperman, Eduardo Alonso, Esther Mondragón",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2609.13035v1"
+    ]
+  },
+  {
     "title": "Cognition helps Devin test its own work with GPT‑6 Astra",
     "link": "https://openai.com/index/cognition-devin-testing-with-astra",
     "published": "2026-09-11T16:00:00+00:00",
