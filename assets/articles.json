@@ -1,5 +1,186 @@
 [
   {
+    "title": "Objective vs. Search: Decomposing What Makes a Good Tokeniser",
+    "link": "http://arxiv.org/abs/2609.19145v1",
+    "published": "2026-09-16T17:59:45+00:00",
+    "summary": "Two dominant tokenisation algorithms are used by modern language models: byte-pair encoding (BPE) and UnigramLM. These differ along two orthogonal axes: their optimisation objective (compression vs. log-likelihood) and their search procedure (bottom-up merging vs. top-down pruning). Existing comparisons confound these axes, making it unclear whether their observed differences stem from what is being optimised vs. how it is being optimised. We disentangle the two by introducing two new tokenisati",
+    "author": "Ahmetcan Yavuz, Clara Meister, Tiago Pimentel",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2609.19145v1"
+    ]
+  },
+  {
+    "title": "A Zeroth-Order Paradigm for LLM Preference Alignment",
+    "link": "http://arxiv.org/abs/2609.19144v1",
+    "published": "2026-09-16T17:59:35+00:00",
+    "summary": "Direct preference alignment methods are widely used to align large language models (LLMs) with human preferences because of their computational and memory efficiency. However, likelihood displacement motivates alternative ways to extract information from preference pairs with small likelihood margins. In this paper, we propose and analyze Comparison-based Preference Optimization (ComPO), a zeroth-order alignment method based on comparison oracles. ComPO extracts directional information from thes",
+    "author": "Peter Chen, Xi Chen, Wotao Yin, Tianyi Lin",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2609.19144v1"
+    ]
+  },
+  {
+    "title": "Dreaming the Sound of Contact: Leveraging Video and Audio Generation for Zero-Shot Force-Aware Manipulation and Data Generation",
+    "link": "http://arxiv.org/abs/2609.19137v1",
+    "published": "2026-09-16T17:56:44+00:00",
+    "summary": "Recent advances in video generation allow robots to learn manipulation trajectories from generated videos. However, these approaches produce purely kinematic trajectories that lack force information, causing failures in contact-rich tasks where appropriate contact forces are essential for success. In this work, we explore augmenting generated video with audio to shape a bounded, time-varying desired-force profile using the loudness of generated contact sounds. We present a pipeline that jointly ",
+    "author": "Guanhua Ji, Tianyu Li, Dayoon Suh, Yuqian Zhang, Boyan Zhang, Nadia Figueroa",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "https://dreamingcontactsound.github.io/",
+      "http://arxiv.org/abs/2609.19137v1"
+    ]
+  },
+  {
+    "title": "Cognitive Extensions for Dual-Process Language Agents: Memory and Self-Reflection in Interactive Environments",
+    "link": "http://arxiv.org/abs/2609.19128v1",
+    "published": "2026-09-16T17:50:42+00:00",
+    "summary": "Language agents remain brittle in interactive environments, where success requires long-horizon state tracking, valid action execution, and recovery from failed steps. We extend SwiftSage, a dual-process agent that combines a fast action proposer with a slower planner, using two modular cognitive extensions: an Adaptive Memory Module (AMM) for salience-gated episodic storage and trigger-driven retrieval, and a Self-Reflection Module (SRM) for bounded execution-time validation and corrective inte",
+    "author": "João Meneses dos Santos, Arlindo L. Oliveira",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2609.19128v1"
+    ]
+  },
+  {
+    "title": "Affora: A Design System for Agent-Friendly Interfaces",
+    "link": "http://arxiv.org/abs/2609.19125v1",
+    "published": "2026-09-16T17:46:34+00:00",
+    "summary": "Computer-use agents increasingly operate software designed for people, but interfaces often leave actions or task state unclear to machine readers. We present Affora, a design system that supports both readers while preserving visual freedom and familiar human workflows. Three controlled studies examine component implementations, visual variation, and interaction-design principles. Their findings inform guidance from individual components to complete sites, supported by reusable implementations ",
+    "author": "Jin Gao",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2609.19125v1"
+    ]
+  },
+  {
+    "title": "Flag Game: A Toy Model for Mechanistic Swarm Interpretability",
+    "link": "http://arxiv.org/abs/2609.19124v1",
+    "published": "2026-09-16T17:46:06+00:00",
+    "summary": "Emergent coordinated behaviors of AI agents are starting to present critical safety risks. A key phenomenon driving these behaviors is the rapid formation and spread of beliefs about the world, and mechanistic understanding is crucial for collective alignment. To this end, we introduce the Flag Game, a toy model for studying the mechanisms of collective belief formation. Concretely, a hidden country flag defines the ground truth, and each bounded agent directly observes only a private crop but c",
+    "author": "Elizabeth Pavlova, Hidenori Tanaka",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2609.19124v1"
+    ]
+  },
+  {
+    "title": "rMuscle: Robotic Muscle Memory for Efficient Vision-Language-Action Model Inference",
+    "link": "http://arxiv.org/abs/2609.19104v1",
+    "published": "2026-09-16T17:34:43+00:00",
+    "summary": "Factory work is a promising early scenario for embodied AI: assigning repetitive manual jobs to robots has clear economic payoff, and a structured station keeps the jobs tractable for current policies. Vision-Language-Action (VLA) models now dominate as the policy paradigm for these robots. The inference latency of VLA models directly affects robot responsiveness and motion smoothness. However, existing VLA inference frameworks do not fully exploit the characteristics of embodied workloads or ac",
+    "author": "Kaijun Zhou, Zhiyang Li, Le Chen, Jinyu Gu",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2609.19104v1"
+    ]
+  },
+  {
+    "title": "Prepared Or Unprepared? Evaluating Healthcare Workforce Readiness for Clinical Adoption of Artificial Intelligence in Nigeria",
+    "link": "http://arxiv.org/abs/2609.19096v1",
+    "published": "2026-09-16T17:30:48+00:00",
+    "summary": "Artificial intelligence (AI) is increasingly integrated into healthcare systems worldwide, yet its successful clinical adoption depends critically on workforce readiness, particularly in low- and middle-income countries (LMICs) where infrastructural and training gaps persist. This cross-sectional study evaluated awareness, attitudes, preparedness, and barriers to AI adoption among 761 healthcare professionals across multiple disciplines and practice settings in Nigeria. Data were collected betwe",
+    "author": "Abbas M. Rabiu, Abdulrazaq A. Zubair, Um-mulkhairi Ibrahim, Tolulope Olusuyi, Shaheeda Farouq, Safwan M. Dafi, Adaobi C. Emegoakor, Yewande Gbadamosi, Maruf Adewole",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2609.19096v1"
+    ]
+  },
+  {
+    "title": "Reporting Practice Matters: The Impact of Reference Choice on Chest X-ray Report Evaluation",
+    "link": "http://arxiv.org/abs/2609.19093v1",
+    "published": "2026-09-16T17:28:51+00:00",
+    "summary": "Radiologists follow heterogeneous reporting practices. Two radiologists examining the same image and identifying the same clinical findings might nevertheless compose superficially distinct reports, varying in terminology, shorthand, formatting, and level of detail. These variations in reporting norms represent an under-appreciated obstacle in efforts to evaluate AI-based radiology report generation (RRG) models, where machine-generated reports are typically assessed based on their concordance w",
+    "author": "Daniel P. Jeong, Charles Q. Li, Hossein Hosseiny, Nitya M. Bhalla, Fatma Uyar Morency, Pradeep Ravikumar, Zachary C. Lipton, Michael Oberst",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2609.19093v1"
+    ]
+  },
+  {
+    "title": "Securing quantum error correction against misleading advice from AI agents",
+    "link": "http://arxiv.org/abs/2609.19090v1",
+    "published": "2026-09-16T17:26:54+00:00",
+    "summary": "Can an attacker turn influence over an artificial intelligence (AI) adviser into a harmful quantum error-correction update? We identify an ambiguity in passive syndrome records that obstructs recovery selection, then show how additional calibration measurements support certified recovery updates under uncertainty and drift. In an odd-distance square toric code with error-free preparation, syndrome measurements, and recovery operations, opposite coherent $X$ rotations produce identical passive sy",
+    "author": "A. Barış Özgüler",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2609.19090v1"
+    ]
+  },
+  {
+    "title": "MUSE: Benchmarking Large Vision-Language Models on Multi-Modal Understanding in Situated Education",
+    "link": "http://arxiv.org/abs/2609.19088v1",
+    "published": "2026-09-16T17:26:10+00:00",
+    "summary": "Large vision-language models have achieved remarkable progress in multi-modal understanding, yet their capabilities in educational settings remain insufficiently evaluated. In AI-assisted language learning, models must interpret artistic imagery, understand its semantic, affective, and cultural content, and reason about visual context to support meaningful interaction. However, existing benchmarks primarily focus on real-world images or domain-specific educational reasoning, providing limited co",
+    "author": "Luyao Zhu, Xun Wei Yee, Wei Li, Mun Thye Mak, Wee Siong Ng",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2609.19088v1"
+    ]
+  },
+  {
+    "title": "Probabilistic Linear Explanations",
+    "link": "http://arxiv.org/abs/2609.19077v1",
+    "published": "2026-09-16T17:18:00+00:00",
+    "summary": "Formal explainability provides mathematically grounded justifications for individual predictions. However, abductive explanations often exceed human cognitive limits by involving too many features, while probabilistic relaxations have remained largely limited to categorical classification. We present a unified framework for probabilistic explainability based on sparse, anchored linear models, applicable to both binary classification and continuous regression. By mapping instances to the Boolean ",
+    "author": "Frederic Koriche, Jean-Marie Lagniez, Chi Tran",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2609.19077v1"
+    ]
+  },
+  {
+    "title": "Double descent is the principle of least action",
+    "link": "http://arxiv.org/abs/2609.19076v1",
+    "published": "2026-09-16T17:17:46+00:00",
+    "summary": "The test error of a model plotted against its number of parameters $d$ falls, peaks when the model can just fit the training data, and falls again, exhibiting the double descent phenomenon. We explain the phenomenon with statistical mechanics. The training trajectory of a stochastic gradient-based method is a particle wandering over the energy landscape of the training loss at an induced temperature $T$, and a run that has equilibrated visits every parameter vector of a given training loss equal",
+    "author": "Congzhou M Sha",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2609.19076v1"
+    ]
+  },
+  {
+    "title": "RLLBC-Lib: An Educational Code Library for Reinforcement Learning and Learning-Based Control",
+    "link": "http://arxiv.org/abs/2609.19074v1",
+    "published": "2026-09-16T17:15:59+00:00",
+    "summary": "Reinforcement learning (RL) is an exciting concept as well as a remarkable success story worth sharing. However, RL builds on rather complex interactions between different objects that play out over several cycles. Such dynamics are often best explained with an easily accessible implementation. We present RLLBC-Lib, a carefully crafted code library with the goal of lowering the entry barrier for students and other learners of RL in the context of learning-based control. At its heart, RLLBC-Lib c",
+    "author": "Bernd Frauenknecht, Emma Cramer, Artur Eisele, Paul Kruse, Lukas Kesper, Jonas Hertrampf, Ramil Sabirov, Jyotirmaya Patra, Johannes Berger, Paul Brunzema, Friedrich Solowjow, Sebastian Trimpe",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2609.19074v1"
+    ]
+  },
+  {
+    "title": "Social Laws for Multi-agent Coordination in Stochastic Environments",
+    "link": "http://arxiv.org/abs/2609.18929v1",
+    "published": "2026-09-16T17:05:03+00:00",
+    "summary": "In multi-agent environments, coordinating agents to prevent interference and ensure robust individual performance is a critical challenge. Previous research on social laws for multi-agent systems has primarily focused on deterministic, goal-based settings. This paper extends the concept of social laws to stochastic, reward-based environments, proposing a formalism for defining and verifying their robustness under various conditions. We introduce the notion of $α$-robustness, a measure of the gua",
+    "author": "Rolando Fernandez, Caleb Probine, Tyler Lee, Jeffrey Chen, Erez Karpas, Muhammad Arrasy Rahman, Peter Stone, Ufuk Topcu",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2609.18929v1"
+    ]
+  },
+  {
     "title": "Our framework for reporting model misalignment",
     "link": "https://openai.com/index/model-misalignment-reporting-framework",
     "published": "2026-09-16T17:00:00+00:00",
@@ -96,56 +277,6 @@
     ]
   },
   {
-    "title": "Agentic Societies Need a Social Harness",
-    "link": "http://arxiv.org/abs/2609.17527v1",
-    "published": "2026-09-15T17:57:27+00:00",
-    "summary": "An agentic society is a collection of AI agents that coordinate autonomously across trust boundaries, on behalf of different principals whose objectives may only partially align. We show experimentally that in agentic societies even honest, competent agents often fail to reach satisfactory outcomes with existing harnesses and messaging primitives, and that faulty or malicious agents can stall collaboration, influence outcomes, and pursue other harmful goals by exploiting vulnerabilities in commu",
-    "author": "Tapan Chugh, Vidushi Singh, Krish Jain, Arvind Krishnamurthy, Ratul Mahajan",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2609.17527v1"
-    ]
-  },
-  {
-    "title": "ScienceBuddy: Recursive-in-Recursive Self-Improvement for Interactive Scientific Agents",
-    "link": "http://arxiv.org/abs/2609.17523v1",
-    "published": "2026-09-15T17:55:28+00:00",
-    "summary": "We introduce and release ScienceBuddy, an interactive scientific research workspace that brings continually improving scientific agents into researchers' everyday workflows. ScienceBuddy supports researchers in carrying out scientific tasks while transforming their requests, feedback, and execution evidence into tasks and evaluation rubrics for continual learning. At its core is recursive-in-recursive self-improvement, a paradigm that couples harness evolution with model reinforcement learning: ",
-    "author": "Shuhan Xue, Jianyuan Zhong, Ziyuan Nan, Wenbin Li, Zhaochen Yu, Jinchao Ding, Qiang Gao, Pengyu Zhan, Yuntong Zhang, Tian Cheng, Zhenfei Yin, Yingcheng Wu, Ling Yang",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://science-buddy.io",
-      "http://arxiv.org/abs/2609.17523v1"
-    ]
-  },
-  {
-    "title": "PhysStream: Streaming Physics-Grounded Video Generation with Structured Scene Memory and Fine-Grained Motion Control",
-    "link": "http://arxiv.org/abs/2609.17521v1",
-    "published": "2026-09-15T17:55:13+00:00",
-    "summary": "Interactive control for video generation is moving from coarse prompts toward fine-grained, physically meaningful manipulation of dynamic scenes. Yet existing controllable methods either require the full control schedule before generation starts, or use pixel-space signals that dictate object positions rather than physical dynamics. To address these limitations, we propose PhysStream, an autoregressive model for physics-grounded image-to-video synthesis that incorporates structured scene memory-",
-    "author": "Chuhao Chen, Peter Wonka, Chaoyang Wang, Chen Wang, Qiao Feng, Sergey Tulyakov, Lingjie Liu",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "https://czzzzh.github.io/PhysStream",
-      "http://arxiv.org/abs/2609.17521v1"
-    ]
-  },
-  {
-    "title": "When Should LLMs Abstain? Chain-of-Self-Questioning for Selective Risk Control",
-    "link": "http://arxiv.org/abs/2609.17516v1",
-    "published": "2026-09-15T17:52:24+00:00",
-    "summary": "Large language models can produce fluent answers when their factual support is weak. This paper introduces Chain-of-Self-Questioning (CoSQ), a prompt-only framework that makes answer commitment conditional on an explicit assessment of the information required to answer a question. We evaluate three CoSQ variants under seventeen conditions on the 817-item TruthfulQA multiple-choice validation set using eleven open-weight and hosted model families. In the final balanced-option protocol, Grounded-C",
-    "author": "Ali Şenol",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2609.17516v1"
-    ]
-  },
-  {
     "title": "Roundtables: Could AI really kill us all?",
     "link": "https://www.technologyreview.com/2026/09/15/1143936/roundtables-will-ai-really-kill-us-all/",
     "published": "2026-09-15T17:47:51+00:00",
@@ -155,138 +286,6 @@
     "category": "media",
     "references": [
       "https://www.technologyreview.com/2026/09/15/1143936/roundtables-will-ai-really-kill-us-all/"
-    ]
-  },
-  {
-    "title": "LACE: Layer-Wise Compression for Dynamic Frame Rate Codecs",
-    "link": "http://arxiv.org/abs/2609.17509v1",
-    "published": "2026-09-15T17:46:51+00:00",
-    "summary": "Neural audio codecs are a key component in speech language modeling. However, their high frame rates lead to long sequence lengths, increasing computational costs. Dynamic frame rate codecs mitigate this by reducing the effective frame rate using a compression step to merge multiple frames together. However, most prior methods either operate on single-codebook codecs or apply a single compression step before multi-layer quantization. This forces all quantization layers to share the same segmenta",
-    "author": "Thanapat Trachu, Samuele Cornell, William Chen, Shinji Watanabe",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2609.17509v1"
-    ]
-  },
-  {
-    "title": "ENCP: Episode-Normalized Conformal Prediction for Vision-and-Language Navigation",
-    "link": "http://arxiv.org/abs/2609.17499v1",
-    "published": "2026-09-15T17:42:15+00:00",
-    "summary": "Uncertainty estimation for Vision-Language-Navigation (VLN) models is a critical task since it can help identify ambiguous and unreliable predictions, enabling agents to make safer navigation decisions. As one of the most advanced uncertainty estimation frameworks, conformal prediction (CP) offers a promising approach for uncertainty estimation in VLN. However, given that VLN agent requires a sequence of steps, standard calibration in conformal prediction fails to provide coverage guarantee it p",
-    "author": "Vicky Feliren, A. Taufiq Asyhari, Muhamad Risqi U. Saputra",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2609.17499v1"
-    ]
-  },
-  {
-    "title": "Verifiable Social Reasoning for LLM Assistants",
-    "link": "http://arxiv.org/abs/2609.17496v1",
-    "published": "2026-09-15T17:37:29+00:00",
-    "summary": "LLM assistants are widely used for daily social advice, yet evaluating their social reasoning in such consultation settings remains challenging since (i) it requires setups where the assistant learns about social situations from subjective user narratives, and (ii) social properties, such as others' intentions, typically lack verifiable ground truth. To address these challenges, we introduce Fuse, a multi-agent simulation framework for studying user-mediated social reasoning. In Fuse, a target a",
-    "author": "Amir Taubenfeld, Zorik Gekhman, Avigail Grinstein-Dabush, Itay Laish, Ariel Goldstein, Marian Croak, Avinatan Hassidim, Yossi Matias, Amir Feder",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2609.17496v1"
-    ]
-  },
-  {
-    "title": "LimiX-2: A Contextual Mechanism Network Towards General Structured-Data Intelligence",
-    "link": "http://arxiv.org/abs/2609.17488v1",
-    "published": "2026-09-15T17:30:02+00:00",
-    "summary": "We introduce LimiX-2, a new model in the LimiX family, developed through model and data scaling guided by our previously established scaling laws. LimiX-2 adopts the Contextual Mechanism Networks (CMNs) paradigm and is pretrained with Context-Conditional Masked Modeling (CCMM). CMNs shifts the organizing principle of in-context learning from target-centric prediction to mechanism-oriented joint modeling. Rather than centering the network on the $p(y \\mid x, D_{\\mathrm{context}})$ objective of co",
-    "author": "Xingxuan Zhang, Gang Ren, Hao Yuan, Hao Zou, Hongze Tan, Hui Wang, Jianhao Song, Jiansheng Li, Jiayao Zhang, Jinghan Zhang, Kaifang Li, Lang Mo, Li Mao, Mingchao Hao, Nuo Xu, Rui Ding, Ruiji Zhang, Shuyang Li, Siyu Mei, Tianyang Zhang, Weiyang Mu, Yancheng Dong, Yongxian Wei, Yuan Xue, Yuanrui Wang, Yue He, Zijia Yang, Ziyun Li, Dongzhe Li, Fuqiang Wang, Jiandong Liu, Jiawei Chen, Jiaxin Du, Kaijie Cheng, Kehan Li, Lei Sun, Linjun Zhou, Ningbo Dai, Qi Wang, Renzhe Xu, Shaoxing Du, Shumeng Yang, Wang Lu, Wenjing Chu, Xiannan Huang, Xiaoyu Lin, Xing Ai, Xinyan Han, Xuanyue Li, Xuanyue Su, Xukun Zhang, Yan Lu, Yaxin Zhang, Yi Qin, Yifei Huang, Yihan Xu, Yongle Lv, Yuanyuan Jiang, Yushan Han, Peng Cui",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2609.17488v1"
-    ]
-  },
-  {
-    "title": "Det-LIME: Detector-Aware, Multi-Instance Local Interpretable Model-Agnostic Explanations for Automated Marine Mammal Detection",
-    "link": "http://arxiv.org/abs/2609.17479v1",
-    "published": "2026-09-15T17:20:16+00:00",
-    "summary": "Despite the rapid uptake of black-box object detectors in marine mammal research and monitoring, explainability techniques are rarely integrated into conservation workflows. Furthermore, most classification-oriented explainability tools are ill-suited to detection tasks involving imagery of social organisms or those with colonial life histories, as they ignore multiple detections within a scene and produce single-instance outputs that blur evidence across individuals. These methods also generate",
-    "author": "Jiayi Zhou, David W. Johnston, Brinnae Bent",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2609.17479v1"
-    ]
-  },
-  {
-    "title": "JustFit: 200K-Token LLM Serving on a 24 GiB Laptop with Just-in-Time State Management",
-    "link": "http://arxiv.org/abs/2609.17475v1",
-    "published": "2026-09-15T17:15:48+00:00",
-    "summary": "Capable open-weight models make local coding and reasoning attractive, but their context and execution state strain laptop memory. We present JustFit, an MLX-based inference runtime that combines KVExec for compressed KV execution, PhaseSwap for component residency, and StateTrans for state-preserving serving transitions. These mechanisms fuse reconstruction and coordinate just-in-time materialization and release, independently of model-weight quantization. In full-execution capacity tests on a ",
-    "author": "Yuhua Chen",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2609.17475v1"
-    ]
-  },
-  {
-    "title": "Coupled Calibration and Learning: Mitigating Teacher Bias in LLM Distillation without Target-Domain Reward Feedback",
-    "link": "http://arxiv.org/abs/2609.17474v1",
-    "published": "2026-09-15T17:15:40+00:00",
-    "summary": "Large language model (LLM) distillation aims to transfer the capabilities of a powerful teacher to a smaller student. Direct imitation, however, can also transfer the teacher's systematic bias and errors. This challenge is particularly pronounced under covariate shift, when the teacher's reliability on target questions is uncertain and target-domain reward feedback is unavailable. We propose Coupled Calibration and Learning (CCL), an LLM distillation algorithm that couples teacher calibration wi",
-    "author": "Haichen Hu, Yuheng Zhang, David Simchi-Levi",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2609.17474v1"
-    ]
-  },
-  {
-    "title": "Decomposition Buys Integrity, Not Yield",
-    "link": "http://arxiv.org/abs/2609.17464v1",
-    "published": "2026-09-15T17:04:09+00:00",
-    "summary": "Multi-agent systems split a task across a tree of agents and justify the split with folklore: smaller contexts, cleaner separation, parallelism. We ask what the split does to how much of what the leaves discover reaches the root. Model a decomposition as a tree in which an agent handed $b$ items keeps any one with probability $r(b)$. If $r(b)=1/b$, every tree delivers exactly one finding, for every task size and every shape; we verify this to $2.4 \\times 10^{-15}$ on 20,000 random irregular tree",
-    "author": "Rong He",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2609.17464v1"
-    ]
-  },
-  {
-    "title": "Evaluating Verified Autonomy in Quantum Engineering",
-    "link": "http://arxiv.org/abs/2609.17439v1",
-    "published": "2026-09-15T16:46:08+00:00",
-    "summary": "Reliable quantum engineering is essential for turning quantum phenomena into practical technologies. As quantum platforms grow in scale and complexity, their characterization and operation require increasing human effort and coordination. Scientific artificial intelligence agents, which can plan experiments, operate instruments, and analyze observations, offer a promising route towards autonomous quantum engineering. Yet whether current agents can perform reliably in this setting has not been sy",
-    "author": "Naixu Guo, Changhao Li, Siyu Cheng, Qicheng Tang, Binzhao Luo, Bikun Li, Yuxuan Du, Shihao Ru, Jiaqi Cai",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2609.17439v1"
-    ]
-  },
-  {
-    "title": "CareMirror: Bringing Caregiver Wellbeing into the Dementia Care Ecosystem",
-    "link": "http://arxiv.org/abs/2609.17434v1",
-    "published": "2026-09-15T16:43:17+00:00",
-    "summary": "Family caregivers of people living with dementia shoulder emotional and practical responsibilities, yet their own wellbeing often remains peripheral to dementia care. We built CareMirror, an envisioned caregiver wellbeing ecosystem with interconnected caregiver- and clinician-facing interfaces for longitudinal reflection, personalized support, and caregiver-controlled sharing with clinical care. We conducted semi-structured interviews with 14 caregivers, using CareMirror as a design probe to exa",
-    "author": "Jiayue Melissa Shi, Ethan Nguyen, Drishti Goel, Upasana Natarajan, Shashwat Srivatsa, Daniel S. Brown, Violeta J. Rodríguez, Dong Whi Yoo, Ravi Karkar, Koustuv Saha",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2609.17434v1"
-    ]
-  },
-  {
-    "title": "Learning-Guided Planning in Large Dynamic Action Spaces: Budgeted Tree Search for One-to-Many Mobile Charging",
-    "link": "http://arxiv.org/abs/2609.17429v1",
-    "published": "2026-09-15T16:42:12+00:00",
-    "summary": "Many learned sequential decision systems map the current state directly to an action. That shortcut becomes brittle when candidate actions are numerous, geometrically structured, and rebuilt with the state. One-to-many mobile charging makes this setting concrete: with N=250 sensors, the initial state induces about 1,125 candidate charging-stop actions; each chosen stop simultaneously serves its in-range sensors, and the action universe changes as sensors die. LP-BTS is a learning-guided planning",
-    "author": "Liang-Ching Tao, Pi-Chung Wang",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2609.17429v1"
     ]
   },
   {
