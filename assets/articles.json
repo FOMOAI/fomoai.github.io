@@ -12,172 +12,185 @@
     ]
   },
   {
-    "title": "Accelerating Sharded Data Parallelism at Scale with Federated Learning",
-    "link": "http://arxiv.org/abs/2609.20359v1",
-    "published": "2026-09-17T13:21:52+00:00",
-    "summary": "The symbiotic scaling of artificial intelligence models and high-performance computing systems continually creates algorithmic challenges in their convergence. Foundation models (FMs) are a crucial example, requiring months-long training on thousands of cutting-edge GPUs. Sharded data parallelism (DP) is the dominant strategy to accelerate such computations by splitting data and models across multiple GPUs. However, it incurs prohibitive communication overhead when deployed at scale, particularl",
-    "author": "Gianluca Mittone, Marco Aldinucci",
+    "title": "Coding Agents with an Obstacle-Aware Harness for Safe Robot Manipulation",
+    "link": "http://arxiv.org/abs/2609.20822v1",
+    "published": "2026-09-17T17:59:58+00:00",
+    "summary": "Coding agents have emerged as a promising paradigm for robot manipulation: a language model writes the robot controller as a program, and agents built in this way now operate robots without robot-specific training.Whether this paradigm is also safe, however, has not been asked. We evaluate coding agent under a safety constraint, where each task pairs a manipulation goal with an obstacle the robot must not touch. The agent pursues the goal but collides with the obstacle in most cases, treating ta",
+    "author": "Bingxin Xu, Yuzhang Shang, Zhen Dong, Emilio Ferrara",
     "source": "arXiv cs.AI",
     "category": "research",
     "references": [
-      "http://arxiv.org/abs/2609.20359v1"
+      "http://arxiv.org/abs/2609.20822v1"
     ]
   },
   {
-    "title": "Generating Heterogeneous 3D Geological Microstructures from 2D Images via a Stable Diffusion-Adversarial Model",
-    "link": "http://arxiv.org/abs/2609.20358v1",
-    "published": "2026-09-17T13:21:48+00:00",
-    "summary": "Characterizing the physical properties of clay and cementitious materials matters across many fields, from materials science to geological waste disposal. Property simulation typically calls for 3D imaging, which is expensive, not always accessible, and technically limited for certain materials. Recent progress in deep generative models offers a way around this, reconstructing 3D volumes from the more easily acquired 2D images. Among GAN-based methods for 3D microstructure generation, SliceGAN h",
-    "author": "Ali Aouf, Eric Laloy, Bart Rogiers, Christophe De Vleeschouwer",
+    "title": "Workspace Models: Lightweight Robotic Memory via Saliency-Driven Supervision",
+    "link": "http://arxiv.org/abs/2609.20820v1",
+    "published": "2026-09-17T17:59:53+00:00",
+    "summary": "Complex robotic manipulation tasks frequently require a long-term memory of past events and actions. As conditioning on full histories renders policies prone to spurious correlations and degrades performance, many approaches to policy memory involve compressing historical information through expensive VLM queries in-the-loop to process only task-salient information. In this paper, we propose an alternative approach in which computationally intensive VLM queries are made during train-time to lear",
+    "author": "Nitish Dashora, Douglas Chen, Idan Shenfeld, John Marangola, Pulkit Agrawal, Max Simchowitz",
     "source": "arXiv cs.AI",
     "category": "research",
     "references": [
-      "http://arxiv.org/abs/2609.20358v1"
+      "http://arxiv.org/abs/2609.20820v1"
     ]
   },
   {
-    "title": "A Qualitative Model for Reasoning about Path and Support",
-    "link": "http://arxiv.org/abs/2609.20349v1",
-    "published": "2026-09-17T13:13:44+00:00",
-    "summary": "Spatial reasoning abilities correlate strongly with performance in STEM fields. Games offer a compelling medium for training these critical skills in developing children who have a natural proclivity for play. However, to facilitate human-like tutoring and player guidance, these games require an AI agent capable of making commonsense inferences from spatial events. Qualitative reasoning (QR) models appear to be a suitable framework for these application domains. As these models reason in symboli",
-    "author": "Abhishek Jaiswal, Zoe Falomir",
+    "title": "FAMOS: Feed-Forward 3D Articulation Modeling from Sparse Observations",
+    "link": "http://arxiv.org/abs/2609.20817v1",
+    "published": "2026-09-17T17:59:40+00:00",
+    "summary": "Modeling articulated objects from sparse monocular views is challenging because each observation reveals only partial geometry and motion evidence. Most feed-forward methods infer articulation from a single observation and therefore rely heavily on learned category-level shape priors. We present FAMOS, a feed-forward model that predicts movable-part segmentation and joint parameters from a sparse, unordered set of partial point clouds. Our model jointly reasons over multiple observations and nat",
+    "author": "Kevin Qu, Tao Sun, Massimiliano Viola, Liyuan Zhu, Zhizhuo Zhou, Sayan Deb Sarkar, Konrad Schindler, Iro Armeni",
     "source": "arXiv cs.AI",
     "category": "research",
     "references": [
-      "http://arxiv.org/abs/2609.20349v1"
+      "https://kevinqu7.github.io/famos",
+      "http://arxiv.org/abs/2609.20817v1"
     ]
   },
   {
-    "title": "STR-Agent: An LLM-Driven Agent for QoS-Aware Routing in LEO Satellite Networks",
-    "link": "http://arxiv.org/abs/2609.20347v1",
-    "published": "2026-09-17T13:12:22+00:00",
-    "summary": "LEO satellite networks feature dynamic topologies, time-varying links, and diverse service requirements, which make conventional routing schemes difficult to support fine-grained quality-of-service (QoS) provisioning. Existing studies mainly optimize routing over network states with predefined objectives, but rarely address the practical challenge of translating unstructured natural-language service requests into adaptive routing decisions. To bridge this gap, we propose STR-Agent, an LLM-driven",
-    "author": "Bowen Lu, Mugen Peng, Yaohua Sun, Hongyu Wang, Kerui Guo, Wenjia Xu",
+    "title": "Paint-Anything: Unified Any-Color Control for Image Generation and Editing",
+    "link": "http://arxiv.org/abs/2609.20816v1",
+    "published": "2026-09-17T17:59:30+00:00",
+    "summary": "Professional design requires any-color control: the ability to specify an object's target color with any 24-bit hex value for image generation and editing. Prior work has explored color generation, editing, and colorization, but often relies on dedicated color representations or specialized inference procedures. Advances in large language models offer a simpler starting point: even compact models can associate hex values with color semantics. We present Paint-Anything, which learns a shared hex-",
+    "author": "Ji Xie, Dewei Zhou, Xinyu Huang, Zhennan Chen, Xun Wang",
     "source": "arXiv cs.AI",
     "category": "research",
     "references": [
-      "http://arxiv.org/abs/2609.20347v1"
+      "http://arxiv.org/abs/2609.20816v1"
     ]
   },
   {
-    "title": "Structured Four-Stage Legal Translation: From Natural-Language Traffic Rules to PROLOG",
-    "link": "http://arxiv.org/abs/2609.20334v1",
-    "published": "2026-09-17T13:05:49+00:00",
-    "summary": "Traffic regulations are written for human interpretation and therefore rely on shared background knowledge and flexible phrasing, which inherently introduce ambiguity, context dependence, and semantic underspecification. These linguistic characteristics conflict with the precision required by computational reasoning engines such as Prolog, which demand explicit logical structure. This study evaluates two baseline translation approaches, Natural Language to Prolog ($NL\\rightarrow Prolog$) and Log",
-    "author": "May Myo Zin, Wachara Fungwacharakorn, Ken Satoh, Katsumi Nitta",
+    "title": "ERCPMP-Gx: Endoscopic Image and Video Dataset for Morphological, Histopathological, and Genomic Characterization of Colorectal Polyposis",
+    "link": "http://arxiv.org/abs/2609.20815v1",
+    "published": "2026-09-17T17:59:28+00:00",
+    "summary": "Hereditary polyposis syndromes can be precursor lesions to colorectal cancer and are associated with a broad spectrum of extracolonic tumors. Early identification and accurate classification of these syndromes are essential for timely diagnosis, individualized patient management, and targeted surveillance strategies for affected families. However, public endoscopic datasets are largely organized around the individual sporadic polyp, and none links the polyposis phenotype to histopathology and ge",
+    "author": "Zahra Ghaffari, Massih Bahar, Mojgan Forootan, Ali Darvishi, Hamidreza Bolhasani",
     "source": "arXiv cs.AI",
     "category": "research",
     "references": [
-      "http://arxiv.org/abs/2609.20334v1"
+      "https://doi.org/10.17632/nzyfc544bx.2)",
+      "http://arxiv.org/abs/2609.20815v1"
     ]
   },
   {
-    "title": "NeuSOGA3D: A Neuro-Symbolic Framework for Explainable 3D Geometric Reconstruction",
-    "link": "http://arxiv.org/abs/2609.20323v1",
-    "published": "2026-09-17T12:57:24+00:00",
-    "summary": "Three-dimensional reconstruction from unorganized point clouds remains a challenging problem in computer vision, geometric modeling, and computer-aided design. While neural implicit methods achieve impressive reconstruction accuracy, geometry is typically encoded in latent representations that limit interpretability and reuse within engineering workflows. We present NeuSOGA3D (Neuro-Symbolic Geometric Abstraction in 3D), a hybrid framework that combines learned perceptual priors inherited from N",
-    "author": "Qingde Li, Qingqi Hong, Zihan Li, Jie Tian",
+    "title": "Quantifying Overclaiming Propensity in Frontier LLM Agents",
+    "link": "http://arxiv.org/abs/2609.20812v1",
+    "published": "2026-09-17T17:59:04+00:00",
+    "summary": "Frontier coding agents are increasingly trusted to work autonomously for long periods, yet an agent's final response is often the only account of that work a user sees. We quantify the propensity of frontier agents to \\emph{overclaim} task completion, a misrepresentation that can mislead the user. An agent overclaims when its final response contradicts information in its context. This definition requires no inference about intent and is independent of task success. We introduce \\emph{OverclaimBe",
+    "author": "Nolan Smyth, Yorguin-Jose Mantilla-Ramos, Pascal Jr Tikeng Notsawo, Saskia Helbling, Alberto Tosato, Mohamed Amine Merzouk, Nouha Dziri, Gauthier Gidel, Tommaso Tosato",
     "source": "arXiv cs.AI",
     "category": "research",
     "references": [
-      "http://arxiv.org/abs/2609.20323v1"
+      "http://arxiv.org/abs/2609.20812v1"
     ]
   },
   {
-    "title": "QUALS: Corpus Equilibrium for Universal Forecasting via Pattern Quantization and Learnability Synchronization",
-    "link": "http://arxiv.org/abs/2609.20156v1",
-    "published": "2026-09-17T12:47:17+00:00",
-    "summary": "Ubiquitous time series data across diverse domains enables critical applications in areas such as transportation systems and power grids. Recently, training foundation models on massive datasets to achieve accurate zero-shot forecasting has emerged as a major research focus. However, current studies predominantly prioritize architectural innovations while insufficiently addressing data diversity, often relying on simple data sampling strategies that fail to manage complex data distributions effe",
-    "author": "Yujie Li, Zezhi Shao, Chengqing Yu, Yisong Fu, Weijie Zhu, Yifan Du, Jilin Hu, Bin Yang, Yongjun Xu, Fei Wang",
+    "title": "An Empirical Study of Harness Design for Coding Agents",
+    "link": "http://arxiv.org/abs/2609.20804v1",
+    "published": "2026-09-17T17:58:07+00:00",
+    "summary": "Coding harnesses shape how autonomous coding agents translate model capabilities into long-horizon software-engineering performance, yet existing work typically evaluates harnesses as monolithic systems, leaving the effectiveness of individual components unclear. To enable component-level comparisons, we study this question with a lightweight coding harness whose execution loop is fixed while three components are varied: planning, action space, and context management. Across four models evaluate",
+    "author": "Run-Ze Fan, Zihao Zhang, Simin Ma, Yebowen Hu, Shouju Wang, Kaiqiang Song, Fei Liu, Hamed Zamani, Xiaoyang Wang",
     "source": "arXiv cs.AI",
     "category": "research",
     "references": [
-      "http://arxiv.org/abs/2609.20156v1"
+      "http://arxiv.org/abs/2609.20804v1"
     ]
   },
   {
-    "title": "MTVA-Bench: Evaluating the Language Model Inside Cascaded Voice Agents",
-    "link": "http://arxiv.org/abs/2609.20152v1",
-    "published": "2026-09-17T12:44:03+00:00",
-    "summary": "Generally, most voice agents are cascaded systems, i.e., an ASR model transcribes the caller's audio, a language model reads the transcript and decides what to say and which backend tools to call, and a TTS model speaks the reply. Nearly all of the decision making happens in the language model, but existing evaluations measure it either too broadly or too narrowly. End-to-end voice benchmarks score the full pipeline, so recognition errors and model errors mix into a single number. LLM benchmarks",
-    "author": "Pritish Mishra, Ishaan Kumar, Akshat Mandoli, Sudarshan Kamath",
+    "title": "RetireOPD: Self-Retiring On-Policy Distillation for Agentic Reinforcement Learning",
+    "link": "http://arxiv.org/abs/2609.20784v1",
+    "published": "2026-09-17T17:52:08+00:00",
+    "summary": "Multi-turn agents trained with reinforcement learning (RL) receive a single scalar reward per trajectory, which motivates self on-policy distillation (OPD) to supply dense token-level supervision from a self-teacher with privileged task skills, letting a skill-free student internalize them. This recipe, however, is undermined by two findings in agentic tasks: privileged information alone does not always make a teacher reliable, and the benefit of teacher supervision is stage-dependent. We theref",
+    "author": "Yan Yu, Zhengxi Lu, Yizhou Liu, Yichen Pan, Aozhe Wang, Qipeng Chen, Hua Yang, Wenqi Zhang, Weiming Lu, Qianglong Chen, Yongliang Shen",
     "source": "arXiv cs.AI",
     "category": "research",
     "references": [
-      "http://arxiv.org/abs/2609.20152v1"
+      "http://arxiv.org/abs/2609.20784v1"
     ]
   },
   {
-    "title": "Bridging Modalities on the Cortex: Surface-based MRI to PET Translation with a Diffusion Bridge",
-    "link": "http://arxiv.org/abs/2609.20147v1",
-    "published": "2026-09-17T12:38:33+00:00",
-    "summary": "Cortical hypometabolism measured by Fluorodeoxyglucose Positron Emission Tomography (FDG-PET) is a highly sensitive biomarker for dementia diagnosis. However, high costs, radiation exposure, and limited accessibility constrain its clinical utility. While cross-modal synthesis from Magnetic Resonance Imaging (MRI) offers a promising alternative, existing volumetric generation methods do not explicitly account for the highly folded cortical geometry, where disease-related patterns predominantly re",
-    "author": "Yitong Li, Alexandra Samoylova, Fabian Bongratz, Timo Grimmer, Dennis M. Hedderich, Igor Yakushev, Christian Wachinger",
+    "title": "Harm Laundering in GPT Models: Evidence That Gender Discrimination Is Transformed Rather Than Reduced Across Safety-Trained Generations",
+    "link": "http://arxiv.org/abs/2609.20779v1",
+    "published": "2026-09-17T17:49:28+00:00",
+    "summary": "Safety evaluations for large language models rely on surface-form classifiers that report declining harm scores across model generations. We provide evidence that this methodology is systematically incomplete: explicit discriminatory content is transformed rather than removed. We call this \\emph{harm laundering}. Analysing 450,000 gender-directed completions across 15 models spanning GPT-2 through to GPT-5 (OpenAI GPT lineage; three demographic conditions), we show that sexual violence clusters ",
+    "author": "Sarah Wyer, Sue Black, Noura Al Moubayed",
     "source": "arXiv cs.AI",
     "category": "research",
     "references": [
-      "https://github.com/ai-med/DB-SUiT",
-      "http://arxiv.org/abs/2609.20147v1"
+      "http://arxiv.org/abs/2609.20779v1"
     ]
   },
   {
-    "title": "Designing Against Deskilling: Metacognitive Feedback Reduces Cognitive Offloading to LLM Assistants",
-    "link": "http://arxiv.org/abs/2609.20143v1",
-    "published": "2026-09-17T12:35:04+00:00",
-    "summary": "Cognitive offloading to AI can reduce opportunities to practice skills, creating risks of deskilling. However, it remains unclear how to prevent deskilling without restricting access to AI. Here, we design two interventions to reduce offloading decisions: (1) metacognitive feedback that makes the implications of offloading for users explicit, and (2) an effort-based reward that incentivizes less extensive LLM assistance. We test both in a preregistered online experiment ($N = 704$) with a 2$\\tim",
-    "author": "Sebastian Maier, Kai Schwabe, Manuel Schneider, Stefan Feuerriegel",
+    "title": "GeoAAC: Geometry-Based Adaptive Action Chunking from Denoising Trajectories in VLA Policies",
+    "link": "http://arxiv.org/abs/2609.20776v1",
+    "published": "2026-09-17T17:48:07+00:00",
+    "summary": "Action chunking is widely used for action generation and execution in Vision-Language-Action (VLA) policies, yet existing approaches commonly use a fixed action horizon. During a rollout, different task stages may require different levels of action continuity, control precision, and closed-loop feedback, making a fixed horizon unable to accommodate changing control requirements. We propose \\textbf{GeoAAC}, a geometry-based adaptive action chunking method for flow-based VLA policies that adjusts ",
+    "author": "Xin Chen, Sen Chen, Yujuan Ding, Jian Liu, Guoqing Wang, Wei Ye, Heng Tao Shen, Yi Bin",
     "source": "arXiv cs.AI",
     "category": "research",
     "references": [
-      "http://arxiv.org/abs/2609.20143v1"
+      "http://arxiv.org/abs/2609.20776v1"
     ]
   },
   {
-    "title": "Cross-Modal Attention Acts as a Frequency Filter: Why Verbose Prompts Improve Robustness in Vision-Language Models",
-    "link": "http://arxiv.org/abs/2609.20139v1",
-    "published": "2026-09-17T12:31:07+00:00",
-    "summary": "Vision-language models (VLMs) are fragile under image corruption. We find that the wording of the question affects VLMs in two opposite ways. Verbose questions make VLMs substantially more robust---e.g., rephrasing \"Is there a cat?\" into \"Please look carefully and answer: is there a cat?\". Conversely, VLMs become more fragile under corruption when the question is semantically complex or finer-grained, e.g., \"what colour is the cup left of the chair?\" instead of \"is there a cup?\". Both effects st",
-    "author": "Farooq Ahmad Wani, Maria Sofia Bucarelli, Mujtaba Hussain Mirza, Oleksandr Pryymak, Aryo Pradipta Gema, Iacopo Masi, Pasquale Minervini, Fabrizio Silvestri",
+    "title": "Semantic Action Graph: A Shared Representation for Agent Grounding and Human Interpretation of Sports Highlights",
+    "link": "http://arxiv.org/abs/2609.20768v1",
+    "published": "2026-09-17T17:46:03+00:00",
+    "summary": "Generative agents are increasingly used to select and narrate video highlights, but they typically operate over unstructured or frame-level representations. Their output is consequently difficult for a viewer to verify and steer toward individual preferences. We present the semantic action graph, a lightweight domain schema that represents a sports match as performer, action, recipient, moment, and state nodes connected by role, temporal, and outcome edges. The schema demonstrates three key prop",
+    "author": "Tica Lin, Deepak Chandran, Gauri Jagatap, Chen Chen, Andrea Fanelli, David Gunawan, Josh Kimball",
     "source": "arXiv cs.AI",
     "category": "research",
     "references": [
-      "http://arxiv.org/abs/2609.20139v1"
+      "http://arxiv.org/abs/2609.20768v1"
     ]
   },
   {
-    "title": "AdaRepair-Mem: Adaptive Experience Orchestration for Repository-Level Program Repair",
-    "link": "http://arxiv.org/abs/2609.20130v1",
-    "published": "2026-09-17T12:23:22+00:00",
-    "summary": "Recent memory-augmented repository-level program repair methods reuse historical repair experiences to improve LLM-based issue resolution. However, our analysis reveals three limitations in existing repository-level memory retrieval. First, episodic memory is highly imbalanced across repositories, leaving low-resource repositories with little effective support. Second, more memory does not monotonically lead to higher repair success, suggesting that relevance, quality, and redundancy matter more",
-    "author": "Z. C. Luo, J. C. Guo, W. J. He, S. Y. Wang, J. C. Yu, F. M. Zhao, Y. Chen, T. Cao, L. Q. Liu, N. Zheng, W. Xu, J. Jiang, Z. M. Zhao",
+    "title": "Prediction-Powered Smoothing and Validation for Disaggregated AI Evaluation",
+    "link": "http://arxiv.org/abs/2609.20758v1",
+    "published": "2026-09-17T17:42:29+00:00",
+    "summary": "Evaluating an AI system requires disaggregated assessment, as performance varies across domains such as benchmark task types or conversation types in deployed agents. Exhaustive testing is expensive, so evaluation rests on a sample of labeled units. We treat the evaluation set as a finite population and seek accurate point and interval estimates of each domain mean. Direct estimators, including prediction-powered inference (PPI), use only a domain's own labels and are imprecise where labels are ",
+    "author": "Sho Kawano, Zehang Richard Li, Paul A. Parker",
     "source": "arXiv cs.AI",
     "category": "research",
     "references": [
-      "http://arxiv.org/abs/2609.20130v1"
+      "http://arxiv.org/abs/2609.20758v1"
     ]
   },
   {
-    "title": "Local Sparsity Enables Unsupervised LLM Safety Detection",
-    "link": "http://arxiv.org/abs/2609.20129v1",
-    "published": "2026-09-17T12:23:04+00:00",
-    "summary": "Deployment-time safety methods for large language models (LLMs) are predominantly supervised and assume access to unsafe training data. Nevertheless, new attacks and harm categories regularly arise, not captured by models trained in such a supervised fashion. An alternative approach is to view this problem through the lens of anomaly detection, namely, to rely solely on modeling safe data and flagging out-of-distribution inputs. However, LLM activations lie in a high-dimensional space, raising c",
-    "author": "Xin Chen, Gil Kur, Alexander Shevchenko, Andreas Krause",
+    "title": "RAFT: A Stateful Retrieval-Augmented Framework for Troubleshooting Agents",
+    "link": "http://arxiv.org/abs/2609.20754v1",
+    "published": "2026-09-17T17:41:31+00:00",
+    "summary": "Effective troubleshooting agents in enterprise customer support depend on retrieving actionable guidance from similar historical cases, yet existing retrieval-augmented generation (RAG) systems treat support cases as static documents and overlook their multi-stage, stateful nature. We introduce RAFT (Retrieval-Augmented Framework for Troubleshooting Agents), a stateful RAG framework that abstracts each closed historical case into a directed chain of timeline entries and retrieves at the entry le",
+    "author": "Mingxuan Zhang, Xiaowen Wang, Anupma Sharan, Zhengyi Chen, Chenyu Diana Zhang, Shanshan Yang, Chittibabu Pacharu",
     "source": "arXiv cs.AI",
     "category": "research",
     "references": [
-      "http://arxiv.org/abs/2609.20129v1"
+      "http://arxiv.org/abs/2609.20754v1"
     ]
   },
   {
-    "title": "Multi-Dimensional Prosody Judgment For Live Streaming Speech Synthesis",
-    "link": "http://arxiv.org/abs/2609.20124v1",
-    "published": "2026-09-17T12:20:48+00:00",
-    "summary": "Evaluating live streaming speech synthesis (TTS) requires assessing fine-grained, highly expressive prosody such as emotion, intonation, and energy which traditional MOS predictors fail to capture. While proprietary Large Language Models (LLMs) like Gemini can evaluate these aspects, they are too costly for massive inference and reinforcement learning feedback. To address this, we first introduce Live-ProsodyJudge (LPJ), a cost-effective pairwise evaluator distilled from Gemini into Qwen3-Omni. ",
-    "author": "Zifan Guan, Longyu Lu, Junan Zhang, Zhizheng Wu, Meiguang Jin, Junfeng Ma",
+    "title": "Large Language Models as Falsifiers for Cyber-Physical Systems",
+    "link": "http://arxiv.org/abs/2609.20752v1",
+    "published": "2026-09-17T17:40:04+00:00",
+    "summary": "Falsification searches for counterexamples to formal specifications in cyber-physical systems (CPS). With specifications written in Signal Temporal Logic (STL), falsification can be formulated as a robustness optimization problem, traditionally tackled with black-box search algorithms. In parallel, large language models (LLMs) have recently emerged as surprisingly effective optimizers when coupled with iterative prompting. In this work, we connect these ideas and introduce LLM-Falsifier, an LLM-",
+    "author": "Ali ArjomandBigdeli, Jiawei Zhou, Stanley Bak",
     "source": "arXiv cs.AI",
     "category": "research",
     "references": [
-      "http://arxiv.org/abs/2609.20124v1"
+      "http://arxiv.org/abs/2609.20752v1"
+    ]
+  },
+  {
+    "title": "Q&A on Any Spreadsheet Requires Interpreting Its Grid Structure",
+    "link": "http://arxiv.org/abs/2609.20732v1",
+    "published": "2026-09-17T17:22:43+00:00",
+    "summary": "Semantic cell annotation improves chunking interpretability for spreadsheets in LLM-driven RAG systems, aiding answer generation through enriched context rather than improved retrieval accuracy. We propose a novel framework of splitting any spreadsheet into interpretable chunks using cell role annotation. Our framework beats the state of the art, yet it faces a hard ceiling. Spreadsheets are fundamentally two-dimensional unstructured data with continuous relationships and infinite potential cell",
+    "author": "Zofia Smoleń",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2609.20732v1"
     ]
   },
   {
@@ -190,18 +203,6 @@
     "category": "media",
     "references": [
       "https://www.technologyreview.com/2026/09/17/1144314/the-download-mice-part-human-brains-climate-tech-innovators/"
-    ]
-  },
-  {
-    "title": "Perception, Layout, and Validation: Calibrated Confidence for Reliable Straight-Through Processing of Financial Documents",
-    "link": "http://arxiv.org/abs/2609.20110v1",
-    "published": "2026-09-17T12:09:21+00:00",
-    "summary": "Straight-through processing (STP) on extracted key-value fields from financial documents without human review requires a calibrated probability together with a bounded guarantee on the residual error of the auto-approved tier. The emergence of modern Vision Language Models (VLMs) provides an out-of-the-box capability for extracting the key-values, but their verbalized confidence signals are unreliable and weakly track field correctness. This paper introduces a decomposed confidence layer along t",
-    "author": "Yichao Jin, Yushuo Wang, Yuxuan Han, Kwan Ching Yee Sonia, Weiyang Song, Chiu Jin-Chun Kent, Wong Chong Hwee, Wong Tiong Kiat, Kenneth Zhu Ke, Jingyuan Zhao",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2609.20110v1"
     ]
   },
   {
