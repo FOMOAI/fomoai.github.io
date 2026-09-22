@@ -1,5 +1,189 @@
 [
   {
+    "title": "GameHorizon Suite: Multi-Horizon Data and Evaluation in Gameplay",
+    "link": "http://arxiv.org/abs/2609.25001v1",
+    "published": "2026-09-21T17:59:33+00:00",
+    "summary": "Modern video games provide a measurable testbed for AI models, combining abilities of visual understanding, instruction decomposition, goal planning, and precise action control over multiple temporal horizons. Existing datasets and benchmarks, however, either cover a narrow range of games, lack language instructions, or rely on high-variance online rollouts. To address these challenges, we introduce GameHorizon, a unified data and evaluation suite that measures gameplay capabilities at different",
+    "author": "Yiran Wang, Xingyilang Yin, Junfu Pu, Guangzhi Wang, Kaifeng Li, Mingyu Ouyang, Huiqiang Sun, Lingen Li, Cheng Cheng, Wangbo Yu, Honghao Chen, Xiaodong Cun, Chi-Man Pun, Zhiguo Cao, Ying Shan",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2609.25001v1"
+    ]
+  },
+  {
+    "title": "WorldCrafter: Consistent Video World Model with Implicit 3D-aware Memory",
+    "link": "http://arxiv.org/abs/2609.24984v1",
+    "published": "2026-09-21T17:57:06+00:00",
+    "summary": "Video world models enable interactive exploration of dynamic environments, yet struggle to respect prior observations over long horizons and across viewpoints. We present WorldCrafter, a video world model that learns a camera-queryable implicit 3D-aware memory for this purpose. The key insight is to let the requested viewpoint shape how multi-view evidence is compressed into the video generator's limited token budget. Trained jointly with the video generator, a memory encoder and pose-conditione",
+    "author": "Wangbo Yu, Kunhao Liu, Wenbo Hu, Shenghai Yuan, Chaoran Feng, Haiyang Zhou, Yukun Huang, Yiran Wang, Wang Zhao, Yingmin Luo, Ying Shan",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2609.24984v1"
+    ]
+  },
+  {
+    "title": "DexTacWAM: A Visuo-Tactile World-Action Model for Dexterous Manipulation",
+    "link": "http://arxiv.org/abs/2609.24976v1",
+    "published": "2026-09-21T17:55:24+00:00",
+    "summary": "Dexterous manipulation depends on contact dynamics that are often only partially observable from vision. Recent World-Action Models (WAMs) couple predictive video world modeling with action generation, but remain largely vision-centric and therefore cannot directly model these contact dynamics. We present DexTacWAM, a visuo-tactile WAM that encodes each fingertip independently, aggregates the resulting features through a finger- and pose-aware tactile compressor, and injects the tactile latent i",
+    "author": "Haoran Yuan, Zekai Wang, Boning Shao, Haoran Lu, Trevor Darrell, Ismini Lourentzou, Wei Zhan",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2609.24976v1"
+    ]
+  },
+  {
+    "title": "Harness-Zero: Harness Distillation via Agent-as-Harness",
+    "link": "http://arxiv.org/abs/2609.24974v1",
+    "published": "2026-09-21T17:55:20+00:00",
+    "summary": "Agent harnesses, the external systems that mediate model-environment interaction, can substantially improve agent performance, but their gains remain tied to the harness at deployment. Because the best harness varies across domains, instances, and models, a general-purpose agent must either settle for a suboptimal shared harness or route among an ever-growing set of specialized ones. We therefore study agent harness distillation: using a domain- or instance-optimized harness as training-time gui",
+    "author": "Haoran Ye, Yuxing Lu, Haonan Dong, Zhaochen Su, Guojie Song",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2609.24974v1"
+    ]
+  },
+  {
+    "title": "RRSI: Regularized Recursive Self-Improvement of Agent Harnesses",
+    "link": "http://arxiv.org/abs/2609.24972v1",
+    "published": "2026-09-21T17:54:49+00:00",
+    "summary": "An LLM agent's capability is largely magnified by its harness, namely the prompts, control flow, tooling, memory, and context management surrounding the frozen backbone model. Recent methods increasingly automate this process by iteratively proposing and selecting component-wise edits of an agent harness, practically establishing a form of recursive self-improvement (RSI) at the agent-system level. However, such recursive evolution may overfit by memorizing the training tasks, showing large in-d",
+    "author": "Peng Xia, Rujun Han, Zifeng Wang, Yanfei Chen, Yufan Zhang, Yoonho Lee, Chengsong Huang, Han Yu, Zhongying CuiZhu, Yifei Ming, Huaxiu Yao, Burak Gokturk, Tomas Pfister, Chen-Yu Lee",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "https://github.com/google-research/rrsi",
+      "https://regularized-rsi.com/",
+      "http://arxiv.org/abs/2609.24972v1"
+    ]
+  },
+  {
+    "title": "DolphinBench: Mapping the Pareto Frontier of Agent Memory",
+    "link": "http://arxiv.org/abs/2609.24971v1",
+    "published": "2026-09-21T17:54:35+00:00",
+    "summary": "Agents today often take real-world actions that depend on long-term memory and context recall over time. However, most current memory benchmarks are built for a conversational question-answer format, where the question itself signals that some fact must be retrieved, and often which one. Moreover, benchmarks rarely require anything beyond accuracy from submissions, allowing memory systems to make unreasonable cost/time tradeoffs to achieve higher scores. We present DolphinBench, a benchmark that",
+    "author": "Soumil Rathi, Deshraj Yadav, Taranjeet Singh",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "https://dolphinbench.ai",
+      "http://arxiv.org/abs/2609.24971v1"
+    ]
+  },
+  {
+    "title": "Rare Event Estimation via Iterative Unalignment",
+    "link": "http://arxiv.org/abs/2609.24969v1",
+    "published": "2026-09-21T17:53:38+00:00",
+    "summary": "As agents are deployed with increased autonomy, even extremely rare events along their stochastic output trajectories can occur and prove catastrophic. Safe deployment therefore does not depend on whether these events can occur, but on how often they might. We study the problem of estimating the probability of rare events that arise from stochastic variation in the agent's own actions. Estimating this type of risk requires searching over the combinatorially vast space of trajectories. Naive Mont",
+    "author": "Hanming Yang, Daksh Mittal, Jing Dong, Hongseok Namkoong",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "https://github.com/namkoong-lab/iterative-unalignment",
+      "http://arxiv.org/abs/2609.24969v1"
+    ]
+  },
+  {
+    "title": "Emergent Collusion in Long-Horizon LLM Agent Interaction",
+    "link": "http://arxiv.org/abs/2609.24967v1",
+    "published": "2026-09-21T17:52:48+00:00",
+    "summary": "LLM agents are increasingly deployed in collaborative settings, yet long-term interaction may give rise to undesirable coordination. We study the emergence of collusion in a long-horizon multi-agent environment: two agents repeatedly complete individual tasks, share task logs, verify each other's work, and receive rewards. We introduce realistic constraints that make compliance with the verification protocol incompatible with reward maximization, and find that agents increasingly deviate from th",
+    "author": "Xinrui Shi, Yanzhe Zhang, Diyi Yang",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2609.24967v1"
+    ]
+  },
+  {
+    "title": "Jev for Scientific Decisions: Evaluating Semantic Choices and Their Consequences",
+    "link": "http://arxiv.org/abs/2609.24965v1",
+    "published": "2026-09-21T17:51:50+00:00",
+    "summary": "Scientific workflows often require choosing among known relations before a deterministic calculation can proceed. Whether observations share a culture, treatment or reference standard can change the scientific meaning of the resulting count or comparison. We evaluate Jev as a semantic decision component using a harness that follows its documented guidance and assigns arithmetic to code. The study compares twelve model configurations on twenty source-grounded Choices across ten scientific cases, ",
+    "author": "Boyuan Deng, Shuyi Fan, Hongyang Zhang, Xinhong Xie",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2609.24965v1"
+    ]
+  },
+  {
+    "title": "Generative Tutorial: Towards Live Contextualized Visual Instructions for Physical Tasks",
+    "link": "http://arxiv.org/abs/2609.24955v1",
+    "published": "2026-09-21T17:46:25+00:00",
+    "summary": "Visual instructions for physical tasks are typically authored in one context and followed in another, requiring users to translate demonstrated tools, materials, and spatial relationships into their own environment. We introduce Generative Tutorial, a conceptual framework for live visual instruction that depicts intended outcomes and actions within the user's environment and task flow. A formative evaluation of state-of-the-art image and video generation identifies failures and potential benefit",
+    "author": "Muzhe Wu, Zuchen Li, Xu Wang, Anhong Guo",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2609.24955v1"
+    ]
+  },
+  {
+    "title": "Exactness at Inference: A Representational Criterion for Out-of-Distribution Generalization",
+    "link": "http://arxiv.org/abs/2609.24942v1",
+    "published": "2026-09-21T17:39:51+00:00",
+    "summary": "A model generalizes outside its training distribution only when it computes a representation structurally equivalent to the generating mechanism, not an approximation fitted to it. Such equivalence is necessary for exactness in and out of distribution, and extrapolation is governed by this exactness at inference, whatever its realization. Tensor Logic shows this: a zero-temperature contraction is equivalent to discrete logic, deducing in place with no artefact extracted, its tensors Boolean, its",
+    "author": "Filipe Marinho Rocha, Inês Dutra, Vítor Santos Costa, Luís Paulo Reis",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2609.24942v1"
+    ]
+  },
+  {
+    "title": "Et Tu, Brute? Economic Misalignment in Personal AI Agents",
+    "link": "http://arxiv.org/abs/2609.24927v1",
+    "published": "2026-09-21T17:22:44+00:00",
+    "summary": "Personal AI agents make recommendations and take actions on people's behalf in high-stakes economic contexts, e.g., buying a flight, choosing health insurance, or selecting a graduate program. The agent is given access to the user's personal context, e.g., their email inbox and a structured profile of personal attributes, with the intention of making an optimal, personalized decision for the user. We show that by simply providing this personal context, the agent steers recommendations based on i",
+    "author": "Aman Priyanshu, Supriti Vijay, Brian Jabarian, Niloofar Mireshghallah",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2609.24927v1"
+    ]
+  },
+  {
+    "title": "BackTrend: Evaluating Scientific Weak-Signal Prediction via Backward Reconstruction",
+    "link": "http://arxiv.org/abs/2609.24921v1",
+    "published": "2026-09-21T17:18:19+00:00",
+    "summary": "Scientific weak signals are early, low-visibility research directions that later become central to mature scientific topics, yet existing resources such as trend tracking, citation forecasting, and foresight reports rarely provide validated reference sets that link concrete early precursors to later paradigms. We introduce BackTrend, a retrospective benchmark in which, given a mature target topic and a temporal evidence constraint, systems must recover two types of precursors: problem-space sign",
+    "author": "Xiao Zhou, Yilun Zhao, Owen Jiang, Tiansheng Hu, Cai Xu, Manasi Patwardhan, Arman Cohan",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2609.24921v1"
+    ]
+  },
+  {
+    "title": "Visuomotor Robotic Pruning in Planar Orchards Using Hybrid Reinforcement Learning",
+    "link": "http://arxiv.org/abs/2609.24906v1",
+    "published": "2026-09-21T17:09:58+00:00",
+    "summary": "Dormant tree pruning is labor-intensive yet essential for maintaining modern high-productivity fruit orchards. In this work, we focus on pruning of modern planar tree training systems - V-Trellis apples and UFO cherries - where trunks and primary branches are trained into approximately planar walls. We introduce an end-to-end pipeline to learn a closed-loop visuomotor controller for robotic pruning. This controller is trained entirely using simulation and synthetically generated data and deploye",
+    "author": "Abhinav Jain, Cindy Grimm, Stefan Lee",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2609.24906v1"
+    ]
+  },
+  {
+    "title": "OSWorld-Pro: Process-based Evaluation for Computer Use Agents",
+    "link": "http://arxiv.org/abs/2609.24890v1",
+    "published": "2026-09-21T16:55:24+00:00",
+    "summary": "Evaluation of Computer-Use Agents (CUAs) is often limited to the final deliverables they create (at the end of hundreds of steps) and assessed with functional verifiers, as seen in OSWorld. However, such evaluation of end-state performance lacks transparency into how and why agents fail in various tasks, obfuscating critical insight for subsequent improvement. For instance, agents that err during keyboard inputs would require a different mitigation strategy from those that fail to precisely prov",
+    "author": "Zhilin Wang, Shaokun Zhang, Yifan Zhang, Hao Zhang, Jin Xu, Binfeng Xu, Jian Hu, Yunheng Zou, Karan Sapra, Andrew Tao, Jan Kautz, Yi Dong",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2609.24890v1"
+    ]
+  },
+  {
     "title": "The Download: investigating deaths at the US border’s “virtual wall”",
     "link": "https://www.technologyreview.com/2026/09/21/1144834/the-download-investigating-deaths-at-the-us-borders-virtual-wall/",
     "published": "2026-09-21T12:20:00+00:00",
@@ -117,186 +301,6 @@
     "category": "official",
     "references": [
       "https://openai.com/index/v7"
-    ]
-  },
-  {
-    "title": "Designer-RSI: Evolving Procedural Memory from User Traffic for Agentic Graphic Design",
-    "link": "http://arxiv.org/abs/2609.22086v1",
-    "published": "2026-09-18T17:59:56+00:00",
-    "summary": "Professional graphic design is a long-horizon agentic task in which structured, editable artifacts emerge from many interdependent actions, yet outcomes admit no reliable programmatic oracle. We introduce a continual adaptation framework in which a frozen frontier model operates professional design software through more than 230 tools, while an external procedural memory of natural-language skills accumulates and refines reusable design procedures from experience. The memory widens by acquiring ",
-    "author": "Hongyang Du, Lan Yan, Christian Flores, Asim Kadav",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2609.22086v1"
-    ]
-  },
-  {
-    "title": "CodeMidas: Scaling Agentic Coding RL Environments from Code Itself",
-    "link": "http://arxiv.org/abs/2609.22068v1",
-    "published": "2026-09-18T17:55:17+00:00",
-    "summary": "Training capable coding agents via reinforcement learning (RL) requires diverse tasks with reliable verifiers. Open-source codebases offer a rich source of such tasks, while existing methods typically rely on development artifacts such as issues and commits, limiting the range of tasks that can be extracted. To better scale RL environments, we present CodeMidas, an agentic pipeline that turns implemented functionality in existing codebases into executable RL environments using source code as its",
-    "author": "Bowen Ye, Lei Li, Shicheng Li, Zihao Yue, Linghao Zhang, Hanglong Lv, Yuanxin Liu, Wenhan Ma, Hao Tian, Rang Li, Jinhao Dong, Yikai Zhao, Xiangwei Deng, Hailin Zhang, Liang Zhao, Qi Liu, Lingpeng Kong, Tong Yang, Fuli Luo",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2609.22068v1"
-    ]
-  },
-  {
-    "title": "Value-Sensitive Delegation in Everyday AI Agent Use: Evidence from OpenClaw",
-    "link": "http://arxiv.org/abs/2609.22067v1",
-    "published": "2026-09-18T17:55:09+00:00",
-    "summary": "Users increasingly delegate work to autonomous AI agents, yet evaluations typically measure task completion rather than the values users prioritize. Using Value Sensitive Design, we analyzed, with LLM assistance, 73,093 first-person Reddit posts about using OpenClaw, each for its human value, agent aspect, value fulfillment, and user outcome. The 21 values form six value groups, including Autonomous, Dependable, and Affordable Operation, Bounded Reach, Reviewability, and Equitable Access. Relati",
-    "author": "Renkai Ma, Ruyuan Wan, Xuan Lu, Fan Yang, Chen Chen, Lingyao Li",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2609.22067v1"
-    ]
-  },
-  {
-    "title": "Gricea: An Open Science Platform for Conversational AI Research",
-    "link": "http://arxiv.org/abs/2609.22039v1",
-    "published": "2026-09-18T17:31:05+00:00",
-    "summary": "We need studies on conversational AI (CAI) at scale to understand human behavior and shape CAI design. However, fragmented reporting of systems and study configurations hinders replication, extension, and knowledge accumulation. We present Gricea, an open-science platform representing studies as configurable, deployable research artifacts that researchers can run, inspect, share, and reuse. Informed by a formative analysis of prior CAI research, Gricea couples study procedures, participant-facin",
-    "author": "Nikhil Sharma, Yunlin Gong, Xinyang Cheng, Ziang Xiao",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2609.22039v1"
-    ]
-  },
-  {
-    "title": "DiaVLo: Diagnosing Behaviours of Vision-Language Models",
-    "link": "http://arxiv.org/abs/2609.22008v1",
-    "published": "2026-09-18T17:06:44+00:00",
-    "summary": "Vision-language models (VLMs) rely on storing and transferring appropriate information across their sub-components. Verifying that the VLMs exhibit desired behaviours, while avoiding harmful ones, is central to their reliable deployment. Yet, methods that identify VLM behaviours remain scarce. We present DiaVLo, a diagnostic framework that leverages human curation and VLMs' generation capabilities to construct specifications of desired and observed VLM behaviours, surfacing potential misalignmen",
-    "author": "Lorenzo Corti, Jie Yang",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2609.22008v1"
-    ]
-  },
-  {
-    "title": "Bayesian Belief Layer for Controllable Opinion Dynamics in LLM Agents",
-    "link": "http://arxiv.org/abs/2609.21997v1",
-    "published": "2026-09-18T16:57:14+00:00",
-    "summary": "LLM agents in social simulation revise their opinions implicitly, in context: how open an agent is to persuasion can neither be specified nor verified, and collective outcomes inherit the model's training prior. We introduce Bayesian Chronicle Agents (BCA), a minimal belief layer separating \\emph{what} an agent believes from \\emph{how} it speaks. Each stance is a probability, updated by one Bayesian step per utterance heard. A single prior-strength parameter $κ$ encodes stubbornness, modeled aft",
-    "author": "Hafsa Akbar, Daniel Platnick, Marjan Alirezaie, Hossein Rahnama",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2609.21997v1"
-    ]
-  },
-  {
-    "title": "A Lie Detector Test for Language Models: Reading Knowledge a Model Won't Reveal",
-    "link": "http://arxiv.org/abs/2609.21996v1",
-    "published": "2026-09-18T16:57:00+00:00",
-    "summary": "Large language models can hold knowledge they do not report. A model may sandbag on a capability evaluation, or answer against what it internally knows, and its outputs alone cannot tell whether it is hiding an answer or simply does not have one. We borrow the Concealed Information Test, a forensic method that identifies guilty knowledge by presenting a suspect with the true detail among plausible decoys and measuring a stronger response to the item they recognize. Our method, Probe of Internal ",
-    "author": "Hiskias Dingeto",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2609.21996v1"
-    ]
-  },
-  {
-    "title": "NemotronLabs VoiceChat: An Open Full-duplex Speech-to-Speech Model with Tool Calling Capabilities",
-    "link": "http://arxiv.org/abs/2609.21967v1",
-    "published": "2026-09-18T16:27:22+00:00",
-    "summary": "We introduce NemotronLabs VoiceChat, an open full-duplex speech-to-speech model with native tool-calling capabilities. NemotronLabs VoiceChat combines a streaming speech encoder and decoder-only language model with parallel specialized output streams for agent text and structured function calls, an auxiliary RNN-T branch for incremental user transcription, and a streaming TTS decoder. This design enables the model to listen, transcribe, reason, invoke tools, and speak within a unified streaming ",
-    "author": "Jagadeesh Balam, Travis Bartley, Edresson Casanova, Sanjay Chauhan, Chen Chen, Zhehuai Chen, Zijia Chen, Francesco Ciannella, Slyne Deng, Mikyas Desta, Harishchandra Dubey, Slim Essid, Nourchene Ferchichi, Boris Ginsburg, Mariana Graterol Fuenmayor, Negar Habibi, Kevin Hu, Anand Joseph, Viraj Karandikar, Myungjong Kim, Viacheslav Klimkov, Seelan Lakshmi Narasimhan, Lily Lee, Jason Li, Eileen Long, Ameya Mahabaleshwarkar, Aditya Malte, Adi Margolin, Sasha Meister, Valentin Mendelev, Oluwatobi Olabiyi, Ankita Pasad, Yifan Peng, Elena Rastorgueva, Jayda Ritchie, Jason Roche, Nikhil Srihari, Yuanhang Su, Yoshi Suhara, Viet Anh Trinh, Jinhan Wang, Piotr Zelasko, Hui Wang, Puhui Meng, Chaosen Zhang, Yunsheng Liu, Shawn Wang, Wenjing Li, Zhonglei He",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2609.21967v1"
-    ]
-  },
-  {
-    "title": "Learning Cardiac Features: ECG Biometrics Across Time and~Exercise",
-    "link": "http://arxiv.org/abs/2609.21962v1",
-    "published": "2026-09-18T16:22:31+00:00",
-    "summary": "Electrocardiograms (ECGs) carry subject-specific patterns enabling reliable individual discrimination, forming the basis of ECG biometrics. Beyond authentication, this paradigm holds significant potential to secure sensitive cardiac data and to serve as a pretext task in self-supervised learning. Yet, most studies remain confined to singlesession, resting data, leaving robustness to temporal and physiological variations largely untested. We address this gap by evaluating ECG biometrics under rea",
-    "author": "Luca Thiebaud, Paul Chauchat, Mustapha Ouladsine, Stéphane Delliaux",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2609.21962v1"
-    ]
-  },
-  {
-    "title": "When Should a Failing Robot Ask? Initiating Corrective Human-Robot Dialogue from Audited Sensor Evidence",
-    "link": "http://arxiv.org/abs/2609.21942v1",
-    "published": "2026-09-18T15:56:52+00:00",
-    "summary": "A robot that fails at a task faces the first decision in corrective dialogue: act on its own diagnosis, consult another onboard sensor, or interrupt a person. Choosing well requires knowing how much the robot's sensors reveal about the cause and how reliable the robot's own diagnosis is. We build a simulated benchmark in which every failure's true cause is known, because we injected it, and measure what each sensor reveals, with explicit checks against data leakage. Some failures are diagnosable",
-    "author": "Eshika Pathak, Leela Krishna",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2609.21942v1"
-    ]
-  },
-  {
-    "title": "AutoViewMem: Self-Configuring Orthogonal Views for Conversational Long-Term Memory",
-    "link": "http://arxiv.org/abs/2609.21940v1",
-    "published": "2026-09-18T15:55:29+00:00",
-    "summary": "Long-term memory is essential for large language model (LLM) agents to maintain consistency and personalization over extended interactions. Existing memory systems typically rely on fixed granularities or static schemas, but these designs struggle when heterogeneous information, such as preferences, events, constraints, and temporal updates, is embedded in a single mixed representation. The resulting semantic interference makes top-K retrieval sensitive to noise and often leaves relevant evidenc",
-    "author": "Zijie Cao, Xijun Qu, Zhicheng Gu, Xiaoshu Chen, Duanyang Yuan, Yanning Hou, Sihang Zhou, Jianxing Gong, Jian Huang, Yang Mei",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2609.21940v1"
-    ]
-  },
-  {
-    "title": "What Should We Ask Next? Retrieval-Aware Question Learning under Partial Evidence",
-    "link": "http://arxiv.org/abs/2609.21924v1",
-    "published": "2026-09-18T15:45:01+00:00",
-    "summary": "Interactive retrieval under partial evidence is a sequential information-acquisition problem: an agent must decide which question will create the most useful evidence for the next retrieval update. Existing systems train this decision by imitating an offline ordering of candidate QA pairs, although question value is determined by the response it elicits and its downstream effect on retrieval. We establish that candidate discriminativeness and perceived usefulness provide weak supervision for thi",
-    "author": "Lyucheng Qian, John Yuehan Zhang, Pingyu Wang",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2609.21924v1"
-    ]
-  },
-  {
-    "title": "Detecting Pretraining Data in Large Language Models from a Free-Energy Perspective",
-    "link": "http://arxiv.org/abs/2609.21888v1",
-    "published": "2026-09-18T15:16:51+00:00",
-    "summary": "Detecting pretraining data in large language models is challenging because high likelihood can reflect either training exposure or strong generalization. In the joint space of prediction loss and predictive entropy, a likelihood-only detector uses a horizontal boundary and can mistake predictable non-members for members. Motivated by this, we introduce an inclined boundary that evaluates prediction loss relative to predictive entropy. Our analysis shows that entropy correction can preserve the e",
-    "author": "Chenye Ke, Zirui Liu, Qi Liu, Yan Zhuang, Jintao Zhang, Zhenya Huang, Shijin Wang",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2609.21888v1"
-    ]
-  },
-  {
-    "title": "Benchmarking the Explanatory Quality of Open-Weight Vision-Language Models in Face Recognition",
-    "link": "http://arxiv.org/abs/2609.21879v1",
-    "published": "2026-09-18T15:06:02+00:00",
-    "summary": "Vision-Language Models (VLMs) have recently been proposed as promising tools for face recognition, as they can produce natural language explanations alongside similarity scores. This capability is considered appealing for face comparisons in forensic contexts, which require decisions to be transparent and auditable. However, existing evaluations of VLMs for that use case focus mostly on recognition accuracy, while the validity of generated explanations remains unquantified. In this work, we intr",
-    "author": "Laurent Colbois, Sébastien Marcel",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2609.21879v1"
-    ]
-  },
-  {
-    "title": "Neural Cellular Automata Learn General Features in their Hidden Channels",
-    "link": "http://arxiv.org/abs/2609.21870v1",
-    "published": "2026-09-18T14:58:18+00:00",
-    "summary": "Modern deep learning models achieve impressive generalization through over-parameterization, but this paradigm often struggles with overfitting and memorization in few-shot regimes. Neural Cellular Automata (NCAs) offer a highly parameter-efficient alternative, yet research has focused primarily on their output, leaving the role of their internal hidden channels largely unexplored. In this paper, we investigate the internal dynamics of NCA hidden channels and introduce a novel transfer-learning ",
-    "author": "Etienne Guichard, Stefano Nichele",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2609.21870v1"
     ]
   },
   {
