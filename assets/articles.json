@@ -1,5 +1,190 @@
 [
   {
+    "title": "Semifactual Credit-Augmented Policy Optimization",
+    "link": "http://arxiv.org/abs/2609.40360v1",
+    "published": "2026-09-30T17:59:56+00:00",
+    "summary": "Reinforcement learning with verifiable rewards (RLVR) has improved the reasoning capabilities of large language models (LLMs), yet their predictions remain sensitive to task-irrelevant prompt features. We investigate this sensitivity through semifactual prompt interventions that preserve the underlying problem and its answer. Our analysis reveals substantial variation in token-level sensitivity and shows that suppressing high-drift token candidates during decoding improves reasoning accuracy wit",
+    "author": "Junshu Pan, Zhizhang Fu, Shulin Huang, Yiran Ding, Zifan Cheng, Wenqi Shao, Qiaosheng Zhang, Yue Zhang",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "https://github.com/DtYXs/SCAPO",
+      "http://arxiv.org/abs/2609.40360v1"
+    ]
+  },
+  {
+    "title": "ViTeX-Bench: Benchmarking High-Fidelity Video Scene Text Editing",
+    "link": "http://arxiv.org/abs/2609.40356v1",
+    "published": "2026-09-30T17:59:33+00:00",
+    "summary": "Recent video generation is increasingly realistic and controllable, yet video editing remains less developed, particularly for precise local edits that must preserve the original scene dynamics. Video scene text editing replaces text on scene surfaces, such as storefront signs, whiteboards, and product labels, while preserving the surrounding content, motion, and camera dynamics. Although scene text editing is well studied for images, video scene text editing that achieves high visual quality, t",
+    "author": "Xinghao Chen, Xiangbo Gao, Jiongze Yu, Yuheng Wu, Zhengzhong Tu",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2609.40356v1"
+    ]
+  },
+  {
+    "title": "Turbo Harness: Instance-Adaptive Harness Optimization",
+    "link": "http://arxiv.org/abs/2609.40330v1",
+    "published": "2026-09-30T17:56:09+00:00",
+    "summary": "Automating the search for effective harnesses is an important step toward enabling agents to recursively self-improve. Existing harness optimizations typically produce a single global harness that is applied uniformly across task instances. However, a harness that works well on average may not be optimal for every instance. We introduce Turbo Harness, a framework that can adapt a globally optimized harness to each instance by reusing information generated during the original optimization process",
+    "author": "Tunyu Zhang, Hao Wang, Kai Xu, Dimitris N. Metaxas",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2609.40330v1"
+    ]
+  },
+  {
+    "title": "WorldAuditBench: Interactive 3D World Auditing with Multimodal Agents",
+    "link": "http://arxiv.org/abs/2609.40325v1",
+    "published": "2026-09-30T17:55:29+00:00",
+    "summary": "As interactive 3D worlds are increasingly used to study intelligent behavior, it becomes important to develop efficient pipelines for identifying anomalies in these simulated environments, such as floating objects, traversable walls, or objects inconsistent with the surrounding scene. Multimodal AI systems, including vision-language models (VLMs) and vision-language-action models (VLAs), have shown potential for automating this task. However, 3D world auditing is complex, requiring the close cou",
+    "author": "Ziyan Jiang, Jingbo Yang, Jiabao Ji, Yujian Liu, Qiucheng Wu, Tommi Jaakkola, Yang Zhang, Shiyu Chang",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2609.40325v1"
+    ]
+  },
+  {
+    "title": "Cogentic: Multi-Agent Orchestration for Automated Proof Discovery",
+    "link": "http://arxiv.org/abs/2609.40324v1",
+    "published": "2026-09-30T17:55:22+00:00",
+    "summary": "We present Cogentic, a multi-agent harness for automated proof discovery on open research problems. While frontier language models can generate strong mathematical ideas in a single shot, single-shot generation is often insufficient for open problems that require exploring multiple competing conjectures, overcoming subtle technical obstructions, and retaining intermediate progress over a long horizon. Cogentic addresses these challenges through an iterative prove--verify loop in which an orchest",
+    "author": "Yang Cai, Vineet Gupta, Yanchen Jiang, Christopher Liaw, Aranyak Mehta, Grigoris Velegkas, Di Wang",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "https://sites.google.com/view/cogentic",
+      "http://arxiv.org/abs/2609.40324v1"
+    ]
+  },
+  {
+    "title": "MatLoom: Layered Text-to-Material Generation in a Compact Program Space",
+    "link": "http://arxiv.org/abs/2609.40322v1",
+    "published": "2026-09-30T17:55:06+00:00",
+    "summary": "Material generation should produce not only an appearance, but also the rules that construct it. We introduce MatLoom, a compact, layer-oriented language for text-to-material generation with pretrained language models. Each program composes alpha-masked layers whose shared spatial expressions define coverage and physically based rendering (PBR) channels, making dependencies between patterns, color, and relief explicit. A standalone interpreter evaluates the program into material maps, while the ",
+    "author": "Anson Y. Lam, Shuqing Li, Michael R. Lyu",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2609.40322v1"
+    ]
+  },
+  {
+    "title": "Scaling Laws for Looped Mixture of Experts",
+    "link": "http://arxiv.org/abs/2609.40316v1",
+    "published": "2026-09-30T17:53:47+00:00",
+    "summary": "Looped transformers and Mixture-of-Experts (MoE) offer complementary routes to efficient scaling: recurrence increases computational depth at fixed parameters, while MoE sparsity expands total capacity at fixed active compute. Yet existing scaling laws model recurrence or sparsity in isolation. In this work, we introduce Loop Scaling Laws, the first scaling law to jointly model recurrence and sparsity alongside model size and data. At its core is a bounded, sparsity-conditional recurrence mappin",
+    "author": "Yanbei Chen, Anirudh Goyal, Raghuraman Krishnamoorthi",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2609.40316v1"
+    ]
+  },
+  {
+    "title": "DynaHarness: A Dynamic Physical Harness for Self-Evolving Robot Agents",
+    "link": "http://arxiv.org/abs/2609.40306v1",
+    "published": "2026-09-30T17:52:09+00:00",
+    "summary": "Pretrained robot policies provide useful action priors, but long-horizon manipulation still requires coordination between semantic reasoning and physical execution. Semantic reasoning operates at a coarser timescale than physical interaction, while episode-level failures provide limited guidance on which system component should be revised. We propose DynaHarness, a dynamic physical harness that couples semantic reasoning with physical governance through a shared execution contract and turns fail",
+    "author": "Haoyuan Deng, Jiebin Liu, Tengxiao Zhang, Langning Yan, Hongye Cao, Ziwei Wang",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "https://denghaoyuan123.github.io/Dynaharness_page/",
+      "http://arxiv.org/abs/2609.40306v1"
+    ]
+  },
+  {
+    "title": "How Much of a Harness Does a Strong Agent Need for Autonomous ML Engineering?",
+    "link": "http://arxiv.org/abs/2609.40303v1",
+    "published": "2026-09-30T17:51:30+00:00",
+    "summary": "Recent autonomous machine learning engineering (MLE) agents have made significant progress on public leaderboards. Often motivated by progress stagnation over long-horizon cycles and limited Large Language Model (LLM) primitives, modern MLE agents are deployed on top of increasingly elaborate machinery: multi-agent orchestrators, dedicated retrieval subagents, and more. While such harnesses expand, the use of more primitive but improved coding agents - where LLMs have direct access to the execut",
+    "author": "Kirill Brilliantov, Alejandro Hernández-Cano, Emmanuel Abbé",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2609.40303v1"
+    ]
+  },
+  {
+    "title": "CAS II: Symmetric Partitions as Kolmogorov Models",
+    "link": "http://arxiv.org/abs/2609.40290v1",
+    "published": "2026-09-30T17:49:15+00:00",
+    "summary": "In algorithmic statistics a string x is explained by a finite set containing it, and Kolmogorov's structure function records the smallest such model at each level of complexity. Vereshchagin's strong models, those computable from the data by a total algorithm, are essentially the cells of simple partitions. We read a partition of binary strings as a hypothesis, with the cell containing x as its model, and develop algorithmic statistics over symmetric partitions: the orbit partitions of groups ac",
+    "author": "Romie Banerjee",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2609.40290v1"
+    ]
+  },
+  {
+    "title": "Linguistic Loopholes in LLM Unlearning: From a 174-Language Benchmark to Coverage-Aware Unlearning",
+    "link": "http://arxiv.org/abs/2609.40286v1",
+    "published": "2026-09-30T17:48:13+00:00",
+    "summary": "Unlearning a fact in one language does not guarantee its removal in others as changing the query or even the requested answer language can reopen seemingly forgotten knowledge -- a cross-lingual loophole. The most straightforward solution to this challenge -- unlearning in all languages -- is neither scalable nor desirable as it amplifies damage to unrelated model capabilities. We introduce the task of language budgeted multilingual unlearning where the goal is to select a subset of languages th",
+    "author": "Tyler Skow, Shravan Chaudhari, Rama Chellappa, Abhay Yadav",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2609.40286v1"
+    ]
+  },
+  {
+    "title": "PivotOPD: Learning to Recover from Pivotal Mistakes in Multi-Turn Agents",
+    "link": "http://arxiv.org/abs/2609.40285v1",
+    "published": "2026-09-30T17:48:11+00:00",
+    "summary": "On-policy distillation (OPD) is a promising approach for training language agents, providing dense teacher supervision on student-generated trajectories. However, in multi-turn interaction, an incorrect action changes the states the student encounters later, so errors compound across turns. In preliminary experiments across three Qwen3 models (8B to 235B), we find that more than half of the failed rollouts contain a pivotal mistake, an action that moves the agent farther from completing the task",
+    "author": "Yinghui He, Yapei Chang, Khushi Bhardwaj, Daniele Molinari, Tugrul Konuk, Jan Kautz, Ali Hatamizadeh",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "https://research.nvidia.com/labs/lpr/pivotopd/",
+      "http://arxiv.org/abs/2609.40285v1"
+    ]
+  },
+  {
+    "title": "cua-speedrun: Standardized Benchmarking of the Speed of Computer-Use Agents",
+    "link": "http://arxiv.org/abs/2609.40284v1",
+    "published": "2026-09-30T17:48:06+00:00",
+    "summary": "Computer use agents (CUAs), which use graphical user interfaces (GUIs) to complete tasks on a computer, have recently surpassed human performance on many standard benchmarks, including difficult long-horizon tasks. Their capabilities are undoubtedly impressive, however, a key barrier to the widespread adoption and deployment of CUAs remains their speed and cost. Progress towards faster yet capable CUAs requires reliable evaluation of their speed, but many CUA benchmarks currently face a reproduc",
+    "author": "Pranjal Aggarwal, Lawrence Keunho Jang, Sean Welleck, Daniel Fried, Ruslan Salakhutdinov, Jing Yu Koh",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "https://cuaspeedrun.com",
+      "http://arxiv.org/abs/2609.40284v1"
+    ]
+  },
+  {
+    "title": "Belief-Aware Multi-Agent Path Finding under Map Uncertainty",
+    "link": "http://arxiv.org/abs/2609.40269v1",
+    "published": "2026-09-30T17:44:19+00:00",
+    "summary": "Multi-Agent Path Finding (MAPF) aims to find collision-free paths for multiple agents in a shared environment. Classical MAPF assumes that all static obstacles are known in advance, but real-world environments can change unexpectedly due to fallen objects, spills, or other local disturbances. When such changes are spatially correlated, an observation can inform traversability estimates beyond the observed location. Prior approaches address uncertainty in traversability through contingent plans o",
+    "author": "Viraj Parimi, Shao-Hung Chan, Han Zhang, Jingkai Chen, Brian Williams",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2609.40269v1"
+    ]
+  },
+  {
+    "title": "ComputerSD: Online Self-Distillation from Real-Time Feedback for Computer-Use Agents",
+    "link": "http://arxiv.org/abs/2609.40253v1",
+    "published": "2026-09-30T17:40:09+00:00",
+    "summary": "Online training enables computer-use agents (CUAs) to improve through interaction with executable environments. However, existing methods primarily rely on sparse outcome rewards, which provide no supervision for intermediate actions. On-policy self-distillation (OPSD) offers token-level learning signals through privileged rescoring, but directly applying it to CUA online training presents two challenges: fixed guidance may become misaligned with the student's current state, and guidance-induced",
+    "author": "Yong Du, Tongbo Chen, Zhengxi Lu, Yizhou Liu, Bofan Chen, Tao Jiang, Wenhao Xu, Yongliang Shen",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2609.40253v1"
+    ]
+  },
+  {
     "title": "The Download: OpenAI’s chief research officer explains its hacking response",
     "link": "https://www.technologyreview.com/2026/09/30/1145350/the-download-openai-chief-research-officer-hacking-response/",
     "published": "2026-09-30T12:10:00+00:00",
@@ -45,188 +230,6 @@
     "category": "official",
     "references": [
       "https://openai.com/index/helping-small-businesses-put-ai-to-work"
-    ]
-  },
-  {
-    "title": "Skill-Space Shooting for Autonomous Robot Policy Improvement",
-    "link": "http://arxiv.org/abs/2609.38178v1",
-    "published": "2026-09-29T17:59:55+00:00",
-    "summary": "Robots deployed in the physical world must be able to improve beyond their initial training as they encounter new situations and failures. For this improvement to scale across tasks, it must make effective use of experience without requiring human demonstration of each correction. Recent agentic systems offer a way to reduce this reliance on human effort by using foundation models to autonomously compose learned behaviors to complete tasks. Yet completing tasks this way does not itself teach a t",
-    "author": "Zihang Rui, Renhao Wang, Haoxu Huang, Yang Gao",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "https://skill-space-shooting.github.io",
-      "http://arxiv.org/abs/2609.38178v1"
-    ]
-  },
-  {
-    "title": "STEPQuant: When and Where Errors Matter in Delta-Rule Recurrent State Quantization",
-    "link": "http://arxiv.org/abs/2609.38169v1",
-    "published": "2026-09-29T17:59:40+00:00",
-    "summary": "Linear attention replaces growing KV caches with fixed-size recurrent states, yet these persistent states can become a substantial memory bottleneck under concurrent serving. Directly quantizing recurrent states to low precision often leads to severe accuracy degradation, as quantization errors propagate through successive state updates. We discover that the impact of these errors depends on two complementary dimensions: temporally, errors in long-lived memory can persist across many decoding st",
-    "author": "Bingchen Yao, Haobo Xu, Haokun Lin, Yichen Wu, Ziyu Guo, Renrui Zhang, Zhichao Lu, Zhenan Sun, Ying Wei",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "https://github.com/Dreamer-Toby/STEPQuant",
-      "http://arxiv.org/abs/2609.38169v1"
-    ]
-  },
-  {
-    "title": "LeapQuant: Efficient Linear Attention with Accurate Recurrent State Quantization",
-    "link": "http://arxiv.org/abs/2609.38166v1",
-    "published": "2026-09-29T17:59:34+00:00",
-    "summary": "Recent LLMs increasingly adopt hybrid designs that replace standard attention with linear attention, such as Gated DeltaNet (GDN) and Kimi Delta Attention (KDA). Although they compress the context into a fixed-size recurrent state and substantially reduce the cost of long-context processing, repeatedly reading and updating that state remains a major inference bottleneck. Quantization offers a natural way to reduce this cost, but can significantly degrade model quality, due to the accumulation of",
-    "author": "Yi Pan, Haocheng Xi, Kan Zhu, Xingyang Li, Yibo Wu, Mayank Mishra, Hongtao Zhang, William X. Zheng, Baris Kasikci, Song Han, Kurt Keutzer, Rishabh Iyer, Ion Stoica",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2609.38166v1"
-    ]
-  },
-  {
-    "title": "Beyond the Timeline: Augmenting Long-Video Memory with Grounded Entity Biographies",
-    "link": "http://arxiv.org/abs/2609.38155v1",
-    "published": "2026-09-29T17:59:01+00:00",
-    "summary": "Answering questions about long videos often requires connecting events involving the same objects across hours or days. Chronological descriptions and text-derived entities can leave physical identity unresolved: different objects may share a description, while observations of the same object remain disconnected across events. Retrieving relevant events therefore does not necessarily recover the \"biography\" of the particular entity a question concerns. To address this, we introduce Grounded Enti",
-    "author": "Hui Ren, Lei Fan, Henry Pao, Han Guo, Zeeshan Zia, Ying Chen, Alexander Schwing, Gang Hua",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2609.38155v1"
-    ]
-  },
-  {
-    "title": "Thinking Before Thinking: Scaling Agentic Inference Through Meta-Reasoning",
-    "link": "http://arxiv.org/abs/2609.38147v1",
-    "published": "2026-09-29T17:57:25+00:00",
-    "summary": "As agents take on longer and more complex problems, controlling the execution becomes a task in its own right. Each step in the run brings new control choices, like which partial work to build on, whether to start fresh, or when to stop. We introduce agentic meta-reasoning, an inference-time harness that makes these choices an explicit and structured reasoning process. Workers carry out the task-level computation, while a controller consolidates what the run has established, explores next option",
-    "author": "Paras Dahal, Anton Bakhtin, Taco Cohen, Zhengxing Chen, Carole-Jean Wu, Rob Fergus, Scott Yih, Gabriel Synnaeve, Ruslan Salakhutdinov, Sanjeev Arora, Jason Weston, Anirudh Goyal",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2609.38147v1"
-    ]
-  },
-  {
-    "title": "Learning Meta-Skills for Agent Harness Design in Test-Time AI4AI",
-    "link": "http://arxiv.org/abs/2609.38143v1",
-    "published": "2026-09-29T17:55:56+00:00",
-    "summary": "Agent performance depends on both reasoning ability and the environment in which it acts. We study test-time AI-for-AI, asking how a Builder can learn to construct better execution environments for a Target while both models' weights remain fixed. To make the Builder's experience reusable, we introduce Meta-Skill: principles specifying when support is needed and what resources to provide. The Builder learns these principles from Target's execution feedback on the development set, then uses the f",
-    "author": "Cheng Qian, Kunlun Zhu, Beibin Li, Zhenhailong Wang, Heng Ji",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2609.38143v1"
-    ]
-  },
-  {
-    "title": "AdviSD: Learning to Advise Frontier LLMs via Targeted Multi-Turn Self-Distillation",
-    "link": "http://arxiv.org/abs/2609.38142v1",
-    "published": "2026-09-29T17:55:40+00:00",
-    "summary": "A small trainable advisor can steer a frozen language-model executor using natural-language advice. In addition to learning from task rewards, the advisor can use feedback from completed interactions to improve its advice. However, a plausible correction need not change execution, yet learning from such corrections can still affect the advisor's future decisions in other contexts. In a shared-parameter model, we prove that such corrections can limit learning if their targets favor useful advice ",
-    "author": "Rishabh Agrawal, Hejie Cui, Shasha Li, Shanchan Wu, Sercan Ö. Arık",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2609.38142v1"
-    ]
-  },
-  {
-    "title": "Breaking the Uniformity Trap: Scaling Video Diffusion Model via SplitMoE",
-    "link": "http://arxiv.org/abs/2609.38140v1",
-    "published": "2026-09-29T17:55:19+00:00",
-    "summary": "Mixture-of-Experts (MoE), popularized by large language models, is a promising paradigm for scaling visual generative models. However, conventional token-wise MoE routes tokens independently within a homogeneous expert pool and regularizes expert usage toward uniformity, making it poorly matched to video data that is spatiotemporally redundant and semantically long-tailed. We show that existing visual MoEs fall into a uniformity trap: semantically under-organized routing, compounded by uniform e",
-    "author": "Yu Xu, Yuxin Zhang, Xiao Yang, Haotian Yang, Yizhi Wang, Xinwei Huang, Minxuan Lin, Angtian Wang, Chongyang Ma, Fan Tang",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2609.38140v1"
-    ]
-  },
-  {
-    "title": "Stochastic World Models for Verifying Vision-Based Neural Feedback Systems",
-    "link": "http://arxiv.org/abs/2609.38120v1",
-    "published": "2026-09-29T17:50:40+00:00",
-    "summary": "Verifying a vision-based neural feedback system requires a model of the observations its controller acts upon. Such a model must capture the variation the sensor produces, while remaining tractable for closed-loop analysis. Generative adversarial networks (GANs) have served as perception surrogates, but they are large, reproduce complex scenes poorly, and are hard to verify. We explore stochastic world models as a richer class of perception surrogates. We train a world model with physically grou",
-    "author": "I. Samuel Akinwande, Mykel J. Kochenderfer, Clark Barrett",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2609.38120v1"
-    ]
-  },
-  {
-    "title": "How Local Mixing Encodes Relative Position in Global NoPE Attention",
-    "link": "http://arxiv.org/abs/2609.38109v1",
-    "published": "2026-09-29T17:47:41+00:00",
-    "summary": "The attention operation is naively position invariant. However, positional information is fundamental to natural language, and therefore a variety of explicit position encodings have been developed in transformer-based models, such as rotary position encoding (RoPE). Although explicit position encodings have long been assumed to be required, recent methods that interleave local mixing layers, such as sliding window attention (SWA) and gated linear attention, while not encoding position (NoPE) in",
-    "author": "Cutter Dawes, Nick Alonso, Tom Figliolia, Beren Millidge",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2609.38109v1"
-    ]
-  },
-  {
-    "title": "Do LLM Agents Execute the Plans They Declare? From Planning-Mode Declaration to Pattern-Specific Execution",
-    "link": "http://arxiv.org/abs/2609.38108v1",
-    "published": "2026-09-29T17:47:18+00:00",
-    "summary": "Large language models (LLMs) enable agents to solve long-horizon tasks by generating a plan and then executing it in an environment. However, successful planning requires two distinct capabilities: selecting an appropriate plan for the task and executing it faithfully. Existing planner--executor systems can fail at either stage, while final task success alone cannot distinguish selection from execution failures. We therefore study the Plan Declaration--Execution Gap and introduce Planning-as-Rou",
-    "author": "Subba Reddy Oota, Francisco Herrera, Jordi Cabot Sagrera, Marcos López de Prado, Shadab Khan",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2609.38108v1"
-    ]
-  },
-  {
-    "title": "Correct Answers, Invalid Traces: What Verifiable Grade-School Math Reveals About Chain-of-Thought Traces",
-    "link": "http://arxiv.org/abs/2609.38107v1",
-    "published": "2026-09-29T17:46:55+00:00",
-    "summary": "Chain-of-thought traces are widely read as records of how models reach their answers, informing debugging, agent auditing, and claims about reasoning. Testing this interpretation is difficult because natural-language thinking traces are rarely mechanically verifiable. We revisit it in iGSM, a synthetic grade-school mathematics benchmark designed to study thinking traces and used to support claims of learned reasoning and planning. Crucially, iGSM exposes the exact quantities and dependencies tha",
-    "author": "Ratish Puduppully, Pranabendu Misra, Paarth Iyer, Durgesh Kalwar, Vardhan Palod, Subbarao Kambhampati",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2609.38107v1"
-    ]
-  },
-  {
-    "title": "NeuronEye: Query-Guided Visual Concept Activation for Vision-Language Reasoning",
-    "link": "http://arxiv.org/abs/2609.38098v1",
-    "published": "2026-09-29T17:44:09+00:00",
-    "summary": "Current vision-language models (VLMs) encode visual information in dense hidden states where object identity, spatial layout, and local attributes are implicitly entangled rather than explicitly disentangled, limiting their ability to isolate and modulate the specific visual evidence required by a given language query. Inspired by sparse population coding and top-down modulation in biological vision, we introduce NeuronEye, a plug-in framework that constructs a sparse, concept-level neuron vocab",
-    "author": "Ruiyu Yan, Bowen Chen, Shaowen Wan, Lin Zhao",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2609.38098v1"
-    ]
-  },
-  {
-    "title": "Character Training for Risk-Averse Agents",
-    "link": "http://arxiv.org/abs/2609.38093v1",
-    "published": "2026-09-29T17:42:54+00:00",
-    "summary": "Risk aversion in resources could prevent misaligned AI agents from causing catastrophic harm. Misaligned but risk-averse agents would tend to favor safer strategies like making deals with humans over riskier strategies like rebelling. We train agents to be risk averse through character training, finding that persona traits provide a robust mechanism for instilling risk preferences. To do this, we construct a model constitution describing constant absolute risk aversion (CARA) over an agent's res",
-    "author": "Arav Dhoot, Punya Syon Pandey, Jamie Johnson, Daniel Tan, Elliott Thornley, David Demitri Africa",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2609.38093v1"
-    ]
-  },
-  {
-    "title": "Neural topology optimization of ship structures under propulsion machinery vibrations",
-    "link": "http://arxiv.org/abs/2609.38089v1",
-    "published": "2026-09-29T17:41:08+00:00",
-    "summary": "Ship structural vibrations contribute to noise, fatigue, and equipment damage, while dynamic-compliance topology optimization can produce pathological designs near resonance. This study extends neural-reparameterized topology optimization using a convolutional Kolmogorov-Arnold network (KATO) to forced-vibration design with active input power (AIP) as the objective. Applications include a 100 Hz engine-supporting deck panel and an 18 Hz thruster foundation frame. Helmholtz PDE filtering and Heav",
-    "author": "Shengyu Yan, Muhammad Muztahidul Hakim Zareer, Jasmin Jelovica",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2609.38089v1"
     ]
   },
   {
