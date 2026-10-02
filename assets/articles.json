@@ -1,5 +1,189 @@
 [
   {
+    "title": "One Basis to Animate Them All: Gaussian Blendshape Distillation for Real-Time Avatars",
+    "link": "http://arxiv.org/abs/2610.02207v1",
+    "published": "2026-10-01T17:59:58+00:00",
+    "summary": "3D Gaussian avatars support fast rendering, however, their real-time animation is often challenged by the costly neural inference. We address this bottleneck and show that the animation of pretrained avatar models can be closely approximated by a linear combination of identity-independent blendshapes. Building on this finding, we introduce GALA (Gaussian Animation via Linear Approximation), a distillation method that replaces per-frame heavy neural decoding with a shallow coefficient predictor a",
+    "author": "Ramazan Fazylov, Stamatis Lefkimmiatis, Ivan Laptev",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "https://ramazan793.github.io/gala/",
+      "http://arxiv.org/abs/2610.02207v1"
+    ]
+  },
+  {
+    "title": "KaliBench: A Fine-Grained Benchmark for Cybersecurity Tool Use on Kali Linux with Runtime-Free Verifiable Rewards",
+    "link": "http://arxiv.org/abs/2610.02206v1",
+    "published": "2026-10-01T17:59:55+00:00",
+    "summary": "LLMs are increasingly applied to cybersecurity workflows, where they are expected to translate analysts' intent into tool invocations. However, existing evaluations focus on knowledge-based assessments or end-to-end agentic tasks, and do not directly measure LLMs' ability to generate executable commands for real-world cybersecurity tools. This gap is critical because cybersecurity operations rely on strict command-line interfaces (CLIs), where minor syntax errors, incorrect flag--value bindings,",
+    "author": "Pengfei Li, Naufal Suryanto, Sicheng Zhang, Muzammal Naseer",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2610.02206v1"
+    ]
+  },
+  {
+    "title": "Reconstruct, Practice, Go Real: Guided Self-Improvement for Embodied Agents",
+    "link": "http://arxiv.org/abs/2610.02204v1",
+    "published": "2026-10-01T17:59:50+00:00",
+    "summary": "Building reliable robot capabilities across diverse tasks requires substantial human effort to develop and maintain skills, design rewards, and integrate perception with control. We present Reconstruct, Practice, Go Real (RPG), a framework for autonomous improvement of robot execution systems without updating model weights. RPG identifies manipulation capabilities in an offline dataset and constructs related practice tasks in simulation. During practice, RPG uses execution feedback, privileged s",
+    "author": "Yen-Jen Wang, Haozhe Jiang, Shuying Deng, Haoru Xue, Weirui Ye, Rocky Duan, Nika Haghtalab, S. Shankar Sastry, Pieter Abbeel, Haozhi Qi",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "https://rpg-robot.github.io/",
+      "http://arxiv.org/abs/2610.02204v1"
+    ]
+  },
+  {
+    "title": "ScholarCatalyst: A Benchmark for Retrieving Papers That Inspire New Research",
+    "link": "http://arxiv.org/abs/2610.02202v1",
+    "published": "2026-10-01T17:59:47+00:00",
+    "summary": "What makes great scientists great? Even as AI systems start to make progress on open problems, scientists remain far ahead of them at sensing which prior idea, buried in an ever-growing archive of research, a new problem needs. To study this skill, we draw on researchers who know firsthand which earlier work advanced their completed projects, with papers serving as pointers to the ideas within. Using our automated pipeline that makes author annotation scalable, we build ScholarCatalyst by having",
+    "author": "Sohyeon Kim, Yoonho Lee, Bo Liu, Dayoon Ko, Rulin Shao, Seungone Kim, Graham Neubig, Pang Wei Koh, Aakanksha Chowdhery, Akari Asai, Omar Khattab, Yejin Choi, Gunhee Kim, Chelsea Finn",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2610.02202v1"
+    ]
+  },
+  {
+    "title": "SILSA: Sliding-Window Slice Latents for Topology-Preserving High-Resolution 3D Generation",
+    "link": "http://arxiv.org/abs/2610.02201v1",
+    "published": "2026-10-01T17:59:46+00:00",
+    "summary": "High-resolution 3D generation increasingly relies on voxel latents and multi-stage pipelines that first predict active structure and then synthesize local geometry. While effective, this design fragments continuous surfaces into many local tokens, inflates generation cost, and often weakens topological consistency for thin or highly connected shapes. We introduce SILSA, a topology-aware 3D generation framework that represents shapes with compact sliding-window slice latents. Instead of generatin",
+    "author": "Tianjiao Yu, Xinzhuo Li, Yifan Shen, Ying Shen, Kiet A. Nguyen, Adheesh Sunil Juvekar, Ismini Lourentzou",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2610.02201v1"
+    ]
+  },
+  {
+    "title": "VISTA: A Visual Harness for Reasoning in an Interactive World",
+    "link": "http://arxiv.org/abs/2610.02200v1",
+    "published": "2026-10-01T17:59:45+00:00",
+    "summary": "We show that multimodal models possess strong reasoning abilities and that an appropriate harness can unlock their potential to solve tasks across diverse interactive environments. We introduce VISTA, a visual harness that gives a general-purpose multimodal model long-horizon vision. VISTA allows the model to directly perceive the environment through visual observations and maintains a lossless visual memory that preserves past observations in their original form. The model can actively retrieve",
+    "author": "Qiushi Han, Keya Hu, Linlu Qiu, Cathy Wu, Kaiming He",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2610.02200v1"
+    ]
+  },
+  {
+    "title": "FERPO: Forward Entropy-Regularized Policy Optimization",
+    "link": "http://arxiv.org/abs/2610.02198v1",
+    "published": "2026-10-01T17:59:41+00:00",
+    "summary": "Several state-of-the-art methods for online reinforcement learning in continuous control improve policies using action gradients of a learned critic. However, critics are typically trained to predict returns, and accurate value predictions do not necessarily yield accurate action derivatives, potentially leading to unreliable policy updates. We propose Forward Entropy-Regularized Policy Optimization (FERPO), an on-policy maximum entropy reinforcement learning algorithm that performs policy impro",
+    "author": "Sebastian Sanokowski, Alireza Sarmadi, Majid Khadiv",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2610.02198v1"
+    ]
+  },
+  {
+    "title": "Hierarchical Continuous Diffusion Language Models",
+    "link": "http://arxiv.org/abs/2610.02193v1",
+    "published": "2026-10-01T17:59:39+00:00",
+    "summary": "Discrete diffusion language models offer a compelling alternative to autoregressive generation for tasks demanding bidirectional reasoning and global constraint satisfaction. Yet they share a structural bottleneck: when decoding in parallel, each token is sampled independently from its marginal, severing the statistical dependencies among the tokens decoded together. Continuous diffusion language models avoid this by denoising a shared continuous state, but their denoiser sees only that state, s",
+    "author": "Hui Ren, Zihan Li, Chang Liu, Huidong Liu, Alexander Schwing",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "https://hc-dlm.github.io/",
+      "http://arxiv.org/abs/2610.02193v1"
+    ]
+  },
+  {
+    "title": "DMAD: Distribution Matching as Adversarial Distillation for Fast Visual Generation",
+    "link": "http://arxiv.org/abs/2610.02188v1",
+    "published": "2026-10-01T17:59:01+00:00",
+    "summary": "Distribution Matching Distillation (DMD) trains a few-step student from the difference between separately estimated target and student scores, so it must keep an auxiliary diffusion model fitted to the student's evolving distribution at extra memory and computation cost. We introduce DMAD, Distribution Matching as Adversarial Distillation, which recasts distribution matching as classification and learns the required log-density ratios directly. Two discriminator heads on a shared backbone distin",
+    "author": "Zhengming Yu, Junkun Yuan, Haotian Yang, Gordon Guocheng Qian, Yizhi Wang, Angtian Wang, Yiding Yang, Bo Liu, Xin Li, Wenping Wang, Chongyang Ma",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "https://yzmblog.github.io/projects/DMAD",
+      "http://arxiv.org/abs/2610.02188v1"
+    ]
+  },
+  {
+    "title": "Higher-Order Molecular Grammars for Generative and Foundation Models in Chemistry",
+    "link": "http://arxiv.org/abs/2610.02186v1",
+    "published": "2026-10-01T17:58:45+00:00",
+    "summary": "Molecular learning models are strongly shaped by their underlying representations. Yet standard sequential and graph formalisms struggle to explicitly encode higher-order topology, such as ring systems and recurring motifs. Existing higher-order representations can capture these structures directly, but they are often computationally demanding and difficult to decode into valid molecules. Here, we introduce Higher-order Grammar Representation (HGR), a principled, topology-aware framework that li",
+    "author": "Yiming Huang, Yujie Zeng, Vijay Prakash Dwivedi, Simone Foti, Jianmin Wang, Jure Leskovec, Tolga Birdal",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2610.02186v1"
+    ]
+  },
+  {
+    "title": "SoftServe: A Scalable Quasi-Newton Method for Deep Learning",
+    "link": "http://arxiv.org/abs/2610.02182v1",
+    "published": "2026-10-01T17:58:24+00:00",
+    "summary": "Quasi-Newton (QN) methods have long been among the most effective methods for large-scale unconstrained convex optimization. Two obstacles have limited their use in deep learning: non-convexity and enormous parameter sizes. We introduce SoftServe, a family of QN methods designed to overcome these obstacles without line searches or ad hoc curvature corrections. SoftServe derives positivedefinite curvature estimates from the variational objective of Berglund et al. (2025), even in the presence of ",
+    "author": "Joohwan Ko, Tetiana Parshakova, Diana Cai, Robert M. Gower",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2610.02182v1"
+    ]
+  },
+  {
+    "title": "Generative Cinematographer: Composing Camera and Object Motion in 3D",
+    "link": "http://arxiv.org/abs/2610.02180v1",
+    "published": "2026-10-01T17:58:09+00:00",
+    "summary": "Current controllable video generation systems often rely on 2D motion trajectories or sparse drag signals for object motion. These controls are ambiguous because the same 2D trajectory can correspond to different 3D motions, especially when the camera and objects move simultaneously. We present Generative Cinematographer (GenCine), a system that lifts a single image into an editable 3D scene scaffold where artists jointly author camera and foreground motion. Artists specify a camera path and mov",
+    "author": "Jiahan Zhang, Chaohao Yang, Namitha Guruprasad, Vivekjyoti Banerjee, Trong-Tung Nguyen, Alan Yuille, Anand Bhattad",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2610.02180v1"
+    ]
+  },
+  {
+    "title": "Watch, Infer, Coordinate: Inferring Robot Partner Constraints for Zero-Shot Coordination",
+    "link": "http://arxiv.org/abs/2610.02170v1",
+    "published": "2026-10-01T17:56:04+00:00",
+    "summary": "Robots operating in the physical world will increasingly need to coordinate with other robots, particularly in manipulation tasks where an object may be too large or heavy for a single robot to carry alone. Physical limitations caused by hardware degradation or actuator faults can restrict the actions a robot can reliably execute, yet these limitations may be unknown to its partner. We study whether a helper can infer a robot partner's physical constraints from observing it coordinate with anoth",
+    "author": "Suyu Ye, Zheyuan Zhang, Vaishnav Tadiparthi, Hossein Nourkhiz Mahjoub, Ehsan Moradi Pari, Tianmin Shu, Homanga Bharadhwaj, Nakul Agarwal",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2610.02170v1"
+    ]
+  },
+  {
+    "title": "DuoMind: Enabling Distributed Multi-Robot Coordination with Semantic Communication",
+    "link": "http://arxiv.org/abs/2610.02161v1",
+    "published": "2026-10-01T17:53:09+00:00",
+    "summary": "Vision-language models (VLMs) and vision-language-action models (VLAs) have recently driven rapid progress in general-purpose robots, yet most progress has focused on single-robot settings. Extending these capabilities to multi-robot systems remains challenging because robots must coordinate long-horizon behaviors while maintaining reliable, fine-grained execution. We introduce DuoMind, a distributed hierarchical framework for multi-robot coordination through semantic communication. Each robot u",
+    "author": "Hanchu Zhou, Dechen Gao, Hang Wang, Brendan Lynch, Boqi Zhao, Qiyao Ma, Raman Goyal, Junshan Zhang",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2610.02161v1"
+    ]
+  },
+  {
+    "title": "From Knowledge Access to Source Learning: Developing Source-Specific Competence",
+    "link": "http://arxiv.org/abs/2610.02150v1",
+    "published": "2026-10-01T17:50:16+00:00",
+    "summary": "Large language model (LLM) agents increasingly rely on persistent external sources to solve sequences of knowledge-intensive tasks. Existing methods improve how source content is accessed and organized, while agent-memory systems preserve reusable knowledge from prior interactions, but repeated use of the same source is still largely treated as repeated access rather than an opportunity to progressively improve understanding of that source. We study source learning: developing reusable source-sp",
+    "author": "Lucheng Fu, Kejing Xia, Yiyang Wang, Yiqiao Jin, Jinjin He, Xiyuan Yang, Haoxin Liu, Ye Yu, Haibo Jin, Yijia Xiao, Wenke Lee, B. Aditya Prakash, Haohan Wang",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2610.02150v1"
+    ]
+  },
+  {
     "title": "The eternal complement",
     "link": "https://openai.com/index/the-eternal-complement",
     "published": "2026-10-01T17:00:00+00:00",
@@ -69,191 +253,6 @@
     "category": "official",
     "references": [
       "https://openai.com/index/the-den-family-social"
-    ]
-  },
-  {
-    "title": "Semifactual Credit-Augmented Policy Optimization",
-    "link": "http://arxiv.org/abs/2609.40360v1",
-    "published": "2026-09-30T17:59:56+00:00",
-    "summary": "Reinforcement learning with verifiable rewards (RLVR) has improved the reasoning capabilities of large language models (LLMs), yet their predictions remain sensitive to task-irrelevant prompt features. We investigate this sensitivity through semifactual prompt interventions that preserve the underlying problem and its answer. Our analysis reveals substantial variation in token-level sensitivity and shows that suppressing high-drift token candidates during decoding improves reasoning accuracy wit",
-    "author": "Junshu Pan, Zhizhang Fu, Shulin Huang, Yiran Ding, Zifan Cheng, Wenqi Shao, Qiaosheng Zhang, Yue Zhang",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "https://github.com/DtYXs/SCAPO",
-      "http://arxiv.org/abs/2609.40360v1"
-    ]
-  },
-  {
-    "title": "ViTeX-Bench: Benchmarking High-Fidelity Video Scene Text Editing",
-    "link": "http://arxiv.org/abs/2609.40356v1",
-    "published": "2026-09-30T17:59:33+00:00",
-    "summary": "Recent video generation is increasingly realistic and controllable, yet video editing remains less developed, particularly for precise local edits that must preserve the original scene dynamics. Video scene text editing replaces text on scene surfaces, such as storefront signs, whiteboards, and product labels, while preserving the surrounding content, motion, and camera dynamics. Although scene text editing is well studied for images, video scene text editing that achieves high visual quality, t",
-    "author": "Xinghao Chen, Xiangbo Gao, Jiongze Yu, Yuheng Wu, Zhengzhong Tu",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2609.40356v1"
-    ]
-  },
-  {
-    "title": "Turbo Harness: Instance-Adaptive Harness Optimization",
-    "link": "http://arxiv.org/abs/2609.40330v1",
-    "published": "2026-09-30T17:56:09+00:00",
-    "summary": "Automating the search for effective harnesses is an important step toward enabling agents to recursively self-improve. Existing harness optimizations typically produce a single global harness that is applied uniformly across task instances. However, a harness that works well on average may not be optimal for every instance. We introduce Turbo Harness, a framework that can adapt a globally optimized harness to each instance by reusing information generated during the original optimization process",
-    "author": "Tunyu Zhang, Hao Wang, Kai Xu, Dimitris N. Metaxas",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2609.40330v1"
-    ]
-  },
-  {
-    "title": "WorldAuditBench: Interactive 3D World Auditing with Multimodal Agents",
-    "link": "http://arxiv.org/abs/2609.40325v1",
-    "published": "2026-09-30T17:55:29+00:00",
-    "summary": "As interactive 3D worlds are increasingly used to study intelligent behavior, it becomes important to develop efficient pipelines for identifying anomalies in these simulated environments, such as floating objects, traversable walls, or objects inconsistent with the surrounding scene. Multimodal AI systems, including vision-language models (VLMs) and vision-language-action models (VLAs), have shown potential for automating this task. However, 3D world auditing is complex, requiring the close cou",
-    "author": "Ziyan Jiang, Jingbo Yang, Jiabao Ji, Yujian Liu, Qiucheng Wu, Tommi Jaakkola, Yang Zhang, Shiyu Chang",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2609.40325v1"
-    ]
-  },
-  {
-    "title": "Cogentic: Multi-Agent Orchestration for Automated Proof Discovery",
-    "link": "http://arxiv.org/abs/2609.40324v1",
-    "published": "2026-09-30T17:55:22+00:00",
-    "summary": "We present Cogentic, a multi-agent harness for automated proof discovery on open research problems. While frontier language models can generate strong mathematical ideas in a single shot, single-shot generation is often insufficient for open problems that require exploring multiple competing conjectures, overcoming subtle technical obstructions, and retaining intermediate progress over a long horizon. Cogentic addresses these challenges through an iterative prove--verify loop in which an orchest",
-    "author": "Yang Cai, Vineet Gupta, Yanchen Jiang, Christopher Liaw, Aranyak Mehta, Grigoris Velegkas, Di Wang",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "https://sites.google.com/view/cogentic",
-      "http://arxiv.org/abs/2609.40324v1"
-    ]
-  },
-  {
-    "title": "MatLoom: Layered Text-to-Material Generation in a Compact Program Space",
-    "link": "http://arxiv.org/abs/2609.40322v1",
-    "published": "2026-09-30T17:55:06+00:00",
-    "summary": "Material generation should produce not only an appearance, but also the rules that construct it. We introduce MatLoom, a compact, layer-oriented language for text-to-material generation with pretrained language models. Each program composes alpha-masked layers whose shared spatial expressions define coverage and physically based rendering (PBR) channels, making dependencies between patterns, color, and relief explicit. A standalone interpreter evaluates the program into material maps, while the ",
-    "author": "Anson Y. Lam, Shuqing Li, Michael R. Lyu",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2609.40322v1"
-    ]
-  },
-  {
-    "title": "Scaling Laws for Looped Mixture of Experts",
-    "link": "http://arxiv.org/abs/2609.40316v1",
-    "published": "2026-09-30T17:53:47+00:00",
-    "summary": "Looped transformers and Mixture-of-Experts (MoE) offer complementary routes to efficient scaling: recurrence increases computational depth at fixed parameters, while MoE sparsity expands total capacity at fixed active compute. Yet existing scaling laws model recurrence or sparsity in isolation. In this work, we introduce Loop Scaling Laws, the first scaling law to jointly model recurrence and sparsity alongside model size and data. At its core is a bounded, sparsity-conditional recurrence mappin",
-    "author": "Yanbei Chen, Anirudh Goyal, Raghuraman Krishnamoorthi",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2609.40316v1"
-    ]
-  },
-  {
-    "title": "DynaHarness: A Dynamic Physical Harness for Self-Evolving Robot Agents",
-    "link": "http://arxiv.org/abs/2609.40306v1",
-    "published": "2026-09-30T17:52:09+00:00",
-    "summary": "Pretrained robot policies provide useful action priors, but long-horizon manipulation still requires coordination between semantic reasoning and physical execution. Semantic reasoning operates at a coarser timescale than physical interaction, while episode-level failures provide limited guidance on which system component should be revised. We propose DynaHarness, a dynamic physical harness that couples semantic reasoning with physical governance through a shared execution contract and turns fail",
-    "author": "Haoyuan Deng, Jiebin Liu, Tengxiao Zhang, Langning Yan, Hongye Cao, Ziwei Wang",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "https://denghaoyuan123.github.io/Dynaharness_page/",
-      "http://arxiv.org/abs/2609.40306v1"
-    ]
-  },
-  {
-    "title": "How Much of a Harness Does a Strong Agent Need for Autonomous ML Engineering?",
-    "link": "http://arxiv.org/abs/2609.40303v1",
-    "published": "2026-09-30T17:51:30+00:00",
-    "summary": "Recent autonomous machine learning engineering (MLE) agents have made significant progress on public leaderboards. Often motivated by progress stagnation over long-horizon cycles and limited Large Language Model (LLM) primitives, modern MLE agents are deployed on top of increasingly elaborate machinery: multi-agent orchestrators, dedicated retrieval subagents, and more. While such harnesses expand, the use of more primitive but improved coding agents - where LLMs have direct access to the execut",
-    "author": "Kirill Brilliantov, Alejandro Hernández-Cano, Emmanuel Abbé",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2609.40303v1"
-    ]
-  },
-  {
-    "title": "CAS II: Symmetric Partitions as Kolmogorov Models",
-    "link": "http://arxiv.org/abs/2609.40290v1",
-    "published": "2026-09-30T17:49:15+00:00",
-    "summary": "In algorithmic statistics a string x is explained by a finite set containing it, and Kolmogorov's structure function records the smallest such model at each level of complexity. Vereshchagin's strong models, those computable from the data by a total algorithm, are essentially the cells of simple partitions. We read a partition of binary strings as a hypothesis, with the cell containing x as its model, and develop algorithmic statistics over symmetric partitions: the orbit partitions of groups ac",
-    "author": "Romie Banerjee",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2609.40290v1"
-    ]
-  },
-  {
-    "title": "Linguistic Loopholes in LLM Unlearning: From a 174-Language Benchmark to Coverage-Aware Unlearning",
-    "link": "http://arxiv.org/abs/2609.40286v1",
-    "published": "2026-09-30T17:48:13+00:00",
-    "summary": "Unlearning a fact in one language does not guarantee its removal in others as changing the query or even the requested answer language can reopen seemingly forgotten knowledge -- a cross-lingual loophole. The most straightforward solution to this challenge -- unlearning in all languages -- is neither scalable nor desirable as it amplifies damage to unrelated model capabilities. We introduce the task of language budgeted multilingual unlearning where the goal is to select a subset of languages th",
-    "author": "Tyler Skow, Shravan Chaudhari, Rama Chellappa, Abhay Yadav",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2609.40286v1"
-    ]
-  },
-  {
-    "title": "PivotOPD: Learning to Recover from Pivotal Mistakes in Multi-Turn Agents",
-    "link": "http://arxiv.org/abs/2609.40285v1",
-    "published": "2026-09-30T17:48:11+00:00",
-    "summary": "On-policy distillation (OPD) is a promising approach for training language agents, providing dense teacher supervision on student-generated trajectories. However, in multi-turn interaction, an incorrect action changes the states the student encounters later, so errors compound across turns. In preliminary experiments across three Qwen3 models (8B to 235B), we find that more than half of the failed rollouts contain a pivotal mistake, an action that moves the agent farther from completing the task",
-    "author": "Yinghui He, Yapei Chang, Khushi Bhardwaj, Daniele Molinari, Tugrul Konuk, Jan Kautz, Ali Hatamizadeh",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "https://research.nvidia.com/labs/lpr/pivotopd/",
-      "http://arxiv.org/abs/2609.40285v1"
-    ]
-  },
-  {
-    "title": "cua-speedrun: Standardized Benchmarking of the Speed of Computer-Use Agents",
-    "link": "http://arxiv.org/abs/2609.40284v1",
-    "published": "2026-09-30T17:48:06+00:00",
-    "summary": "Computer use agents (CUAs), which use graphical user interfaces (GUIs) to complete tasks on a computer, have recently surpassed human performance on many standard benchmarks, including difficult long-horizon tasks. Their capabilities are undoubtedly impressive, however, a key barrier to the widespread adoption and deployment of CUAs remains their speed and cost. Progress towards faster yet capable CUAs requires reliable evaluation of their speed, but many CUA benchmarks currently face a reproduc",
-    "author": "Pranjal Aggarwal, Lawrence Keunho Jang, Sean Welleck, Daniel Fried, Ruslan Salakhutdinov, Jing Yu Koh",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "https://cuaspeedrun.com",
-      "http://arxiv.org/abs/2609.40284v1"
-    ]
-  },
-  {
-    "title": "Belief-Aware Multi-Agent Path Finding under Map Uncertainty",
-    "link": "http://arxiv.org/abs/2609.40269v1",
-    "published": "2026-09-30T17:44:19+00:00",
-    "summary": "Multi-Agent Path Finding (MAPF) aims to find collision-free paths for multiple agents in a shared environment. Classical MAPF assumes that all static obstacles are known in advance, but real-world environments can change unexpectedly due to fallen objects, spills, or other local disturbances. When such changes are spatially correlated, an observation can inform traversability estimates beyond the observed location. Prior approaches address uncertainty in traversability through contingent plans o",
-    "author": "Viraj Parimi, Shao-Hung Chan, Han Zhang, Jingkai Chen, Brian Williams",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2609.40269v1"
-    ]
-  },
-  {
-    "title": "ComputerSD: Online Self-Distillation from Real-Time Feedback for Computer-Use Agents",
-    "link": "http://arxiv.org/abs/2609.40253v1",
-    "published": "2026-09-30T17:40:09+00:00",
-    "summary": "Online training enables computer-use agents (CUAs) to improve through interaction with executable environments. However, existing methods primarily rely on sparse outcome rewards, which provide no supervision for intermediate actions. On-policy self-distillation (OPSD) offers token-level learning signals through privileged rescoring, but directly applying it to CUA online training presents two challenges: fixed guidance may become misaligned with the student's current state, and guidance-induced",
-    "author": "Yong Du, Tongbo Chen, Zhengxi Lu, Yizhou Liu, Bofan Chen, Tao Jiang, Wenhao Xu, Yongliang Shen",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2609.40253v1"
     ]
   },
   {
