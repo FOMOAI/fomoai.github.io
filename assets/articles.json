@@ -1,5 +1,200 @@
 [
   {
+    "title": "EmTech Future 2026: When AI Meets Everything",
+    "link": "https://www.technologyreview.com/2026/10/05/1145413/emtech-future-2026-when-ai-meets-everything/",
+    "published": "2026-10-05T04:00:00+00:00",
+    "summary": "Yossi Matias, Vice President &#38; Head of Google Research, explores how AI is beginning to reshape biology, infrastructure, manufacturing, and science, and why its greatest impact may come when it intersects with other fields.&#160; Step inside the newsroom with our MIT Technology Review editors for sharp analysis and unpublished insights from the team that researches&#8230;",
+    "author": "MIT Technology Review",
+    "source": "MIT Tech Review",
+    "category": "media",
+    "references": [
+      "https://www.technologyreview.com/2026/10/05/1145413/emtech-future-2026-when-ai-meets-everything/"
+    ]
+  },
+  {
+    "title": "Less Decoder is More Encoder: Geometric Representation Learning from Novel View Synthesis",
+    "link": "http://arxiv.org/abs/2610.03717v1",
+    "published": "2026-10-02T17:59:14+00:00",
+    "summary": "This paper examines the role of Novel View Synthesis (NVS) in geometric representation learning. In principle, NVS should reason about 3D scene structure, thereby enabling transferable multi-view geometric representations. Yet, existing encoder-based NVS methods yield poor representations. This is not because of a lack of supervisory signal, but rather due to inconspicuous architectural choices: \\textit{spatially expressive decoders} that dilute representational capabilities of the scene encoder",
+    "author": "Keerthi Kaashyap, Dennis Anthony, Akshay Krishnan, Nhi Ngoc Nguyen, Jeremy Collins, James Hays, Shreyas Kousik, Animesh Garg",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "https://snap-nvs.github.io",
+      "http://arxiv.org/abs/2610.03717v1"
+    ]
+  },
+  {
+    "title": "4DCodeBench: Benchmarking Agents on Inverse Graphics of Dynamic Scenes",
+    "link": "http://arxiv.org/abs/2610.03715v1",
+    "published": "2026-10-02T17:58:49+00:00",
+    "summary": "We introduce 4DCodeBench, a benchmark for 4D inverse graphics through code generation, in which agents reconstruct dynamic scenes from video as executable graphics programs. To accomplish this, agents must translate visual observations into compact representations of scene structure and dynamics, by implementing abstractions such as physical simulations to reproduce complex behavior. To evaluate this capability, we curate a set of real-world videos and construct synthetic scenes spanning diverse",
+    "author": "Ruihong Shen, Žiga Kovačič, Peter Kulits, Xingrui Wang, Zizhang Li, Joshua B. Tenenbaum, Alan Yuille, Jieneng Chen, Jiajun Wu",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "https://github.com/4DCodeBench/4DCodeBench",
+      "http://arxiv.org/abs/2610.03715v1"
+    ]
+  },
+  {
+    "title": "What Should World Models Forget? Stratified Retention for Continual Adaptation",
+    "link": "http://arxiv.org/abs/2610.03713v1",
+    "published": "2026-10-02T17:58:14+00:00",
+    "summary": "Continual learning treats degradation on previously seen data as evidence of failure, a convention inherited from settings with a stationary prediction target, where a correct label remains correct indefinitely. World models do not satisfy this condition. Their prediction target is the environment, which changes, so knowledge that was accurate when acquired may later become false, and discarding it is required behavior rather than a defect. Non-stationary ground truth is well studied in the conc",
+    "author": "Nishit Anand, Ramani Duraiswami, Dinesh Manocha",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2610.03713v1"
+    ]
+  },
+  {
+    "title": "EyeRobot 2.0: Active Gaze for Precise Manipulation without Wrist Cameras",
+    "link": "http://arxiv.org/abs/2610.03710v1",
+    "published": "2026-10-02T17:57:51+00:00",
+    "summary": "Inspired by human vision, we introduce a framework using active gaze to enable fine-grained bimanual manipulation with only a single stereo camera. EyeRobot 2.0 physically attends to a 3D fixation point in the scene by swiveling two eye viewpoints to center their gaze on it. The resulting images are processed foveally by allocating more visual tokens to the image centers, focusing computation on task-relevant features. Such Active Visual Fixation (AVF) requires carefully coordinated gaze during ",
+    "author": "Kush Hari, Justin Kerr, Nidhya Shivakumar, Samarth Mahapatra, Carmelo Sferrazza, Jiahui Lei, Jitendra Malik, C. Karen Liu, Ken Goldberg, Angjoo Kanazawa",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2610.03710v1"
+    ]
+  },
+  {
+    "title": "Transcriptome-informed multi-modal AI for predicting neoadjuvant therapy response from breast cancer biopsies",
+    "link": "http://arxiv.org/abs/2610.03693v1",
+    "published": "2026-10-02T17:52:57+00:00",
+    "summary": "Scarcity of labeled data limits development of deep learning biomarkers in oncology. We develop a two-stage AI model predicting pathological complete response (pCR) to neoadjuvant therapy in breast cancer. The first stage learns the transcriptome from histopathology using 8,742 patients across 32 cancer types, corroborated by pathologist review and spatial agreement with measured expression. This simplifies the second stage to predicting pCR from inferred expression and clinical variables. Devel",
+    "author": "Jungkyu Park, Dhruva Biswas, Joseph Cappadona, Cerise Tang, Ken G. Zeng, Bartosz Machura, Chuwen Liu, Paolo Tarantino, Coral Omene, Francisco J. Esteva, Rohit Bhargava, Marcin Braun, Kamila Paździerz, Jakub Czerwiński, Hanna Romańska-Knight, Albert Grinshpun, Bareket Daniel, Michele Buchinger, Frederick Howard, Piotr Wysocki, Brie Chun, Freya Schnabel, Rich Caruana, Jan Witowski, Krzysztof J. Geras",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2610.03693v1"
+    ]
+  },
+  {
+    "title": "FrugalEvo: Towards Cost-Aware LLM-Guided Program Evolution",
+    "link": "http://arxiv.org/abs/2610.03675v1",
+    "published": "2026-10-02T17:44:05+00:00",
+    "summary": "LLM-guided evolutionary methods, such as AlphaEvolve, have emerged as powerful approaches for challenging computational optimization problems, such as circle packing. However, prior work typically optimizes performance gain over a fixed number of iterations. We argue that practical optimization should maximize gain per unit cost. To this end, we propose FrugalEvo, a cost-aware evolutionary framework where a stronger, higher-cost LLM explores solution strategies, and a cheaper LLM implements them",
+    "author": "Hui Chen, Xuan Qi, James Xu Zhao, Zhaopeng Feng, Shilong Liu, Kuang Xu, Pang Wei Koh, Bryan Hooi",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2610.03675v1"
+    ]
+  },
+  {
+    "title": "Revisiting Input Time-frequency Representations in Multi-pitch Estimation for Vocal Ensembles",
+    "link": "http://arxiv.org/abs/2610.03656v1",
+    "published": "2026-10-02T17:35:06+00:00",
+    "summary": "Multi-pitch estimation in vocal ensembles is challenging because singers occupy overlapping pitch ranges and often sing at closely spaced fundamental frequencies, causing their harmonics to overlap in time-frequency representations. Existing models commonly use harmonic constant-Q transform (HCQT)-based representations to provide frequency-adaptive resolution, at the cost of expensive feature extraction when training mixtures are generated on the fly. We revisit this design and compare HCQT with",
+    "author": "Junyoung Koh, Hao-Wen Dong",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2610.03656v1"
+    ]
+  },
+  {
+    "title": "MRVQ: One Resident Index for Dimension- and Rate-Elastic Vector Search",
+    "link": "http://arxiv.org/abs/2610.03651v1",
+    "published": "2026-10-02T17:33:13+00:00",
+    "summary": "Dense-retrieval services must switch among embedding-prefix dimensions and index bit rates as latency, quality, and memory budgets change. Tuning a quantizer separately for each rate gives the best quality, but the retrieval tier then holds several code streams and quantizer states at once. We introduce Matryoshka Residual Vector Quantization (MRVQ), a post-hoc residual quantizer for frozen embeddings. Its maximum-rate code can be truncated two ways: dropping residual stages lowers the rate, and",
+    "author": "Sean Culatana, Shang-En Huang, Kang Li",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2610.03651v1"
+    ]
+  },
+  {
+    "title": "On-Board Anomaly Detection for Efficient Marine Environmental Monitoring",
+    "link": "http://arxiv.org/abs/2610.03649v1",
+    "published": "2026-10-02T17:32:34+00:00",
+    "summary": "Marine ecosystems are impacted by various threats such as oil spills, algal blooms, and sediment floods, which disrupt habitats, wildlife, and human activities. Advances in satellite imagery and Artificial Intelligence (AI) have enhanced our capabilities for early detection and mitigation of such hazards. In this paper, we propose a marine event detection pipeline for Earth observation satellites equipped with multi- or hyperspectral sensors. Our approach includes a self-supervised neural networ",
+    "author": "Thomas Goudemant, Clotilde Szywala, Benjamin Francesconi, Michelle Aubrun, Yves Bobichon, Marjorie Bellizzi, Adrien Girard",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2610.03649v1"
+    ]
+  },
+  {
+    "title": "Do Large Language Models Know Colombian Law? A Reliability Benchmark for the Colombian Legal System",
+    "link": "http://arxiv.org/abs/2610.03639v1",
+    "published": "2026-10-02T17:27:41+00:00",
+    "summary": "Large language models (LLMs) are increasingly used to support legal practice, education, and research, yet their reliability in national legal systems outside the United States remains largely undocumented. We introduce an expert-validated benchmark for evaluating LLM reliability on the Colombian legal system. The benchmark comprises 1,042 items spanning ten areas of law and three question formats (closed multiple-choice, semi-open, and open-ended IRAC), built through a human-in-the-loop pipelin",
+    "author": "Rubén Manrique, Michelle Castellanos, Jorge Morales, Juan David Gutiérrez, Antonio Barreto Rozo, Joaquín Vélez Navarro",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2610.03639v1"
+    ]
+  },
+  {
+    "title": "LoGo: Local-Global Rewards for Consistent Long-Horizon Video Generation",
+    "link": "http://arxiv.org/abs/2610.03636v1",
+    "published": "2026-10-02T17:26:18+00:00",
+    "summary": "Camera-controlled video models are rapidly advancing toward long generation horizons and complex camera control. A key failure mode is 3D inconsistency: as the camera moves, objects lose permanence and scene structures shift. Existing post-training techniques, which assign a single scalar reward to the entire generation, are poorly suited to correcting these inconsistencies over long horizons. We introduce LoGo, which blends global and spatially localized rewards for camera-controlled video mode",
+    "author": "Ziqi Ma, Shreya Sharma, Mohamed El Banani, Katja Schwarz, Chongjie Ye, Chao-Yuan Wu, Li Fei-Fei, Ben Mildenhall, Georgia Gkioxari, Justin Johnson, Gowthami Somepalli",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "https://ziqi-ma.github.io/logo-website/",
+      "http://arxiv.org/abs/2610.03636v1"
+    ]
+  },
+  {
+    "title": "Credit Where It Matters: Dependency-Aware Policy Optimization for Terminal Agents",
+    "link": "http://arxiv.org/abs/2610.03634v1",
+    "published": "2026-10-02T17:24:48+00:00",
+    "summary": "Terminal-using agents benefit from reinforcement learning (RL) in coding, debugging, and other multi-step terminal tasks. In these tasks, later commands often depend on information or intermediate results produced by earlier commands. However, existing trajectory-level and step-level credit assignment methods do not explicitly trace the read-write dependencies through which commands affect the final outcome. Consequently, training signals could still be assigned to irrelevant operations, weakeni",
+    "author": "Yu Li, Guangfeng Cai, Long-Fei Li, Shuo Han, Shengtian Yang, Han Luo, Kaibing Yang, Lei Feng",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2610.03634v1"
+    ]
+  },
+  {
+    "title": "NeutronGym: Physics-Graded Neutron Instrument Design for LLM Agents",
+    "link": "http://arxiv.org/abs/2610.03631v1",
+    "published": "2026-10-02T17:23:52+00:00",
+    "summary": "Designing a scientific instrument tests whether language-model agents can do physics rather than recall it, provided the grading cannot be argued with. We introduce NeutronGym, to our knowledge the first executable environment for neutron instrument design: agents build instruments through validating tools, McStas ray-traces what they build, and a level-resolved ladder grades syntax, runtime, structure and science with no LLM judge. Procedural families supply unlimited instances of a fixed layou",
+    "author": "Lijie Ding, Changwoo Do",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2610.03631v1"
+    ]
+  },
+  {
+    "title": "Depth as Time in One-Step Generative Models",
+    "link": "http://arxiv.org/abs/2610.03626v1",
+    "published": "2026-10-02T17:20:08+00:00",
+    "summary": "The recent wave of one-step generative models, which compress the multi-step trajectory of diffusion via either distillation or learned flow maps, has reached an inflection point where they can generate high-quality images. Here, we ask a natural question that follows from these advances: what happens to the denoising trajectory of multi-step diffusion when generation is compressed into a single forward pass? We offer an empirical observation we call \\textit{depth as time}: the denoising computa",
+    "author": "Arnold Caleb Asiimwe, William Yang, Sanghyuk Chun, Esin Tureci, Olga Russakovsky",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2610.03626v1"
+    ]
+  },
+  {
+    "title": "Low-Cost Video--Time Priors as a Strong Baseline for EEG--fNIRS Emotion Regression on Familiar Videos",
+    "link": "http://arxiv.org/abs/2610.03618v1",
+    "published": "2026-10-02T17:14:45+00:00",
+    "summary": "Continuous emotion regression estimates moment-to-moment valence and arousal while a viewer watches a video. In familiar-video deployment, responses fron training participant-specific estimate, and prior-dominating fixed fusion tests whether physiology adds residual correction. In five-fold subject-held-out evaluation on 24was within 0.05 and 0.32 MAE of fusion in the internal and external evaluations, respectively. Source-explicit ablations showed that video identity and within-video tine accou",
+    "author": "Minghao Kong, Jiurun Chen, Ying Gao, Xiangbin Meng, Rongjie Wang",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2610.03618v1"
+    ]
+  },
+  {
     "title": "A model guide for the GPT-6 family",
     "link": "https://openai.com/index/practical-guide-building-gpt-6",
     "published": "2026-10-02T16:15:00+00:00",
@@ -81,190 +276,6 @@
     "category": "official",
     "references": [
       "https://openai.com/index/chatham-financial"
-    ]
-  },
-  {
-    "title": "One Basis to Animate Them All: Gaussian Blendshape Distillation for Real-Time Avatars",
-    "link": "http://arxiv.org/abs/2610.02207v1",
-    "published": "2026-10-01T17:59:58+00:00",
-    "summary": "3D Gaussian avatars support fast rendering, however, their real-time animation is often challenged by the costly neural inference. We address this bottleneck and show that the animation of pretrained avatar models can be closely approximated by a linear combination of identity-independent blendshapes. Building on this finding, we introduce GALA (Gaussian Animation via Linear Approximation), a distillation method that replaces per-frame heavy neural decoding with a shallow coefficient predictor a",
-    "author": "Ramazan Fazylov, Stamatis Lefkimmiatis, Ivan Laptev",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "https://ramazan793.github.io/gala/",
-      "http://arxiv.org/abs/2610.02207v1"
-    ]
-  },
-  {
-    "title": "KaliBench: A Fine-Grained Benchmark for Cybersecurity Tool Use on Kali Linux with Runtime-Free Verifiable Rewards",
-    "link": "http://arxiv.org/abs/2610.02206v1",
-    "published": "2026-10-01T17:59:55+00:00",
-    "summary": "LLMs are increasingly applied to cybersecurity workflows, where they are expected to translate analysts' intent into tool invocations. However, existing evaluations focus on knowledge-based assessments or end-to-end agentic tasks, and do not directly measure LLMs' ability to generate executable commands for real-world cybersecurity tools. This gap is critical because cybersecurity operations rely on strict command-line interfaces (CLIs), where minor syntax errors, incorrect flag--value bindings,",
-    "author": "Pengfei Li, Naufal Suryanto, Sicheng Zhang, Muzammal Naseer",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2610.02206v1"
-    ]
-  },
-  {
-    "title": "Reconstruct, Practice, Go Real: Guided Self-Improvement for Embodied Agents",
-    "link": "http://arxiv.org/abs/2610.02204v1",
-    "published": "2026-10-01T17:59:50+00:00",
-    "summary": "Building reliable robot capabilities across diverse tasks requires substantial human effort to develop and maintain skills, design rewards, and integrate perception with control. We present Reconstruct, Practice, Go Real (RPG), a framework for autonomous improvement of robot execution systems without updating model weights. RPG identifies manipulation capabilities in an offline dataset and constructs related practice tasks in simulation. During practice, RPG uses execution feedback, privileged s",
-    "author": "Yen-Jen Wang, Haozhe Jiang, Shuying Deng, Haoru Xue, Weirui Ye, Rocky Duan, Nika Haghtalab, S. Shankar Sastry, Pieter Abbeel, Haozhi Qi",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "https://rpg-robot.github.io/",
-      "http://arxiv.org/abs/2610.02204v1"
-    ]
-  },
-  {
-    "title": "ScholarCatalyst: A Benchmark for Retrieving Papers That Inspire New Research",
-    "link": "http://arxiv.org/abs/2610.02202v1",
-    "published": "2026-10-01T17:59:47+00:00",
-    "summary": "What makes great scientists great? Even as AI systems start to make progress on open problems, scientists remain far ahead of them at sensing which prior idea, buried in an ever-growing archive of research, a new problem needs. To study this skill, we draw on researchers who know firsthand which earlier work advanced their completed projects, with papers serving as pointers to the ideas within. Using our automated pipeline that makes author annotation scalable, we build ScholarCatalyst by having",
-    "author": "Sohyeon Kim, Yoonho Lee, Bo Liu, Dayoon Ko, Rulin Shao, Seungone Kim, Graham Neubig, Pang Wei Koh, Aakanksha Chowdhery, Akari Asai, Omar Khattab, Yejin Choi, Gunhee Kim, Chelsea Finn",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2610.02202v1"
-    ]
-  },
-  {
-    "title": "SILSA: Sliding-Window Slice Latents for Topology-Preserving High-Resolution 3D Generation",
-    "link": "http://arxiv.org/abs/2610.02201v1",
-    "published": "2026-10-01T17:59:46+00:00",
-    "summary": "High-resolution 3D generation increasingly relies on voxel latents and multi-stage pipelines that first predict active structure and then synthesize local geometry. While effective, this design fragments continuous surfaces into many local tokens, inflates generation cost, and often weakens topological consistency for thin or highly connected shapes. We introduce SILSA, a topology-aware 3D generation framework that represents shapes with compact sliding-window slice latents. Instead of generatin",
-    "author": "Tianjiao Yu, Xinzhuo Li, Yifan Shen, Ying Shen, Kiet A. Nguyen, Adheesh Sunil Juvekar, Ismini Lourentzou",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2610.02201v1"
-    ]
-  },
-  {
-    "title": "VISTA: A Visual Harness for Reasoning in an Interactive World",
-    "link": "http://arxiv.org/abs/2610.02200v1",
-    "published": "2026-10-01T17:59:45+00:00",
-    "summary": "We show that multimodal models possess strong reasoning abilities and that an appropriate harness can unlock their potential to solve tasks across diverse interactive environments. We introduce VISTA, a visual harness that gives a general-purpose multimodal model long-horizon vision. VISTA allows the model to directly perceive the environment through visual observations and maintains a lossless visual memory that preserves past observations in their original form. The model can actively retrieve",
-    "author": "Qiushi Han, Keya Hu, Linlu Qiu, Cathy Wu, Kaiming He",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2610.02200v1"
-    ]
-  },
-  {
-    "title": "FERPO: Forward Entropy-Regularized Policy Optimization",
-    "link": "http://arxiv.org/abs/2610.02198v1",
-    "published": "2026-10-01T17:59:41+00:00",
-    "summary": "Several state-of-the-art methods for online reinforcement learning in continuous control improve policies using action gradients of a learned critic. However, critics are typically trained to predict returns, and accurate value predictions do not necessarily yield accurate action derivatives, potentially leading to unreliable policy updates. We propose Forward Entropy-Regularized Policy Optimization (FERPO), an on-policy maximum entropy reinforcement learning algorithm that performs policy impro",
-    "author": "Sebastian Sanokowski, Alireza Sarmadi, Majid Khadiv",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2610.02198v1"
-    ]
-  },
-  {
-    "title": "Hierarchical Continuous Diffusion Language Models",
-    "link": "http://arxiv.org/abs/2610.02193v1",
-    "published": "2026-10-01T17:59:39+00:00",
-    "summary": "Discrete diffusion language models offer a compelling alternative to autoregressive generation for tasks demanding bidirectional reasoning and global constraint satisfaction. Yet they share a structural bottleneck: when decoding in parallel, each token is sampled independently from its marginal, severing the statistical dependencies among the tokens decoded together. Continuous diffusion language models avoid this by denoising a shared continuous state, but their denoiser sees only that state, s",
-    "author": "Hui Ren, Zihan Li, Chang Liu, Huidong Liu, Alexander Schwing",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "https://hc-dlm.github.io/",
-      "http://arxiv.org/abs/2610.02193v1"
-    ]
-  },
-  {
-    "title": "DMAD: Distribution Matching as Adversarial Distillation for Fast Visual Generation",
-    "link": "http://arxiv.org/abs/2610.02188v1",
-    "published": "2026-10-01T17:59:01+00:00",
-    "summary": "Distribution Matching Distillation (DMD) trains a few-step student from the difference between separately estimated target and student scores, so it must keep an auxiliary diffusion model fitted to the student's evolving distribution at extra memory and computation cost. We introduce DMAD, Distribution Matching as Adversarial Distillation, which recasts distribution matching as classification and learns the required log-density ratios directly. Two discriminator heads on a shared backbone distin",
-    "author": "Zhengming Yu, Junkun Yuan, Haotian Yang, Gordon Guocheng Qian, Yizhi Wang, Angtian Wang, Yiding Yang, Bo Liu, Xin Li, Wenping Wang, Chongyang Ma",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "https://yzmblog.github.io/projects/DMAD",
-      "http://arxiv.org/abs/2610.02188v1"
-    ]
-  },
-  {
-    "title": "Higher-Order Molecular Grammars for Generative and Foundation Models in Chemistry",
-    "link": "http://arxiv.org/abs/2610.02186v1",
-    "published": "2026-10-01T17:58:45+00:00",
-    "summary": "Molecular learning models are strongly shaped by their underlying representations. Yet standard sequential and graph formalisms struggle to explicitly encode higher-order topology, such as ring systems and recurring motifs. Existing higher-order representations can capture these structures directly, but they are often computationally demanding and difficult to decode into valid molecules. Here, we introduce Higher-order Grammar Representation (HGR), a principled, topology-aware framework that li",
-    "author": "Yiming Huang, Yujie Zeng, Vijay Prakash Dwivedi, Simone Foti, Jianmin Wang, Jure Leskovec, Tolga Birdal",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2610.02186v1"
-    ]
-  },
-  {
-    "title": "SoftServe: A Scalable Quasi-Newton Method for Deep Learning",
-    "link": "http://arxiv.org/abs/2610.02182v1",
-    "published": "2026-10-01T17:58:24+00:00",
-    "summary": "Quasi-Newton (QN) methods have long been among the most effective methods for large-scale unconstrained convex optimization. Two obstacles have limited their use in deep learning: non-convexity and enormous parameter sizes. We introduce SoftServe, a family of QN methods designed to overcome these obstacles without line searches or ad hoc curvature corrections. SoftServe derives positivedefinite curvature estimates from the variational objective of Berglund et al. (2025), even in the presence of ",
-    "author": "Joohwan Ko, Tetiana Parshakova, Diana Cai, Robert M. Gower",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2610.02182v1"
-    ]
-  },
-  {
-    "title": "Generative Cinematographer: Composing Camera and Object Motion in 3D",
-    "link": "http://arxiv.org/abs/2610.02180v1",
-    "published": "2026-10-01T17:58:09+00:00",
-    "summary": "Current controllable video generation systems often rely on 2D motion trajectories or sparse drag signals for object motion. These controls are ambiguous because the same 2D trajectory can correspond to different 3D motions, especially when the camera and objects move simultaneously. We present Generative Cinematographer (GenCine), a system that lifts a single image into an editable 3D scene scaffold where artists jointly author camera and foreground motion. Artists specify a camera path and mov",
-    "author": "Jiahan Zhang, Chaohao Yang, Namitha Guruprasad, Vivekjyoti Banerjee, Trong-Tung Nguyen, Alan Yuille, Anand Bhattad",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2610.02180v1"
-    ]
-  },
-  {
-    "title": "Watch, Infer, Coordinate: Inferring Robot Partner Constraints for Zero-Shot Coordination",
-    "link": "http://arxiv.org/abs/2610.02170v1",
-    "published": "2026-10-01T17:56:04+00:00",
-    "summary": "Robots operating in the physical world will increasingly need to coordinate with other robots, particularly in manipulation tasks where an object may be too large or heavy for a single robot to carry alone. Physical limitations caused by hardware degradation or actuator faults can restrict the actions a robot can reliably execute, yet these limitations may be unknown to its partner. We study whether a helper can infer a robot partner's physical constraints from observing it coordinate with anoth",
-    "author": "Suyu Ye, Zheyuan Zhang, Vaishnav Tadiparthi, Hossein Nourkhiz Mahjoub, Ehsan Moradi Pari, Tianmin Shu, Homanga Bharadhwaj, Nakul Agarwal",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2610.02170v1"
-    ]
-  },
-  {
-    "title": "DuoMind: Enabling Distributed Multi-Robot Coordination with Semantic Communication",
-    "link": "http://arxiv.org/abs/2610.02161v1",
-    "published": "2026-10-01T17:53:09+00:00",
-    "summary": "Vision-language models (VLMs) and vision-language-action models (VLAs) have recently driven rapid progress in general-purpose robots, yet most progress has focused on single-robot settings. Extending these capabilities to multi-robot systems remains challenging because robots must coordinate long-horizon behaviors while maintaining reliable, fine-grained execution. We introduce DuoMind, a distributed hierarchical framework for multi-robot coordination through semantic communication. Each robot u",
-    "author": "Hanchu Zhou, Dechen Gao, Hang Wang, Brendan Lynch, Boqi Zhao, Qiyao Ma, Raman Goyal, Junshan Zhang",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2610.02161v1"
-    ]
-  },
-  {
-    "title": "From Knowledge Access to Source Learning: Developing Source-Specific Competence",
-    "link": "http://arxiv.org/abs/2610.02150v1",
-    "published": "2026-10-01T17:50:16+00:00",
-    "summary": "Large language model (LLM) agents increasingly rely on persistent external sources to solve sequences of knowledge-intensive tasks. Existing methods improve how source content is accessed and organized, while agent-memory systems preserve reusable knowledge from prior interactions, but repeated use of the same source is still largely treated as repeated access rather than an opportunity to progressively improve understanding of that source. We study source learning: developing reusable source-sp",
-    "author": "Lucheng Fu, Kejing Xia, Yiyang Wang, Yiqiao Jin, Jinjin He, Xiyuan Yang, Haoxin Liu, Ye Yu, Haibo Jin, Yijia Xiao, Wenke Lee, B. Aditya Prakash, Haohan Wang",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2610.02150v1"
     ]
   },
   {
@@ -385,18 +396,6 @@
     "category": "official",
     "references": [
       "https://openai.com/index/helping-small-businesses-put-ai-to-work"
-    ]
-  },
-  {
-    "title": "The Download: climate tech companies to watch and AI’s discovery problem",
-    "link": "https://www.technologyreview.com/2026/09/29/1145249/the-download-climate-tech-ai-scientific-discovery/",
-    "published": "2026-09-29T12:10:00+00:00",
-    "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Coming soon: our 2026 list of Climate Tech Companies to Watch With the planet nearing 1.5 °C of warming, climate policies being unraveled, and Big Tech backpedaling on its climate ambitions,&#8230;",
-    "author": "Thomas Macaulay",
-    "source": "MIT Tech Review",
-    "category": "media",
-    "references": [
-      "https://www.technologyreview.com/2026/09/29/1145249/the-download-climate-tech-ai-scientific-discovery/"
     ]
   },
   {
