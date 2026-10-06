@@ -84,186 +84,186 @@
     ]
   },
   {
-    "title": "Less Decoder is More Encoder: Geometric Representation Learning from Novel View Synthesis",
-    "link": "http://arxiv.org/abs/2610.03717v1",
-    "published": "2026-10-02T17:59:14+00:00",
-    "summary": "This paper examines the role of Novel View Synthesis (NVS) in geometric representation learning. In principle, NVS should reason about 3D scene structure, thereby enabling transferable multi-view geometric representations. Yet, existing encoder-based NVS methods yield poor representations. This is not because of a lack of supervisory signal, but rather due to inconspicuous architectural choices: \\textit{spatially expressive decoders} that dilute representational capabilities of the scene encoder",
-    "author": "Keerthi Kaashyap, Dennis Anthony, Akshay Krishnan, Nhi Ngoc Nguyen, Jeremy Collins, James Hays, Shreyas Kousik, Animesh Garg",
+    "title": "Robot Learning with Visual Predicted Force",
+    "link": "http://arxiv.org/abs/2610.04741v1",
+    "published": "2026-10-03T20:11:33+00:00",
+    "summary": "Force-aware manipulation typically relies on specialized force or tactile sensors. We show that force-aware manipulation can instead be achieved through visual force prediction from the deformation of a compliant Fin Ray gripper. Our approach trains two models. First, we train a visual force estimator on calibration data and use it to annotate task demonstrations with force estimates. Second, we train an action--force proposal policy on these force-augmented demonstrations to jointly generate ca",
+    "author": "Haonan Chen, Feiyang Wu, Yuxiang Ma, Mustafa Mete, Pengfei Ye, Junxuan Shen, Cheng Zhu, Aurora Ruggeri, Kelvin Cheung, Jiayuan Mao, Edward Adelson, Jiajun Wu, Robert D. Howe, Yilun Du",
     "source": "arXiv cs.AI",
     "category": "research",
     "references": [
-      "https://snap-nvs.github.io",
-      "http://arxiv.org/abs/2610.03717v1"
+      "http://arxiv.org/abs/2610.04741v1"
     ]
   },
   {
-    "title": "4DCodeBench: Benchmarking Agents on Inverse Graphics of Dynamic Scenes",
-    "link": "http://arxiv.org/abs/2610.03715v1",
-    "published": "2026-10-02T17:58:49+00:00",
-    "summary": "We introduce 4DCodeBench, a benchmark for 4D inverse graphics through code generation, in which agents reconstruct dynamic scenes from video as executable graphics programs. To accomplish this, agents must translate visual observations into compact representations of scene structure and dynamics, by implementing abstractions such as physical simulations to reproduce complex behavior. To evaluate this capability, we curate a set of real-world videos and construct synthetic scenes spanning diverse",
-    "author": "Ruihong Shen, Žiga Kovačič, Peter Kulits, Xingrui Wang, Zizhang Li, Joshua B. Tenenbaum, Alan Yuille, Jieneng Chen, Jiajun Wu",
+    "title": "Toward a Locally Deployable Agentic Co-Scientist: Small-Model Planning for Early-Stage Drug Discovery",
+    "link": "http://arxiv.org/abs/2610.04740v1",
+    "published": "2026-10-03T20:09:34+00:00",
+    "summary": "Early-stage computational drug discovery requires coordinating heterogeneous scientific tools across multi-step workflows. We present a lightweight, tool-augmented framework in which a locally deployable compact language model plans calls to 18 modular tools. A Unified Molecular Schema maintains shared molecular records, while a plug-in interface supports tool replacement and extension. We construct 1,263 manually refined query-plan pairs through workflow-graph path coverage and apply LoRA fine-",
+    "author": "Tian Liang, Jiayu Chang, Alejandro F. Frangi, Mobarak I. Hoque, Richard A. Bryce",
     "source": "arXiv cs.AI",
     "category": "research",
     "references": [
-      "https://github.com/4DCodeBench/4DCodeBench",
-      "http://arxiv.org/abs/2610.03715v1"
+      "http://arxiv.org/abs/2610.04740v1"
     ]
   },
   {
-    "title": "What Should World Models Forget? Stratified Retention for Continual Adaptation",
-    "link": "http://arxiv.org/abs/2610.03713v1",
-    "published": "2026-10-02T17:58:14+00:00",
-    "summary": "Continual learning treats degradation on previously seen data as evidence of failure, a convention inherited from settings with a stationary prediction target, where a correct label remains correct indefinitely. World models do not satisfy this condition. Their prediction target is the environment, which changes, so knowledge that was accurate when acquired may later become false, and discarding it is required behavior rather than a defect. Non-stationary ground truth is well studied in the conc",
-    "author": "Nishit Anand, Ramani Duraiswami, Dinesh Manocha",
+    "title": "PyINE: A Framework for Scalable Elicitation and Oversight via Code Execution",
+    "link": "http://arxiv.org/abs/2610.04737v1",
+    "published": "2026-10-03T20:03:43+00:00",
+    "summary": "Reasoning models can remain capable of solving a task while still defaulting to cheaper but misleading shortcuts. This creates a central oversight problem: when a model gives an answer with plausible but incomplete reasoning, can an overseer determine whether that output should be trusted? To study this problem, we introduce PyINE, a framework for scalable elicitation and oversight using instrumented Python programs as a verifiable execution substrate. In PyINE, programs define task environments",
+    "author": "Pierre-Luc St-Charles, Alessandro Palmas, Damiano Fornasiere, Storm Lei, Mirko Bronzi, Jean-Pierre Falet, Iulian Serban, Yoshua Bengio",
     "source": "arXiv cs.AI",
     "category": "research",
     "references": [
-      "http://arxiv.org/abs/2610.03713v1"
+      "http://arxiv.org/abs/2610.04737v1"
     ]
   },
   {
-    "title": "EyeRobot 2.0: Active Gaze for Precise Manipulation without Wrist Cameras",
-    "link": "http://arxiv.org/abs/2610.03710v1",
-    "published": "2026-10-02T17:57:51+00:00",
-    "summary": "Inspired by human vision, we introduce a framework using active gaze to enable fine-grained bimanual manipulation with only a single stereo camera. EyeRobot 2.0 physically attends to a 3D fixation point in the scene by swiveling two eye viewpoints to center their gaze on it. The resulting images are processed foveally by allocating more visual tokens to the image centers, focusing computation on task-relevant features. Such Active Visual Fixation (AVF) requires carefully coordinated gaze during ",
-    "author": "Kush Hari, Justin Kerr, Nidhya Shivakumar, Samarth Mahapatra, Carmelo Sferrazza, Jiahui Lei, Jitendra Malik, C. Karen Liu, Ken Goldberg, Angjoo Kanazawa",
+    "title": "Knossos and Ariadne: Benchmarking and Learning Complete Diagram Topology Extraction with Vision-Language Models",
+    "link": "http://arxiv.org/abs/2610.04721v1",
+    "published": "2026-10-03T19:20:33+00:00",
+    "summary": "Structural diagrams are widely used to represent complex systems and relational information across scientific, engineering, procedural, and spatial domains. Recent vision-language models (VLMs) have become increasingly capable of recognizing diagram elements and reasoning about their content, while complete diagram topology extraction remains comparatively underexplored. In this paper, we study diagram-to-graph topology extraction: extracting all diagram entities and the complete relations among",
+    "author": "Bangwei Guo, Xujiang Zhao, Shengyu Chen, Yanchi Liu, Wei Cheng, Xi Zhu, Guoning Zhang, Dimitris N. Metaxas, Haifeng Chen",
     "source": "arXiv cs.AI",
     "category": "research",
     "references": [
-      "http://arxiv.org/abs/2610.03710v1"
+      "https://github.com/bangwayne/knossos_Ariadne_Public",
+      "http://arxiv.org/abs/2610.04721v1"
     ]
   },
   {
-    "title": "Transcriptome-informed multi-modal AI for predicting neoadjuvant therapy response from breast cancer biopsies",
-    "link": "http://arxiv.org/abs/2610.03693v1",
-    "published": "2026-10-02T17:52:57+00:00",
-    "summary": "Scarcity of labeled data limits development of deep learning biomarkers in oncology. We develop a two-stage AI model predicting pathological complete response (pCR) to neoadjuvant therapy in breast cancer. The first stage learns the transcriptome from histopathology using 8,742 patients across 32 cancer types, corroborated by pathologist review and spatial agreement with measured expression. This simplifies the second stage to predicting pCR from inferred expression and clinical variables. Devel",
-    "author": "Jungkyu Park, Dhruva Biswas, Joseph Cappadona, Cerise Tang, Ken G. Zeng, Bartosz Machura, Chuwen Liu, Paolo Tarantino, Coral Omene, Francisco J. Esteva, Rohit Bhargava, Marcin Braun, Kamila Paździerz, Jakub Czerwiński, Hanna Romańska-Knight, Albert Grinshpun, Bareket Daniel, Michele Buchinger, Frederick Howard, Piotr Wysocki, Brie Chun, Freya Schnabel, Rich Caruana, Jan Witowski, Krzysztof J. Geras",
+    "title": "Learning to Clarify Underspecified Intents Under Limited Interaction",
+    "link": "http://arxiv.org/abs/2610.04719v1",
+    "published": "2026-10-03T19:17:57+00:00",
+    "summary": "AI assistants receive requests that leave out information needed for a good outcome, for example about users' preferences or goals. They must then either speculate or ask for more information before proceeding. We reconceptualize this as a value-of-information problem: the assistant should acquire information whose absence causes the greatest avoidable loss in user utility. This is rarely known ex ante; rather, assistants must predict it in order to optimally allocate limited user interactions. ",
+    "author": "Pranav M R, Manuel Cherep, Pattie Maes, Nikhil Singh",
     "source": "arXiv cs.AI",
     "category": "research",
     "references": [
-      "http://arxiv.org/abs/2610.03693v1"
+      "http://arxiv.org/abs/2610.04719v1"
     ]
   },
   {
-    "title": "FrugalEvo: Towards Cost-Aware LLM-Guided Program Evolution",
-    "link": "http://arxiv.org/abs/2610.03675v1",
-    "published": "2026-10-02T17:44:05+00:00",
-    "summary": "LLM-guided evolutionary methods, such as AlphaEvolve, have emerged as powerful approaches for challenging computational optimization problems, such as circle packing. However, prior work typically optimizes performance gain over a fixed number of iterations. We argue that practical optimization should maximize gain per unit cost. To this end, we propose FrugalEvo, a cost-aware evolutionary framework where a stronger, higher-cost LLM explores solution strategies, and a cheaper LLM implements them",
-    "author": "Hui Chen, Xuan Qi, James Xu Zhao, Zhaopeng Feng, Shilong Liu, Kuang Xu, Pang Wei Koh, Bryan Hooi",
+    "title": "Towards Automatically Pruning Logging Code with Coding Agents: How Far Are We?",
+    "link": "http://arxiv.org/abs/2610.04716v1",
+    "published": "2026-10-03T19:11:19+00:00",
+    "summary": "Logging code supports debugging, monitoring, and software maintenance, but excessive logging can add noise, impose runtime overhead, and obscure diagnostic information. While prior research has extensively studied logging code generation and modification, logging removal remains comparatively underexplored. In this paper, we study developer logging removal practices and explore the use of coding agents for this task. We extract and manually validate logging removal cases from Python and Java rep",
+    "author": "He Yang Yuan, Haonan Zhang, Xin Wang, An Ran Chen, Kisub Kim, Zishuo Ding, Zhenhao Li",
     "source": "arXiv cs.AI",
     "category": "research",
     "references": [
-      "http://arxiv.org/abs/2610.03675v1"
+      "http://arxiv.org/abs/2610.04716v1"
     ]
   },
   {
-    "title": "Revisiting Input Time-frequency Representations in Multi-pitch Estimation for Vocal Ensembles",
-    "link": "http://arxiv.org/abs/2610.03656v1",
-    "published": "2026-10-02T17:35:06+00:00",
-    "summary": "Multi-pitch estimation in vocal ensembles is challenging because singers occupy overlapping pitch ranges and often sing at closely spaced fundamental frequencies, causing their harmonics to overlap in time-frequency representations. Existing models commonly use harmonic constant-Q transform (HCQT)-based representations to provide frequency-adaptive resolution, at the cost of expensive feature extraction when training mixtures are generated on the fly. We revisit this design and compare HCQT with",
-    "author": "Junyoung Koh, Hao-Wen Dong",
+    "title": "Organising Trajectory Evidence for Language-Model Agent Assurance: Fragments, Methods, and the Residual",
+    "link": "http://arxiv.org/abs/2610.04710v1",
+    "published": "2026-10-03T18:51:40+00:00",
+    "summary": "Methods for assessing language-model agents include rule checkers over logs, analyses of skill coverage and composition, support checkers, prefix monitors, execution gates, and rare-event estimators. Each observes a different part of a run and makes a claim of a different strength, and no common account says how these claims combine or what they leave unchecked. We give one, built from a logic, information fragments, and an assurance ledger. Requirements are formulas of a two-tier logic: an oute",
+    "author": "Xiaowei Huang",
     "source": "arXiv cs.AI",
     "category": "research",
     "references": [
-      "http://arxiv.org/abs/2610.03656v1"
+      "http://arxiv.org/abs/2610.04710v1"
     ]
   },
   {
-    "title": "MRVQ: One Resident Index for Dimension- and Rate-Elastic Vector Search",
-    "link": "http://arxiv.org/abs/2610.03651v1",
-    "published": "2026-10-02T17:33:13+00:00",
-    "summary": "Dense-retrieval services must switch among embedding-prefix dimensions and index bit rates as latency, quality, and memory budgets change. Tuning a quantizer separately for each rate gives the best quality, but the retrieval tier then holds several code streams and quantizer states at once. We introduce Matryoshka Residual Vector Quantization (MRVQ), a post-hoc residual quantizer for frozen embeddings. Its maximum-rate code can be truncated two ways: dropping residual stages lowers the rate, and",
-    "author": "Sean Culatana, Shang-En Huang, Kang Li",
+    "title": "VoCa: Designing Speech-Canvas Interaction for Voice-Based Conversational Agents",
+    "link": "http://arxiv.org/abs/2610.04706v1",
+    "published": "2026-10-03T18:39:31+00:00",
+    "summary": "People write and sketch while speaking to explain, organize, and develop content together. Inspired by these practices, we investigate how voice agents can use a canvas alongside speech in multi-turn conversations with users. We conducted a two-part formative study: an observational study of how pairs coordinated speech and boardwork, followed by a design workshop that informed a design space for speech-canvas interaction with voice agents. Building on these insights, we developed VoCa, a voice ",
+    "author": "Yate Ge, Run Yuan, Yueran Qi, Wenjie He, Jiaqi Mo, Yangshuo Chen, Wenbin Zuo, Xiaohua Sun, Weiwei Guo, Qi Wang",
     "source": "arXiv cs.AI",
     "category": "research",
     "references": [
-      "http://arxiv.org/abs/2610.03651v1"
+      "http://arxiv.org/abs/2610.04706v1"
     ]
   },
   {
-    "title": "On-Board Anomaly Detection for Efficient Marine Environmental Monitoring",
-    "link": "http://arxiv.org/abs/2610.03649v1",
-    "published": "2026-10-02T17:32:34+00:00",
-    "summary": "Marine ecosystems are impacted by various threats such as oil spills, algal blooms, and sediment floods, which disrupt habitats, wildlife, and human activities. Advances in satellite imagery and Artificial Intelligence (AI) have enhanced our capabilities for early detection and mitigation of such hazards. In this paper, we propose a marine event detection pipeline for Earth observation satellites equipped with multi- or hyperspectral sensors. Our approach includes a self-supervised neural networ",
-    "author": "Thomas Goudemant, Clotilde Szywala, Benjamin Francesconi, Michelle Aubrun, Yves Bobichon, Marjorie Bellizzi, Adrien Girard",
+    "title": "Neurodiversity-Aware Multimodal Affective Computing for Neurodevelopmental Assessment: From Norm-Referenced Classification to Context-Sensitive Decision Support",
+    "link": "http://arxiv.org/abs/2610.04705v1",
+    "published": "2026-10-03T18:38:22+00:00",
+    "summary": "Automated neurodevelopmental assessment increasingly combines computer vision, speech, eye tracking, physiology, and machine learning, yet multimodality and discrimination do not establish construct validity, clinical usefulness, or appropriate interpretation of behavioral variation. We propose a testable architecture for neurodiversity-aware multimodal affective computing in which population-relative deviation is not treated as sufficient evidence of adverse functioning. This conceptual article",
+    "author": "Mateusz Pomianek, Anna Łężniak-Seruga",
     "source": "arXiv cs.AI",
     "category": "research",
     "references": [
-      "http://arxiv.org/abs/2610.03649v1"
+      "http://arxiv.org/abs/2610.04705v1"
     ]
   },
   {
-    "title": "Do Large Language Models Know Colombian Law? A Reliability Benchmark for the Colombian Legal System",
-    "link": "http://arxiv.org/abs/2610.03639v1",
-    "published": "2026-10-02T17:27:41+00:00",
-    "summary": "Large language models (LLMs) are increasingly used to support legal practice, education, and research, yet their reliability in national legal systems outside the United States remains largely undocumented. We introduce an expert-validated benchmark for evaluating LLM reliability on the Colombian legal system. The benchmark comprises 1,042 items spanning ten areas of law and three question formats (closed multiple-choice, semi-open, and open-ended IRAC), built through a human-in-the-loop pipelin",
-    "author": "Rubén Manrique, Michelle Castellanos, Jorge Morales, Juan David Gutiérrez, Antonio Barreto Rozo, Joaquín Vélez Navarro",
+    "title": "Not Self-Decidable: LLMs Cannot Draw the Boundary of What an Agent Verifier Can Check",
+    "link": "http://arxiv.org/abs/2610.04699v1",
+    "published": "2026-10-03T18:25:12+00:00",
+    "summary": "A verifier for an agent faces rules of two kinds: the ones a fixed check can settle and the ones that require a judge. A team that derives its own checks fixes that split up front. Where the requirements come from outside, as in finance, healthcare and law, the agent enforces rules it did not write, so the split falls to runtime, recurring for every predicate of every rule on every action at a rate no reviewer can audit. Every escalation scheme assumes a model can make that decision itself, that",
+    "author": "Anthony Rhodes",
     "source": "arXiv cs.AI",
     "category": "research",
     "references": [
-      "http://arxiv.org/abs/2610.03639v1"
+      "http://arxiv.org/abs/2610.04699v1"
     ]
   },
   {
-    "title": "LoGo: Local-Global Rewards for Consistent Long-Horizon Video Generation",
-    "link": "http://arxiv.org/abs/2610.03636v1",
-    "published": "2026-10-02T17:26:18+00:00",
-    "summary": "Camera-controlled video models are rapidly advancing toward long generation horizons and complex camera control. A key failure mode is 3D inconsistency: as the camera moves, objects lose permanence and scene structures shift. Existing post-training techniques, which assign a single scalar reward to the entire generation, are poorly suited to correcting these inconsistencies over long horizons. We introduce LoGo, which blends global and spatially localized rewards for camera-controlled video mode",
-    "author": "Ziqi Ma, Shreya Sharma, Mohamed El Banani, Katja Schwarz, Chongjie Ye, Chao-Yuan Wu, Li Fei-Fei, Ben Mildenhall, Georgia Gkioxari, Justin Johnson, Gowthami Somepalli",
+    "title": "Penumbra: Sample-Efficient Adversarial Search for Regulatory Obligations",
+    "link": "http://arxiv.org/abs/2610.04693v1",
+    "published": "2026-10-03T18:11:23+00:00",
+    "summary": "Agents are entering finance, healthcare and law, sectors where a violation leaves no lexical signature and carries real penalties. Whether an omission is material, or a disclosure sufficient, depends on what the response left out. Probing such an obligation means finding responses one minimal edit from flipping compliance, and every probe costs a generation and two adjudications, so the binding constraint on regulatory red-teaming is sample efficiency, not volume. We introduce Penumbra, an adver",
+    "author": "Anthony Rhodes",
     "source": "arXiv cs.AI",
     "category": "research",
     "references": [
-      "https://ziqi-ma.github.io/logo-website/",
-      "http://arxiv.org/abs/2610.03636v1"
+      "http://arxiv.org/abs/2610.04693v1"
     ]
   },
   {
-    "title": "Credit Where It Matters: Dependency-Aware Policy Optimization for Terminal Agents",
-    "link": "http://arxiv.org/abs/2610.03634v1",
-    "published": "2026-10-02T17:24:48+00:00",
-    "summary": "Terminal-using agents benefit from reinforcement learning (RL) in coding, debugging, and other multi-step terminal tasks. In these tasks, later commands often depend on information or intermediate results produced by earlier commands. However, existing trajectory-level and step-level credit assignment methods do not explicitly trace the read-write dependencies through which commands affect the final outcome. Consequently, training signals could still be assigned to irrelevant operations, weakeni",
-    "author": "Yu Li, Guangfeng Cai, Long-Fei Li, Shuo Han, Shengtian Yang, Han Luo, Kaibing Yang, Lei Feng",
+    "title": "RAGStress: A controlled benchmark for evaluating retrieval-augmented generation under knowledge-base degradation",
+    "link": "http://arxiv.org/abs/2610.04691v1",
+    "published": "2026-10-03T18:07:17+00:00",
+    "summary": "Retrieval-Augmented Generation (RAG) is typically evaluated under the implicit assumption that the underlying knowledge base (KB) is clean, leaving the behaviour of RAG systems under realistic KB degradation poorly characterised. We introduce RAGStress, a controlled evaluation benchmark for stress-testing RAG systems under systematic KB corruption. The benchmark pairs four naturalistic corruption types (factual corruption, numeric typo, relevance poisoning, and contradiction injection) with thre",
+    "author": "Shiqi Yang, Jiekai Ma, Gaoyuan Du",
     "source": "arXiv cs.AI",
     "category": "research",
     "references": [
-      "http://arxiv.org/abs/2610.03634v1"
+      "http://arxiv.org/abs/2610.04691v1"
     ]
   },
   {
-    "title": "NeutronGym: Physics-Graded Neutron Instrument Design for LLM Agents",
-    "link": "http://arxiv.org/abs/2610.03631v1",
-    "published": "2026-10-02T17:23:52+00:00",
-    "summary": "Designing a scientific instrument tests whether language-model agents can do physics rather than recall it, provided the grading cannot be argued with. We introduce NeutronGym, to our knowledge the first executable environment for neutron instrument design: agents build instruments through validating tools, McStas ray-traces what they build, and a level-resolved ladder grades syntax, runtime, structure and science with no LLM judge. Procedural families supply unlimited instances of a fixed layou",
-    "author": "Lijie Ding, Changwoo Do",
+    "title": "When Debate Helps: Proposal Supply and Verification-Aware Readout in Multi-Agent Reasoning",
+    "link": "http://arxiv.org/abs/2610.04686v1",
+    "published": "2026-10-03T17:59:46+00:00",
+    "summary": "Multi-agent debate can improve reasoning, yet often fails to beat simple majority voting. We argue that successful debate requires two distinct mechanisms: proposal supply must surface a correct answer, and readout must identify that answer when voting misses it. We formalize the first requirement through recoverable headroom, which measures cases where a correct proposal is available but the majority answer is wrong. For the second, we develop Latent Verification Debate (LVD), an accounting mod",
+    "author": "Zihao Zhao, Tunyu Zhang, Haizhou Shi, Yusong Zhao, Xinxi Zhang, Hao Wang",
     "source": "arXiv cs.AI",
     "category": "research",
     "references": [
-      "http://arxiv.org/abs/2610.03631v1"
+      "https://github.com/Wang-ML-Lab/when-debate-helps",
+      "http://arxiv.org/abs/2610.04686v1"
     ]
   },
   {
-    "title": "Depth as Time in One-Step Generative Models",
-    "link": "http://arxiv.org/abs/2610.03626v1",
-    "published": "2026-10-02T17:20:08+00:00",
-    "summary": "The recent wave of one-step generative models, which compress the multi-step trajectory of diffusion via either distillation or learned flow maps, has reached an inflection point where they can generate high-quality images. Here, we ask a natural question that follows from these advances: what happens to the denoising trajectory of multi-step diffusion when generation is compressed into a single forward pass? We offer an empirical observation we call \\textit{depth as time}: the denoising computa",
-    "author": "Arnold Caleb Asiimwe, William Yang, Sanghyuk Chun, Esin Tureci, Olga Russakovsky",
+    "title": "Extracting Persona Subspaces Through Iterative Nullspace Projection For Modulation",
+    "link": "http://arxiv.org/abs/2610.04676v1",
+    "published": "2026-10-03T17:45:24+00:00",
+    "summary": "Large Language Models (LLMs) can adopt distinct personas to tune their semantics, expertise, and perspective to different users and tasks. Precise control over these traits is critical to ensure safety and reliability in model behavior. Existing methods like activation steering and prompt-based persona induction reduce a persona to a single dominant direction, missing the finer, nested traits that emerge only once that dominant signal is factored out. We introduce modulation as a setting where t",
+    "author": "Ananya Malik, Mai ElSherief",
     "source": "arXiv cs.AI",
     "category": "research",
     "references": [
-      "http://arxiv.org/abs/2610.03626v1"
+      "http://arxiv.org/abs/2610.04676v1"
     ]
   },
   {
-    "title": "Low-Cost Video--Time Priors as a Strong Baseline for EEG--fNIRS Emotion Regression on Familiar Videos",
-    "link": "http://arxiv.org/abs/2610.03618v1",
-    "published": "2026-10-02T17:14:45+00:00",
-    "summary": "Continuous emotion regression estimates moment-to-moment valence and arousal while a viewer watches a video. In familiar-video deployment, responses fron training participant-specific estimate, and prior-dominating fixed fusion tests whether physiology adds residual correction. In five-fold subject-held-out evaluation on 24was within 0.05 and 0.32 MAE of fusion in the internal and external evaluations, respectively. Source-explicit ablations showed that video identity and within-video tine accou",
-    "author": "Minghao Kong, Jiurun Chen, Ying Gao, Xiangbin Meng, Rongjie Wang",
+    "title": "MASBench: Benchmarking LLM-based Multi-Agent Collaboration under Partial Observability",
+    "link": "http://arxiv.org/abs/2610.04672v1",
+    "published": "2026-10-03T17:40:24+00:00",
+    "summary": "Large language models (LLMs) have progressively evolved into the core of autonomous agents. Building on this progress, LLM-based multi-agent systems (MAS) coordinate multiple agents into a synergistic team to accomplish complex tasks that exceed the capabilities of individual agents. The effectiveness of such systems depends not only on the agents themselves, but also on how collaboration mechanisms are designed and organized. Note that real-world collaboration is typically partially observable,",
+    "author": "Qizhi Chu, Zekai Yu, Sijie Wen, Yang Liu, Chen Qian, Cheng Yang, Chuan Shi, Zhiyuan Liu",
     "source": "arXiv cs.AI",
     "category": "research",
     "references": [
-      "http://arxiv.org/abs/2610.03618v1"
+      "https://github.com/BUPT-GAMMA/MASBench",
+      "http://arxiv.org/abs/2610.04672v1"
     ]
   },
   {
