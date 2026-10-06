@@ -1,5 +1,188 @@
 [
   {
+    "title": "One Figure, Every Canvas: Editable Flowchart Relayout via Agentic Pipeline",
+    "link": "http://arxiv.org/abs/2610.06852v1",
+    "published": "2026-10-05T17:59:54+00:00",
+    "summary": "Pipeline figures in ML papers must be repurposed across many canvases, including paper columns, 16:9 slides, portrait posters, 1:1 social teasers, 9:16 phone previews. Each format imposes a different aspect ratio on the same computational graph, where any silently broken connection misrepresents the method. We formulate aspect-ratio-adaptive flowchart relayout as a distinct task: given a raster flowchart and a target ratio, produce a structurally faithful, hallucination-free, editable layout. Ex",
+    "author": "Shih-Chen Tseng, Chih-Hsuan Chen, Ryan Yang, Hsi-An Chen, Chun-Wei Tuan Mu, Yu-Lun Liu",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "https://onefigureeverycanvas.vercel.app/",
+      "http://arxiv.org/abs/2610.06852v1"
+    ]
+  },
+  {
+    "title": "Base Models Can Reason By Taking a Cue From Training Data",
+    "link": "http://arxiv.org/abs/2610.06851v1",
+    "published": "2026-10-05T17:59:52+00:00",
+    "summary": "In this paper, we study how training data creates associations between the tokens at the start of a base model's response and the reasoning behavior that follows. First, we demonstrate that fixing particular starting token cues makes a base model's performance competitive with that of its reinforcement learning (RL)-trained counterparts on math and coding. For instance, the cue \".\\n\\nOkay\" raises Olmo-3-7B's MATH-500 pass@1 accuracy from 42% to 78%, while \"Alright,\" raises Qwen3-14B's from 72% t",
+    "author": "Sophie L. Wang, Amil Dravid, Rulin Shao, Kevin Farhat, Sewon Min, Alexei A. Efros",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2610.06851v1"
+    ]
+  },
+  {
+    "title": "BiasFlow: Geometric Monitoring and Backbone Regularization for Spurious Feature Reliance",
+    "link": "http://arxiv.org/abs/2610.06846v1",
+    "published": "2026-10-05T17:59:28+00:00",
+    "summary": "Worst-group accuracy (WGA) evaluates a trained predictor but does not characterize how its frozen backbone behaves when a new head is learned. We introduce BiasFlow, a hook-based toolkit for monitoring class-attribute centroid alignment (IBMI), within-class centroid separation (W-IBMI), and feature-projection sensitivity. IBMI is confounded by class-attribute correlation and is not a measure of causal feature reliance. We pair these diagnostics with BiasFlow Regularization (BFR), a supervised, c",
+    "author": "Haojin Deng, Zhiping Lin, Yimin Yang",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2610.06846v1"
+    ]
+  },
+  {
+    "title": "Learning to Read the Contextual Tokens in Diffusion Transformers",
+    "link": "http://arxiv.org/abs/2610.06844v1",
+    "published": "2026-10-05T17:59:17+00:00",
+    "summary": "Multimodal Diffusion Transformers (MM-DiTs) jointly process visual and textual representations throughout generation. These models repeatedly update the text tokens through multimodal attention, forming dynamic contextual tokens whose function is not well understood. In this work, we introduce a framework for reading this contextual space through natural-language interrogation. We train a lightweight bottleneck network that maps intermediate contextual tokens into the input space of a frozen Lar",
+    "author": "Omer Dahary, Etai Sella, Hadar Averbuch-Elor, Daniel Cohen-Or, Or Patashnik",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2610.06844v1"
+    ]
+  },
+  {
+    "title": "Recursive Video In-Context Learning for Agentic Robot",
+    "link": "http://arxiv.org/abs/2610.06843v1",
+    "published": "2026-10-05T17:59:11+00:00",
+    "summary": "LLM agents that orchestrate frozen vision-language-action (VLA) policies improve across episodes through text memory, which records what the agent did but not how the task is done. A demonstration video shows it, but fits poorly into an agent's context. The full video slows every turn, fixed keyframes lose the contact detail that decides whether a grasp holds, and what the agent needs shifts from the task's structure while planning to the frames around each contact. We introduce Recursive Video ",
+    "author": "Wenrui Bao, Xinxin Liu, Bingxin Xu, Yuzhang Shang",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2610.06843v1"
+    ]
+  },
+  {
+    "title": "UniSlider: Perceptually Uniform Sliders for Continuous Image Editing",
+    "link": "http://arxiv.org/abs/2610.06831v1",
+    "published": "2026-10-05T17:58:11+00:00",
+    "summary": "Sliders provide an intuitive interface for continuous image editing. In current generative approaches, however, the slider is simply a rescaling of the method's strength parameter, such as an adapter coefficient, a prompt weight, or an interpolation factor. This strength relates poorly to perceptual change. The image can partially revert as the slider moves, long stretches of the range produce no visible difference, and short intervals transform the image abruptly. Remapping the strength could f",
+    "author": "David Serrano-Lozano, Duygu Ceylan, Yannick Hold-Geoffroy, Iliyan Georgiev, Javier Vazquez-Corral, Anna Frühstück",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2610.06831v1"
+    ]
+  },
+  {
+    "title": "MemPilot: Orchestrating On-Demand Multimodal Memory Curation for LLM Agents",
+    "link": "http://arxiv.org/abs/2610.06830v1",
+    "published": "2026-10-05T17:58:06+00:00",
+    "summary": "Memory has become integral to the LLM agent ecosystem, supporting information retention and reuse across interactions. However, most existing agent memory systems construct memory in a query-agnostic manner, which can incur unnecessary preprocessing cost and discard details that later prove essential. Recent studies have begun shifting memory processing toward runtime adaptation, but typically specialize in particular operations or fixed processing schemes, leaving flexible control over performa",
+    "author": "Haozhen Zhang, Haodong Yue, Quanyu Long, Jianzhu Bao, Qingyuan Liu, Tao Feng, Bohan Liu, Weida Liang, Wenya Wang",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2610.06830v1"
+    ]
+  },
+  {
+    "title": "CLIFT: Conformal Self-Verification for Web Agent Training and Test-Time Scaling",
+    "link": "http://arxiv.org/abs/2610.06829v1",
+    "published": "2026-10-05T17:57:51+00:00",
+    "summary": "Open-source web agents are now strong enough to execute realistic browser tasks, but training them with reinforcement learning still depends on weak supervision: binary task success is too sparse for credit assignment, while frontier-language-model judges are too expensive to call at every step and cannot be assumed available at deployment. We introduce CLIFT, a training and test-time scaling method built around conformal self-verification. During training, the agent answers natural-language ver",
+    "author": "Yifan Zhang, Yutong Dai, Viraj Prabhu, Zhiyuan Hu, Ran Xu, Zeyuan Chen",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2610.06829v1"
+    ]
+  },
+  {
+    "title": "TasteVal: Measuring the Experimental Research Taste of AI Systems Against Human Experts",
+    "link": "http://arxiv.org/abs/2610.06824v1",
+    "published": "2026-10-05T17:57:15+00:00",
+    "summary": "We introduce TasteVal, a benchmark to evaluate the experimental research taste of frontier models. We define research taste as the ability to pick interesting problems to solve, design experiments, and interpret experimental results. TasteVal measures the experimental component of research taste; given a fixed research problem, we measure how well a model iteratively designs experiments and draws conclusions from their outcomes. We operationalize experimental research taste as compute efficiency",
+    "author": "Oliver Jaffe, Dane Sherburn",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2610.06824v1"
+    ]
+  },
+  {
+    "title": "Deep Learning for Sleep Heart Rate Estimation from Accelerometers: Toward Population-Scale Cardiac Insight Without Optical Sensors",
+    "link": "http://arxiv.org/abs/2610.06823v1",
+    "published": "2026-10-05T17:56:57+00:00",
+    "summary": "Large longitudinal cohorts often contain wrist accelerometry without optical heart-rate sensing, motivating recovery of cardiac information from motion signals already collected during sleep. We present SeqSmoother, a transformer-based temporal corrector for sleep heart rate (HR) estimation from wrist accelerometry. SeqSmoother combines spectral descriptors with an intermediate Nightbeat-derived frequency anchor and a physics-motivated sub-harmonic feature designed to identify harmonic frequency",
+    "author": "Tanbin Islam Rohan, Pranjol Sen Gupta, Tanusree Debi, Nazmus Sakib",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2610.06823v1"
+    ]
+  },
+  {
+    "title": "Paradee: Distilling Kokoro-82M into an 8M-Parameter Single-Voice Text-to-Speech Model",
+    "link": "http://arxiv.org/abs/2610.06817v1",
+    "published": "2026-10-05T17:56:07+00:00",
+    "summary": "We distill Kokoro-82M, a widely used open text-to-speech model with 54 voices, into Paradee, an 8.07M-parameter model that speaks one of them. Paradee keeps Kokoro's architecture with much narrower layers, and each of its two halves is trained separately against the frozen teacher. It has 10x fewer parameters and needs 15x less compute. We first synthesize a corpus with the teacher and keep its durations, pitch, energy and phoneme features. We then train a small text side to predict these values",
+    "author": "Sahil Mahendrakar",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "https://github.com/sahilmahendrakar/paradee",
+      "http://arxiv.org/abs/2610.06817v1"
+    ]
+  },
+  {
+    "title": "TAPDreamer: Transferable Adversarial Patches for World Action Models",
+    "link": "http://arxiv.org/abs/2610.06814v1",
+    "published": "2026-10-05T17:55:21+00:00",
+    "summary": "World models learn to predict how their environment will evolve, making them an important foundation for general-purpose robotic control. Yet world action models depend on camera inputs whose manipulation can corrupt the visual representations used across tasks and action policies. Existing attacks on these models optimize against the victim's actions or predicted futures and therefore require access to target-model outputs. In this paper, we propose an attack, TAPDreamer, against world action m",
+    "author": "Xuanyu Lu, Fengqing Jiang, Kaiyuan Zheng, Yichen Feng, Yaorui Ding, Yuetai Li, Zhen Xiang, Bhaskar Ramasubramanian, Basel Alomair, Luyao Niu, Radha Poovendran",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2610.06814v1"
+    ]
+  },
+  {
+    "title": "Sharpen Without Search: On-Policy Distillation of Sequence-Level Power Distribution",
+    "link": "http://arxiv.org/abs/2610.06804v1",
+    "published": "2026-10-05T17:53:30+00:00",
+    "summary": "A language model can give a correct answer more probability than any single incorrect answer and still usually sample an incorrect one, because the incorrect answers together hold more probability. The power distribution raises each complete answer's probability to a power above one and renormalizes, shifting probability toward answers the model finds most likely (sharpening). Sampling from it improves reasoning without changing parameters, but needs many scored candidates per query. We show tha",
+    "author": "Erfan Baghaei Potraghloo, Seyedarmin Azizi, Arya Fayyazi, Saeid Shokoufa, Mehdi Kamal, Souvik Kundu, Massoud Pedram",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "https://github.com/ArminAzizi98/OPPD",
+      "http://arxiv.org/abs/2610.06804v1"
+    ]
+  },
+  {
+    "title": "MC-Sparse: Deconstructing and Closing the Dense-Sparse Attention Gap in Diffusion Transformers",
+    "link": "http://arxiv.org/abs/2610.06801v1",
+    "published": "2026-10-05T17:51:42+00:00",
+    "summary": "Sparse attention is a primary approach to reducing the latency of diffusion transformers in long-sequence generation tasks, such as video and high-resolution 3D asset generation. However, existing methods can degrade generation quality and fidelity at high sparsity levels. Through controlled oracle comparisons, we trace this degradation to three sources: constraints imposed by token grouping, inaccurate interaction selection, and the attention contributions lost when tokens are discarded. Guided",
+    "author": "Jiarui Chen, Zeqiang Lai, Jiangshan Wang, Ziheng Ouyang, Ye Huang, Xiangyu Yue, Cewu Lu, Chunchao Guo",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2610.06801v1"
+    ]
+  },
+  {
+    "title": "Back to the Future: Rethinking EDA Infrastructure for Agentic Systems in Chip Design Verification",
+    "link": "http://arxiv.org/abs/2610.06790v1",
+    "published": "2026-10-05T17:48:14+00:00",
+    "summary": "The unprecedented computational scale of modern artificial intelligence depends on complex, multi-billion-transistor Systems-on-Chip, yet the workflows that verify these chips remain stubbornly manual. Although Large Language Models (LLMs) have made rapid inroads into Electronic Design Automation (EDA), approximately 74.6% of existing studies target static Register-Transfer Level (RTL) code generation, leaving post-simulation verification and interactive waveform debugging largely untouched. We ",
+    "author": "Je Yang, Ivan Lobov, Thomas Karpati",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2610.06790v1"
+    ]
+  },
+  {
     "title": "Connecting AI agents to enterprise knowledge",
     "link": "https://www.technologyreview.com/2026/10/05/1145580/connecting-ai-agents-to-enterprise-knowledge/",
     "published": "2026-10-05T15:47:52+00:00",
@@ -81,189 +264,6 @@
     "category": "media",
     "references": [
       "https://www.technologyreview.com/2026/10/05/1145413/emtech-future-2026-when-ai-meets-everything/"
-    ]
-  },
-  {
-    "title": "Robot Learning with Visual Predicted Force",
-    "link": "http://arxiv.org/abs/2610.04741v1",
-    "published": "2026-10-03T20:11:33+00:00",
-    "summary": "Force-aware manipulation typically relies on specialized force or tactile sensors. We show that force-aware manipulation can instead be achieved through visual force prediction from the deformation of a compliant Fin Ray gripper. Our approach trains two models. First, we train a visual force estimator on calibration data and use it to annotate task demonstrations with force estimates. Second, we train an action--force proposal policy on these force-augmented demonstrations to jointly generate ca",
-    "author": "Haonan Chen, Feiyang Wu, Yuxiang Ma, Mustafa Mete, Pengfei Ye, Junxuan Shen, Cheng Zhu, Aurora Ruggeri, Kelvin Cheung, Jiayuan Mao, Edward Adelson, Jiajun Wu, Robert D. Howe, Yilun Du",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2610.04741v1"
-    ]
-  },
-  {
-    "title": "Toward a Locally Deployable Agentic Co-Scientist: Small-Model Planning for Early-Stage Drug Discovery",
-    "link": "http://arxiv.org/abs/2610.04740v1",
-    "published": "2026-10-03T20:09:34+00:00",
-    "summary": "Early-stage computational drug discovery requires coordinating heterogeneous scientific tools across multi-step workflows. We present a lightweight, tool-augmented framework in which a locally deployable compact language model plans calls to 18 modular tools. A Unified Molecular Schema maintains shared molecular records, while a plug-in interface supports tool replacement and extension. We construct 1,263 manually refined query-plan pairs through workflow-graph path coverage and apply LoRA fine-",
-    "author": "Tian Liang, Jiayu Chang, Alejandro F. Frangi, Mobarak I. Hoque, Richard A. Bryce",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2610.04740v1"
-    ]
-  },
-  {
-    "title": "PyINE: A Framework for Scalable Elicitation and Oversight via Code Execution",
-    "link": "http://arxiv.org/abs/2610.04737v1",
-    "published": "2026-10-03T20:03:43+00:00",
-    "summary": "Reasoning models can remain capable of solving a task while still defaulting to cheaper but misleading shortcuts. This creates a central oversight problem: when a model gives an answer with plausible but incomplete reasoning, can an overseer determine whether that output should be trusted? To study this problem, we introduce PyINE, a framework for scalable elicitation and oversight using instrumented Python programs as a verifiable execution substrate. In PyINE, programs define task environments",
-    "author": "Pierre-Luc St-Charles, Alessandro Palmas, Damiano Fornasiere, Storm Lei, Mirko Bronzi, Jean-Pierre Falet, Iulian Serban, Yoshua Bengio",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2610.04737v1"
-    ]
-  },
-  {
-    "title": "Knossos and Ariadne: Benchmarking and Learning Complete Diagram Topology Extraction with Vision-Language Models",
-    "link": "http://arxiv.org/abs/2610.04721v1",
-    "published": "2026-10-03T19:20:33+00:00",
-    "summary": "Structural diagrams are widely used to represent complex systems and relational information across scientific, engineering, procedural, and spatial domains. Recent vision-language models (VLMs) have become increasingly capable of recognizing diagram elements and reasoning about their content, while complete diagram topology extraction remains comparatively underexplored. In this paper, we study diagram-to-graph topology extraction: extracting all diagram entities and the complete relations among",
-    "author": "Bangwei Guo, Xujiang Zhao, Shengyu Chen, Yanchi Liu, Wei Cheng, Xi Zhu, Guoning Zhang, Dimitris N. Metaxas, Haifeng Chen",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "https://github.com/bangwayne/knossos_Ariadne_Public",
-      "http://arxiv.org/abs/2610.04721v1"
-    ]
-  },
-  {
-    "title": "Learning to Clarify Underspecified Intents Under Limited Interaction",
-    "link": "http://arxiv.org/abs/2610.04719v1",
-    "published": "2026-10-03T19:17:57+00:00",
-    "summary": "AI assistants receive requests that leave out information needed for a good outcome, for example about users' preferences or goals. They must then either speculate or ask for more information before proceeding. We reconceptualize this as a value-of-information problem: the assistant should acquire information whose absence causes the greatest avoidable loss in user utility. This is rarely known ex ante; rather, assistants must predict it in order to optimally allocate limited user interactions. ",
-    "author": "Pranav M R, Manuel Cherep, Pattie Maes, Nikhil Singh",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2610.04719v1"
-    ]
-  },
-  {
-    "title": "Towards Automatically Pruning Logging Code with Coding Agents: How Far Are We?",
-    "link": "http://arxiv.org/abs/2610.04716v1",
-    "published": "2026-10-03T19:11:19+00:00",
-    "summary": "Logging code supports debugging, monitoring, and software maintenance, but excessive logging can add noise, impose runtime overhead, and obscure diagnostic information. While prior research has extensively studied logging code generation and modification, logging removal remains comparatively underexplored. In this paper, we study developer logging removal practices and explore the use of coding agents for this task. We extract and manually validate logging removal cases from Python and Java rep",
-    "author": "He Yang Yuan, Haonan Zhang, Xin Wang, An Ran Chen, Kisub Kim, Zishuo Ding, Zhenhao Li",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2610.04716v1"
-    ]
-  },
-  {
-    "title": "Organising Trajectory Evidence for Language-Model Agent Assurance: Fragments, Methods, and the Residual",
-    "link": "http://arxiv.org/abs/2610.04710v1",
-    "published": "2026-10-03T18:51:40+00:00",
-    "summary": "Methods for assessing language-model agents include rule checkers over logs, analyses of skill coverage and composition, support checkers, prefix monitors, execution gates, and rare-event estimators. Each observes a different part of a run and makes a claim of a different strength, and no common account says how these claims combine or what they leave unchecked. We give one, built from a logic, information fragments, and an assurance ledger. Requirements are formulas of a two-tier logic: an oute",
-    "author": "Xiaowei Huang",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2610.04710v1"
-    ]
-  },
-  {
-    "title": "VoCa: Designing Speech-Canvas Interaction for Voice-Based Conversational Agents",
-    "link": "http://arxiv.org/abs/2610.04706v1",
-    "published": "2026-10-03T18:39:31+00:00",
-    "summary": "People write and sketch while speaking to explain, organize, and develop content together. Inspired by these practices, we investigate how voice agents can use a canvas alongside speech in multi-turn conversations with users. We conducted a two-part formative study: an observational study of how pairs coordinated speech and boardwork, followed by a design workshop that informed a design space for speech-canvas interaction with voice agents. Building on these insights, we developed VoCa, a voice ",
-    "author": "Yate Ge, Run Yuan, Yueran Qi, Wenjie He, Jiaqi Mo, Yangshuo Chen, Wenbin Zuo, Xiaohua Sun, Weiwei Guo, Qi Wang",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2610.04706v1"
-    ]
-  },
-  {
-    "title": "Neurodiversity-Aware Multimodal Affective Computing for Neurodevelopmental Assessment: From Norm-Referenced Classification to Context-Sensitive Decision Support",
-    "link": "http://arxiv.org/abs/2610.04705v1",
-    "published": "2026-10-03T18:38:22+00:00",
-    "summary": "Automated neurodevelopmental assessment increasingly combines computer vision, speech, eye tracking, physiology, and machine learning, yet multimodality and discrimination do not establish construct validity, clinical usefulness, or appropriate interpretation of behavioral variation. We propose a testable architecture for neurodiversity-aware multimodal affective computing in which population-relative deviation is not treated as sufficient evidence of adverse functioning. This conceptual article",
-    "author": "Mateusz Pomianek, Anna Łężniak-Seruga",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2610.04705v1"
-    ]
-  },
-  {
-    "title": "Not Self-Decidable: LLMs Cannot Draw the Boundary of What an Agent Verifier Can Check",
-    "link": "http://arxiv.org/abs/2610.04699v1",
-    "published": "2026-10-03T18:25:12+00:00",
-    "summary": "A verifier for an agent faces rules of two kinds: the ones a fixed check can settle and the ones that require a judge. A team that derives its own checks fixes that split up front. Where the requirements come from outside, as in finance, healthcare and law, the agent enforces rules it did not write, so the split falls to runtime, recurring for every predicate of every rule on every action at a rate no reviewer can audit. Every escalation scheme assumes a model can make that decision itself, that",
-    "author": "Anthony Rhodes",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2610.04699v1"
-    ]
-  },
-  {
-    "title": "Penumbra: Sample-Efficient Adversarial Search for Regulatory Obligations",
-    "link": "http://arxiv.org/abs/2610.04693v1",
-    "published": "2026-10-03T18:11:23+00:00",
-    "summary": "Agents are entering finance, healthcare and law, sectors where a violation leaves no lexical signature and carries real penalties. Whether an omission is material, or a disclosure sufficient, depends on what the response left out. Probing such an obligation means finding responses one minimal edit from flipping compliance, and every probe costs a generation and two adjudications, so the binding constraint on regulatory red-teaming is sample efficiency, not volume. We introduce Penumbra, an adver",
-    "author": "Anthony Rhodes",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2610.04693v1"
-    ]
-  },
-  {
-    "title": "RAGStress: A controlled benchmark for evaluating retrieval-augmented generation under knowledge-base degradation",
-    "link": "http://arxiv.org/abs/2610.04691v1",
-    "published": "2026-10-03T18:07:17+00:00",
-    "summary": "Retrieval-Augmented Generation (RAG) is typically evaluated under the implicit assumption that the underlying knowledge base (KB) is clean, leaving the behaviour of RAG systems under realistic KB degradation poorly characterised. We introduce RAGStress, a controlled evaluation benchmark for stress-testing RAG systems under systematic KB corruption. The benchmark pairs four naturalistic corruption types (factual corruption, numeric typo, relevance poisoning, and contradiction injection) with thre",
-    "author": "Shiqi Yang, Jiekai Ma, Gaoyuan Du",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2610.04691v1"
-    ]
-  },
-  {
-    "title": "When Debate Helps: Proposal Supply and Verification-Aware Readout in Multi-Agent Reasoning",
-    "link": "http://arxiv.org/abs/2610.04686v1",
-    "published": "2026-10-03T17:59:46+00:00",
-    "summary": "Multi-agent debate can improve reasoning, yet often fails to beat simple majority voting. We argue that successful debate requires two distinct mechanisms: proposal supply must surface a correct answer, and readout must identify that answer when voting misses it. We formalize the first requirement through recoverable headroom, which measures cases where a correct proposal is available but the majority answer is wrong. For the second, we develop Latent Verification Debate (LVD), an accounting mod",
-    "author": "Zihao Zhao, Tunyu Zhang, Haizhou Shi, Yusong Zhao, Xinxi Zhang, Hao Wang",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "https://github.com/Wang-ML-Lab/when-debate-helps",
-      "http://arxiv.org/abs/2610.04686v1"
-    ]
-  },
-  {
-    "title": "Extracting Persona Subspaces Through Iterative Nullspace Projection For Modulation",
-    "link": "http://arxiv.org/abs/2610.04676v1",
-    "published": "2026-10-03T17:45:24+00:00",
-    "summary": "Large Language Models (LLMs) can adopt distinct personas to tune their semantics, expertise, and perspective to different users and tasks. Precise control over these traits is critical to ensure safety and reliability in model behavior. Existing methods like activation steering and prompt-based persona induction reduce a persona to a single dominant direction, missing the finer, nested traits that emerge only once that dominant signal is factored out. We introduce modulation as a setting where t",
-    "author": "Ananya Malik, Mai ElSherief",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2610.04676v1"
-    ]
-  },
-  {
-    "title": "MASBench: Benchmarking LLM-based Multi-Agent Collaboration under Partial Observability",
-    "link": "http://arxiv.org/abs/2610.04672v1",
-    "published": "2026-10-03T17:40:24+00:00",
-    "summary": "Large language models (LLMs) have progressively evolved into the core of autonomous agents. Building on this progress, LLM-based multi-agent systems (MAS) coordinate multiple agents into a synergistic team to accomplish complex tasks that exceed the capabilities of individual agents. The effectiveness of such systems depends not only on the agents themselves, but also on how collaboration mechanisms are designed and organized. Note that real-world collaboration is typically partially observable,",
-    "author": "Qizhi Chu, Zekai Yu, Sijie Wen, Yang Liu, Chen Qian, Cheng Yang, Chuan Shi, Zhiyuan Liu",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "https://github.com/BUPT-GAMMA/MASBench",
-      "http://arxiv.org/abs/2610.04672v1"
     ]
   },
   {
