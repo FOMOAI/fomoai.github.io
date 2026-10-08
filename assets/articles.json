@@ -1,62 +1,194 @@
 [
   {
-    "title": "AgentTime: Can Agents Estimate and Control Their Own Runtime?",
-    "link": "http://arxiv.org/abs/2610.09944v1",
-    "published": "2026-10-07T12:26:24+00:00",
-    "summary": "An essential control of AI agents is their ability to manage runtime. This ability requires a sense of time-awareness, to predict and estimate wall-clock time and to control their own actions. Prior work has focused on time-awareness, but duration-following and control in native agent harnesses remain unexplored. We present AgentTime, a benchmark for testing whether agents can work for a requested duration, predict their runtime, and estimate elapsed time afterward. It comprises 222 tasks from 1",
-    "author": "Michael Ofengenden, Maksym Andriushchenko",
-    "source": "arXiv cs.AI",
-    "category": "research",
+    "title": "Building a safer path to autonomous industrial AI",
+    "link": "https://www.technologyreview.com/2026/10/08/1144020/building-a-safer-path-to-autonomous-industrial-ai/",
+    "published": "2026-10-08T08:17:32+00:00",
+    "summary": "Industrial AI is entering a new phase. After decades of predictive analytics and other specialized applications, advances in foundation models, physical AI, and agentic AI are making it possible to automate more complex tasks across industrial environments. But unlike AI that operates purely in the digital world, industrial AI can interact directly with physical systems,&#8230;",
+    "author": "MIT Technology Review Insights",
+    "source": "MIT Tech Review",
+    "category": "media",
     "references": [
-      "http://arxiv.org/abs/2610.09944v1"
+      "https://www.technologyreview.com/2026/10/08/1144020/building-a-safer-path-to-autonomous-industrial-ai/"
     ]
   },
   {
-    "title": "Fast holographic inversion of superconducting domes",
-    "link": "http://arxiv.org/abs/2610.09938v1",
-    "published": "2026-10-07T12:24:00+00:00",
-    "summary": "A holographic superconductor whose scalar mass depends on the gauge field strength, $M(\\Fsq)$, reproduces a superconducting dome for a suitable $M$, and recovering that $M$ from a given dome has so far taken days for a single training run. We propose a new way of training this model, with which an inversion takes from about ten minutes to an hour. Training needs the gradient of the condition that fixes the critical temperature, which the earlier method obtains by finite differences, repeating th",
-    "author": "Sejin Kim",
+    "title": "Never Look Back: Understanding Persistence in 3D Object Memory from Egocentric Videos",
+    "link": "http://arxiv.org/abs/2610.10538v1",
+    "published": "2026-10-07T17:59:41+00:00",
+    "summary": "As we move through the world and carry out everyday tasks, we encounter objects that may become relevant only later. We are capable of recalling where we left something or what was inside a container, even without knowing we would need it later. Here, we study how an embodied assistant can build a similar memory from egocentric videos, by observing a person's day-to-day activities. We present Ledger, a persistent 3D object memory that combines object locations, their histories, and contextual de",
+    "author": "Shravan Chaudhari, William Paul, Suchi Saria, Rama Chellappa, Homanga Bharadhwaj",
     "source": "arXiv cs.AI",
     "category": "research",
     "references": [
-      "http://arxiv.org/abs/2610.09938v1"
+      "http://arxiv.org/abs/2610.10538v1"
     ]
   },
   {
-    "title": "Where Can a Decision Model Diagnose HVAC Faults? Reasoning Demand, Physical Representation, and Robustness Under Shift",
-    "link": "http://arxiv.org/abs/2610.09937v1",
-    "published": "2026-10-07T12:23:55+00:00",
-    "summary": "Artificial intelligence supports building operations in several forms, each with its own barrier. Expert rules must be tuned for every system, supervised models need labeled data that buildings rarely record, and language models return free text that requires human-in-the-loop checking, since their stated confidence is unreliable. A newer kind of pretrained model, here called a decision model, returns a probability for every allowed answer, so one model could serve many decisions without trainin",
-    "author": "Wooyoung Jung",
+    "title": "Decoupling Exploration from Optimization in RLVR",
+    "link": "http://arxiv.org/abs/2610.10536v1",
+    "published": "2026-10-07T17:59:26+00:00",
+    "summary": "Modern language models undergo reinforcement learning with verifiable rewards (RLVR) on top of already-trained checkpoints. A key promise of RLVR is the discovery of new reasoning strategies. In principle, a model can sample novel ideas absent from its prior training data. In practice, however, augmenting RLVR with strong novelty incentives has seen limited success and can degrade model quality. Because verifiable rewards supervise only a narrow slice of the model's knowledge and behavior, such ",
+    "author": "Saif Punjwani, Micah Goldblum",
     "source": "arXiv cs.AI",
     "category": "research",
     "references": [
-      "http://arxiv.org/abs/2610.09937v1"
+      "http://arxiv.org/abs/2610.10536v1"
     ]
   },
   {
-    "title": "Itgan at NADI 2026 shared task: Parameter-Efficient Whisper Adaptation for Robust, Mixed-Dialect and Code-Switched Arabic ASR",
-    "link": "http://arxiv.org/abs/2610.09934v1",
-    "published": "2026-10-07T12:18:40+00:00",
-    "summary": "We describe the Itgan systems for the three ASR subtasks of NADI 2026, namely robust country-level ASR (1.1), mixed-dialect ASR (1.2), and Tunisian code-switched ASR (1.3). All three share one recipe, Whisper adapted with LoRA on consumer GPUs, and each was carried by a different addition to it. On 1.1, where the dialect label is given at test time, per-dialect specialists continued from a pooled adapter gave the largest gain, and the submitted system reached 57.1% country-average WER. A post-ev",
-    "author": "Ibrahim Almajai",
+    "title": "Long-WAM: Scaling the Context of World-Action Models",
+    "link": "http://arxiv.org/abs/2610.10528v1",
+    "published": "2026-10-07T17:58:04+00:00",
+    "summary": "Real-time robot control demands enough visual history to infer motion and task progress, but processing that history can delay action. We present Long-WAM, a model-system framework for scaling the context of causal world-action models under real-time control constraints. Our central finding is that access to history is not the same as using it: longer histories pay off far more when the video foundation is pretrained autoregressively (AR). We first learn causal prediction from robot and egocentr",
+    "author": "Wei Huang, Bohan Zhang, Chenzhi Liu, Isabella Liu, Shuai Yang, Weian Mao, Luozhou Wang, Yicheng Xiao, Weifeng Lin, Qixin Hu, Bryan Chu, Sifei Liu, Linxi Fan, Xiaojuan Qi, Song Han, Yukang Chen",
     "source": "arXiv cs.AI",
     "category": "research",
     "references": [
-      "http://arxiv.org/abs/2610.09934v1"
+      "http://arxiv.org/abs/2610.10528v1"
     ]
   },
   {
-    "title": "KGATE : a Knowledge Graph Embedding Training Environment",
-    "link": "http://arxiv.org/abs/2610.09927v1",
-    "published": "2026-10-07T12:14:50+00:00",
-    "summary": "Knowledge graph embedding (KGE) models encode the entities and relations of a knowledge graph into a low-dimensional latent space, enabling tasks such as classification or link prediction. Most KGE models follow an autoencoder architecture, in which an encoder projects the knowledge graph into the latent space and a decoder reconstruct it. Combining both encoder and decoder components is increasingly needed, yet existing libraries rarely support complete autoencoders, are often unmaintained, rel",
-    "author": "Benjamin Loire, Galadriel Brière, Célia Brahimi, Antoine Toffano, Anaïs Baudot",
+    "title": "RoboJEPA: Scaling Robotic Latent World Models",
+    "link": "http://arxiv.org/abs/2610.10515v1",
+    "published": "2026-10-07T17:54:42+00:00",
+    "summary": "Latent world models have shown a remarkable ability to predict future states and to plan in the real world. In practice, however, we lack a principled way to estimate how their capabilities scale with model size, data, and compute, an open problem that slows progress in the field. In this work we present RoboJEPA, a world model based on the Joint Embedding Predictive Architecture (JEPA) and trained on a large-scale dataset spanning 12 robotic embodiments. We show that RoboJEPA's imagination erro",
+    "author": "Artem Zholus, Nicolas Beltran-Velez, Jianhao Yuan, Sarath Chandar, Tushar Nagarajan, Daniel Severo, Koustuv Sinha, Michal Drozdzal, Adriana Romero Soriano, Jeannette Bohg, Nicolas Ballas, Mahmoud Assran",
     "source": "arXiv cs.AI",
     "category": "research",
     "references": [
-      "http://arxiv.org/abs/2610.09927v1"
+      "http://arxiv.org/abs/2610.10515v1"
+    ]
+  },
+  {
+    "title": "SciExam for ENSO: Can AI Agents Build Climate Models?",
+    "link": "http://arxiv.org/abs/2610.10513v1",
+    "published": "2026-10-07T17:52:52+00:00",
+    "summary": "Language-model agents are increasingly asked to carry out open-ended scientific research, yet their results are usually graded against a known answer, a rubric, or a language-model reviewer, none of which can tell whether a new scientific model is valid. The AI Science Exam for El Nino-Southern Oscillation (SciExam for ENSO) is a benchmark in which agents build low-order stochastic models of ENSO, the dominant mode of interannual climate variability, from real observations. Within a six-hour bud",
+    "author": "Yinling Zhang, Langchen Liu, Dongbin Xiu, Xueyan Zou, Xu Kuang, Mengdi Wang, Shilong Liu",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2610.10513v1"
+    ]
+  },
+  {
+    "title": "RECAST: Learning to Compute the Right Context through Adaptive Evidence Routing",
+    "link": "http://arxiv.org/abs/2610.10507v1",
+    "published": "2026-10-07T17:51:08+00:00",
+    "summary": "Large language models are increasingly applied to tasks grounded in long, heterogeneous information sources. Conventional Retrieval-Augmented Generation (RAG) relies on fixed similarity-based retrieval, while agentic variants adapt queries and tool use but remain largely retrieval-centric. However, in many tasks, the evidence required for a solution is not explicitly present in any single source item. Instead, it must be derived through filtering, aggregation, or computation across multiple sour",
+    "author": "Yilun Hao, Krishna Sayana, Isabella Ye, James S Ren, Sukhdeep Sodhi, Craig Boutilier, Chuchu Fan",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2610.10507v1"
+    ]
+  },
+  {
+    "title": "Validity Without Ground Truth: What Stated-Preference Economics Offers the Evaluation of Language Models",
+    "link": "http://arxiv.org/abs/2610.10506v1",
+    "published": "2026-10-07T17:51:07+00:00",
+    "summary": "Many of the questions now put to large language models have no correct answer to score against: what a policy is worth, which option a user should choose, how to weigh competing values. Stated-preference economics has faced this problem for decades. It judges survey responses without knowing the true value, through a framework of validity and related concepts: content, construct, and criterion validity, reliability, incentive compatibility, and consequentiality. We argue that this framework is a",
+    "author": "Daniel Robert Kling Alexander, Catherine Louise Kling",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2610.10506v1"
+    ]
+  },
+  {
+    "title": "EmbodiedRSI: Active Continual Robot Learning Through Hypothesis-Guided Co-Evolution",
+    "link": "http://arxiv.org/abs/2610.10498v1",
+    "published": "2026-10-07T17:48:02+00:00",
+    "summary": "Robot foundation models provide strong visuomotor control, yet their performance can degrade when object positions or task instructions change. Further improvements often require post-training on substantial robot data, which can be costly to collect through methods such as teleoperation. Agentic harnesses can adapt around the model, but current self-evolving harnesses use robot trials inefficiently when deciding which code and skill changes to pursue. We introduce EmbodiedRSI, a self-evolving a",
+    "author": "Python Song, Zhixuan Liang, Kelsey Fu, Mengdi Wang, Junfeng Yang, Shilong Liu",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2610.10498v1"
+    ]
+  },
+  {
+    "title": "Before They Can Solve: Predicting Post-Training Coding-Agent Performance from Base Models",
+    "link": "http://arxiv.org/abs/2610.10478v1",
+    "published": "2026-10-07T17:37:19+00:00",
+    "summary": "How can we predict which base checkpoint is worth an expensive round of agentic post-training? End-to-end pass@$K$ tests whether successful behavior already appears in a base model's distribution, but it is a poor fit for agentic coding: many base checkpoints cannot reliably produce the well-formed tool invocation required to complete a task end-to-end. Single-shot or short-horizon tasks avoid these tool-calling failures by collapsing a multi-step interaction into a fixed prompt and a single pat",
+    "author": "Tan Yu, Alexander Bukharin, Khushi Bhardwaj, Jennifer Williams, Zirui Liu, Jonathan Lingjie Li, Soumye Singhal, Joseph Jennings, Sanjeev Satheesh, Yash Jain, Ashish Vaswani, Venkat Krishna Srinivasan, Matthew Papakipos, Hyunwoo Kim, Jian Zhang, Oleksii Kuchaiev, Markus Kliegl, Mostofa Patwary, Mohammad Shoeybi, Bryan Catanzaro, Jonathan Cohen, Jiantao Jiao",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2610.10478v1"
+    ]
+  },
+  {
+    "title": "A Society of Researchers: Designing Institutions for Populations of Autonomous Research Agents",
+    "link": "http://arxiv.org/abs/2610.10468v1",
+    "published": "2026-10-07T17:30:45+00:00",
+    "summary": "Deployments of research agents are moving to populations of thousands that share one pool of compute, while most current systems organize one project at a time or leave the population unorganized. We argue that such a population will acquire an organization whether or not its designers provide one, so designers should provide it explicitly, and that the multi-agent systems community holds the tools to do so. We propose a society of agents, a population of persistent agents under explicit institu",
+    "author": "Ali Asaria, Deep Gandhi, Tony Salomone",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2610.10468v1"
+    ]
+  },
+  {
+    "title": "How assigned AI use before class shapes active student engagement in class",
+    "link": "http://arxiv.org/abs/2610.10463v1",
+    "published": "2026-10-07T17:29:14+00:00",
+    "summary": "AI learning tools are rapidly entering classrooms, but evidence about whether they help students learn is mixed and rests mostly on test scores. Comparatively less research addresses whether the use of AI changes students' live learning behaviors in class. Here, we report the results of a preregistered field experiment with 759 MBA students enrolled in ten sections of a course, in which each student was randomly assigned two of ten class sessions to prepare for with a purpose-built voice-based A",
+    "author": "Dan J. Wang, Neelam Modi Jain, Vanessa Burbano, Jorge Guzman, Daniel Keum, Soomi Kim, Bruce Kogut, Nataliya Wright",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2610.10463v1"
+    ]
+  },
+  {
+    "title": "FoldBack: Self-Correcting Masked Generative Policy for Long-Horizon Garment Folding",
+    "link": "http://arxiv.org/abs/2610.10462v1",
+    "published": "2026-10-07T17:28:32+00:00",
+    "summary": "We present FoldBack, a self-correcting masked generative policy for long-horizon garment folding. Existing long-trajectory policies may continue after a missed or slipped grasp even when the garment has not reached the intended configuration. We structure FoldBack's recovery mechanisms around three inference-time decisions: when to refine and verify, how to roll back, and where and how to retry. FoldBack aligns refinement and grasp verification with pick-and-place events, returns the robot to a ",
+    "author": "Lipeng Zhuang, Shiyu Fan, Yingdong Ru, Zhuo He, Florent P. Audonnet, Paul Henderson, Gerardo Aragon Camarasa",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2610.10462v1"
+    ]
+  },
+  {
+    "title": "Composing What Each Teacher Learned: Multi-Teacher On-Policy Distillation through Teacher-Relative Shifts",
+    "link": "http://arxiv.org/abs/2610.10460v1",
+    "published": "2026-10-07T17:27:46+00:00",
+    "summary": "Multi-teacher on-policy distillation (MOPD) is used in two settings. In common-domain composition, several teachers score each student rollout from one prompt domain and their signals form a single target; in routed-domain distillation, prompts from different domains are assigned to the corresponding specialist. Both settings usually transfer each teacher's endpoint policy, which mixes what post-training changed with preferences inherited from the teacher's base. We introduce $Δ$-MOPD, which tra",
+    "author": "Hejian Sang, Zhengze Zhou, Shayan Mohajer Hamidi, Xiaomin Li, Rohit Jain, Alborz Geramifard",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2610.10460v1"
+    ]
+  },
+  {
+    "title": "PHRBench: A Behavioral Evaluation of Post-Hallucination Reasoning in LLMs",
+    "link": "http://arxiv.org/abs/2610.10455v1",
+    "published": "2026-10-07T17:25:23+00:00",
+    "summary": "Hallucinated information can propagate through multi-stage LLM systems and become part of the context for subsequent reasoning. Existing studies of post-hallucination reasoning (PHR) mainly characterize changes in final outcomes and aggregate reasoning dynamics, leaving how models resolve hallucinated premises at the response level insufficiently understood. In this work, we introduce PHRBench, a controlled benchmark for behaviorally structured PHR across four domains and 18 large language model",
+    "author": "Linghao Meng, Feng He, Xuan Yang, Junyuan Mao, Pinze Ren, Deqing Mu, Hesen Yang, Qiankun Li",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2610.10455v1"
+    ]
+  },
+  {
+    "title": "A Good Self-Teacher Meets the Student Where They Are: Joint On-Policy Learning and Teaching",
+    "link": "http://arxiv.org/abs/2610.10447v1",
+    "published": "2026-10-07T17:19:19+00:00",
+    "summary": "Reinforcement Learning (RL) from outcome rewards suffers from sparse supervision, particularly on difficult, long-horizon tasks where successful trajectories are rare and costly to generate. On-Policy Distillation (OPD) offers an attractive alternative by providing dense token-level supervision from a stronger teacher along the student's own generations. Self-distillation methods further remove the need for a separate teacher model by conditioning the same policy on privileged information to ser",
+    "author": "Randy Ardywibowo, Arnav Dalal, Jiantao Jiao",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2610.10447v1"
     ]
   },
   {
@@ -69,30 +201,6 @@
     "category": "media",
     "references": [
       "https://www.technologyreview.com/2026/10/07/1145895/the-download-weight-loss-drugs-slow-aging-carbon-dioxide-batteries/"
-    ]
-  },
-  {
-    "title": "RollVerify: Bridging Efficiency and Accuracy in Long-Tail Rollout Reinforcement Learning",
-    "link": "http://arxiv.org/abs/2610.09914v1",
-    "published": "2026-10-07T12:05:33+00:00",
-    "summary": "Reinforcement learning is crucial for improving large language models' reasoning and generalization. It relies on massive rollouts whose lengths become increasingly long-tailed as context windows grow. In on-policy training, these long-tail rollouts can result in GPU bubbles, reducing system utilization and limiting RL scalability. Asynchronous or partial-rollout methods improve throughput by relaxing synchronization, but inevitably introduce stale off-policy samples (trajectories) that may hurt",
-    "author": "Yongqiang Yao, Jinru Tan, Kaihuan Liang, Zixin Yin, Yazhe Niu, Ruihao Gong, Dahua Lin, Ningyi Xu",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2610.09914v1"
-    ]
-  },
-  {
-    "title": "Constrained-Action AI Remediation for SIEM/XDR via a NeMo-Guardrails Proxy",
-    "link": "http://arxiv.org/abs/2610.09906v1",
-    "published": "2026-10-07T12:00:51+00:00",
-    "summary": "Security Operations Centers (SOCs) for information technology and operational technology share one incident-response problem: a flood of correlated alerts and too few analysts. Large Language Models (LLMs) are increasingly proposed as reasoning engines that triage alerts and, in autonomous deployments, issue commands that block IPs, kill processes, or quarantine files on production hosts. This coupling introduces a new risk: a single adversarial alert can become a remote code path through the LL",
-    "author": "Georgios Koutidis, Nikolaos Kekatos, Tom Nianios, Alexios Lekidis",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2610.09906v1"
     ]
   },
   {
@@ -117,103 +225,6 @@
     "category": "official",
     "references": [
       "https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform/"
-    ]
-  },
-  {
-    "title": "NL2Hull: A Natural Language-Driven Constrained Ship Design Decision Framework",
-    "link": "http://arxiv.org/abs/2610.09896v1",
-    "published": "2026-10-07T11:55:01+00:00",
-    "summary": "Ship-form design combines smooth geometric representation, local shape editing, and constraints on the resulting hull. We present the Natural-Language-to-Hull Framework (NL2Hull Framework), which formulates ship-form editing as a typed discrete decision problem and connects language decisions to numerical geometry. Its Constrained Free-Form Deformation Engine (CFFD Engine) represents hull waterlines with non-uniform rational B-splines (NURBS), applies free-form deformation (FFD) to their control",
-    "author": "Wenhua Huo, Fenglei Han, Wangyuan Zhao, Jialin Wu, Jiayi Han",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "https://github.com/wenhuahuo/NL2Hull",
-      "http://arxiv.org/abs/2610.09896v1"
-    ]
-  },
-  {
-    "title": "QCATS: Query Context-Aware Transformer Slicing for Efficient Predictive Query Processing",
-    "link": "http://arxiv.org/abs/2610.09894v1",
-    "published": "2026-10-07T11:52:57+00:00",
-    "summary": "In-database predictive query processing increasingly applies Transformer-based models within relational pipelines. However, existing in-database inference typically exposes only tuple-level model inputs to the inference runtime, leaving relational predicates and metadata statistics invisible to neural execution planning. In this paper, we propose QCATS, a query context-aware transformer slicing framework that enables efficient sparse inference inside database systems. QCATS executes at query gra",
-    "author": "Yueying Li, Zhongle Xie, Ke Chen, Lidan Shou",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2610.09894v1"
-    ]
-  },
-  {
-    "title": "Defensive Sufficiency in a Stackelberg Model of AI Security",
-    "link": "http://arxiv.org/abs/2610.09892v1",
-    "published": "2026-10-07T11:51:56+00:00",
-    "summary": "Feedback from automated testing, human red teaming, and incident response can strengthen an AI system's defenses when discovered failures lead to effective repairs. We study when this feedback process provides sufficient protection and when investing in it is economically worthwhile. We begin by showing that an attack surface composed of finite number of inputs is defended with probability 1 if every unresolved attack has a persistent chance of discovery, repairs are effective, and subsequent up",
-    "author": "Subhabrata Majumdar, Rajlakshmi Chavan",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2610.09892v1"
-    ]
-  },
-  {
-    "title": "A Scoping Review and Experimental Study on Reinforcement Learning from Human Feedback for Human-Robot Collaboration",
-    "link": "http://arxiv.org/abs/2610.09891v1",
-    "published": "2026-10-07T11:51:54+00:00",
-    "summary": "Human-Robot Collaboration (HRC) can facilitate mass customisation in Industry 4.0, with Reinforcement Learning from Human Feedback (RLHF) representing a promising approach for developing safe AI-based robots. Practical challenges remain regarding safety during AI development, human feedback quality, and bidirectional human-robot adaptation. We conducted a scoping review of RLHF in HRC systems, mapping methods that address these challenges. Following PRISMA guidelines, we screened 199 records and",
-    "author": "Alexandra Coroiu, Andrea Vogt, Viktor Werbilo, Andreas Poppele, Johann Christensen, Sven Hallerbach",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2610.09891v1"
-    ]
-  },
-  {
-    "title": "Outperformance Inverse Optimization: Learning Objective Functions that Outperform Agent Decisions",
-    "link": "http://arxiv.org/abs/2610.09890v1",
-    "published": "2026-10-07T11:51:24+00:00",
-    "summary": "Inverse optimization estimates the weights of an objective function that explain observed decisions as optimal solutions, and is used in a variety of fields. For mixed-integer linear programs (MILPs), existing methods aim to reproduce the observations as optimal solutions, and thus learn compromise weights when the observations are suboptimal. We propose outperformance inverse optimization, which instead seeks weights that induce, at each state, an optimal solution outperforming the observed act",
-    "author": "Akira Kitaoka",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2610.09890v1"
-    ]
-  },
-  {
-    "title": "Think Before You Paint: Recursive Latent Reasoning for Diffusion Models",
-    "link": "http://arxiv.org/abs/2610.09876v1",
-    "published": "2026-10-07T11:36:56+00:00",
-    "summary": "Diffusion models generate realistic images but often fail on visual reasoning tasks, such as filling in a Sudoku or drawing the path through a maze. When a discrete symbolic representation is available, recursive methods such as the Tiny Recursive Model (TRM) solve even hard instances of these puzzles. We ask how such reasoning can be carried over to pixels, where no symbolic representation is available. We propose Painter-Thinker (PaTh): a small recursive network (the Thinker) reasons over a gr",
-    "author": "Paweł Skierś, Małgorzata Grzanka, Wojciech Masarczyk, Jan-Willem van de Meent, Kamil Deja",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2610.09876v1"
-    ]
-  },
-  {
-    "title": "LiveMACE: Process-Aware Evaluation of LLM Agent Capabilities in Evolving Markets",
-    "link": "http://arxiv.org/abs/2610.09872v1",
-    "published": "2026-10-07T11:33:21+00:00",
-    "summary": "Evaluating agents by outcomes alone can obscure the capabilities that produce them. This problem is especially pronounced in evolving environments, where outcomes reflect a closed-loop interaction between agent behavior and changing external conditions. We introduce LiveMACEBench, a process-aware benchmark that uses live financial markets as a naturally evolving testbed for persistent LLM agents. Five frontier LLMs operate along continuous trajectories under matched Tool Use, Persistent Memory, ",
-    "author": "Jun Zhao, Leiming Fu, Yanbo Wen, Yiding Wang, Xuantong Liu, Yang Shu, Yuyang Lu, Xuanran Xing, Jingqi Tong, Hao Xu, Qi Zhang, Xuanjing Huang",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2610.09872v1"
-    ]
-  },
-  {
-    "title": "An AI-assisted conditioning and geological interpretation workflow for usage in implicit geological modeling",
-    "link": "http://arxiv.org/abs/2610.09871v1",
-    "published": "2026-10-07T11:32:47+00:00",
-    "summary": "Implicit modeling and Relative Geologic Time are geological modeling techniques that enable more efficient, faster, less biased and more reproducible modeling results. For optimal operation, these techniques require many well-constrained input data. In the framework of the Horizon Europe GO-Forward and MOOI WarmingUP GOO projects and to accelerate Implicit modeling, Machine Learning (ML) methods have been tested and implemented in a toolkit for the interpretation of (onshore) seismic data from t",
-    "author": "Stefan Carpentier, Jan Diederik van Wees, Eva de Boever, Jan Niederau, Camille Chapeland, Suzanne Atkins, Boris Boullenger, Jens Wollenweber",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2610.09871v1"
     ]
   },
   {
@@ -370,18 +381,6 @@
     "category": "media",
     "references": [
       "https://www.technologyreview.com/2026/10/06/1145032/2026-climate-tech-companies-to-watch-energy-dome-carbon-dioxide-batteries/"
-    ]
-  },
-  {
-    "title": "Brimstone and its one-stop process for making cleaner cement and critical minerals",
-    "link": "https://www.technologyreview.com/2026/10/06/1145172/2026-climate-tech-companies-to-watch-brimstone-one-stop-process-making-cleaner-cement-critical-minerals/",
-    "published": "2026-10-06T10:35:00+00:00",
-    "summary": "Brimstone is making strides on two industrial problems, reducing the emissions from cement and providing a way to produce more critical minerals within the US. If the company can do both, with the same rocks in the same plant, it would unlock a cleaner and more efficient process for manufacturing building materials, aluminum, steel, and&#8230;",
-    "author": "James Temple",
-    "source": "MIT Tech Review",
-    "category": "media",
-    "references": [
-      "https://www.technologyreview.com/2026/10/06/1145172/2026-climate-tech-companies-to-watch-brimstone-one-stop-process-making-cleaner-cement-critical-minerals/"
     ]
   },
   {
