@@ -1,5 +1,65 @@
 [
   {
+    "title": "AgentTime: Can Agents Estimate and Control Their Own Runtime?",
+    "link": "http://arxiv.org/abs/2610.09944v1",
+    "published": "2026-10-07T12:26:24+00:00",
+    "summary": "An essential control of AI agents is their ability to manage runtime. This ability requires a sense of time-awareness, to predict and estimate wall-clock time and to control their own actions. Prior work has focused on time-awareness, but duration-following and control in native agent harnesses remain unexplored. We present AgentTime, a benchmark for testing whether agents can work for a requested duration, predict their runtime, and estimate elapsed time afterward. It comprises 222 tasks from 1",
+    "author": "Michael Ofengenden, Maksym Andriushchenko",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2610.09944v1"
+    ]
+  },
+  {
+    "title": "Fast holographic inversion of superconducting domes",
+    "link": "http://arxiv.org/abs/2610.09938v1",
+    "published": "2026-10-07T12:24:00+00:00",
+    "summary": "A holographic superconductor whose scalar mass depends on the gauge field strength, $M(\\Fsq)$, reproduces a superconducting dome for a suitable $M$, and recovering that $M$ from a given dome has so far taken days for a single training run. We propose a new way of training this model, with which an inversion takes from about ten minutes to an hour. Training needs the gradient of the condition that fixes the critical temperature, which the earlier method obtains by finite differences, repeating th",
+    "author": "Sejin Kim",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2610.09938v1"
+    ]
+  },
+  {
+    "title": "Where Can a Decision Model Diagnose HVAC Faults? Reasoning Demand, Physical Representation, and Robustness Under Shift",
+    "link": "http://arxiv.org/abs/2610.09937v1",
+    "published": "2026-10-07T12:23:55+00:00",
+    "summary": "Artificial intelligence supports building operations in several forms, each with its own barrier. Expert rules must be tuned for every system, supervised models need labeled data that buildings rarely record, and language models return free text that requires human-in-the-loop checking, since their stated confidence is unreliable. A newer kind of pretrained model, here called a decision model, returns a probability for every allowed answer, so one model could serve many decisions without trainin",
+    "author": "Wooyoung Jung",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2610.09937v1"
+    ]
+  },
+  {
+    "title": "Itgan at NADI 2026 shared task: Parameter-Efficient Whisper Adaptation for Robust, Mixed-Dialect and Code-Switched Arabic ASR",
+    "link": "http://arxiv.org/abs/2610.09934v1",
+    "published": "2026-10-07T12:18:40+00:00",
+    "summary": "We describe the Itgan systems for the three ASR subtasks of NADI 2026, namely robust country-level ASR (1.1), mixed-dialect ASR (1.2), and Tunisian code-switched ASR (1.3). All three share one recipe, Whisper adapted with LoRA on consumer GPUs, and each was carried by a different addition to it. On 1.1, where the dialect label is given at test time, per-dialect specialists continued from a pooled adapter gave the largest gain, and the submitted system reached 57.1% country-average WER. A post-ev",
+    "author": "Ibrahim Almajai",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2610.09934v1"
+    ]
+  },
+  {
+    "title": "KGATE : a Knowledge Graph Embedding Training Environment",
+    "link": "http://arxiv.org/abs/2610.09927v1",
+    "published": "2026-10-07T12:14:50+00:00",
+    "summary": "Knowledge graph embedding (KGE) models encode the entities and relations of a knowledge graph into a low-dimensional latent space, enabling tasks such as classification or link prediction. Most KGE models follow an autoencoder architecture, in which an encoder projects the knowledge graph into the latent space and a decoder reconstruct it. Combining both encoder and decoder components is increasingly needed, yet existing libraries rarely support complete autoencoders, are often unmaintained, rel",
+    "author": "Benjamin Loire, Galadriel Brière, Célia Brahimi, Antoine Toffano, Anaïs Baudot",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2610.09927v1"
+    ]
+  },
+  {
     "title": "The Download: weight-loss drugs slowing aging and carbon dioxide batteries",
     "link": "https://www.technologyreview.com/2026/10/07/1145895/the-download-weight-loss-drugs-slow-aging-carbon-dioxide-batteries/",
     "published": "2026-10-07T12:10:00+00:00",
@@ -9,6 +69,30 @@
     "category": "media",
     "references": [
       "https://www.technologyreview.com/2026/10/07/1145895/the-download-weight-loss-drugs-slow-aging-carbon-dioxide-batteries/"
+    ]
+  },
+  {
+    "title": "RollVerify: Bridging Efficiency and Accuracy in Long-Tail Rollout Reinforcement Learning",
+    "link": "http://arxiv.org/abs/2610.09914v1",
+    "published": "2026-10-07T12:05:33+00:00",
+    "summary": "Reinforcement learning is crucial for improving large language models' reasoning and generalization. It relies on massive rollouts whose lengths become increasingly long-tailed as context windows grow. In on-policy training, these long-tail rollouts can result in GPU bubbles, reducing system utilization and limiting RL scalability. Asynchronous or partial-rollout methods improve throughput by relaxing synchronization, but inevitably introduce stale off-policy samples (trajectories) that may hurt",
+    "author": "Yongqiang Yao, Jinru Tan, Kaihuan Liang, Zixin Yin, Yazhe Niu, Ruihao Gong, Dahua Lin, Ningyi Xu",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2610.09914v1"
+    ]
+  },
+  {
+    "title": "Constrained-Action AI Remediation for SIEM/XDR via a NeMo-Guardrails Proxy",
+    "link": "http://arxiv.org/abs/2610.09906v1",
+    "published": "2026-10-07T12:00:51+00:00",
+    "summary": "Security Operations Centers (SOCs) for information technology and operational technology share one incident-response problem: a flood of correlated alerts and too few analysts. Large Language Models (LLMs) are increasingly proposed as reasoning engines that triage alerts and, in autonomous deployments, issue commands that block IPs, kill processes, or quarantine files on production hosts. This coupling introduces a new risk: a single adversarial alert can become a remote code path through the LL",
+    "author": "Georgios Koutidis, Nikolaos Kekatos, Tom Nianios, Alexios Lekidis",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2610.09906v1"
     ]
   },
   {
@@ -36,6 +120,103 @@
     ]
   },
   {
+    "title": "NL2Hull: A Natural Language-Driven Constrained Ship Design Decision Framework",
+    "link": "http://arxiv.org/abs/2610.09896v1",
+    "published": "2026-10-07T11:55:01+00:00",
+    "summary": "Ship-form design combines smooth geometric representation, local shape editing, and constraints on the resulting hull. We present the Natural-Language-to-Hull Framework (NL2Hull Framework), which formulates ship-form editing as a typed discrete decision problem and connects language decisions to numerical geometry. Its Constrained Free-Form Deformation Engine (CFFD Engine) represents hull waterlines with non-uniform rational B-splines (NURBS), applies free-form deformation (FFD) to their control",
+    "author": "Wenhua Huo, Fenglei Han, Wangyuan Zhao, Jialin Wu, Jiayi Han",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "https://github.com/wenhuahuo/NL2Hull",
+      "http://arxiv.org/abs/2610.09896v1"
+    ]
+  },
+  {
+    "title": "QCATS: Query Context-Aware Transformer Slicing for Efficient Predictive Query Processing",
+    "link": "http://arxiv.org/abs/2610.09894v1",
+    "published": "2026-10-07T11:52:57+00:00",
+    "summary": "In-database predictive query processing increasingly applies Transformer-based models within relational pipelines. However, existing in-database inference typically exposes only tuple-level model inputs to the inference runtime, leaving relational predicates and metadata statistics invisible to neural execution planning. In this paper, we propose QCATS, a query context-aware transformer slicing framework that enables efficient sparse inference inside database systems. QCATS executes at query gra",
+    "author": "Yueying Li, Zhongle Xie, Ke Chen, Lidan Shou",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2610.09894v1"
+    ]
+  },
+  {
+    "title": "Defensive Sufficiency in a Stackelberg Model of AI Security",
+    "link": "http://arxiv.org/abs/2610.09892v1",
+    "published": "2026-10-07T11:51:56+00:00",
+    "summary": "Feedback from automated testing, human red teaming, and incident response can strengthen an AI system's defenses when discovered failures lead to effective repairs. We study when this feedback process provides sufficient protection and when investing in it is economically worthwhile. We begin by showing that an attack surface composed of finite number of inputs is defended with probability 1 if every unresolved attack has a persistent chance of discovery, repairs are effective, and subsequent up",
+    "author": "Subhabrata Majumdar, Rajlakshmi Chavan",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2610.09892v1"
+    ]
+  },
+  {
+    "title": "A Scoping Review and Experimental Study on Reinforcement Learning from Human Feedback for Human-Robot Collaboration",
+    "link": "http://arxiv.org/abs/2610.09891v1",
+    "published": "2026-10-07T11:51:54+00:00",
+    "summary": "Human-Robot Collaboration (HRC) can facilitate mass customisation in Industry 4.0, with Reinforcement Learning from Human Feedback (RLHF) representing a promising approach for developing safe AI-based robots. Practical challenges remain regarding safety during AI development, human feedback quality, and bidirectional human-robot adaptation. We conducted a scoping review of RLHF in HRC systems, mapping methods that address these challenges. Following PRISMA guidelines, we screened 199 records and",
+    "author": "Alexandra Coroiu, Andrea Vogt, Viktor Werbilo, Andreas Poppele, Johann Christensen, Sven Hallerbach",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2610.09891v1"
+    ]
+  },
+  {
+    "title": "Outperformance Inverse Optimization: Learning Objective Functions that Outperform Agent Decisions",
+    "link": "http://arxiv.org/abs/2610.09890v1",
+    "published": "2026-10-07T11:51:24+00:00",
+    "summary": "Inverse optimization estimates the weights of an objective function that explain observed decisions as optimal solutions, and is used in a variety of fields. For mixed-integer linear programs (MILPs), existing methods aim to reproduce the observations as optimal solutions, and thus learn compromise weights when the observations are suboptimal. We propose outperformance inverse optimization, which instead seeks weights that induce, at each state, an optimal solution outperforming the observed act",
+    "author": "Akira Kitaoka",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2610.09890v1"
+    ]
+  },
+  {
+    "title": "Think Before You Paint: Recursive Latent Reasoning for Diffusion Models",
+    "link": "http://arxiv.org/abs/2610.09876v1",
+    "published": "2026-10-07T11:36:56+00:00",
+    "summary": "Diffusion models generate realistic images but often fail on visual reasoning tasks, such as filling in a Sudoku or drawing the path through a maze. When a discrete symbolic representation is available, recursive methods such as the Tiny Recursive Model (TRM) solve even hard instances of these puzzles. We ask how such reasoning can be carried over to pixels, where no symbolic representation is available. We propose Painter-Thinker (PaTh): a small recursive network (the Thinker) reasons over a gr",
+    "author": "Paweł Skierś, Małgorzata Grzanka, Wojciech Masarczyk, Jan-Willem van de Meent, Kamil Deja",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2610.09876v1"
+    ]
+  },
+  {
+    "title": "LiveMACE: Process-Aware Evaluation of LLM Agent Capabilities in Evolving Markets",
+    "link": "http://arxiv.org/abs/2610.09872v1",
+    "published": "2026-10-07T11:33:21+00:00",
+    "summary": "Evaluating agents by outcomes alone can obscure the capabilities that produce them. This problem is especially pronounced in evolving environments, where outcomes reflect a closed-loop interaction between agent behavior and changing external conditions. We introduce LiveMACEBench, a process-aware benchmark that uses live financial markets as a naturally evolving testbed for persistent LLM agents. Five frontier LLMs operate along continuous trajectories under matched Tool Use, Persistent Memory, ",
+    "author": "Jun Zhao, Leiming Fu, Yanbo Wen, Yiding Wang, Xuantong Liu, Yang Shu, Yuyang Lu, Xuanran Xing, Jingqi Tong, Hao Xu, Qi Zhang, Xuanjing Huang",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2610.09872v1"
+    ]
+  },
+  {
+    "title": "An AI-assisted conditioning and geological interpretation workflow for usage in implicit geological modeling",
+    "link": "http://arxiv.org/abs/2610.09871v1",
+    "published": "2026-10-07T11:32:47+00:00",
+    "summary": "Implicit modeling and Relative Geologic Time are geological modeling techniques that enable more efficient, faster, less biased and more reproducible modeling results. For optimal operation, these techniques require many well-constrained input data. In the framework of the Horizon Europe GO-Forward and MOOI WarmingUP GOO projects and to accelerate Implicit modeling, Machine Learning (ML) methods have been tested and implemented in a toolkit for the interpretation of (onshore) seismic data from t",
+    "author": "Stefan Carpentier, Jan Diederik van Wees, Eva de Boever, Jan Niederau, Camille Chapeland, Suzanne Atkins, Boris Boullenger, Jens Wollenweber",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2610.09871v1"
+    ]
+  },
+  {
     "title": "Radisson Hotel Group brings hotel discovery into ChatGPT",
     "link": "https://openai.com/index/radisson",
     "published": "2026-10-07T07:00:00+00:00",
@@ -57,189 +238,6 @@
     "category": "official",
     "references": [
       "https://openai.com/index/gpt-6-for-everyone"
-    ]
-  },
-  {
-    "title": "4D-HOF: Hand-Object Flow Matching for Feed-Forward 4D Interaction Reconstruction",
-    "link": "http://arxiv.org/abs/2610.08782v1",
-    "published": "2026-10-06T17:59:02+00:00",
-    "summary": "Existing methods for 4D hand-object reconstruction often rely on costly per-sequence optimization, while generative approaches typically synthesize interactions from random noise, which can lead to unstable interaction prediction. We introduce 4D-HOF, a feed-forward framework that reconstructs 4D hand-object interactions from coarse but informative estimates produced by vision foundation models. Concretely, we learn a conditional flow matching model that transports foundation-model-derived hand-",
-    "author": "Shiqi Li, Sean Cho, Yijie Li, Fengzhi Guo, Bowen Wen, Cheng Zhang",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2610.08782v1"
-    ]
-  },
-  {
-    "title": "IdeaAnchor: Teaching LLMs to Turn Literature into Research Ideas",
-    "link": "http://arxiv.org/abs/2610.08781v1",
-    "published": "2026-10-06T17:59:01+00:00",
-    "summary": "Scientific research often begins by synthesizing ideas from a set of related papers to identify gaps and formulate new directions. However, training language models to perform this form of literature-grounded ideation remains challenging, as existing approaches based on prompting or feedback lack structured supervision for how papers should be synthesized. We introduce IdeaAnchor, a paradigm for training LLMs to perform research ideation using structured specifications as privileged signals. Eac",
-    "author": "Ziyu Chen, Yilun Zhao, Jiashuo Sun, Yiling Ma, Manasi Patwardhan, Arman Cohan",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2610.08781v1"
-    ]
-  },
-  {
-    "title": "DepthWorld: 3D World Model for Robot Manipulation",
-    "link": "http://arxiv.org/abs/2610.08780v1",
-    "published": "2026-10-06T17:59:00+00:00",
-    "summary": "World models offer a data-driven alternative to traditional simulators for robotics, with applications spanning policy evaluation, improvement, and planning. All of these uses depend on faithful 3D geometry, yet current video-based world models are trained on RGB alone and produce rollouts that look correct frame-by-frame but do not compose into a consistent 3D world. Closing this gap requires progress on two fronts: large-scale 3D supervision for manipulation, and an architecture that can absor",
-    "author": "Jai Bardhan, Josef Sivic, Vladimir Petrik",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2610.08780v1"
-    ]
-  },
-  {
-    "title": "Sherpa: Teaching LLMs to Teach Adaptively",
-    "link": "http://arxiv.org/abs/2610.08778v1",
-    "published": "2026-10-06T17:58:18+00:00",
-    "summary": "Large language models (LLMs) have become increasingly capable problem solvers, but being able to solve a problem is not the same as being able to teach it. Existing approaches to training LLMs as teachers rely on demonstrations, preference data, or predefined pedagogical criteria that specify what good teaching looks like. However, these signals are often not grounded in individual student learning outcomes, where effective teaching strategies can vary substantially across learners. To address t",
-    "author": "Weixian Xu, Yanzhe Zhang, Zora Zhiruo Wang, Changyu Chen, Diyi Yang",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2610.08778v1"
-    ]
-  },
-  {
-    "title": "Agent in a Bottle: Can LLM Agents Turn Their Capabilities Into Cheap, Scalable Artifacts?",
-    "link": "http://arxiv.org/abs/2610.08775v1",
-    "published": "2026-10-06T17:57:19+00:00",
-    "summary": "Large language models (LLMs) can solve many narrow tasks, but querying them separately for millions of related instances can be prohibitively expensive. Can LLM agents autonomously create cheaper solutions for such workloads? We call this ability \"bottling\": the ability to turn general capabilities into task-specific solutions that balance answer quality and amortised cost. We introduce BOTTLED, a benchmark in which agents receive an entire unlabelled workload and must complete it under fixed ti",
-    "author": "Ankit Sonthalia, Haritz Puerto, Alexander Rubinstein, Martin Gubri, Seong Joon Oh",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2610.08775v1"
-    ]
-  },
-  {
-    "title": "AdvSim2Real : Training Web Agents Against Adaptive Prompt Injection in a Web World Model",
-    "link": "http://arxiv.org/abs/2610.08773v1",
-    "published": "2026-10-06T17:56:43+00:00",
-    "summary": "Web agents complete user requests by reading and acting on pages that third parties write, so an instruction planted on a page can redirect the agent away from the user's goal. The agent cannot simply ignore the page, because the page also holds the values and controls the task requires. Current defenses fine-tune the agent on injections fixed before training, and attackers that adapt to the trained model bypass them. Adversarial training lets the attacker adapt but keeps the tasks fixed, so a t",
-    "author": "Sarim Hashmi, Mukul Ranjan, Kshitij Mishra, Mikhail Kuznetsov, Praneeth Vepakomma, Nils Lukas",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2610.08773v1"
-    ]
-  },
-  {
-    "title": "VeriFine: Scaling Verification for Self-Improvement in Embodied Reasoning",
-    "link": "http://arxiv.org/abs/2610.08761v1",
-    "published": "2026-10-06T17:50:29+00:00",
-    "summary": "Self-improving policies continually expose new failure patterns, changing what their judges must be able to verify. However, current fixed judges constrain both optimization feedback and the discovery of useful training examples, limiting further self-improvement. This challenge is even more acute in embodied reasoning, where reliable evaluation must account for spatial grounding, causal reasoning, and safety-aware decision-making. We introduce VeriFine, an agent harness framework that scales ve",
-    "author": "Zewei Zhou, Rachel Luo, Yulong Cao, Chaowei Xiao, Chensheng Peng, Boyi Li, Thomas Tian, Zheng Lian, Yan Wang, Jiaqi Ma, Boris Ivanovic, Marco Pavone, Wenhao Ding",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2610.08761v1"
-    ]
-  },
-  {
-    "title": "WorldSonus: Bringing Sound to Worlds",
-    "link": "http://arxiv.org/abs/2610.08760v1",
-    "published": "2026-10-06T17:50:18+00:00",
-    "summary": "Recent advances in world models have enabled increasingly realistic visual synthesis. However, these generated environments remain largely silent. Bringing sound to world models poses three core challenges: real-time generation to keep pace with interactive video streams, interactive control to respond to mid-stream sound instructions, and spatially aligned stereo to reflect scene geometry and camera motion. To address these demands, we introduce WorldSonus, an interactive video-to-audio framewo",
-    "author": "Pengjun Fang, Jingyi Fa, Kam Man Wu, Jiaming Wang, Haoyuan Huang, Yaguang Wu, Xiangjun Huang, Ziyang Ma, Weijia Chen, Hongyu Liu, Zeyue Tian, Qifeng Chen",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "https://noizai.github.io/WorldSonus/",
-      "http://arxiv.org/abs/2610.08760v1"
-    ]
-  },
-  {
-    "title": "Reinforcement Learning with Conformal Action Sets: An Application to Sequential Recommendation",
-    "link": "http://arxiv.org/abs/2610.08743v1",
-    "published": "2026-10-06T17:40:52+00:00",
-    "summary": "Sequential recommenders typically use a fixed slate size even though the number of useful alternatives changes within a session. We propose Reinforcement Learning with Calibrated Pruning (RLCP), which adapts the retained action set using critic scores and an online threshold. The threshold is updated from binary feedback indicating whether the set contains an action in a proxy target. We prove a deterministic bound on the observed proxy miss rate along adaptive trajectories. To quantify the effe",
-    "author": "Wenwen Si, Honghao Wei",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2610.08743v1"
-    ]
-  },
-  {
-    "title": "EgoLAP: Learning from Egocentric Human Data through Language-Action Reasoning",
-    "link": "http://arxiv.org/abs/2610.08726v1",
-    "published": "2026-10-06T17:30:33+00:00",
-    "summary": "Egocentric human data offer a path to scaling robot learning beyond costly robot demonstrations, yet the embodiment gap makes raw human trajectories a poor supervisory target for control. Our key insight is that, although low-level actions are embodiment-specific, their underlying motion intent can capture task-relevant structure that transfers across humans and robots. We introduce EgoLAP, a VLA pre-training framework that jointly learns from human and robot trajectories through a shared langua",
-    "author": "Lihan Zha, Shresth Grover, Tenny Yin, Samuel M. Bateman, Hengkai Pan, Mengchao Zhang, Aykut Onol, Allen Z. Ren, Dhruv Shah, Anirudha Majumdar",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2610.08726v1"
-    ]
-  },
-  {
-    "title": "Does an Agent's History Tell You When Compaction Will Hurt? A Modest, Bounded Effect on the TRACE Paired-Replay Corpus",
-    "link": "http://arxiv.org/abs/2610.08722v1",
-    "published": "2026-10-06T17:26:57+00:00",
-    "summary": "Many long-horizon agents compact their context on a global rule, usually a token budget, blind to what the agent was doing. We ask whether the agent's recent behaviour predicts when a compaction will hurt. TRACE's public corpus of 590 harness-triggered AppWorld compaction boundaries replays each boundary from a re-executed prefix state under the pre-compaction context and under the summary, and records the burden of the next actions: calls that error or repeat a call already made. We find that p",
-    "author": "Egor Pakhomov, Erik Nijkamp",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2610.08722v1"
-    ]
-  },
-  {
-    "title": "WorldSolver: Can LLM Agents Simulate the Physical Dynamics via Solver Generation?",
-    "link": "http://arxiv.org/abs/2610.08720v1",
-    "published": "2026-10-06T17:26:26+00:00",
-    "summary": "LLM-based agents are increasingly advancing scientific and engineering problem solving, with physics simulation emerging as a challenging yet practical testbed for reproducing complex physical phenomena with application in embodied AI, games and films. As the workhorse of such simulation, a solver computes how the state of a dynamic system evolves over time. Building such solvers requires physical understanding to identify appropriate models, mathematical reasoning to formulate the underlying dy",
-    "author": "Siru Jiang, Yongzhe Lyu, Shuo Lu, Yubin Wang, Yuxiang Zhang, Yue Liao, Bin Wang, Jian Liang, Tieniu Tan",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "https://github.com/sirujiang/WorldSolver",
-      "http://arxiv.org/abs/2610.08720v1"
-    ]
-  },
-  {
-    "title": "nanoMuse: An Open-Source Personal Agent for Every Device You Own",
-    "link": "http://arxiv.org/abs/2610.08699v1",
-    "published": "2026-10-06T17:13:53+00:00",
-    "summary": "Assistants from 2011 answered and waited, and agents from 2023 did a task and stopped. In September 2026 Meta's Muse showed an agent for one person, with accounts, devices, memory and a conversation that lasts, closed, in a vendor's cloud, in one country. Such an agent is expected to act on a person's accounts and devices, remember them across weeks, speak first when it is worth it, and answer for what it did. It is a kind of software, not a model, and until now had no open counterpart. This rep",
-    "author": "Guangyi Liu, Yong Liu, Jiangning Zhang",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2610.08699v1"
-    ]
-  },
-  {
-    "title": "ScienceClaw: Benchmarking Continual Self-Evolution of AI-for-Science Agents Across the Natural and Social Sciences",
-    "link": "http://arxiv.org/abs/2610.08691v1",
-    "published": "2026-10-06T17:08:03+00:00",
-    "summary": "Large language model agents are accelerating scientific automation, yet verified executions rarely become persistent program-level improvements, and existing evaluations do not examine this process across sequential tasks in both the natural and social sciences. We formalize ScienceClaw as fixed-parameter program self-evolution that unifies task solving, scientific verification, and program updates. ScienceClaw-Eval spans 23 disciplines and measures scientific correctness, evolutionary gain, ret",
-    "author": "Mingda Zhang, Wenjin Liu, Tiesunlong Shen, Zikai Xiao, Zhenghong Lin, Qing Xu, Erik Cambria, Xiaoying Tang, Haoran Luo",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "https://github.com/beita6969/ScienceClaw",
-      "http://arxiv.org/abs/2610.08691v1"
-    ]
-  },
-  {
-    "title": "Coupled but Late: Turn-Taking Between Full-Duplex Speech Models in Unscripted Dialogue",
-    "link": "http://arxiv.org/abs/2610.08683v1",
-    "published": "2026-10-06T17:03:54+00:00",
-    "summary": "Full-duplex speech models are trained to converse with a person, but they are increasingly made to converse with each other, in self-play data generation, agent societies, and model-based evaluation. In that loop no human absorbs a timing error: each model's turn-taking is the other's input. We ask what timing the loop settles into. Two PersonaPlex-7B instances exchange audio tokens on a shared clock in unscripted conversation, and one floor-transfer rule is applied to them and to Switchboard. T",
-    "author": "Lichen Zhu, Yueqian Lin, Yiheng Wang, Hai \"Helen\" Li, Yiran Chen",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2610.08683v1"
     ]
   },
   {
@@ -519,6 +517,18 @@
     ]
   },
   {
+    "title": "Introducing GPT-6.1 Sol",
+    "link": "https://openai.com/index/introducing-gpt-6-1-sol",
+    "published": "2026-09-29T17:00:00+00:00",
+    "summary": "Meet GPT-6.1 Sol: near-Astra intelligence for coding, computer use, and professional work at one-fifth of Astra’s standard API input and output token prices.",
+    "author": "",
+    "source": "OpenAI",
+    "category": "official",
+    "references": [
+      "https://openai.com/index/introducing-gpt-6-1-sol"
+    ]
+  },
+  {
     "title": "DevDay 2026 Recap",
     "link": "https://openai.com/index/devday-2026-recap",
     "published": "2026-09-29T10:00:00+00:00",
@@ -528,18 +538,6 @@
     "category": "official",
     "references": [
       "https://openai.com/index/devday-2026-recap"
-    ]
-  },
-  {
-    "title": "Introducing GPT-6.1 Sol",
-    "link": "https://openai.com/index/introducing-gpt-6-1-sol",
-    "published": "2026-09-29T10:00:00+00:00",
-    "summary": "Meet GPT-6.1 Sol: near-Astra intelligence for coding, computer use, and professional work at one-fifth of Astra’s standard API input and output token prices.",
-    "author": "",
-    "source": "OpenAI",
-    "category": "official",
-    "references": [
-      "https://openai.com/index/introducing-gpt-6-1-sol"
     ]
   },
   {
@@ -555,18 +553,6 @@
     ]
   },
   {
-    "title": "How we will do better for Australia",
-    "link": "https://openai.com/index/how-we-will-do-better-for-australia",
-    "published": "2026-09-28T19:00:00+00:00",
-    "summary": "OpenAI apologises for incidents involving Australian government websites and outlines stronger safeguards and support to strengthen Australia’s cyber defences.",
-    "author": "",
-    "source": "OpenAI",
-    "category": "official",
-    "references": [
-      "https://openai.com/index/how-we-will-do-better-for-australia"
-    ]
-  },
-  {
     "title": "Towards safety cases for frontier AI training",
     "link": "https://openai.com/index/towards-safety-cases-for-frontier-ai-training",
     "published": "2026-09-28T19:00:00+00:00",
@@ -576,6 +562,18 @@
     "category": "official",
     "references": [
       "https://openai.com/index/towards-safety-cases-for-frontier-ai-training"
+    ]
+  },
+  {
+    "title": "How we will do better for Australia",
+    "link": "https://openai.com/index/how-we-will-do-better-for-australia",
+    "published": "2026-09-28T19:00:00+00:00",
+    "summary": "OpenAI apologises for incidents involving Australian government websites and outlines stronger safeguards and support to strengthen Australia’s cyber defences.",
+    "author": "",
+    "source": "OpenAI",
+    "category": "official",
+    "references": [
+      "https://openai.com/index/how-we-will-do-better-for-australia"
     ]
   },
   {
@@ -688,15 +686,15 @@
     ]
   },
   {
-    "title": "Sam Altman’s remarks at the United Nations Security Council",
-    "link": "https://openai.com/index/sam-altman-un-security-council-remarks",
+    "title": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
+    "link": "https://openai.com/index/ringg",
     "published": "2026-09-23T12:00:00+00:00",
-    "summary": "OpenAI CEO Sam Altman discusses AI safety, human control, and international cooperation in remarks to the United Nations Security Council.",
+    "summary": "Using GPT-5.6, Ringg powers multilingual agents across voice, chat, WhatsApp, and web for 90% less cost vs. GPT-4.1.",
     "author": "",
     "source": "OpenAI",
     "category": "official",
     "references": [
-      "https://openai.com/index/sam-altman-un-security-council-remarks"
+      "https://openai.com/index/ringg"
     ]
   },
   {
@@ -712,6 +710,18 @@
     ]
   },
   {
+    "title": "Sam Altman’s remarks at the United Nations Security Council",
+    "link": "https://openai.com/index/sam-altman-un-security-council-remarks",
+    "published": "2026-09-23T12:00:00+00:00",
+    "summary": "OpenAI CEO Sam Altman discusses AI safety, human control, and international cooperation in remarks to the United Nations Security Council.",
+    "author": "",
+    "source": "OpenAI",
+    "category": "official",
+    "references": [
+      "https://openai.com/index/sam-altman-un-security-council-remarks"
+    ]
+  },
+  {
     "title": "How invideo improves color grading 3x with GPT‑6 Astra",
     "link": "https://openai.com/index/invideo-builds-with-gpt-6-astra",
     "published": "2026-09-23T12:00:00+00:00",
@@ -721,18 +731,6 @@
     "category": "official",
     "references": [
       "https://openai.com/index/invideo-builds-with-gpt-6-astra"
-    ]
-  },
-  {
-    "title": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
-    "link": "https://openai.com/index/ringg",
-    "published": "2026-09-23T12:00:00+00:00",
-    "summary": "Using GPT-5.6, Ringg powers multilingual agents across voice, chat, WhatsApp, and web for 90% less cost vs. GPT-4.1.",
-    "author": "",
-    "source": "OpenAI",
-    "category": "official",
-    "references": [
-      "https://openai.com/index/ringg"
     ]
   },
   {
@@ -1674,18 +1672,6 @@
     ]
   },
   {
-    "title": "Bringing ChatGPT for Teachers to more U.S. school districts",
-    "link": "https://openai.com/index/bringing-chatgpt-for-teachers-to-more-us-school-districts",
-    "published": "2026-08-26T10:00:00+00:00",
-    "summary": "ChatGPT for Teachers is expanding to 55 U.S. school systems, bringing secure AI tools, training, and support to over 100,000 more educators and staff.",
-    "author": "",
-    "source": "OpenAI",
-    "category": "official",
-    "references": [
-      "https://openai.com/index/bringing-chatgpt-for-teachers-to-more-us-school-districts"
-    ]
-  },
-  {
     "title": "Learning never stops: How AI makes learning continuous",
     "link": "https://openai.com/index/learning-never-stops",
     "published": "2026-08-26T10:00:00+00:00",
@@ -1695,6 +1681,18 @@
     "category": "official",
     "references": [
       "https://openai.com/index/learning-never-stops"
+    ]
+  },
+  {
+    "title": "Bringing ChatGPT for Teachers to more U.S. school districts",
+    "link": "https://openai.com/index/bringing-chatgpt-for-teachers-to-more-us-school-districts",
+    "published": "2026-08-26T10:00:00+00:00",
+    "summary": "ChatGPT for Teachers is expanding to 55 U.S. school systems, bringing secure AI tools, training, and support to over 100,000 more educators and staff.",
+    "author": "",
+    "source": "OpenAI",
+    "category": "official",
+    "references": [
+      "https://openai.com/index/bringing-chatgpt-for-teachers-to-more-us-school-districts"
     ]
   },
   {
@@ -2070,18 +2068,6 @@
     ]
   },
   {
-    "title": "Putting frontier cyber models in more trusted hands",
-    "link": "https://openai.com/index/putting-frontier-cyber-models-in-more-trusted-hands",
-    "published": "2026-08-10T10:00:00+00:00",
-    "summary": "Approved Daybreak partners can use OpenAI’s frontier cyber models to deliver authorized, governed cybersecurity services to customers.",
-    "author": "",
-    "source": "OpenAI",
-    "category": "official",
-    "references": [
-      "https://openai.com/index/putting-frontier-cyber-models-in-more-trusted-hands"
-    ]
-  },
-  {
     "title": "Expanding Daybreak as the Cyber Defense Window Narrows",
     "link": "https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows",
     "published": "2026-08-10T10:00:00+00:00",
@@ -2094,15 +2080,27 @@
     ]
   },
   {
-    "title": "Premium seats are coming to ChatGPT Business",
-    "link": "https://openai.com/index/premium-seats-chatgpt-business",
-    "published": "2026-08-10T00:00:00+00:00",
-    "summary": "Premium seats are now available on ChatGPT Business, with 5x more usage, no five-hour usage limit, and flexible seat options for every teammate.",
+    "title": "Putting frontier cyber models in more trusted hands",
+    "link": "https://openai.com/index/putting-frontier-cyber-models-in-more-trusted-hands",
+    "published": "2026-08-10T10:00:00+00:00",
+    "summary": "Approved Daybreak partners can use OpenAI’s frontier cyber models to deliver authorized, governed cybersecurity services to customers.",
     "author": "",
     "source": "OpenAI",
     "category": "official",
     "references": [
-      "https://openai.com/index/premium-seats-chatgpt-business"
+      "https://openai.com/index/putting-frontier-cyber-models-in-more-trusted-hands"
+    ]
+  },
+  {
+    "title": "Virgin Atlantic sharpens customer journeys with ChatGPT Work",
+    "link": "https://openai.com/index/virgin-atlantic/chatgpt-work",
+    "published": "2026-08-10T00:00:00+00:00",
+    "summary": "Virgin Atlantic is accelerating research, product planning, and decision-making with ChatGPT Work, helping teams connect signals across the customer journey.",
+    "author": "",
+    "source": "OpenAI",
+    "category": "official",
+    "references": [
+      "https://openai.com/index/virgin-atlantic/chatgpt-work"
     ]
   },
   {
@@ -2118,15 +2116,15 @@
     ]
   },
   {
-    "title": "Virgin Atlantic sharpens customer journeys with ChatGPT Work",
-    "link": "https://openai.com/index/virgin-atlantic/chatgpt-work",
+    "title": "Premium seats are coming to ChatGPT Business",
+    "link": "https://openai.com/index/premium-seats-chatgpt-business",
     "published": "2026-08-10T00:00:00+00:00",
-    "summary": "Virgin Atlantic is accelerating research, product planning, and decision-making with ChatGPT Work, helping teams connect signals across the customer journey.",
+    "summary": "Premium seats are now available on ChatGPT Business, with 5x more usage, no five-hour usage limit, and flexible seat options for every teammate.",
     "author": "",
     "source": "OpenAI",
     "category": "official",
     "references": [
-      "https://openai.com/index/virgin-atlantic/chatgpt-work"
+      "https://openai.com/index/premium-seats-chatgpt-business"
     ]
   },
   {
@@ -2598,18 +2596,6 @@
     ]
   },
   {
-    "title": "Data science workflows with ChatGPT Work",
-    "link": "https://openai.com/academy/chatgpt-work/how-data-science-teams-use-codex",
-    "published": "2026-07-14T00:00:00+00:00",
-    "summary": "Learn practical ChatGPT Work workflows for root-cause briefs, KPI memos, scoped analyses, and dashboard specifications.",
-    "author": "",
-    "source": "OpenAI",
-    "category": "official",
-    "references": [
-      "https://openai.com/academy/chatgpt-work/how-data-science-teams-use-codex"
-    ]
-  },
-  {
     "title": "Sales workflows with ChatGPT Work",
     "link": "https://openai.com/academy/chatgpt-work/how-sales-teams-use-codex",
     "published": "2026-07-14T00:00:00+00:00",
@@ -2619,6 +2605,18 @@
     "category": "official",
     "references": [
       "https://openai.com/academy/chatgpt-work/how-sales-teams-use-codex"
+    ]
+  },
+  {
+    "title": "Data science workflows with ChatGPT Work",
+    "link": "https://openai.com/academy/chatgpt-work/how-data-science-teams-use-codex",
+    "published": "2026-07-14T00:00:00+00:00",
+    "summary": "Learn practical ChatGPT Work workflows for root-cause briefs, KPI memos, scoped analyses, and dashboard specifications.",
+    "author": "",
+    "source": "OpenAI",
+    "category": "official",
+    "references": [
+      "https://openai.com/academy/chatgpt-work/how-data-science-teams-use-codex"
     ]
   },
   {
@@ -2670,18 +2668,6 @@
     ]
   },
   {
-    "title": "GPT-5.5 Bio Bug Bounty",
-    "link": "https://openai.com/index/bio-bug-bounty",
-    "published": "2026-07-09T10:00:00+00:00",
-    "summary": "Details about the OpenAI Bio Bounty program",
-    "author": "",
-    "source": "OpenAI",
-    "category": "official",
-    "references": [
-      "https://openai.com/index/bio-bug-bounty"
-    ]
-  },
-  {
     "title": "GPT-5.6: Frontier intelligence that scales with your ambition",
     "link": "https://openai.com/index/gpt-5-6",
     "published": "2026-07-09T10:00:00+00:00",
@@ -2691,6 +2677,18 @@
     "category": "official",
     "references": [
       "https://openai.com/index/gpt-5-6"
+    ]
+  },
+  {
+    "title": "GPT-5.5 Bio Bug Bounty",
+    "link": "https://openai.com/index/bio-bug-bounty",
+    "published": "2026-07-09T10:00:00+00:00",
+    "summary": "Details about the OpenAI Bio Bounty program",
+    "author": "",
+    "source": "OpenAI",
+    "category": "official",
+    "references": [
+      "https://openai.com/index/bio-bug-bounty"
     ]
   },
   {
@@ -2742,18 +2740,6 @@
     ]
   },
   {
-    "title": "MUFG aims to become AI-native with OpenAI",
-    "link": "https://openai.com/index/mufg",
-    "published": "2026-07-07T00:00:00+00:00",
-    "summary": "MUFG uses ChatGPT Enterprise to build an AI-native organization, improve workflows, and deliver new AI-powered financial services at scale.",
-    "author": "",
-    "source": "OpenAI",
-    "category": "official",
-    "references": [
-      "https://openai.com/index/mufg"
-    ]
-  },
-  {
     "title": "Australian Payments Plus moves faster with ChatGPT and Codex",
     "link": "https://openai.com/index/australian-payments-plus",
     "published": "2026-07-07T00:00:00+00:00",
@@ -2766,6 +2752,18 @@
     ]
   },
   {
+    "title": "MUFG aims to become AI-native with OpenAI",
+    "link": "https://openai.com/index/mufg",
+    "published": "2026-07-07T00:00:00+00:00",
+    "summary": "MUFG uses ChatGPT Enterprise to build an AI-native organization, improve workflows, and deliver new AI-powered financial services at scale.",
+    "author": "",
+    "source": "OpenAI",
+    "category": "official",
+    "references": [
+      "https://openai.com/index/mufg"
+    ]
+  },
+  {
     "title": "How ChatGPT adoption has expanded",
     "link": "https://openai.com/index/how-chatgpt-adoption-has-expanded",
     "published": "2026-06-30T09:00:00+00:00",
@@ -2775,18 +2773,6 @@
     "category": "official",
     "references": [
       "https://openai.com/index/how-chatgpt-adoption-has-expanded"
-    ]
-  },
-  {
-    "title": "Inside Genebench-Pro",
-    "link": "https://openai.com/index/genebench-pro/case-studies",
-    "published": "2026-06-30T00:00:00+00:00",
-    "summary": "",
-    "author": "",
-    "source": "OpenAI",
-    "category": "official",
-    "references": [
-      "https://openai.com/index/genebench-pro/case-studies"
     ]
   },
   {
@@ -2811,6 +2797,18 @@
     "category": "official",
     "references": [
       "https://openai.com/index/core-dump-epidemiology-data-infrastructure-bug"
+    ]
+  },
+  {
+    "title": "Inside Genebench-Pro",
+    "link": "https://openai.com/index/genebench-pro/case-studies",
+    "published": "2026-06-30T00:00:00+00:00",
+    "summary": "",
+    "author": "",
+    "source": "OpenAI",
+    "category": "official",
+    "references": [
+      "https://openai.com/index/genebench-pro/case-studies"
     ]
   },
   {
@@ -3090,18 +3088,6 @@
     ]
   },
   {
-    "title": "How an astrophysicist uses Codex to help simulate black holes",
-    "link": "https://openai.com/index/using-codex-to-simulate-black-holes",
-    "published": "2026-06-11T00:00:00+00:00",
-    "summary": "Discover how astrophysicist Chi-kwan Chan uses Codex to build black hole simulations, helping scientists study extreme physics and test Einstein’s theory of general relativity.",
-    "author": "",
-    "source": "OpenAI",
-    "category": "official",
-    "references": [
-      "https://openai.com/index/using-codex-to-simulate-black-holes"
-    ]
-  },
-  {
     "title": "OpenAI to acquire Ona",
     "link": "https://openai.com/index/openai-to-acquire-ona",
     "published": "2026-06-11T00:00:00+00:00",
@@ -3111,6 +3097,18 @@
     "category": "official",
     "references": [
       "https://openai.com/index/openai-to-acquire-ona"
+    ]
+  },
+  {
+    "title": "How an astrophysicist uses Codex to help simulate black holes",
+    "link": "https://openai.com/index/using-codex-to-simulate-black-holes",
+    "published": "2026-06-11T00:00:00+00:00",
+    "summary": "Discover how astrophysicist Chi-kwan Chan uses Codex to build black hole simulations, helping scientists study extreme physics and test Einstein’s theory of general relativity.",
+    "author": "",
+    "source": "OpenAI",
+    "category": "official",
+    "references": [
+      "https://openai.com/index/using-codex-to-simulate-black-holes"
     ]
   },
   {
@@ -3282,18 +3280,6 @@
     ]
   },
   {
-    "title": "OpenAI public policy agenda",
-    "link": "https://openai.com/index/public-policy-agenda",
-    "published": "2026-06-03T10:00:00+00:00",
-    "summary": "OpenAI outlines its public policy agenda for AI, including safety, youth protection, workforce transition, and global standards to ensure AI benefits society.",
-    "author": "",
-    "source": "OpenAI",
-    "category": "official",
-    "references": [
-      "https://openai.com/index/public-policy-agenda"
-    ]
-  },
-  {
     "title": "A blueprint for democratic governance of frontier AI",
     "link": "https://openai.com/index/frontier-safety-blueprint",
     "published": "2026-06-03T10:00:00+00:00",
@@ -3303,6 +3289,18 @@
     "category": "official",
     "references": [
       "https://openai.com/index/frontier-safety-blueprint"
+    ]
+  },
+  {
+    "title": "OpenAI public policy agenda",
+    "link": "https://openai.com/index/public-policy-agenda",
+    "published": "2026-06-03T10:00:00+00:00",
+    "summary": "OpenAI outlines its public policy agenda for AI, including safety, youth protection, workforce transition, and global standards to ensure AI benefits society.",
+    "author": "",
+    "source": "OpenAI",
+    "category": "official",
+    "references": [
+      "https://openai.com/index/public-policy-agenda"
     ]
   },
   {
@@ -3522,18 +3520,6 @@
     ]
   },
   {
-    "title": "Warp’s big bet on building open source with GPT-5.5",
-    "link": "https://openai.com/index/warp",
-    "published": "2026-05-27T00:00:00+00:00",
-    "summary": "Warp uses GPT-5.5 and OpenAI models to coordinate coding agents across local, cloud, and open-source development workflows.",
-    "author": "",
-    "source": "OpenAI",
-    "category": "official",
-    "references": [
-      "https://openai.com/index/warp"
-    ]
-  },
-  {
     "title": "Election information and safeguards in 2026",
     "link": "https://openai.com/index/election-safeguards-2026",
     "published": "2026-05-27T00:00:00+00:00",
@@ -3543,6 +3529,18 @@
     "category": "official",
     "references": [
       "https://openai.com/index/election-safeguards-2026"
+    ]
+  },
+  {
+    "title": "Warp’s big bet on building open source with GPT-5.5",
+    "link": "https://openai.com/index/warp",
+    "published": "2026-05-27T00:00:00+00:00",
+    "summary": "Warp uses GPT-5.5 and OpenAI models to coordinate coding agents across local, cloud, and open-source development workflows.",
+    "author": "",
+    "source": "OpenAI",
+    "category": "official",
+    "references": [
+      "https://openai.com/index/warp"
     ]
   },
   {
@@ -3570,18 +3568,6 @@
     ]
   },
   {
-    "title": "OpenAI named a Leader in enterprise coding agents by Gartner",
-    "link": "https://openai.com/index/gartner-2026-agentic-coding-leader",
-    "published": "2026-05-22T00:00:00+00:00",
-    "summary": "OpenAI is named a leader in the 2026 Gartner Magic Quadrant for Enterprise AI Coding Agents, with Codex recognized for innovation and enterprise-scale deployment.",
-    "author": "",
-    "source": "OpenAI",
-    "category": "official",
-    "references": [
-      "https://openai.com/index/gartner-2026-agentic-coding-leader"
-    ]
-  },
-  {
     "title": "How Virgin Atlantic ships faster with Codex",
     "link": "https://openai.com/index/virgin-atlantic",
     "published": "2026-05-22T00:00:00+00:00",
@@ -3591,6 +3577,18 @@
     "category": "official",
     "references": [
       "https://openai.com/index/virgin-atlantic"
+    ]
+  },
+  {
+    "title": "OpenAI named a Leader in enterprise coding agents by Gartner",
+    "link": "https://openai.com/index/gartner-2026-agentic-coding-leader",
+    "published": "2026-05-22T00:00:00+00:00",
+    "summary": "OpenAI is named a leader in the 2026 Gartner Magic Quadrant for Enterprise AI Coding Agents, with Codex recognized for innovation and enterprise-scale deployment.",
+    "author": "",
+    "source": "OpenAI",
+    "category": "official",
+    "references": [
+      "https://openai.com/index/gartner-2026-agentic-coding-leader"
     ]
   },
   {
@@ -3618,18 +3616,6 @@
     ]
   },
   {
-    "title": "How Ramp engineers accelerate code review with Codex",
-    "link": "https://openai.com/index/ramp",
-    "published": "2026-05-20T00:00:00+00:00",
-    "summary": "How Ramp engineers use Codex with GPT-5.5 to review code and ship improvements, allowing them to get substantive feedback in minutes instead of hours.",
-    "author": "",
-    "source": "OpenAI",
-    "category": "official",
-    "references": [
-      "https://openai.com/index/ramp"
-    ]
-  },
-  {
     "title": "The next phase of OpenAI’s Education for Countries",
     "link": "https://openai.com/index/the-next-phase-of-education-for-countries",
     "published": "2026-05-20T00:00:00+00:00",
@@ -3639,6 +3625,18 @@
     "category": "official",
     "references": [
       "https://openai.com/index/the-next-phase-of-education-for-countries"
+    ]
+  },
+  {
+    "title": "How Ramp engineers accelerate code review with Codex",
+    "link": "https://openai.com/index/ramp",
+    "published": "2026-05-20T00:00:00+00:00",
+    "summary": "How Ramp engineers use Codex with GPT-5.5 to review code and ship improvements, allowing them to get substantive feedback in minutes instead of hours.",
+    "author": "",
+    "source": "OpenAI",
+    "category": "official",
+    "references": [
+      "https://openai.com/index/ramp"
     ]
   },
   {
@@ -3690,18 +3688,6 @@
     ]
   },
   {
-    "title": "Databricks brings GPT-5.5 to enterprise agent workflows",
-    "link": "https://openai.com/index/databricks",
-    "published": "2026-05-15T00:00:00+00:00",
-    "summary": "Databricks uses GPT-5.5 for enterprise agent workflows after the model set a new state of the art on the OfficeQA Pro benchmark.",
-    "author": "",
-    "source": "OpenAI",
-    "category": "official",
-    "references": [
-      "https://openai.com/index/databricks"
-    ]
-  },
-  {
     "title": "A new personal finance experience in ChatGPT",
     "link": "https://openai.com/index/personal-finance-chatgpt",
     "published": "2026-05-15T00:00:00+00:00",
@@ -3723,6 +3709,18 @@
     "category": "official",
     "references": [
       "https://openai.com/academy/chatgpt-work/how-business-operations-teams-use-codex"
+    ]
+  },
+  {
+    "title": "Databricks brings GPT-5.5 to enterprise agent workflows",
+    "link": "https://openai.com/index/databricks",
+    "published": "2026-05-15T00:00:00+00:00",
+    "summary": "Databricks uses GPT-5.5 for enterprise agent workflows after the model set a new state of the art on the OfficeQA Pro benchmark.",
+    "author": "",
+    "source": "OpenAI",
+    "category": "official",
+    "references": [
+      "https://openai.com/index/databricks"
     ]
   },
   {
@@ -3798,6 +3796,18 @@
     ]
   },
   {
+    "title": "AutoScout24 scales engineering with AI-powered workflows",
+    "link": "https://openai.com/index/autoscout24",
+    "published": "2026-05-12T00:00:00+00:00",
+    "summary": "Learn how AutoScout24 Group uses Codex and ChatGPT to speed development cycles, improve code quality, and expand AI adoption.",
+    "author": "",
+    "source": "OpenAI",
+    "category": "official",
+    "references": [
+      "https://openai.com/index/autoscout24"
+    ]
+  },
+  {
     "title": "What Parameter Golf taught us about AI-assisted research",
     "link": "https://openai.com/index/what-parameter-golf-taught-us",
     "published": "2026-05-12T00:00:00+00:00",
@@ -3819,18 +3829,6 @@
     "category": "official",
     "references": [
       "https://openai.com/index/nvidia"
-    ]
-  },
-  {
-    "title": "AutoScout24 scales engineering with AI-powered workflows",
-    "link": "https://openai.com/index/autoscout24",
-    "published": "2026-05-12T00:00:00+00:00",
-    "summary": "Learn how AutoScout24 Group uses Codex and ChatGPT to speed development cycles, improve code quality, and expand AI adoption.",
-    "author": "",
-    "source": "OpenAI",
-    "category": "official",
-    "references": [
-      "https://openai.com/index/autoscout24"
     ]
   },
   {
@@ -3966,30 +3964,6 @@
     ]
   },
   {
-    "title": "How frontier firms are pulling ahead",
-    "link": "https://openai.com/index/introducing-b2b-signals",
-    "published": "2026-05-06T00:00:00+00:00",
-    "summary": "OpenAI’s B2B Signals research shows how frontier enterprises deepen AI adoption, scale Codex-powered agentic workflows, and build durable competitive advantage.",
-    "author": "",
-    "source": "OpenAI",
-    "category": "official",
-    "references": [
-      "https://openai.com/index/introducing-b2b-signals"
-    ]
-  },
-  {
-    "title": "Singular Bank helps bankers move fast with ChatGPT and Codex",
-    "link": "https://openai.com/index/singular-bank",
-    "published": "2026-05-06T00:00:00+00:00",
-    "summary": "Singular Bank built Singularity, an internal assistant using ChatGPT and Codex to help bankers save 60–90 minutes daily on meeting prep, portfolio analysis, and follow-up.",
-    "author": "",
-    "source": "OpenAI",
-    "category": "official",
-    "references": [
-      "https://openai.com/index/singular-bank"
-    ]
-  },
-  {
     "title": "Introducing ChatGPT Futures: Class of 2026",
     "link": "https://openai.com/index/introducing-chatgpt-futures-class-of-2026",
     "published": "2026-05-06T00:00:00+00:00",
@@ -4014,6 +3988,30 @@
     ]
   },
   {
+    "title": "Singular Bank helps bankers move fast with ChatGPT and Codex",
+    "link": "https://openai.com/index/singular-bank",
+    "published": "2026-05-06T00:00:00+00:00",
+    "summary": "Singular Bank built Singularity, an internal assistant using ChatGPT and Codex to help bankers save 60–90 minutes daily on meeting prep, portfolio analysis, and follow-up.",
+    "author": "",
+    "source": "OpenAI",
+    "category": "official",
+    "references": [
+      "https://openai.com/index/singular-bank"
+    ]
+  },
+  {
+    "title": "How frontier firms are pulling ahead",
+    "link": "https://openai.com/index/introducing-b2b-signals",
+    "published": "2026-05-06T00:00:00+00:00",
+    "summary": "OpenAI’s B2B Signals research shows how frontier enterprises deepen AI adoption, scale Codex-powered agentic workflows, and build durable competitive advantage.",
+    "author": "",
+    "source": "OpenAI",
+    "category": "official",
+    "references": [
+      "https://openai.com/index/introducing-b2b-signals"
+    ]
+  },
+  {
     "title": "Unlocking large scale AI training networks with MRC (Multipath Reliable Connection)",
     "link": "https://openai.com/index/mrc-supercomputer-networking",
     "published": "2026-05-05T10:00:00+00:00",
@@ -4026,18 +4024,6 @@
     ]
   },
   {
-    "title": "GPT-5.5 Instant: smarter, clearer, and more personalized",
-    "link": "https://openai.com/index/gpt-5-5-instant",
-    "published": "2026-05-05T10:00:00+00:00",
-    "summary": "GPT-5.5 Instant updates ChatGPT’s default model with smarter, more accurate answers, reduced hallucinations, and improved personalization controls.",
-    "author": "",
-    "source": "OpenAI",
-    "category": "official",
-    "references": [
-      "https://openai.com/index/gpt-5-5-instant"
-    ]
-  },
-  {
     "title": "GPT-5.5 Instant System Card",
     "link": "https://openai.com/index/gpt-5-5-instant-system-card",
     "published": "2026-05-05T10:00:00+00:00",
@@ -4047,6 +4033,18 @@
     "category": "official",
     "references": [
       "https://openai.com/index/gpt-5-5-instant-system-card"
+    ]
+  },
+  {
+    "title": "GPT-5.5 Instant: smarter, clearer, and more personalized",
+    "link": "https://openai.com/index/gpt-5-5-instant",
+    "published": "2026-05-05T10:00:00+00:00",
+    "summary": "GPT-5.5 Instant updates ChatGPT’s default model with smarter, more accurate answers, reduced hallucinations, and improved personalization controls.",
+    "author": "",
+    "source": "OpenAI",
+    "category": "official",
+    "references": [
+      "https://openai.com/index/gpt-5-5-instant"
     ]
   },
   {
@@ -4146,18 +4144,6 @@
     ]
   },
   {
-    "title": "OpenAI models, Codex, and Managed Agents come to AWS",
-    "link": "https://openai.com/index/openai-on-aws",
-    "published": "2026-04-28T00:00:00+00:00",
-    "summary": "OpenAI GPT models, Codex, and Managed Agents are now available on AWS, enabling enterprises to build secure AI in their AWS environments.",
-    "author": "",
-    "source": "OpenAI",
-    "category": "official",
-    "references": [
-      "https://openai.com/index/openai-on-aws"
-    ]
-  },
-  {
     "title": "Our commitment to community safety",
     "link": "https://openai.com/index/our-commitment-to-community-safety",
     "published": "2026-04-28T00:00:00+00:00",
@@ -4167,6 +4153,18 @@
     "category": "official",
     "references": [
       "https://openai.com/index/our-commitment-to-community-safety"
+    ]
+  },
+  {
+    "title": "OpenAI models, Codex, and Managed Agents come to AWS",
+    "link": "https://openai.com/index/openai-on-aws",
+    "published": "2026-04-28T00:00:00+00:00",
+    "summary": "OpenAI GPT models, Codex, and Managed Agents are now available on AWS, enabling enterprises to build secure AI in their AWS environments.",
+    "author": "",
+    "source": "OpenAI",
+    "category": "official",
+    "references": [
+      "https://openai.com/index/openai-on-aws"
     ]
   },
   {
@@ -4290,15 +4288,15 @@
     ]
   },
   {
-    "title": "Introducing workspace agents in ChatGPT",
-    "link": "https://openai.com/index/introducing-workspace-agents-in-chatgpt",
+    "title": "Workspace agents",
+    "link": "https://openai.com/academy/workspace-agents",
     "published": "2026-04-22T10:00:00+00:00",
-    "summary": "Workspace agents in ChatGPT are Codex-powered agents that automate complex workflows, run in the cloud, and help teams scale work across tools securely.",
+    "summary": "Learn how to build and use workspace agents in ChatGPT to automate repeatable workflows, connect tools, and streamline team operations.",
     "author": "",
     "source": "OpenAI",
     "category": "official",
     "references": [
-      "https://openai.com/index/introducing-workspace-agents-in-chatgpt"
+      "https://openai.com/academy/workspace-agents"
     ]
   },
   {
@@ -4314,15 +4312,15 @@
     ]
   },
   {
-    "title": "Workspace agents",
-    "link": "https://openai.com/academy/workspace-agents",
+    "title": "Introducing workspace agents in ChatGPT",
+    "link": "https://openai.com/index/introducing-workspace-agents-in-chatgpt",
     "published": "2026-04-22T10:00:00+00:00",
-    "summary": "Learn how to build and use workspace agents in ChatGPT to automate repeatable workflows, connect tools, and streamline team operations.",
+    "summary": "Workspace agents in ChatGPT are Codex-powered agents that automate complex workflows, run in the cloud, and help teams scale work across tools securely.",
     "author": "",
     "source": "OpenAI",
     "category": "official",
     "references": [
-      "https://openai.com/academy/workspace-agents"
+      "https://openai.com/index/introducing-workspace-agents-in-chatgpt"
     ]
   },
   {
@@ -4446,6 +4444,30 @@
     ]
   },
   {
+    "title": "Creating images with ChatGPT",
+    "link": "https://openai.com/academy/image-generation",
+    "published": "2026-04-10T00:00:00+00:00",
+    "summary": "Learn how to create and refine images with ChatGPT using clear prompts, iterate on designs, and generate high-quality visuals in minutes.",
+    "author": "",
+    "source": "OpenAI",
+    "category": "official",
+    "references": [
+      "https://openai.com/academy/image-generation"
+    ]
+  },
+  {
+    "title": "Applications of AI at OpenAI",
+    "link": "https://openai.com/academy/applications-of-ai",
+    "published": "2026-04-10T00:00:00+00:00",
+    "summary": "Explore how OpenAI products like ChatGPT, Codex, and APIs bring AI into real-world use for work, development, and everyday tasks.",
+    "author": "",
+    "source": "OpenAI",
+    "category": "official",
+    "references": [
+      "https://openai.com/academy/applications-of-ai"
+    ]
+  },
+  {
     "title": "Prompting fundamentals",
     "link": "https://openai.com/academy/prompting",
     "published": "2026-04-10T00:00:00+00:00",
@@ -4458,27 +4480,27 @@
     ]
   },
   {
-    "title": "ChatGPT for operations teams",
-    "link": "https://openai.com/academy/operations",
+    "title": "ChatGPT for research",
+    "link": "https://openai.com/academy/research",
     "published": "2026-04-10T00:00:00+00:00",
-    "summary": "Learn how operations teams use ChatGPT to streamline workflows, improve coordination, standardize processes, and drive faster execution.",
+    "summary": "Learn how to use ChatGPT for research to gather sources, analyze information, and create structured, citation-backed insights.",
     "author": "",
     "source": "OpenAI",
     "category": "official",
     "references": [
-      "https://openai.com/academy/operations"
+      "https://openai.com/academy/research"
     ]
   },
   {
-    "title": "Personalizing ChatGPT",
-    "link": "https://openai.com/academy/personalization",
+    "title": "ChatGPT for managers",
+    "link": "https://openai.com/academy/managers",
     "published": "2026-04-10T00:00:00+00:00",
-    "summary": "Learn how to personalize ChatGPT using custom instructions and memory to get more relevant, consistent, and tailored responses.",
+    "summary": "Learn how managers use ChatGPT to prepare for conversations, write clear feedback, stay organized, and improve team effectiveness.",
     "author": "",
     "source": "OpenAI",
     "category": "official",
     "references": [
-      "https://openai.com/academy/personalization"
+      "https://openai.com/academy/managers"
     ]
   },
   {
@@ -4494,39 +4516,15 @@
     ]
   },
   {
-    "title": "Healthcare",
-    "link": "https://openai.com/academy/healthcare",
+    "title": "Personalizing ChatGPT",
+    "link": "https://openai.com/academy/personalization",
     "published": "2026-04-10T00:00:00+00:00",
-    "summary": "Explore how clinicians use ChatGPT to support diagnosis, documentation, and patient care with secure, HIPAA-compliant AI tools.",
+    "summary": "Learn how to personalize ChatGPT using custom instructions and memory to get more relevant, consistent, and tailored responses.",
     "author": "",
     "source": "OpenAI",
     "category": "official",
     "references": [
-      "https://openai.com/academy/healthcare"
-    ]
-  },
-  {
-    "title": "Creating images with ChatGPT",
-    "link": "https://openai.com/academy/image-generation",
-    "published": "2026-04-10T00:00:00+00:00",
-    "summary": "Learn how to create and refine images with ChatGPT using clear prompts, iterate on designs, and generate high-quality visuals in minutes.",
-    "author": "",
-    "source": "OpenAI",
-    "category": "official",
-    "references": [
-      "https://openai.com/academy/image-generation"
-    ]
-  },
-  {
-    "title": "Learn ChatGPT workflows for sales teams",
-    "link": "https://openai.com/academy/sales",
-    "published": "2026-04-10T00:00:00+00:00",
-    "summary": "Learn practical ChatGPT workflows for account research, meeting prep, outreach, pipeline reviews, and sales execution.",
-    "author": "",
-    "source": "OpenAI",
-    "category": "official",
-    "references": [
-      "https://openai.com/academy/sales"
+      "https://openai.com/academy/personalization"
     ]
   },
   {
@@ -4554,6 +4552,30 @@
     ]
   },
   {
+    "title": "Research with ChatGPT",
+    "link": "https://openai.com/academy/search-and-deep-research",
+    "published": "2026-04-10T00:00:00+00:00",
+    "summary": "Learn how to research with ChatGPT using search and deep research to find up-to-date information, analyze sources, and generate structured insights.",
+    "author": "",
+    "source": "OpenAI",
+    "category": "official",
+    "references": [
+      "https://openai.com/academy/search-and-deep-research"
+    ]
+  },
+  {
+    "title": "ChatGPT for operations teams",
+    "link": "https://openai.com/academy/operations",
+    "published": "2026-04-10T00:00:00+00:00",
+    "summary": "Learn how operations teams use ChatGPT to streamline workflows, improve coordination, standardize processes, and drive faster execution.",
+    "author": "",
+    "source": "OpenAI",
+    "category": "official",
+    "references": [
+      "https://openai.com/academy/operations"
+    ]
+  },
+  {
     "title": "ChatGPT for customer success teams",
     "link": "https://openai.com/academy/customer-success",
     "published": "2026-04-10T00:00:00+00:00",
@@ -4563,6 +4585,18 @@
     "category": "official",
     "references": [
       "https://openai.com/academy/customer-success"
+    ]
+  },
+  {
+    "title": "AI fundamentals",
+    "link": "https://openai.com/academy/what-is-ai",
+    "published": "2026-04-10T00:00:00+00:00",
+    "summary": "Learn what AI is, how it works, and how tools like ChatGPT use large language models. A clear, beginner-friendly guide to understanding artificial intelligence.",
+    "author": "",
+    "source": "OpenAI",
+    "category": "official",
+    "references": [
+      "https://openai.com/academy/what-is-ai"
     ]
   },
   {
@@ -4590,30 +4624,6 @@
     ]
   },
   {
-    "title": "Using skills",
-    "link": "https://openai.com/academy/skills",
-    "published": "2026-04-10T00:00:00+00:00",
-    "summary": "Learn how to create and use ChatGPT skills to build reusable workflows, automate recurring tasks, and ensure consistent, high-quality outputs.",
-    "author": "",
-    "source": "OpenAI",
-    "category": "official",
-    "references": [
-      "https://openai.com/academy/skills"
-    ]
-  },
-  {
-    "title": "ChatGPT for managers",
-    "link": "https://openai.com/academy/managers",
-    "published": "2026-04-10T00:00:00+00:00",
-    "summary": "Learn how managers use ChatGPT to prepare for conversations, write clear feedback, stay organized, and improve team effectiveness.",
-    "author": "",
-    "source": "OpenAI",
-    "category": "official",
-    "references": [
-      "https://openai.com/academy/managers"
-    ]
-  },
-  {
     "title": "Working with files in ChatGPT",
     "link": "https://openai.com/academy/working-with-files",
     "published": "2026-04-10T00:00:00+00:00",
@@ -4623,30 +4633,6 @@
     "category": "official",
     "references": [
       "https://openai.com/academy/working-with-files"
-    ]
-  },
-  {
-    "title": "Financial services",
-    "link": "https://openai.com/academy/financial-services",
-    "published": "2026-04-10T00:00:00+00:00",
-    "summary": "Explore AI resources for financial services, including prompt packs, GPTs, guides, and tools to help institutions deploy and scale AI securely.",
-    "author": "",
-    "source": "OpenAI",
-    "category": "official",
-    "references": [
-      "https://openai.com/academy/financial-services"
-    ]
-  },
-  {
-    "title": "Learn ChatGPT workflows for finance teams",
-    "link": "https://openai.com/academy/finance",
-    "published": "2026-04-10T00:00:00+00:00",
-    "summary": "Learn practical ChatGPT workflows for financial analysis, reporting, planning, and decision-ready communication.",
-    "author": "",
-    "source": "OpenAI",
-    "category": "official",
-    "references": [
-      "https://openai.com/academy/finance"
     ]
   },
   {
@@ -4662,15 +4648,51 @@
     ]
   },
   {
-    "title": "Research with ChatGPT",
-    "link": "https://openai.com/academy/search-and-deep-research",
+    "title": "Financial services",
+    "link": "https://openai.com/academy/financial-services",
     "published": "2026-04-10T00:00:00+00:00",
-    "summary": "Learn how to research with ChatGPT using search and deep research to find up-to-date information, analyze sources, and generate structured insights.",
+    "summary": "Explore AI resources for financial services, including prompt packs, GPTs, guides, and tools to help institutions deploy and scale AI securely.",
     "author": "",
     "source": "OpenAI",
     "category": "official",
     "references": [
-      "https://openai.com/academy/search-and-deep-research"
+      "https://openai.com/academy/financial-services"
+    ]
+  },
+  {
+    "title": "Learn ChatGPT workflows for sales teams",
+    "link": "https://openai.com/academy/sales",
+    "published": "2026-04-10T00:00:00+00:00",
+    "summary": "Learn practical ChatGPT workflows for account research, meeting prep, outreach, pipeline reviews, and sales execution.",
+    "author": "",
+    "source": "OpenAI",
+    "category": "official",
+    "references": [
+      "https://openai.com/academy/sales"
+    ]
+  },
+  {
+    "title": "Healthcare",
+    "link": "https://openai.com/academy/healthcare",
+    "published": "2026-04-10T00:00:00+00:00",
+    "summary": "Explore how clinicians use ChatGPT to support diagnosis, documentation, and patient care with secure, HIPAA-compliant AI tools.",
+    "author": "",
+    "source": "OpenAI",
+    "category": "official",
+    "references": [
+      "https://openai.com/academy/healthcare"
+    ]
+  },
+  {
+    "title": "Using skills",
+    "link": "https://openai.com/academy/skills",
+    "published": "2026-04-10T00:00:00+00:00",
+    "summary": "Learn how to create and use ChatGPT skills to build reusable workflows, automate recurring tasks, and ensure consistent, high-quality outputs.",
+    "author": "",
+    "source": "OpenAI",
+    "category": "official",
+    "references": [
+      "https://openai.com/academy/skills"
     ]
   },
   {
@@ -4686,39 +4708,15 @@
     ]
   },
   {
-    "title": "Applications of AI at OpenAI",
-    "link": "https://openai.com/academy/applications-of-ai",
+    "title": "Learn ChatGPT workflows for finance teams",
+    "link": "https://openai.com/academy/finance",
     "published": "2026-04-10T00:00:00+00:00",
-    "summary": "Explore how OpenAI products like ChatGPT, Codex, and APIs bring AI into real-world use for work, development, and everyday tasks.",
+    "summary": "Learn practical ChatGPT workflows for financial analysis, reporting, planning, and decision-ready communication.",
     "author": "",
     "source": "OpenAI",
     "category": "official",
     "references": [
-      "https://openai.com/academy/applications-of-ai"
-    ]
-  },
-  {
-    "title": "AI fundamentals",
-    "link": "https://openai.com/academy/what-is-ai",
-    "published": "2026-04-10T00:00:00+00:00",
-    "summary": "Learn what AI is, how it works, and how tools like ChatGPT use large language models. A clear, beginner-friendly guide to understanding artificial intelligence.",
-    "author": "",
-    "source": "OpenAI",
-    "category": "official",
-    "references": [
-      "https://openai.com/academy/what-is-ai"
-    ]
-  },
-  {
-    "title": "ChatGPT for research",
-    "link": "https://openai.com/academy/research",
-    "published": "2026-04-10T00:00:00+00:00",
-    "summary": "Learn how to use ChatGPT for research to gather sources, analyze information, and create structured, citation-backed insights.",
-    "author": "",
-    "source": "OpenAI",
-    "category": "official",
-    "references": [
-      "https://openai.com/academy/research"
+      "https://openai.com/academy/finance"
     ]
   },
   {
@@ -4878,18 +4876,6 @@
     ]
   },
   {
-    "title": "Powering product discovery in ChatGPT",
-    "link": "https://openai.com/index/powering-product-discovery-in-chatgpt",
-    "published": "2026-03-24T09:00:00+00:00",
-    "summary": "ChatGPT introduces richer, visually immersive shopping powered by the Agentic Commerce Protocol, enabling product discovery, side-by-side comparisons, and merchant integration.",
-    "author": "",
-    "source": "OpenAI",
-    "category": "official",
-    "references": [
-      "https://openai.com/index/powering-product-discovery-in-chatgpt"
-    ]
-  },
-  {
     "title": "Update on the OpenAI Foundation",
     "link": "https://openai.com/index/update-on-the-openai-foundation",
     "published": "2026-03-24T09:00:00+00:00",
@@ -4899,6 +4885,18 @@
     "category": "official",
     "references": [
       "https://openai.com/index/update-on-the-openai-foundation"
+    ]
+  },
+  {
+    "title": "Powering product discovery in ChatGPT",
+    "link": "https://openai.com/index/powering-product-discovery-in-chatgpt",
+    "published": "2026-03-24T09:00:00+00:00",
+    "summary": "ChatGPT introduces richer, visually immersive shopping powered by the Agentic Commerce Protocol, enabling product discovery, side-by-side comparisons, and merchant integration.",
+    "author": "",
+    "source": "OpenAI",
+    "category": "official",
+    "references": [
+      "https://openai.com/index/powering-product-discovery-in-chatgpt"
     ]
   },
   {
@@ -4938,18 +4936,6 @@
     ]
   },
   {
-    "title": "Introducing GPT-5.4 mini and nano",
-    "link": "https://openai.com/index/introducing-gpt-5-4-mini-and-nano",
-    "published": "2026-03-17T10:00:00+00:00",
-    "summary": "GPT-5.4 mini and nano are smaller, faster versions of GPT-5.4 optimized for coding, tool use, multimodal reasoning, and high-volume API and sub-agent workloads.",
-    "author": "",
-    "source": "OpenAI",
-    "category": "official",
-    "references": [
-      "https://openai.com/index/introducing-gpt-5-4-mini-and-nano"
-    ]
-  },
-  {
     "title": "OpenAI Japan announces Japan Teen Safety Blueprint to put teen safety first",
     "link": "https://openai.com/index/japan-teen-safety-blueprint",
     "published": "2026-03-17T10:00:00+00:00",
@@ -4959,6 +4945,18 @@
     "category": "official",
     "references": [
       "https://openai.com/index/japan-teen-safety-blueprint"
+    ]
+  },
+  {
+    "title": "Introducing GPT-5.4 mini and nano",
+    "link": "https://openai.com/index/introducing-gpt-5-4-mini-and-nano",
+    "published": "2026-03-17T10:00:00+00:00",
+    "summary": "GPT-5.4 mini and nano are smaller, faster versions of GPT-5.4 optimized for coding, tool use, multimodal reasoning, and high-volume API and sub-agent workloads.",
+    "author": "",
+    "source": "OpenAI",
+    "category": "official",
+    "references": [
+      "https://openai.com/index/introducing-gpt-5-4-mini-and-nano"
     ]
   },
   {
@@ -5070,18 +5068,6 @@
     ]
   },
   {
-    "title": "How Descript engineers multilingual video dubbing at scale",
-    "link": "https://openai.com/index/descript",
-    "published": "2026-03-06T00:00:00+00:00",
-    "summary": "Using OpenAI reasoning models, Descript unlocked automatic localization of large content libraries without losing timing or meaning.",
-    "author": "",
-    "source": "OpenAI",
-    "category": "official",
-    "references": [
-      "https://openai.com/index/descript"
-    ]
-  },
-  {
     "title": "How Balyasny Asset Management built an AI research engine",
     "link": "https://openai.com/index/balyasny-asset-management",
     "published": "2026-03-06T00:00:00+00:00",
@@ -5094,15 +5080,15 @@
     ]
   },
   {
-    "title": "Introducing GPT-5.4",
-    "link": "https://openai.com/index/introducing-gpt-5-4",
-    "published": "2026-03-05T10:00:00+00:00",
-    "summary": "Introducing GPT-5.4, OpenAI’s most most capable and efficient frontier model for professional work, with state-of-the-art coding, computer use, tool search, and 1M-token context.",
+    "title": "How Descript engineers multilingual video dubbing at scale",
+    "link": "https://openai.com/index/descript",
+    "published": "2026-03-06T00:00:00+00:00",
+    "summary": "Using OpenAI reasoning models, Descript unlocked automatic localization of large content libraries without losing timing or meaning.",
     "author": "",
     "source": "OpenAI",
     "category": "official",
     "references": [
-      "https://openai.com/index/introducing-gpt-5-4"
+      "https://openai.com/index/descript"
     ]
   },
   {
@@ -5115,6 +5101,18 @@
     "category": "official",
     "references": [
       "https://openai.com/index/gpt-5-4-thinking-system-card"
+    ]
+  },
+  {
+    "title": "Introducing GPT-5.4",
+    "link": "https://openai.com/index/introducing-gpt-5-4",
+    "published": "2026-03-05T10:00:00+00:00",
+    "summary": "Introducing GPT-5.4, OpenAI’s most most capable and efficient frontier model for professional work, with state-of-the-art coding, computer use, tool search, and 1M-token context.",
+    "author": "",
+    "source": "OpenAI",
+    "category": "official",
+    "references": [
+      "https://openai.com/index/introducing-gpt-5-4"
     ]
   },
   {
@@ -5142,15 +5140,15 @@
     ]
   },
   {
-    "title": "Introducing ChatGPT for Excel and new financial data integrations",
-    "link": "https://openai.com/index/chatgpt-for-excel",
+    "title": "The five AI value models driving business reinvention",
+    "link": "https://openai.com/index/the-five-ai-value-models-driving-business-reinvention",
     "published": "2026-03-05T00:00:00+00:00",
-    "summary": "OpenAI introduces ChatGPT for Excel and new financial app integrations, powered by GPT-5.4 to accelerate modeling, research, and analysis in regulated environments.",
+    "summary": "Five AI value models show how leaders can sequence AI from workforce fluency to process reinvention and build durable business advantage.",
     "author": "",
     "source": "OpenAI",
     "category": "official",
     "references": [
-      "https://openai.com/index/chatgpt-for-excel"
+      "https://openai.com/index/the-five-ai-value-models-driving-business-reinvention"
     ]
   },
   {
@@ -5178,15 +5176,15 @@
     ]
   },
   {
-    "title": "The five AI value models driving business reinvention",
-    "link": "https://openai.com/index/the-five-ai-value-models-driving-business-reinvention",
+    "title": "Introducing ChatGPT for Excel and new financial data integrations",
+    "link": "https://openai.com/index/chatgpt-for-excel",
     "published": "2026-03-05T00:00:00+00:00",
-    "summary": "Five AI value models show how leaders can sequence AI from workforce fluency to process reinvention and build durable business advantage.",
+    "summary": "OpenAI introduces ChatGPT for Excel and new financial app integrations, powered by GPT-5.4 to accelerate modeling, research, and analysis in regulated environments.",
     "author": "",
     "source": "OpenAI",
     "category": "official",
     "references": [
-      "https://openai.com/index/the-five-ai-value-models-driving-business-reinvention"
+      "https://openai.com/index/chatgpt-for-excel"
     ]
   },
   {
@@ -5262,30 +5260,6 @@
     ]
   },
   {
-    "title": "OpenAI and Amazon announce strategic partnership",
-    "link": "https://openai.com/index/amazon-partnership",
-    "published": "2026-02-27T05:30:00+00:00",
-    "summary": "OpenAI and Amazon announce a strategic partnership bringing OpenAI’s Frontier platform to AWS, expanding AI infrastructure, custom models, and enterprise AI agents.",
-    "author": "",
-    "source": "OpenAI",
-    "category": "official",
-    "references": [
-      "https://openai.com/index/amazon-partnership"
-    ]
-  },
-  {
-    "title": "Joint Statement from OpenAI and Microsoft",
-    "link": "https://openai.com/index/continuing-microsoft-partnership",
-    "published": "2026-02-27T05:30:00+00:00",
-    "summary": "Microsoft and OpenAI continue to work closely across research, engineering, and product development, building on years of deep collaboration and shared success.",
-    "author": "",
-    "source": "OpenAI",
-    "category": "official",
-    "references": [
-      "https://openai.com/index/continuing-microsoft-partnership"
-    ]
-  },
-  {
     "title": "Introducing the Stateful Runtime Environment for Agents in Amazon Bedrock",
     "link": "https://openai.com/index/introducing-the-stateful-runtime-environment-for-agents-in-amazon-bedrock",
     "published": "2026-02-27T05:30:00+00:00",
@@ -5307,6 +5281,30 @@
     "category": "official",
     "references": [
       "https://openai.com/index/scaling-ai-for-everyone"
+    ]
+  },
+  {
+    "title": "OpenAI and Amazon announce strategic partnership",
+    "link": "https://openai.com/index/amazon-partnership",
+    "published": "2026-02-27T05:30:00+00:00",
+    "summary": "OpenAI and Amazon announce a strategic partnership bringing OpenAI’s Frontier platform to AWS, expanding AI infrastructure, custom models, and enterprise AI agents.",
+    "author": "",
+    "source": "OpenAI",
+    "category": "official",
+    "references": [
+      "https://openai.com/index/amazon-partnership"
+    ]
+  },
+  {
+    "title": "Joint Statement from OpenAI and Microsoft",
+    "link": "https://openai.com/index/continuing-microsoft-partnership",
+    "published": "2026-02-27T05:30:00+00:00",
+    "summary": "Microsoft and OpenAI continue to work closely across research, engineering, and product development, building on years of deep collaboration and shared success.",
+    "author": "",
+    "source": "OpenAI",
+    "category": "official",
+    "references": [
+      "https://openai.com/index/continuing-microsoft-partnership"
     ]
   },
   {
@@ -5466,18 +5464,6 @@
     ]
   },
   {
-    "title": "Scaling social science research",
-    "link": "https://openai.com/index/scaling-social-science-research",
-    "published": "2026-02-13T09:00:00+00:00",
-    "summary": "GABRIEL is a new open-source toolkit from OpenAI that uses GPT to turn qualitative text and images into quantitative data, helping social scientists analyze research at scale.",
-    "author": "",
-    "source": "OpenAI",
-    "category": "official",
-    "references": [
-      "https://openai.com/index/scaling-social-science-research"
-    ]
-  },
-  {
     "title": "Beyond rate limits: scaling access to Codex and Sora",
     "link": "https://openai.com/index/beyond-rate-limits",
     "published": "2026-02-13T09:00:00+00:00",
@@ -5487,6 +5473,18 @@
     "category": "official",
     "references": [
       "https://openai.com/index/beyond-rate-limits"
+    ]
+  },
+  {
+    "title": "Scaling social science research",
+    "link": "https://openai.com/index/scaling-social-science-research",
+    "published": "2026-02-13T09:00:00+00:00",
+    "summary": "GABRIEL is a new open-source toolkit from OpenAI that uses GPT to turn qualitative text and images into quantitative data, helping social scientists analyze research at scale.",
+    "author": "",
+    "source": "OpenAI",
+    "category": "official",
+    "references": [
+      "https://openai.com/index/scaling-social-science-research"
     ]
   },
   {
@@ -5646,39 +5644,27 @@
     ]
   },
   {
-    "title": "Operation “Date Bait”: AI-enabled scam targeting loveseekers",
-    "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-date-bait",
+    "title": "Operation “False Witness”: Fake recovery service impersonating authorities",
+    "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-false-witness",
     "published": "2026-02-01T00:00:00+00:00",
-    "summary": "OpenAI banned accounts that very likely originated in Cambodia and used AI for scam outreach to Indonesian loveseekers, including translation and engagement.",
+    "summary": "OpenAI banned accounts that very likely originated in Cambodia and used AI to pose as recovery services, law firms, and authorities targeting people affected by fraud.",
     "author": "",
     "source": "OpenAI",
     "category": "official",
     "references": [
-      "https://openai.com/index/disrupting-malicious-uses-of-ai-date-bait"
+      "https://openai.com/index/disrupting-malicious-uses-of-ai-false-witness"
     ]
   },
   {
-    "title": "“Cyber Special Operations”: China-linked influence planning",
-    "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-cyber-special-operations",
+    "title": "Silver lining playbook: Likely China-origin activity targeting US persons",
+    "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-silver-lining-playbook",
     "published": "2026-02-01T00:00:00+00:00",
-    "summary": "OpenAI banned an account linked to an individual associated with Chinese law enforcement, using AI to plan influence activity, harassment, and online operations.",
+    "summary": "OpenAI banned likely China-origin accounts using AI to research US persons, locations, and social-engineering tactics.",
     "author": "",
     "source": "OpenAI",
     "category": "official",
     "references": [
-      "https://openai.com/index/disrupting-malicious-uses-of-ai-cyber-special-operations"
-    ]
-  },
-  {
-    "title": "Operation “Fish Food”: Russia-origin content farm activity",
-    "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-fish-food",
-    "published": "2026-02-01T00:00:00+00:00",
-    "summary": "OpenAI banned accounts linked to the Rybar network, some of which likely originated in Russia, that used AI to support multilingual influence activity across websites and social platforms.",
-    "author": "",
-    "source": "OpenAI",
-    "category": "official",
-    "references": [
-      "https://openai.com/index/disrupting-malicious-uses-of-ai-fish-food"
+      "https://openai.com/index/disrupting-malicious-uses-of-ai-silver-lining-playbook"
     ]
   },
   {
@@ -5694,27 +5680,27 @@
     ]
   },
   {
-    "title": "Operation “No Bell”: Coordinated criticism of the US and allies",
-    "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-no-bell",
+    "title": "Operation “Fish Food”: Russia-origin content farm activity",
+    "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-fish-food",
     "published": "2026-02-01T00:00:00+00:00",
-    "summary": "OpenAI banned accounts linked to a previously unreported, likely Russia-origin operation we dubbed \"No Bell\", using AI to produce criticism of the US and its allies for audiences across Africa.",
+    "summary": "OpenAI banned accounts linked to the Rybar network, some of which likely originated in Russia, that used AI to support multilingual influence activity across websites and social platforms.",
     "author": "",
     "source": "OpenAI",
     "category": "official",
     "references": [
-      "https://openai.com/index/disrupting-malicious-uses-of-ai-no-bell"
+      "https://openai.com/index/disrupting-malicious-uses-of-ai-fish-food"
     ]
   },
   {
-    "title": "Operation “False Witness”: Fake recovery service impersonating authorities",
-    "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-false-witness",
+    "title": "“Cyber Special Operations”: China-linked influence planning",
+    "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-cyber-special-operations",
     "published": "2026-02-01T00:00:00+00:00",
-    "summary": "OpenAI banned accounts that very likely originated in Cambodia and used AI to pose as recovery services, law firms, and authorities targeting people affected by fraud.",
+    "summary": "OpenAI banned an account linked to an individual associated with Chinese law enforcement, using AI to plan influence activity, harassment, and online operations.",
     "author": "",
     "source": "OpenAI",
     "category": "official",
     "references": [
-      "https://openai.com/index/disrupting-malicious-uses-of-ai-false-witness"
+      "https://openai.com/index/disrupting-malicious-uses-of-ai-cyber-special-operations"
     ]
   },
   {
@@ -5730,15 +5716,27 @@
     ]
   },
   {
-    "title": "Silver lining playbook: Likely China-origin activity targeting US persons",
-    "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-silver-lining-playbook",
+    "title": "Operation “No Bell”: Coordinated criticism of the US and allies",
+    "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-no-bell",
     "published": "2026-02-01T00:00:00+00:00",
-    "summary": "OpenAI banned likely China-origin accounts using AI to research US persons, locations, and social-engineering tactics.",
+    "summary": "OpenAI banned accounts linked to a previously unreported, likely Russia-origin operation we dubbed \"No Bell\", using AI to produce criticism of the US and its allies for audiences across Africa.",
     "author": "",
     "source": "OpenAI",
     "category": "official",
     "references": [
-      "https://openai.com/index/disrupting-malicious-uses-of-ai-silver-lining-playbook"
+      "https://openai.com/index/disrupting-malicious-uses-of-ai-no-bell"
+    ]
+  },
+  {
+    "title": "Operation “Date Bait”: AI-enabled scam targeting loveseekers",
+    "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-date-bait",
+    "published": "2026-02-01T00:00:00+00:00",
+    "summary": "OpenAI banned accounts that very likely originated in Cambodia and used AI for scam outreach to Indonesian loveseekers, including translation and engagement.",
+    "author": "",
+    "source": "OpenAI",
+    "category": "official",
+    "references": [
+      "https://openai.com/index/disrupting-malicious-uses-of-ai-date-bait"
     ]
   },
   {
@@ -5922,18 +5920,6 @@
     ]
   },
   {
-    "title": "Introducing Edu for Countries",
-    "link": "https://openai.com/index/edu-for-countries",
-    "published": "2026-01-21T01:00:00+00:00",
-    "summary": "Edu for Countries is a new OpenAI initiative helping governments use AI to modernize education systems and build future-ready workforces.",
-    "author": "",
-    "source": "OpenAI",
-    "category": "official",
-    "references": [
-      "https://openai.com/index/edu-for-countries"
-    ]
-  },
-  {
     "title": "How countries can end the capability overhang",
     "link": "https://openai.com/index/how-countries-can-end-the-capability-overhang",
     "published": "2026-01-21T01:00:00+00:00",
@@ -5943,6 +5929,18 @@
     "category": "official",
     "references": [
       "https://openai.com/index/how-countries-can-end-the-capability-overhang"
+    ]
+  },
+  {
+    "title": "Introducing Edu for Countries",
+    "link": "https://openai.com/index/edu-for-countries",
+    "published": "2026-01-21T01:00:00+00:00",
+    "summary": "Edu for Countries is a new OpenAI initiative helping governments use AI to modernize education systems and build future-ready workforces.",
+    "author": "",
+    "source": "OpenAI",
+    "category": "official",
+    "references": [
+      "https://openai.com/index/edu-for-countries"
     ]
   },
   {
@@ -6006,18 +6004,6 @@
     ]
   },
   {
-    "title": "Our approach to advertising and expanding access to ChatGPT",
-    "link": "https://openai.com/index/our-approach-to-advertising-and-expanding-access",
-    "published": "2026-01-16T00:00:00+00:00",
-    "summary": "OpenAI plans to test advertising in the U.S. for ChatGPT’s free and Go tiers to expand affordable access to AI worldwide, while protecting privacy, trust, and answer quality.",
-    "author": "",
-    "source": "OpenAI",
-    "category": "official",
-    "references": [
-      "https://openai.com/index/our-approach-to-advertising-and-expanding-access"
-    ]
-  },
-  {
     "title": "Introducing ChatGPT Go, now available worldwide",
     "link": "https://openai.com/index/introducing-chatgpt-go",
     "published": "2026-01-16T00:00:00+00:00",
@@ -6027,6 +6013,18 @@
     "category": "official",
     "references": [
       "https://openai.com/index/introducing-chatgpt-go"
+    ]
+  },
+  {
+    "title": "Our approach to advertising and expanding access to ChatGPT",
+    "link": "https://openai.com/index/our-approach-to-advertising-and-expanding-access",
+    "published": "2026-01-16T00:00:00+00:00",
+    "summary": "OpenAI plans to test advertising in the U.S. for ChatGPT’s free and Go tiers to expand affordable access to AI worldwide, while protecting privacy, trust, and answer quality.",
+    "author": "",
+    "source": "OpenAI",
+    "category": "official",
+    "references": [
+      "https://openai.com/index/our-approach-to-advertising-and-expanding-access"
     ]
   },
   {
@@ -6162,18 +6160,6 @@
     ]
   },
   {
-    "title": "One in a million: celebrating the customers shaping AI’s future",
-    "link": "https://openai.com/index/one-in-a-million-customers",
-    "published": "2025-12-22T00:00:00+00:00",
-    "summary": "More than one million customers around the world now use OpenAI to empower their teams and unlock new opportunities. This post highlights how companies like PayPal, Virgin Atlantic, BBVA, Cisco, Moderna, and Canva are transforming the way work gets done with AI.",
-    "author": "",
-    "source": "OpenAI",
-    "category": "official",
-    "references": [
-      "https://openai.com/index/one-in-a-million-customers"
-    ]
-  },
-  {
     "title": "Continuously hardening ChatGPT Atlas against prompt injection",
     "link": "https://openai.com/index/hardening-atlas-against-prompt-injection",
     "published": "2025-12-22T00:00:00+00:00",
@@ -6183,6 +6169,18 @@
     "category": "official",
     "references": [
       "https://openai.com/index/hardening-atlas-against-prompt-injection"
+    ]
+  },
+  {
+    "title": "One in a million: celebrating the customers shaping AI’s future",
+    "link": "https://openai.com/index/one-in-a-million-customers",
+    "published": "2025-12-22T00:00:00+00:00",
+    "summary": "More than one million customers around the world now use OpenAI to empower their teams and unlock new opportunities. This post highlights how companies like PayPal, Virgin Atlantic, BBVA, Cisco, Moderna, and Canva are transforming the way work gets done with AI.",
+    "author": "",
+    "source": "OpenAI",
+    "category": "official",
+    "references": [
+      "https://openai.com/index/one-in-a-million-customers"
     ]
   },
   {
@@ -6234,18 +6232,6 @@
     ]
   },
   {
-    "title": "Addendum to GPT-5.2 System Card: GPT-5.2-Codex",
-    "link": "https://openai.com/index/gpt-5-2-codex-system-card",
-    "published": "2025-12-18T00:00:00+00:00",
-    "summary": "",
-    "author": "",
-    "source": "OpenAI",
-    "category": "official",
-    "references": [
-      "https://openai.com/index/gpt-5-2-codex-system-card"
-    ]
-  },
-  {
     "title": "Introducing GPT-5.2-Codex",
     "link": "https://openai.com/index/introducing-gpt-5-2-codex",
     "published": "2025-12-18T00:00:00+00:00",
@@ -6255,6 +6241,18 @@
     "category": "official",
     "references": [
       "https://openai.com/index/introducing-gpt-5-2-codex"
+    ]
+  },
+  {
+    "title": "Addendum to GPT-5.2 System Card: GPT-5.2-Codex",
+    "link": "https://openai.com/index/gpt-5-2-codex-system-card",
+    "published": "2025-12-18T00:00:00+00:00",
+    "summary": "",
+    "author": "",
+    "source": "OpenAI",
+    "category": "official",
+    "references": [
+      "https://openai.com/index/gpt-5-2-codex-system-card"
     ]
   },
   {
@@ -6318,18 +6316,6 @@
     ]
   },
   {
-    "title": "Introducing ChatGPT Images and GPT‑Image‑1.5",
-    "link": "https://openai.com/index/new-chatgpt-images-is-here",
-    "published": "2025-12-16T00:00:00+00:00",
-    "summary": "This 2025 launch introduced a faster ChatGPT Images experience and GPT‑Image‑1.5 in the API. Explore the latest ChatGPT Images 2.5.",
-    "author": "",
-    "source": "OpenAI",
-    "category": "official",
-    "references": [
-      "https://openai.com/index/new-chatgpt-images-is-here"
-    ]
-  },
-  {
     "title": "Staying ahead in the age of AI",
     "link": "https://openai.com/business/guides-and-resources/staying-ahead-in-the-age-of-ai",
     "published": "2025-12-16T00:00:00+00:00",
@@ -6339,6 +6325,18 @@
     "category": "official",
     "references": [
       "https://openai.com/business/guides-and-resources/staying-ahead-in-the-age-of-ai"
+    ]
+  },
+  {
+    "title": "Introducing ChatGPT Images and GPT‑Image‑1.5",
+    "link": "https://openai.com/index/new-chatgpt-images-is-here",
+    "published": "2025-12-16T00:00:00+00:00",
+    "summary": "This 2025 launch introduced a faster ChatGPT Images experience and GPT‑Image‑1.5 in the API. Explore the latest ChatGPT Images 2.5.",
+    "author": "",
+    "source": "OpenAI",
+    "category": "official",
+    "references": [
+      "https://openai.com/index/new-chatgpt-images-is-here"
     ]
   },
   {
@@ -6354,18 +6352,6 @@
     ]
   },
   {
-    "title": "BBVA and OpenAI collaborate to transform global banking",
-    "link": "https://openai.com/index/bbva-collaboration-expansion",
-    "published": "2025-12-12T00:00:00+00:00",
-    "summary": "BBVA is expanding its work with OpenAI through a multi-year AI transformation program, rolling out ChatGPT Enterprise to all 120,000 employees. Together, the companies will develop AI solutions that enhance customer interactions, streamline operations, and help build an AI-native banking experience.",
-    "author": "",
-    "source": "OpenAI",
-    "category": "official",
-    "references": [
-      "https://openai.com/index/bbva-collaboration-expansion"
-    ]
-  },
-  {
     "title": "BNY builds “AI for everyone, everywhere” with OpenAI",
     "link": "https://openai.com/index/bny",
     "published": "2025-12-12T00:00:00+00:00",
@@ -6375,6 +6361,18 @@
     "category": "official",
     "references": [
       "https://openai.com/index/bny"
+    ]
+  },
+  {
+    "title": "BBVA and OpenAI collaborate to transform global banking",
+    "link": "https://openai.com/index/bbva-collaboration-expansion",
+    "published": "2025-12-12T00:00:00+00:00",
+    "summary": "BBVA is expanding its work with OpenAI through a multi-year AI transformation program, rolling out ChatGPT Enterprise to all 120,000 employees. Together, the companies will develop AI solutions that enhance customer interactions, streamline operations, and help build an AI-native banking experience.",
+    "author": "",
+    "source": "OpenAI",
+    "category": "official",
+    "references": [
+      "https://openai.com/index/bbva-collaboration-expansion"
     ]
   },
   {
@@ -6390,18 +6388,6 @@
     ]
   },
   {
-    "title": "How Podium is arming 10,000+ SMBs with AI agents",
-    "link": "https://openai.com/index/podium",
-    "published": "2025-12-11T00:00:00+00:00",
-    "summary": "Discover how Podium used OpenAI’s GPT-5 to build “Jerry,” an AI teammate driving 300% growth and transforming how Main Street businesses serve customers.",
-    "author": "",
-    "source": "OpenAI",
-    "category": "official",
-    "references": [
-      "https://openai.com/index/podium"
-    ]
-  },
-  {
     "title": "Introducing GPT-5.2",
     "link": "https://openai.com/index/introducing-gpt-5-2",
     "published": "2025-12-11T00:00:00+00:00",
@@ -6411,18 +6397,6 @@
     "category": "official",
     "references": [
       "https://openai.com/index/introducing-gpt-5-2"
-    ]
-  },
-  {
-    "title": "The Walt Disney Company and OpenAI reach landmark agreement to bring beloved characters to Sora",
-    "link": "https://openai.com/index/disney-sora-agreement",
-    "published": "2025-12-11T00:00:00+00:00",
-    "summary": "Disney and OpenAI have reached an agreement to bring more than 200 Disney, Marvel, Pixar and Star Wars characters to Sora for fan-inspired short videos. The agreement emphasizes responsible AI in entertainment and includes Disney’s company-wide use of ChatGPT Enterprise and the OpenAI API.",
-    "author": "",
-    "source": "OpenAI",
-    "category": "official",
-    "references": [
-      "https://openai.com/index/disney-sora-agreement"
     ]
   },
   {
@@ -6438,6 +6412,18 @@
     ]
   },
   {
+    "title": "How Podium is arming 10,000+ SMBs with AI agents",
+    "link": "https://openai.com/index/podium",
+    "published": "2025-12-11T00:00:00+00:00",
+    "summary": "Discover how Podium used OpenAI’s GPT-5 to build “Jerry,” an AI teammate driving 300% growth and transforming how Main Street businesses serve customers.",
+    "author": "",
+    "source": "OpenAI",
+    "category": "official",
+    "references": [
+      "https://openai.com/index/podium"
+    ]
+  },
+  {
     "title": "Ten years",
     "link": "https://openai.com/index/ten-years",
     "published": "2025-12-11T00:00:00+00:00",
@@ -6447,6 +6433,18 @@
     "category": "official",
     "references": [
       "https://openai.com/index/ten-years"
+    ]
+  },
+  {
+    "title": "The Walt Disney Company and OpenAI reach landmark agreement to bring beloved characters to Sora",
+    "link": "https://openai.com/index/disney-sora-agreement",
+    "published": "2025-12-11T00:00:00+00:00",
+    "summary": "Disney and OpenAI have reached an agreement to bring more than 200 Disney, Marvel, Pixar and Star Wars characters to Sora for fan-inspired short videos. The agreement emphasizes responsible AI in entertainment and includes Disney’s company-wide use of ChatGPT Enterprise and the OpenAI API.",
+    "author": "",
+    "source": "OpenAI",
+    "category": "official",
+    "references": [
+      "https://openai.com/index/disney-sora-agreement"
     ]
   },
   {
@@ -6498,18 +6496,6 @@
     ]
   },
   {
-    "title": "Bringing powerful AI to millions across Europe with Deutsche Telekom",
-    "link": "https://openai.com/index/deutsche-telekom-collaboration",
-    "published": "2025-12-09T00:00:00+00:00",
-    "summary": "OpenAI is collaborating with Deutsche Telekom to bring advanced, multilingual AI experiences to millions of people across Europe. ChatGPT Enterprise will also be deployed to help employees at Deutsche Telekom improve workflows and accelerate innovation.",
-    "author": "",
-    "source": "OpenAI",
-    "category": "official",
-    "references": [
-      "https://openai.com/index/deutsche-telekom-collaboration"
-    ]
-  },
-  {
     "title": "Commonwealth Bank of Australia builds AI fluency at scale",
     "link": "https://openai.com/index/commonwealth-bank-of-australia",
     "published": "2025-12-09T00:00:00+00:00",
@@ -6519,6 +6505,18 @@
     "category": "official",
     "references": [
       "https://openai.com/index/commonwealth-bank-of-australia"
+    ]
+  },
+  {
+    "title": "Bringing powerful AI to millions across Europe with Deutsche Telekom",
+    "link": "https://openai.com/index/deutsche-telekom-collaboration",
+    "published": "2025-12-09T00:00:00+00:00",
+    "summary": "OpenAI is collaborating with Deutsche Telekom to bring advanced, multilingual AI experiences to millions of people across Europe. ChatGPT Enterprise will also be deployed to help employees at Deutsche Telekom improve workflows and accelerate innovation.",
+    "author": "",
+    "source": "OpenAI",
+    "category": "official",
+    "references": [
+      "https://openai.com/index/deutsche-telekom-collaboration"
     ]
   },
   {
@@ -6714,18 +6712,6 @@
     ]
   },
   {
-    "title": "Introducing shopping research in ChatGPT",
-    "link": "https://openai.com/index/chatgpt-shopping-research",
-    "published": "2025-11-24T00:00:00+00:00",
-    "summary": "Shopping research in ChatGPT helps you explore, compare, and discover products with personalized buyer’s guides that simplify decision-making",
-    "author": "",
-    "source": "OpenAI",
-    "category": "official",
-    "references": [
-      "https://openai.com/index/chatgpt-shopping-research"
-    ]
-  },
-  {
     "title": "GPT-5 and the future of mathematical discovery",
     "link": "https://openai.com/index/gpt-5-mathematical-discovery",
     "published": "2025-11-24T00:00:00+00:00",
@@ -6735,6 +6721,18 @@
     "category": "official",
     "references": [
       "https://openai.com/index/gpt-5-mathematical-discovery"
+    ]
+  },
+  {
+    "title": "Introducing shopping research in ChatGPT",
+    "link": "https://openai.com/index/chatgpt-shopping-research",
+    "published": "2025-11-24T00:00:00+00:00",
+    "summary": "Shopping research in ChatGPT helps you explore, compare, and discover products with personalized buyer’s guides that simplify decision-making",
+    "author": "",
+    "source": "OpenAI",
+    "category": "official",
+    "references": [
+      "https://openai.com/index/chatgpt-shopping-research"
     ]
   },
   {
@@ -6810,18 +6808,6 @@
     ]
   },
   {
-    "title": "How Scania accelerates work with AI across its global workforce",
-    "link": "https://openai.com/index/scania",
-    "published": "2025-11-19T00:00:00+00:00",
-    "summary": "Global manufacturer Scania is scaling AI with ChatGPT Enterprise. With team-based onboarding and strong guardrails, AI is boosting productivity, quality, and innovation.",
-    "author": "",
-    "source": "OpenAI",
-    "category": "official",
-    "references": [
-      "https://openai.com/index/scania"
-    ]
-  },
-  {
     "title": "A free version of ChatGPT built for teachers",
     "link": "https://openai.com/index/chatgpt-for-teachers",
     "published": "2025-11-19T00:00:00+00:00",
@@ -6834,18 +6820,6 @@
     ]
   },
   {
-    "title": "Building more with GPT-5.1-Codex-Max",
-    "link": "https://openai.com/index/gpt-5-1-codex-max",
-    "published": "2025-11-19T00:00:00+00:00",
-    "summary": "Introducing GPT-5.1-Codex-Max, a faster, more intelligent agentic coding model for Codex. The model is designed for long-running, project-scale work with enhanced reasoning and token efficiency.",
-    "author": "",
-    "source": "OpenAI",
-    "category": "official",
-    "references": [
-      "https://openai.com/index/gpt-5-1-codex-max"
-    ]
-  },
-  {
     "title": "GPT-5.1-Codex-Max System Card",
     "link": "https://openai.com/index/gpt-5-1-codex-max-system-card",
     "published": "2025-11-19T00:00:00+00:00",
@@ -6855,6 +6829,30 @@
     "category": "official",
     "references": [
       "https://openai.com/index/gpt-5-1-codex-max-system-card"
+    ]
+  },
+  {
+    "title": "How Scania accelerates work with AI across its global workforce",
+    "link": "https://openai.com/index/scania",
+    "published": "2025-11-19T00:00:00+00:00",
+    "summary": "Global manufacturer Scania is scaling AI with ChatGPT Enterprise. With team-based onboarding and strong guardrails, AI is boosting productivity, quality, and innovation.",
+    "author": "",
+    "source": "OpenAI",
+    "category": "official",
+    "references": [
+      "https://openai.com/index/scania"
+    ]
+  },
+  {
+    "title": "Building more with GPT-5.1-Codex-Max",
+    "link": "https://openai.com/index/gpt-5-1-codex-max",
+    "published": "2025-11-19T00:00:00+00:00",
+    "summary": "Introducing GPT-5.1-Codex-Max, a faster, more intelligent agentic coding model for Codex. The model is designed for long-running, project-scale work with enhanced reasoning and token efficiency.",
+    "author": "",
+    "source": "OpenAI",
+    "category": "official",
+    "references": [
+      "https://openai.com/index/gpt-5-1-codex-max"
     ]
   },
   {
@@ -6966,18 +6964,6 @@
     ]
   },
   {
-    "title": "GPT-5.1: A smarter, more conversational ChatGPT",
-    "link": "https://openai.com/index/gpt-5-1",
-    "published": "2025-11-12T00:00:00+00:00",
-    "summary": "We’re upgrading the GPT-5 series with warmer, more capable models and new ways to customize ChatGPT’s tone and style. GPT-5.1 starts rolling out today to paid users.",
-    "author": "",
-    "source": "OpenAI",
-    "category": "official",
-    "references": [
-      "https://openai.com/index/gpt-5-1"
-    ]
-  },
-  {
     "title": "GPT-5.1 Instant and GPT-5.1 Thinking System Card Addendum",
     "link": "https://openai.com/index/gpt-5-system-card-addendum-gpt-5-1",
     "published": "2025-11-12T00:00:00+00:00",
@@ -6987,6 +6973,18 @@
     "category": "official",
     "references": [
       "https://openai.com/index/gpt-5-system-card-addendum-gpt-5-1"
+    ]
+  },
+  {
+    "title": "GPT-5.1: A smarter, more conversational ChatGPT",
+    "link": "https://openai.com/index/gpt-5-1",
+    "published": "2025-11-12T00:00:00+00:00",
+    "summary": "We’re upgrading the GPT-5 series with warmer, more capable models and new ways to customize ChatGPT’s tone and style. GPT-5.1 starts rolling out today to paid users.",
+    "author": "",
+    "source": "OpenAI",
+    "category": "official",
+    "references": [
+      "https://openai.com/index/gpt-5-1"
     ]
   },
   {
@@ -7134,18 +7132,6 @@
     ]
   },
   {
-    "title": "Introducing gpt-oss-safeguard",
-    "link": "https://openai.com/index/introducing-gpt-oss-safeguard",
-    "published": "2025-10-29T00:00:00+00:00",
-    "summary": "OpenAI introduces gpt-oss-safeguard—open-weight reasoning models for safety classification that let developers apply and iterate on custom policies.",
-    "author": "",
-    "source": "OpenAI",
-    "category": "official",
-    "references": [
-      "https://openai.com/index/introducing-gpt-oss-safeguard"
-    ]
-  },
-  {
     "title": "gpt-oss-safeguard technical report",
     "link": "https://openai.com/index/gpt-oss-safeguard-technical-report",
     "published": "2025-10-29T00:00:00+00:00",
@@ -7155,6 +7141,18 @@
     "category": "official",
     "references": [
       "https://openai.com/index/gpt-oss-safeguard-technical-report"
+    ]
+  },
+  {
+    "title": "Introducing gpt-oss-safeguard",
+    "link": "https://openai.com/index/introducing-gpt-oss-safeguard",
+    "published": "2025-10-29T00:00:00+00:00",
+    "summary": "OpenAI introduces gpt-oss-safeguard—open-weight reasoning models for safety classification that let developers apply and iterate on custom policies.",
+    "author": "",
+    "source": "OpenAI",
+    "category": "official",
+    "references": [
+      "https://openai.com/index/introducing-gpt-oss-safeguard"
     ]
   },
   {
@@ -7278,18 +7276,6 @@
     ]
   },
   {
-    "title": "AI in South Korea—OpenAI’s Economic Blueprint",
-    "link": "https://openai.com/index/south-korea-economic-blueprint",
-    "published": "2025-10-23T00:00:00+00:00",
-    "summary": "OpenAI's Korea Economic Blueprint outlines how South Korea can scale trusted AI through sovereign capabilities and strategic partnerships to drive growth.",
-    "author": "",
-    "source": "OpenAI",
-    "category": "official",
-    "references": [
-      "https://openai.com/index/south-korea-economic-blueprint"
-    ]
-  },
-  {
     "title": "Work smarter with your company knowledge in ChatGPT",
     "link": "https://openai.com/index/introducing-company-knowledge",
     "published": "2025-10-23T00:00:00+00:00",
@@ -7299,6 +7285,18 @@
     "category": "official",
     "references": [
       "https://openai.com/index/introducing-company-knowledge"
+    ]
+  },
+  {
+    "title": "AI in South Korea—OpenAI’s Economic Blueprint",
+    "link": "https://openai.com/index/south-korea-economic-blueprint",
+    "published": "2025-10-23T00:00:00+00:00",
+    "summary": "OpenAI's Korea Economic Blueprint outlines how South Korea can scale trusted AI through sovereign capabilities and strategic partnerships to drive growth.",
+    "author": "",
+    "source": "OpenAI",
+    "category": "official",
+    "references": [
+      "https://openai.com/index/south-korea-economic-blueprint"
     ]
   },
   {
@@ -7482,18 +7480,6 @@
     ]
   },
   {
-    "title": "Accelerating AI adoption in Europe",
-    "link": "https://openai.com/global-affairs/accelerating-ai-uptake-in-europe",
-    "published": "2025-10-06T00:00:00+00:00",
-    "summary": "OpenAI and Allied for Startups release the Hacktivate AI report with 20 actionable policy ideas to accelerate AI adoption in Europe, boost competitiveness, and empower innovators.",
-    "author": "",
-    "source": "OpenAI",
-    "category": "official",
-    "references": [
-      "https://openai.com/global-affairs/accelerating-ai-uptake-in-europe"
-    ]
-  },
-  {
     "title": "Introducing AgentKit, new Evals, and RFT for agents",
     "link": "https://openai.com/index/introducing-agentkit",
     "published": "2025-10-06T00:00:00+00:00",
@@ -7503,6 +7489,18 @@
     "category": "official",
     "references": [
       "https://openai.com/index/introducing-agentkit"
+    ]
+  },
+  {
+    "title": "Accelerating AI adoption in Europe",
+    "link": "https://openai.com/global-affairs/accelerating-ai-uptake-in-europe",
+    "published": "2025-10-06T00:00:00+00:00",
+    "summary": "OpenAI and Allied for Startups release the Hacktivate AI report with 20 actionable policy ideas to accelerate AI adoption in Europe, boost competitiveness, and empower innovators.",
+    "author": "",
+    "source": "OpenAI",
+    "category": "official",
+    "references": [
+      "https://openai.com/global-affairs/accelerating-ai-uptake-in-europe"
     ]
   },
   {
@@ -7554,18 +7552,6 @@
     ]
   },
   {
-    "title": "Scam operations: Online fraud networks",
-    "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-scam-operations",
-    "published": "2025-10-01T00:00:00+00:00",
-    "summary": "OpenAI banned accounts tied to online fraud networks using AI to support scam scripts, impersonation, translation, and victim engagement.",
-    "author": "",
-    "source": "OpenAI",
-    "category": "official",
-    "references": [
-      "https://openai.com/index/disrupting-malicious-uses-of-ai-scam-operations"
-    ]
-  },
-  {
     "title": "Cyber Operation: Phishing and scripting support",
     "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-phishing-and-scripting-support",
     "published": "2025-10-01T00:00:00+00:00",
@@ -7602,15 +7588,15 @@
     ]
   },
   {
-    "title": "Operation “Nine–emdash Line”: Regional influence activity",
-    "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-nine-emdash-line",
+    "title": "Scam operations: Online fraud networks",
+    "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-scam-operations",
     "published": "2025-10-01T00:00:00+00:00",
-    "summary": "OpenAI banned accounts linked to a previously unreported PRC-origin operation we dubbed \"Nine-emdash Line\", using AI to create regional influence content about the South China Sea, Hong Kong, and US politics.",
+    "summary": "OpenAI banned accounts tied to online fraud networks using AI to support scam scripts, impersonation, translation, and victim engagement.",
     "author": "",
     "source": "OpenAI",
     "category": "official",
     "references": [
-      "https://openai.com/index/disrupting-malicious-uses-of-ai-nine-emdash-line"
+      "https://openai.com/index/disrupting-malicious-uses-of-ai-scam-operations"
     ]
   },
   {
@@ -7626,27 +7612,15 @@
     ]
   },
   {
-    "title": "Launching Sora responsibly",
-    "link": "https://openai.com/index/launching-sora-responsibly",
-    "published": "2025-09-30T00:00:00+00:00",
-    "summary": "To address the novel safety challenges posed by a state-of-the-art video model as well as a new social creation platform, we’ve built Sora 2 and the Sora app with safety at the foundation. Our approach is anchored in concrete protections.",
+    "title": "Operation “Nine–emdash Line”: Regional influence activity",
+    "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-nine-emdash-line",
+    "published": "2025-10-01T00:00:00+00:00",
+    "summary": "OpenAI banned accounts linked to a previously unreported PRC-origin operation we dubbed \"Nine-emdash Line\", using AI to create regional influence content about the South China Sea, Hong Kong, and US politics.",
     "author": "",
     "source": "OpenAI",
     "category": "official",
     "references": [
-      "https://openai.com/index/launching-sora-responsibly"
-    ]
-  },
-  {
-    "title": "Sora 2 System Card",
-    "link": "https://openai.com/index/sora-2-system-card",
-    "published": "2025-09-30T00:00:00+00:00",
-    "summary": "Sora 2 is our new state of the art video and audio generation model. Building on the foundation of Sora, this new model introduces capabilities that have been difficult for prior video models to achieve– such as more accurate physics, sharper realism, synchronized audio, enhanced steerability, and an expanded stylistic range.",
-    "author": "",
-    "source": "OpenAI",
-    "category": "official",
-    "references": [
-      "https://openai.com/index/sora-2-system-card"
+      "https://openai.com/index/disrupting-malicious-uses-of-ai-nine-emdash-line"
     ]
   },
   {
@@ -7662,39 +7636,27 @@
     ]
   },
   {
-    "title": "Converting inbound leads into customers at OpenAI",
-    "link": "https://openai.com/index/openai-inbound-sales-assistant",
-    "published": "2025-09-29T13:30:00+00:00",
-    "summary": "Learn how OpenAI used an internal AI sales assistant to qualify inbound leads, personalize responses, and help sales teams convert customer interest.",
+    "title": "Sora 2 System Card",
+    "link": "https://openai.com/index/sora-2-system-card",
+    "published": "2025-09-30T00:00:00+00:00",
+    "summary": "Sora 2 is our new state of the art video and audio generation model. Building on the foundation of Sora, this new model introduces capabilities that have been difficult for prior video models to achieve– such as more accurate physics, sharper realism, synchronized audio, enhanced steerability, and an expanded stylistic range.",
     "author": "",
     "source": "OpenAI",
     "category": "official",
     "references": [
-      "https://openai.com/index/openai-inbound-sales-assistant"
+      "https://openai.com/index/sora-2-system-card"
     ]
   },
   {
-    "title": "Empowering teams to unlock insights faster at OpenAI",
-    "link": "https://openai.com/index/openai-research-assistant",
-    "published": "2025-09-29T13:30:00+00:00",
-    "summary": "OpenAI’s research assistant helps teams analyze millions of support tickets, surface insights faster, and scale curiosity across the company.",
+    "title": "Launching Sora responsibly",
+    "link": "https://openai.com/index/launching-sora-responsibly",
+    "published": "2025-09-30T00:00:00+00:00",
+    "summary": "To address the novel safety challenges posed by a state-of-the-art video model as well as a new social creation platform, we’ve built Sora 2 and the Sora app with safety at the foundation. Our approach is anchored in concrete protections.",
     "author": "",
     "source": "OpenAI",
     "category": "official",
     "references": [
-      "https://openai.com/index/openai-research-assistant"
-    ]
-  },
-  {
-    "title": "Building OpenAI with OpenAI",
-    "link": "https://openai.com/index/building-openai-with-openai",
-    "published": "2025-09-29T13:30:00+00:00",
-    "summary": "At OpenAI, we rely on our own technology to help streamline work, scale expertise, and drive outcomes. In our new series, OpenAI on OpenAI, we share lessons to help other organizations do the same.",
-    "author": "",
-    "source": "OpenAI",
-    "category": "official",
-    "references": [
-      "https://openai.com/index/building-openai-with-openai"
+      "https://openai.com/index/launching-sora-responsibly"
     ]
   },
   {
@@ -7710,6 +7672,42 @@
     ]
   },
   {
+    "title": "Driving sales productivity and customer success at OpenAI",
+    "link": "https://openai.com/index/openai-gtm-assistant",
+    "published": "2025-09-29T13:30:00+00:00",
+    "summary": "See how OpenAI built an internal AI sales assistant to automate account research, meeting preparation, product knowledge, and customer follow-up.",
+    "author": "",
+    "source": "OpenAI",
+    "category": "official",
+    "references": [
+      "https://openai.com/index/openai-gtm-assistant"
+    ]
+  },
+  {
+    "title": "Converting inbound leads into customers at OpenAI",
+    "link": "https://openai.com/index/openai-inbound-sales-assistant",
+    "published": "2025-09-29T13:30:00+00:00",
+    "summary": "Learn how OpenAI used an internal AI sales assistant to qualify inbound leads, personalize responses, and help sales teams convert customer interest.",
+    "author": "",
+    "source": "OpenAI",
+    "category": "official",
+    "references": [
+      "https://openai.com/index/openai-inbound-sales-assistant"
+    ]
+  },
+  {
+    "title": "Building OpenAI with OpenAI",
+    "link": "https://openai.com/index/building-openai-with-openai",
+    "published": "2025-09-29T13:30:00+00:00",
+    "summary": "At OpenAI, we rely on our own technology to help streamline work, scale expertise, and drive outcomes. In our new series, OpenAI on OpenAI, we share lessons to help other organizations do the same.",
+    "author": "",
+    "source": "OpenAI",
+    "category": "official",
+    "references": [
+      "https://openai.com/index/building-openai-with-openai"
+    ]
+  },
+  {
     "title": "Turning contracts into searchable data at OpenAI",
     "link": "https://openai.com/index/openai-contract-data-agent",
     "published": "2025-09-29T13:30:00+00:00",
@@ -7722,15 +7720,15 @@
     ]
   },
   {
-    "title": "Driving sales productivity and customer success at OpenAI",
-    "link": "https://openai.com/index/openai-gtm-assistant",
+    "title": "Empowering teams to unlock insights faster at OpenAI",
+    "link": "https://openai.com/index/openai-research-assistant",
     "published": "2025-09-29T13:30:00+00:00",
-    "summary": "See how OpenAI built an internal AI sales assistant to automate account research, meeting preparation, product knowledge, and customer follow-up.",
+    "summary": "OpenAI’s research assistant helps teams analyze millions of support tickets, surface insights faster, and scale curiosity across the company.",
     "author": "",
     "source": "OpenAI",
     "category": "official",
     "references": [
-      "https://openai.com/index/openai-gtm-assistant"
+      "https://openai.com/index/openai-research-assistant"
     ]
   },
   {
@@ -8298,18 +8296,6 @@
     ]
   },
   {
-    "title": "How Amgen uses GPT-5",
-    "link": "https://openai.com/index/gpt-5-amgen",
-    "published": "2025-08-07T00:00:00+00:00",
-    "summary": "Learn how Amgen uses GPT-5.",
-    "author": "",
-    "source": "OpenAI",
-    "category": "official",
-    "references": [
-      "https://openai.com/index/gpt-5-amgen"
-    ]
-  },
-  {
     "title": "Introducing GPT-5",
     "link": "https://openai.com/index/introducing-gpt-5",
     "published": "2025-08-07T00:00:00+00:00",
@@ -8319,30 +8305,6 @@
     "category": "official",
     "references": [
       "https://openai.com/index/introducing-gpt-5"
-    ]
-  },
-  {
-    "title": "From hard refusals to safe-completions: toward output-centric safety training",
-    "link": "https://openai.com/index/gpt-5-safe-completions",
-    "published": "2025-08-07T00:00:00+00:00",
-    "summary": "Discover how OpenAI's new safe-completions approach in GPT-5 improves both safety and helpfulness in AI responses—moving beyond hard refusals to nuanced, output-centric safety training for handling dual-use prompts.",
-    "author": "",
-    "source": "OpenAI",
-    "category": "official",
-    "references": [
-      "https://openai.com/index/gpt-5-safe-completions"
-    ]
-  },
-  {
-    "title": "GPT-5 System Card",
-    "link": "https://openai.com/index/gpt-5-system-card",
-    "published": "2025-08-07T00:00:00+00:00",
-    "summary": "This GPT-5 system card explains how a unified model routing system powers fast and smart responses using gpt-5-main, gpt-5-thinking, and lightweight versions like gpt-5-thinking-nano, optimized for different tasks and developer use.",
-    "author": "",
-    "source": "OpenAI",
-    "category": "official",
-    "references": [
-      "https://openai.com/index/gpt-5-system-card"
     ]
   },
   {
@@ -8358,6 +8320,18 @@
     ]
   },
   {
+    "title": "From hard refusals to safe-completions: toward output-centric safety training",
+    "link": "https://openai.com/index/gpt-5-safe-completions",
+    "published": "2025-08-07T00:00:00+00:00",
+    "summary": "Discover how OpenAI's new safe-completions approach in GPT-5 improves both safety and helpfulness in AI responses—moving beyond hard refusals to nuanced, output-centric safety training for handling dual-use prompts.",
+    "author": "",
+    "source": "OpenAI",
+    "category": "official",
+    "references": [
+      "https://openai.com/index/gpt-5-safe-completions"
+    ]
+  },
+  {
     "title": "How Cursor uses GPT-5",
     "link": "https://openai.com/index/gpt-5-cursor",
     "published": "2025-08-07T00:00:00+00:00",
@@ -8367,6 +8341,30 @@
     "category": "official",
     "references": [
       "https://openai.com/index/gpt-5-cursor"
+    ]
+  },
+  {
+    "title": "GPT-5 System Card",
+    "link": "https://openai.com/index/gpt-5-system-card",
+    "published": "2025-08-07T00:00:00+00:00",
+    "summary": "This GPT-5 system card explains how a unified model routing system powers fast and smart responses using gpt-5-main, gpt-5-thinking, and lightweight versions like gpt-5-thinking-nano, optimized for different tasks and developer use.",
+    "author": "",
+    "source": "OpenAI",
+    "category": "official",
+    "references": [
+      "https://openai.com/index/gpt-5-system-card"
+    ]
+  },
+  {
+    "title": "How Amgen uses GPT-5",
+    "link": "https://openai.com/index/gpt-5-amgen",
+    "published": "2025-08-07T00:00:00+00:00",
+    "summary": "Learn how Amgen uses GPT-5.",
+    "author": "",
+    "source": "OpenAI",
+    "category": "official",
+    "references": [
+      "https://openai.com/index/gpt-5-amgen"
     ]
   },
   {
@@ -8502,18 +8500,6 @@
     ]
   },
   {
-    "title": "Announcing OpenAI DevDay 2025",
-    "link": "https://openai.com/index/announcing-devday-2025",
-    "published": "2025-07-23T00:00:00+00:00",
-    "summary": "We’re hosting our third annual OpenAI DevDay on October 6, 2025 at Fort Mason in San Francisco.",
-    "author": "",
-    "source": "OpenAI",
-    "category": "official",
-    "references": [
-      "https://openai.com/index/announcing-devday-2025"
-    ]
-  },
-  {
     "title": "Model ML is helping financial firms rebuild with AI from the ground up",
     "link": "https://openai.com/index/model-ml-chaz-englander",
     "published": "2025-07-23T00:00:00+00:00",
@@ -8523,6 +8509,18 @@
     "category": "official",
     "references": [
       "https://openai.com/index/model-ml-chaz-englander"
+    ]
+  },
+  {
+    "title": "Announcing OpenAI DevDay 2025",
+    "link": "https://openai.com/index/announcing-devday-2025",
+    "published": "2025-07-23T00:00:00+00:00",
+    "summary": "We’re hosting our third annual OpenAI DevDay on October 6, 2025 at Fort Mason in San Francisco.",
+    "author": "",
+    "source": "OpenAI",
+    "category": "official",
+    "references": [
+      "https://openai.com/index/announcing-devday-2025"
     ]
   },
   {
@@ -8634,18 +8632,6 @@
     ]
   },
   {
-    "title": "OpenAI nonprofit jam",
-    "link": "https://openai.com/global-affairs/openai-nonprofit-jam",
-    "published": "2025-07-17T00:00:00+00:00",
-    "summary": "At OpenAI, we build tools to help people solve hard problems—including nonprofits working on the frontlines of their communities. The OpenAI Academy is teaming up with the Walton Family Foundation, Emerson Collective, and a network of local nonprofit organizations to host the Nonprofit Jam—a one-day, nationwide event bringing together more than 1,000 nonprofit leaders across 10 locations.",
-    "author": "",
-    "source": "OpenAI",
-    "category": "official",
-    "references": [
-      "https://openai.com/global-affairs/openai-nonprofit-jam"
-    ]
-  },
-  {
     "title": "Invideo AI uses OpenAI models to create videos 10x faster",
     "link": "https://openai.com/index/invideo-ai",
     "published": "2025-07-17T00:00:00+00:00",
@@ -8655,6 +8641,18 @@
     "category": "official",
     "references": [
       "https://openai.com/index/invideo-ai"
+    ]
+  },
+  {
+    "title": "OpenAI nonprofit jam",
+    "link": "https://openai.com/global-affairs/openai-nonprofit-jam",
+    "published": "2025-07-17T00:00:00+00:00",
+    "summary": "At OpenAI, we build tools to help people solve hard problems—including nonprofits working on the frontlines of their communities. The OpenAI Academy is teaming up with the Walton Family Foundation, Emerson Collective, and a network of local nonprofit organizations to host the Nonprofit Jam—a one-day, nationwide event bringing together more than 1,000 nonprofit leaders across 10 locations.",
+    "author": "",
+    "source": "OpenAI",
+    "category": "official",
+    "references": [
+      "https://openai.com/global-affairs/openai-nonprofit-jam"
     ]
   },
   {
@@ -8826,54 +8824,6 @@
     ]
   },
   {
-    "title": "Deceptive Employment Scheme: IT worker activity",
-    "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-it-workers",
-    "published": "2025-06-01T00:00:00+00:00",
-    "summary": "OpenAI banned accounts associated with suspected deceptive employment campaigns that used AI to develop materials for potentially fraudulent remote-job applications.",
-    "author": "",
-    "source": "OpenAI",
-    "category": "official",
-    "references": [
-      "https://openai.com/index/disrupting-malicious-uses-of-ai-it-workers"
-    ]
-  },
-  {
-    "title": "Operation “Sneer Review”: China-origin influence activity",
-    "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-sneer-review",
-    "published": "2025-06-01T00:00:00+00:00",
-    "summary": "OpenAI banned accounts using AI to generate posts criticizing a Taiwanese social media influencer and related US topics.",
-    "author": "",
-    "source": "OpenAI",
-    "category": "official",
-    "references": [
-      "https://openai.com/index/disrupting-malicious-uses-of-ai-sneer-review"
-    ]
-  },
-  {
-    "title": "Vixen and Keyhole Panda: China-linked cyber operations",
-    "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-vixen-keyhole-panda",
-    "published": "2025-06-01T00:00:00+00:00",
-    "summary": "OpenAI banned accounts associated with threat actors publicly attributed to the PRC, using AI to support vulnerability research, scripting, translation, and operational troubleshooting.",
-    "author": "",
-    "source": "OpenAI",
-    "category": "official",
-    "references": [
-      "https://openai.com/index/disrupting-malicious-uses-of-ai-vixen-keyhole-panda"
-    ]
-  },
-  {
-    "title": "Operation “ScopeCreep”: Russian-speaking malware development",
-    "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-scopecreep",
-    "published": "2025-06-01T00:00:00+00:00",
-    "summary": "OpenAI banned Russian-language accounts using AI to build malware, refine loaders, and troubleshoot cyber tooling.",
-    "author": "",
-    "source": "OpenAI",
-    "category": "official",
-    "references": [
-      "https://openai.com/index/disrupting-malicious-uses-of-ai-scopecreep"
-    ]
-  },
-  {
     "title": "Operation “Wrong Number”: AI-assisted task scam",
     "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-wrong-number",
     "published": "2025-06-01T00:00:00+00:00",
@@ -8883,6 +8833,18 @@
     "category": "official",
     "references": [
       "https://openai.com/index/disrupting-malicious-uses-of-ai-wrong-number"
+    ]
+  },
+  {
+    "title": "Operation “Helgoland Bite”: German-language influence activity",
+    "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-helgoland-bite",
+    "published": "2025-06-01T00:00:00+00:00",
+    "summary": "OpenAI banned accounts that appeared to originate in Russia and used AI to generate German-language political content about Ukraine, NATO, and domestic issues.",
+    "author": "",
+    "source": "OpenAI",
+    "category": "official",
+    "references": [
+      "https://openai.com/index/disrupting-malicious-uses-of-ai-helgoland-bite"
     ]
   },
   {
@@ -8898,15 +8860,15 @@
     ]
   },
   {
-    "title": "Operation “Helgoland Bite”: German-language influence activity",
-    "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-helgoland-bite",
+    "title": "Operation “VAGue Focus”: Social engineering and influence activity",
+    "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-vague-focus",
     "published": "2025-06-01T00:00:00+00:00",
-    "summary": "OpenAI banned accounts that appeared to originate in Russia and used AI to generate German-language political content about Ukraine, NATO, and domestic issues.",
+    "summary": "OpenAI banned accounts using AI for social engineering, surveillance-themed research, and influence activity targeting critics.",
     "author": "",
     "source": "OpenAI",
     "category": "official",
     "references": [
-      "https://openai.com/index/disrupting-malicious-uses-of-ai-helgoland-bite"
+      "https://openai.com/index/disrupting-malicious-uses-of-ai-vague-focus"
     ]
   },
   {
@@ -8934,15 +8896,51 @@
     ]
   },
   {
-    "title": "Operation “VAGue Focus”: Social engineering and influence activity",
-    "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-vague-focus",
+    "title": "Operation “ScopeCreep”: Russian-speaking malware development",
+    "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-scopecreep",
     "published": "2025-06-01T00:00:00+00:00",
-    "summary": "OpenAI banned accounts using AI for social engineering, surveillance-themed research, and influence activity targeting critics.",
+    "summary": "OpenAI banned Russian-language accounts using AI to build malware, refine loaders, and troubleshoot cyber tooling.",
     "author": "",
     "source": "OpenAI",
     "category": "official",
     "references": [
-      "https://openai.com/index/disrupting-malicious-uses-of-ai-vague-focus"
+      "https://openai.com/index/disrupting-malicious-uses-of-ai-scopecreep"
+    ]
+  },
+  {
+    "title": "Deceptive Employment Scheme: IT worker activity",
+    "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-it-workers",
+    "published": "2025-06-01T00:00:00+00:00",
+    "summary": "OpenAI banned accounts associated with suspected deceptive employment campaigns that used AI to develop materials for potentially fraudulent remote-job applications.",
+    "author": "",
+    "source": "OpenAI",
+    "category": "official",
+    "references": [
+      "https://openai.com/index/disrupting-malicious-uses-of-ai-it-workers"
+    ]
+  },
+  {
+    "title": "Vixen and Keyhole Panda: China-linked cyber operations",
+    "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-vixen-keyhole-panda",
+    "published": "2025-06-01T00:00:00+00:00",
+    "summary": "OpenAI banned accounts associated with threat actors publicly attributed to the PRC, using AI to support vulnerability research, scripting, translation, and operational troubleshooting.",
+    "author": "",
+    "source": "OpenAI",
+    "category": "official",
+    "references": [
+      "https://openai.com/index/disrupting-malicious-uses-of-ai-vixen-keyhole-panda"
+    ]
+  },
+  {
+    "title": "Operation “Sneer Review”: China-origin influence activity",
+    "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-sneer-review",
+    "published": "2025-06-01T00:00:00+00:00",
+    "summary": "OpenAI banned accounts using AI to generate posts criticizing a Taiwanese social media influencer and related US topics.",
+    "author": "",
+    "source": "OpenAI",
+    "category": "official",
+    "references": [
+      "https://openai.com/index/disrupting-malicious-uses-of-ai-sneer-review"
     ]
   },
   {
@@ -9018,18 +9016,6 @@
     ]
   },
   {
-    "title": "Introducing Codex",
-    "link": "https://openai.com/index/introducing-codex",
-    "published": "2025-05-16T08:00:00+00:00",
-    "summary": "",
-    "author": "",
-    "source": "OpenAI",
-    "category": "official",
-    "references": [
-      "https://openai.com/index/introducing-codex"
-    ]
-  },
-  {
     "title": "Addendum to o3 and o4-mini system card: Codex",
     "link": "https://openai.com/index/o3-o4-mini-codex-system-card-addendum",
     "published": "2025-05-16T08:00:00+00:00",
@@ -9039,6 +9025,18 @@
     "category": "official",
     "references": [
       "https://openai.com/index/o3-o4-mini-codex-system-card-addendum"
+    ]
+  },
+  {
+    "title": "Introducing Codex",
+    "link": "https://openai.com/index/introducing-codex",
+    "published": "2025-05-16T08:00:00+00:00",
+    "summary": "",
+    "author": "",
+    "source": "OpenAI",
+    "category": "official",
+    "references": [
+      "https://openai.com/index/introducing-codex"
     ]
   },
   {
@@ -9258,15 +9256,15 @@
     ]
   },
   {
-    "title": "Thinking with images",
-    "link": "https://openai.com/index/thinking-with-images",
+    "title": "OpenAI o3 and o4-mini System Card",
+    "link": "https://openai.com/index/o3-o4-mini-system-card",
     "published": "2025-04-16T10:00:00+00:00",
-    "summary": "",
+    "summary": "OpenAI o3 and OpenAI o4-mini combine state-of-the-art reasoning with full tool capabilities—web browsing, Python, image and file analysis, image generation, canvas, automations, file search, and memory.",
     "author": "",
     "source": "OpenAI",
     "category": "official",
     "references": [
-      "https://openai.com/index/thinking-with-images"
+      "https://openai.com/index/o3-o4-mini-system-card"
     ]
   },
   {
@@ -9282,15 +9280,15 @@
     ]
   },
   {
-    "title": "OpenAI o3 and o4-mini System Card",
-    "link": "https://openai.com/index/o3-o4-mini-system-card",
+    "title": "Thinking with images",
+    "link": "https://openai.com/index/thinking-with-images",
     "published": "2025-04-16T10:00:00+00:00",
-    "summary": "OpenAI o3 and OpenAI o4-mini combine state-of-the-art reasoning with full tool capabilities—web browsing, Python, image and file analysis, image generation, canvas, automations, file search, and memory.",
+    "summary": "",
     "author": "",
     "source": "OpenAI",
     "category": "official",
     "references": [
-      "https://openai.com/index/o3-o4-mini-system-card"
+      "https://openai.com/index/thinking-with-images"
     ]
   },
   {
@@ -9354,18 +9352,6 @@
     ]
   },
   {
-    "title": "OpenAI’s EU Economic Blueprint",
-    "link": "https://openai.com/global-affairs/openais-eu-economic-blueprint",
-    "published": "2025-04-07T00:00:00+00:00",
-    "summary": "Today, OpenAI is sharing the EU Economic Blueprint—a set of proposals to help Europe seize the promise of artificial intelligence, drive sustainable economic growth across the region, and ensure that AI is developed and deployed by Europe, in Europe, for Europe.",
-    "author": "",
-    "source": "OpenAI",
-    "category": "official",
-    "references": [
-      "https://openai.com/global-affairs/openais-eu-economic-blueprint"
-    ]
-  },
-  {
     "title": "Canva enables creativity with AI",
     "link": "https://openai.com/index/canva-cam-adams",
     "published": "2025-04-07T00:00:00+00:00",
@@ -9375,6 +9361,18 @@
     "category": "official",
     "references": [
       "https://openai.com/index/canva-cam-adams"
+    ]
+  },
+  {
+    "title": "OpenAI’s EU Economic Blueprint",
+    "link": "https://openai.com/global-affairs/openais-eu-economic-blueprint",
+    "published": "2025-04-07T00:00:00+00:00",
+    "summary": "Today, OpenAI is sharing the EU Economic Blueprint—a set of proposals to help Europe seize the promise of artificial intelligence, drive sustainable economic growth across the region, and ensure that AI is developed and deployed by Europe, in Europe, for Europe.",
+    "author": "",
+    "source": "OpenAI",
+    "category": "official",
+    "references": [
+      "https://openai.com/global-affairs/openais-eu-economic-blueprint"
     ]
   },
   {
@@ -9858,15 +9856,15 @@
     ]
   },
   {
-    "title": "Creating nail art with ChatGPT",
-    "link": "https://openai.com/index/ten-tiny-canvases",
+    "title": "Catching halibut with ChatGPT",
+    "link": "https://openai.com/index/fishing-for-first-timers",
     "published": "2025-02-04T00:00:00+00:00",
-    "summary": "Using ChatGPT to find inspiration for nail art",
+    "summary": "Using ChatGPT to catch halibut",
     "author": "",
     "source": "OpenAI",
     "category": "official",
     "references": [
-      "https://openai.com/index/ten-tiny-canvases"
+      "https://openai.com/index/fishing-for-first-timers"
     ]
   },
   {
@@ -9882,27 +9880,15 @@
     ]
   },
   {
-    "title": "Catching halibut with ChatGPT",
-    "link": "https://openai.com/index/fishing-for-first-timers",
+    "title": "Creating nail art with ChatGPT",
+    "link": "https://openai.com/index/ten-tiny-canvases",
     "published": "2025-02-04T00:00:00+00:00",
-    "summary": "Using ChatGPT to catch halibut",
+    "summary": "Using ChatGPT to find inspiration for nail art",
     "author": "",
     "source": "OpenAI",
     "category": "official",
     "references": [
-      "https://openai.com/index/fishing-for-first-timers"
-    ]
-  },
-  {
-    "title": "Understanding complex trends with deep research",
-    "link": "https://openai.com/index/deep-research",
-    "published": "2025-02-02T16:00:00+00:00",
-    "summary": "How OpenAI deep research helps Bain & Company understand complex industry trends.",
-    "author": "",
-    "source": "OpenAI",
-    "category": "official",
-    "references": [
-      "https://openai.com/index/deep-research"
+      "https://openai.com/index/ten-tiny-canvases"
     ]
   },
   {
@@ -9918,27 +9904,15 @@
     ]
   },
   {
-    "title": "Cyber threat actors: AI-assisted intrusion research",
-    "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-cyber-threat-actors",
-    "published": "2025-02-01T00:00:00+00:00",
-    "summary": "OpenAI banned accounts potentially associated with publicly reported DPRK-affiliated threat actors using AI to research intrusion tooling, phishing, malware, and cryptocurrency targeting.",
+    "title": "Understanding complex trends with deep research",
+    "link": "https://openai.com/index/deep-research",
+    "published": "2025-02-02T16:00:00+00:00",
+    "summary": "How OpenAI deep research helps Bain & Company understand complex industry trends.",
     "author": "",
     "source": "OpenAI",
     "category": "official",
     "references": [
-      "https://openai.com/index/disrupting-malicious-uses-of-ai-cyber-threat-actors"
-    ]
-  },
-  {
-    "title": "Romance-baiting scam: AI-assisted pig butchering workflows",
-    "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-romance-baiting-scam",
-    "published": "2025-02-01T00:00:00+00:00",
-    "summary": "OpenAI banned accounts that appeared to originate in Cambodia and used AI to translate and generate romance, investment scam conversations.",
-    "author": "",
-    "source": "OpenAI",
-    "category": "official",
-    "references": [
-      "https://openai.com/index/disrupting-malicious-uses-of-ai-romance-baiting-scam"
+      "https://openai.com/index/deep-research"
     ]
   },
   {
@@ -9966,15 +9940,27 @@
     ]
   },
   {
-    "title": "Operation “Sponsored Discontent”: Influence activity",
-    "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-sponsored-discontent",
+    "title": "Cyber threat actors: AI-assisted intrusion research",
+    "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-cyber-threat-actors",
     "published": "2025-02-01T00:00:00+00:00",
-    "summary": "OpenAI banned likely China-origin accounts using AI to generate English social posts and Spanish-language articles.",
+    "summary": "OpenAI banned accounts potentially associated with publicly reported DPRK-affiliated threat actors using AI to research intrusion tooling, phishing, malware, and cryptocurrency targeting.",
     "author": "",
     "source": "OpenAI",
     "category": "official",
     "references": [
-      "https://openai.com/index/disrupting-malicious-uses-of-ai-sponsored-discontent"
+      "https://openai.com/index/disrupting-malicious-uses-of-ai-cyber-threat-actors"
+    ]
+  },
+  {
+    "title": "Iranian influence nexus: Cross-platform activity",
+    "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-iranian-influence-nexus",
+    "published": "2025-02-01T00:00:00+00:00",
+    "summary": "OpenAI banned Iran-linked accounts using AI to generate articles and social posts tied to IUVM and STORM-2035 influence activity.",
+    "author": "",
+    "source": "OpenAI",
+    "category": "official",
+    "references": [
+      "https://openai.com/index/disrupting-malicious-uses-of-ai-iranian-influence-nexus"
     ]
   },
   {
@@ -9990,6 +9976,18 @@
     ]
   },
   {
+    "title": "Romance-baiting scam: AI-assisted pig butchering workflows",
+    "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-romance-baiting-scam",
+    "published": "2025-02-01T00:00:00+00:00",
+    "summary": "OpenAI banned accounts that appeared to originate in Cambodia and used AI to translate and generate romance, investment scam conversations.",
+    "author": "",
+    "source": "OpenAI",
+    "category": "official",
+    "references": [
+      "https://openai.com/index/disrupting-malicious-uses-of-ai-romance-baiting-scam"
+    ]
+  },
+  {
     "title": "Task scam: AI-assisted fake review jobs",
     "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-task-scam",
     "published": "2025-02-01T00:00:00+00:00",
@@ -10002,15 +10000,15 @@
     ]
   },
   {
-    "title": "Iranian influence nexus: Cross-platform activity",
-    "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-iranian-influence-nexus",
+    "title": "Operation “Sponsored Discontent”: Influence activity",
+    "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-sponsored-discontent",
     "published": "2025-02-01T00:00:00+00:00",
-    "summary": "OpenAI banned Iran-linked accounts using AI to generate articles and social posts tied to IUVM and STORM-2035 influence activity.",
+    "summary": "OpenAI banned likely China-origin accounts using AI to generate English social posts and Spanish-language articles.",
     "author": "",
     "source": "OpenAI",
     "category": "official",
     "references": [
-      "https://openai.com/index/disrupting-malicious-uses-of-ai-iranian-influence-nexus"
+      "https://openai.com/index/disrupting-malicious-uses-of-ai-sponsored-discontent"
     ]
   },
   {
@@ -10050,18 +10048,6 @@
     ]
   },
   {
-    "title": "Operator System Card",
-    "link": "https://openai.com/index/operator-system-card",
-    "published": "2025-01-23T10:00:00+00:00",
-    "summary": "Drawing from OpenAI’s established safety frameworks, this document highlights our multi-layered approach, including model and product mitigations we’ve implemented to protect against prompt engineering and jailbreaks, protect privacy and security, as well as details our external red teaming efforts, safety evaluations, and ongoing work to further refine these safeguards.",
-    "author": "",
-    "source": "OpenAI",
-    "category": "official",
-    "references": [
-      "https://openai.com/index/operator-system-card"
-    ]
-  },
-  {
     "title": "Introducing Operator",
     "link": "https://openai.com/index/introducing-operator",
     "published": "2025-01-23T10:00:00+00:00",
@@ -10071,6 +10057,18 @@
     "category": "official",
     "references": [
       "https://openai.com/index/introducing-operator"
+    ]
+  },
+  {
+    "title": "Operator System Card",
+    "link": "https://openai.com/index/operator-system-card",
+    "published": "2025-01-23T10:00:00+00:00",
+    "summary": "Drawing from OpenAI’s established safety frameworks, this document highlights our multi-layered approach, including model and product mitigations we’ve implemented to protect against prompt engineering and jailbreaks, protect privacy and security, as well as details our external red teaming efforts, safety evaluations, and ongoing work to further refine these safeguards.",
+    "author": "",
+    "source": "OpenAI",
+    "category": "official",
+    "references": [
+      "https://openai.com/index/operator-system-card"
     ]
   },
   {
@@ -10218,18 +10216,6 @@
     ]
   },
   {
-    "title": "Put AI to work for your product team",
-    "link": "https://openai.com/index/put-ai-to-work-for-your-product-team",
-    "published": "2024-12-09T00:00:00+00:00",
-    "summary": "Put AI to work for your product team",
-    "author": "",
-    "source": "OpenAI",
-    "category": "official",
-    "references": [
-      "https://openai.com/index/put-ai-to-work-for-your-product-team"
-    ]
-  },
-  {
     "title": "Minne Atairu & Sora",
     "link": "https://openai.com/index/sora-minne-atairu",
     "published": "2024-12-09T00:00:00+00:00",
@@ -10242,15 +10228,27 @@
     ]
   },
   {
-    "title": "Vallée Duhamel & Sora",
-    "link": "https://openai.com/index/sora-vallee-duhamel",
+    "title": "Put AI to work for your product team",
+    "link": "https://openai.com/index/put-ai-to-work-for-your-product-team",
     "published": "2024-12-09T00:00:00+00:00",
-    "summary": "Filmmaking duo Vallée Duhamel explains how Sora helps build new worlds.",
+    "summary": "Put AI to work for your product team",
     "author": "",
     "source": "OpenAI",
     "category": "official",
     "references": [
-      "https://openai.com/index/sora-vallee-duhamel"
+      "https://openai.com/index/put-ai-to-work-for-your-product-team"
+    ]
+  },
+  {
+    "title": "Sora System Card",
+    "link": "https://openai.com/index/sora-system-card",
+    "published": "2024-12-09T00:00:00+00:00",
+    "summary": "Sora is OpenAI’s video generation model, designed to take text, image, and video inputs and generate a new video as an output. Sora builds on learnings from DALL-E and GPT models, and is designed to give people expanded tools for storytelling and creative expression.",
+    "author": "",
+    "source": "OpenAI",
+    "category": "official",
+    "references": [
+      "https://openai.com/index/sora-system-card"
     ]
   },
   {
@@ -10266,15 +10264,15 @@
     ]
   },
   {
-    "title": "Sora System Card",
-    "link": "https://openai.com/index/sora-system-card",
+    "title": "Vallée Duhamel & Sora",
+    "link": "https://openai.com/index/sora-vallee-duhamel",
     "published": "2024-12-09T00:00:00+00:00",
-    "summary": "Sora is OpenAI’s video generation model, designed to take text, image, and video inputs and generate a new video as an output. Sora builds on learnings from DALL-E and GPT models, and is designed to give people expanded tools for storytelling and creative expression.",
+    "summary": "Filmmaking duo Vallée Duhamel explains how Sora helps build new worlds.",
     "author": "",
     "source": "OpenAI",
     "category": "official",
     "references": [
-      "https://openai.com/index/sora-system-card"
+      "https://openai.com/index/sora-vallee-duhamel"
     ]
   },
   {
@@ -10590,66 +10588,6 @@
     ]
   },
   {
-    "title": "CyberAv3ngers: Iran-linked cyber research activity",
-    "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-cyberav3ngers",
-    "published": "2024-10-01T00:00:00+00:00",
-    "summary": "OpenAI banned accounts that appeared to belong to CyberAv3ngers using AI to research industrial control systems, default credentials, and targets.",
-    "author": "",
-    "source": "OpenAI",
-    "category": "official",
-    "references": [
-      "https://openai.com/index/disrupting-malicious-uses-of-ai-cyberav3ngers"
-    ]
-  },
-  {
-    "title": "Operation “STORM-2035”: Iran-origin influence activity",
-    "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-storm-2035-2024",
-    "published": "2024-10-01T00:00:00+00:00",
-    "summary": "OpenAI banned Iran-origin STORM-2035 accounts using AI to generate US and UK election content and publish it across sites.",
-    "author": "",
-    "source": "OpenAI",
-    "category": "official",
-    "references": [
-      "https://openai.com/index/disrupting-malicious-uses-of-ai-storm-2035-2024"
-    ]
-  },
-  {
-    "title": "Operation “Stop News”: Russia-origin influence activity",
-    "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-stop-news-2024",
-    "published": "2024-10-01T00:00:00+00:00",
-    "summary": "OpenAI banned Russia-origin “Stop News” accounts using AI to generate multilingual articles and posts targeting Ukraine and the West.",
-    "author": "",
-    "source": "OpenAI",
-    "category": "official",
-    "references": [
-      "https://openai.com/index/disrupting-malicious-uses-of-ai-stop-news-2024"
-    ]
-  },
-  {
-    "title": "Hoax: Fake Russian “troll” error message",
-    "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-hoax-russian-troll",
-    "published": "2024-10-01T00:00:00+00:00",
-    "summary": "OpenAI banned an account that likely originated in the US and used AI to create a fake ChatGPT error message claiming to detect “Russian troll” activity.",
-    "author": "",
-    "source": "OpenAI",
-    "category": "official",
-    "references": [
-      "https://openai.com/index/disrupting-malicious-uses-of-ai-hoax-russian-troll"
-    ]
-  },
-  {
-    "title": "STORM-0817: Iran-linked malware and scraping activity",
-    "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-storm-0817",
-    "published": "2024-10-01T00:00:00+00:00",
-    "summary": "OpenAI banned Iran-linked STORM-0817 accounts using AI to debug Android malware, scrape social platforms, and translate tooling.",
-    "author": "",
-    "source": "OpenAI",
-    "category": "official",
-    "references": [
-      "https://openai.com/index/disrupting-malicious-uses-of-ai-storm-0817"
-    ]
-  },
-  {
     "title": "Rwandan election content: Political commenting network",
     "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-rwandan-election-content",
     "published": "2024-10-01T00:00:00+00:00",
@@ -10659,42 +10597,6 @@
     "category": "official",
     "references": [
       "https://openai.com/index/disrupting-malicious-uses-of-ai-rwandan-election-content"
-    ]
-  },
-  {
-    "title": "Corrupt Comment: Anti-corruption foundation criticism",
-    "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-corrupt-comment",
-    "published": "2024-10-01T00:00:00+00:00",
-    "summary": "OpenAI banned accounts using AI to generate comments criticizing a Russian anti-corruption foundation and related figures.",
-    "author": "",
-    "source": "OpenAI",
-    "category": "official",
-    "references": [
-      "https://openai.com/index/disrupting-malicious-uses-of-ai-corrupt-comment"
-    ]
-  },
-  {
-    "title": "Operation “A2Z”: Multilingual influence activity",
-    "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-a2z",
-    "published": "2024-10-01T00:00:00+00:00",
-    "summary": "OpenAI banned “A2Z” accounts using AI to generate multilingual influence content about elections, Ukraine, and politics across platforms.",
-    "author": "",
-    "source": "OpenAI",
-    "category": "official",
-    "references": [
-      "https://openai.com/index/disrupting-malicious-uses-of-ai-a2z"
-    ]
-  },
-  {
-    "title": "SweetSpecter: China-linked cyber activity",
-    "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-sweetspecter",
-    "published": "2024-10-01T00:00:00+00:00",
-    "summary": "OpenAI banned accounts likely belonging to a suspected China-based adversary tracked as SweetSpecter, using AI to research vulnerabilities, write code, and support spear-phishing activity.",
-    "author": "",
-    "source": "OpenAI",
-    "category": "official",
-    "references": [
-      "https://openai.com/index/disrupting-malicious-uses-of-ai-sweetspecter"
     ]
   },
   {
@@ -10710,6 +10612,42 @@
     ]
   },
   {
+    "title": "STORM-0817: Iran-linked malware and scraping activity",
+    "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-storm-0817",
+    "published": "2024-10-01T00:00:00+00:00",
+    "summary": "OpenAI banned Iran-linked STORM-0817 accounts using AI to debug Android malware, scrape social platforms, and translate tooling.",
+    "author": "",
+    "source": "OpenAI",
+    "category": "official",
+    "references": [
+      "https://openai.com/index/disrupting-malicious-uses-of-ai-storm-0817"
+    ]
+  },
+  {
+    "title": "Operation “A2Z”: Multilingual influence activity",
+    "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-a2z",
+    "published": "2024-10-01T00:00:00+00:00",
+    "summary": "OpenAI banned “A2Z” accounts using AI to generate multilingual influence content about elections, Ukraine, and politics across platforms.",
+    "author": "",
+    "source": "OpenAI",
+    "category": "official",
+    "references": [
+      "https://openai.com/index/disrupting-malicious-uses-of-ai-a2z"
+    ]
+  },
+  {
+    "title": "Operation “Stop News”: Russia-origin influence activity",
+    "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-stop-news-2024",
+    "published": "2024-10-01T00:00:00+00:00",
+    "summary": "OpenAI banned Russia-origin “Stop News” accounts using AI to generate multilingual articles and posts targeting Ukraine and the West.",
+    "author": "",
+    "source": "OpenAI",
+    "category": "official",
+    "references": [
+      "https://openai.com/index/disrupting-malicious-uses-of-ai-stop-news-2024"
+    ]
+  },
+  {
     "title": "Tort Report: Abusive reporting activity",
     "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-tort-report",
     "published": "2024-10-01T00:00:00+00:00",
@@ -10719,6 +10657,66 @@
     "category": "official",
     "references": [
       "https://openai.com/index/disrupting-malicious-uses-of-ai-tort-report"
+    ]
+  },
+  {
+    "title": "CyberAv3ngers: Iran-linked cyber research activity",
+    "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-cyberav3ngers",
+    "published": "2024-10-01T00:00:00+00:00",
+    "summary": "OpenAI banned accounts that appeared to belong to CyberAv3ngers using AI to research industrial control systems, default credentials, and targets.",
+    "author": "",
+    "source": "OpenAI",
+    "category": "official",
+    "references": [
+      "https://openai.com/index/disrupting-malicious-uses-of-ai-cyberav3ngers"
+    ]
+  },
+  {
+    "title": "Corrupt Comment: Anti-corruption foundation criticism",
+    "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-corrupt-comment",
+    "published": "2024-10-01T00:00:00+00:00",
+    "summary": "OpenAI banned accounts using AI to generate comments criticizing a Russian anti-corruption foundation and related figures.",
+    "author": "",
+    "source": "OpenAI",
+    "category": "official",
+    "references": [
+      "https://openai.com/index/disrupting-malicious-uses-of-ai-corrupt-comment"
+    ]
+  },
+  {
+    "title": "Hoax: Fake Russian “troll” error message",
+    "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-hoax-russian-troll",
+    "published": "2024-10-01T00:00:00+00:00",
+    "summary": "OpenAI banned an account that likely originated in the US and used AI to create a fake ChatGPT error message claiming to detect “Russian troll” activity.",
+    "author": "",
+    "source": "OpenAI",
+    "category": "official",
+    "references": [
+      "https://openai.com/index/disrupting-malicious-uses-of-ai-hoax-russian-troll"
+    ]
+  },
+  {
+    "title": "SweetSpecter: China-linked cyber activity",
+    "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-sweetspecter",
+    "published": "2024-10-01T00:00:00+00:00",
+    "summary": "OpenAI banned accounts likely belonging to a suspected China-based adversary tracked as SweetSpecter, using AI to research vulnerabilities, write code, and support spear-phishing activity.",
+    "author": "",
+    "source": "OpenAI",
+    "category": "official",
+    "references": [
+      "https://openai.com/index/disrupting-malicious-uses-of-ai-sweetspecter"
+    ]
+  },
+  {
+    "title": "Operation “STORM-2035”: Iran-origin influence activity",
+    "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-storm-2035-2024",
+    "published": "2024-10-01T00:00:00+00:00",
+    "summary": "OpenAI banned Iran-origin STORM-2035 accounts using AI to generate US and UK election content and publish it across sites.",
+    "author": "",
+    "source": "OpenAI",
+    "category": "official",
+    "references": [
+      "https://openai.com/index/disrupting-malicious-uses-of-ai-storm-2035-2024"
     ]
   },
   {
@@ -10854,18 +10852,6 @@
     ]
   },
   {
-    "title": "Answering quantum physics questions with OpenAI o1",
-    "link": "https://openai.com/index/o1-quantum-physics",
-    "published": "2024-09-12T00:00:00+00:00",
-    "summary": "Quantum physicist Mario Krenn uses OpenAI o1 to help answer life's biggest questions.",
-    "author": "",
-    "source": "OpenAI",
-    "category": "official",
-    "references": [
-      "https://openai.com/index/o1-quantum-physics"
-    ]
-  },
-  {
     "title": "Decoding genetics with OpenAI o1",
     "link": "https://openai.com/index/o1-genetics",
     "published": "2024-09-12T00:00:00+00:00",
@@ -10899,6 +10885,18 @@
     "category": "official",
     "references": [
       "https://openai.com/index/o1-economics"
+    ]
+  },
+  {
+    "title": "Answering quantum physics questions with OpenAI o1",
+    "link": "https://openai.com/index/o1-quantum-physics",
+    "published": "2024-09-12T00:00:00+00:00",
+    "summary": "Quantum physicist Mario Krenn uses OpenAI o1 to help answer life's biggest questions.",
+    "author": "",
+    "source": "OpenAI",
+    "category": "official",
+    "references": [
+      "https://openai.com/index/o1-quantum-physics"
     ]
   },
   {
@@ -10938,18 +10936,6 @@
     ]
   },
   {
-    "title": "Putting AI to work at Upwork",
-    "link": "https://openai.com/index/upwork",
-    "published": "2024-08-20T10:00:00+00:00",
-    "summary": "Upwork puts AI to work, uniting team members, operations and product development",
-    "author": "",
-    "source": "OpenAI",
-    "category": "official",
-    "references": [
-      "https://openai.com/index/upwork"
-    ]
-  },
-  {
     "title": "Fine-tuning now available for GPT-4o",
     "link": "https://openai.com/index/gpt-4o-fine-tuning",
     "published": "2024-08-20T10:00:00+00:00",
@@ -10959,6 +10945,18 @@
     "category": "official",
     "references": [
       "https://openai.com/index/gpt-4o-fine-tuning"
+    ]
+  },
+  {
+    "title": "Putting AI to work at Upwork",
+    "link": "https://openai.com/index/upwork",
+    "published": "2024-08-20T10:00:00+00:00",
+    "summary": "Upwork puts AI to work, uniting team members, operations and product development",
+    "author": "",
+    "source": "OpenAI",
+    "category": "official",
+    "references": [
+      "https://openai.com/index/upwork"
     ]
   },
   {
@@ -11550,18 +11548,6 @@
     ]
   },
   {
-    "title": "Our approach to data and AI",
-    "link": "https://openai.com/index/approach-to-data-and-ai",
-    "published": "2024-05-07T00:00:00+00:00",
-    "summary": "Just over a year after launching ChatGPT, AI is changing how we live, work and learn. It’s also raised important conversations about data in the age of AI. More on our approach, a new Media Manager for creators and content owners, and where we’re headed.",
-    "author": "",
-    "source": "OpenAI",
-    "category": "official",
-    "references": [
-      "https://openai.com/index/approach-to-data-and-ai"
-    ]
-  },
-  {
     "title": "Understanding the source of what we see and hear online",
     "link": "https://openai.com/index/understanding-the-source-of-what-we-see-and-hear-online",
     "published": "2024-05-07T00:00:00+00:00",
@@ -11571,6 +11557,18 @@
     "category": "official",
     "references": [
       "https://openai.com/index/understanding-the-source-of-what-we-see-and-hear-online"
+    ]
+  },
+  {
+    "title": "Our approach to data and AI",
+    "link": "https://openai.com/index/approach-to-data-and-ai",
+    "published": "2024-05-07T00:00:00+00:00",
+    "summary": "Just over a year after launching ChatGPT, AI is changing how we live, work and learn. It’s also raised important conversations about data in the age of AI. More on our approach, a new Media Manager for creators and content owners, and where we’re headed.",
+    "author": "",
+    "source": "OpenAI",
+    "category": "official",
+    "references": [
+      "https://openai.com/index/approach-to-data-and-ai"
     ]
   },
   {
@@ -11598,15 +11596,15 @@
     ]
   },
   {
-    "title": "IUVM: Iran-linked influence content network",
-    "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-iuvm",
+    "title": "Operation \"Spamouflage\": China-linked influence activity",
+    "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-spamouflage",
     "published": "2024-05-01T00:00:00+00:00",
-    "summary": "OpenAI banned accounts associated with the Iran-origin operation \"IUVM\", using AI to generate and translate pro-Iran, anti-Israel and anti-US website content.",
+    "summary": "OpenAI banned accounts associated with the PRC-origin operation \"Spamouflage\", using AI to research social media activity, generate posts, and debug a previously unreported website.",
     "author": "",
     "source": "OpenAI",
     "category": "official",
     "references": [
-      "https://openai.com/index/disrupting-malicious-uses-of-ai-iuvm"
+      "https://openai.com/index/disrupting-malicious-uses-of-ai-spamouflage"
     ]
   },
   {
@@ -11634,15 +11632,15 @@
     ]
   },
   {
-    "title": "Operation \"Spamouflage\": China-linked influence activity",
-    "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-spamouflage",
+    "title": "IUVM: Iran-linked influence content network",
+    "link": "https://openai.com/index/disrupting-malicious-uses-of-ai-iuvm",
     "published": "2024-05-01T00:00:00+00:00",
-    "summary": "OpenAI banned accounts associated with the PRC-origin operation \"Spamouflage\", using AI to research social media activity, generate posts, and debug a previously unreported website.",
+    "summary": "OpenAI banned accounts associated with the Iran-origin operation \"IUVM\", using AI to generate and translate pro-Iran, anti-Israel and anti-US website content.",
     "author": "",
     "source": "OpenAI",
     "category": "official",
     "references": [
-      "https://openai.com/index/disrupting-malicious-uses-of-ai-spamouflage"
+      "https://openai.com/index/disrupting-malicious-uses-of-ai-iuvm"
     ]
   },
   {
@@ -11850,15 +11848,15 @@
     ]
   },
   {
-    "title": "Enterprise-ready trust and safety",
-    "link": "https://openai.com/index/salesforce",
+    "title": "Building a data-driven, efficient culture with AI",
+    "link": "https://openai.com/index/holiday-extras",
     "published": "2024-03-18T07:00:00+00:00",
-    "summary": "Salesforce integrates OpenAI’s enterprise-ready LLMs to transform customer applications.",
+    "summary": "Holiday Extras rolls out ChatGPT Enterprise across every team, boosting productivity by 500 hours weekly.",
     "author": "",
     "source": "OpenAI",
     "category": "official",
     "references": [
-      "https://openai.com/index/salesforce"
+      "https://openai.com/index/holiday-extras"
     ]
   },
   {
@@ -11874,27 +11872,15 @@
     ]
   },
   {
-    "title": "Building a data-driven, efficient culture with AI",
-    "link": "https://openai.com/index/holiday-extras",
+    "title": "Enterprise-ready trust and safety",
+    "link": "https://openai.com/index/salesforce",
     "published": "2024-03-18T07:00:00+00:00",
-    "summary": "Holiday Extras rolls out ChatGPT Enterprise across every team, boosting productivity by 500 hours weekly.",
+    "summary": "Salesforce integrates OpenAI’s enterprise-ready LLMs to transform customer applications.",
     "author": "",
     "source": "OpenAI",
     "category": "official",
     "references": [
-      "https://openai.com/index/holiday-extras"
-    ]
-  },
-  {
-    "title": "Global news partnerships: Le Monde and Prisa Media",
-    "link": "https://openai.com/index/global-news-partnerships-le-monde-and-prisa-media",
-    "published": "2024-03-13T07:00:00+00:00",
-    "summary": "We have partnered with international news organizations Le Monde and Prisa Media to bring French and Spanish news content to ChatGPT.",
-    "author": "",
-    "source": "OpenAI",
-    "category": "official",
-    "references": [
-      "https://openai.com/index/global-news-partnerships-le-monde-and-prisa-media"
+      "https://openai.com/index/salesforce"
     ]
   },
   {
@@ -11907,6 +11893,18 @@
     "category": "official",
     "references": [
       "https://openai.com/index/healthify"
+    ]
+  },
+  {
+    "title": "Global news partnerships: Le Monde and Prisa Media",
+    "link": "https://openai.com/index/global-news-partnerships-le-monde-and-prisa-media",
+    "published": "2024-03-13T07:00:00+00:00",
+    "summary": "We have partnered with international news organizations Le Monde and Prisa Media to bring French and Spanish news content to ChatGPT.",
+    "author": "",
+    "source": "OpenAI",
+    "category": "official",
+    "references": [
+      "https://openai.com/index/global-news-partnerships-le-monde-and-prisa-media"
     ]
   },
   {
@@ -12078,18 +12076,6 @@
     ]
   },
   {
-    "title": "Introducing ChatGPT Team",
-    "link": "https://openai.com/index/introducing-chatgpt-team",
-    "published": "2024-01-10T08:00:00+00:00",
-    "summary": "We’re launching a new ChatGPT plan for teams of all sizes, which provides a secure, collaborative workspace to get the most out of ChatGPT at work.",
-    "author": "",
-    "source": "OpenAI",
-    "category": "official",
-    "references": [
-      "https://openai.com/index/introducing-chatgpt-team"
-    ]
-  },
-  {
     "title": "Introducing the GPT Store",
     "link": "https://openai.com/index/introducing-the-gpt-store",
     "published": "2024-01-10T08:00:00+00:00",
@@ -12099,6 +12085,18 @@
     "category": "official",
     "references": [
       "https://openai.com/index/introducing-the-gpt-store"
+    ]
+  },
+  {
+    "title": "Introducing ChatGPT Team",
+    "link": "https://openai.com/index/introducing-chatgpt-team",
+    "published": "2024-01-10T08:00:00+00:00",
+    "summary": "We’re launching a new ChatGPT plan for teams of all sizes, which provides a secure, collaborative workspace to get the most out of ChatGPT at work.",
+    "author": "",
+    "source": "OpenAI",
+    "category": "official",
+    "references": [
+      "https://openai.com/index/introducing-chatgpt-team"
     ]
   },
   {
@@ -12138,18 +12136,6 @@
     ]
   },
   {
-    "title": "Practices for Governing Agentic AI Systems",
-    "link": "https://openai.com/index/practices-for-governing-agentic-ai-systems",
-    "published": "2023-12-14T08:00:00+00:00",
-    "summary": "",
-    "author": "",
-    "source": "OpenAI",
-    "category": "official",
-    "references": [
-      "https://openai.com/index/practices-for-governing-agentic-ai-systems"
-    ]
-  },
-  {
     "title": "Superalignment Fast Grants",
     "link": "https://openai.com/index/superalignment-fast-grants",
     "published": "2023-12-14T08:00:00+00:00",
@@ -12159,6 +12145,18 @@
     "category": "official",
     "references": [
       "https://openai.com/index/superalignment-fast-grants"
+    ]
+  },
+  {
+    "title": "Practices for Governing Agentic AI Systems",
+    "link": "https://openai.com/index/practices-for-governing-agentic-ai-systems",
+    "published": "2023-12-14T08:00:00+00:00",
+    "summary": "",
+    "author": "",
+    "source": "OpenAI",
+    "category": "official",
+    "references": [
+      "https://openai.com/index/practices-for-governing-agentic-ai-systems"
     ]
   },
   {
@@ -12282,18 +12280,6 @@
     ]
   },
   {
-    "title": "Evolving online forms into dynamic data",
-    "link": "https://openai.com/index/typeform",
-    "published": "2023-10-11T07:00:00+00:00",
-    "summary": "Typeform evolves online forms into dynamic and conversational data collection experiences with GPT-3.5 and GPT-4.",
-    "author": "",
-    "source": "OpenAI",
-    "category": "official",
-    "references": [
-      "https://openai.com/index/typeform"
-    ]
-  },
-  {
     "title": "Building AI-powered apps for business",
     "link": "https://openai.com/index/retool",
     "published": "2023-10-11T07:00:00+00:00",
@@ -12303,6 +12289,18 @@
     "category": "official",
     "references": [
       "https://openai.com/index/retool"
+    ]
+  },
+  {
+    "title": "Evolving online forms into dynamic data",
+    "link": "https://openai.com/index/typeform",
+    "published": "2023-10-11T07:00:00+00:00",
+    "summary": "Typeform evolves online forms into dynamic and conversational data collection experiences with GPT-3.5 and GPT-4.",
+    "author": "",
+    "source": "OpenAI",
+    "category": "official",
+    "references": [
+      "https://openai.com/index/typeform"
     ]
   },
   {
@@ -12726,6 +12724,42 @@
     ]
   },
   {
+    "title": "Powering virtual education for the classroom",
+    "link": "https://openai.com/index/khan-academy",
+    "published": "2023-03-14T07:00:00+00:00",
+    "summary": "Khan Academy explores the potential for GPT-4 in a limited pilot program.",
+    "author": "",
+    "source": "OpenAI",
+    "category": "official",
+    "references": [
+      "https://openai.com/index/khan-academy"
+    ]
+  },
+  {
+    "title": "GPT-4",
+    "link": "https://openai.com/index/gpt-4-research",
+    "published": "2023-03-14T07:00:00+00:00",
+    "summary": "We’ve created GPT-4, the latest milestone in OpenAI’s effort in scaling up deep learning. GPT-4 is a large multimodal model (accepting image and text inputs, emitting text outputs) that, while less capable than humans in many real-world scenarios, exhibits human-level performance on various professional and academic benchmarks.",
+    "author": "",
+    "source": "OpenAI",
+    "category": "official",
+    "references": [
+      "https://openai.com/index/gpt-4-research"
+    ]
+  },
+  {
+    "title": "Filling crucial language learning gaps",
+    "link": "https://openai.com/index/duolingo",
+    "published": "2023-03-14T07:00:00+00:00",
+    "summary": "GPT-4 deepens the conversation on Duolingo.",
+    "author": "",
+    "source": "OpenAI",
+    "category": "official",
+    "references": [
+      "https://openai.com/index/duolingo"
+    ]
+  },
+  {
     "title": "Transforming visual accessibility",
     "link": "https://openai.com/index/be-my-eyes",
     "published": "2023-03-14T07:00:00+00:00",
@@ -12750,30 +12784,6 @@
     ]
   },
   {
-    "title": "Powering virtual education for the classroom",
-    "link": "https://openai.com/index/khan-academy",
-    "published": "2023-03-14T07:00:00+00:00",
-    "summary": "Khan Academy explores the potential for GPT-4 in a limited pilot program.",
-    "author": "",
-    "source": "OpenAI",
-    "category": "official",
-    "references": [
-      "https://openai.com/index/khan-academy"
-    ]
-  },
-  {
-    "title": "Filling crucial language learning gaps",
-    "link": "https://openai.com/index/duolingo",
-    "published": "2023-03-14T07:00:00+00:00",
-    "summary": "GPT-4 deepens the conversation on Duolingo.",
-    "author": "",
-    "source": "OpenAI",
-    "category": "official",
-    "references": [
-      "https://openai.com/index/duolingo"
-    ]
-  },
-  {
     "title": "Stripe",
     "link": "https://openai.com/index/stripe",
     "published": "2023-03-14T07:00:00+00:00",
@@ -12783,18 +12793,6 @@
     "category": "official",
     "references": [
       "https://openai.com/index/stripe"
-    ]
-  },
-  {
-    "title": "GPT-4",
-    "link": "https://openai.com/index/gpt-4-research",
-    "published": "2023-03-14T07:00:00+00:00",
-    "summary": "We’ve created GPT-4, the latest milestone in OpenAI’s effort in scaling up deep learning. GPT-4 is a large multimodal model (accepting image and text inputs, emitting text outputs) that, while less capable than humans in many real-world scenarios, exhibits human-level performance on various professional and academic benchmarks.",
-    "author": "",
-    "source": "OpenAI",
-    "category": "official",
-    "references": [
-      "https://openai.com/index/gpt-4-research"
     ]
   },
   {
@@ -13290,18 +13288,6 @@
     ]
   },
   {
-    "title": "Lessons learned on language model safety and misuse",
-    "link": "https://openai.com/index/language-model-safety-and-misuse",
-    "published": "2022-03-03T08:00:00+00:00",
-    "summary": "We describe our latest thinking in the hope of helping other AI developers address safety and misuse of deployed models.",
-    "author": "",
-    "source": "OpenAI",
-    "category": "official",
-    "references": [
-      "https://openai.com/index/language-model-safety-and-misuse"
-    ]
-  },
-  {
     "title": "Economic impacts research at OpenAI",
     "link": "https://openai.com/index/economic-impacts",
     "published": "2022-03-03T08:00:00+00:00",
@@ -13311,6 +13297,18 @@
     "category": "official",
     "references": [
       "https://openai.com/index/economic-impacts"
+    ]
+  },
+  {
+    "title": "Lessons learned on language model safety and misuse",
+    "link": "https://openai.com/index/language-model-safety-and-misuse",
+    "published": "2022-03-03T08:00:00+00:00",
+    "summary": "We describe our latest thinking in the hope of helping other AI developers address safety and misuse of deployed models.",
+    "author": "",
+    "source": "OpenAI",
+    "category": "official",
+    "references": [
+      "https://openai.com/index/language-model-safety-and-misuse"
     ]
   },
   {
@@ -14574,18 +14572,6 @@
     ]
   },
   {
-    "title": "Report from the OpenAI hackathon",
-    "link": "https://openai.com/index/hackathon-follow-up",
-    "published": "2018-03-15T07:00:00+00:00",
-    "summary": "On March 3rd, we hosted our first hackathon with 100 members of the artificial intelligence community.",
-    "author": "",
-    "source": "OpenAI",
-    "category": "official",
-    "references": [
-      "https://openai.com/index/hackathon-follow-up"
-    ]
-  },
-  {
     "title": "Improving GANs using optimal transport",
     "link": "https://openai.com/index/improving-gans-using-optimal-transport",
     "published": "2018-03-15T07:00:00+00:00",
@@ -14595,6 +14581,18 @@
     "category": "official",
     "references": [
       "https://openai.com/index/improving-gans-using-optimal-transport"
+    ]
+  },
+  {
+    "title": "Report from the OpenAI hackathon",
+    "link": "https://openai.com/index/hackathon-follow-up",
+    "published": "2018-03-15T07:00:00+00:00",
+    "summary": "On March 3rd, we hosted our first hackathon with 100 members of the artificial intelligence community.",
+    "author": "",
+    "source": "OpenAI",
+    "category": "official",
+    "references": [
+      "https://openai.com/index/hackathon-follow-up"
     ]
   },
   {
@@ -15306,18 +15304,6 @@
     ]
   },
   {
-    "title": "OpenAI and Microsoft",
-    "link": "https://openai.com/index/openai-and-microsoft",
-    "published": "2016-11-15T08:00:00+00:00",
-    "summary": "We’re working with Microsoft to start running most of our large-scale experiments on Azure.",
-    "author": "",
-    "source": "OpenAI",
-    "category": "official",
-    "references": [
-      "https://openai.com/index/openai-and-microsoft"
-    ]
-  },
-  {
     "title": "#Exploration: A study of count-based exploration for deep reinforcement learning",
     "link": "https://openai.com/index/exploration",
     "published": "2016-11-15T08:00:00+00:00",
@@ -15327,6 +15313,18 @@
     "category": "official",
     "references": [
       "https://openai.com/index/exploration"
+    ]
+  },
+  {
+    "title": "OpenAI and Microsoft",
+    "link": "https://openai.com/index/openai-and-microsoft",
+    "published": "2016-11-15T08:00:00+00:00",
+    "summary": "We’re working with Microsoft to start running most of our large-scale experiments on Azure.",
+    "author": "",
+    "source": "OpenAI",
+    "category": "official",
+    "references": [
+      "https://openai.com/index/openai-and-microsoft"
     ]
   },
   {
