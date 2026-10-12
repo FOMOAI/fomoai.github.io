@@ -1,5 +1,188 @@
 [
   {
+    "title": "Can Language Models Play the Wikipedia Game?",
+    "link": "http://arxiv.org/abs/2610.13948v1",
+    "published": "2026-10-09T17:59:56+00:00",
+    "summary": "Language models increasingly support or automate information retrieval from document collections too large to index. This task is difficult when it requires specialist linguistic or scientific knowledge. We used the Wikipedia Game to test language models on an analogous information retrieval task. In the game, players must reach a target article using only article links. We compared sentence embedding models and LLMs across five Wikipedia languages and five academic-literature datasets. We const",
+    "author": "Alexander Hickey, Joanna Knight, James Bishop",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2610.13948v1"
+    ]
+  },
+  {
+    "title": "Hide and Seek: HIDE Concepts to SEEK explanations for black box models",
+    "link": "http://arxiv.org/abs/2610.13935v1",
+    "published": "2026-10-09T17:56:59+00:00",
+    "summary": "Interpreting machine learning model predictions is a central challenge, particularly for black-box vision models. Concept-based attribution methods interpret models using human-understandable concepts. Existing concept-based methods can only interpret classification and regression models. They require access to model weights or large concept-annotated datasets, and most methods cannot provide image-level attribution. We propose Hide and Seek (HnS), a new method for concept-level attribution that",
+    "author": "Bhanu Tokas, Rahul Nair, Rockwell Jackson, Hannah Kerner",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2610.13935v1"
+    ]
+  },
+  {
+    "title": "Revisiting Tabular Deep Regression: Objectives and the Limits of Global Early Stopping",
+    "link": "http://arxiv.org/abs/2610.13909v1",
+    "published": "2026-10-09T17:49:32+00:00",
+    "summary": "While deep learning models for tabular data have recently received significant research attention, the choice of objective functions for regression tasks remains an understudied degree of freedom. Several lines of research offer alternatives to the standard Mean Squared Error (MSE), but differences in datasets, backbones, and evaluation protocols make their practical benefits difficult to compare. In this work, we address this gap by performing a systematic re-evaluation of regression objectives",
+    "author": "Danil Rudenko, Georgii Bulgakov, Nikolay Kartashev, Ivan Rubachev, Daniil Krasylnikov, Artem Babenko",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "https://github.com/yandex-research/tabular-regression",
+      "http://arxiv.org/abs/2610.13909v1"
+    ]
+  },
+  {
+    "title": "Task Context Shapes Component Roles in Language Models",
+    "link": "http://arxiv.org/abs/2610.13895v1",
+    "published": "2026-10-09T17:40:53+00:00",
+    "summary": "Large language models reuse the same attention heads across tasks, but identifying these shared heads does not explain what they do differently in each task. A natural source of inspiration is task-dependent interactions among shared brain regions, which motivate a network view of language-model computation. Here, we compare fixed model components across tasks using identical graph facts, statements specifying which directed connections are present. We measure how interventions affect attention ",
+    "author": "Sovesh Mohapatra, Dani S Bassett",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2610.13895v1"
+    ]
+  },
+  {
+    "title": "RATED: Reliability-Aware AI Agent Tool Retrieval via Execution Dynamics",
+    "link": "http://arxiv.org/abs/2610.13889v1",
+    "published": "2026-10-09T17:38:11+00:00",
+    "summary": "As AI agents increasingly rely on external tools, accurate retrieval is essential for reliable behavior. Existing methods optimize semantic relevance but largely ignore tool availability during execution. To address this gap, we propose RATED (Reliability-Aware Tool Retrieval via Execution Dynamics), a retrieval framework that combines robust semantic matching with dynamic reliability adaptation. RATED employs a frozen dual-encoder with contrastive fine-tuning for semantic matching, and a lightw",
+    "author": "Weiliang Chen, Song Liao",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "https://github.com/Elliotes/EcoAgent",
+      "http://arxiv.org/abs/2610.13889v1"
+    ]
+  },
+  {
+    "title": "X-AgentRed: Red-Teaming Personal Agents in Evolving Multi-Service Ecosystems",
+    "link": "http://arxiv.org/abs/2610.13886v1",
+    "published": "2026-10-09T17:34:44+00:00",
+    "summary": "Personal agents increasingly connect to services across the web and applications by using tools. As the effects of their actions accumulate and interact across services, unintended or harmful outcomes can arise when agents fulfill benign user requests. Proactively identifying these compositional failures requires systematically exploring diverse cross-service paths. Existing red-teaming methods often simply prompt LLMs to identify potentially harmful paths from task and environment descriptions ",
+    "author": "Yeonsung Jung, Zhiyuan Wang, Zifan Wang, Vítor Albiero, Benjamin Newman, Edoardo Debenedetti, Ivan Evtimov, Ninareh Mehrabi",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2610.13886v1"
+    ]
+  },
+  {
+    "title": "Studying Comics at Scale with Artificial Intelligence: The PAGE Framework and Three Studies of American Comics and Japanese Manga",
+    "link": "http://arxiv.org/abs/2610.13840v1",
+    "published": "2026-10-09T16:49:29+00:00",
+    "summary": "Comics are one of the great visual records of the twentieth century: hundreds of thousands of pages in which a mass readership saw its leaders, its wars and its heroes. Most of this record has never been studied as a whole; comics scholarship proceeds one book at a time. We argue that artificial intelligence, including generative models, can change this to the benefit of the medium itself. We propose PAGE, a framework that makes artificial intelligence an instrument for comics research. It parse",
+    "author": "Emilio Ferrara",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2610.13840v1"
+    ]
+  },
+  {
+    "title": "SpatialASM: Internalizing Active Mentalization for Spatial Reasoning",
+    "link": "http://arxiv.org/abs/2610.13832v1",
+    "published": "2026-10-09T16:39:50+00:00",
+    "summary": "When solving complex spatial reasoning tasks, ordinary humans naturally revisit the scenes from task-relevant viewpoints and mentally reconstruct the spatial layouts from those viewpoints. But can Large Vision-Language Models (LVLMs) proactively think in the same way? We term this ability Active Spatial Mentalization (ASM), an intrinsic component of visual intelligence that remains substantially underdeveloped in current LVLMs. To bridge this gap, we introduce SpatialASM, a scalable framework to",
+    "author": "Yuhong Liu, Shenxi Wu, Junyi Chi, Beichen Zhang, Xuanlang Dai, Jiaqi Wang, Yuhang Zang, Dahua Lin",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2610.13832v1"
+    ]
+  },
+  {
+    "title": "MC-EvoBench: Auditing Experience-Driven Self-Improvement in Minecraft Agents",
+    "link": "http://arxiv.org/abs/2610.13829v1",
+    "published": "2026-10-09T16:37:39+00:00",
+    "summary": "A central challenge in embodied recursive self-improvement is enabling agents to convert interaction history into capabilities that persist beyond one world and transfer to later tasks. A saved memory or successful final action does not by itself establish that a reusable capability was acquired; evaluation must separate capability change from carried-over resources, unequal source exposure, and early execution failures. We construct MC-EvoBench as a controlled Minecraft benchmark with a fixed c",
+    "author": "Jingwei Song, Zhisheng Chen, Bingfan Zeng, Jing Tang, Yubo Hou, Jinhao Jing, Zhengwei Xie, Linfeng Zhang",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "https://github.com/xzw-ustc/mc-bench-open-source",
+      "http://arxiv.org/abs/2610.13829v1"
+    ]
+  },
+  {
+    "title": "Same Query, Different Answer: Run-to-Run Variance in Semantic Query Processing",
+    "link": "http://arxiv.org/abs/2610.13823v1",
+    "published": "2026-10-09T16:34:13+00:00",
+    "summary": "Semantic query engines ask a large language model (LLM) to judge individual rows, and benchmarks compare these engines on the quality of a few executions at temperature 0. We measure how much another execution changes. We re-execute the text and tabular workloads of SemBench, LRO-Bench, and UDA-Bench through their own harnesses, log every one of 1.2 million model calls, and reanalyze SemBench's published executions. At temperature 0, between 0.07% and 10.2% of rows change their operator output o",
+    "author": "Oktie Hassanzadeh, Dharmashankar Subramanian",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2610.13823v1"
+    ]
+  },
+  {
+    "title": "FORTE: A Production Framework for Feature Evaluation and Deprecation in Industrial Recommender Systems",
+    "link": "http://arxiv.org/abs/2610.13806v1",
+    "published": "2026-10-09T16:18:39+00:00",
+    "summary": "Production recommender systems have feature-lifecycle asymmetry: adding new features must produce gains on some metric, while feature removal must not regress any metric. In practice, feature deprecation is hard to prioritize as a feature can fail to be removed if it interacts with other features, its importance changes daily, it cannot be evaluated before production models change or data drift occurs, it is in contention for A/B test space with other launches, it causes regressions in an online",
+    "author": "Vishnu Arun, Adam Obeng, Tianyou Wang, Zilin Ren, Mukuntha Narayanan Sundararaman, Han Wang, Shivin Thukral, Zhixiang Wang, Saurabh Vishwas Joshi, Darren Reger",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2610.13806v1"
+    ]
+  },
+  {
+    "title": "Your Discrete Graph Diffusion Model is Secretly Memorizing",
+    "link": "http://arxiv.org/abs/2610.13786v1",
+    "published": "2026-10-09T16:04:06+00:00",
+    "summary": "Discrete graph diffusion models (GDMs) corrupt the graph structure by adding noise independently to nodes and edges under a Markovian noise model. In the unconditional setting without node features, an equivariant denoiser trained on a single graph is able to generate novel graphs and sample-level metrics such as edge overlap and WL kernel similarity find no evidence of memorization. In this work, we challenge this view and show for the first time that graph diffusion models indeed exhibit memor",
+    "author": "Adarsh Jamadandi, Nicolas Keriven",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2610.13786v1"
+    ]
+  },
+  {
+    "title": "UkrMeme: Multimodal Explainable Persuasion Detection in Ukrainian Memes",
+    "link": "http://arxiv.org/abs/2610.13783v1",
+    "published": "2026-10-09T16:03:27+00:00",
+    "summary": "Memes play a central role in modern online communication, especially in contexts of political conflict where visual and textual cues combine to convey persuasive messages. We study persuasive technique detection in Ukrainian memes using vision-language models (VLMs). We introduce UkrMeme, a dataset of 200 organically produced Ukrainian wartime memes annotated for persuasion techniques, and PTM-UA, a Ukrainian translation of a subset of the Propaganda 950 benchmark that preserves original visual ",
+    "author": "Nazar Andrushko, Vera Schmitt, Veronika Solopova",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2610.13783v1"
+    ]
+  },
+  {
+    "title": "ReplaySSM: Cache SSM Inputs, Not State",
+    "link": "http://arxiv.org/abs/2610.13778v1",
+    "published": "2026-10-09T15:59:40+00:00",
+    "summary": "State-space models (SSMs) maintain a fixed-size recurrent state, but reading and writing it at every decoding step can bottleneck hybrid models. This eager state management causes large state I/O with low arithmetic intensity, leaves speculative decoding no cheap rollback, and feeds state quantization error into subsequent recurrent updates. We introduce ReplaySSM, which unrolls the recurrence to represent the state as a checkpoint and a buffer of recent SSM inputs. This separates output computa",
+    "author": "Ze-Wei Liou, Harris Nover, Amey Naik, Andrii Skliar, Igor Shovkun, Ido Shahaf, Tri Dao",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2610.13778v1"
+    ]
+  },
+  {
+    "title": "DualQuant: Dual-scale Calibration-free Weight-and-Activation Quantization for LLMs",
+    "link": "http://arxiv.org/abs/2610.13767v1",
+    "published": "2026-10-09T15:51:38+00:00",
+    "summary": "Low-bit inference on accelerators with native 4-bit support requires quantizing both weights and activations to realize the full throughput gains these formats provide. While post-training weight quantization has been extensively studied, activation quantization remains considerably more challenging and typically requires calibration data. In this work, we introduce DUALQUANT, a dual-scale, calibration-free post-training quantization framework that directly minimizes the weight-reconstruction Me",
+    "author": "Mahsa Salmani, Sayeh Sharify, Hesham Mostafa",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2610.13767v1"
+    ]
+  },
+  {
     "title": "The Download: AI’s refusal problem and weight-loss drug side effects",
     "link": "https://www.technologyreview.com/2026/10/09/1146250/the-download-ai-refusal-problem-weight-loss-drug-side-effects/",
     "published": "2026-10-09T12:10:00+00:00",
@@ -81,190 +264,6 @@
     "category": "media",
     "references": [
       "https://www.technologyreview.com/2026/10/08/1146224/roundtables-a-conversation-with-the-creator-of-ai-designed-viruses/"
-    ]
-  },
-  {
-    "title": "On the estimation and validity of AI time horizons---a statistical look at the METR plot",
-    "link": "http://arxiv.org/abs/2610.12466v1",
-    "published": "2026-10-08T17:59:50+00:00",
-    "summary": "METR's 50\\% time horizon measures the human completion time of software tasks that an AI solves with 50\\% probability, allowing AI capabilities to be expressed in interpretable units. On 228 tasks and 26 AIs, we recompute the time horizons using splines and item-response theory to relax the assumption that the AI difficulty of a task depends linearly on the log of human time. Our fitted spline can be interpreted as a function that \\emph{converts} human time to AI difficulty; it is nearly flat in",
-    "author": "Drew T. Nguyen, William Fithian",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2610.12466v1"
-    ]
-  },
-  {
-    "title": "From Reactive Containment to Proactive Assurance: Lessons from OpenAI, Anthropic, and Google Agent Security Incidents",
-    "link": "http://arxiv.org/abs/2610.12463v1",
-    "published": "2026-10-08T17:59:49+00:00",
-    "summary": "In 2026, cybersecurity evaluations involving OpenAI, Anthropic, and Google agents reached real systems outside their authorized test scope. The paths were different. OpenAI agents exploited research infrastructure, coordinated across runs, and compromised parts of Hugging Face's production environment. Anthropic reported cases in which a misconfigured third-party environment exposed real systems to agents pursuing simulated cyber tasks. In a separately reported evaluation, Google's Gemini access",
-    "author": "Abbas Raftari",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2610.12463v1"
-    ]
-  },
-  {
-    "title": "BrickBench: Evaluating Agentic Brick Design",
-    "link": "http://arxiv.org/abs/2610.12452v1",
-    "published": "2026-10-08T17:58:56+00:00",
-    "summary": "We propose BrickBench, a benchmark for agentic text-conditioned LEGO-set design. Given a prompt, an agent is tasked with producing an assembly that not only satisfies semantic and design criteria, but that can also be physically built. To do so, it must select parts from a discrete library and reason jointly about local and global constraints. We score validity, alignment, and design across three settings that vary in scale and part availability. We provide BrickAgent, an environment for coding ",
-    "author": "Peter Kulits, Yiqing Xu, R. Kenny Jones, Cordelia Schmid, Jiajun Wu",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://www.brickben.ch",
-      "http://arxiv.org/abs/2610.12452v1"
-    ]
-  },
-  {
-    "title": "Bi-FORK: Generative Modeling of High-Dimensional Bifurcating Systems",
-    "link": "http://arxiv.org/abs/2610.12449v1",
-    "published": "2026-10-08T17:58:36+00:00",
-    "summary": "Bifurcations are ubiquitous in physical systems, from structural buckling to fluid and climate dynamics, yet they remain largely unexplored in deep learning. At a symmetry-breaking bifurcation, a single input admits multiple equally valid solutions, violating the one-to-one assumption underlying most learned physical surrogates. We introduce Bi-FORK, a generative framework for learning these one-to-many solution maps in high-dimensional systems. Bi-FORK generates complete trajectories through la",
-    "author": "Anna Zimmel, Fleur Hendriks, Markus Holzleitner, Florian Sestak, Martin Weichselbaumer, Vlado Menkovski, Johannes Brandstetter",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2610.12449v1"
-    ]
-  },
-  {
-    "title": "Caught in the Act: Probes Effectively Detect Sabotage and Catch Unverbalized Deception",
-    "link": "http://arxiv.org/abs/2610.12445v1",
-    "published": "2026-10-08T17:58:13+00:00",
-    "summary": "Recent incidents have highlighted the challenge of monitoring LLM agents and the danger of models deceiving people. We show that white-box deception detection via probes can be scaled up to frontier monitoring settings by collecting the largest deception dataset to date for training probes and introducing a novel probe architecture which can aggregate information across many layers and tokens. Our probes achieve 98.8% AUC in SHADE-Arena, surpassing an Opus 5.5 text-monitoring baseline, and show ",
-    "author": "Oskar J. Hollinsworth, Alex F. Spies, Tigist Diriba, Adam Gleave, Chris Cundy",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2610.12445v1"
-    ]
-  },
-  {
-    "title": "Ecology of AI Agents: Collaboration Creates a Population Threshold for Takeoff",
-    "link": "http://arxiv.org/abs/2610.12436v1",
-    "published": "2026-10-08T17:57:32+00:00",
-    "summary": "AI agents can now conduct real-world cyberattacks, scale up capabilities with the number of agents, and collectively pursue misaligned goals to obtain rewards. Together, these factors raise the risk of a population explosion of misaligned agents: agents could compromise computers and secretly deploy additional agents, creating a self-reinforcing cycle where larger populations develop greater collective cyber capability and expand further. This raises a fundamental question: What determines wheth",
-    "author": "Erin Crawley, Hidenori Tanaka",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2610.12436v1"
-    ]
-  },
-  {
-    "title": "RoboRSI: Stable, efficient, and reusable robot self-evolution in complex real-world environments",
-    "link": "http://arxiv.org/abs/2610.12424v1",
-    "published": "2026-10-08T17:55:12+00:00",
-    "summary": "A generalist robot should not only perform diverse tasks but also improve through experience, turning what it learns during execution into capabilities that later tasks can reuse. Robot agents that act through code can already repair programs from execution feedback, yet it remains a central challenge to organize this experience around the task structure that gives it meaning, so that each repair is attributed to the responsible capability, supported by execution evidence, and validated before i",
-    "author": "Zimo Wen, Yijin Chen, Yuxuan Cao, Wendi Chen, Yanwen Zou, Wenye Yu, Fuhang Kuang, Han Xue, Jun Lv, Chuan Wen, Cewu Lu",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2610.12424v1"
-    ]
-  },
-  {
-    "title": "MAMHOI: Factorizing Scene-Aware Human-Object Interaction through Affordances",
-    "link": "http://arxiv.org/abs/2610.12416v1",
-    "published": "2026-10-08T17:52:02+00:00",
-    "summary": "Generating realistic human-object interactions (HOI) in complex 3D scenes requires two complementary capabilities: reasoning about interaction feasibility in the environment and synthesizing realistic human-object motion. However, supervision for these capabilities is rarely available jointly at scale. Human-scene datasets provide rich information about environment-aware motion, while human-object datasets capture detailed interaction dynamics, yet paired human-object-scene data remain scarce. W",
-    "author": "Mingyuan Lei, Yoonchang Sung, Tat-Jen Cham",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "https://leimingyuan.github.io/MAMHOI-project-page/",
-      "http://arxiv.org/abs/2610.12416v1"
-    ]
-  },
-  {
-    "title": "Predicting Alignment Generalization with Value Representations",
-    "link": "http://arxiv.org/abs/2610.12410v1",
-    "published": "2026-10-08T17:47:26+00:00",
-    "summary": "LLM developers post-train their models to exhibit prosocial values and behavioral traits, which are enumerated in an alignment target. However, while recent post-training developments have yielded models that score highly on alignment evaluations, training models on sets of narrow behaviors still influences their behavior across unseen contexts and environments in unexpected ways. In this paper, we establish the task of alignment generalization prediction, i.e., predicting how fine-tuning a mode",
-    "author": "Andy Liu, Mehar Bhatia, Karolina Stanczak, Mona Diab, Vered Shwartz, Daniel Fried",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2610.12410v1"
-    ]
-  },
-  {
-    "title": "Searching for \"Harmful Refusal\": A Psychometric Audit of an AI Safety Benchmark",
-    "link": "http://arxiv.org/abs/2610.12409v1",
-    "published": "2026-10-08T17:46:43+00:00",
-    "summary": "Safety benchmarks typically report one overall score for a suite of datasets, each of which may target one or more safety-related attributes, so models with similar overall scores can have very different attribute profiles. Comparing models is more tractable at the level of individual attributes, yet it is often unclear whether even a single dataset's scores isolate any single attribute. One plausible candidate for such an attribute is harmful refusal, a model's tendency to refuse dangerous or p",
-    "author": "Christopher M. Stewart, Preston Botter, Natalie Sarabosing, Muye Zhang, Rachel Phinnemore, Shalini Ghosh, Hong Shen, Hoda Heidari",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2610.12409v1"
-    ]
-  },
-  {
-    "title": "LeWAM: A JEPA World Action Model with Diffusion-Steering-Based MPC",
-    "link": "http://arxiv.org/abs/2610.12407v1",
-    "published": "2026-10-08T17:46:03+00:00",
-    "summary": "World action models (WAMs) predict actions and future observations, typically from a reconstruction-based representation that carries noisy, redundant information which can complicate downstream predictions. We introduce LeWAM, a bidirectional transformer for forward, backward, inverse dynamics and policy prediction, on a decoder-free JEPA latent trained end-to-end through all four modes. We see the following benefits: 1) Alignment: linear probes read robot and object state from LeWAM's latent b",
-    "author": "Shashank Hegde, Alexander Popov, Elie Aljalbout, Nikolai Smolyanskiy",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2610.12407v1"
-    ]
-  },
-  {
-    "title": "SpaceFlow: Locally Controllable 3D Generation",
-    "link": "http://arxiv.org/abs/2610.12399v1",
-    "published": "2026-10-08T17:42:39+00:00",
-    "summary": "Current 3D generation methods lack explicit local control: geometric adherence is often defined by a global control strength, and appearance cannot be specified locally. We present SpaceFlow, a training-free pipeline for locally controllable 3D generation from text descriptions and a collection of geometric primitives. Each primitive serves as a proxy for an object part and is assigned a local control level, enabling users to specify whether regions should strictly follow the input shape or allo",
-    "author": "Neil De La Fuente, Joan Lafuente, Mukhammadali Sayfiddinov, Felicia Scharitzer, Marc Pollefeys, Ata Celen, Sayan Deb Sarkar, Elisabetta Fedele",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2610.12399v1"
-    ]
-  },
-  {
-    "title": "HRIL: Learning Multimodal Synergy via Higher-Order Tensor Modeling",
-    "link": "http://arxiv.org/abs/2610.12393v1",
-    "published": "2026-10-08T17:39:45+00:00",
-    "summary": "Self-supervised multimodal representation learning has achieved remarkable success across diverse domains, yet capturing synergistic information remains challenging due to the complexity of cross-modal interactions. Unlike the shared information across individual modalities, synergy arises when task-relevant signals emerge only from the joint configuration of multiple modalities and cannot be recovered from any modality in isolation. This work focuses on how to preserve the information capacity ",
-    "author": "Qun Dai, Liangjian Wen, Jiang Duan, Yong Dai, Dongkai Wang, Maolin Wang, Mingjie Wang, Jianzhuang Liu, He Yan, Zhao Kang",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "https://github.com/brightest66/HRIL",
-      "http://arxiv.org/abs/2610.12393v1"
-    ]
-  },
-  {
-    "title": "GeoReform: Reflective Formalization Evolution for Multimodal Geometry Problem Solving",
-    "link": "http://arxiv.org/abs/2610.12391v1",
-    "published": "2026-10-08T17:39:12+00:00",
-    "summary": "Multimodal large language models (MLLMs) often struggle to identify and use geometric relations in diagrams. Recent methods address this challenge by converting geometric entities, relations, and constraints into explicit textual representations for the model to reason over. However, effective formalization is highly non-trivial: on Geometry3K, structure injection fixes 28 errors but introduces 13 new ones among 200 examples. Redundant relations can distract the model, while ambiguous references",
-    "author": "Jialu Wang, Ruichen Zhang, Xiaoou Liu, Hua Wei, Tianlong Chen",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2610.12391v1"
-    ]
-  },
-  {
-    "title": "ARC: A Reasoning Recipe for Robot Foundation Models",
-    "link": "http://arxiv.org/abs/2610.12386v1",
-    "published": "2026-10-08T17:38:04+00:00",
-    "summary": "The prevailing approach to improving robot foundation models (RFMs) relies on larger models, more robot demonstrations, and costly training at scale. We show that there exists an effective and efficient complementary approach: the right reasoning recipe can substantially improve the zero-shot task performance of existing state-of-the-art RFMs. We refer to this recipe as ARC. It consists of three key ingredients: a reasoning trace, a scalable automatic labeling pipeline, and a strategy for adapti",
-    "author": "Gokul Puthumanaillam, Tao Sun, Elie Aljalbout, Moritz Reuss, Zhaoshuo Li, Fabio Ramos, Ankit Goyal, Jenai Xuning Yang",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "https://arc-robot-reasoning.github.io/",
-      "http://arxiv.org/abs/2610.12386v1"
     ]
   },
   {
