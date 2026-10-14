@@ -1,5 +1,191 @@
 [
   {
+    "title": "ChunkAct: Action Chunking for Agentic Robotics",
+    "link": "http://arxiv.org/abs/2610.18874v1",
+    "published": "2026-10-13T17:59:57+00:00",
+    "summary": "Agentic robotics places a large language model (LLM) agent in the robot control loop, where it composes perception, motion, and vision-language-action (VLA) tools under the guidance of a memory and thereby generalizes to new tasks without retraining. This generality comes at a steep price in efficiency. Every primitive requires a round of LLM reasoning over the full interaction history, so the cost of an episode grows with the number of primitives. We find this reasoning largely redundant: once ",
+    "author": "Bingxin Xu, Wenrui Bao, Xinxin Liu, Jiawei Zhou, Yuzhang Shang, Emilio Ferrara",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2610.18874v1"
+    ]
+  },
+  {
+    "title": "What Matters in Quality-Aware VLA Pretraining: A Benchmark and Empirical Study",
+    "link": "http://arxiv.org/abs/2610.18869v1",
+    "published": "2026-10-13T17:59:52+00:00",
+    "summary": "How should demonstration quality be used during vision-language-action (VLA) pretraining to improve performance after target-task fine-tuning? We compare weighting, filtering, and conditioning across reward definitions and label granularities using 5,000 naturally suboptimal human demonstrations and 24 target tasks. Within each VLA, we match demonstrations and training budgets. Additional comparisons examine pretraining data size and the roles of quality tags during fine-tuning and inference. Ac",
+    "author": "Mingxuan Yan, Litian Gong, Dihong Huang, Zhixu Li, Tianyu Zhang, Wenqian Zhang, Hefeifei Jiang, Peihao Li, Jian Zhang, Mengfei Zhao, Yikai Tang, Hai Zhai, Zehao Wang, Ruijian Liang, Yanjia Huang, Lin Shao, Changliu Liu, Kaiyu Hang, Zhiwen Fan, Masayoshi Tomizuka, Jianfei Yang, Jiachen Li",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "https://axis-bench.github.io/",
+      "http://arxiv.org/abs/2610.18869v1"
+    ]
+  },
+  {
+    "title": "Tev: Scaling Long-Horizon Agentic Environments with Dense Progress Rewards",
+    "link": "http://arxiv.org/abs/2610.18868v1",
+    "published": "2026-10-13T17:59:51+00:00",
+    "summary": "Long-horizon agents have drawn growing attention for their ability to work autonomously -- from hours to days -- on economically valuable tasks, a capability essential to automated discovery and recursive self-improvement (RSI). Yet open-source models still struggle on long-horizon tasks, largely for lack of both training data and a working recipe, and scaling both is hard: long, complex tasks are difficult to curate and verify, and their rewards are sparse. We address both. First, we introduce ",
+    "author": "Wenbo Hu, Shraman Pramanick, Krishna Kumar Singh, Nanyun Peng, Kai-Wei Chang, Yong Jae Lee",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2610.18868v1"
+    ]
+  },
+  {
+    "title": "DoubtLess: Training-Free Contrastive Decoding for Efficient Reasoning",
+    "link": "http://arxiv.org/abs/2610.18862v1",
+    "published": "2026-10-13T17:59:32+00:00",
+    "summary": "Reasoning models achieve strong performance through long chains of thought (CoT), but often spend more tokens than needed to solve a problem. Existing ways to shorten the CoT require additional training for each model, add a fixed steering vector to the model's hidden states, or use decoding heuristics such as stopping early or banning words like \"wait\", which can reduce accuracy. We propose DoubtLess, a training-free decoding method in which a much smaller reasoning model steers the large one t",
+    "author": "Minghao Luo, Liang Chen",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "https://github.com/leoluolol/DoubtLess",
+      "http://arxiv.org/abs/2610.18862v1"
+    ]
+  },
+  {
+    "title": "AesCode: Aesthetic Code Generation with Decoupled Cross-Modal Rewards",
+    "link": "http://arxiv.org/abs/2610.18860v1",
+    "published": "2026-10-13T17:59:31+00:00",
+    "summary": "Generating information-rich visual artifacts such as slides, posters, and dashboards as code is appealing because the outputs are structured, editable, and verifiable. Yet code models cannot see how their choices of layout and color come together on the canvas, often limiting spatial planning and aesthetic quality. Image generators excel at visual design but can misrender requested content, making their outputs unreliable targets for direct reproduction. We therefore introduce AesCode, which gen",
+    "author": "Xin Gao, Yifan Yang, Xin Li, Pan Wang, Yan Li, Muzhao Tian, Mingxi Cheng, Bei Liu, Kai Qiu, Qi Dai, Dong Chen, Yue Dong, Leandros Tassiulas, Rex Ying, Ji Li, Chong Luo",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2610.18860v1"
+    ]
+  },
+  {
+    "title": "Hybrid Reasoning Agents",
+    "link": "http://arxiv.org/abs/2610.18861v1",
+    "published": "2026-10-13T17:59:31+00:00",
+    "summary": "How can we build an agent that thinks beyond human language, yet still acts through it in the external environment? Modern LLM agents still reason and interact through text, while latent reasoning offers an efficient internal medium but lacks native tool access and reasoning transparency. We bridge these two directions with Hybrid Reasoning Agents (HybridAgents), which dynamically navigate between latent reasoning and text-based interaction throughout a unified generation process. Architecturall",
+    "author": "Jiaru Zou, Yunzhe Qi, Sirui Chen, Federico Bianchi, Shang Zhu, Pan Lu, Jingrui He, James Zou",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "https://github.com/togethercomputer/HybridAgent",
+      "http://arxiv.org/abs/2610.18861v1"
+    ]
+  },
+  {
+    "title": "Two Clocks: Why Larger Rollout Batches Learn Slower but Fail on Schedule in Reinforcement Learning with Verifiable Rewards",
+    "link": "http://arxiv.org/abs/2610.18853v1",
+    "published": "2026-10-13T17:58:57+00:00",
+    "summary": "Reinforcement learning with verifiable rewards (RLVR) relies on costly model-generated responses, motivating larger rollout batches and square-root learning-rate scaling. Reported to approximately preserve progress per sample with one optimizer step per rollout, this rule is less understood in practical multi-step training. We develop a two-clock framework that separates the samples needed to make progress from those consumed before collapse. Under a local quadratic model, the square-root rule p",
+    "author": "Yuante Li, Junwei Quan, Kai Qiu, Kate Zhang, Yicheng Tao",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "https://github.com/WinstonLiyt/two-clocks-rlvr",
+      "http://arxiv.org/abs/2610.18853v1"
+    ]
+  },
+  {
+    "title": "MFG: Multi-turn Feedback Guided Molecular Optimization",
+    "link": "http://arxiv.org/abs/2610.18851v1",
+    "published": "2026-10-13T17:58:41+00:00",
+    "summary": "Multi-objective molecular optimization is a critical process in drug discovery that aims to modify a given molecule to simultaneously improve multiple properties while maintaining a similar overall structure. This process often requires iterative modifications guided by computational or experimental feedback. Recent large language model (LLM)-based methods have begun to explore this iterative approach; however, these methods are not explicitly trained to leverage such feedback, while existing ap",
+    "author": "Trieu Nguyen, Frazier N. Baker, Ruoxi Gao, Daniel Adu-Ampratwum, Xia Ning",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2610.18851v1"
+    ]
+  },
+  {
+    "title": "LIBERO-RIG: A Hardware-Setup Robustness Benchmark for Vision-Language-Action Models",
+    "link": "http://arxiv.org/abs/2610.18843v1",
+    "published": "2026-10-13T17:57:18+00:00",
+    "summary": "Robot policies are expected to generalize across deployment environments, including variations in the robot itself: cameras are bumped and remounted, calibrations drift, controllers run at different rates, and end-effector pads wear down. We present LIBERO-RIG, a benchmark that perturbs only the robot's hardware and setup while holding every LIBERO task fixed. The benchmark spans eleven perturbation axes, including camera mounting and optics, camera-to-arm calibration, actuation gain, control ra",
+    "author": "Andrea Yaoyun Cui, Hanyu Wang, Xinyi Wang, Bangzheng Li, Lin Zhang, Zhenggang Tang, Shyamal Buch, Dejia Xu, Matthew Tancik",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2610.18843v1"
+    ]
+  },
+  {
+    "title": "Who Improves the Robot? Toward Physical Recursive Self-Improvement",
+    "link": "http://arxiv.org/abs/2610.18842v1",
+    "published": "2026-10-13T17:57:04+00:00",
+    "summary": "Robots are increasingly autonomous in task execution, yet their improvement remains largely human-driven. This study investigates Physical Recursive Self-Improvement (Physical RSI), in which physical experience guides lasting updates to both a robot's capabilities and its improvement procedure, making subsequent improvement more effective across tasks. Physical RSI faces challenges from noisy observations, continuous dynamics, costly trials, and irreversible consequences. We present an L0-L5 fra",
+    "author": "Hai Zhou, Fan Yang, Zeyi Chen, Lejun Zhang, Chenyang Fu, Jianping Li, Jiayi Zhu, Xianyang Liu, Yingxuan Yang, Lili Meng, Lu Wang, Xinyang Han, Jiankai Sun, Weirui Ye, Guanchu Wang, Wanhua Li, Ming Zhou, Boyi Li, Ming Jin, Kun Shao, Muhao Chen, Guang Chen, Lei Ma, Joey Tianyi Zhou, Costas Spanos, Xia Hu, Mac Schwager, Weinan Zhang, Qian Feng, Shangding Gu",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "https://github.com/SAIL-Research-Lab/Physical-RSI",
+      "http://arxiv.org/abs/2610.18842v1"
+    ]
+  },
+  {
+    "title": "Fast Rates for Offline Q-Learning with KL Regularization",
+    "link": "http://arxiv.org/abs/2610.18839v1",
+    "published": "2026-10-13T17:56:27+00:00",
+    "summary": "This paper investigates offline Q-learning for finite-horizon Markov decision processes with Kullback-Leibler (KL) regularization. Recent studies have shown that KL regularization can yield fast rates in offline decision-making problems. However, it remains unclear whether Q-learning, which adopts incremental stochastic approximation updates, can achieve such fast rates in the offline setting. We first propose KL-regularized Q-Learning (KLQ), a simple variant of classical Q-learning. By exploiti",
+    "author": "Yize Hao, Guangxin Jiang, Shuang Qiu",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2610.18839v1"
+    ]
+  },
+  {
+    "title": "RoboSimStudio: An Interactive Toolkit for Rapid Real2Sim of Robot Manipulation Tasks",
+    "link": "http://arxiv.org/abs/2610.18835v1",
+    "published": "2026-10-13T17:55:14+00:00",
+    "summary": "It is difficult to accurately model the physics of the interaction between a robot and the objects it manipulates, including contact mechanics, coupled contact dynamics, deformations, stiffness and friction. We present RoboSimStudio (RSS), an interactive toolkit that makes choices of solver, contact model, and physical parameters explicit and editable, allowing both humans and coding agents to iteratively refine simulations based on observed physical behavior. We implement RSS with the open Newt",
+    "author": "Kaiyuan Chen, Shuangyu Xie, Uksang Yoo, Xinyue Zhu, Cael Magner, Alvin Zhu, Daehwa Kim, Eric Heiden, Erwin Coumans, Miles Macklin, Spencer Huang, Ken Goldberg",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2610.18835v1"
+    ]
+  },
+  {
+    "title": "Read the Room Before Your Model Generates",
+    "link": "http://arxiv.org/abs/2610.18820v1",
+    "published": "2026-10-13T17:51:18+00:00",
+    "summary": "Large language models (LLMs) generally rely on sampling temperature to regulate the amount of randomness in their outputs. Mainstream methods for selecting temperature typically involve fixed, heuristic global settings and context or token-level calibration, rather than a geometrically interpretable representation of the communicative scenario. In this work, we introduce a simple and interpretable temperature selection framework, the \\textbf{Scenario-Actor}, which adapts decoding to the inferred",
+    "author": "Muyao Kong, Zhihao Lin",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2610.18820v1"
+    ]
+  },
+  {
+    "title": "Back-Translation Still Matters: Leveraging Monolingual Data for Low-Resource Machine Translation with LLMs",
+    "link": "http://arxiv.org/abs/2610.18818v1",
+    "published": "2026-10-13T17:50:18+00:00",
+    "summary": "Pre-trained Large Language Model (LLMs) are effective on many tasks in zero-shot and few-shot settings. For machine translation of low-resource languages, the obvious options are few-shot prompting and fine-tuning on a small parallel set. We ask: what if moderate amounts of low-resource monolingual data are also available? We argue that, rather than continued pretraining, a more effective use of this data is the pre-LLM era technique of back-translation (BT). The current fine-tuned LLM translate",
+    "author": "Divyanshu Bathla, Parag Singla, Jitin Singla",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2610.18818v1"
+    ]
+  },
+  {
+    "title": "Self-Evolving Agent Harness",
+    "link": "http://arxiv.org/abs/2610.18813v1",
+    "published": "2026-10-13T17:48:49+00:00",
+    "summary": "Harness self-evolution revises an agent's software scaffolding, including prompts, memory, workflows, and executable components, while keeping model weights fixed. We formalize a feedback-driven process in which accepted revisions persist across runs. The framework separates update targets from proposal and admission mechanisms. It distinguishes changes to interpreted state from revisions to tools and code, repository-level control logic, and plugin composition. We characterize search through ev",
+    "author": "Chuyang Wei, Haoxiang Guan, Minghang Zhu, Kexin Zhou, Jiyan He, Xiren Zhou, Huanhuan Chen, Yifei Shen",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "https://github.com/zgcagi/Harness-RSI",
+      "http://arxiv.org/abs/2610.18813v1"
+    ]
+  },
+  {
     "title": "Gemini 4 Argon: Built to solve your hardest problems",
     "link": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
     "published": "2026-10-13T16:00:00+00:00",
@@ -93,189 +279,6 @@
     "category": "media",
     "references": [
       "https://www.technologyreview.com/2026/10/12/1145745/daisy-dent-ecologist-revealing-invisible-networks-revive-rainforests/"
-    ]
-  },
-  {
-    "title": "Can Language Models Play the Wikipedia Game?",
-    "link": "http://arxiv.org/abs/2610.13948v1",
-    "published": "2026-10-09T17:59:56+00:00",
-    "summary": "Language models increasingly support or automate information retrieval from document collections too large to index. This task is difficult when it requires specialist linguistic or scientific knowledge. We used the Wikipedia Game to test language models on an analogous information retrieval task. In the game, players must reach a target article using only article links. We compared sentence embedding models and LLMs across five Wikipedia languages and five academic-literature datasets. We const",
-    "author": "Alexander Hickey, Joanna Knight, James Bishop",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2610.13948v1"
-    ]
-  },
-  {
-    "title": "Hide and Seek: HIDE Concepts to SEEK explanations for black box models",
-    "link": "http://arxiv.org/abs/2610.13935v1",
-    "published": "2026-10-09T17:56:59+00:00",
-    "summary": "Interpreting machine learning model predictions is a central challenge, particularly for black-box vision models. Concept-based attribution methods interpret models using human-understandable concepts. Existing concept-based methods can only interpret classification and regression models. They require access to model weights or large concept-annotated datasets, and most methods cannot provide image-level attribution. We propose Hide and Seek (HnS), a new method for concept-level attribution that",
-    "author": "Bhanu Tokas, Rahul Nair, Rockwell Jackson, Hannah Kerner",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2610.13935v1"
-    ]
-  },
-  {
-    "title": "Revisiting Tabular Deep Regression: Objectives and the Limits of Global Early Stopping",
-    "link": "http://arxiv.org/abs/2610.13909v1",
-    "published": "2026-10-09T17:49:32+00:00",
-    "summary": "While deep learning models for tabular data have recently received significant research attention, the choice of objective functions for regression tasks remains an understudied degree of freedom. Several lines of research offer alternatives to the standard Mean Squared Error (MSE), but differences in datasets, backbones, and evaluation protocols make their practical benefits difficult to compare. In this work, we address this gap by performing a systematic re-evaluation of regression objectives",
-    "author": "Danil Rudenko, Georgii Bulgakov, Nikolay Kartashev, Ivan Rubachev, Daniil Krasylnikov, Artem Babenko",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "https://github.com/yandex-research/tabular-regression",
-      "http://arxiv.org/abs/2610.13909v1"
-    ]
-  },
-  {
-    "title": "Task Context Shapes Component Roles in Language Models",
-    "link": "http://arxiv.org/abs/2610.13895v1",
-    "published": "2026-10-09T17:40:53+00:00",
-    "summary": "Large language models reuse the same attention heads across tasks, but identifying these shared heads does not explain what they do differently in each task. A natural source of inspiration is task-dependent interactions among shared brain regions, which motivate a network view of language-model computation. Here, we compare fixed model components across tasks using identical graph facts, statements specifying which directed connections are present. We measure how interventions affect attention ",
-    "author": "Sovesh Mohapatra, Dani S Bassett",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2610.13895v1"
-    ]
-  },
-  {
-    "title": "RATED: Reliability-Aware AI Agent Tool Retrieval via Execution Dynamics",
-    "link": "http://arxiv.org/abs/2610.13889v1",
-    "published": "2026-10-09T17:38:11+00:00",
-    "summary": "As AI agents increasingly rely on external tools, accurate retrieval is essential for reliable behavior. Existing methods optimize semantic relevance but largely ignore tool availability during execution. To address this gap, we propose RATED (Reliability-Aware Tool Retrieval via Execution Dynamics), a retrieval framework that combines robust semantic matching with dynamic reliability adaptation. RATED employs a frozen dual-encoder with contrastive fine-tuning for semantic matching, and a lightw",
-    "author": "Weiliang Chen, Song Liao",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "https://github.com/Elliotes/EcoAgent",
-      "http://arxiv.org/abs/2610.13889v1"
-    ]
-  },
-  {
-    "title": "X-AgentRed: Red-Teaming Personal Agents in Evolving Multi-Service Ecosystems",
-    "link": "http://arxiv.org/abs/2610.13886v1",
-    "published": "2026-10-09T17:34:44+00:00",
-    "summary": "Personal agents increasingly connect to services across the web and applications by using tools. As the effects of their actions accumulate and interact across services, unintended or harmful outcomes can arise when agents fulfill benign user requests. Proactively identifying these compositional failures requires systematically exploring diverse cross-service paths. Existing red-teaming methods often simply prompt LLMs to identify potentially harmful paths from task and environment descriptions ",
-    "author": "Yeonsung Jung, Zhiyuan Wang, Zifan Wang, Vítor Albiero, Benjamin Newman, Edoardo Debenedetti, Ivan Evtimov, Ninareh Mehrabi",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2610.13886v1"
-    ]
-  },
-  {
-    "title": "Studying Comics at Scale with Artificial Intelligence: The PAGE Framework and Three Studies of American Comics and Japanese Manga",
-    "link": "http://arxiv.org/abs/2610.13840v1",
-    "published": "2026-10-09T16:49:29+00:00",
-    "summary": "Comics are one of the great visual records of the twentieth century: hundreds of thousands of pages in which a mass readership saw its leaders, its wars and its heroes. Most of this record has never been studied as a whole; comics scholarship proceeds one book at a time. We argue that artificial intelligence, including generative models, can change this to the benefit of the medium itself. We propose PAGE, a framework that makes artificial intelligence an instrument for comics research. It parse",
-    "author": "Emilio Ferrara",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2610.13840v1"
-    ]
-  },
-  {
-    "title": "SpatialASM: Internalizing Active Mentalization for Spatial Reasoning",
-    "link": "http://arxiv.org/abs/2610.13832v1",
-    "published": "2026-10-09T16:39:50+00:00",
-    "summary": "When solving complex spatial reasoning tasks, ordinary humans naturally revisit the scenes from task-relevant viewpoints and mentally reconstruct the spatial layouts from those viewpoints. But can Large Vision-Language Models (LVLMs) proactively think in the same way? We term this ability Active Spatial Mentalization (ASM), an intrinsic component of visual intelligence that remains substantially underdeveloped in current LVLMs. To bridge this gap, we introduce SpatialASM, a scalable framework to",
-    "author": "Yuhong Liu, Shenxi Wu, Junyi Chi, Beichen Zhang, Xuanlang Dai, Jiaqi Wang, Yuhang Zang, Dahua Lin",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2610.13832v1"
-    ]
-  },
-  {
-    "title": "MC-EvoBench: Auditing Experience-Driven Self-Improvement in Minecraft Agents",
-    "link": "http://arxiv.org/abs/2610.13829v1",
-    "published": "2026-10-09T16:37:39+00:00",
-    "summary": "A central challenge in embodied recursive self-improvement is enabling agents to convert interaction history into capabilities that persist beyond one world and transfer to later tasks. A saved memory or successful final action does not by itself establish that a reusable capability was acquired; evaluation must separate capability change from carried-over resources, unequal source exposure, and early execution failures. We construct MC-EvoBench as a controlled Minecraft benchmark with a fixed c",
-    "author": "Jingwei Song, Zhisheng Chen, Bingfan Zeng, Jing Tang, Yubo Hou, Jinhao Jing, Zhengwei Xie, Linfeng Zhang",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "https://github.com/xzw-ustc/mc-bench-open-source",
-      "http://arxiv.org/abs/2610.13829v1"
-    ]
-  },
-  {
-    "title": "Same Query, Different Answer: Run-to-Run Variance in Semantic Query Processing",
-    "link": "http://arxiv.org/abs/2610.13823v1",
-    "published": "2026-10-09T16:34:13+00:00",
-    "summary": "Semantic query engines ask a large language model (LLM) to judge individual rows, and benchmarks compare these engines on the quality of a few executions at temperature 0. We measure how much another execution changes. We re-execute the text and tabular workloads of SemBench, LRO-Bench, and UDA-Bench through their own harnesses, log every one of 1.2 million model calls, and reanalyze SemBench's published executions. At temperature 0, between 0.07% and 10.2% of rows change their operator output o",
-    "author": "Oktie Hassanzadeh, Dharmashankar Subramanian",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2610.13823v1"
-    ]
-  },
-  {
-    "title": "FORTE: A Production Framework for Feature Evaluation and Deprecation in Industrial Recommender Systems",
-    "link": "http://arxiv.org/abs/2610.13806v1",
-    "published": "2026-10-09T16:18:39+00:00",
-    "summary": "Production recommender systems have feature-lifecycle asymmetry: adding new features must produce gains on some metric, while feature removal must not regress any metric. In practice, feature deprecation is hard to prioritize as a feature can fail to be removed if it interacts with other features, its importance changes daily, it cannot be evaluated before production models change or data drift occurs, it is in contention for A/B test space with other launches, it causes regressions in an online",
-    "author": "Vishnu Arun, Adam Obeng, Tianyou Wang, Zilin Ren, Mukuntha Narayanan Sundararaman, Han Wang, Shivin Thukral, Zhixiang Wang, Saurabh Vishwas Joshi, Darren Reger",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2610.13806v1"
-    ]
-  },
-  {
-    "title": "Your Discrete Graph Diffusion Model is Secretly Memorizing",
-    "link": "http://arxiv.org/abs/2610.13786v1",
-    "published": "2026-10-09T16:04:06+00:00",
-    "summary": "Discrete graph diffusion models (GDMs) corrupt the graph structure by adding noise independently to nodes and edges under a Markovian noise model. In the unconditional setting without node features, an equivariant denoiser trained on a single graph is able to generate novel graphs and sample-level metrics such as edge overlap and WL kernel similarity find no evidence of memorization. In this work, we challenge this view and show for the first time that graph diffusion models indeed exhibit memor",
-    "author": "Adarsh Jamadandi, Nicolas Keriven",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2610.13786v1"
-    ]
-  },
-  {
-    "title": "UkrMeme: Multimodal Explainable Persuasion Detection in Ukrainian Memes",
-    "link": "http://arxiv.org/abs/2610.13783v1",
-    "published": "2026-10-09T16:03:27+00:00",
-    "summary": "Memes play a central role in modern online communication, especially in contexts of political conflict where visual and textual cues combine to convey persuasive messages. We study persuasive technique detection in Ukrainian memes using vision-language models (VLMs). We introduce UkrMeme, a dataset of 200 organically produced Ukrainian wartime memes annotated for persuasion techniques, and PTM-UA, a Ukrainian translation of a subset of the Propaganda 950 benchmark that preserves original visual ",
-    "author": "Nazar Andrushko, Vera Schmitt, Veronika Solopova",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2610.13783v1"
-    ]
-  },
-  {
-    "title": "ReplaySSM: Cache SSM Inputs, Not State",
-    "link": "http://arxiv.org/abs/2610.13778v1",
-    "published": "2026-10-09T15:59:40+00:00",
-    "summary": "State-space models (SSMs) maintain a fixed-size recurrent state, but reading and writing it at every decoding step can bottleneck hybrid models. This eager state management causes large state I/O with low arithmetic intensity, leaves speculative decoding no cheap rollback, and feeds state quantization error into subsequent recurrent updates. We introduce ReplaySSM, which unrolls the recurrence to represent the state as a checkpoint and a buffer of recent SSM inputs. This separates output computa",
-    "author": "Ze-Wei Liou, Harris Nover, Amey Naik, Andrii Skliar, Igor Shovkun, Ido Shahaf, Tri Dao",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2610.13778v1"
-    ]
-  },
-  {
-    "title": "DualQuant: Dual-scale Calibration-free Weight-and-Activation Quantization for LLMs",
-    "link": "http://arxiv.org/abs/2610.13767v1",
-    "published": "2026-10-09T15:51:38+00:00",
-    "summary": "Low-bit inference on accelerators with native 4-bit support requires quantizing both weights and activations to realize the full throughput gains these formats provide. While post-training weight quantization has been extensively studied, activation quantization remains considerably more challenging and typically requires calibration data. In this work, we introduce DUALQUANT, a dual-scale, calibration-free post-training quantization framework that directly minimizes the weight-reconstruction Me",
-    "author": "Mahsa Salmani, Sayeh Sharify, Hesham Mostafa",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2610.13767v1"
     ]
   },
   {
