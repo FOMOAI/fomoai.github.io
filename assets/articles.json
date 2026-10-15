@@ -1,5 +1,190 @@
 [
   {
+    "title": "Modeling and Understanding Neural Weights of Humanoid Policies with Diffusion",
+    "link": "http://arxiv.org/abs/2610.20606v1",
+    "published": "2026-10-14T17:59:52+00:00",
+    "summary": "Recent advances in robot learning have driven rapid progress in humanoid control, enabling increasingly agile behaviors in the real world. However, humanoid control networks are typically obtained through conventional training procedures, while comparatively little attention has been given to directly modeling the distribution of their learned weights and generating functional networks in weight space. In this work, we investigate whether high-performing humanoid control networks can be generati",
+    "author": "Huixuan Cheng, Bike Zhang, Shankar Sastry, Koushil Sreenath",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "https://humanoid-weight-diffusion.github.io/",
+      "http://arxiv.org/abs/2610.20606v1"
+    ]
+  },
+  {
+    "title": "Hierarchical Residual Policy Learning for Real-World Mobile Manipulation with Sparse Human Guidance",
+    "link": "http://arxiv.org/abs/2610.20607v1",
+    "published": "2026-10-14T17:59:52+00:00",
+    "summary": "Mobile Manipulation (MoMa) is a cornerstone of autonomous robotic systems, yet real-world fine-tuning remains a formidable challenge because of high-dimensional action spaces and intricate coupling between heterogeneous modules. In this paper, we propose HiRe-MoMa (Hierarchical Residual Mobile Manipulation), a systematic framework for stable and sample-efficient real-world fine-tuning of complex MoMa systems. At its core, HiRe-MoMa adopts a Hierarchical Residual Architecture that fine-tunes a fr",
+    "author": "Zhefei Gong, Hefeifei Jiang, Zehao Wang, Jiachen Li",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "https://hire-moma.github.io/",
+      "http://arxiv.org/abs/2610.20607v1"
+    ]
+  },
+  {
+    "title": "Co-Evolving Acting and Forecasting for Language Agents",
+    "link": "http://arxiv.org/abs/2610.20597v1",
+    "published": "2026-10-14T17:59:28+00:00",
+    "summary": "Training language agents is bottlenecked by the high cost of long-horizon rollouts, yet standard agentic reinforcement learning (RL) learns only from a terminal scalar reward, leaving the supervision in intermediate steps largely unused. Prior work exploits this supervision through value targets that estimate per-step success probabilities or observation targets that fit environment response. Both are hard to construct well: (1) value targets come from the same single scalar signal for each step",
+    "author": "Haofei Yu, Yixing Chen, Yining Zhao, Xuyan Ye, Yuxiang Liu, Zhigang Hua, Yan Xie, Shuang Yang, Jiaxuan You",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "https://github.com/ulab-uiuc/CoPE",
+      "http://arxiv.org/abs/2610.20597v1"
+    ]
+  },
+  {
+    "title": "Your Transformer Is Secretly Elastic",
+    "link": "http://arxiv.org/abs/2610.20588v1",
+    "published": "2026-10-14T17:58:08+00:00",
+    "summary": "Scaling up transformers has produced models with broad capabilities, deployed across heterogeneous hardware and fluctuating workloads. Yet, model families offer only a few fixed sizes (e.g., S, B, L), forcing users to commit to a model based on hardware and latency constraints. This rigidity is often suboptimal under varying query loads. We introduce a retraining-free method that elastifies pre-trained transformers into a single model that adapts on-the-fly across a continuum of computational bu",
+    "author": "Walter Simoncini, Dheeraj Varghese, Gertjan J. Burghouts, Cees G. M. Snoek",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2610.20588v1"
+    ]
+  },
+  {
+    "title": "Price of Anarchy of First-Price Auctions in Agentic Markets",
+    "link": "http://arxiv.org/abs/2610.20587v1",
+    "published": "2026-10-14T17:57:57+00:00",
+    "summary": "An agentic market is a decentralized serving-time market where AI agents bid to claim each user prompt. An agent's bid is based on its expected value for the prompt, which is the expectation of the reward for its response minus its inference costs. First-price auctions (FPAs), in which the highest bidder pays its bid and receives the prompt, are a natural way to allocate prompts in such a market, since they are simple and transparent to run, and do not require central knowledge of private capabi",
+    "author": "Shubhendu Trivedi, Jacob Eisenstein, Alekh Agarwal, Ian Gemp, Michael Kaisers, Adam Fisch",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2610.20587v1"
+    ]
+  },
+  {
+    "title": "Continuum Attention",
+    "link": "http://arxiv.org/abs/2610.20586v1",
+    "published": "2026-10-14T17:57:40+00:00",
+    "summary": "We introduce Continuum Attention (CA), a causal Transformer attention operator that replaces discrete key and value lookup with integration over a continuous, piecewise linear memory curve. Each query induces an exponential relevance density along the curve. Integrating the density and interpolated values yields exact normalized attention from closed form exponential moments, including half token boundary contributions. The gradients follow analytically from moments of order at most two, enablin",
+    "author": "Afshin Khadangi",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2610.20586v1"
+    ]
+  },
+  {
+    "title": "Player-1: Learning to Play from Synthetic Experience",
+    "link": "http://arxiv.org/abs/2610.20584v1",
+    "published": "2026-10-14T17:57:12+00:00",
+    "summary": "Computer-use agents have demonstrated strong capabilities in interpreting screens and executing keyboard and mouse actions. However, games, with their visually rich worlds and diverse mechanics, remain challenging and offer a demanding next step toward general digital control. Current game-agent learning pipelines often rely on large-scale demonstrations with limited coverage of dynamic game states, while scalable environments for interactive training remain difficult to obtain. We introduce Pla",
+    "author": "Mingyu Ouyang, Yiran Wang, Siyuan Hu, Xingyilang Yin, Huiqiang Sun, Guangzhi Wang, Junfu Pu, Cheng Cheng, Honghao Chen, Ying Shan, Mike Zheng Shou, Hwee Tou Ng",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2610.20584v1"
+    ]
+  },
+  {
+    "title": "One Task, Many Interfaces: Simple Cross-Interface Consistency Training Improves LLM Agent Robustness",
+    "link": "http://arxiv.org/abs/2610.20576v1",
+    "published": "2026-10-14T17:56:06+00:00",
+    "summary": "Post-training binds the competence of an LLM agent to the interface it was trained on. Semantics-preserving perturbations of that interface, such as renaming an action or changing the notation, leave the underlying task unchanged yet make the agent worse at it. Scoring each sample independently means interface randomization only broadens this dependence from a single interface to the training interface distribution, so out-of-distribution perturbations still degrade the agent. We propose Cross-I",
+    "author": "Artin Tajdini, Manpreet Kaur, Peng Qi",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2610.20576v1"
+    ]
+  },
+  {
+    "title": "Beyond LLM Judge: Mechanical Verification for Agentic Autoformalization",
+    "link": "http://arxiv.org/abs/2610.20573v1",
+    "published": "2026-10-14T17:54:48+00:00",
+    "summary": "We introduce a novel method for verifying Lean formalizations that goes beyond LLM-judged faithfulness. Unlike most verification methods, which rely on LLMs or trained models, our method combines LLM-based semantic review with mechanical numerical and vacuity checks, providing checkable feedback and detecting errors missed by LLM judges. We apply this method, along with our Extract-Verify-Proof autoformalization pipeline, to construct the Formalized Library of Mathematical Functions (FLMF), a pa",
+    "author": "Anna Mei, Michael R. Douglas",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "https://github.com/annamei1/FLMF-Ch7ErrFunc-Release.git",
+      "http://arxiv.org/abs/2610.20573v1"
+    ]
+  },
+  {
+    "title": "Recovering Reliable Supervision via Critique-Guided On-Policy Distillation",
+    "link": "http://arxiv.org/abs/2610.20572v1",
+    "published": "2026-10-14T17:54:34+00:00",
+    "summary": "On-policy distillation (OPD) trains a student model on its own rollouts with token-level supervision from a teacher, assuming that the teacher can reach a correct answer from any prefix the student writes. We call this property the recoverability of the teacher and show it fails on incorrect rollouts: the teacher follows student errors, although it recognizes them. We propose CriticOPD, using error recognition to restore recoverability. The teacher critiques an incorrect rollout, allowing the st",
+    "author": "Kaixiang Zhao, Tianrun Yu, Shangzhe Li, Yuxiao Yang, Amanda Hughes, Weitong Zhang, Taylor W. Killian",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2610.20572v1"
+    ]
+  },
+  {
+    "title": "Scaling Discovery Requires Forgetting",
+    "link": "http://arxiv.org/abs/2610.20563v1",
+    "published": "2026-10-14T17:49:37+00:00",
+    "summary": "Automated research with LLM agents has shown promising results in various domains. Through iterative refinement and scored verifiers, LLM agents are capable of discovering new ideas. There are different ways to scale automated research: let one agent iterate for longer, run several agents in parallel, or further let the parallel agents communicate and build on one another's candidates. However, we find that all three strategies eventually plateau as the agents accumulate history. Each agent beco",
+    "author": "Shangyin Tan, Ben Zhou, Lakshya A Agrawal, Jialin Zhang, Yilin Chen, Qiuyang Mang, Donghyun Lee, Dennis Jacob, Koushik Sen, Alex Dimakis, Matei Zaharia",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2610.20563v1"
+    ]
+  },
+  {
+    "title": "PhySGA: A Physics-Space Grounded Agentic Framework for Generalizable and Interactive 3D Composition",
+    "link": "http://arxiv.org/abs/2610.20560v1",
+    "published": "2026-10-14T17:47:24+00:00",
+    "summary": "3D object composition is pivotal to digital content creation and robot simulation, while also serving as a critical testbed for physical intelligence in foundation models. Previous methods either leverage large language models to directly predict object coordinates, or utilize generative diffusion priors to synthesize composite images for visual alignment, both of which rely on static priors in digital spaces. However, these methods consistently struggle with complex compositions such as precise",
+    "author": "Weichen Lyu, Chong Xia, Mingyu Dong, Long Xu, Shengjun Zhang, Yueqi Duan",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2610.20560v1"
+    ]
+  },
+  {
+    "title": "PerSo: Investigating Facets of LLMs' Social Intelligence in Real-World Persuasion Scenarios",
+    "link": "http://arxiv.org/abs/2610.20548v1",
+    "published": "2026-10-14T17:39:35+00:00",
+    "summary": "Understanding the social intelligence of large language models (LLMs) is increasingly important for applications involving human-AI interaction and multi-agent environments. Social intelligence comprises two aspects: cognitive intelligence, the ability to infer others' mental states, and behavioral intelligence, the ability to select appropriate social actions based on these inferences to achieve social goals. Persuasion provides a natural testbed in which both aspects are simultaneously at play",
+    "author": "Ali Zamani, Soroush Esfahanian, Erfan Shahabi, Mohammad Taher Pilehvar, Azadeh Shakery, Yadollah Yaghoobzadeh",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2610.20548v1"
+    ]
+  },
+  {
+    "title": "Detection of Potato Plant Leaf Diseases using Convolutional Neural Networks",
+    "link": "http://arxiv.org/abs/2610.20544v1",
+    "published": "2026-10-14T17:36:33+00:00",
+    "summary": "Potato is an important food-security crop in Ethiopia, but its production is affected by foliar diseases, particularly early blight and late blight. This study develops a lightweight convolutional neural network (CNN) to classify potato leaves into three categories: healthy, early blight, and late blight. The proposed model was trained using 2,215 images from the PlantVillage dataset and evaluated on an independent field dataset containing 247 images collected from potato farms in Banja, Awi Zon",
+    "author": "Haimanot Bitew Alemayehu, Simachew Melaku Ayalew, Chilotie Desalew Mengesha, Ayisheshim Almaw Bogale, Anteneh Birhan Yenew, Abrham Tegegne Bogale",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2610.20544v1"
+    ]
+  },
+  {
+    "title": "PrismaCoder: Pushing the Boundaries of Open Multimodal Code Intelligence through Decomposed Rubric Synthesis",
+    "link": "http://arxiv.org/abs/2610.20538v1",
+    "published": "2026-10-14T17:32:54+00:00",
+    "summary": "Multimodal code intelligence connects the symbolic world of programs with the visual world their execution creates. Interest in this capability is burgeoning, as models are increasingly asked to produce charts, webpages, animations, and semi-structured documents. Recently, proprietary models have pushed far ahead, producing interactive artifacts even from a text description or a screenshot alone. Yet their data and training remain closed, and open progress is held back by the quantity and qualit",
+    "author": "Qiushi Sun, Jingyang Gong, Yang Liu, Qiaosheng Chen, Zhangyue Yin, Zixian Huang, Hanxu Hu, Jing Xiong, Fangzhi Xu, Haochen Tan, Haoli Bai, Lifeng Shang, Xiaoguang Li, Ben Kao, Qipeng Guo, Lingpeng Kong, Jiahui Gao",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "https://qiushisun.github.io/PrismaCoder-Home/",
+      "http://arxiv.org/abs/2610.20538v1"
+    ]
+  },
+  {
     "title": "The Download: faking blood and the future of batteries",
     "link": "https://www.technologyreview.com/2026/10/14/1146452/the-download-military-fake-blood-future-batteries/",
     "published": "2026-10-14T12:10:00+00:00",
@@ -81,192 +266,6 @@
     "category": "official",
     "references": [
       "https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic"
-    ]
-  },
-  {
-    "title": "ChunkAct: Action Chunking for Agentic Robotics",
-    "link": "http://arxiv.org/abs/2610.18874v1",
-    "published": "2026-10-13T17:59:57+00:00",
-    "summary": "Agentic robotics places a large language model (LLM) agent in the robot control loop, where it composes perception, motion, and vision-language-action (VLA) tools under the guidance of a memory and thereby generalizes to new tasks without retraining. This generality comes at a steep price in efficiency. Every primitive requires a round of LLM reasoning over the full interaction history, so the cost of an episode grows with the number of primitives. We find this reasoning largely redundant: once ",
-    "author": "Bingxin Xu, Wenrui Bao, Xinxin Liu, Jiawei Zhou, Yuzhang Shang, Emilio Ferrara",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2610.18874v1"
-    ]
-  },
-  {
-    "title": "What Matters in Quality-Aware VLA Pretraining: A Benchmark and Empirical Study",
-    "link": "http://arxiv.org/abs/2610.18869v1",
-    "published": "2026-10-13T17:59:52+00:00",
-    "summary": "How should demonstration quality be used during vision-language-action (VLA) pretraining to improve performance after target-task fine-tuning? We compare weighting, filtering, and conditioning across reward definitions and label granularities using 5,000 naturally suboptimal human demonstrations and 24 target tasks. Within each VLA, we match demonstrations and training budgets. Additional comparisons examine pretraining data size and the roles of quality tags during fine-tuning and inference. Ac",
-    "author": "Mingxuan Yan, Litian Gong, Dihong Huang, Zhixu Li, Tianyu Zhang, Wenqian Zhang, Hefeifei Jiang, Peihao Li, Jian Zhang, Mengfei Zhao, Yikai Tang, Hai Zhai, Zehao Wang, Ruijian Liang, Yanjia Huang, Lin Shao, Changliu Liu, Kaiyu Hang, Zhiwen Fan, Masayoshi Tomizuka, Jianfei Yang, Jiachen Li",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "https://axis-bench.github.io/",
-      "http://arxiv.org/abs/2610.18869v1"
-    ]
-  },
-  {
-    "title": "Tev: Scaling Long-Horizon Agentic Environments with Dense Progress Rewards",
-    "link": "http://arxiv.org/abs/2610.18868v1",
-    "published": "2026-10-13T17:59:51+00:00",
-    "summary": "Long-horizon agents have drawn growing attention for their ability to work autonomously -- from hours to days -- on economically valuable tasks, a capability essential to automated discovery and recursive self-improvement (RSI). Yet open-source models still struggle on long-horizon tasks, largely for lack of both training data and a working recipe, and scaling both is hard: long, complex tasks are difficult to curate and verify, and their rewards are sparse. We address both. First, we introduce ",
-    "author": "Wenbo Hu, Shraman Pramanick, Krishna Kumar Singh, Nanyun Peng, Kai-Wei Chang, Yong Jae Lee",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2610.18868v1"
-    ]
-  },
-  {
-    "title": "DoubtLess: Training-Free Contrastive Decoding for Efficient Reasoning",
-    "link": "http://arxiv.org/abs/2610.18862v1",
-    "published": "2026-10-13T17:59:32+00:00",
-    "summary": "Reasoning models achieve strong performance through long chains of thought (CoT), but often spend more tokens than needed to solve a problem. Existing ways to shorten the CoT require additional training for each model, add a fixed steering vector to the model's hidden states, or use decoding heuristics such as stopping early or banning words like \"wait\", which can reduce accuracy. We propose DoubtLess, a training-free decoding method in which a much smaller reasoning model steers the large one t",
-    "author": "Minghao Luo, Liang Chen",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "https://github.com/leoluolol/DoubtLess",
-      "http://arxiv.org/abs/2610.18862v1"
-    ]
-  },
-  {
-    "title": "AesCode: Aesthetic Code Generation with Decoupled Cross-Modal Rewards",
-    "link": "http://arxiv.org/abs/2610.18860v1",
-    "published": "2026-10-13T17:59:31+00:00",
-    "summary": "Generating information-rich visual artifacts such as slides, posters, and dashboards as code is appealing because the outputs are structured, editable, and verifiable. Yet code models cannot see how their choices of layout and color come together on the canvas, often limiting spatial planning and aesthetic quality. Image generators excel at visual design but can misrender requested content, making their outputs unreliable targets for direct reproduction. We therefore introduce AesCode, which gen",
-    "author": "Xin Gao, Yifan Yang, Xin Li, Pan Wang, Yan Li, Muzhao Tian, Mingxi Cheng, Bei Liu, Kai Qiu, Qi Dai, Dong Chen, Yue Dong, Leandros Tassiulas, Rex Ying, Ji Li, Chong Luo",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2610.18860v1"
-    ]
-  },
-  {
-    "title": "Hybrid Reasoning Agents",
-    "link": "http://arxiv.org/abs/2610.18861v1",
-    "published": "2026-10-13T17:59:31+00:00",
-    "summary": "How can we build an agent that thinks beyond human language, yet still acts through it in the external environment? Modern LLM agents still reason and interact through text, while latent reasoning offers an efficient internal medium but lacks native tool access and reasoning transparency. We bridge these two directions with Hybrid Reasoning Agents (HybridAgents), which dynamically navigate between latent reasoning and text-based interaction throughout a unified generation process. Architecturall",
-    "author": "Jiaru Zou, Yunzhe Qi, Sirui Chen, Federico Bianchi, Shang Zhu, Pan Lu, Jingrui He, James Zou",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "https://github.com/togethercomputer/HybridAgent",
-      "http://arxiv.org/abs/2610.18861v1"
-    ]
-  },
-  {
-    "title": "Two Clocks: Why Larger Rollout Batches Learn Slower but Fail on Schedule in Reinforcement Learning with Verifiable Rewards",
-    "link": "http://arxiv.org/abs/2610.18853v1",
-    "published": "2026-10-13T17:58:57+00:00",
-    "summary": "Reinforcement learning with verifiable rewards (RLVR) relies on costly model-generated responses, motivating larger rollout batches and square-root learning-rate scaling. Reported to approximately preserve progress per sample with one optimizer step per rollout, this rule is less understood in practical multi-step training. We develop a two-clock framework that separates the samples needed to make progress from those consumed before collapse. Under a local quadratic model, the square-root rule p",
-    "author": "Yuante Li, Junwei Quan, Kai Qiu, Kate Zhang, Yicheng Tao",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "https://github.com/WinstonLiyt/two-clocks-rlvr",
-      "http://arxiv.org/abs/2610.18853v1"
-    ]
-  },
-  {
-    "title": "MFG: Multi-turn Feedback Guided Molecular Optimization",
-    "link": "http://arxiv.org/abs/2610.18851v1",
-    "published": "2026-10-13T17:58:41+00:00",
-    "summary": "Multi-objective molecular optimization is a critical process in drug discovery that aims to modify a given molecule to simultaneously improve multiple properties while maintaining a similar overall structure. This process often requires iterative modifications guided by computational or experimental feedback. Recent large language model (LLM)-based methods have begun to explore this iterative approach; however, these methods are not explicitly trained to leverage such feedback, while existing ap",
-    "author": "Trieu Nguyen, Frazier N. Baker, Ruoxi Gao, Daniel Adu-Ampratwum, Xia Ning",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2610.18851v1"
-    ]
-  },
-  {
-    "title": "LIBERO-RIG: A Hardware-Setup Robustness Benchmark for Vision-Language-Action Models",
-    "link": "http://arxiv.org/abs/2610.18843v1",
-    "published": "2026-10-13T17:57:18+00:00",
-    "summary": "Robot policies are expected to generalize across deployment environments, including variations in the robot itself: cameras are bumped and remounted, calibrations drift, controllers run at different rates, and end-effector pads wear down. We present LIBERO-RIG, a benchmark that perturbs only the robot's hardware and setup while holding every LIBERO task fixed. The benchmark spans eleven perturbation axes, including camera mounting and optics, camera-to-arm calibration, actuation gain, control ra",
-    "author": "Andrea Yaoyun Cui, Hanyu Wang, Xinyi Wang, Bangzheng Li, Lin Zhang, Zhenggang Tang, Shyamal Buch, Dejia Xu, Matthew Tancik",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2610.18843v1"
-    ]
-  },
-  {
-    "title": "Who Improves the Robot? Toward Physical Recursive Self-Improvement",
-    "link": "http://arxiv.org/abs/2610.18842v1",
-    "published": "2026-10-13T17:57:04+00:00",
-    "summary": "Robots are increasingly autonomous in task execution, yet their improvement remains largely human-driven. This study investigates Physical Recursive Self-Improvement (Physical RSI), in which physical experience guides lasting updates to both a robot's capabilities and its improvement procedure, making subsequent improvement more effective across tasks. Physical RSI faces challenges from noisy observations, continuous dynamics, costly trials, and irreversible consequences. We present an L0-L5 fra",
-    "author": "Hai Zhou, Fan Yang, Zeyi Chen, Lejun Zhang, Chenyang Fu, Jianping Li, Jiayi Zhu, Xianyang Liu, Yingxuan Yang, Lili Meng, Lu Wang, Xinyang Han, Jiankai Sun, Weirui Ye, Guanchu Wang, Wanhua Li, Ming Zhou, Boyi Li, Ming Jin, Kun Shao, Muhao Chen, Guang Chen, Lei Ma, Joey Tianyi Zhou, Costas Spanos, Xia Hu, Mac Schwager, Weinan Zhang, Qian Feng, Shangding Gu",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "https://github.com/SAIL-Research-Lab/Physical-RSI",
-      "http://arxiv.org/abs/2610.18842v1"
-    ]
-  },
-  {
-    "title": "Fast Rates for Offline Q-Learning with KL Regularization",
-    "link": "http://arxiv.org/abs/2610.18839v1",
-    "published": "2026-10-13T17:56:27+00:00",
-    "summary": "This paper investigates offline Q-learning for finite-horizon Markov decision processes with Kullback-Leibler (KL) regularization. Recent studies have shown that KL regularization can yield fast rates in offline decision-making problems. However, it remains unclear whether Q-learning, which adopts incremental stochastic approximation updates, can achieve such fast rates in the offline setting. We first propose KL-regularized Q-Learning (KLQ), a simple variant of classical Q-learning. By exploiti",
-    "author": "Yize Hao, Guangxin Jiang, Shuang Qiu",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2610.18839v1"
-    ]
-  },
-  {
-    "title": "RoboSimStudio: An Interactive Toolkit for Rapid Real2Sim of Robot Manipulation Tasks",
-    "link": "http://arxiv.org/abs/2610.18835v1",
-    "published": "2026-10-13T17:55:14+00:00",
-    "summary": "It is difficult to accurately model the physics of the interaction between a robot and the objects it manipulates, including contact mechanics, coupled contact dynamics, deformations, stiffness and friction. We present RoboSimStudio (RSS), an interactive toolkit that makes choices of solver, contact model, and physical parameters explicit and editable, allowing both humans and coding agents to iteratively refine simulations based on observed physical behavior. We implement RSS with the open Newt",
-    "author": "Kaiyuan Chen, Shuangyu Xie, Uksang Yoo, Xinyue Zhu, Cael Magner, Alvin Zhu, Daehwa Kim, Eric Heiden, Erwin Coumans, Miles Macklin, Spencer Huang, Ken Goldberg",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2610.18835v1"
-    ]
-  },
-  {
-    "title": "Read the Room Before Your Model Generates",
-    "link": "http://arxiv.org/abs/2610.18820v1",
-    "published": "2026-10-13T17:51:18+00:00",
-    "summary": "Large language models (LLMs) generally rely on sampling temperature to regulate the amount of randomness in their outputs. Mainstream methods for selecting temperature typically involve fixed, heuristic global settings and context or token-level calibration, rather than a geometrically interpretable representation of the communicative scenario. In this work, we introduce a simple and interpretable temperature selection framework, the \\textbf{Scenario-Actor}, which adapts decoding to the inferred",
-    "author": "Muyao Kong, Zhihao Lin",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2610.18820v1"
-    ]
-  },
-  {
-    "title": "Back-Translation Still Matters: Leveraging Monolingual Data for Low-Resource Machine Translation with LLMs",
-    "link": "http://arxiv.org/abs/2610.18818v1",
-    "published": "2026-10-13T17:50:18+00:00",
-    "summary": "Pre-trained Large Language Model (LLMs) are effective on many tasks in zero-shot and few-shot settings. For machine translation of low-resource languages, the obvious options are few-shot prompting and fine-tuning on a small parallel set. We ask: what if moderate amounts of low-resource monolingual data are also available? We argue that, rather than continued pretraining, a more effective use of this data is the pre-LLM era technique of back-translation (BT). The current fine-tuned LLM translate",
-    "author": "Divyanshu Bathla, Parag Singla, Jitin Singla",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2610.18818v1"
-    ]
-  },
-  {
-    "title": "Self-Evolving Agent Harness",
-    "link": "http://arxiv.org/abs/2610.18813v1",
-    "published": "2026-10-13T17:48:49+00:00",
-    "summary": "Harness self-evolution revises an agent's software scaffolding, including prompts, memory, workflows, and executable components, while keeping model weights fixed. We formalize a feedback-driven process in which accepted revisions persist across runs. The framework separates update targets from proposal and admission mechanisms. It distinguishes changes to interpreted state from revisions to tools and code, repository-level control logic, and plugin composition. We characterize search through ev",
-    "author": "Chuyang Wei, Haoxiang Guan, Minghang Zhu, Kexin Zhou, Jiyan He, Xiren Zhou, Huanhuan Chen, Yifei Shen",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "https://github.com/zgcagi/Harness-RSI",
-      "http://arxiv.org/abs/2610.18813v1"
     ]
   },
   {
