@@ -12,6 +12,188 @@
     ]
   },
   {
+    "title": "LIBERO-PeRM: Benchmarking Personalized Robotic Manipulation",
+    "link": "http://arxiv.org/abs/2610.22372v1",
+    "published": "2026-10-15T17:59:59+00:00",
+    "summary": "Personalization is essential for general-purpose robots to transition into household environments and achieve true practicality. While general robotic manipulation has been extensively studied, personalized robotic manipulation (PeRM) lacks a controlled benchmark for separating task completion from preference satisfaction. We introduce LIBERO-PeRM, a benchmark for preference learning in embodied agents. LIBERO-PeRM studies five questions: 1) how policies follow preferences in zero-shot settings;",
+    "author": "Zhixu Li, Keqian Tang, Litian Gong, Jingyu Yao, Wenqian Zhang, Tianze Xu, Zehao Wang, Yuping Wang, Junge Zhang, Jiachen Li",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "https://libero-perm.github.io/",
+      "http://arxiv.org/abs/2610.22372v1"
+    ]
+  },
+  {
+    "title": "Discovering state-of-the-art quantum circuits with large language models",
+    "link": "http://arxiv.org/abs/2610.22367v1",
+    "published": "2026-10-15T17:59:20+00:00",
+    "summary": "Significant efforts are currently being directed toward the implementation of large-scale quantum information processors, but realizing useful quantum advantage also requires the development of efficient quantum algorithms. While for many practical problems the dominant resource costs are associated with a small set of computational primitives, optimizing them in the quantum setting presents unique challenges, including a reversibility constraint absent from ordinary classical computation. Here ",
+    "author": "Andi Gu, Alek H. Kemeny, Susanne F. Yelin, Mikhail D. Lukin",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2610.22367v1"
+    ]
+  },
+  {
+    "title": "T2-z: Test-Time Optimization of Environment Latents for Robotic World Models",
+    "link": "http://arxiv.org/abs/2610.22364v1",
+    "published": "2026-10-15T17:59:11+00:00",
+    "summary": "Predicting how the world responds to an action requires more than what can be seen: robots must account for environmental factors that are neither directly observable nor explicitly specified, from physical properties such as friction and mass to human-defined environmental rules. We introduce T2-Z for test-time optimization of environment latents, which augments a robotic world model with a learnable environment latent to condition world predictions. This compact latent captures underlying envi",
+    "author": "Chenyuan Zhou, Yining Hong, Huang Huang, Yunfan Jiang, Wenlong Huang, David Held, Vitor Campagnolo Guizilini, Yue Wang, Li Fei-Fei, Jiajun Wu, Leonidas Guibas, Yejin Choi",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2610.22364v1"
+    ]
+  },
+  {
+    "title": "CoDA: Co-Evolution of Data Engines and Action Policies",
+    "link": "http://arxiv.org/abs/2610.22362v1",
+    "published": "2026-10-15T17:59:02+00:00",
+    "summary": "Generative simulation can automate robot environment construction, but physically valid environments are not necessarily useful for training. The challenge is to identify environments that address a policy's failures and supervision that helps it overcome them. We introduce CoDA, a framework in which a simulation data engine and an action policy co-evolve through a shared heterogeneous memory of environment construction, policy failures, and learning progress. The memory compiles validated diagn",
+    "author": "Tianjiao Yu, Zhilin Ou, Yifan Shen, Xinzhuo Li, Yuanzhe Liu, Onkar Kishor Susladkar, Fan Wang, Ismini Lourentzou",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2610.22362v1"
+    ]
+  },
+  {
+    "title": "Rethinking Routing Exploration in Modern Mixture-of-Experts",
+    "link": "http://arxiv.org/abs/2610.22353v1",
+    "published": "2026-10-15T17:58:02+00:00",
+    "summary": "Mixture-of-experts (MoE) models have become an important approach for scaling model parameters. Modern MoE architectures increasingly combine two design choices: fine-grained expert segmentation and shared experts. The former increases expressiveness by enabling more expert combinations at a fixed activation ratio, and the latter introduces experts that are active for every token. We identify an exploration dilemma between these designs: shared experts can make routing less exploratory by reduci",
+    "author": "Bingcong Li, Hao Ma, Michael Muehlebach, Niao He, Yi Ma",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2610.22353v1"
+    ]
+  },
+  {
+    "title": "FDE-Gym: The Last Mile of AI Delivery",
+    "link": "http://arxiv.org/abs/2610.22350v1",
+    "published": "2026-10-15T17:57:23+00:00",
+    "summary": "Existing agent benchmarks typically evaluate agents on well-specified tasks defined by issue reports, specifications, or task tickets. Real-world customer delivery is different: forward-deployed engineers (FDEs) must clarify ambiguous requirements, work in live systems, and uncover unstated constraints. We introduce FDE-Gym, a benchmark of 95 end-to-end delivery tasks from 20 customer scenarios across 18 sectors, each adapted by industry experts from real-world delivery projects. In simulated cu",
+    "author": "Dongxu Yang, Hongda Yan, Renxin Wang, Baoli Zhang, Haojia Zuo, Ying Zhao, Youmin Chen, Xiaojian Liao, Congming Gao, Tianyang Jiang, Yixiao Chen, Qing Wang, Zhiguo Yu, Xiaqing Li, Yuhao Zhang, Jiawen Sun, Renzhe Xu, De Mi, Tiancheng Wu, Xianya Fu, Xuanlu Zhao, Bo Feng, Meixuan Ren, Guanming Lin, Ziheng Zhou, Xinhua Wang",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2610.22350v1"
+    ]
+  },
+  {
+    "title": "MLExpert: Towards a Generalist Agentic Model for Autonomous Machine Learning Engineering",
+    "link": "http://arxiv.org/abs/2610.22344v1",
+    "published": "2026-10-15T17:56:32+00:00",
+    "summary": "Large language models (LLMs) are expanding from assisting scientific research and engineering to autonomously developing and improving AI systems, advancing AI for AI (AI4AI) as a pathway toward recursive self-improvement (RSI). Workflow-driven machine learning engineering (MLE) systems provide a practical path toward this pursuit through complex orchestration that manages long-horizon experimentation, while recent MLE systems adopt model-directed interaction, allowing models to autonomously org",
+    "author": "Shangheng Du, Jinxin Shi, Shuaiyu Zhang, Yiming Wu, Junpeng Zhao, Shiyang Feng, Xin Li, Liang He, Xiangchao Yan, Bo Zhang",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2610.22344v1"
+    ]
+  },
+  {
+    "title": "GeoState: Learning View-Decoupled Geometry States for 3D World Modeling",
+    "link": "http://arxiv.org/abs/2610.22343v1",
+    "published": "2026-10-15T17:56:18+00:00",
+    "summary": "Recent 3D world models increasingly use features from geometry foundation models (GFMs) as predictive world states, benefiting from their rich geometric priors. However, the view dependence of these features entangles scene dynamics with camera-induced variation, making the resulting state evolution harder to predict. We propose GeoState, a view-decoupled geometry representation for predictive 3D world modeling that separates scene-state evolution from camera-dependent observation. Specifically,",
+    "author": "Hongchang Liu, Jian Liu, Yujuan Ding, Liang Peng, Xun Jiang, Fei Ma, Xing Xu, Yi Bin",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "https://hongchang-liu.github.io/GeoState-project-page/",
+      "http://arxiv.org/abs/2610.22343v1"
+    ]
+  },
+  {
+    "title": "3DCodeVerse: Exploring 3D Worlds as Code",
+    "link": "http://arxiv.org/abs/2610.22341v1",
+    "published": "2026-10-15T17:56:07+00:00",
+    "summary": "We introduce 3DCodeVerse, a research ecosystem that enables coding agents to create editable and verifiable 3D content at scale. 3DCodeVerse comprises large-scale, high-quality datasets of executable 3D code, a coding harness for spatial reasoning and automated verification, and practical guidance for 3D coding. First, we construct 3DCodeVerse-2M, a large-scale curated dataset of standalone 3D executable code. We build this corpus by collecting open-source data, converting specialized representa",
+    "author": "Yipeng Gao, Ziyao Zeng, Jinfa Huang, Yijiang Li, Haolin Xiong, Wang Qin, Xinlei Yu, Youheng Yao, Jie Zhang, Kun-Yu Lin, Rong Liu, Yinyuan Zhao, Yajie Zhao, Meiqi Guo, Jiebo Luo, Lei Shu, Yunhao Ge, Xinyu Hu, Laurent Itti",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2610.22341v1"
+    ]
+  },
+  {
+    "title": "Dexterity from Supervised Play",
+    "link": "http://arxiv.org/abs/2610.22340v1",
+    "published": "2026-10-15T17:55:50+00:00",
+    "summary": "How can robots autonomously collect the contact-rich experience needed to learn dexterous manipulation? We present DSP: Dexterity from supervised play, a framework in which a robot learns a play policy from minutes of human play through behavior cloning, then deploys it autonomously to collect hours of interaction data to train a world model. During inference, the same play policy then guides model-predictive control (MPC) by proposing candidate action sequences for evaluation under the learned ",
+    "author": "Botao He, Yiming Dou, Yiannis Aloimonos, Jitendra Malik, Akash Sharma, Ruoshi Liu",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2610.22340v1"
+    ]
+  },
+  {
+    "title": "Evaluation Awareness Beyond English: Do LLMs Act Differently When Tested in Indic Languages?",
+    "link": "http://arxiv.org/abs/2610.22333v1",
+    "published": "2026-10-15T17:53:33+00:00",
+    "summary": "Large language models (LLMs) can often tell when they are being tested. This ability, known as evaluation awareness, can lead models to act more cautiously during safety evaluations than in real use. Existing work has studied evaluation awareness almost entirely in English, although models serve users in many languages. Indic languages are spoken by over a billion people, yet evaluation awareness remains almost entirely unstudied in them. We test four instruction-tuned models from three families",
+    "author": "Trizal Garg, Sibayan Mitra, Arya Karanjkar, Advait Singh, Jagat Sesh Challa, Yash Sinha, Siddharth Mehrotra, Dhruv Kumar, Pratham Yogish Maliya",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2610.22333v1"
+    ]
+  },
+  {
+    "title": "KnowGPO: Knowledge-Grouped Policy Optimization for Search Agents",
+    "link": "http://arxiv.org/abs/2610.22331v1",
+    "published": "2026-10-15T17:52:33+00:00",
+    "summary": "Deep search agents solve knowledge-intensive tasks through long-horizon, multi-turn interactions, where assigning credit to individual search decisions is fundamentally difficult. Outcome-based reinforcement learning provides only a single terminal reward shared across an entire trajectory. Recent process-supervision methods aim to assign credit at finer granularity, but they typically anchor credit to either surface-level trajectory states or model-internal signals, both of which become unrelia",
+    "author": "Siqi Chen, Zhengxi Lu, Yuchen Yan, Xingyu Wu, Qipeng Chen, Xin Zhang, Aiting Liu, Chao Deng, Jie Liu, Jin Ma, Weiming Lu, Jun Xiao, Yongliang Shen",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2610.22331v1"
+    ]
+  },
+  {
+    "title": "Designing Transformers for Continuous Diffusion Language Models",
+    "link": "http://arxiv.org/abs/2610.22330v1",
+    "published": "2026-10-15T17:52:31+00:00",
+    "summary": "Continuous diffusion language models (CDLMs) offer an alternative approach to parallel language generation; however, most existing studies directly use transformer architectures from either causal large language models (LLMs) or Diffusion Transformers (DiTs) for image generation, which were not optimized for CDLMs. In this paper, we conduct a systematic study on Transformer architectures for CDLMs and introduce Language Diffusion Transformer (LangDiT), combining feature and query-key normalizati",
+    "author": "Weijian Luo, Yujian Chen, Hao Jiang, Guang Cheng, Tianyang Hu",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2610.22330v1"
+    ]
+  },
+  {
+    "title": "ACEdit: Stable Multi-Turn Image Editing via Asymmetric Conditioning",
+    "link": "http://arxiv.org/abs/2610.22328v1",
+    "published": "2026-10-15T17:52:24+00:00",
+    "summary": "Image editing models produce impressive results for individual edits, but their quality often deteriorates over multiple editing turns. Each editing turn introduces small distribution shifts that accumulate over successive edits, creating a gap between the input distributions encountered during the editor's original training and multi-turn inference. We introduce a training scheme that makes multi-turn image editing stable under this accumulating distribution shift. A key is to force the editor ",
+    "author": "Sara Dorfman, Nir Goren, Gal Barak, Daniel Cohen-Or, Or Patashnik",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2610.22328v1"
+    ]
+  },
+  {
+    "title": "Twice Upon a Time: Complementary Representations for Time-Series Reasoning",
+    "link": "http://arxiv.org/abs/2610.22327v1",
+    "published": "2026-10-15T17:52:18+00:00",
+    "summary": "Time Series Language Models (TSLMs) enable language-based understanding and reasoning over temporal data, yet a fundamental question remains: what information should their time-series representations preserve, and what variation should they factor out? Existing TSLMs typically expose the language model to a single representation, imposing a fixed inductive bias across downstream tasks. We instead introduce complementary representations as a design principle for time-series reasoning. Our model c",
+    "author": "Hedi Zisling, Liran Nochumsohn, Ilan Naiman, Mihir Parmar, Omri Azencot",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2610.22327v1"
+    ]
+  },
+  {
     "title": "Teaching students to think and learn through questions",
     "link": "https://openai.com/index/teaching-students-to-think-and-learn-through-questions",
     "published": "2026-10-15T13:00:00+00:00",
@@ -81,191 +263,6 @@
     "category": "official",
     "references": [
       "https://openai.com/index/sullivan-cromwell"
-    ]
-  },
-  {
-    "title": "Modeling and Understanding Neural Weights of Humanoid Policies with Diffusion",
-    "link": "http://arxiv.org/abs/2610.20606v1",
-    "published": "2026-10-14T17:59:52+00:00",
-    "summary": "Recent advances in robot learning have driven rapid progress in humanoid control, enabling increasingly agile behaviors in the real world. However, humanoid control networks are typically obtained through conventional training procedures, while comparatively little attention has been given to directly modeling the distribution of their learned weights and generating functional networks in weight space. In this work, we investigate whether high-performing humanoid control networks can be generati",
-    "author": "Huixuan Cheng, Bike Zhang, Shankar Sastry, Koushil Sreenath",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "https://humanoid-weight-diffusion.github.io/",
-      "http://arxiv.org/abs/2610.20606v1"
-    ]
-  },
-  {
-    "title": "Hierarchical Residual Policy Learning for Real-World Mobile Manipulation with Sparse Human Guidance",
-    "link": "http://arxiv.org/abs/2610.20607v1",
-    "published": "2026-10-14T17:59:52+00:00",
-    "summary": "Mobile Manipulation (MoMa) is a cornerstone of autonomous robotic systems, yet real-world fine-tuning remains a formidable challenge because of high-dimensional action spaces and intricate coupling between heterogeneous modules. In this paper, we propose HiRe-MoMa (Hierarchical Residual Mobile Manipulation), a systematic framework for stable and sample-efficient real-world fine-tuning of complex MoMa systems. At its core, HiRe-MoMa adopts a Hierarchical Residual Architecture that fine-tunes a fr",
-    "author": "Zhefei Gong, Hefeifei Jiang, Zehao Wang, Jiachen Li",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "https://hire-moma.github.io/",
-      "http://arxiv.org/abs/2610.20607v1"
-    ]
-  },
-  {
-    "title": "Co-Evolving Acting and Forecasting for Language Agents",
-    "link": "http://arxiv.org/abs/2610.20597v1",
-    "published": "2026-10-14T17:59:28+00:00",
-    "summary": "Training language agents is bottlenecked by the high cost of long-horizon rollouts, yet standard agentic reinforcement learning (RL) learns only from a terminal scalar reward, leaving the supervision in intermediate steps largely unused. Prior work exploits this supervision through value targets that estimate per-step success probabilities or observation targets that fit environment response. Both are hard to construct well: (1) value targets come from the same single scalar signal for each step",
-    "author": "Haofei Yu, Yixing Chen, Yining Zhao, Xuyan Ye, Yuxiang Liu, Zhigang Hua, Yan Xie, Shuang Yang, Jiaxuan You",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "https://github.com/ulab-uiuc/CoPE",
-      "http://arxiv.org/abs/2610.20597v1"
-    ]
-  },
-  {
-    "title": "Your Transformer Is Secretly Elastic",
-    "link": "http://arxiv.org/abs/2610.20588v1",
-    "published": "2026-10-14T17:58:08+00:00",
-    "summary": "Scaling up transformers has produced models with broad capabilities, deployed across heterogeneous hardware and fluctuating workloads. Yet, model families offer only a few fixed sizes (e.g., S, B, L), forcing users to commit to a model based on hardware and latency constraints. This rigidity is often suboptimal under varying query loads. We introduce a retraining-free method that elastifies pre-trained transformers into a single model that adapts on-the-fly across a continuum of computational bu",
-    "author": "Walter Simoncini, Dheeraj Varghese, Gertjan J. Burghouts, Cees G. M. Snoek",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2610.20588v1"
-    ]
-  },
-  {
-    "title": "Price of Anarchy of First-Price Auctions in Agentic Markets",
-    "link": "http://arxiv.org/abs/2610.20587v1",
-    "published": "2026-10-14T17:57:57+00:00",
-    "summary": "An agentic market is a decentralized serving-time market where AI agents bid to claim each user prompt. An agent's bid is based on its expected value for the prompt, which is the expectation of the reward for its response minus its inference costs. First-price auctions (FPAs), in which the highest bidder pays its bid and receives the prompt, are a natural way to allocate prompts in such a market, since they are simple and transparent to run, and do not require central knowledge of private capabi",
-    "author": "Shubhendu Trivedi, Jacob Eisenstein, Alekh Agarwal, Ian Gemp, Michael Kaisers, Adam Fisch",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2610.20587v1"
-    ]
-  },
-  {
-    "title": "Continuum Attention",
-    "link": "http://arxiv.org/abs/2610.20586v1",
-    "published": "2026-10-14T17:57:40+00:00",
-    "summary": "We introduce Continuum Attention (CA), a causal Transformer attention operator that replaces discrete key and value lookup with integration over a continuous, piecewise linear memory curve. Each query induces an exponential relevance density along the curve. Integrating the density and interpolated values yields exact normalized attention from closed form exponential moments, including half token boundary contributions. The gradients follow analytically from moments of order at most two, enablin",
-    "author": "Afshin Khadangi",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2610.20586v1"
-    ]
-  },
-  {
-    "title": "Player-1: Learning to Play from Synthetic Experience",
-    "link": "http://arxiv.org/abs/2610.20584v1",
-    "published": "2026-10-14T17:57:12+00:00",
-    "summary": "Computer-use agents have demonstrated strong capabilities in interpreting screens and executing keyboard and mouse actions. However, games, with their visually rich worlds and diverse mechanics, remain challenging and offer a demanding next step toward general digital control. Current game-agent learning pipelines often rely on large-scale demonstrations with limited coverage of dynamic game states, while scalable environments for interactive training remain difficult to obtain. We introduce Pla",
-    "author": "Mingyu Ouyang, Yiran Wang, Siyuan Hu, Xingyilang Yin, Huiqiang Sun, Guangzhi Wang, Junfu Pu, Cheng Cheng, Honghao Chen, Ying Shan, Mike Zheng Shou, Hwee Tou Ng",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2610.20584v1"
-    ]
-  },
-  {
-    "title": "One Task, Many Interfaces: Simple Cross-Interface Consistency Training Improves LLM Agent Robustness",
-    "link": "http://arxiv.org/abs/2610.20576v1",
-    "published": "2026-10-14T17:56:06+00:00",
-    "summary": "Post-training binds the competence of an LLM agent to the interface it was trained on. Semantics-preserving perturbations of that interface, such as renaming an action or changing the notation, leave the underlying task unchanged yet make the agent worse at it. Scoring each sample independently means interface randomization only broadens this dependence from a single interface to the training interface distribution, so out-of-distribution perturbations still degrade the agent. We propose Cross-I",
-    "author": "Artin Tajdini, Manpreet Kaur, Peng Qi",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2610.20576v1"
-    ]
-  },
-  {
-    "title": "Beyond LLM Judge: Mechanical Verification for Agentic Autoformalization",
-    "link": "http://arxiv.org/abs/2610.20573v1",
-    "published": "2026-10-14T17:54:48+00:00",
-    "summary": "We introduce a novel method for verifying Lean formalizations that goes beyond LLM-judged faithfulness. Unlike most verification methods, which rely on LLMs or trained models, our method combines LLM-based semantic review with mechanical numerical and vacuity checks, providing checkable feedback and detecting errors missed by LLM judges. We apply this method, along with our Extract-Verify-Proof autoformalization pipeline, to construct the Formalized Library of Mathematical Functions (FLMF), a pa",
-    "author": "Anna Mei, Michael R. Douglas",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "https://github.com/annamei1/FLMF-Ch7ErrFunc-Release.git",
-      "http://arxiv.org/abs/2610.20573v1"
-    ]
-  },
-  {
-    "title": "Recovering Reliable Supervision via Critique-Guided On-Policy Distillation",
-    "link": "http://arxiv.org/abs/2610.20572v1",
-    "published": "2026-10-14T17:54:34+00:00",
-    "summary": "On-policy distillation (OPD) trains a student model on its own rollouts with token-level supervision from a teacher, assuming that the teacher can reach a correct answer from any prefix the student writes. We call this property the recoverability of the teacher and show it fails on incorrect rollouts: the teacher follows student errors, although it recognizes them. We propose CriticOPD, using error recognition to restore recoverability. The teacher critiques an incorrect rollout, allowing the st",
-    "author": "Kaixiang Zhao, Tianrun Yu, Shangzhe Li, Yuxiao Yang, Amanda Hughes, Weitong Zhang, Taylor W. Killian",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2610.20572v1"
-    ]
-  },
-  {
-    "title": "Scaling Discovery Requires Forgetting",
-    "link": "http://arxiv.org/abs/2610.20563v1",
-    "published": "2026-10-14T17:49:37+00:00",
-    "summary": "Automated research with LLM agents has shown promising results in various domains. Through iterative refinement and scored verifiers, LLM agents are capable of discovering new ideas. There are different ways to scale automated research: let one agent iterate for longer, run several agents in parallel, or further let the parallel agents communicate and build on one another's candidates. However, we find that all three strategies eventually plateau as the agents accumulate history. Each agent beco",
-    "author": "Shangyin Tan, Ben Zhou, Lakshya A Agrawal, Jialin Zhang, Yilin Chen, Qiuyang Mang, Donghyun Lee, Dennis Jacob, Koushik Sen, Alex Dimakis, Matei Zaharia",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2610.20563v1"
-    ]
-  },
-  {
-    "title": "PhySGA: A Physics-Space Grounded Agentic Framework for Generalizable and Interactive 3D Composition",
-    "link": "http://arxiv.org/abs/2610.20560v1",
-    "published": "2026-10-14T17:47:24+00:00",
-    "summary": "3D object composition is pivotal to digital content creation and robot simulation, while also serving as a critical testbed for physical intelligence in foundation models. Previous methods either leverage large language models to directly predict object coordinates, or utilize generative diffusion priors to synthesize composite images for visual alignment, both of which rely on static priors in digital spaces. However, these methods consistently struggle with complex compositions such as precise",
-    "author": "Weichen Lyu, Chong Xia, Mingyu Dong, Long Xu, Shengjun Zhang, Yueqi Duan",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2610.20560v1"
-    ]
-  },
-  {
-    "title": "PerSo: Investigating Facets of LLMs' Social Intelligence in Real-World Persuasion Scenarios",
-    "link": "http://arxiv.org/abs/2610.20548v1",
-    "published": "2026-10-14T17:39:35+00:00",
-    "summary": "Understanding the social intelligence of large language models (LLMs) is increasingly important for applications involving human-AI interaction and multi-agent environments. Social intelligence comprises two aspects: cognitive intelligence, the ability to infer others' mental states, and behavioral intelligence, the ability to select appropriate social actions based on these inferences to achieve social goals. Persuasion provides a natural testbed in which both aspects are simultaneously at play",
-    "author": "Ali Zamani, Soroush Esfahanian, Erfan Shahabi, Mohammad Taher Pilehvar, Azadeh Shakery, Yadollah Yaghoobzadeh",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2610.20548v1"
-    ]
-  },
-  {
-    "title": "Detection of Potato Plant Leaf Diseases using Convolutional Neural Networks",
-    "link": "http://arxiv.org/abs/2610.20544v1",
-    "published": "2026-10-14T17:36:33+00:00",
-    "summary": "Potato is an important food-security crop in Ethiopia, but its production is affected by foliar diseases, particularly early blight and late blight. This study develops a lightweight convolutional neural network (CNN) to classify potato leaves into three categories: healthy, early blight, and late blight. The proposed model was trained using 2,215 images from the PlantVillage dataset and evaluated on an independent field dataset containing 247 images collected from potato farms in Banja, Awi Zon",
-    "author": "Haimanot Bitew Alemayehu, Simachew Melaku Ayalew, Chilotie Desalew Mengesha, Ayisheshim Almaw Bogale, Anteneh Birhan Yenew, Abrham Tegegne Bogale",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2610.20544v1"
-    ]
-  },
-  {
-    "title": "PrismaCoder: Pushing the Boundaries of Open Multimodal Code Intelligence through Decomposed Rubric Synthesis",
-    "link": "http://arxiv.org/abs/2610.20538v1",
-    "published": "2026-10-14T17:32:54+00:00",
-    "summary": "Multimodal code intelligence connects the symbolic world of programs with the visual world their execution creates. Interest in this capability is burgeoning, as models are increasingly asked to produce charts, webpages, animations, and semi-structured documents. Recently, proprietary models have pushed far ahead, producing interactive artifacts even from a text description or a screenshot alone. Yet their data and training remain closed, and open progress is held back by the quantity and qualit",
-    "author": "Qiushi Sun, Jingyang Gong, Yang Liu, Qiaosheng Chen, Zhangyue Yin, Zixian Huang, Hanxu Hu, Jing Xiong, Fangzhi Xu, Haochen Tan, Haoli Bai, Lifeng Shang, Xiaoguang Li, Ben Kao, Qipeng Guo, Lingpeng Kong, Jiahui Gao",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "https://qiushisun.github.io/PrismaCoder-Home/",
-      "http://arxiv.org/abs/2610.20538v1"
     ]
   },
   {
