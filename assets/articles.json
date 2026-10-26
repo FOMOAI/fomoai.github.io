@@ -1,5 +1,91 @@
 [
   {
+    "title": "SceneBloom: Agentic Indoor Environment Generation with Realistic and Diverse Layouts for Embodied Learning",
+    "link": "http://arxiv.org/abs/2610.32978v1",
+    "published": "2026-10-23T17:59:21+00:00",
+    "summary": "Training generalizable embodied agents requires realistic, varied, and simulation-ready indoor environments. Language-guided methods support semantic planning and object-level reasoning, but precise spatial grounding remains difficult. Visual generative models offer rich priors over plausible arrangements, yet their outputs require geometric reasoning to become physically valid 3D scenes. We introduce SceneBloom, an agentic framework that combines visual layout sampling with contract-guided 3D c",
+    "author": "Yuhan Liu, Lianhui Qin, Shenji Wan",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "https://github.com/Tinaliu0123/scenebloom",
+      "http://arxiv.org/abs/2610.32978v1"
+    ]
+  },
+  {
+    "title": "RobustRLlib: A Unified Library and Benchmark for Robust Reinforcement Learning Algorithms",
+    "link": "http://arxiv.org/abs/2610.32971v1",
+    "published": "2026-10-23T17:57:22+00:00",
+    "summary": "Robust reinforcement learning (RL) is critical for reliable real-world deployment, where policies may fail under diverse shifts and disruptions. Existing robust RL algorithms offer a rich set of mechanisms and principles, yet two major barriers limit their broader potential: limited algorithm reusability and an unclear empirical capability boundary. We introduce RobustRLlib, an algorithm-centric library and benchmark that addresses both challenges. It integrates 17 representative robust online, ",
+    "author": "Xi Chen, Fengqi Hu, Zeyu Shen, Jiaying Xu, Shangding Gu, Pan Xu, Anqi Liu, Laixi Shi",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2610.32971v1"
+    ]
+  },
+  {
+    "title": "DexPort: A Hand-Held Skill Interface for Dexterous Hand Data Collection",
+    "link": "http://arxiv.org/abs/2610.32969v1",
+    "published": "2026-10-23T17:56:28+00:00",
+    "summary": "Collecting high-quality demonstrations remains a central bottleneck for learning dexterous manipulation. Teleoperation records executable robot actions, but it requires a complete robot setup and places the burden of coordinating many finger joints on the operator. Human demonstrations are easier to collect, but their motions must be estimated and retargeted to the robot, and they do not directly provide robot actions. In this paper, we introduce DexPort, a portable data-collection interface for",
+    "author": "Amber Xie, Jiawei Fu, Xiaofeng Guo, Carmelo Sferrazza, Guanya Shi, Haozhi Qi",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2610.32969v1"
+    ]
+  },
+  {
+    "title": "Beyond Discrete Tokens: Preserving Numerical Continuity in Medical Vision-Language Models",
+    "link": "http://arxiv.org/abs/2610.32948v1",
+    "published": "2026-10-23T17:40:58+00:00",
+    "summary": "Objective: To develop a unified vision-language model for prompt-conditioned quantitative ultrasound measurement that addresses the mismatch between continuous measurement targets and discrete token-based numerical prediction. Methods: This article presents HAD-VLM, a hybrid autoregressive-diffusion framework that combines autoregressive text generation with continuous measurement prediction within a shared backbone. Visual prompt tuning adapts the vision encoder to ultrasound images. A diffusio",
+    "author": "Dianye Huang, Jiamei Guo, Yue Zhou, Mingde Li, Yi Xiong, Wei Wang, Nassir Navab, Zhongliang Jiang",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2610.32948v1"
+    ]
+  },
+  {
+    "title": "Monetizing Intelligence: Advertising and Subscription Design on LLM Platforms",
+    "link": "http://arxiv.org/abs/2610.32945v1",
+    "published": "2026-10-23T17:39:42+00:00",
+    "summary": "Large language model (LLM) platforms introducing advertising must decide how much capability ad revenue should fund and what consumers should pay to avoid ads. We study a monopolistic platform that jointly chooses costly response quality, advertising intensity, and subscription prices when advertising reduces user value but better service raises advertising returns. Three findings follow. First, when partly ad-supported and ad-free plans coexist, advertising can finance useful service for consum",
+    "author": "Yuhang Ji, Fasheng Xu, Tianjun Feng",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2610.32945v1"
+    ]
+  },
+  {
+    "title": "Yalda-Embedding: Open Development of a Competitive Persian Retrieval Model",
+    "link": "http://arxiv.org/abs/2610.32933v1",
+    "published": "2026-10-23T17:30:40+00:00",
+    "summary": "Despite advances in multilingual text representations, effective dense retrieval for Persian remains constrained by the limited availability of language-specific training resources and compact embedding models. We present Yalda Embedding, a 595.8-million-parameter Persian retrieval model adapted from Qwen3-Embedding-0.6B using more than one million query-document pairs. On eight Persian retrieval tasks from FaMTEB, the model achieves the highest macro-average among the evaluated 0.6B models, sco",
+    "author": "Yalda Taheri, Mohammad Hassan Heydari, Armon Rasooli",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2610.32933v1"
+    ]
+  },
+  {
+    "title": "SemantEq: Faithful Bidirectional Equivalence of Formal Statements",
+    "link": "http://arxiv.org/abs/2610.32919v1",
+    "published": "2026-10-23T17:20:12+00:00",
+    "summary": "Statement autoformalization translates mathematics from natural language into a proof assistant such as Lean 4, and models now do it at scale. As provers get stronger, the burden of correctness shifts from the proof to the statement, that is, to whether the formal statement faithfully translates its source. Given a trusted reference formalization, the natural test is logical equivalence, and it proves too much. $P \\leftrightarrow Q$ holds trivially for any two statements $P$ and $Q$ that the lib",
+    "author": "Xinrui Li, Pawan Sasanka Ammanamanchi, Siddharth Bhat, Rianna Jamdar, Yongxi Lin, Stella Biderman",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "https://github.com/hlxr89/SemantEq",
+      "http://arxiv.org/abs/2610.32919v1"
+    ]
+  },
+  {
     "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)",
     "link": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
     "published": "2026-10-23T17:00:00+00:00",
@@ -9,6 +95,105 @@
     "category": "official",
     "references": [
       "https://openai.com/index/scaling-storage-one-billion-users-part-two"
+    ]
+  },
+  {
+    "title": "Green Code or Costly Code? Evaluating the Energy Costs of Iterative LLM-Based Code Optimizations",
+    "link": "http://arxiv.org/abs/2610.32891v1",
+    "published": "2026-10-23T16:58:01+00:00",
+    "summary": "Large Language Models (LLMs) are increasingly used to optimize code for performance. This practice often assumes that improvements in execution speed naturally translate into overall lower energy consumption. We challenge this assumption empirically by measuring whether performance-optimized code produced by LLM self-refinement pipelines is also energy-efficient relative to canonical human reference solutions, and whether the energy cost of the optimization process can be offset by subsequent ex",
+    "author": "Sadra Emami, Benjamin Weigell, Mohammad Reza Mousavi, Gunel Jahangirova, Hugo Araujo, Bernhard Bauer",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "https://doi.org/10.5281/zenodo.23598170",
+      "http://arxiv.org/abs/2610.32891v1"
+    ]
+  },
+  {
+    "title": "Closing the Modality Gap via Simplex-Constrained Representations",
+    "link": "http://arxiv.org/abs/2610.32890v1",
+    "published": "2026-10-23T16:57:48+00:00",
+    "summary": "While multimodal contrastive models like CLIP and CLAP successfully learn shared representations, their embeddings typically exhibit a persistent \\emph{modality gap}. We propose addressing this separation through a purely geometric approach: changing the embedding domain from the unit sphere, $S^{d-1}$, to the probability simplex, $Δ^{d-1}$. Although both manifolds share the same intrinsic dimension, the simplex acts as a structural prior; its nonnegative, unit-mass constraints serve as a cross-",
+    "author": "Shubham Gupta, Siva Reddy, Perouz Taslakian, Valentina Zantedeschi, Cem Subakan",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2610.32890v1"
+    ]
+  },
+  {
+    "title": "NgramRL: Accelerating RL Post-Training for Structured Generation via Rollout-Aware N-gram Speculative Decoding",
+    "link": "http://arxiv.org/abs/2610.32881v1",
+    "published": "2026-10-23T16:47:29+00:00",
+    "summary": "Reinforcement learning (RL) post-training improves the reasoning capabilities of large language models, but its cost is dominated by autoregressive rollout generation, which can exceed 70% of training time. Existing speculative-decoding methods are poorly suited to this setting: model-based drafters consume scarce GPU memory and may become misaligned as the policy evolves, while existing model-free methods do not explicitly exploit repetition across training epochs. We observe that recent rollou",
+    "author": "Nilesh Prasad Pandey, Jangseon Park, Jason Kong, Onat Gungor, Tajana Rosing",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2610.32881v1"
+    ]
+  },
+  {
+    "title": "Advancing SVD-based LLM Compression via Layer-Wise Error Model Search",
+    "link": "http://arxiv.org/abs/2610.32878v1",
+    "published": "2026-10-23T16:46:00+00:00",
+    "summary": "Low-rank SVD-based compression offers a powerful strategy to reduce the computational costs of LLMs. However, existing methods face two key limitations: (i) global rank allocation, where uncalibrated error proxies fail to capture complex error propagation, and (ii) decomposition quality, where Fisher-based estimators suffer from severe rank collapse. In this work, we address these limitations by introducing Layer-wise Error Modeling Search (LEMS) and KFAC-SVD. LEMS advances rank allocation by in",
+    "author": "Moritz Thoma, Maximilian Groezinger, Maximilian Forstenhäusler, Emad Aghajanzadeh, Manoj Rohit Vemparala, Christos Anagnostopoulos, Pierpaolo Mori, Nael Fasfous, Alexander Frickenstein, Daniel Mueller-Gritschneder, Ulf Schlichtmann",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "https://lems-svd.github.io",
+      "http://arxiv.org/abs/2610.32878v1"
+    ]
+  },
+  {
+    "title": "Do \"True\" and \"False\" Add Up to One? Complement Consistency in LLM-Agent Opinion Simulations",
+    "link": "http://arxiv.org/abs/2610.32874v1",
+    "published": "2026-10-23T16:44:20+00:00",
+    "summary": "In LLM-agent opinion simulations, each agent reports the probability that a claim is true after seeing its own previous probability and the probabilities reported by its neighbors, and that number becomes its state in the next round. If the number describes the agent's position rather than the sentence it was shown, then rewriting the claim as its complement and replacing every probability p with 1 - p should return the complementary answer, so the two reports should sum to one. We test this wit",
+    "author": "Anouar Imel, Jin Qi",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2610.32874v1"
+    ]
+  },
+  {
+    "title": "From Deliberately Constructed Systemic Representations of the World of Activity to Dialogue: A Five-Level Communication Architecture for Strong Language-Based ASI",
+    "link": "http://arxiv.org/abs/2610.32869v1",
+    "published": "2026-10-23T16:41:54+00:00",
+    "summary": "This paper proposes a five-level organization of message formation and understanding within thinking and activity in which ASI participates. Its central thesis is that a language model's context is fundamentally incapable of presenting the foundations of utterance formation for examination and verification. These foundations are established in advance by acquired schemas, systemic representations of the world of activity, and connections accepted as true within them. Neither context nor trained ",
+    "author": "Maxim Osovsky",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2610.32869v1"
+    ]
+  },
+  {
+    "title": "Interpretable sparse fine-tuning with TopKLoRA enables faithful circuit discovery",
+    "link": "http://arxiv.org/abs/2610.32866v1",
+    "published": "2026-10-23T16:37:29+00:00",
+    "summary": "Fine-tuning on datasets of unknown origin can create a backdoor in the trained model when the data includes poisoned examples. Difficult to localise and remove, backdoors can persist through safety training. While parameter-efficient fine-tuning methods capture the full parameter changes introduced during training, they are not easily interpretable. We present the full method of TopKLoRA, extending the preliminary proposal of Masiak et al. (2025), an interpretable-by-design LoRA variant in which",
+    "author": "Marek Masiak, Andrzej Szablewski, Nicola Cancedda, Constantin Venhoff",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "https://github.com/interpretable-finetuning/TopKLoRA",
+      "http://arxiv.org/abs/2610.32866v1"
+    ]
+  },
+  {
+    "title": "PoKER: A Probability of Kill Estimation Rate Model for Air-to-Air Missiles Using Machine Learning on Stochastic Targets",
+    "link": "http://arxiv.org/abs/2610.32864v1",
+    "published": "2026-10-23T16:34:57+00:00",
+    "summary": "This work introduces PoKER, a novel probabilistic model engineered to optimize missile launch effectiveness in air-to-air scenarios, specifically within Beyond Visual Range (BVR) air combat. Unlike conventional Weapon Engagement Zone (WEZ) models that delineate zones based on static distances such as maximum, minimum, and no-escape ranges, PoKER applies machine learning to predict kill probabilities more accurately by integrating the stochastic behaviors of targets and missile miss distances. Th",
+    "author": "Joao P. A. Dantas, Andre N. Costa, Diego Geraldo, Marcos R. O. A. Maximo, Takashi Yoneyama",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2610.32864v1"
     ]
   },
   {
@@ -93,186 +278,6 @@
     "category": "media",
     "references": [
       "https://www.technologyreview.com/2026/10/22/1146103/the-foundations-of-scalable-ai/"
-    ]
-  },
-  {
-    "title": "Direct Pass@$k$ Optimization for Thought Pruning: Balancing Quality and Diversity in Test-Time Reasoning",
-    "link": "http://arxiv.org/abs/2610.31667v1",
-    "published": "2026-10-22T17:59:48+00:00",
-    "summary": "Test-time scaling has emerged as a key inference strategy for reasoning models, where a model generates a large number of candidate solutions in the hope of finding at least one correct solution. Running all candidate solutions to completion can be computationally demanding, so recent work prunes the candidate pool after generating only a short prefix, committing further computation only to the surviving candidates. Existing pruning strategies divide broadly into two categories: Quality-based me",
-    "author": "Mahdi Salmani, Adel Javanmard, Devansh Gupta, Meisam Razaviyayn",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2610.31667v1"
-    ]
-  },
-  {
-    "title": "Cost-Aware Abstention for LLM-Based IT Ticket Classification",
-    "link": "http://arxiv.org/abs/2610.31657v1",
-    "published": "2026-10-22T17:58:52+00:00",
-    "summary": "Wrong automatic routing of an IT support ticket can cost more than human triage. We evaluate cost-aware abstention as an offline, cost-conditional readiness assessment: select a routing policy on calibration data under explicit costs, then evaluate that frozen policy once on held-out test data. On a public 47,837-ticket, eight-class corpus, we compare four trained non-LLM classifiers with four large language models under zero- and few-shot prompting. Under the illustrative cost model (c_ok, c_tr",
-    "author": "Sachin Gupta",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2610.31657v1"
-    ]
-  },
-  {
-    "title": "METTA: Memory-Enhanced Test-Time Adaptation for Meta-Reinforcement Learning",
-    "link": "http://arxiv.org/abs/2610.31656v1",
-    "published": "2026-10-22T17:58:27+00:00",
-    "summary": "Meta-reinforcement learning aims to train agents that adapt quickly to unseen tasks from limited interaction, but this requires representing task evidence over long interaction histories. Classical recurrent agents compress experience into hidden states, while transformer-based agents retrieve from past trajectories at quadratic memory and computation cost. In this work, we propose Memory-Enhanced Test-Time Adaptation (METTA) for meta-reinforcement learning. It decomposes the fast adaptation pha",
-    "author": "Ali Najar, Hosein Hasani, Amir Kooshan Fattah, Yasamin Rajabi, Mahdieh Soleymani Baghshah",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2610.31656v1"
-    ]
-  },
-  {
-    "title": "EpiSEM-Bench: Evaluating Safety and Evidence Recovery in LLM Agents under Missing Evidence",
-    "link": "http://arxiv.org/abs/2610.31650v1",
-    "published": "2026-10-22T17:57:04+00:00",
-    "summary": "Tool-using language model agents rely on environmental facts to decide whether an action is permitted. When a tool response omits a safety-relevant fact, an agent may carry out a prohibited action even though the user request is benign and every returned statement is true. We introduce \\bench{}, an executable benchmark for evaluating unsafe execution, safety boundaries, and evidence recovery in LLM agents under missing evidence. It contains 300 matched unsafe/safe task pairs across six domains. ",
-    "author": "Qijin Zhang, Hanzhen Wang, Yuehan Zhao, Haoyu Dai, Yao Shu, Zhongxiang Dai, Shuang Qiu",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2610.31650v1"
-    ]
-  },
-  {
-    "title": "Low-Bit N-Gram Embeddings for Language Models",
-    "link": "http://arxiv.org/abs/2610.31646v1",
-    "published": "2026-10-22T17:56:13+00:00",
-    "summary": "Many recent open-weight language models use n-gram embedding tables to improve performance. These tables store learned representations of short token sequences, such as pairs or triples of consecutive tokens, which the model retrieves during processing. However, they can require substantial memory: DeepSeek-V4.1-Flash, for example, allocates 196 billion parameters to its Engram n-gram memory. We therefore investigate whether this memory cost can be reduced while preserving the performance improv",
-    "author": "Stephen Chung, Wenyu Du",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2610.31646v1"
-    ]
-  },
-  {
-    "title": "Causal Chain of Thought: Mitigating Attention Leakage via Context Isolation",
-    "link": "http://arxiv.org/abs/2610.31639v1",
-    "published": "2026-10-22T17:52:56+00:00",
-    "summary": "Chain-of-thought (CoT) prompting elicits step-by-step rationales that appear to explain model predictions, but there is no guarantee these steps causally drive the final answer. In standard autoregressive generation, dense attention allows each reasoning step to attend to the full context, enabling the model to derive answers through direct lookup while generating plausible-sounding but post-hoc justifications. We introduce CausalCoT, an inference framework that enforces causal transparency by d",
-    "author": "Gabriele Dominici, Teague McMillan, Fazl Barez, Marc Langheinrich, Martin Gjoreski",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2610.31639v1"
-    ]
-  },
-  {
-    "title": "Questioning Instrumental Convergence in RLVR: Checkpoint Evidence from OLMo-3",
-    "link": "http://arxiv.org/abs/2610.31624v1",
-    "published": "2026-10-22T17:44:41+00:00",
-    "summary": "Instrumental convergence is often invoked as a general reason to expect capable agents to acquire or express power-seeking subgoals: self-preservation, resource acquisition, deception, or resistance to oversight which poses an important threat to the society. For LLMs, reinforcement learning is the first stage of post-training that directly optimizes behavior against an objective; therefore, it is the stage where convergent instrumental behavior, on IC grounds, likely to appear. Does reinforceme",
-    "author": "Barış Alparslan, Sandy Tanwisuth, Caleb Petterson",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2610.31624v1"
-    ]
-  },
-  {
-    "title": "How Ground Truth Shapes Retrieval Scores: Evidence-Aware Evaluation of a Retrieval-Augmented Generation System for Breast Lesions",
-    "link": "http://arxiv.org/abs/2610.31606v1",
-    "published": "2026-10-22T17:36:14+00:00",
-    "summary": "Purpose: To describe an evidence-aware retrieval evaluation protocol for a clinical retrieval-augmented generation (RAG) system over breast lesion management literature, addressing the dependence of retrieval scores on annotation coverage. Methods: An 18-document corpus and an 18-query development benchmark, with one Yes/No or WH-question per document, were used. Retrieval combined dense embeddings, BM25, and cross-encoder reranking. Chunk sizes of 128 to 1024 tokens, overlaps of 0 to 20%, and f",
-    "author": "Miguel Mochizuki Silva, Samuel Ismael, Mateus C. Dias, Thaís Gaudêncio, Yuri Malheiros, Barufaldi",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2610.31606v1"
-    ]
-  },
-  {
-    "title": "Simulated Control Evals",
-    "link": "http://arxiv.org/abs/2610.31593v1",
-    "published": "2026-10-22T17:26:42+00:00",
-    "summary": "Control evaluations measure whether safeguards can prevent an AI model from causing undesired outcomes even when it is intentionally trying to do so. These evaluations typically use purpose-built control settings and extrapolate their results to a model's deployment. However, the effectiveness of safeguards in deployment can depend on features of environments and tasks that control settings do not represent. To broaden where control evaluations can be run, we introduce simulated control evaluati",
-    "author": "Jeffrey Olmo, David Zhang, Tyler Tracy",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2610.31593v1"
-    ]
-  },
-  {
-    "title": "VERA: A Responsible AI Dashboard for Assessing LLM Deployments in Light of the EU AI Act",
-    "link": "http://arxiv.org/abs/2610.31588v1",
-    "published": "2026-10-22T17:23:39+00:00",
-    "summary": "Institutions that deploy large language models in regulated settings often need technical evidence of responsible AI practices before approving a deployment. COMPL-AI provides a technical interpretation of the EU AI Act that organises this evidence under six principle groups and eighteen technical requirements, twelve of which current benchmarks can measure. The benchmark suites that produce this evidence are typically operated from a command line, while the staff who approve deployments are non",
-    "author": "Robin Quériaux, Solveig Bachellery, Léa Déléris, Saurabhsingh Rajput, Mariam Barry, Tushar Sharma, Jérôme Lebecq",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2610.31588v1"
-    ]
-  },
-  {
-    "title": "Would an LLM Match into a Residency? Uncertainty, Reasoning and Image Use of Open Language Models on the Spanish MIR Examination",
-    "link": "http://arxiv.org/abs/2610.31586v1",
-    "published": "2026-10-22T17:23:11+00:00",
-    "summary": "Accuracy on medical examinations is common evidence offered for the clinical use of language models, yet a health system that intends to run an open model on its own hardware needs to know considerably more: whether the model recognizes when it is likely to be wrong, whether medical fine-tuning improves this ability, whether its correct answers rest on sound clinical reasoning, or whether it actually uses the images it is given. We examine these questions for four open models of 8 to 27 billion ",
-    "author": "Miguel Fernandez-de-Retana, Unai Zulaika, Ruben Sanchez-Corcuera, Aritz Bilbao-Jayo, Aitor Almeida",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2610.31586v1"
-    ]
-  },
-  {
-    "title": "Who Is Sycophantic to Whom? Confident LLMs, Human Deference, and the Collapse of Trust Calibration",
-    "link": "http://arxiv.org/abs/2610.31579v1",
-    "published": "2026-10-22T17:15:59+00:00",
-    "summary": "Research on sycophancy asks whether large language models (LLMs) bend towards what their users want to hear. We ask the reverse question: when an LLM is confident, consistent, and wrong, do users bend towards it? In a within-subjects experiment, 32 participants learned up to five science topics by chatting with five assistants built on the same model (GPT-5-mini). Unknown to participants, each assistant's briefing had 0, 25, 50, 75, or 100% of its facts replaced by plausible falsehoods, and ever",
-    "author": "Deepthika S, Pawni Yadav, B. Sankar",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2610.31579v1"
-    ]
-  },
-  {
-    "title": "What Makes a Good Unmasking Policy? A Controlled Study of Learned Unmasking in Diffusion Language Models",
-    "link": "http://arxiv.org/abs/2610.31576v1",
-    "published": "2026-10-22T17:15:04+00:00",
-    "summary": "Masked diffusion language models generate tokens in parallel, but their efficiency depends on which predictions are committed. Learned unmasking policies improve the speed--accuracy trade-off, yet differ in supervision, inputs, and capacity, obscuring which choices matter. We view supervised policies as distilling a decoding procedure through a teacher and examine independently what the teacher labels as committable, on which states the policy imitates it, what the policy observes, and how much ",
-    "author": "Jinya Sakurai, Xun Xu, Jaehong Yoon",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2610.31576v1"
-    ]
-  },
-  {
-    "title": "Social-HUMINT: An LLM-Augmented Unified Framework for Measuring Social Media Exposure",
-    "link": "http://arxiv.org/abs/2610.31573v1",
-    "published": "2026-10-22T17:13:46+00:00",
-    "summary": "In the post-API landscape, social-media profiling has become inexpensive and automated: Large Language Models (LLMs) can extract structured information from unstructured content and deduce attributes users never disclosed. A person's true exposure is not what they post but what can be inferred from it. As these practices become routine, exposure to social engineering attacks becomes an operational certainty, demanding a shared framework for assessment and mitigation. We make this exposure measur",
-    "author": "Pellegrino Casoria, Simon Pietro Romano",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2610.31573v1"
-    ]
-  },
-  {
-    "title": "When to Follow the Teacher: Advantage-Based On-Policy Distillation",
-    "link": "http://arxiv.org/abs/2610.31563v1",
-    "published": "2026-10-22T17:05:21+00:00",
-    "summary": "Online Policy Distillation (OPD) often outperforms offline methods such as Supervised Fine-Tuning (SFT) by training on trajectories sampled directly from the student. However, standard OPD trains the student to follow the teacher at every state of the trajectory, assuming that teacher guidance is always beneficial. We instead distinguish between what the teacher prefers and what actually helps the current student succeed. We introduce Advantage-Based On-Policy Distillation (AOPD), which weights ",
-    "author": "Mahdi Sabbaghi, George Pappas, Hamed Hassani, Adel Javanmard",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2610.31563v1"
     ]
   },
   {
