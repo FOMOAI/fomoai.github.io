@@ -12,6 +12,92 @@
     ]
   },
   {
+    "title": "Retriever-Free Retrieval: Navigating Documents with Decision Models",
+    "link": "http://arxiv.org/abs/2610.35868v1",
+    "published": "2026-10-26T17:59:44+00:00",
+    "summary": "While language models have become dramatically more capable, retrieval still largely relies on lexical matching or similarity in fixed embedding spaces. This creates a capability asymmetry: what the retriever fails to find, even the strongest generator cannot recover. We propose DecisionRAG, which brings the capabilities of pretrained language models to retrieval using decision models that jointly evaluate candidate branches in a single forward pass, without generating any tokens, and show that ",
+    "author": "Chao Wan, Paul Jünger, Beixi Du, Bodong Liu, Navaneetha Krishnan, Kilian Q. Weinberger",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2610.35868v1"
+    ]
+  },
+  {
+    "title": "Center-of-Mass Interpretation of Evolution Strategies",
+    "link": "http://arxiv.org/abs/2610.35865v1",
+    "published": "2026-10-26T17:59:33+00:00",
+    "summary": "Evolution strategies (ES) update a model by sampling a population of perturbed copies, scoring each one, and moving in the reward-weighted direction of the perturbations. This update is usually presented as an estimate of a smoothed gradient. We present a geometrical interpretation of this update instead. Treat each perturbed model as a particle and its reward as the particle's mass. Before scoring, every particle has the same mass and the population balances at its centroid. Once rewards are as",
+    "author": "Akshat Gupta",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2610.35865v1"
+    ]
+  },
+  {
+    "title": "Learning Force-Reactive Humanoid Loco-Manipulation",
+    "link": "http://arxiv.org/abs/2610.35862v1",
+    "published": "2026-10-26T17:59:11+00:00",
+    "summary": "Many everyday tasks require controlling contact force as well as motion. On a humanoid, this force must often be coordinated across both hands and the whole body, and cannot be specified by kinematic trajectories alone. Therefore, we present FLORE, a framework for learning force-reactive humanoid loco-manipulation. We collect robot-free demonstrations using two force-sensing UMI-style handheld grippers for hand motion and contact wrenches, and wearable trackers for body motion. A force-reactive ",
+    "author": "Sihang Li, Xiaofeng Guo, Jinkun Cao, Charlie Cheng, Ruihan Yang, Chen Feng, Guanya Shi, Haozhi Qi",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "https://louis-leee.github.io/FLoRe/",
+      "http://arxiv.org/abs/2610.35862v1"
+    ]
+  },
+  {
+    "title": "Patient-specific rubric-based evaluation of large language models across longitudinal cancer care",
+    "link": "http://arxiv.org/abs/2610.35847v1",
+    "published": "2026-10-26T17:56:26+00:00",
+    "summary": "Large language models (LLMs) show promise in specialty medicine, yet existing evaluations largely focus on isolated clinical encounters rather than tracking how clinical responsibilities evolve across a longitudinal care pathway. Here we introduce NPC-RubricBench, a phase-aware benchmark for evaluating multistage clinical reasoning across the cancer care continuum, using nasopharyngeal carcinoma as a defined disease context. Curated from longitudinal records of 405 patients across two cancer cen",
+    "author": "Wei-Wei Zhang, Pengkai Wang, Yan Li, Zhijie Sang, Guan-Qun Zhou, Jun-Yan Li, Shu-Han Zhou, Pei-Wen Liu, Ting-Xi Tang, Min Tang, Zhitian Hou, Jianmin Wu, Jian Guan, i Lin, Hongxia Yang, Ying Sun",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2610.35847v1"
+    ]
+  },
+  {
+    "title": "I-HITL: Inalienable Human-in-the-Loop",
+    "link": "http://arxiv.org/abs/2610.35835v1",
+    "published": "2026-10-26T17:52:14+00:00",
+    "summary": "Human oversight is a pillar of AI safety. It is often exercised by a human in the loop (HITL) who approves critical actions taken by an AI agent. AI agents' increasing ability to bypass guardrails, though, raises the question of how to enforce HITL robustly. We introduce the concept of inalienable human-in-the-loop (I-HITL). An I-HITL protocol ensures that an agent can initiate an action only with explicit human approval, even when the human interacts with a system (e.g., a local agentic harness",
+    "author": "Samuel Breckenridge, Dani Vilardell, Wenhao Wang, Fan Zhang, Ari Juels",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2610.35835v1"
+    ]
+  },
+  {
+    "title": "Profiling a Frontier Agent with EBench: From Direct Control to Harness with Policy",
+    "link": "http://arxiv.org/abs/2610.35832v1",
+    "published": "2026-10-26T17:51:02+00:00",
+    "summary": "Frontier multimodal large language models (MLLMs) can control robots without robot-specific training, but how their capabilities compare and interact with post-trained vision-language-action (VLA) and world action model (WAM) policies across manipulation demands remains to be thoroughly evaluated. In this report, we evaluate GPT-6-Astra on EBench as the core of an agent that controls a robot through an agent harness under the same visual and proprioceptive observation protocol as post-trained po",
+    "author": "Yifei Yao, Yude Zou, Guanbo Jiao, Xing Gao, Ning Gao, Yukai Wang, Jiantong Chen, Zihou Zhu, Xinyu Li, Ningyu Yan, Shuai Wang, Jianming Ma, Haoyu Guo, Weinan Zhang, Chunhua Shen",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "https://internrobotics.github.io/EBench-Astra-Tech-Report/",
+      "http://arxiv.org/abs/2610.35832v1"
+    ]
+  },
+  {
+    "title": "Reva: Real-Time Vulnerability Detection through Contextual Probing of Large Language Models",
+    "link": "http://arxiv.org/abs/2610.35829v1",
+    "published": "2026-10-26T17:50:09+00:00",
+    "summary": "A vulnerability costs more to fix the later it is discovered. As coding agents generate code faster than developers can review it, software needs a first line of defense screening each new function in real time. LLM agents have recently become capable of finding real-world vulnerabilities by working as a security expert would: they run analysis tools, explore the surrounding code, test hypotheses and weigh the evidence before forming their own judgement. This reasoning, however, spans many model",
+    "author": "Amine Lbath, Massih-Reza Amini",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2610.35829v1"
+    ]
+  },
+  {
     "title": "Will the real Anthropic please stand up",
     "link": "https://www.technologyreview.com/2026/10/26/1147672/will-the-real-anthropic-please-stand-up/",
     "published": "2026-10-26T17:45:43+00:00",
@@ -21,6 +107,103 @@
     "category": "media",
     "references": [
       "https://www.technologyreview.com/2026/10/26/1147672/will-the-real-anthropic-please-stand-up/"
+    ]
+  },
+  {
+    "title": "Pretraining Knows What, Simulation Teaches How: Compositional Generalization in a Sim-Trained Robot Agent",
+    "link": "http://arxiv.org/abs/2610.35817v1",
+    "published": "2026-10-26T17:44:34+00:00",
+    "summary": "A robot policy needs to understand what a task is asking for in a scene, and how to move the robot to accomplish that task. To achieve these two skills, we introduce Zero-real Agent Policy (ZAP), a recipe that teaches a small off-the-shelf vision-language model to control a robot via a simple tool harness. We use a pretrained 27B parameter model to bootstrap world understanding and reasoning, followed by supervised fine-tuning and GRPO on simple simulated tasks to teach it how to move the robot.",
+    "author": "Benjamin Pikus, Daniel Saunders, Mircea Mironenco, Salman Mohammadi, Mathew Mathew, Sirou Zhu, Divya Makkar, Xuhua Huang, Qinbo Li, Supreeth Narasimhaswamy, Siyuan Cen, Thomas Neff, Dejia Xu, Shyamal Buch",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2610.35817v1"
+    ]
+  },
+  {
+    "title": "Learning When to Commit: Schedule Distillation for Fast Diffusion Language Models",
+    "link": "http://arxiv.org/abs/2610.35804v1",
+    "published": "2026-10-26T17:35:58+00:00",
+    "summary": "Diffusion large language models (dLLMs) can generate multiple tokens in parallel, but often require many decoding rounds to complete a response. Efficient generation depends not only on which tokens are easy to predict, but also on how committing to them helps predict the remaining positions. A highly predictable token may provide little useful context, while revealing a less predictable token can help several other positions become predictable sooner. We propose dSpark, a new schedule distillat",
+    "author": "Aidar Myrzakhan, Zhiqiang Shen",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "https://github.com/VILA-Lab/dSpark",
+      "http://arxiv.org/abs/2610.35804v1"
+    ]
+  },
+  {
+    "title": "Game theory of academic effort and hiring in the age of AI",
+    "link": "http://arxiv.org/abs/2610.35802v1",
+    "published": "2026-10-26T17:35:30+00:00",
+    "summary": "Many academic disciplines (in particular, mathematics and the theoretical sciences) face difficult questions about how to adapt their practices to the rise of highly capable artificial intelligence (AI). Before AI, a well-written research paper with a strong theoretical result acted as a reliable signal that its authors understood their field in depth. Now that AI is widely accessible, such signals have become cheaper to produce. As a result, they no longer reliably sort academics by their level",
+    "author": "Saptarshi Pal, Peter S. Park",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2610.35802v1"
+    ]
+  },
+  {
+    "title": "A Unified Arena for LLM Agents across Diverse Eurogame",
+    "link": "http://arxiv.org/abs/2610.35773v1",
+    "published": "2026-10-26T17:14:22+00:00",
+    "summary": "Interactive environments offer a practical way to evaluate large language model (LLM) agents, and competitive games extend this evaluation to decisions shaped by competing goals and other agents' choices. Yet existing evaluations confined to individual games or execution frameworks leave unclear which competitive advantages persist across settings. We introduce DECE (Diverse Eurogame Competitive Environments), a unified arena spanning ten Eurogames with shared interfaces and evaluation protocols",
+    "author": "Fengrui Zhang, Xiang Li, Ruomeng Ding, Jiayi Yuan, Yuchen Huang, Zhaoyang Han, Xiaoliang Wang, Daoyuan Chen, Yaliang Li",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2610.35773v1"
+    ]
+  },
+  {
+    "title": "Free to Look, Free to Reason: Simple LLM Harnesses Outdiagnose Hand-Crafted Root Cause Analysis Agents",
+    "link": "http://arxiv.org/abs/2610.35767v1",
+    "published": "2026-10-26T17:12:02+00:00",
+    "summary": "Root cause analysis (RCA) of microservice failures has attracted many LLM agents whose investigation is hand-crafted, through standard operating procedures, fixed stages and role agents. Each is evaluated on its own data against few baselines, so it is unknown whether this design beats letting a capable model investigate on its own. We compare three simple harnesses that prescribe none of the model's calls (one call over an evidence package, a SQL agent and the Codex coding agent) with five publ",
+    "author": "Tingzhu Bi, Xun Zhang, Jinglin Li, Ping Wang, Meng Ma",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2610.35767v1"
+    ]
+  },
+  {
+    "title": "Do Similarity Measures Measure Similarity? How User Activity Creates Phantom Correlation in Recommender Systems",
+    "link": "http://arxiv.org/abs/2610.35765v1",
+    "published": "2026-10-26T17:09:56+00:00",
+    "summary": "Item-item similarity is one of the oldest and most foundational signals in recommender systems: two items are assumed to be similar when the same users consume them. Despite the sparsity and scale of interaction data, the implicit assumption across the field is that item co-occurrence reflects genuine shared preference, capturing what users like together. In this paper, we demonstrate that a substantial fraction of observed item-item similarity is an artifact of variance in user activity rather ",
+    "author": "Marco Favier, Noah Daniëls, Jens Leysen, Sander Marinus, Bart Goethals",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2610.35765v1"
+    ]
+  },
+  {
+    "title": "Beyond Physical Illness: Can Clinical Narratives Reveal Emerging Mental Health Risks in Chronically Ill Patients?",
+    "link": "http://arxiv.org/abs/2610.35761v1",
+    "published": "2026-10-26T17:06:33+00:00",
+    "summary": "Mental-health risks such as depression, dementia, and suicidal ideation can emerge during hospitalization among chronically ill patients and may worsen without timely recognition and intervention. However, most existing mental health studies focus on patients with established psychiatric conditions rather than patients hospitalized primarily for physical illness. In this work, we investigate whether latent mental-health risk in chronically ill patients can be inferred from longitudinal clinical ",
+    "author": "Sudeshna Jana, Siddhartha Laha, Manjira Sinha, Tirthankar Dasgupta, Pabitra Mitra",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2610.35761v1"
+    ]
+  },
+  {
+    "title": "EEGaze: Multimodal Attention Prediction in Visual Search via EEG-Based Saliency Refinement",
+    "link": "http://arxiv.org/abs/2610.35757v1",
+    "published": "2026-10-26T17:04:04+00:00",
+    "summary": "Visual search is ubiquitous in daily life, from locating keys in a messy apartment to finding a tool in a cluttered workshop or an application icon on a desktop screen. While visual attention is to a large extent driven by image content, research in psychology indicates that user cognitive states have a significant influence on attention allocation. A promising way to access information about cognitive states is via Electroencephalography (EEG) recordings. Despite this potential, previous works ",
+    "author": "Mansi Sharma, Dinar Orazgaliyev, Antonio Krüger, Philipp Müller",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2610.35757v1"
     ]
   },
   {
@@ -132,92 +315,6 @@
     ]
   },
   {
-    "title": "SceneBloom: Agentic Indoor Environment Generation with Realistic and Diverse Layouts for Embodied Learning",
-    "link": "http://arxiv.org/abs/2610.32978v1",
-    "published": "2026-10-23T17:59:21+00:00",
-    "summary": "Training generalizable embodied agents requires realistic, varied, and simulation-ready indoor environments. Language-guided methods support semantic planning and object-level reasoning, but precise spatial grounding remains difficult. Visual generative models offer rich priors over plausible arrangements, yet their outputs require geometric reasoning to become physically valid 3D scenes. We introduce SceneBloom, an agentic framework that combines visual layout sampling with contract-guided 3D c",
-    "author": "Yuhan Liu, Lianhui Qin, Shenji Wan",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "https://github.com/Tinaliu0123/scenebloom",
-      "http://arxiv.org/abs/2610.32978v1"
-    ]
-  },
-  {
-    "title": "RobustRLlib: A Unified Library and Benchmark for Robust Reinforcement Learning Algorithms",
-    "link": "http://arxiv.org/abs/2610.32971v1",
-    "published": "2026-10-23T17:57:22+00:00",
-    "summary": "Robust reinforcement learning (RL) is critical for reliable real-world deployment, where policies may fail under diverse shifts and disruptions. Existing robust RL algorithms offer a rich set of mechanisms and principles, yet two major barriers limit their broader potential: limited algorithm reusability and an unclear empirical capability boundary. We introduce RobustRLlib, an algorithm-centric library and benchmark that addresses both challenges. It integrates 17 representative robust online, ",
-    "author": "Xi Chen, Fengqi Hu, Zeyu Shen, Jiaying Xu, Shangding Gu, Pan Xu, Anqi Liu, Laixi Shi",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2610.32971v1"
-    ]
-  },
-  {
-    "title": "DexPort: A Hand-Held Skill Interface for Dexterous Hand Data Collection",
-    "link": "http://arxiv.org/abs/2610.32969v1",
-    "published": "2026-10-23T17:56:28+00:00",
-    "summary": "Collecting high-quality demonstrations remains a central bottleneck for learning dexterous manipulation. Teleoperation records executable robot actions, but it requires a complete robot setup and places the burden of coordinating many finger joints on the operator. Human demonstrations are easier to collect, but their motions must be estimated and retargeted to the robot, and they do not directly provide robot actions. In this paper, we introduce DexPort, a portable data-collection interface for",
-    "author": "Amber Xie, Jiawei Fu, Xiaofeng Guo, Carmelo Sferrazza, Guanya Shi, Haozhi Qi",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2610.32969v1"
-    ]
-  },
-  {
-    "title": "Beyond Discrete Tokens: Preserving Numerical Continuity in Medical Vision-Language Models",
-    "link": "http://arxiv.org/abs/2610.32948v1",
-    "published": "2026-10-23T17:40:58+00:00",
-    "summary": "Objective: To develop a unified vision-language model for prompt-conditioned quantitative ultrasound measurement that addresses the mismatch between continuous measurement targets and discrete token-based numerical prediction. Methods: This article presents HAD-VLM, a hybrid autoregressive-diffusion framework that combines autoregressive text generation with continuous measurement prediction within a shared backbone. Visual prompt tuning adapts the vision encoder to ultrasound images. A diffusio",
-    "author": "Dianye Huang, Jiamei Guo, Yue Zhou, Mingde Li, Yi Xiong, Wei Wang, Nassir Navab, Zhongliang Jiang",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2610.32948v1"
-    ]
-  },
-  {
-    "title": "Monetizing Intelligence: Advertising and Subscription Design on LLM Platforms",
-    "link": "http://arxiv.org/abs/2610.32945v1",
-    "published": "2026-10-23T17:39:42+00:00",
-    "summary": "Large language model (LLM) platforms introducing advertising must decide how much capability ad revenue should fund and what consumers should pay to avoid ads. We study a monopolistic platform that jointly chooses costly response quality, advertising intensity, and subscription prices when advertising reduces user value but better service raises advertising returns. Three findings follow. First, when partly ad-supported and ad-free plans coexist, advertising can finance useful service for consum",
-    "author": "Yuhang Ji, Fasheng Xu, Tianjun Feng",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2610.32945v1"
-    ]
-  },
-  {
-    "title": "Yalda-Embedding: Open Development of a Competitive Persian Retrieval Model",
-    "link": "http://arxiv.org/abs/2610.32933v1",
-    "published": "2026-10-23T17:30:40+00:00",
-    "summary": "Despite advances in multilingual text representations, effective dense retrieval for Persian remains constrained by the limited availability of language-specific training resources and compact embedding models. We present Yalda Embedding, a 595.8-million-parameter Persian retrieval model adapted from Qwen3-Embedding-0.6B using more than one million query-document pairs. On eight Persian retrieval tasks from FaMTEB, the model achieves the highest macro-average among the evaluated 0.6B models, sco",
-    "author": "Yalda Taheri, Mohammad Hassan Heydari, Armon Rasooli",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2610.32933v1"
-    ]
-  },
-  {
-    "title": "SemantEq: Faithful Bidirectional Equivalence of Formal Statements",
-    "link": "http://arxiv.org/abs/2610.32919v1",
-    "published": "2026-10-23T17:20:12+00:00",
-    "summary": "Statement autoformalization translates mathematics from natural language into a proof assistant such as Lean 4, and models now do it at scale. As provers get stronger, the burden of correctness shifts from the proof to the statement, that is, to whether the formal statement faithfully translates its source. Given a trusted reference formalization, the natural test is logical equivalence, and it proves too much. $P \\leftrightarrow Q$ holds trivially for any two statements $P$ and $Q$ that the lib",
-    "author": "Xinrui Li, Pawan Sasanka Ammanamanchi, Siddharth Bhat, Rianna Jamdar, Yongxi Lin, Stella Biderman",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "https://github.com/hlxr89/SemantEq",
-      "http://arxiv.org/abs/2610.32919v1"
-    ]
-  },
-  {
     "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)",
     "link": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
     "published": "2026-10-23T17:00:00+00:00",
@@ -227,105 +324,6 @@
     "category": "official",
     "references": [
       "https://openai.com/index/scaling-storage-one-billion-users-part-two"
-    ]
-  },
-  {
-    "title": "Green Code or Costly Code? Evaluating the Energy Costs of Iterative LLM-Based Code Optimizations",
-    "link": "http://arxiv.org/abs/2610.32891v1",
-    "published": "2026-10-23T16:58:01+00:00",
-    "summary": "Large Language Models (LLMs) are increasingly used to optimize code for performance. This practice often assumes that improvements in execution speed naturally translate into overall lower energy consumption. We challenge this assumption empirically by measuring whether performance-optimized code produced by LLM self-refinement pipelines is also energy-efficient relative to canonical human reference solutions, and whether the energy cost of the optimization process can be offset by subsequent ex",
-    "author": "Sadra Emami, Benjamin Weigell, Mohammad Reza Mousavi, Gunel Jahangirova, Hugo Araujo, Bernhard Bauer",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "https://doi.org/10.5281/zenodo.23598170",
-      "http://arxiv.org/abs/2610.32891v1"
-    ]
-  },
-  {
-    "title": "Closing the Modality Gap via Simplex-Constrained Representations",
-    "link": "http://arxiv.org/abs/2610.32890v1",
-    "published": "2026-10-23T16:57:48+00:00",
-    "summary": "While multimodal contrastive models like CLIP and CLAP successfully learn shared representations, their embeddings typically exhibit a persistent \\emph{modality gap}. We propose addressing this separation through a purely geometric approach: changing the embedding domain from the unit sphere, $S^{d-1}$, to the probability simplex, $Δ^{d-1}$. Although both manifolds share the same intrinsic dimension, the simplex acts as a structural prior; its nonnegative, unit-mass constraints serve as a cross-",
-    "author": "Shubham Gupta, Siva Reddy, Perouz Taslakian, Valentina Zantedeschi, Cem Subakan",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2610.32890v1"
-    ]
-  },
-  {
-    "title": "NgramRL: Accelerating RL Post-Training for Structured Generation via Rollout-Aware N-gram Speculative Decoding",
-    "link": "http://arxiv.org/abs/2610.32881v1",
-    "published": "2026-10-23T16:47:29+00:00",
-    "summary": "Reinforcement learning (RL) post-training improves the reasoning capabilities of large language models, but its cost is dominated by autoregressive rollout generation, which can exceed 70% of training time. Existing speculative-decoding methods are poorly suited to this setting: model-based drafters consume scarce GPU memory and may become misaligned as the policy evolves, while existing model-free methods do not explicitly exploit repetition across training epochs. We observe that recent rollou",
-    "author": "Nilesh Prasad Pandey, Jangseon Park, Jason Kong, Onat Gungor, Tajana Rosing",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2610.32881v1"
-    ]
-  },
-  {
-    "title": "Advancing SVD-based LLM Compression via Layer-Wise Error Model Search",
-    "link": "http://arxiv.org/abs/2610.32878v1",
-    "published": "2026-10-23T16:46:00+00:00",
-    "summary": "Low-rank SVD-based compression offers a powerful strategy to reduce the computational costs of LLMs. However, existing methods face two key limitations: (i) global rank allocation, where uncalibrated error proxies fail to capture complex error propagation, and (ii) decomposition quality, where Fisher-based estimators suffer from severe rank collapse. In this work, we address these limitations by introducing Layer-wise Error Modeling Search (LEMS) and KFAC-SVD. LEMS advances rank allocation by in",
-    "author": "Moritz Thoma, Maximilian Groezinger, Maximilian Forstenhäusler, Emad Aghajanzadeh, Manoj Rohit Vemparala, Christos Anagnostopoulos, Pierpaolo Mori, Nael Fasfous, Alexander Frickenstein, Daniel Mueller-Gritschneder, Ulf Schlichtmann",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "https://lems-svd.github.io",
-      "http://arxiv.org/abs/2610.32878v1"
-    ]
-  },
-  {
-    "title": "Do \"True\" and \"False\" Add Up to One? Complement Consistency in LLM-Agent Opinion Simulations",
-    "link": "http://arxiv.org/abs/2610.32874v1",
-    "published": "2026-10-23T16:44:20+00:00",
-    "summary": "In LLM-agent opinion simulations, each agent reports the probability that a claim is true after seeing its own previous probability and the probabilities reported by its neighbors, and that number becomes its state in the next round. If the number describes the agent's position rather than the sentence it was shown, then rewriting the claim as its complement and replacing every probability p with 1 - p should return the complementary answer, so the two reports should sum to one. We test this wit",
-    "author": "Anouar Imel, Jin Qi",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2610.32874v1"
-    ]
-  },
-  {
-    "title": "From Deliberately Constructed Systemic Representations of the World of Activity to Dialogue: A Five-Level Communication Architecture for Strong Language-Based ASI",
-    "link": "http://arxiv.org/abs/2610.32869v1",
-    "published": "2026-10-23T16:41:54+00:00",
-    "summary": "This paper proposes a five-level organization of message formation and understanding within thinking and activity in which ASI participates. Its central thesis is that a language model's context is fundamentally incapable of presenting the foundations of utterance formation for examination and verification. These foundations are established in advance by acquired schemas, systemic representations of the world of activity, and connections accepted as true within them. Neither context nor trained ",
-    "author": "Maxim Osovsky",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2610.32869v1"
-    ]
-  },
-  {
-    "title": "Interpretable sparse fine-tuning with TopKLoRA enables faithful circuit discovery",
-    "link": "http://arxiv.org/abs/2610.32866v1",
-    "published": "2026-10-23T16:37:29+00:00",
-    "summary": "Fine-tuning on datasets of unknown origin can create a backdoor in the trained model when the data includes poisoned examples. Difficult to localise and remove, backdoors can persist through safety training. While parameter-efficient fine-tuning methods capture the full parameter changes introduced during training, they are not easily interpretable. We present the full method of TopKLoRA, extending the preliminary proposal of Masiak et al. (2025), an interpretable-by-design LoRA variant in which",
-    "author": "Marek Masiak, Andrzej Szablewski, Nicola Cancedda, Constantin Venhoff",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "https://github.com/interpretable-finetuning/TopKLoRA",
-      "http://arxiv.org/abs/2610.32866v1"
-    ]
-  },
-  {
-    "title": "PoKER: A Probability of Kill Estimation Rate Model for Air-to-Air Missiles Using Machine Learning on Stochastic Targets",
-    "link": "http://arxiv.org/abs/2610.32864v1",
-    "published": "2026-10-23T16:34:57+00:00",
-    "summary": "This work introduces PoKER, a novel probabilistic model engineered to optimize missile launch effectiveness in air-to-air scenarios, specifically within Beyond Visual Range (BVR) air combat. Unlike conventional Weapon Engagement Zone (WEZ) models that delineate zones based on static distances such as maximum, minimum, and no-escape ranges, PoKER applies machine learning to predict kill probabilities more accurately by integrating the stochastic behaviors of targets and missile miss distances. Th",
-    "author": "Joao P. A. Dantas, Andre N. Costa, Diego Geraldo, Marcos R. O. A. Maximo, Takashi Yoneyama",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2610.32864v1"
     ]
   },
   {
