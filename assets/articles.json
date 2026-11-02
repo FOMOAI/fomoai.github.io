@@ -1,5 +1,186 @@
 [
   {
+    "title": "Latent Sparse Attention: Towards Subquadratic Ultra-Long Context Attention",
+    "link": "http://arxiv.org/abs/2610.42147v1",
+    "published": "2026-10-30T17:59:34+00:00",
+    "summary": "Agentic workflows are increasingly shifting towards long-horizon tasks, such as open-ended scientific work, where models benefit from long context windows. However, at ultra-long context (above 1M tokens), full attention is prohibitively expensive. A promising approach is sparse attention, in which a dedicated indexer selects a subset of keys for the attention. Yet current methods of indexing either still have quadratic cost in context size or lose accuracy at ultra-long context scale. We addres",
+    "author": "Ales Kubicek, Andrea Caciolai, Liangzu Peng, Sukrit Sumant, Benjamin Hoover, Fraser Greenlee, Ruairidh M. Battleday, Radim Urban, Torsten Hoefler, James C. R. Whittington",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2610.42147v1"
+    ]
+  },
+  {
+    "title": "Hierarchical World Models with Implicit Dynamics",
+    "link": "http://arxiv.org/abs/2610.42146v1",
+    "published": "2026-10-30T17:59:25+00:00",
+    "summary": "Planning with world models enables test-time adaptation for embodied agents, offering superior generalization over direct policy learning. However, long-horizon tasks remain hindered by cumulative errors and search complexity. Existing hierarchical methods often use rigid macro-actions or latent skills, leading to brittle representations and limited fine-grained control. We introduce ID-WM (Implicit Dynamics World Models), a hierarchical world model that decouples state-space reachability from l",
+    "author": "Gaoyue Zhou, Yvonne Wu, Zichen Jeff Cui, Nicolas Ballas, Mido Assran, Lerrel Pinto, Yann LeCun",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "https://id-wm.github.io",
+      "http://arxiv.org/abs/2610.42146v1"
+    ]
+  },
+  {
+    "title": "RoboArchitect: Automating the Design of Robotic Agents with Persistent Memory",
+    "link": "http://arxiv.org/abs/2610.42141v1",
+    "published": "2026-10-30T17:58:48+00:00",
+    "summary": "Recent work shows that a frozen robot policy performs far better inside an agent harness, where control code decides when to query the policy, consult vision tools, or command the arm directly. Yet today these harnesses are built by hand and redesigned for each new robot or benchmark. We show that harness design can be automated, offering a strong alternative to finetuning on a novel setup. In RoboArchitect, a coding model observes a robot's rollouts, diagnoses failures, and iteratively revises ",
+    "author": "Shengguang Wu, Suning Huang, Cherie Ho, Ria Doshi, Hao Zhu, Serena Yeung-Levy",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2610.42141v1"
+    ]
+  },
+  {
+    "title": "ACCT: Asymmetric Cross-LLM Context Transfer",
+    "link": "http://arxiv.org/abs/2610.42116v1",
+    "published": "2026-10-30T17:50:49+00:00",
+    "summary": "In real-world deployments, large language model (LLM) systems are increasingly evolving from single-model invocation toward heterogeneous deployments in which different models are dynamically invoked for inference. When the same context is reused across models, however, each newly selected target model typically has to process it again, repeatedly incurring substantial computational costs. Therefore, we propose ACCT (Asymmetric Cross-LLM Context Transfer), which targets KV cache transfer between",
+    "author": "Yuzhe Liu, Haolin Tian, Tonghan Wang",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2610.42116v1"
+    ]
+  },
+  {
+    "title": "Subquadratic Attention with a Hierarchical Tree-Structured Indexer",
+    "link": "http://arxiv.org/abs/2610.42112v1",
+    "published": "2026-10-30T17:48:37+00:00",
+    "summary": "The quadratic scaling of attention is a fundamental bottleneck limiting the long-context capabilities of large language models (LLMs). A variety of approaches have attempted to circumvent this, but they either fail to match attention's expressiveness (e.g., sliding-window or linear attention variants with fixed-size state) or only achieve constant-factor speedups (e.g., sparse attention methods whose indexers themselves scale quadratically). In this paper, we derive an asymptotically subquadrati",
+    "author": "Leon Lufkin, Cutter Dawes, Alexander Speicher, Kamesh Krishnamurthy, Tomás Figliolia, Beren Millidge",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2610.42112v1"
+    ]
+  },
+  {
+    "title": "CausalWAM: Learning the Causes of Actions in World Action Models",
+    "link": "http://arxiv.org/abs/2610.42096v1",
+    "published": "2026-10-30T17:40:00+00:00",
+    "summary": "World action models (WAMs) learn latent variables from observations and use these to both predict the evolution of the scene and to generate actions. The prediction has to be of the whole scene, whereas only a portion of the scene causes actions. WAMs fitted to demonstrations do not, in general, guarantee that they will generate actions solely from the latent causes of the demonstrated actions (the action-relevant latent variables), as the model could just as well learn to imitate in this way wh",
+    "author": "Juntao Cheng, Jinzhou Tang, Fan Feng, Henrik I. Christensen, Yujia Zheng",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2610.42096v1"
+    ]
+  },
+  {
+    "title": "The Knowledge Layer Model (KLM): Evidence-Visible AI Output, Routing Diagnostics, and Negative Results",
+    "link": "http://arxiv.org/abs/2610.42066v1",
+    "published": "2026-10-30T17:26:18+00:00",
+    "summary": "AI answers require more than apparent correctness: reviewers need to inspect their recorded basis. We introduce the Knowledge Layer Model (KLM), an open, implementation-neutral specification for inference records with versioned epistemic assessments, evidence relations, and explicit unknowns. SEDIM, the knowledge and evidence architecture of Nage AI OS, is a reference implementation. We reference KLM v0.3 (repository tag v0.3.0). Empirical material consists of separate internal experiments, not ",
+    "author": "Omer Asim Ozturk, Cihan Aydiner",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2610.42066v1"
+    ]
+  },
+  {
+    "title": "CRoS: Causality Reward on Scrambled CoTs Improves Accuracy and Reasoning Faithfulness",
+    "link": "http://arxiv.org/abs/2610.42054v1",
+    "published": "2026-10-30T17:18:35+00:00",
+    "summary": "Reinforcement learning with verifiable rewards (RLVR) has become the standard method for training language models to reason. However, RLVR typically relies solely on outcome correctness, which does not guarantee that the CoT causally contributes to the final answer. Without this connection, outcome rewards may fail to reinforce high-quality reasoning. Existing causality metrics assess CoT causality by perturbing the CoT, such as deleting reasoning steps or injecting errors, and measuring changes",
+    "author": "Xiao Yu, Justin Chih-Yao Chen, Zaid Khan, Hyunji Lee, Mohit Bansal",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2610.42054v1"
+    ]
+  },
+  {
+    "title": "Near-Optimal Second-Order Convex Finite-Sum Optimization under Individual Smoothness",
+    "link": "http://arxiv.org/abs/2610.42040v1",
+    "published": "2026-10-30T17:04:25+00:00",
+    "summary": "We study the stochastic second-order oracle complexity of solving smooth convex finite-sum optimization with $n$ components. Very recently, Tsedenov \\& Kovalev (2026) showed that the minimax optimal complexity under averaged smoothness and convexity is $\\tildeΘ(n + n^{6/7} ε^{-2/7})$ by establishing nearly matching upper and lower bounds. In this paper, we show that individual smoothness and convexity provably enable further acceleration, where the lower complexity bound is $Ω(n+ n^{5/7} ε^{-2/7",
+    "author": "Xinliang Zhang, Lesi Chen, Zonghan Li, Jingzhao Zhang",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2610.42040v1"
+    ]
+  },
+  {
+    "title": "Same Question, Different Answers: Auditing Persona-Dependent Variation in Six LLMs on Smoking-Cessation Advice",
+    "link": "http://arxiv.org/abs/2610.42039v1",
+    "published": "2026-10-30T17:03:35+00:00",
+    "summary": "Hundreds of millions of people now ask large language model (LLM) chatbots for health advice, which raises a question that is simple to pose and hard to answer: does everyone get the same advice? We audit six widely deployed LLMs from four providers on smoking cessation, a domain with codified clini- cal guidance and substantial public-health stakes, by putting the same four cessation questions to twelve user personas that differ in life stage, self-described expertise, and smoking history, for ",
+    "author": "Artin Yousefi, Aizierjiang Aiersilan, Lorien C Abroms, David A Broniatowski",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2610.42039v1"
+    ]
+  },
+  {
+    "title": "Learning Clean Generative Processes from Noisy Measurements",
+    "link": "http://arxiv.org/abs/2610.42036v1",
+    "published": "2026-10-30T17:01:25+00:00",
+    "summary": "We study how to learn a generative model of clean images using only noisy observations. Diffusion processes and their generalizations to non-Gaussian noise require posterior predictions at every noise level. We first show that it is possible to learn these predictions from independent noisy views using Noise2Noise regression, but only at or above the noise level of the training data. To learn the predictions below that level, needed to generate clean images, we impose consistency: a prediction s",
+    "author": "Fabian Kruse, Lorenzo Baldassari, Ivan Dokmanić",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2610.42036v1"
+    ]
+  },
+  {
+    "title": "There Is No Free Loop: When Does Looping a Trained Model Pay for Its Inference Compute?",
+    "link": "http://arxiv.org/abs/2610.42030v1",
+    "published": "2026-10-30T16:56:29+00:00",
+    "summary": "Looping re-applies a block of layers so that each token passes through the block more than once. Adding a loop to a trained model is attractive because it leaves the parameter count, and hence the disk size, the memory footprint and the training cost unchanged. Unfortunately, every generated token pays for the loop. Re-applying m of N layers makes each token about (N+m)/N times as expensive. Loops that a model learns during large-scale pretraining justify this price, but whether loops added afte",
+    "author": "Rhea Sanjay Sukthanker, Pashmina Cameron",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2610.42030v1"
+    ]
+  },
+  {
+    "title": "Know When the Equation Is Wrong: Structural Uncertainty for LLM-Guided Symbolic Regression under Extrapolation",
+    "link": "http://arxiv.org/abs/2610.42024v1",
+    "published": "2026-10-30T16:54:16+00:00",
+    "summary": "Large language models (LLMs) can help discover mathematical equations from data, but most LLM-guided symbolic regression methods focus on a single best equation without quantifying uncertainty over alternative functional forms. This is challenging because distinct equations can fit the observed data similarly while producing substantially different extrapolations. Our experiments on the LLM-SRBench dataset show that standard conformal intervals achieve nominal in-distribution coverage but freque",
+    "author": "Mostafa Cham, Bayu Adhi Tama, Jianwu Wang",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2610.42024v1"
+    ]
+  },
+  {
+    "title": "TradeWar: A Benchmark for Execution-Grounded Trade Negotiation with Adaptive LLM Agents",
+    "link": "http://arxiv.org/abs/2610.42004v1",
+    "published": "2026-10-30T16:45:29+00:00",
+    "summary": "Multi-turn negotiation remains a challenging problem for large language model (LLM) agents. While LLMs can conduct natural-language dialogue, existing benchmarks predominantly assess only agreement rates, overlooking whether negotiated commitments actually create value once executed. To address this gap, we introduce TradeWar, a multi-country simulation benchmark that translates negotiation dialogues into concrete tariff and trade-share policies, enforces capacity and network constraints during ",
+    "author": "Xiangyu Kong, Ruirui Yang, Xia Hou",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2610.42004v1"
+    ]
+  },
+  {
+    "title": "AutoAnalysis: An automated, self-updating meta-analysis of human-AI collaboration",
+    "link": "http://arxiv.org/abs/2610.42001v1",
+    "published": "2026-10-30T16:44:49+00:00",
+    "summary": "As generative artificial intelligence (AI) becomes more capable and widely used, understanding when and how humans should work with these systems is becoming increasingly important. However, the empirical evidence in this space offers conflicting recommendations, which leaves individuals and organizations without clear guidance on when to combine human and AI capabilities. Existing meta-analyses can help reconcile these findings, but they require substantial manual effort and cannot readily inco",
+    "author": "Michelle Vaccaro, Abdullah Almaatouq, Thomas W. Malone",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2610.42001v1"
+    ]
+  },
+  {
     "title": "The Download: GLP-1s and eating disorders, self-aware cities, and forever chemicals",
     "link": "https://www.technologyreview.com/2026/10/30/1147843/the-download-glp-1s-eating-disorders-forever-chemicals/",
     "published": "2026-10-30T11:30:00+00:00",
@@ -57,187 +238,6 @@
     "category": "official",
     "references": [
       "https://openai.com/index/fair-use-benefits-everyone"
-    ]
-  },
-  {
-    "title": "Rethinking Neural Thickets Without Weight Perturbations",
-    "link": "http://arxiv.org/abs/2610.40649v1",
-    "published": "2026-10-29T17:59:29+00:00",
-    "summary": "The Neural Thickets hypothesis posits that pretrained language models lie in dense neighborhoods of task-specific experts in weight space, which random Gaussian perturbations can uncover. We reproduce the reported gains, but show that they do not require this geometric explanation. Perturbing a single decoder block already recovers much of the improvement, while keeping the model entirely frozen and adding a random bias to its output logits matches or exceeds full-weight perturbations on most re",
-    "author": "Nicolas Dufour, Elouan Gardès, Amil Dravid, Patrick Pérez, Loic Landrieu",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2610.40649v1"
-    ]
-  },
-  {
-    "title": "Read, Allocate, Route: Role-Coupled Tokenization for Pixel-Space Generative Transformers",
-    "link": "http://arxiv.org/abs/2610.40647v1",
-    "published": "2026-10-29T17:59:21+00:00",
-    "summary": "Pixel-space generative Transformers typically use one token per image patch, so capturing finer detail requires more tokens and makes global attention increasingly expensive. We observe that finer detail does not necessarily require more global communication: low-frequency structure benefits from global exchange, while high-frequency detail can be modeled locally. Based on this insight, we introduce SpecSlot, a pixel-space rectified-flow Transformer that decouples output detail from the length o",
-    "author": "Jiongfan Yang, Weichen Fan, Haiwen Diao, Zhongang Cai, Ziwei Liu",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2610.40647v1"
-    ]
-  },
-  {
-    "title": "Luggage re-identification: A study of strategies towards a real-world application",
-    "link": "http://arxiv.org/abs/2610.40643v1",
-    "published": "2026-10-29T17:58:59+00:00",
-    "summary": "Luggage re-identification (ReID) is a critical task in video surveillance for forensics, security or border management (suspicious or abandoned luggage recognition), as well as luggage management (lost luggage recovery). It enables the association of observations of the same luggage across disjoint camera views in complex environments such as airports, train stations and border crossing. While existing approaches primarily focus on appearance-based cropped image matching under relatively clean c",
-    "author": "Quentin Dhôte, Romaric Audigier",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2610.40643v1"
-    ]
-  },
-  {
-    "title": "From extreme weather to agricultural consequences with agentic AI",
-    "link": "http://arxiv.org/abs/2610.40641v1",
-    "published": "2026-10-29T17:58:53+00:00",
-    "summary": "Extreme weather is forecast days ahead, yet its consequences for agriculture remain hard to predict: a forecast says where a storm will strike, not which crops will suffer or how much is at risk, and the records that could tell span many sources. We present WxCrop, the first agent that judges agricultural hazards from physically interpretable weather indices examined by causal analysis, and the first that combines weather and agricultural information to predict crop loss reliably for past and fo",
-    "author": "Minghan Yu, Mengyu Dai, Yixin Wen, Haizhao Yang",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2610.40641v1"
-    ]
-  },
-  {
-    "title": "Probing Spatial State Representations in Visual Foundation Models",
-    "link": "http://arxiv.org/abs/2610.40636v1",
-    "published": "2026-10-29T17:58:16+00:00",
-    "summary": "An observer sees only part of the surrounding world, yet must keep track of what lies beyond the current view. Spatial perception therefore involves more than recognizing individual images: it calls for a persistent spatial state that is updated under self-motion and used to guide action. Do visual foundation models provide representations that support such a state? We study this question through four levels of spatial capability---spatial structure, object persistence, predictive spatial update",
-    "author": "Baiqiao Yin, Zhongang Cai, Ruisi Wang, Qiwei Liang, Lei Yang, Ziwei Liu",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2610.40636v1"
-    ]
-  },
-  {
-    "title": "TextSeal2: Distortion-Free LLM Watermarking with Copula Mixing and Memoryless Races",
-    "link": "http://arxiv.org/abs/2610.40613v1",
-    "published": "2026-10-29T17:54:12+00:00",
-    "summary": "We present TextSeal2, a distortion-free watermark for large language models that keeps its signal under speculative decoding: tokens that replace rejected drafts remain watermarked with the same keys, and the acceptance rate is unchanged. It also preserves output diversity and adds no measurable inference latency. Its predecessor, TextSeal, restores diversity in the Gumbel-max scheme by routing each token to one of two keys via a coin flip. This is suboptimal because the detector averages the sc",
-    "author": "Tom Sander, Pierre Fernandez, Itai Gat, Haiming Bao, Jiaxin Shi, Jason Park, Valeriu Lacatusu, Sylvestre-Alvise Rebuffi, Hongyan Chang, Hady Elsahar, Tomáš Souček, Tuan Tran, Surya Parimi, Alexandre Mourachko",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2610.40613v1"
-    ]
-  },
-  {
-    "title": "When to Assist and What to Suggest: Joint Gating and Memory-Grounded Hint Generation in One Compact Decoder",
-    "link": "http://arxiv.org/abs/2610.40611v1",
-    "published": "2026-10-29T17:54:07+00:00",
-    "summary": "Proactive assistants offer short, memory-grounded hints during a conversation, deciding when to assist and what to suggest. Current systems split this between a gate and a larger generator; we evaluate both together on 28,058 decision points. Stage-wise generation scores are oracle-gate ceilings: behind a real gate, end-to-end exact match is 0.2619 against a ceiling of 0.2971, and end-to-end precision is 0.2387, leaving substantial headroom. A gate pays off through precision and compute, whose s",
-    "author": "A. J. A. Jubayer Talukder, Mohammad Ariful Haque",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2610.40611v1"
-    ]
-  },
-  {
-    "title": "Collaborative AI agents for autonomous experimental research with solid-state quantum spins",
-    "link": "http://arxiv.org/abs/2610.40589v1",
-    "published": "2026-10-29T17:47:50+00:00",
-    "summary": "An autonomous research laboratory could conduct an entire study, from formulating questions to preparing manuscripts. Artificial intelligence (AI) offers one route towards this goal. Recent AI systems take on several research roles, but may draw conclusions that the evidence does not support. Here, we present an autonomous research laboratory in which agents based on large language models assess one another's work and can stop or redirect investigations. They can generate and reject research que",
-    "author": "El Mustapha Mansouri, Eikichi Kimura, Masato Koga, Keigo Arai",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2610.40589v1"
-    ]
-  },
-  {
-    "title": "Pre-Crime for Agents, at the Last Second: Probing When a Recruited Agent Gives In",
-    "link": "http://arxiv.org/abs/2610.40588v1",
-    "published": "2026-10-29T17:47:40+00:00",
-    "summary": "When AI agents share channels and credentials, one agent can press another to break its operator's rule, a first step towards collusion. Output filters check only what an agent has already written. Can an overseer tell beforehand that an agent is about to give in? We show that a linear probe on the agent's activations can, in a controlled multi-agent setting. Across six scenarios, a peer presses a target for up to 20 rounds to reveal a secret, such as a deploy token; the target often refuses, th",
-    "author": "Leonidas Raghav",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2610.40588v1"
-    ]
-  },
-  {
-    "title": "Multistatic ISAC with Deep Learning-Based Clutter Suppression for 5G and Beyond",
-    "link": "http://arxiv.org/abs/2610.40586v1",
-    "published": "2026-10-29T17:47:02+00:00",
-    "summary": "Integrated sensing and communications (ISAC) systems using 5G and beyond signals of opportunity enable joint wireless sensing and communication using shared infrastructure and spectrum resources. While multistatic ISAC can increase sensing coverage with spatially distributed receivers, dense and dynamic clutter can significantly degrade bistatic range and Doppler estimation, leading to errors in target localization and velocity estimation. This paper presents a multistatic ISAC framework with cl",
-    "author": "Yalin E. Sagduyu, Tugba Erpek, Sastry Kompella",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2610.40586v1"
-    ]
-  },
-  {
-    "title": "VeriCUA: Verification as Agentic Exploration for Computer-Using Agents",
-    "link": "http://arxiv.org/abs/2610.40578v1",
-    "published": "2026-10-29T17:45:26+00:00",
-    "summary": "Building and scaling computer-using agents (CUAs) across desktop, mobile, and web environments requires reliable task-completion verification for data curation, evaluation, and reinforcement learning. Typical automated approaches prompt vision-language models (VLMs) to judge trajectories or generate programs to inspect application state. However, both rely on partial views of complex digital environments. VLM judges are restricted to supplied observations, while generated programs depend on acce",
-    "author": "Qiushi Sun, Da Yu, Alexander Knop, Amer Sinha, Lingpeng Kong, Ben Kao, Ravi Kumar, Pritish Kamath",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2610.40578v1"
-    ]
-  },
-  {
-    "title": "Gym-Anything for Robotics: Scaling physical simulations with digital agents",
-    "link": "http://arxiv.org/abs/2610.40565v1",
-    "published": "2026-10-29T17:42:32+00:00",
-    "summary": "Realistic, fast robotics simulations could enable large-scale training of embodied AI models that transfer to the real world. However, despite decades of progress, available simulations cover only a narrow range of real-world tasks and physical phenomena. The core bottleneck is that creating better simulations requires significant expert effort and therefore does not scale. To address this, we introduce Gym-Anything for Robotics, a framework in which coding agents create realistic robotics simul",
-    "author": "Pranjal Aggarwal, Sean Welleck",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "https://gym-anything.github.io/robotics",
-      "http://arxiv.org/abs/2610.40565v1"
-    ]
-  },
-  {
-    "title": "Comparing Human Role-Players and LLM-Simulated Clients in Online Counselling Training: An Analysis of Counselling Patterns",
-    "link": "http://arxiv.org/abs/2610.40563v1",
-    "published": "2026-10-29T17:41:59+00:00",
-    "summary": "This study investigates the capabilities of Large Language Models to simulate counselling clients in educational role-plays in comparison to human role-players. Initially, we recorded role-playing sessions, where novice counsellors interacted with human peers acting as clients, followed by role-plays between humans and clients simulated by Mistrals Mixtral 8x7b using 4-bit quantization. These interactions were analysed with a counselling communication pattern system at sentence level. We investi",
-    "author": "Eric Rudolph, Philipp Steigerwald, Jens Albrecht",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2610.40563v1"
-    ]
-  },
-  {
-    "title": "FARMS: A Verifiable Foundation for Automated Computational Science",
-    "link": "http://arxiv.org/abs/2610.40560v1",
-    "published": "2026-10-29T17:40:57+00:00",
-    "summary": "Automated computational science could accelerate discovery by selecting, adapting and developing numerical methods. This prospect requires mathematical knowledge that AI systems can interpret and reuse with explicit guarantees. Here we present FARMS, a faithful and efficient foundation that transforms computational mathematics into AI-ready computing knowledge. FARMS connects formal statements to source context, algorithmic meaning and quantitative guarantees through source preparation, reusable",
-    "author": "Di Wu, Ling Liang, Haizhao Yang",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2610.40560v1"
-    ]
-  },
-  {
-    "title": "Advancing Clinical Genomic Analysis with a Skill-Centred Agent",
-    "link": "http://arxiv.org/abs/2610.40556v1",
-    "published": "2026-10-29T17:40:24+00:00",
-    "summary": "Clinical genomic analysis requires experts to integrate evolving guidelines, databases, and computational evidence. As sequencing has become increasingly accessible, this complex and labor-intensive process has become a major bottleneck to the timely use of genomic information in clinical decision-making. To fill this gap, we developed ClinGeX, a large-language-model agent that composes 105 curated executable skills through task-specific retrieval and dependency-aware orchestration. On 223 tempo",
-    "author": "Qiaoyu Zheng, Weike Zhao, Yanjie Fan, Ye Cao, Mengqi Jiang, Xiao Zhou, Xiaoman Zhang, Pengcheng Qiu, Yongguo Yu, Yanfeng Wang, Ya Zhang, Chaoyi Wu, Weidi Xie",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2610.40556v1"
     ]
   },
   {
