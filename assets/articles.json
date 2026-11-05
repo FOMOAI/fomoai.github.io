@@ -1,5 +1,42 @@
 [
   {
+    "title": "BEAKER: An Expert-Curated Benchmark for Embodied Brains in Self-Driving Chemical Laboratories",
+    "link": "http://arxiv.org/abs/2611.06911v1",
+    "published": "2026-11-04T18:57:17+00:00",
+    "summary": "Self-Driving Chemical Laboratories (SDCLs) are moving chemical experimentation toward embodied automation, where machines must perceive laboratory scenes, reason about experimental states, and act under physical, procedural, and safety constraints. Although Multimodal Large Language Models (MLLMs) are increasingly considered as embodied brains for such systems, existing laboratory benchmarks mainly focus on safety, anomaly detection, or general scientific understanding, leaving their execution-o",
+    "author": "Fei Lin, Tengchao Zhang, Ziyang Gong, Xiaotong Yu, Bohan Zhang, Yifan Zhou, Qihao Yang, Ji Dai, Dong Li, Yining Jiang, Qinghua Ni, Jun Huang, Qiang Zhang, Yue Zhou, Zhihang Zhong, Yonglin Tian, Fei-Yue Wang, Xue Yang",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2611.06911v1"
+    ]
+  },
+  {
+    "title": "FrontierPhysics: Evaluating Agents for End-to-End Physics Research",
+    "link": "http://arxiv.org/abs/2611.06910v1",
+    "published": "2026-11-04T18:56:22+00:00",
+    "summary": "AI agents are playing an increasingly important role in physics research. However, existing physics benchmarks only evaluate fixed questions, isolated sub-tasks, or paper reproduction with given solutions, and rarely check research quality alongside correctness. We introduce FrontierPhysics, an end-to-end benchmark with 56 tasks made by 42 physicists based on their own research, covering nine domains across theoretical, computational, and experimental physics. Each task requires agents to review",
+    "author": "Bingran You, Wenjun Ke, Ria Rosenauer, Bo Liu, Wenbo Chen, Min Chen, Shuqi Xu, Yue Ma, Jiechao Feng, Bo Chen, Xiangkai Sun, Jiarui Liu, Jinen Guo, Zeyu Zhou, Xu Huang, Zhuohan Li, Haoyu Li, Heguang Lin, Lijie Ding, Yadong Zeng, Kangqi Zhang, Xinge Liu, Hanwen Liu, Zhenghong Li, Alexander von Recum, Yuchen Zhu, Felix Schwarzfischer, Yizhou Zhao, Jicheng Wang, Binxu Li, Qian Yu, Chan Li, Cheng Dai, Di Wang, Haoyu Zhang, Jiankai Sun, Kaituo Feng, Mian Qin, Ruihong Yin, Yiqun Luo, Weiwei Wu, Shihong Pan, Tsung Yeh Hsieh, Xiao Huang, Yan Zhang, Sihan Li, Zirui Ren, Zengji Tu, Kyoung Whan Choe, Ke Sun, Vincenzo Galia, Vaisakhi Mishra, Jiashu He, Hongyang Wang, Zhiheng Yang, Shubham Gaur, Yifan Gu, Shuyi Wang, Zihao Zuo, Steven Dillmann, Yiyou Sun, Xinyang Han, Hanchung Lee, Molei Tao, Yue Zhao, Shilong Liu, Yuchen Wu, Xuandong Zhao, Xiangyi Li, Florian Brand, Gerbrand Ceder, Hartmut Haeffner",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2611.06910v1"
+    ]
+  },
+  {
+    "title": "Perceptive Humanoid Motion from Simulation",
+    "link": "http://arxiv.org/abs/2611.06908v1",
+    "published": "2026-11-04T18:55:33+00:00",
+    "summary": "Humanoid robots have the potential to automate a wide range of physical tasks. Progress toward generalist humanoid autonomy, however, remains constrained by a data bottleneck: mapping pixels and free-form language to low-level joint commands requires paired supervision, and no corpus of such data exists at sufficiently large scale. Some approaches rely on human teleoperation and wearable capture devices, which require at least an hour of human time to produce an hour of data. We present HALO, a ",
+    "author": "Siyuan Hu, Abulikemu Abuduweili, Yue Meng, Shipeng Liu, Quentin Leboutet, Chen Chen, Matthias Müller, Vladlen Koltun",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "https://apple-aiml-research.github.io/ml-halo/",
+      "http://arxiv.org/abs/2611.06908v1"
+    ]
+  },
+  {
     "title": "Texas was the new epicenter of the AI data center buildout. That might be kaput.",
     "link": "https://www.technologyreview.com/2026/11/04/1148043/texas-was-the-new-epicenter-of-the-ai-data-center-buildout-that-might-be-kaput/",
     "published": "2026-11-04T18:50:55+00:00",
@@ -12,6 +49,54 @@
     ]
   },
   {
+    "title": "Occlusion for Free: Detecting Occlusion from the Disagreement Between Two Monocular Distance Cues",
+    "link": "http://arxiv.org/abs/2611.06899v1",
+    "published": "2026-11-04T18:49:13+00:00",
+    "summary": "Knowing that a pedestrian is occluded is useful to a robot even when the detector cannot recover the hidden pixels, but occlusion estimators are normally trained on occlusion annotations that deployment settings rarely have. We show that occlusion can be read off two distance estimates a camera-only pipeline already computes. Apparent height is largely unchanged by occlusion, because the detected box still spans the whole person; monocular metric depth is pulled toward the occluder, because the ",
+    "author": "Chibueze Praise Onyenweaku, Toyibat Adele, Sikirulahi Opeyemi Abdulkareem, Obed Honour Eje",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2611.06899v1"
+    ]
+  },
+  {
+    "title": "Dull, Dirty, Dangerous? Working Conditions and the Limits of Occupational AI Exposure",
+    "link": "http://arxiv.org/abs/2611.06888v1",
+    "published": "2026-11-04T18:41:40+00:00",
+    "summary": "Automation is often justified as relief from dull, dirty, and dangerous work. I examine how these conditions relate to occupational AI exposure using 21 O*NET items across 754 US occupations. Higher exposure is associated with lower condition scores under a large language model (LLM) measure and AI Occupational Exposure (AIOE), with equal occupation weights and employment weights. Adjustment for physical demands, required education, training and experience, and wages reduces the composite associ",
+    "author": "Siyi Yu",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2611.06888v1"
+    ]
+  },
+  {
+    "title": "Learning to Decode Linear Codes with Generalized Belief Propagation Network",
+    "link": "http://arxiv.org/abs/2611.06874v1",
+    "published": "2026-11-04T18:29:31+00:00",
+    "summary": "Error correcting codes are a fundamental component of communication systems, enabling reliable data transmission over noisy channels. Recently, neural decoders have demonstrated notable performance gains over classical iterative algorithms. In this paper, we propose a Generalized Belief Propagation Network (GBPNet) that preserves message-passing symmetry while enhancing the decoder's learning capability. The architecture uses cascaded variable-node updates and learned element-wise message scalin",
+    "author": "Samira Malek",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2611.06874v1"
+    ]
+  },
+  {
+    "title": "On Turn-Level Best-of-N Sampling for Scaling LLM Agents",
+    "link": "http://arxiv.org/abs/2611.06868v1",
+    "published": "2026-11-04T18:23:14+00:00",
+    "summary": "In this work, we evaluate a simple inference-time scaling approach based on \\textit{turn-level best-of-N sampling} (\\method) for large language model (LLM) agents on complex, long-horizon tasks. We instantiate this using a \\textit{generator-selector} framework with two LLMs; at each turn, a \\emph{generator} model generates $N$ candidate actions and a \\emph{selector} model selects one of them, which is then executed in the environment. This paper is closely related to the work of \\cite{zainullina",
+    "author": "Jalaj Bhandari, Dhawal Gupta, Hongli Zhan, Zhenting Wang, Varad Pimpalkhute, Zhengzhong Liu, Eric Xing, Rupesh Srivastava",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2611.06868v1"
+    ]
+  },
+  {
     "title": "Roundtables: Inside the Quest for Cognitive Immortality",
     "link": "https://www.technologyreview.com/2026/11/04/1148049/roundtables-inside-the-quest-for-cognitive-immortality/",
     "published": "2026-11-04T18:21:40+00:00",
@@ -21,6 +106,102 @@
     "category": "media",
     "references": [
       "https://www.technologyreview.com/2026/11/04/1148049/roundtables-inside-the-quest-for-cognitive-immortality/"
+    ]
+  },
+  {
+    "title": "CounterFactual Retrieval for Evidence-Aware Individual Animal Identification",
+    "link": "http://arxiv.org/abs/2611.06864v1",
+    "published": "2026-11-04T18:19:26+00:00",
+    "summary": "Automated identification of individual animals is moving from small curated studies toward shared benchmarks and reusable foundation models. This progress is useful, but current evaluation leaves the evidence behind a match unresolved, i.e., high retrieval accuracy does not show whether a model used animal features or identity-correlated shortcuts. We address this with Counterfactual Foreground Retrieval (CFR), an evidence-aware evaluation protocol. CFR evaluates the same query-gallery task unde",
+    "author": "Ankit K. Upadhyay, Aleksandr Algasov, Ekaterina Nepovinnykh, Fedor Zolotarev, Tuomas Eerola, Heikki Kälviäinen, Charles V. Stewart, Lukas Picek",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2611.06864v1"
+    ]
+  },
+  {
+    "title": "CompressionBench: How can your coding agents compress LLMs?",
+    "link": "http://arxiv.org/abs/2611.06858v1",
+    "published": "2026-11-04T18:14:50+00:00",
+    "summary": "Recursive self-improvement requires AI systems to improve the models and infrastructure used by subsequent systems. LLM compression offers a concrete efficiency objective: retain a pretrained model's behavior within a smaller model storage budget. We study whether coding agents can carry out this step autonomously. We formulate compression as a terminal task in which an agent receives a source checkpoint, storage limit, inference environment, and time budget, then constructs compressed weights a",
+    "author": "Xinrui Zhong, Zhifeng Li, Zhiming Wang, Yongqi Liu, Shanglin Yang, Yang Zhou, Zikun Li, Zhuoming Chen, Beidi Chen",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2611.06858v1"
+    ]
+  },
+  {
+    "title": "ServerBench: How can your coding agents design specialized LLM serving systems?",
+    "link": "http://arxiv.org/abs/2611.06841v1",
+    "published": "2026-11-04T17:59:07+00:00",
+    "summary": "Large language model (LLM) coding agents develop software through experimentation, offering an opportunity to design the serving systems supporting their own operation. Effective serving requires coordinating implementation and operating decisions under session dependencies, latency constraints, and correctness requirements. We introduce ServerBench, a benchmark for agentic design of complete, specialized LLM serving systems. Agents experiment against a common objective, dollars per dollar: late",
+    "author": "Xinrui Zhong, Zhiming Wang, Yongqi Liu, Zhaohui Wang, Shanglin Yang, Zikun Li, Zhuoming Chen, Beidi Chen",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2611.06841v1"
+    ]
+  },
+  {
+    "title": "Context--Answer Metamodels: Forecasting LLM Activations Before the First Answer Token",
+    "link": "http://arxiv.org/abs/2611.06837v1",
+    "published": "2026-11-04T17:53:52+00:00",
+    "summary": "Under stochastic decoding, a single context can elicit many different answers from a language model. Characterizing this variation typically requires many expensive autoregressive rollouts, each revealing only one realization. We ask whether the activations produced while reading the context can directly forecast the model's rollout activations. We train context--answer metamodels that map a context activation sequence to point or distribution forecasts of mean-pooled answer activations. We find",
+    "author": "Tommy He, Thomas Jiralerspong",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2611.06837v1"
+    ]
+  },
+  {
+    "title": "Enabling AWS Cloud FPGA Development Using High-Level Vitis HLS",
+    "link": "http://arxiv.org/abs/2611.06829v1",
+    "published": "2026-11-04T17:44:04+00:00",
+    "summary": "We present a toolchain for development of ML models on AWS EC2 F2 cloud FPGA infrastructure from high-level language, implementing a complete Vitis HLS to HDK bridge to AFI workflow that has been absent from the academic literature despite eight years of AWS FPGA availability. We introduce a four-level methodology (FP32 PyTorch, bit-accurate quantized Python, HLS C-simulation, physical FPGA) to aid in localizing errors, including FPGA-specific circuit errors. Together these tools allow coding ag",
+    "author": "David Rostcheck",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2611.06829v1"
+    ]
+  },
+  {
+    "title": "Rules, Traces and Routing Statistics: Training and Calibration Data for Open Models on ARC-AGI-2",
+    "link": "http://arxiv.org/abs/2611.06827v1",
+    "published": "2026-11-04T17:41:09+00:00",
+    "summary": "We study which training and calibration data help three open models solve ARC-AGI-2 tasks when the solver runs offline on four L4 GPUs for at most 12 hours. We compare data offline on public tasks and report 189 runs on the 120 hidden semi-private tasks. For the NVARC Qwen3-4B grid model, we built a corpus of 12,000 executable rules in a typed language and 95,993 tasks; a rule is admitted only if its behaviour on a fixed probe set differs from that of every admitted rule, and a task only if its ",
+    "author": "Nguyen Minh Thang, Trinh Thi Phuong",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2611.06827v1"
+    ]
+  },
+  {
+    "title": "Task-Efficient Agent Evaluation Using Cached Traces",
+    "link": "http://arxiv.org/abs/2611.06803v1",
+    "published": "2026-11-04T17:20:09+00:00",
+    "summary": "Efficient benchmarking estimates a system's full benchmark performance from a small number of task executions. Standard approaches rely solely on the binary correctness of executions from a collection of already-evaluated reference systems. An agentic system, however, produces a rich trace for each execution that can reveal substantially more about its capabilities. Leveraging this information requires useful trace representations. We propose representing a trace by extracting a structured summa",
+    "author": "Ben Johnson, Hayden Helm",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2611.06803v1"
+    ]
+  },
+  {
+    "title": "Message-passing graph persistence",
+    "link": "http://arxiv.org/abs/2611.06801v1",
+    "published": "2026-11-04T17:18:34+00:00",
+    "summary": "Message-passing graph neural networks (GNNs) are limited in expressive power by the one-dimensional Weisfeiler-Leman test. Persistent homology (PH) provides topological descriptors that can complement GNN representations, but existing approaches typically compute persistence separately from the representation learning process. In this paper, we introduce Message-Passing Graph Persistence (MGP), a family of topological descriptors that incorporates message passing into graph filtrations. At each ",
+    "author": "Jorge Luiz Franco, Arthur Queiroz Moura, Moacir Ponti, Amauri Souza",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2611.06801v1"
     ]
   },
   {
@@ -117,187 +298,6 @@
     "category": "official",
     "references": [
       "https://openai.com/index/devrev-enterprise-self-service"
-    ]
-  },
-  {
-    "title": "DreamX: Video Diffusion Model is a Universal Latent Action Learner",
-    "link": "http://arxiv.org/abs/2611.05377v1",
-    "published": "2026-11-03T18:59:56+00:00",
-    "summary": "Learning a universal action representation from video requires modeling dynamics that are consistent across different executions of the same action yet invariant to changes in embodiment and appearance. Existing latent action models infer actions from visual transitions, but their representations often entangle the underlying action with irrelevant visual variations, limiting transfer across embodiments. We introduce DreamX, which repurposes a pretrained video diffusion model as a universal late",
-    "author": "Jisoo Kim, Chaehyun Kim, Junsu Kim, Jiho Park, Seongchan Kim, Eunbeen Hong, Soowon Son, Fu-En Yang, Seungryong Kim",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2611.05377v1"
-    ]
-  },
-  {
-    "title": "From Autonomous Agents to Cognitive Symbionts: Toward AI-Augmented Human Intelligence",
-    "link": "http://arxiv.org/abs/2611.05376v1",
-    "published": "2026-11-03T18:59:52+00:00",
-    "summary": "For a decade, progress in artificial intelligence has been measured by how much a machine can do on its own. Large foundation models now write code and run multistep tasks, and personal agents act on a person's behalf. Yet people still forget what they once knew, miss what they are not looking at, fail to find the right words, and face hard choices without the benefit of their own history, because the machine that could help stands outside the situation. As AI moves into the physical world, atte",
-    "author": "Hao Fei",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2611.05376v1"
-    ]
-  },
-  {
-    "title": "Aligning Language Models with General Preferences: An Empirical Study of Direct Nash Optimization",
-    "link": "http://arxiv.org/abs/2611.05373v1",
-    "published": "2026-11-03T18:59:15+00:00",
-    "summary": "Direct Nash Optimization (DNO) aligns a language model to a general preference function by approximating the Nash equilibrium of a two-player preference game. Its practical variant, DNO-Prct, iterates on-policy sampling, LLM-based rating of the samples together with a teacher's gold response, large-margin preference-pair selection and a DPO-style contrastive update. We re-implement DNO-Prct independently and study it on two open-weight instruct models, Llama 3.1 8B Instruct and Mistral 7B Instru",
-    "author": "Austin Tsai, Saurav Nanda, Ganapathy Parthasarathy, Bhuvnesh Kumar, Parivesh Choudhary",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2611.05373v1"
-    ]
-  },
-  {
-    "title": "Suppressing Misaligned Behaviors in Language Models, Durably",
-    "link": "http://arxiv.org/abs/2611.05358v1",
-    "published": "2026-11-03T18:54:08+00:00",
-    "summary": "Undesired model behaviors can emerge or re-emerge at any stage of training. Once observed, how effectively can we suppress them? To study this question, we first construct two model organisms--language models deliberately trained to exhibit a specific misalignment--that differ in what triggers the behavior. The narrow-trigger organism misbehaves only when the prompt contains a specific cue: it cheats on multiple-choice questions by following a planted hint that points to a wrong answer, and beha",
-    "author": "Luxi He, Pengcheng Jiang, Jifan Zhang, Jiawei Han, Danqi Chen",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2611.05358v1"
-    ]
-  },
-  {
-    "title": "Adversarial Speculative Reasoning Improves Long Horizon Agents",
-    "link": "http://arxiv.org/abs/2611.05345v1",
-    "published": "2026-11-03T18:45:23+00:00",
-    "summary": "Speculative decoding has been treated purely as a systems optimization that speeds up large language model decoding without changing the model behavior. Under this view, the growing effort to train better draft models has been focused solely on acceptance rate. We argue that this view does not hold true for long-horizon agent reasoning. Measuring frontier open-weight models on complex agentic tasks with different speculative decoding approaches, we found that numerical noise grows within verific",
-    "author": "Hongyin Luo, Wei Fang, Lijie Yang, Owen Stepan, Daniel Suit, Jeff Krapf, Dana Wensberg, Jack O'Brien",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2611.05345v1"
-    ]
-  },
-  {
-    "title": "Weight-space programming for auditing clinical decision networks",
-    "link": "http://arxiv.org/abs/2611.05341v1",
-    "published": "2026-11-03T18:41:15+00:00",
-    "summary": "Machine learning models in radiotherapy are commissioned by testing them on cases with known answers, which may not reveal a shortcut that the test cases share with the training data. Frontier language models have recently been reported to read and write the raw weights of small neural networks, an ability called weight-space programming. The purpose of this study was to determine whether such a model, given only a clinical protocol and a network's weights, can audit and repair the network. Netw",
-    "author": "Humza Nusrat, Omar Nusrat",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2611.05341v1"
-    ]
-  },
-  {
-    "title": "MedPhysBench: A Benchmark for Evaluating Language Models on Medical Physics Calculations and Error Detection",
-    "link": "http://arxiv.org/abs/2611.05340v1",
-    "published": "2026-11-03T18:40:35+00:00",
-    "summary": "Medical physicists turn a prescription into a delivered dose and check one another's calculations, because one error in a beam calibration or a monitor-unit (MU) calculation can affect every patient treated with it. MedPhysBench has ten seeded generators of calculation items in radiation therapy, diagnostic imaging, nuclear medicine and radiation protection, up to clinical tasks such as a TG-51 calibration worksheet. Reference answers come from code implementing the governing protocols, and a gr",
-    "author": "Omar Nusrat",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2611.05340v1"
-    ]
-  },
-  {
-    "title": "A simple adaptive accelerated optimistic dual averaging method for unconstrained convex optimization in $p$-norm geometry",
-    "link": "http://arxiv.org/abs/2611.05334v1",
-    "published": "2026-11-03T18:35:20+00:00",
-    "summary": "Efficient preconditioning plays an important role in large-scale first-order optimization. In this paper, we propose an adaptive accelerated optimistic dual averaging ($\\text{A}^2$ODA) method for unconstrained convex optimization that adopts low-cost preconditioning based on $p$-norm geometry for $p\\in[2,\\infty]$. The method is line-search-free and employs a new stepsize selection technique based on an aggregated affine lower model. Its update structure is simple and unified across $p\\in[2,\\inft",
-    "author": "Bowen Li, Danqing Zhou, Chuan He",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2611.05334v1"
-    ]
-  },
-  {
-    "title": "PyRUA-DataFarm: LLM Agent as a Cost-Efficient Teleoperator for Real-Ready Robot Data",
-    "link": "http://arxiv.org/abs/2611.05320v1",
-    "published": "2026-11-03T18:25:14+00:00",
-    "summary": "Teleoperation remains the default way to collect robot demonstrations, but every episode costs robot and operator time, and every new task starts from scratch. We ask whether a coding agent can take over the teleoperator's job. In our DataFarm, the agent receives a data request and one calibration episode of the robot in the target scene and rebuilds the task in simulation: it writes the scene, an expert controller, and a success judge. The simulator supplies exact actions, and a video model con",
-    "author": "Kewei Zhang, Juncheng Ma, Guodong Lv, Duomin Wang, Feixiang Ruan, Ruiyang Si, Chuanrui Zhang, Yuxuan Chen, Hao Chen, Yichen Liu, Yintianrun Zhang, Yufan Deng, Enze Xie, Daquan Zhou",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2611.05320v1"
-    ]
-  },
-  {
-    "title": "HARP: Training-Free Dual-Profile Agentic Communication for LLM-Based Recommendation",
-    "link": "http://arxiv.org/abs/2611.05319v1",
-    "published": "2026-11-03T18:24:20+00:00",
-    "summary": "In LLM-based recommendation, memory acts as a user-level agent in a memory-augmented backbone. Yet users and items remain asymmetric: only the user is given a structured profile; it enters a bandwidth-limited reranker prompt; and it is frozen after warmup. We recast LLM-based recommendation as an agentic-communication process in four stages: BUILD a self-description, TRANSMIT it along the collaborative graph, UNDERSTAND the other side, and SYNC it from the next interaction. This formulation reve",
-    "author": "Zhen Tao, Xun Zhou, Xuhui Chen, Ziyue Qiao, Qingqiang Sun",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "https://github.com/Jove-Zhen/HARP",
-      "http://arxiv.org/abs/2611.05319v1"
-    ]
-  },
-  {
-    "title": "You don't need long context",
-    "link": "http://arxiv.org/abs/2611.05306v1",
-    "published": "2026-11-03T18:17:23+00:00",
-    "summary": "Later tokens are costlier to generate than earlier tokens. On frontier open weight models, the disparity in cost may rise to as much as 7x. Through frequent compaction, we show across a broad range of long-horizon and long-input tasks that frontier language models sacrifice little to no task accuracy when maintaining short contexts. We further demonstrate that LLM performance does not collapse on long-horizon software engineering tasks even when taking at most one action per context, and based o",
-    "author": "Peter Belcak, Saurav Muralidharan, Jindong Jiang, Yonggan Fu, Wonmin Byeon, Hanrong Ye, Ryan Angilly, Ali Taghibakhshi, Shih-Yang Liu, Siru Ouyang, Greg Heinrich, Pavlo Molchanov",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2611.05306v1"
-    ]
-  },
-  {
-    "title": "LoopVQ: Sub 1-bit KV Cache Quantization for Looped Transformers",
-    "link": "http://arxiv.org/abs/2611.05304v1",
-    "published": "2026-11-03T18:16:29+00:00",
-    "summary": "Looped transformers are a parameter-efficient alternative to standard transformers for language modeling. By reapplying the same layers across multiple loop steps, recent looped language models match the performance of non-looped models several times their size. While this architecture effectively reduces parameter memory, each loop step still stores its own keys and values, so the key-value (KV) cache grows linearly with the number of loop steps and becomes the main memory bottleneck. We observ",
-    "author": "Minsoo Cheong, Sungjoo Yoo",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2611.05304v1"
-    ]
-  },
-  {
-    "title": "Personas Are Not People: Identity as State, Not Attribute",
-    "link": "http://arxiv.org/abs/2611.05292v1",
-    "published": "2026-11-03T18:07:27+00:00",
-    "summary": "Synthetic populations, large sets of simulated people, are increasingly used in place of real people to pretest surveys, simulate users and communities, and evaluate AI systems. Each simulated person is defined by a persona, a written profile of fixed traits, demographics, and attitudes that a language model is instructed to act out. Every such system assumes that a person's identity is a stable attribute that behaves the same way in every situation the simulation presents. We show that this ass",
-    "author": "Tamunotonye Harry, Yuanyuan Feng",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2611.05292v1"
-    ]
-  },
-  {
-    "title": "False Reassurance in LLM Severe-Weather Guidance: A Replayable Evaluation Against Real NWS Alerts",
-    "link": "http://arxiv.org/abs/2611.05290v1",
-    "published": "2026-11-03T18:04:53+00:00",
-    "summary": "An LLM assistant that cannot see official severe-weather alerts may tell users that conditions are calm while a warning is active. We call this false reassurance and measure it by replaying 117 frozen cases built from real U.S. National Weather Service (NWS) alerts (69 alert cases, 32 no-alert controls, 16 non-U.S. locations) through five conditions of a Claude-based preparedness pipeline that differ in alert access and prompt design. One rater hand-labeled all 342 alert-case responses under a s",
-    "author": "Kadharmoideen Fadurudeen",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2611.05290v1"
-    ]
-  },
-  {
-    "title": "Knowingly Wrong: Training LLMs Against Their Own Beliefs can Induce Misalignment",
-    "link": "http://arxiv.org/abs/2611.05287v1",
-    "published": "2026-11-03T18:02:21+00:00",
-    "summary": "Fine-tuning a large language model (LLM) on harmful data in a narrow domain, such as bad medical advice, can make it broadly misaligned. How realistic this risk is remains unclear, since models are very rarely fine-tuned on explicitly harmful data in practice. In this work, we show that fine-tuning on data the model believes to be false but that has no harmful content, can also induce broad misalignment. Across mathematics, trivia, cooking and sports, the more strongly the model disbelieves the ",
-    "author": "Ariana M. Villegas-Suarez, Guido Freire, Sohan Venkatesh, Bartosz Cywiński",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2611.05287v1"
     ]
   },
   {
