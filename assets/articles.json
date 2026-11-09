@@ -1,5 +1,187 @@
 [
   {
+    "title": "On Agentic Manipulation Policies",
+    "link": "http://arxiv.org/abs/2611.09892v1",
+    "published": "2026-11-06T18:59:34+00:00",
+    "summary": "Recent work on robot manipulation has focused on specialist policies trained on demonstrations. We show that generalist AI models can control manipulators more reliably than specialist policies such as vision-language-action models (VLAs) and world-action models (WAMs). We systematically analyze agentic manipulation policies (AMPs), in which a generalist AI model commands the manipulator directly, adapting its actions as the task unfolds. We present AMP1, a reference harness that runs unchanged ",
+    "author": "Chen Chen, Omid Bagherieh, Naveen Nikamanth Appiah Balaji, Jesse T. Gonzalez, Negin Heravi, Fahad Islam, Xueting Li, Jean-Baptiste Regli, Kejia Ren, Petr Švec, David J. Yoon, Matthias Müller, Vladlen Koltun",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2611.09892v1"
+    ]
+  },
+  {
+    "title": "CPU-ARC: Agentic Reasoning Caching for on-CPU Reasoning Reuse",
+    "link": "http://arxiv.org/abs/2611.09891v1",
+    "published": "2026-11-06T18:58:50+00:00",
+    "summary": "Large language models reinvent the wheel all the time. They conflate task-solving with the execution of the solutions, which forces them to solve every problem from scratch. We show that once a task has been reasoned through, the application of its solution to a new problem instance can be done very efficiently and with little involvement from language models. We introduce agentic reasoning caching, a method for constructing robust CPU-executable agentic reasoning caches (ARCs) from LLM reasonin",
+    "author": "Peter Belcak, Greg Heinrich, Saurav Muralidharan, Shizhe Diao, Pavlo Molchanov",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2611.09891v1"
+    ]
+  },
+  {
+    "title": "On the Reliability of Majority-Vote Pseudo-Labels in Test-Time Reinforcement Learning",
+    "link": "http://arxiv.org/abs/2611.09872v1",
+    "published": "2026-11-06T18:49:02+00:00",
+    "summary": "Test-time reinforcement learning (TTRL) adapts pretrained language models to unlabeled target-domain data using self-generated pseudo-labels, whose reliability remains poorly understood. We analyze majority-vote supervision for TTRL with online Direct Preference Optimization (DPO) and decompose its error into population-majority bias and prompt-dependent finite-rollout variation. Because population-majority bias is generally unidentifiable without external supervision, we focus on mitigating the",
+    "author": "Haoyu Wang, Ru Wang, Yuanyuan Wang, Jiaxian Guo, Mingming Gong",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2611.09872v1"
+    ]
+  },
+  {
+    "title": "GRAC: Graph-Based Retrieval-Augmented Captioning for Surgical Scene Description",
+    "link": "http://arxiv.org/abs/2611.09866v1",
+    "published": "2026-11-06T18:47:23+00:00",
+    "summary": "Purpose: Surgical operative reports support procedural documentation, surgical training, performance assessment, and workflow review. However, extracting meaningful information often requires extensive manual review and clinical expertise. Automated surgical scene descriptions could reduce this burden by leveraging recurring surgical activities and prior knowledge. Methods: We propose GRAC (Graph-Based Retrieval-Augmented Captioning), a framework that represents surgical scenes as graphs capturi",
+    "author": "Rochak Dhakal, Chen Zhao, Soup Cobb, Xin Qian, Xiaofeng Yang, Weihua Zhou",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2611.09866v1"
+    ]
+  },
+  {
+    "title": "Grasp-TAGS: Task-Aware Grasp Selection via Critic Distillation for Prehensile Loco-Manipulation",
+    "link": "http://arxiv.org/abs/2611.09864v1",
+    "published": "2026-11-06T18:44:33+00:00",
+    "summary": "Loco-manipulation, which requires mobile manipulators to coordinate locomotion and manipulation over long horizons, is a key capability for large-object rearrangement in applications such as service robotics and warehouse automation. Despite recent progress, reliably executing these tasks remains challenging because performance depends on complex robot-object and object-environment interaction dynamics. Existing approaches address this challenge either through model-based methods, which often re",
+    "author": "Xun Tu, Minghao Zou, Karthik Desingh",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "https://rpm-lab-umn.github.io/Grasp-TAGS-web-page/",
+      "http://arxiv.org/abs/2611.09864v1"
+    ]
+  },
+  {
+    "title": "Flow-Guided Target-Space Alignment via Path Consistency",
+    "link": "http://arxiv.org/abs/2611.09863v1",
+    "published": "2026-11-06T18:44:08+00:00",
+    "summary": "Many multimodal alignment problems require mapping a source modality into a fixed space defined by a target modality, where the target space is not merely an intermediate embedding but is used directly for downstream analysis. In this setting, successful alignment should preserve both the global structure of the target distribution and the instance-level correspondence observed in paired source--target training data. Existing objectives typically address only part of this goal: contrastive losse",
+    "author": "Ruizhi Yuan, Zeqiu Yu, Wei Gao, Wei Chen, Xiwei Tang, Lu Tang",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2611.09863v1"
+    ]
+  },
+  {
+    "title": "Ensemble Methodology for Reference-Free Confidence Estimation in LLM-based Code Summarization",
+    "link": "http://arxiv.org/abs/2611.09846v1",
+    "published": "2026-11-06T18:29:48+00:00",
+    "summary": "This paper describes an approach and use case to estimate the correctness of LLM-generated COBOL summaries without access to human-authored references. The core intuition is that inter-model agreement on semantics is informative about truth, and that an LLM-as-judge can provide higher-fidelity pairwise assessments than traditional string- or embedding-based metrics. We operationalise this intuition with (i) controlled summary generation from diverse models; (ii) a LLM evaluator that compares pai",
+    "author": "Marco Colombo, Balaji A Jayaram, Sowmyakumari Selvaraj, Sumit Tokkar, Animesh Kumar, Aravinda Prasad Sistla, Ravishankar Shetty, Rigel Gjomemo",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2611.09846v1"
+    ]
+  },
+  {
+    "title": "Can Agentic Systems Close the Gap in Radiology with Production AI Tools?",
+    "link": "http://arxiv.org/abs/2611.09836v1",
+    "published": "2026-11-06T18:23:14+00:00",
+    "summary": "Radiology AI has developed along two paths: specialized models that perform well on narrow tasks but cover few clinical findings, and generalist models that address a broader range of tasks but remain prone to hallucination and inaccurate measurements. Combining the two through agentic systems offers a route towards comprehensive radiology reporting, but published systems are tied to one modality or body part. We describe a radiology agentic framework that standardizes how an orchestrator calls ",
+    "author": "Aubin Charley, Julien Khlaut, Charles Corbière, Pierre Manceron, Corentin Dancette, Léo Machado",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2611.09836v1"
+    ]
+  },
+  {
+    "title": "BitDecoding-FP4: Native FP4 KV Cache Decoding via Algorithm-System Co-Design",
+    "link": "http://arxiv.org/abs/2611.09825v1",
+    "published": "2026-11-06T18:13:54+00:00",
+    "summary": "The key-value (KV) cache dominates memory capacity and bandwidth in long-context LLM serving. While 4-bit microscaling formats (NVFP4, MXFP4) shrink the cache and run attention on FP4 Tensor Cores, a fundamental gap remains between algorithmic quantization and system-aware acceleration: existing FP4 KV systems use vanilla quantization that causes severe accuracy drops, whereas accuracy-oriented 4-bit algorithms rely on vector codebooks whose lookup overhead degrades decoding throughput. We prese",
+    "author": "Dayou Du, Woon Yee Ng, Guangming Sheng, Nick Lau, Jianyi Cheng, Luo Mai",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "https://github.com/OpenBitSys/BitDecoding-FP4",
+      "http://arxiv.org/abs/2611.09825v1"
+    ]
+  },
+  {
+    "title": "Discovering formally verified quantum programs with AI",
+    "link": "http://arxiv.org/abs/2611.09822v1",
+    "published": "2026-11-06T18:08:06+00:00",
+    "summary": "The timeline by which quantum computers can solve breakthrough problems in science depends on improved quantum algorithms as much as on better hardware. Such algorithmic advances are typically achieved through many years of expert human collaboration. In mathematics and computer science, large language models have accelerated progress through automated discovery loops. However, quantum algorithms can only be evaluated by classical computers on restricted or small instances. Here we demonstrate a",
+    "author": "Sergey Shirobokov, Ben Jaderberg, Katerina Hristova, George Tsoukalas, Johannes Bausch, Eric Wieser, Francisco J. H. Heras, Nicholas C. Rubin, Guang Hao Low, Sébastien Racanière, Nenad Tomašev, Lei M. Zhang, James Watson, Tanuj Khattar, Aws Albarghouthi, Stavan Jain, Harun Khan, Leopoldo Sarra, Andrew W. Senior, Michael Broughton, Hussain Masoom, Sergio Boixo, Ryan Babbush, Swarat Chaudhuri, Pushmeet Kohli",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2611.09822v1"
+    ]
+  },
+  {
+    "title": "Generative Latent Priors for Interpreting and Steering Protein Language Models",
+    "link": "http://arxiv.org/abs/2611.09818v1",
+    "published": "2026-11-06T18:06:39+00:00",
+    "summary": "Dominant methods for interpreting large models impose strong structural assumptions. Generative Latent Priors (GLP) are a complementary approach: a diffusion model that learns the distribution of a frozen model's activations directly, imposing no assumptions. We port GLP to ESM-2 activations (UniRef50) and evaluate it at two host scales (ESM-2-8M and -650M), both as a lens for protein representations and as a prior for editing them. Generation quality scales smoothly with depth and compute. As a",
+    "author": "Daniel Hinjos, Lucía Urcelay",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2611.09818v1"
+    ]
+  },
+  {
+    "title": "Scaling Graph Similarity Learning with Graph Neural Networks",
+    "link": "http://arxiv.org/abs/2611.09805v1",
+    "published": "2026-11-06T17:55:35+00:00",
+    "summary": "Graph similarity computation is an important task in graph mining with many real-world applications, such as chemical compound analysis, program dependence comparison, and social network analysis. The problem is computationally challenging: Graph Edit Distance (GED) and Maximum Common Subgraph (MCS), which quantify the distance between graphs and identify their largest shared subgraph, respectively, are NP-hard to compute exactly. To address these computational challenges, Graph Neural Networks ",
+    "author": "Ahmet Tüzen, Helge Langseth, Kjetil Nørvåg",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2611.09805v1"
+    ]
+  },
+  {
+    "title": "When Instruction Files Go Stale: Documentation Debt and Hidden Cost in Coding Agents",
+    "link": "http://arxiv.org/abs/2611.09802v1",
+    "published": "2026-11-06T17:54:01+00:00",
+    "summary": "LLM-based coding agents such as Claude Code are guided by repository instruction files (also called context files or agent configuration files) like AGENTS.md and CLAUDE.md, which are read in every agent session. As any documentation artifact, these files can fall behind the code and become stale (e.g., a test folder moves, but the file still points to the old one). In technical debt terms, such a stale instruction is documentation debt, and its interest is the cost it adds to every later agent ",
+    "author": "Tural Mehtiyev, Biruk Tadesse, Lawrence Arkoh, Wesley Assunção",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2611.09802v1"
+    ]
+  },
+  {
+    "title": "Maya a1: Do the Options Read the Model, or Does Their Position? Order Sensitivity in a Non-Autoregressive Decision Model",
+    "link": "http://arxiv.org/abs/2611.09803v1",
+    "published": "2026-11-06T17:54:01+00:00",
+    "summary": "Laya answers typed multiple-choice questions in one forward pass by scoring a hidden state at one [MASK] marker per option. We re-engineer the checkpoint (421M parameters; a 2-layer option head with no positional tensor; a documented but unused parallel layout) and test whether the answer depends on where an option is listed. Presenting 951 Qwen-verified questions under every cyclic rotation of their options (or six random permutations for 12 options), the released checkpoint changes its answer ",
+    "author": "Mohammed Nayeem Khan, Logesh L",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2611.09803v1"
+    ]
+  },
+  {
+    "title": "Test-Time Compute Scales Better with Parallel Agent Teams",
+    "link": "http://arxiv.org/abs/2611.09798v1",
+    "published": "2026-11-06T17:53:07+00:00",
+    "summary": "Test-time scaling improves the performance of a fixed model by spending more computation at inference. There are two common ways to spend it on agents when a verifier can score every attempt. Best-of-N sampling runs many independent agents and keeps the best result but saturates quickly. One large team of collaborating agents can score higher but stops improving as it grows. Can we get the best of both? Our method, parallel agent teams, does so by sampling many small teams in parallel and keepin",
+    "author": "Junlin Wang, Haozhe Chen, Ang Li, Rahul Chalamala, Zhuang Liu",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2611.09798v1"
+    ]
+  },
+  {
     "title": "The Download: a humanoid cleans house and Samsung builds for the AI boom",
     "link": "https://www.technologyreview.com/2026/11/06/1148154/the-download-humanoid-robot-cleaner-samsung-ai-chip-boom/",
     "published": "2026-11-06T13:10:00+00:00",
@@ -57,187 +239,6 @@
     "category": "official",
     "references": [
       "https://openai.com/index/cultfit-builds-with-codex"
-    ]
-  },
-  {
-    "title": "SwarmEvolve: Latent Agent Swarms for Evolutionary Discovery and Optimization",
-    "link": "http://arxiv.org/abs/2611.08483v1",
-    "published": "2026-11-05T18:59:29+00:00",
-    "summary": "LLM-guided evolutionary search uses AI agents to improve programs for mathematical and computational problems by iteratively refining solutions and combining high-scoring methods. However, the process is often slow because the LLM generates a long textual chain of thought for each round and must repeat this generation many times to maintain population diversity. We present SwarmEvolve, a framework in which hundreds of low-cost agents per round work in swarms, reason in latent space without decod",
-    "author": "Qile Jiang, George Em Karniadakis",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2611.08483v1"
-    ]
-  },
-  {
-    "title": "Scientist World: Grow a Research World for AI-Scientists",
-    "link": "http://arxiv.org/abs/2611.08478v1",
-    "published": "2026-11-05T18:58:17+00:00",
-    "summary": "AI-Scientists arrived, but a world for them to grow in did not. Human scientists take theirs for granted $-$ centuries of open problems and shared ideas, waiting in the scientific literature. To AI-Scientists, that world is readable but not runnable, so we build Scientist World for them: every research paper becomes an executable environment. Our autonomous pipeline extracts each paper's open-ended research question and reproduces its proposed method as the baseline; an AI-Scientist entering the",
-    "author": "Taiming Lu, Sachin Konan, Zhuang Liu",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2611.08478v1"
-    ]
-  },
-  {
-    "title": "XStack: A Benchmark for ML Repo Migration",
-    "link": "http://arxiv.org/abs/2611.08472v1",
-    "published": "2026-11-05T18:55:54+00:00",
-    "summary": "ML code should run where researchers choose, not where it was first written. Today, machine learning code mainly lives in two ecosystems, PyTorch on NVIDIA GPUs and JAX on Google TPUs. Migrating repositories between them means building and testing across frameworks and hardware. This migration is (1) a practical need, since it unlocks different hardware for researchers, and (2) a natural benchmark: it involves different frameworks and hardware, covers whole repositories, and is long-horizon and ",
-    "author": "Linrong Cai, Taiming Lu, Haozhe Chen, Zhuang Liu",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2611.08472v1"
-    ]
-  },
-  {
-    "title": "Same Behavior, Different Mechanism: What Finite Experiments Can Certify About Integrated Information",
-    "link": "http://arxiv.org/abs/2611.08469v1",
-    "published": "2026-11-05T18:55:31+00:00",
-    "summary": "Interpretability, AI auditing and assessments of machine consciousness increasingly rest on mechanism-level quantities: functionals of a system's causal transition law that describe how it computes, not what it outputs. Experiments see that law only through finite, partial and noisy interventions. We ask when such a quantity is identifiable from an experiment's access, continuous in the mechanism and certifiable from finite data, and answer exactly for a deliberately demanding case - the integra",
-    "author": "Linqian Wu, Diaoxuan He",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2611.08469v1"
-    ]
-  },
-  {
-    "title": "Towards interpreting any residual stream direction by scaling activation inversion",
-    "link": "http://arxiv.org/abs/2611.08465v1",
-    "published": "2026-11-05T18:54:40+00:00",
-    "summary": "To interpret a direction in a language model's residual stream, we can look for text that strongly activates it. But when such text is found by scanning a corpus, it is limited to what that corpus contains. We develop Maximally-Activating Example Metamodels (MAEMs), language models which map residual stream directions from a subject model to text exemplars that strongly activate those directions. Our objective is to maximise the cosine similarity of a supplied residual stream direction with the ",
-    "author": "Celeste De Schamphelaere, Juan J. Vazquez, Ari Spiesberger, Tomáš Gavenčiak, Gavin Leech, Euan Ong, Jiahai Feng",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2611.08465v1"
-    ]
-  },
-  {
-    "title": "ReproBridge: Building Reproducibility into ML Research Artifacts",
-    "link": "http://arxiv.org/abs/2611.08452v1",
-    "published": "2026-11-05T18:45:36+00:00",
-    "summary": "Reproducing machine learning experiments requires reconstructing procedures from information scattered across papers, released code, and supporting artifacts. For coding agents, reproduction success can therefore depend on their ability to fill in missing details, rather than on the released artifacts alone. We ask whether preserving recovered procedures and decisions improves subsequent independent reproduction. We define a standardized artifact design comprising a refined codebase, environment",
-    "author": "Yubo Wang, Rui Meng, Jaehyun Nam, Tomas Pfister, Jinsung Yoon",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2611.08452v1"
-    ]
-  },
-  {
-    "title": "Label-Wording Augmentation in a Typed-Decision Encoder: Gains on Unfamiliar Words, Not on Abbreviations or Codes",
-    "link": "http://arxiv.org/abs/2611.08439v1",
-    "published": "2026-11-05T18:31:24+00:00",
-    "summary": "Typed-decision models score options that the caller supplies at request time, so their accuracy depends on label wording that the model's developer does not control. We compare two releases of a 307M-parameter multilingual cross-encoder, Ru-Jev, trained on thirteen Russian-language tasks; the later release adds an augmentation that presents labels in several surface forms. Holding questions fixed and varying only how eighteen routing labels are worded, we evaluate ten label vocabularies, produce",
-    "author": "Vladimir Beskorovainyi",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2611.08439v1"
-    ]
-  },
-  {
-    "title": "Understanding AI from the Inside: The State of Mechanistic Interpretability for AI Safety",
-    "link": "http://arxiv.org/abs/2611.08438v1",
-    "published": "2026-11-05T18:30:54+00:00",
-    "summary": "Neural networks are likely to be among the most consequential artefacts in human history. As these systems become more capable and autonomous, their potential to cause societal harm also grows, making AI safety one of the defining challenges of our time. Yet we continue to build increasingly powerful systems without fully understanding how they work, how they will behave in unfamiliar situations, or how to reliably control them. Mechanistic interpretability offers a path towards understanding th",
-    "author": "Fazl Barez, Tung-Yu Wu, Hunar Batra, Gabriele Dominici, Florent Draye, Yanai Elazar, Damiano Fornasiere, Antía García, Abir Harrasse, Riley Harris, Sara Hooker, Michael Lan, Belinda Z. Li, Aaron Maiwald, Narmeen Fatimah Oozeer, Naomi Saphra, Or David Shafran, Adi Simhi, Robert Trager, Shriyash Kaustubh Upadhyay, Ziyu Yao, Yu Zhao, Shay B. Cohen, Mor Geva, Yoshua Bengio, Stella Biderman, Hassan Sajjad",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2611.08438v1"
-    ]
-  },
-  {
-    "title": "MedGraph: Maintaining Patient State with Graph Memory for Long-Term Medical Dialogue",
-    "link": "http://arxiv.org/abs/2611.08433v1",
-    "published": "2026-11-05T18:27:20+00:00",
-    "summary": "LLM-based medical assistants that follow a patient across visits need a memory that keeps the patient's clinical state correct as it changes. We examine the errors of five memory systems on longitudinal medical dialogue and find three recurring causes: the retrieved evidence gives an outdated state, includes another person's health facts, or lacks a safety fact the answer depends on. We present MedGraph, a graph memory built for these three cases. Construction extracts dated facts from each sess",
-    "author": "Donghua Zhang, Zizheng Wang, Ze Dong, Yiding Feng, Siyu Qian",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2611.08433v1"
-    ]
-  },
-  {
-    "title": "The Power of Meta Access in the Software of the Future --- Demonstrated on LLM Chat UIs and Chat AI",
-    "link": "http://arxiv.org/abs/2611.08428v1",
-    "published": "2026-11-05T18:22:24+00:00",
-    "summary": "Chat remains the default surface for many large language model (LLM) tasks, even as agentic tools such as OpenCode excel at coding and automation. Yet the model sees the current dialogue but not the workspace around it. We explore meta access---giving the assistant a structured, permissioned view of the interface itself and propose a ladder of levels: feature tutoring; metadata, settings, and preference access; retrieval over summaries and messages, confirmed mutation, and full orchestration. Me",
-    "author": "Julian Kunkel, Ali Doosthosseini",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2611.08428v1"
-    ]
-  },
-  {
-    "title": "Failure Prediction and Classification in Vision-Language-Action Models Via Calibrated Latent Probing",
-    "link": "http://arxiv.org/abs/2611.08425v1",
-    "published": "2026-11-05T18:21:07+00:00",
-    "summary": "Vision-Language-Action models (VLAs) enable general-purpose embodied intelligence, but their performance is brittle under distribution shift, where unanticipated failures can damage equipment or endanger people. Deploying VLAs in real-world systems therefore requires a runtime monitor that is timely, calibrated, and informative while being efficient enough to run on the edge. Existing methods fail to fulfill these requirements. We present VLA-Tug, a lightweight probe over the latent layers of a ",
-    "author": "Michal P. Podolinsky, Yunhao Yang, Daniel Little, Hong Lu, Rohan Siva, Olin Goudey, Neel P. Bhatt, Matthias Scheutz, Ufuk Topcu",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "https://vla-tug.github.io",
-      "http://arxiv.org/abs/2611.08425v1"
-    ]
-  },
-  {
-    "title": "Benchmarks as Software: Terminal-Bench and the Case for Continuous Benchmarks",
-    "link": "http://arxiv.org/abs/2611.08417v1",
-    "published": "2026-11-05T18:18:39+00:00",
-    "summary": "Coding agents are among the most economically consequential deployments of LLMs to date, making reliable evaluation increasingly important. Yet even benchmarks that are carefully validated at release can become stale. As models improve, they can discover valid solutions that existing verifiers reject, while changes to evaluation infrastructure can invalidate assumptions embedded in tasks and tests. We call the resulting accumulation of defects benchmark maintenance debt: a growing gap between be",
-    "author": "E. Kelly Buchanan, Crystal Zhou, Scott W. Linderman, Christopher Ré",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2611.08417v1"
-    ]
-  },
-  {
-    "title": "The Gold Rush in AI4Math, II: What are signatures of AI-assisted Proofs?",
-    "link": "http://arxiv.org/abs/2611.08412v1",
-    "published": "2026-11-05T18:17:18+00:00",
-    "summary": "The growing use of AI in mathematics raises a question: can we detect AI involvement in proofs, separately from AI assistance with writing? Historical arXiv papers, recent papers disclosing substantive AI use, and manuscripts released by OpenAI provide a rich empirical basis for studying this question. However, several challenges remain: lack of matched case-control pairs; potential incompleteness of disclosure; and lack of ready-to-use features designed to capture signals of AI involvement in p",
-    "author": "Yuanchuan Guo, Jiashun Jin, Zheng Tracy Ke, Bingcheng Sui",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2611.08412v1"
-    ]
-  },
-  {
-    "title": "StepBack: Step-Level Error-Localized Resampling for Efficient Test-Time Reasoning",
-    "link": "http://arxiv.org/abs/2611.08403v1",
-    "published": "2026-11-05T18:12:49+00:00",
-    "summary": "Self-consistency (SC) is a widely used decoding strategy for improving chain-of-thought reasoning, but it requires sampling many complete reasoning trajectories with a preset budget. Its efficient variants reduce the cost mainly by stopping full-trajectory sampling early or distributing the number of samples across questions. In this paper, we propose StepBack, a step-level error-localized resampling method for efficient test-time reasoning. Given a small set of draft trajectories, StepBack loca",
-    "author": "Yang Ouyang, Jung-Eun Kim",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2611.08403v1"
-    ]
-  },
-  {
-    "title": "Learning a patient world model for health system simulation in intensive care",
-    "link": "http://arxiv.org/abs/2611.08392v1",
-    "published": "2026-11-05T18:06:42+00:00",
-    "summary": "Designing healthcare strategies requires anticipating their clinical and operational consequences before implementation, a task that often relies on health system simulation. Such a simulation necessitates modeling how patient states evolve and generate care demands. However, conventional approaches typically tailor compact state transitions to a single policy question and omit history-dependent dynamics, thus requiring the redefinition of states and transitions when there is a new question that",
-    "author": "Yingtai Li, Ruoyan Wang, Yu Li, Shaohua Kevin Zhou",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2611.08392v1"
     ]
   },
   {
