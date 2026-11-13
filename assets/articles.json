@@ -24,6 +24,186 @@
     ]
   },
   {
+    "title": "AgentSSL: Can MLE Agents Leverage Unlabeled Data?",
+    "link": "http://arxiv.org/abs/2611.17323v1",
+    "published": "2026-11-12T18:59:06+00:00",
+    "summary": "Applying machine learning systems to new domains introduces bottlenecks in both labeled data acquisition and manual pipeline engineering. While recent MLE agents show promise in automating pipeline design, they have been studied almost exclusively in fully supervised settings, leaving them untested in realistic regimes where labeled data is scarce but unlabeled data is abundant. In this work, we introduce Agentic Semi-Supervised Learning (AgentSSL), framing SSL as a program search problem and st",
+    "author": "Ethan Lin, Akanksha Sarkar, Ziang Liu, Kristin Branson, Jennifer J. Sun",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2611.17323v1"
+    ]
+  },
+  {
+    "title": "CoReMem: Cost-Internalizing Memory for Successive Coding Tasks with Prospective Valuation",
+    "link": "http://arxiv.org/abs/2611.17316v1",
+    "published": "2026-11-12T18:58:22+00:00",
+    "summary": "Coding agents tackle successive tasks on an evolving repository, carrying forward edits and writing memory before the next task is known. Selecting memory for unknown next tasks requires balancing future usefulness against the costs of writing and reading it. The actor must also decide when acting on available memory saves effort as the task unfolds. We introduce Coding-Repository Memory (CoReMem), a cost-internalizing framework that guides memory design and actor adaptation through measured mem",
+    "author": "Peiwen Li, Harshit Verma, Sophia Zhou, Haiwen Wang, Ngoc Bui, Heng Chang, Fei Fei, David van Dijk, Rex Ying",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2611.17316v1"
+    ]
+  },
+  {
+    "title": "Sketching Language Models for Context Attribution",
+    "link": "http://arxiv.org/abs/2611.17313v1",
+    "published": "2026-11-12T18:57:48+00:00",
+    "summary": "Context attribution asks how removing parts of a prompt changes a language model's output. We study leave-one-out (LOO) attribution for a prompt of $n$ tokens and a fixed measurement function. Computing all LOO values directly requires $n$ model evaluations. Under a stability assumption, our algorithm estimates all LOO values to error proportional to $\\varepsilon$ with constant probability using $O(\\sqrt{\\log(1/\\varepsilon)}/\\varepsilon)$ evaluation calls. To complement our upper bound, we prove",
+    "author": "Christopher Liaw, Aranyak Mehta, Grigoris Velegkas, Felix Zhou",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2611.17313v1"
+    ]
+  },
+  {
+    "title": "Classical Energies Learn to Reason 1,000x Faster than Looped Models",
+    "link": "http://arxiv.org/abs/2611.17309v1",
+    "published": "2026-11-12T18:56:56+00:00",
+    "summary": "Looped models have emerged as a prominent paradigm for reasoning, with successes on simple reasoning puzzles such as Sudoku-Extreme and Maze-Unique. However, these models can be unstable, slow to train, and use many parameters and FLOPs to solve simple puzzles. Descent on an energy not only mitigates these issues but also offers advantages: built-in early stopping, compute that adapts to problem difficulty, fast training without differentiating through a solver, and interpretable weights that le",
+    "author": "Benjamin Hoover, Hugh Blayney, James C. R. Whittington",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2611.17309v1"
+    ]
+  },
+  {
+    "title": "Consistent Video-to-Video Translation via Explicit Correspondences",
+    "link": "http://arxiv.org/abs/2611.17298v1",
+    "published": "2026-11-12T18:55:09+00:00",
+    "summary": "Interactive video-to-video applications require real-time generation while maintaining long-range temporal consistency. However, recent methods achieve speed by restricting attention to a fixed-length causal window. This limits long-range consistency whenever relevant history falls outside the context window. To address this limitation, we introduce vid2vid-long, a correspondence-based approach grounded in a simple observation. Video-to-video translation provides an explicit cross-frame referenc",
+    "author": "Gaurav Parmar, Zhengqi Li, Richard Zhang, Jun-Yan Zhu, Srinivasa Narasimhan, Eli Shechtman, Yotam Nitzan",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2611.17298v1"
+    ]
+  },
+  {
+    "title": "Goal Encoding in LLMs",
+    "link": "http://arxiv.org/abs/2611.17297v1",
+    "published": "2026-11-12T18:55:06+00:00",
+    "summary": "We investigate whether and how LLMs encode goals: internal neural representations that precede and guide action, and that are flexible enough to be realized through many different execution paths. We construct a coding setting with multiple sub-tasks that allows us to evaluate goal-seeking behavior and the selection of sub-goals. In this setting, we localize an encoding of the next sub-goal in the outputs of a sparse set of attention heads. The same heads can be used to decode the LM's future ac",
+    "author": "Arnab Sen Sharma, Eric Todd, Sheridan Feucht, Andy Arditi, Rohit Gandikota, Natalie Shapira, Gabriele Sarti, Constanza Fierro, Lisa Schut, David Bau",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2611.17297v1"
+    ]
+  },
+  {
+    "title": "Metal Sandbox: Isolated Execution and Command Scheduling for GPU Coding Agents on Apple Silicon",
+    "link": "http://arxiv.org/abs/2611.17294v1",
+    "published": "2026-11-12T18:54:42+00:00",
+    "summary": "On-device inference requires kernels that make effective use of local accelerators. Efficient training and evaluation of models that generate Apple Metal kernels benefit from native macOS tools and concurrent agent sessions. These sessions alternate between model requests, development commands, and GPU execution, leaving GPU capacity idle for much of a rollout. We present Metal Sandbox, infrastructure that combines restricted per-instance file access, native command execution, and command-level ",
+    "author": "Haozhe Wang, Lina Chen, Fanqi Wan, Qi Han, Yinmin Zhang, Zheng Ge, Daxin Jiang, Junchi Yan",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2611.17294v1"
+    ]
+  },
+  {
+    "title": "Synthesis Smuggling: Maliciously Hiding Inferred Personal Attributes in LLM Outputs",
+    "link": "http://arxiv.org/abs/2611.17280v1",
+    "published": "2026-11-12T18:51:05+00:00",
+    "summary": "We propose Synthesis Smuggling, a novel threat model in which an adversarial LLM infers sensitive information about a user from routine assistance-seeking interactions and steganographically encodes that into innocuous-looking model-generated content. The user may then unknowingly transmit that information by sharing the generated artifact, say as an email, social-media post, or message, through ordinary communication channels. An adversary monitoring these channels can discover this information",
+    "author": "Gautam Galada, Supreeth Shastri, Sagnik Ray Choudhury",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2611.17280v1"
+    ]
+  },
+  {
+    "title": "LiveGeo: Benchmarking Geographic Agents in Continuously Evolving Worlds",
+    "link": "http://arxiv.org/abs/2611.17267v1",
+    "published": "2026-11-12T18:45:58+00:00",
+    "summary": "We introduce GeoWorld, a controllable and continuously evolving geographic environment platform for LLM agents, and LiveGeo, a benchmark for evaluating reliable decision-making in real-world geographic environments using GeoWorld. Unlike existing evaluations that largely reason and plan over fixed geographic states, GeoWorld is grounded in real-world geographic structure and allows external world states to evolve along their own temporal processes while preserving verifiable state histories. Liv",
+    "author": "Pengcheng Zhou, Xuanyu Liu, Yanchen Yin, Tianjie Ju, Bobo Li, Shengqiong Wu, Hao Fei, Mong-Li Lee, Wynne Hsu",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2611.17267v1"
+    ]
+  },
+  {
+    "title": "Ballad: Bandit-Based LLM Routing for Automated Heuristic Discovery",
+    "link": "http://arxiv.org/abs/2611.17241v1",
+    "published": "2026-11-12T18:28:08+00:00",
+    "summary": "Modern automated heuristic discovery (AHD) systems increasingly rival hand-crafted heuristics by leveraging Large Language Models (LLMs) to iteratively mutate and refine solutions. A natural assumption is that more powerful and more expensive models consistently yield better heuristics. We challenge this empirically: across multiple NP-hard combinatorial optimization problems, we find no consistent advantage for larger, costlier models. This raises a deeper question: given a pool of LLMs spannin",
+    "author": "Samidha Verma, Ankit Anand, Sayan Ranu",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2611.17241v1"
+    ]
+  },
+  {
+    "title": "When Both Sides Adapt: The Challenges of Evaluating Interactive LLM Systems",
+    "link": "http://arxiv.org/abs/2611.17239v1",
+    "published": "2026-11-12T18:26:51+00:00",
+    "summary": "In interactive systems where users engage with LLMs, users are adaptive and, after observing LLM responses, can change their prompting strategy, as well as the type and difficulty of subsequent tasks. Thus model responses can influence the set of prompts on which the model is subsequently evaluated. We study the implications of this user adaptivity and prompt endogeneity for the evaluation of LLMs. We define two classes of estimands for comparing models: the common-distribution effect, which com",
+    "author": "Hannah Li",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2611.17239v1"
+    ]
+  },
+  {
+    "title": "Al-Ghasali: A Computational Framework for Simulating Islamic Jurisprudential Rulings via Finite State Automata and Large Language Models",
+    "link": "http://arxiv.org/abs/2611.17235v1",
+    "published": "2026-11-12T18:23:56+00:00",
+    "summary": "This paper presents Al Ghasali, a computational framework designed to formalize and simulate Islamic jurisprudential (Fiqh) rulings. Building upon recent set theoretic formalizations of al sabr wa al Taqsim that extract minimal operational rules as simple Horn clause logical programs, this work proves that the semantics of closed Fiqh chapters collapse completely to deterministic Finite State Automata (FSA). We establish a formal computational hierarchy, demonstrating that restricting formalizat",
+    "author": "Elnaserledinellah Mahmoud Abdelwahab",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2611.17235v1"
+    ]
+  },
+  {
+    "title": "Scalable Conversational Assessment: Chat-Based Exams with a Two-Agent LLM Pipeline",
+    "link": "http://arxiv.org/abs/2611.17220v1",
+    "published": "2026-11-12T18:16:37+00:00",
+    "summary": "Oral exams are compelling because (1) students can be asked to provide their reasoning for an answer and (2) their interactive nature permits follow-up questions to resolve ambiguous answers. But oral exams scale poorly. In this paper, we present scalable conversational assessment, an LLM-based system that conducts interactive text-based conversations with students to assess their ability to make and support an argument. We use a two-agent architecture to separate concerns and reduce the likelih",
+    "author": "Geoffrey Challen, Craig Zilles",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2611.17220v1"
+    ]
+  },
+  {
+    "title": "Introducing Feedback Delays to Non-Delayed Adversarial MDPs: Optimal $\\sqrt S$ and $\\sqrt K$ Dependencies in Tabular and Linear AMDPs",
+    "link": "http://arxiv.org/abs/2611.17214v1",
+    "published": "2026-11-12T18:10:46+00:00",
+    "summary": "We study regret minimization in episodic Adversarial Markov Decision Processes (AMDPs) with unknown transitions and bandit feedback. In tabular AMDPs with $S$ states, $A$ actions, and horizon $H$, the best known $K$-episode regret is $\\tilde O(HS\\sqrt{AK})$, whose $\\sqrt S$ gap to the $Ω(H\\sqrt{SAK})$ lower bound has long remained open. In linear AMDPs with $d$-dimensional features, after a five-year line of improvements starting from $K^{14/15}$, computationally efficient algorithms without a s",
+    "author": "Aarush Kulkarni, Khang Nguyen, William Chang, Yan Dai",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2611.17214v1"
+    ]
+  },
+  {
+    "title": "MALNISI-Infused Graph Construction and Weighted Contrastive Loss based GAT for Unsupervised Representation Learning in HSI",
+    "link": "http://arxiv.org/abs/2611.17199v1",
+    "published": "2026-11-12T18:02:53+00:00",
+    "summary": "Hyperspectral images (HSI) possess discriminating spectral characteristics with respect to land utilization due to high-dimensional information. Recently, unsupervised representation learning using graph neural networks has unveiled these utilization-specific complex spectral relations. This article has three main contributions. First, it proposes an index, the Mean Absolute Local Neighborhood Inverse Spectral Index (MALNISI), which measures the similarity between two pixels based on their neigh",
+    "author": "Soumi Sarkar, Subhadip Boral, Sarbani Palit, Ashish Ghosh",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2611.17199v1"
+    ]
+  },
+  {
     "title": "Google Search gets a major upgrade with Gemini 4 Hydrogen",
     "link": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/",
     "published": "2026-11-12T18:00:00+00:00",
@@ -190,186 +370,6 @@
     "category": "official",
     "references": [
       "https://blog.google/products-and-platforms/platforms/android/gemini-intelligence-november-features-devices/"
-    ]
-  },
-  {
-    "title": "Medical Image Segmentation: Foundation Model Adaptation versus Task-Specific Training",
-    "link": "http://arxiv.org/abs/2611.14519v1",
-    "published": "2026-11-10T18:59:54+00:00",
-    "summary": "Foundation models pretrained on large natural-image collections are increasingly adapted for medical image segmentation, in the expectation that they will replace models trained for each task. Most comparisons, however, use data from the training distribution and a single task-specific baseline whose configuration is rarely justified, and therefore provide limited evidence of performance at new clinical sites. It also remains unclear how much of a foundation model must be adapted, and what deter",
-    "author": "Emre Kutlusan, Yongmin Li",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2611.14519v1"
-    ]
-  },
-  {
-    "title": "Toward Foundation Detection Models via Example-Based Grounding in EM-DETR",
-    "link": "http://arxiv.org/abs/2611.14518v1",
-    "published": "2026-11-10T18:59:17+00:00",
-    "summary": "DeepLearning (DL)-based Computer-Aided Diagnostic (CAD) systems have shown great promise in supporting clinicians, but their performance heavily depends on the availability of large, well-annotated datasets. In medical lesion detection, the scarcity of comprehensive, stan dardized annotations and the heterogeneity of existing datasets limit the development of robust foundation models. In this work, we introduce a novel approach to building a multi-domain foundation model for le sion detection by",
-    "author": "Sheethal Bhat, Bogdan Georgescu, Awais Mansoor, Florin C. Ghesu, Sasa Grbic, Andreas Maier",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2611.14518v1"
-    ]
-  },
-  {
-    "title": "Contrastive Discovery: Open-Ended Scientific Discovery over Competing Explanations",
-    "link": "http://arxiv.org/abs/2611.14514v1",
-    "published": "2026-11-10T18:58:43+00:00",
-    "summary": "LLM agents are increasingly used for open-ended, data-driven scientific discovery, yet most of them evaluate hypotheses pointwise, testing an empirical claim $h$ only against its complement $\\neg h$. When evidence rejects $h$, the agent learns that one explanation is unlikely but not which alternative the evidence supports. To recover that alternative, we introduce Contrastive Discovery, which replaces the single hypothesis with a contrast set, a scientific question paired with mutually exclusiv",
-    "author": "Ziang Liu, James J. Kim, Yijia Dai, Jennifer J. Sun",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2611.14514v1"
-    ]
-  },
-  {
-    "title": "Comparative Analysis of Agent Evaluation Frameworks: Stability, Detection, and Discovery in Enterprise Analytics Agents",
-    "link": "http://arxiv.org/abs/2611.14493v1",
-    "published": "2026-11-10T18:50:06+00:00",
-    "summary": "Deploying LLM-based analytics agents in enterprise settings requires evaluation frameworks that can reliably detect failures across complex, multi-tool workflows. We present a three-phase comparative study of three evaluation frameworks, each representing a distinct evaluation paradigm (trace-based LLM judging, text-only LLM judging with red-teaming, and deterministic heuristics), applied to two analytics agents in a controlled research setting using frozen execution traces. Phase 1 quantifies e",
-    "author": "Howard Zhang, Chuck Arvin, Logan Brown, Mihir Bhatia, Neelu Choudhary, Lily Miao",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2611.14493v1"
-    ]
-  },
-  {
-    "title": "ReTrace: Distilling Tool-Using Agents into Planner-Free Workflows",
-    "link": "http://arxiv.org/abs/2611.14492v1",
-    "published": "2026-11-10T18:49:47+00:00",
-    "summary": "Business process automation runs the same Standard Operating Procedure (SOP) again and again on new inputs. Large Language Model (LLM) agents can follow an SOP written in natural language, but they call an LLM to choose every step of every run, which adds latency and cost at scale. We present ReTrace, which turns an SOP and a few logged agent runs into a reusable workflow in which code, not an LLM, selects the next step. The agent's reasoning, the explanation it writes with each tool call, often",
-    "author": "Kaiyuan Hou, Yang Ping Kuo, Indranil Bhattacharya, Rohith Nama, Arushi Gupta, Carlos D. Castillo, Prathap Ramachandra, Xiaofan Jiang, Francesco Carbone",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2611.14492v1"
-    ]
-  },
-  {
-    "title": "Re-Search: Dissecting LLM Ideation Through a Two-Player Questioning Game",
-    "link": "http://arxiv.org/abs/2611.14487v1",
-    "published": "2026-11-10T18:47:22+00:00",
-    "summary": "Research ideation is iterative: researchers refine their ideas step by step based on feedback. Yet existing evaluations obscure this search process, making it difficult to understand how LLMs explore the space of research ideas and what limits their progress. We introduce Re-Search, which adapts the format of Twenty Questions to research ideation: given only the research problem of a published paper, a model must rediscover the paper's core idea by asking yes-or-no questions. Built from 200 ICML",
-    "author": "Muhan Gao, Hangxiao Zhu, Xinqi Su, Yu Zhang, Daniel Khashabi, Kuan-Hao Huang",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2611.14487v1"
-    ]
-  },
-  {
-    "title": "One Policy for 100 Household Tasks: Our Solution for the 2026 BEHAVIOR Challenge",
-    "link": "http://arxiv.org/abs/2611.14432v1",
-    "published": "2026-11-10T18:06:16+00:00",
-    "summary": "We describe our solution for the 2026 BEHAVIOR Challenge: 100 long-horizon household tasks in the OmniGibson simulator. We placed 9th on the final leaderboard, the only independent team in the top 10. The core of the solution is a single vision-language-action (VLA) model, one checkpoint for all 100 tasks, built on our 1st-place 2025 solution, which is based on $π_{0.5}$. On the 50 tasks shared with 2025, its Q rises from 0.260 to 0.371; across all 100 tasks it scores 0.392. Our main conclusion ",
-    "author": "Ilia Larchenko, Gleb Zarin, Atindra Nair, Keerti Manney, Vitaly Kleban, Mirko Kiefer, Anjana Yodaiken",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2611.14432v1"
-    ]
-  },
-  {
-    "title": "Two Communities, One Problem: Branch-and-Bound vs. A* for Resource-Constrained Project Scheduling",
-    "link": "http://arxiv.org/abs/2611.14426v1",
-    "published": "2026-11-10T18:03:17+00:00",
-    "summary": "Branch-and-Bound (B&B) and $A^*$ are popular exact search methods originating from Operations Research and Artificial Intelligence, respectively. Although the two methods share fundamental search principles, their different ways of exploring the search space can lead to substantially different computational performance. We investigate these differences using the Resource-Constrained Project Scheduling Problem (RCPSP) as an exemplary problem setting. We first establish the relationships between m",
-    "author": "Izack Cohen, Dominik Kress, Lara Nehrke, Erwin Pesch, Shimrit Shtern",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2611.14426v1"
-    ]
-  },
-  {
-    "title": "Quantifying the Sampling Frequency Invariance of Time-Series Foundation Models for Sensor Data Applications",
-    "link": "http://arxiv.org/abs/2611.14425v1",
-    "published": "2026-11-10T18:01:23+00:00",
-    "summary": "Time-Series Foundation Models (TSFMs) are increasingly used in sensor applications, where sampling frequency (SF) varies across sensors, devices, and operating modes (e.g., power saving). Ideally, TSFMs must remain effective during such SF changes, provided the SF retains task-critical bandwidth. In this paper, we stress-test 4 prominent TSFMs: MOMENT, Chronos-2, Moirai-MoE, and TimesFM, to quantify their SF-invariance and investigate whether their behavior tracks the resulting loss of informati",
-    "author": "Sourish Gunesh Dhekane, Abinaya Kumar, Torsten Woertwein, Yan-Bo Lin, Thomas Ploetz, Shabnam Ghaffarzadegan",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2611.14425v1"
-    ]
-  },
-  {
-    "title": "Evaluating LLM-Generated World Models for Neuro-Symbolic Reasoning",
-    "link": "http://arxiv.org/abs/2611.14419v1",
-    "published": "2026-11-10T17:58:12+00:00",
-    "summary": "Formal world models can support planning, verification, and safety reasoning, but constructing them from open-ended natural-language situations is difficult, particularly in multi-agent settings where several formalizations may be plausible. We study whether five LLMs can generate such world models as partially observable stochastic games and whether mechanical validity is sufficient to establish that the resulting model faithfully represents the intended decision problem. We introduce a benchma",
-    "author": "Souhaila Djaffal, Amna Jamal, Gagana Madhugiri Devaraja, Anidipta Pal, Jobst Heitzig",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2611.14419v1"
-    ]
-  },
-  {
-    "title": "Precision on Demand: Escalating Weight Bits at Uncertain Decoding Steps in a Small Local Model",
-    "link": "http://arxiv.org/abs/2611.14418v1",
-    "published": "2026-11-10T17:57:51+00:00",
-    "summary": "Local decoding usually fixes one weight precision for the whole generation. We study a different allocation: store 8-bit weights, decode with their top 4 bits, and redo a step at 8 bits only when the low-precision output distribution looks uncertain (entropy above a threshold or a small top-two margin). Quantization is simulated, the model is Qwen3-0.6B, and the benchmark is GSM8K. Cost is counted in weight bytes read per token. On 36724 replayed steps the entropy of the low pass ranks argmax fl",
-    "author": "Mohammed Nayeem Khan, Logesh L, Aliyas Ahmad Misri",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2611.14418v1"
-    ]
-  },
-  {
-    "title": "Bits or permutations? Spending a fixed inference budget on weight precision or on option-order averaging in small local language models",
-    "link": "http://arxiv.org/abs/2611.14413v1",
-    "published": "2026-11-10T17:53:44+00:00",
-    "summary": "Local language models can save memory by storing weights in fewer bits, and they can reduce sensitivity to the order of answer options by averaging a few reorderings. We ask whether the first makes the second worse, and which is the cheaper way to spend a fixed budget. On Qwen3-0.6B and Qwen3-1.7B with simulated round-to-nearest weight quantization (8, 6, 4 and 3 bits, fp16 reference), read from the logits of the letters A to D on ARC-Easy, ARC-Challenge, MMLU and HellaSwag (300 items each), 6 b",
-    "author": "Mohammed Nayeem Khan, Logesh L, Aliyas Ahmad Misri",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2611.14413v1"
-    ]
-  },
-  {
-    "title": "Causal Concept Explanations for Deep Neural Models",
-    "link": "http://arxiv.org/abs/2611.14407v1",
-    "published": "2026-11-10T17:50:15+00:00",
-    "summary": "Concept-based explanations in neural models are important for the development, certification, and adoption of autonomous systems. Yet, interpretability remains correlational. Without methods to guide and quantify causal relationships between explanations, a concept explanation can be provided without being necessary or sufficient for the observed output thereby appearing correct while misleading. We introduce Causal Concept Wrapper Network (CCW-Net), the first use of interventional mediation ana",
-    "author": "Josh Rountree, Pulkit Verma, Oswin So, Chuchu Fan, Julie A. Shah",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2611.14407v1"
-    ]
-  },
-  {
-    "title": "Blurring the Block Boundaries: Overlapping Block Denoising for Efficient Diffusion Language Models",
-    "link": "http://arxiv.org/abs/2611.14387v1",
-    "published": "2026-11-10T17:40:24+00:00",
-    "summary": "Diffusion Language Models (DLMs) have emerged as effective alternatives to autoregressive models for latency-critical tasks, enabling faster token generation. Recent advances employ block diffusion with self-editing capabilities, where each block refines tokens iteratively before advancing to the next one. Yet each block is only as fast as its slowest token, and the next block cannot start before it. We suggest Blurring the Block Boundaries (B3), a novel method with which two blocks are refined ",
-    "author": "Amir Mann, Jonathan Fhima, Shaked Brody, Or Avitan, Asif Zamir, Shahar Tsiper, Niv Nayman",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2611.14387v1"
-    ]
-  },
-  {
-    "title": "An Energy-Based Perspective on Machine Learning",
-    "link": "http://arxiv.org/abs/2611.14383v1",
-    "published": "2026-11-10T17:37:22+00:00",
-    "summary": "Energy-based models (EBMs) define a distribution through a scalar energy, $p_θ(x)\\propto\\exp(-E_θ(x))$, and are usually presented as one model family among many. This tutorial has a broader goal: beyond introducing EBMs, it uses them as a single lens that connects the different aspects of machine learning. Any EBM is specified by three choices, the energy, which determines what the model represents; the inference procedure, which samples from or optimizes the energy; and the learning method, whi",
-    "author": "Bo Dai, Yilun Du",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2611.14383v1"
     ]
   },
   {
