@@ -24,6 +24,187 @@
     ]
   },
   {
+    "title": "WeightBench: Evaluating Language Models as Weight-Space Programmers",
+    "link": "http://arxiv.org/abs/2611.18553v1",
+    "published": "2026-11-13T18:58:08+00:00",
+    "summary": "Recent work shows that large language models (LLMs) can operate directly on the parameters of other neural networks. They can read what a network was trained to do, fix a network that fails, and write working networks from scratch, all without gradient descent. This capability has been termed Weight-Space Programming (WSP). Exploring this new paradigm systematically requires a robust benchmark. We introduce WEIGHTBENCH, a benchmark that evaluates LLMs of increasing capability on 42 WSP tasks acr",
+    "author": "Aayush Marasini, Barsat Khadka, Nick Rahimi",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "https://github.com/Aayush-Marasini/WeightBench",
+      "http://arxiv.org/abs/2611.18553v1"
+    ]
+  },
+  {
+    "title": "Imitation Bootstrapped Multi-Agent Reinforcement Learning",
+    "link": "http://arxiv.org/abs/2611.18543v1",
+    "published": "2026-11-13T18:50:05+00:00",
+    "summary": "Demonstrations are an effective way to accelerate single-agent reinforcement learning (RL), but extending this idea to multi-agent reinforcement learning (MARL) is non-trivial as it is difficult and often impossible for a single person to teleoperate multiple agents simultaneously. Round-Robin Behavior Cloning (R2BC) addresses this by letting a single demonstrator control one agent at a time while the others execute their current policies. However, the resulting imitation policies are limited by",
+    "author": "Tony H. Zhang, Connor Mattson, Daniel S. Brown",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2611.18543v1"
+    ]
+  },
+  {
+    "title": "Elliptic Sampling: Optimal Interpolant Schedules for Gaussians and Beyond",
+    "link": "http://arxiv.org/abs/2611.18542v1",
+    "published": "2026-11-13T18:49:36+00:00",
+    "summary": "Generative modeling based on stochastic interpolants requires specifying two key choices: an interpolant schedule bridging the initial and target distributions, and an efficient discretization of the resulting probability-flow ODE. In this work, we introduce a new framework for joint schedule/discretization design based on the analyticity properties of the (complexified) ODE trajectories, which in turn ensure good numerical behavior. Our formulation can be solved exactly via conformal mapping, y",
+    "author": "Cole Becker, Taylan Kargin, Kimia Hassibi, Asuman Ozdaglar, Pablo A. Parrilo",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2611.18542v1"
+    ]
+  },
+  {
+    "title": "ModHarness-RL: Recasting Harnesses as Learnable and Evolving Programs for Agentic RL",
+    "link": "http://arxiv.org/abs/2611.18533v1",
+    "published": "2026-11-13T18:45:49+00:00",
+    "summary": "Agentic reinforcement learning (RL) increasingly relies on a harness, the scaffold around the model that decides what it sees of its own interaction and what guidance it receives. Most existing approaches train under a hand-written harness that stays fixed throughout. However, an effective harness depends on the domain, the data and the model, and keeps changing as the model trains. We introduce ModHarness-RL, which recasts the harness as programs that are learned from data and evolve as the mod",
+    "author": "Zelin He, Siyu Zhu, Jacob Helwig, Yujian Liu, Li An, Rohit Jain, Shiyu Chang, Alborz Geramifard",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2611.18533v1"
+    ]
+  },
+  {
+    "title": "Alignment by Socialization: Learning Tradeoffs Under Selection",
+    "link": "http://arxiv.org/abs/2611.18531v1",
+    "published": "2026-11-13T18:43:24+00:00",
+    "summary": "Artificial intelligence (AI) agents are expected to complete tasks while following rules of conduct, but these objectives can conflict. We study how evolutionary selection shapes an agent's choices between them, and whether experience can make those choices reflect human judgments and withstand subsequent pressures. In our model, copies of an agent face a common uncertain reward state, and only those taking the rewarded action reproduce. We show that long-run growth is maximized when each action",
+    "author": "Thomas Brennan, Andrew W. Lo, Chaoyi Zhao",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2611.18531v1"
+    ]
+  },
+  {
+    "title": "Can Mechanistic Interpretability Help Explain LLM Agent Failures? A Case Study on Web Element Hallucination",
+    "link": "http://arxiv.org/abs/2611.18514v1",
+    "published": "2026-11-13T18:30:58+00:00",
+    "summary": "Mechanistic Interpretability (MI) has made significant progress in explaining the internal computations of Large Language Models (LLMs); however, these advances have yet to demonstrate comparable success in explaining the decision-making processes of LLM-based agents. This paper examines the challenges MI tools face when applied to realistic agentic failures. We focus on one such failure: web agents hallucinating actions that are not available on a website. We apply a series of mechanistic analy",
+    "author": "Mohamed Aghzal, Mor Geva, Gregory J. Stein, Ziyu Yao",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2611.18514v1"
+    ]
+  },
+  {
+    "title": "MeReader: An Offline, Privacy-Preserving, Progress-Aware AI Assistant for Narrative eBook Reading",
+    "link": "http://arxiv.org/abs/2611.18513v1",
+    "published": "2026-11-13T18:29:51+00:00",
+    "summary": "This paper introduces MeReader, a privacy-preserving, offline and progress-aware AI assistant designed to function as a contextual companion for narrative reading on consumer hardware. Unlike conventional Large Language Model (LLM)-based systems that process documents/books online in an all-texts-at-once type of way, thereby risking narrative spoilers, MeReader confines both retrieval and generation to the reader's distinct position in the text. The system integrates a hybrid retrieval architect",
+    "author": "Mohammed Efaz, Udo Bub, Itilekha Podder",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2611.18513v1"
+    ]
+  },
+  {
+    "title": "Agentic AI for Discovering Fault-Tolerant Quantum Circuits",
+    "link": "http://arxiv.org/abs/2611.18504v1",
+    "published": "2026-11-13T18:20:23+00:00",
+    "summary": "Scaling quantum computing toward practical quantum advantage is currently limited by the efficiency of circuits that operate on information encoded by quantum error-correcting codes. The full stack of quantum computing encompasses several tasks: preparation of logical code states, implementation of logical gates, logical routines on encoded qubits, etc. Yet, these circuits are largely designed by hand for individual cases, with some recent works incorporating machine learning for certain aspects",
+    "author": "Aritra Lahiri, Florian Marquardt",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2611.18504v1"
+    ]
+  },
+  {
+    "title": "ARCHER: From Rationale Imitation to Executable Reasoning in Small Language Models",
+    "link": "http://arxiv.org/abs/2611.18494v1",
+    "published": "2026-11-13T18:05:33+00:00",
+    "summary": "Small language models are attractive for local, low-cost, and privacy-sensitive deployment, but they remain unreliable on mathematical reasoning tasks that require decomposition, exact computation, tool use, and verification. We introduce \\textbf{ARCHER}: \\textbf{A}ction-trace \\textbf{R}einforcement for \\textbf{C}alculator-grounded \\textbf{H}ierarchical \\textbf{E}xecutable \\textbf{R}easoning, a two-stage framework for training small language models (SLMs) to produce executable and auditable reas",
+    "author": "Dhruv Dixit, Khushi Patel, Congcong Xu, Min Song",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2611.18494v1"
+    ]
+  },
+  {
+    "title": "TradeGauntlet: Evaluating Compliance Controls for Autonomous Trading Agents",
+    "link": "http://arxiv.org/abs/2611.18493v1",
+    "published": "2026-11-13T18:05:23+00:00",
+    "summary": "Autonomous trading agents need controls that prevent problematic orders without making legitimate tasks impractical. We study this aspect of agentic compliance with TradeGauntlet, a replayable limit-order-book simulator that separates detection, prevention, and execution cost. In 1,680 simulated sessions with Claude Haiku 5.5 and Sonnet 5.5, all conduct alerts were self-matches. Gates eliminated those alerts by rejecting self-crossing orders, while the aggregate-gate condition reduced Sonnet's t",
+    "author": "Sandip Nandi, Aishwarya Bose, Apurba Bose, Soovadeep Bakshi",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2611.18493v1"
+    ]
+  },
+  {
+    "title": "Interactive Program Induction with Language Model Priors",
+    "link": "http://arxiv.org/abs/2611.18485v1",
+    "published": "2026-11-13T17:59:55+00:00",
+    "summary": "Program induction refers to the process in which a learner aims to recover a program from a few given input-output examples. This paradigm broadens programming access by letting users demonstrate the rule-based behavior they want to apply to unseen data, instead of having to implement it themselves. However, recovering a program from finite input-output examples is fundamentally ambiguous, as a finite set of input-output examples is theoretically consistent with infinitely many programs whose ou",
+    "author": "Robin Shing Moon Chan, Ryan Cotterell",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2611.18485v1"
+    ]
+  },
+  {
+    "title": "From AI-Enabled Remote Patient Monitoring Toward Agentic Robotics: Embodiment, Governance, and Care Integration",
+    "link": "http://arxiv.org/abs/2611.18484v1",
+    "published": "2026-11-13T17:59:40+00:00",
+    "summary": "AI-enabled remote patient monitoring is evolving beyond passive data collection toward agentic AI systems that interpret patient states, coordinate care, and initiate action across domestic and clinical settings. This structured scoping review finds that mature agentic care has not yet emerged: Most systems remain human led, while stronger decision-action coupling and embodied AI remain largely confined to prototypes and pilots. Healthcare robotics makes the transition from monitoring to action ",
+    "author": "Ivana Ragusa, Lorenzo Guiducci, Filippo Cavallo",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2611.18484v1"
+    ]
+  },
+  {
+    "title": "Do Verifier Judgments Survive Abstraction? Measuring Verification Transport for LLM Agent Evaluation",
+    "link": "http://arxiv.org/abs/2611.18471v1",
+    "published": "2026-11-13T17:44:01+00:00",
+    "summary": "LLM-based verifiers are increasingly used to evaluate agent executions, but their reliability is typically measured under a single representation of the trajectory. In deployed agent systems, the same execution may be exposed through composed tools, delegation boundaries, or compacted histories, changing what execution evidence is directly observable to the verifier. It therefore remains unclear whether correct verifier judgments persist across such abstraction boundaries. We introduce Verificat",
+    "author": "Disha Sheshanarayana, Sai Linisha Reddy Goli",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2611.18471v1"
+    ]
+  },
+  {
+    "title": "Typing Matters: Muscle, Language and Typing Behaviour in Live Keystroke Decoding from sEMG",
+    "link": "http://arxiv.org/abs/2611.18464v1",
+    "published": "2026-11-13T17:33:20+00:00",
+    "summary": "Surface electromyography (sEMG) from the wrists can recover typed text without a keyboard. It is usually posed as a signal-inference problem: characters are read out of the muscle signal and character error rate is reported offline. We argue that this framing removes most of the problem. The decoder is constrained simultaneously by the muscles, by the language being typed, and by typing behaviour such as typos, corrections, backspaces and line breaks, and a usable system must predict keys live w",
+    "author": "Abhilash Durgam, Nyle Siddiqui, Mubarak Shah, Qiushi Fu",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2611.18464v1"
+    ]
+  },
+  {
+    "title": "When to Trust Simulated Patient Responses:Support-Gated World Models for Vasopressor Decision Support",
+    "link": "http://arxiv.org/abs/2611.18458v1",
+    "published": "2026-11-13T17:28:25+00:00",
+    "summary": "Clinical world models expose language-model agents to predicted patient responses, but simulations can be unreliable for poorly supported treatments or unfamiliar hospitals. We introduce Support-Gated World-Model decision support, a lightweight extension of a propose--simulate--refine agent. A recurrent dynamics ensemble predicts short-horizon physiological responses to documented norepinephrine dose categories, while a behavior model estimates observational action support. The interface withhol",
+    "author": "Yifan Jin, Tao Liu",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2611.18458v1"
+    ]
+  },
+  {
     "title": "Introducing ChatGPT Wallet",
     "link": "https://openai.com/index/introducing-chatgpt-wallet",
     "published": "2026-11-13T15:00:00+00:00",
@@ -105,186 +286,6 @@
     "category": "official",
     "references": [
       "https://openai.com/business/customer-stories/amplitude"
-    ]
-  },
-  {
-    "title": "AgentSSL: Can MLE Agents Leverage Unlabeled Data?",
-    "link": "http://arxiv.org/abs/2611.17323v1",
-    "published": "2026-11-12T18:59:06+00:00",
-    "summary": "Applying machine learning systems to new domains introduces bottlenecks in both labeled data acquisition and manual pipeline engineering. While recent MLE agents show promise in automating pipeline design, they have been studied almost exclusively in fully supervised settings, leaving them untested in realistic regimes where labeled data is scarce but unlabeled data is abundant. In this work, we introduce Agentic Semi-Supervised Learning (AgentSSL), framing SSL as a program search problem and st",
-    "author": "Ethan Lin, Akanksha Sarkar, Ziang Liu, Kristin Branson, Jennifer J. Sun",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2611.17323v1"
-    ]
-  },
-  {
-    "title": "CoReMem: Cost-Internalizing Memory for Successive Coding Tasks with Prospective Valuation",
-    "link": "http://arxiv.org/abs/2611.17316v1",
-    "published": "2026-11-12T18:58:22+00:00",
-    "summary": "Coding agents tackle successive tasks on an evolving repository, carrying forward edits and writing memory before the next task is known. Selecting memory for unknown next tasks requires balancing future usefulness against the costs of writing and reading it. The actor must also decide when acting on available memory saves effort as the task unfolds. We introduce Coding-Repository Memory (CoReMem), a cost-internalizing framework that guides memory design and actor adaptation through measured mem",
-    "author": "Peiwen Li, Harshit Verma, Sophia Zhou, Haiwen Wang, Ngoc Bui, Heng Chang, Fei Fei, David van Dijk, Rex Ying",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2611.17316v1"
-    ]
-  },
-  {
-    "title": "Sketching Language Models for Context Attribution",
-    "link": "http://arxiv.org/abs/2611.17313v1",
-    "published": "2026-11-12T18:57:48+00:00",
-    "summary": "Context attribution asks how removing parts of a prompt changes a language model's output. We study leave-one-out (LOO) attribution for a prompt of $n$ tokens and a fixed measurement function. Computing all LOO values directly requires $n$ model evaluations. Under a stability assumption, our algorithm estimates all LOO values to error proportional to $\\varepsilon$ with constant probability using $O(\\sqrt{\\log(1/\\varepsilon)}/\\varepsilon)$ evaluation calls. To complement our upper bound, we prove",
-    "author": "Christopher Liaw, Aranyak Mehta, Grigoris Velegkas, Felix Zhou",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2611.17313v1"
-    ]
-  },
-  {
-    "title": "Classical Energies Learn to Reason 1,000x Faster than Looped Models",
-    "link": "http://arxiv.org/abs/2611.17309v1",
-    "published": "2026-11-12T18:56:56+00:00",
-    "summary": "Looped models have emerged as a prominent paradigm for reasoning, with successes on simple reasoning puzzles such as Sudoku-Extreme and Maze-Unique. However, these models can be unstable, slow to train, and use many parameters and FLOPs to solve simple puzzles. Descent on an energy not only mitigates these issues but also offers advantages: built-in early stopping, compute that adapts to problem difficulty, fast training without differentiating through a solver, and interpretable weights that le",
-    "author": "Benjamin Hoover, Hugh Blayney, James C. R. Whittington",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2611.17309v1"
-    ]
-  },
-  {
-    "title": "Consistent Video-to-Video Translation via Explicit Correspondences",
-    "link": "http://arxiv.org/abs/2611.17298v1",
-    "published": "2026-11-12T18:55:09+00:00",
-    "summary": "Interactive video-to-video applications require real-time generation while maintaining long-range temporal consistency. However, recent methods achieve speed by restricting attention to a fixed-length causal window. This limits long-range consistency whenever relevant history falls outside the context window. To address this limitation, we introduce vid2vid-long, a correspondence-based approach grounded in a simple observation. Video-to-video translation provides an explicit cross-frame referenc",
-    "author": "Gaurav Parmar, Zhengqi Li, Richard Zhang, Jun-Yan Zhu, Srinivasa Narasimhan, Eli Shechtman, Yotam Nitzan",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2611.17298v1"
-    ]
-  },
-  {
-    "title": "Goal Encoding in LLMs",
-    "link": "http://arxiv.org/abs/2611.17297v1",
-    "published": "2026-11-12T18:55:06+00:00",
-    "summary": "We investigate whether and how LLMs encode goals: internal neural representations that precede and guide action, and that are flexible enough to be realized through many different execution paths. We construct a coding setting with multiple sub-tasks that allows us to evaluate goal-seeking behavior and the selection of sub-goals. In this setting, we localize an encoding of the next sub-goal in the outputs of a sparse set of attention heads. The same heads can be used to decode the LM's future ac",
-    "author": "Arnab Sen Sharma, Eric Todd, Sheridan Feucht, Andy Arditi, Rohit Gandikota, Natalie Shapira, Gabriele Sarti, Constanza Fierro, Lisa Schut, David Bau",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2611.17297v1"
-    ]
-  },
-  {
-    "title": "Metal Sandbox: Isolated Execution and Command Scheduling for GPU Coding Agents on Apple Silicon",
-    "link": "http://arxiv.org/abs/2611.17294v1",
-    "published": "2026-11-12T18:54:42+00:00",
-    "summary": "On-device inference requires kernels that make effective use of local accelerators. Efficient training and evaluation of models that generate Apple Metal kernels benefit from native macOS tools and concurrent agent sessions. These sessions alternate between model requests, development commands, and GPU execution, leaving GPU capacity idle for much of a rollout. We present Metal Sandbox, infrastructure that combines restricted per-instance file access, native command execution, and command-level ",
-    "author": "Haozhe Wang, Lina Chen, Fanqi Wan, Qi Han, Yinmin Zhang, Zheng Ge, Daxin Jiang, Junchi Yan",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2611.17294v1"
-    ]
-  },
-  {
-    "title": "Synthesis Smuggling: Maliciously Hiding Inferred Personal Attributes in LLM Outputs",
-    "link": "http://arxiv.org/abs/2611.17280v1",
-    "published": "2026-11-12T18:51:05+00:00",
-    "summary": "We propose Synthesis Smuggling, a novel threat model in which an adversarial LLM infers sensitive information about a user from routine assistance-seeking interactions and steganographically encodes that into innocuous-looking model-generated content. The user may then unknowingly transmit that information by sharing the generated artifact, say as an email, social-media post, or message, through ordinary communication channels. An adversary monitoring these channels can discover this information",
-    "author": "Gautam Galada, Supreeth Shastri, Sagnik Ray Choudhury",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2611.17280v1"
-    ]
-  },
-  {
-    "title": "LiveGeo: Benchmarking Geographic Agents in Continuously Evolving Worlds",
-    "link": "http://arxiv.org/abs/2611.17267v1",
-    "published": "2026-11-12T18:45:58+00:00",
-    "summary": "We introduce GeoWorld, a controllable and continuously evolving geographic environment platform for LLM agents, and LiveGeo, a benchmark for evaluating reliable decision-making in real-world geographic environments using GeoWorld. Unlike existing evaluations that largely reason and plan over fixed geographic states, GeoWorld is grounded in real-world geographic structure and allows external world states to evolve along their own temporal processes while preserving verifiable state histories. Liv",
-    "author": "Pengcheng Zhou, Xuanyu Liu, Yanchen Yin, Tianjie Ju, Bobo Li, Shengqiong Wu, Hao Fei, Mong-Li Lee, Wynne Hsu",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2611.17267v1"
-    ]
-  },
-  {
-    "title": "Ballad: Bandit-Based LLM Routing for Automated Heuristic Discovery",
-    "link": "http://arxiv.org/abs/2611.17241v1",
-    "published": "2026-11-12T18:28:08+00:00",
-    "summary": "Modern automated heuristic discovery (AHD) systems increasingly rival hand-crafted heuristics by leveraging Large Language Models (LLMs) to iteratively mutate and refine solutions. A natural assumption is that more powerful and more expensive models consistently yield better heuristics. We challenge this empirically: across multiple NP-hard combinatorial optimization problems, we find no consistent advantage for larger, costlier models. This raises a deeper question: given a pool of LLMs spannin",
-    "author": "Samidha Verma, Ankit Anand, Sayan Ranu",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2611.17241v1"
-    ]
-  },
-  {
-    "title": "When Both Sides Adapt: The Challenges of Evaluating Interactive LLM Systems",
-    "link": "http://arxiv.org/abs/2611.17239v1",
-    "published": "2026-11-12T18:26:51+00:00",
-    "summary": "In interactive systems where users engage with LLMs, users are adaptive and, after observing LLM responses, can change their prompting strategy, as well as the type and difficulty of subsequent tasks. Thus model responses can influence the set of prompts on which the model is subsequently evaluated. We study the implications of this user adaptivity and prompt endogeneity for the evaluation of LLMs. We define two classes of estimands for comparing models: the common-distribution effect, which com",
-    "author": "Hannah Li",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2611.17239v1"
-    ]
-  },
-  {
-    "title": "Al-Ghasali: A Computational Framework for Simulating Islamic Jurisprudential Rulings via Finite State Automata and Large Language Models",
-    "link": "http://arxiv.org/abs/2611.17235v1",
-    "published": "2026-11-12T18:23:56+00:00",
-    "summary": "This paper presents Al Ghasali, a computational framework designed to formalize and simulate Islamic jurisprudential (Fiqh) rulings. Building upon recent set theoretic formalizations of al sabr wa al Taqsim that extract minimal operational rules as simple Horn clause logical programs, this work proves that the semantics of closed Fiqh chapters collapse completely to deterministic Finite State Automata (FSA). We establish a formal computational hierarchy, demonstrating that restricting formalizat",
-    "author": "Elnaserledinellah Mahmoud Abdelwahab",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2611.17235v1"
-    ]
-  },
-  {
-    "title": "Scalable Conversational Assessment: Chat-Based Exams with a Two-Agent LLM Pipeline",
-    "link": "http://arxiv.org/abs/2611.17220v1",
-    "published": "2026-11-12T18:16:37+00:00",
-    "summary": "Oral exams are compelling because (1) students can be asked to provide their reasoning for an answer and (2) their interactive nature permits follow-up questions to resolve ambiguous answers. But oral exams scale poorly. In this paper, we present scalable conversational assessment, an LLM-based system that conducts interactive text-based conversations with students to assess their ability to make and support an argument. We use a two-agent architecture to separate concerns and reduce the likelih",
-    "author": "Geoffrey Challen, Craig Zilles",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2611.17220v1"
-    ]
-  },
-  {
-    "title": "Introducing Feedback Delays to Non-Delayed Adversarial MDPs: Optimal $\\sqrt S$ and $\\sqrt K$ Dependencies in Tabular and Linear AMDPs",
-    "link": "http://arxiv.org/abs/2611.17214v1",
-    "published": "2026-11-12T18:10:46+00:00",
-    "summary": "We study regret minimization in episodic Adversarial Markov Decision Processes (AMDPs) with unknown transitions and bandit feedback. In tabular AMDPs with $S$ states, $A$ actions, and horizon $H$, the best known $K$-episode regret is $\\tilde O(HS\\sqrt{AK})$, whose $\\sqrt S$ gap to the $Ω(H\\sqrt{SAK})$ lower bound has long remained open. In linear AMDPs with $d$-dimensional features, after a five-year line of improvements starting from $K^{14/15}$, computationally efficient algorithms without a s",
-    "author": "Aarush Kulkarni, Khang Nguyen, William Chang, Yan Dai",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2611.17214v1"
-    ]
-  },
-  {
-    "title": "MALNISI-Infused Graph Construction and Weighted Contrastive Loss based GAT for Unsupervised Representation Learning in HSI",
-    "link": "http://arxiv.org/abs/2611.17199v1",
-    "published": "2026-11-12T18:02:53+00:00",
-    "summary": "Hyperspectral images (HSI) possess discriminating spectral characteristics with respect to land utilization due to high-dimensional information. Recently, unsupervised representation learning using graph neural networks has unveiled these utilization-specific complex spectral relations. This article has three main contributions. First, it proposes an index, the Mean Absolute Local Neighborhood Inverse Spectral Index (MALNISI), which measures the similarity between two pixels based on their neigh",
-    "author": "Soumi Sarkar, Subhadip Boral, Sarbani Palit, Ashish Ghosh",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2611.17199v1"
     ]
   },
   {
