@@ -1,5 +1,78 @@
 [
   {
+    "title": "Ambient LLMs: Data-Efficient Supervised Fine-tuning via Temperature Matching",
+    "link": "http://arxiv.org/abs/2611.23229v1",
+    "published": "2026-11-17T18:59:37+00:00",
+    "summary": "Collecting large-scale, diverse, and high-quality post-training datasets for autoregressive language models is challenging. Consequently, Supervised Fine-Tuning (SFT) is typically applied to datasets significantly smaller than those used for pre-training, which leads to overfitting and the catastrophic forgetting of the tails of the data distribution. To prevent this collapse, we introduce Ambient SFT, a principled framework for leveraging imperfect predictions to augment the fine-tuning set. In",
+    "author": "Giannis Daras, Marios Papachristou, Adam Klivans, Antonio Torralba, Constantinos Daskalakis",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2611.23229v1"
+    ]
+  },
+  {
+    "title": "StringQFT: A Multiuse Textbook Resource for AI-Assisted Theoretical Physics",
+    "link": "http://arxiv.org/abs/2611.23225v1",
+    "published": "2026-11-17T18:58:40+00:00",
+    "summary": "We present StringQFT as a textbook collection for string constructions of quantum field theory and as infrastructure for AI-assisted theoretical physics. The collection comprises 18 volumes, 190 chapters and 3,795 pages, covering brane probes, brane webs, geometric engineering, F-theory constructions, wrapped M5-branes and exact worldsheet constructions. Its open-book benchmark inventory contains 1,073 items, including 499 with automatic finite-answer checking. For retrieval-augmented generation",
+    "author": "Xingyang Yu",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "https://github.com/xingyang-yu/StringQFT",
+      "http://arxiv.org/abs/2611.23225v1"
+    ]
+  },
+  {
+    "title": "Do LLM Agents Still Need to Be Told How to Self-Improve?",
+    "link": "http://arxiv.org/abs/2611.23219v1",
+    "published": "2026-11-17T18:57:10+00:00",
+    "summary": "LLM agents increasingly drive their own learning. Self-improvement methods delegate various components of model optimization to the models themselves. As models become more capable, this motivates a basic question: do these increasingly capable models still need us to specify how they should self-improve? In this paper we study an autonomous paradigm in which, given basic primitives, resources, and a general goal for self-improvement, agents construct their own self-learning algorithm for contex",
+    "author": "Shobhita Sundaram, Cansu Sancaktar, Phillip Isola",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2611.23219v1"
+    ]
+  },
+  {
+    "title": "Higher-Scoring Coding Models Did Not Get More Work Done",
+    "link": "http://arxiv.org/abs/2611.23216v1",
+    "published": "2026-11-17T18:56:42+00:00",
+    "summary": "New coding models advertise themselves on score improvements of coding benchmarks. Yet no study has tested if a model that scores higher on these benchmarks gets more real work done. On June 12, 2026, a U.S. export control directive banned access to Claude Fable 5 for 19 days, which forced users to switch to other models. During this time, most former Fable 5 users switched to Opus 4.8 (11 points lower on SWE-Bench Pro compared to Fable 5). We treat this suspension as a natural experiment, where",
+    "author": "Yining Hua",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2611.23216v1"
+    ]
+  },
+  {
+    "title": "Reading Scene States: Uncovering Safety Failures in Vision-Language Models",
+    "link": "http://arxiv.org/abs/2611.23206v1",
+    "published": "2026-11-17T18:48:02+00:00",
+    "summary": "Vision-language models (VLMs) can provide harmful assistance by interpreting visual events, even without an explicit request for the underlying harmful objective. We identify this \\textbf{scene-state safety vulnerability} and introduce \\textbf{SceneSafetyBench}, comprising 375 image--question pairs spanning Initial, Medium, and Ultimate scene states and five visual presentations. Across eight VLMs, scene-state inputs elicit harmful assistance with attack success rates (ASRs) of 45.6--72.3\\%. Com",
+    "author": "Tongxi Wu, Yuyang Cheng, Jiacheng Xian, Menglin Yang, Kai Chen, Jian Zhang, Yang Gao",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2611.23206v1"
+    ]
+  },
+  {
+    "title": "Fine-Tuning Gemma 4 Edge Models for MATLAB Signal-Processing Code with SFT and QLoRA on a Laptop iGPU",
+    "link": "http://arxiv.org/abs/2611.23205v1",
+    "published": "2026-11-17T18:47:37+00:00",
+    "summary": "Small language models that run on a laptop are attractive for writing signal-processing code offline, but they make systematic errors on digital signal processing (DSP) conventions. We apply supervised fine-tuning (SFT) to the Gemma 4 edge models E2B and E4B with 66 checked examples covering 11 signal-processing MATLAB subtasks, using low-rank adaptation (LoRA) and quantized LoRA (QLoRA) on the integrated GPU (iGPU) of a laptop, and deploy the 8-bit integer (int8) models with the adapters throug",
+    "author": "Mehmet Altan Toksöz",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2611.23205v1"
+    ]
+  },
+  {
     "title": "Roundtables: Inside the Quest for Cognitive Immortality",
     "link": "https://www.technologyreview.com/2026/11/17/1148049/roundtables-inside-the-quest-for-cognitive-immortality/",
     "published": "2026-11-17T18:46:47+00:00",
@@ -9,6 +82,116 @@
     "category": "media",
     "references": [
       "https://www.technologyreview.com/2026/11/17/1148049/roundtables-inside-the-quest-for-cognitive-immortality/"
+    ]
+  },
+  {
+    "title": "Agent Trust Infrastructure (ATI): A Federated Identity, Trust, Attestation, and Accountability Architecture for Cross-Organization Autonomous AI Agents",
+    "link": "http://arxiv.org/abs/2611.23202v1",
+    "published": "2026-11-17T18:44:25+00:00",
+    "summary": "AI agents increasingly collaborate across organizational boundaries, invoking tools and interacting with agents operated by independent entities. Although existing agent frameworks support planning and coordination, they lack a common mechanism for verifying cross-organizational agent identity, execution integrity, and authorization. We propose the Agent Trust Infrastructure (ATI), a framework-independent security architecture built on Public Key Infrastructure (PKI), Zero Trust Architecture (ZT",
+    "author": "Viet K. Nguyen, Mohammad I. Husain",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2611.23202v1"
+    ]
+  },
+  {
+    "title": "Structure--Residual Inductive Biases for Language Model Pretraining",
+    "link": "http://arxiv.org/abs/2611.23197v1",
+    "published": "2026-11-17T18:38:27+00:00",
+    "summary": "Next-token prediction is relied upon to learn both predictive behavior and internal representations. We ask whether representation structure itself should be an explicit inductive bias. Motivated by the two-part coding view of Kolmogorov complexity, we study a structure--residual principle in which a representation separates structure from realization detail. We instantiate this principle in two complementary ways. Boundary Bottleneck Concept (BBC) routes information from token segments through ",
+    "author": "Hai Huang, Bartosz Żuk, Rassul Magauin, Jiaxin Huang, Xue Liu",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "https://github.com/haihuang-ml/structure-residual",
+      "http://arxiv.org/abs/2611.23197v1"
+    ]
+  },
+  {
+    "title": "WoRD: Diffusion-Based Posterior Inference for Online Goal Recognition",
+    "link": "http://arxiv.org/abs/2611.23192v1",
+    "published": "2026-11-17T18:35:53+00:00",
+    "summary": "Goal recognition is the task of inferring an agent's intended goal from its observed behavior. Most existing work focuses on high-level symbolic recognition, abstracting away the continuous motion through which agents reach their goal. Methods that do reason over continuous trajectories rely on an explicit dynamics model that is hard to acquire and rarely transfers across settings. Neither approach explicitly learns how agents move toward each candidate goal, limiting accuracy on ambiguous traje",
+    "author": "Almog Anschel, Sarah Keren",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2611.23192v1"
+    ]
+  },
+  {
+    "title": "Retrieval-Augmented Correction for Generalist Medical Image Segmentation",
+    "link": "http://arxiv.org/abs/2611.23189v1",
+    "published": "2026-11-17T18:33:42+00:00",
+    "summary": "Automated segmentation is routinely used as the first step in quantitative image-based clinical workflows, where predicted masks are subsequently reviewed and corrected by human operators. Automated correction of the residual structural errors is currently addressed one anatomy at a time, so the number of trained correctors scales with the number of segmentation targets. We present GRACE, a retrieval-augmented refiner that edits an input mask under context drawn from a shared knowledge base of v",
+    "author": "Vincenzo Marcianò, Xiaoming Zhang, Michela Antonelli, Sebastien Ourselin, Maria A Zuluaga",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "https://github.com/robustml-eurecom/grace",
+      "http://arxiv.org/abs/2611.23189v1"
+    ]
+  },
+  {
+    "title": "Say Less, Hallucinate Less? Diagnosing and Restoring Object Coverage in Preference-Optimized Vision-Language Models",
+    "link": "http://arxiv.org/abs/2611.23179v1",
+    "published": "2026-11-17T18:24:58+00:00",
+    "summary": "Preference optimization (PO) is the standard way to reduce object hallucination in large vision-language models. We find that four public PO checkpoints of LLaVA-1.5-7B also lower object coverage. They name fewer object categories, and their lower hallucination rates bring no significant gain in set-level object F1 on CHAIR. We therefore ask how much of the PO gain the base model can reproduce by stopping earlier. A positive end-of-sequence (EOS) logit bias lets the base model reach the recall o",
+    "author": "Hansang Lee",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2611.23179v1"
+    ]
+  },
+  {
+    "title": "Inference after coding agents",
+    "link": "http://arxiv.org/abs/2611.23174v1",
+    "published": "2026-11-17T18:22:01+00:00",
+    "summary": "Empirical research is changing rapidly as AI coding agents are becoming increasingly proficient in every step of it, from writing code to manipulating data. We argue that while the potential of coding agents for science is vast, their use in hypothesis testing poses a substantial threat to classical inference, as these agents enable a supercharged form of selective inference. In particular, we argue that coding agents carrying out empirical research introduce a new type of post-selection inferen",
+    "author": "Florian Gunsilius, David Van Dijcke, Kaspar Wüthrich",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2611.23174v1"
+    ]
+  },
+  {
+    "title": "Attribution Through the Decoder: Prediction-Space Explanations for Structured Outputs",
+    "link": "http://arxiv.org/abs/2611.23161v1",
+    "published": "2026-11-17T18:13:50+00:00",
+    "summary": "Networks that predict angles, gaze directions, and rotations do not output these quantities directly: they emit raw coordinates that a fixed decoder, such as normalization, maps to the final prediction. Attribution methods are usually applied to the raw coordinates, so they can credit inputs for changes the decoder discards, such as rescaling a vector when only its direction matters. The resulting explanation can highlight inputs that have no effect on the prediction. We instead attribute throug",
+    "author": "Zaer Bin Zaqy, Brinnae Bent",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2611.23161v1"
+    ]
+  },
+  {
+    "title": "Learning Stratified Policies for Inference-Time Objectives",
+    "link": "http://arxiv.org/abs/2611.23154v1",
+    "published": "2026-11-17T18:06:12+00:00",
+    "summary": "Inference-time scaling improves the performance of large language models by sampling multiple responses and evaluating their collective utility. However, many existing approaches obtain these samples by repeatedly sampling from a single policy. In this work, we study if the sample budget at inference time can instead be allocated across a population of policies. We introduce stratified policies, where each of $k$ learned policies contributes one response to a $k$-sample inference-time objective.",
+    "author": "Mridul Mahajan, Xuezhou Zhang, Aldo Pacchiano",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2611.23154v1"
+    ]
+  },
+  {
+    "title": "Mind the Gap: A Deployed Multi-Agent System for Documentation Maintenance",
+    "link": "http://arxiv.org/abs/2611.23142v1",
+    "published": "2026-11-17T17:59:13+00:00",
+    "summary": "The \"AI revolution\" has enabled teams across the technology industry to deliver software features at unprecedented velocity. While code evolves faster than ever, customer-facing documentation often struggles to stay up to speed. As users increasingly rely on LLM-based agents that consume documentation as their primary interface, the impact of this documentation gap worsens: stale information propagates and is treated as authoritative. Signals for identifying where documentation has fallen behind",
+    "author": "Lorenzo Masoero",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2611.23142v1"
     ]
   },
   {
@@ -120,78 +303,6 @@
     ]
   },
   {
-    "title": "Latent Lattice Language Models",
-    "link": "http://arxiv.org/abs/2611.21608v1",
-    "published": "2026-11-16T18:59:38+00:00",
-    "summary": "Language models typically increase per-token computation through deeper or looped layers and latent reasoning steps, while richer residual connections improve information flow across layers. We instead increase computational capacity: the number of active computational states a model maintains. We introduce the Lattice of Latents, a set of per-layer horizontal latent streams that run recurrently along time, alongside the vertical residual stream that flows through depth. Like hyper-connections, ",
-    "author": "Shivam Duggal, Zongze Wu, William T. Freeman, Antonio Torralba, Richard Zhang, Eli Shechtman",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2611.21608v1"
-    ]
-  },
-  {
-    "title": "ViRA: Toward Ultra-High-Resolution Visual Agents via Cross-Input Relative Policy Optimization",
-    "link": "http://arxiv.org/abs/2611.21605v1",
-    "published": "2026-11-16T18:59:04+00:00",
-    "summary": "Visual agents answer questions about ultra-high-resolution photos by zooming into the relevant regions. However, existing agents often answer from common sense instead of reading the evidence. Reinforcement learning (RL) on the final answer cannot correct this, because a guess earns the same reward as reading. We propose Cross-Input Relative Policy Optimization (CrossRPO), which trains agents on contrast sets. A contrast set asks one question about several versions of an image that differ only i",
-    "author": "Huawei Lin, Jinting Liu, Tongyan Wang, Xuyang Chen, Ruihua Shi, Zhichao Xu, Jiaxin Qin, Guoshenghui Zhao, Baijian Yang, Yingjie Victor Chen, Tan Yu, Weijie Zhao",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2611.21605v1"
-    ]
-  },
-  {
-    "title": "Mitigating Catastrophic Forgetting with Physics-Indexed Specialist Memory: the Evolutionary Neuroplastic Agent",
-    "link": "http://arxiv.org/abs/2611.21598v1",
-    "published": "2026-11-16T18:58:20+00:00",
-    "summary": "Continual reinforcement learning requires adaptation to changing conditions while preserving performance under previously encountered dynamics. It was investigated whether specialists generated by evolutionary search can provide a reusable memory when combined with environment detection and failure-driven search. The Evolutionary Neuroplastic Agent (ENA) evolves small neural networks without gradients, archives selected policies by detected dynamic regime, and retrieves them through Bayesian pol",
-    "author": "Blas Eugenio Vicco Zarate, Miguel Hernán Vicco",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2611.21598v1"
-    ]
-  },
-  {
-    "title": "ScenarioForge: Resource-Grounded Generation and Execution Validation of Cyber Exercises",
-    "link": "http://arxiv.org/abs/2611.21579v1",
-    "published": "2026-11-16T18:49:56+00:00",
-    "summary": "Cyber-range and capture-the-flag scenario construction remains labor-intensive because authors must coordinate infrastructure, vulnerable services, attack paths, artifacts, and success conditions. LLMs can propose detailed exercises, but plausible descriptions do not guarantee deployable software or verifiable objectives. We present ScenarioForge, which turns high-level requirements into resource-grounded topologies, services, traffic, segmentation, and challenge chains, then instantiates and va",
-    "author": "Jaime C. Acosta, Anantaa Kotal, Aritran Piplai",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2611.21579v1"
-    ]
-  },
-  {
-    "title": "When Tool Names Are Not Identities: Measuring Provider Misbinding in MCP-Based AI Agents",
-    "link": "http://arxiv.org/abs/2611.21577v1",
-    "published": "2026-11-16T18:49:37+00:00",
-    "summary": "Large language model (LLM) applications increasingly act as agents that select and invoke external tools. The Model Context Protocol (MCP) standardizes this interaction by allowing clients to compose tools advertised by multiple servers. However, tool metadata used for discovery and selection is not, by itself, necessarily bound to a verified provider identity. This paper studies this gap as tool-provider misbinding: a failure in which a request intended for a legitimate provider is instead reso",
-    "author": "Zeynab Anbiaee, Sajjad Dadkhah, Ali A. Ghorbani",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2611.21577v1"
-    ]
-  },
-  {
-    "title": "Severe but Harmless: Stress-Testing Shift Severity for Frozen Time-Series Forecasters",
-    "link": "http://arxiv.org/abs/2611.21562v1",
-    "published": "2026-11-16T18:40:35+00:00",
-    "summary": "Zero-shot time-series foundation models (TSFMs) have become attractive alternatives to task-specific models because they handle diverse downstream tasks, including anomaly detection and forecasting, without per-series training. However, time-series data undergo distribution shifts, and the dissimilarity between two regimes is commonly scored with statistical measures such as Wasserstein-1, where a higher score is read as a more severe shift. In systematic experiments using three established seve",
-    "author": "Korede R. Bishi, Dominic Okonkwo, Adetayo Okunoye",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2611.21562v1"
-    ]
-  },
-  {
     "title": "The open-source movement wants Jensen Huang back",
     "link": "https://www.technologyreview.com/2026/11/16/1148624/the-open-source-movement-wants-jensen-huang-back/",
     "published": "2026-11-16T18:38:47+00:00",
@@ -201,114 +312,6 @@
     "category": "media",
     "references": [
       "https://www.technologyreview.com/2026/11/16/1148624/the-open-source-movement-wants-jensen-huang-back/"
-    ]
-  },
-  {
-    "title": "TRACE: Topological Representations for Anomaly detection through Contrastive Embeddings",
-    "link": "http://arxiv.org/abs/2611.21548v1",
-    "published": "2026-11-16T18:31:11+00:00",
-    "summary": "Intrusion detectors must recognize evolving malicious behavior even when confirmed attack labels are scarce or incomplete. We present TRACE, a topology-aware graph contrastive learning framework for label-efficient intrusion detection. TRACE learns from benign system-activity graphs by combining message-passing and topological representations, then assigns anomaly scores in the same projected embedding space optimized by the contrastive objective. This design captures both local interactions and",
-    "author": "Sydney Johns",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2611.21548v1"
-    ]
-  },
-  {
-    "title": "Right Reason, Wrong Advice: Evaluating Recourse in LLM Explanations of Denied Requests",
-    "link": "http://arxiv.org/abs/2611.21545v1",
-    "published": "2026-11-16T18:30:11+00:00",
-    "summary": "Language models increasingly write the explanations people receive when a rule system denies their request. If several rules deny the request independently, an explanation can name a true reason and still leave the person denied after they fix it. We call the missing property recourse validity: changing what the explanation cites, without changing what was asked for, can flip the decision. We compute it exactly, and a hitting-set argument predicts from the policy alone when a correct reason fail",
-    "author": "Arunkumar V",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2611.21545v1"
-    ]
-  },
-  {
-    "title": "SciResearch-Eval: Evaluating Scientific Judgment in Autonomous Experimental Agents",
-    "link": "http://arxiv.org/abs/2611.21541v1",
-    "published": "2026-11-16T18:27:09+00:00",
-    "summary": "We introduce SciResearch-Eval, an interactive benchmark of scientific judgment built on a standard laboratory problem: measuring a material's thermal properties by heating it and fitting a heat-conduction simulator. An agent designs its own experiments, uses a supplied simulator that may be under-resolved or physically wrong, and reports each property with a 95% interval. To our knowledge it is the first benchmark to combine agent-designed experiments, a deliberately flawed simulator, and proper",
-    "author": "Brian T. Weston, Alondra Torres Contreras, Aldair E. Gongora",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2611.21541v1"
-    ]
-  },
-  {
-    "title": "Optimistic Verifiers Get Hacked: Reward Hacking Under an Exact Process Oracle",
-    "link": "http://arxiv.org/abs/2611.21538v1",
-    "published": "2026-11-16T18:25:42+00:00",
-    "summary": "Reinforcement learning from verifiable rewards inherits whatever its verifier gets wrong. Outside mathematics and code the verifier is a proxy, a rubric, a learned judge or a hand-written checker, and its distance from the true objective is never measured, so a rising reward cannot be told apart from a hack. We build a setting where the true reward is exactly computable at the process level: executable authorization policies over 124,416 contexts admit an oracle that lists every minimal sufficie",
-    "author": "Arunkumar V, Manoranjan Gandhudi, Gangadharan G. R., Arun Prakash, S. Senthilkumar",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2611.21538v1"
-    ]
-  },
-  {
-    "title": "Procedure without Judgment: What Small Language Models Learn under an Exact Verifier",
-    "link": "http://arxiv.org/abs/2611.21529v1",
-    "published": "2026-11-16T18:20:09+00:00",
-    "summary": "When an authorization policy blocks an agent's tool call, the audit log should name the facts that forced the decision and nothing more. For an executable policy over an enumerable context space this minimal sufficient reason can be computed exactly, so an explanation is scored against ground truth rather than a proxy for it. We use that exactness to ask what a model can learn from a verifier that has no error in it. The explainer sees one request and one decision, never the policy, and has thir",
-    "author": "Arunkumar V, Manoranjan Gandhudi, Gangadharan G. R., Arun Prakash, S. Senthilkumar",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2611.21529v1"
-    ]
-  },
-  {
-    "title": "Algorithm Distillation for Safe In-Context Reinforcement Learning",
-    "link": "http://arxiv.org/abs/2611.21524v1",
-    "published": "2026-11-16T18:16:28+00:00",
-    "summary": "Safe in-context reinforcement learning (Safe ICRL) asks a policy with fixed parameters to improve on an unseen constrained task from its interaction history while aiming to keep its cost within a budget. Prior work studied Safe ICRL on five benchmarks in three families: a grid world with a hidden goal and obstacles (DarkRoom), continuous navigation where goals and hazards stay invisible until reached (PointGoal, CarGoal), and locomotion with a hidden velocity limit (HalfCheetah, Ant). Safe Algor",
-    "author": "Minjae Kwon, Amir Moeini, Shangtong Zhang, Lu Feng",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2611.21524v1"
-    ]
-  },
-  {
-    "title": "Safe Resemblance, Silent Propagation: Limits of Text-Similarity Guardrails for AI Agent Safety",
-    "link": "http://arxiv.org/abs/2611.21520v1",
-    "published": "2026-11-16T18:13:01+00:00",
-    "summary": "When AI agents relay information to one another, an output can preserve an injected instruction's effect on downstream agents even after its wording changes, yet legitimate quotation and template reuse can produce high textual overlap with the source, so text-similarity guardrails that attempt to flag the former risk conflating these two cases. We test this distinction using DonkeyRail, a public classifier combining BLEU, ROUGE-L, and METEOR features, deployed in a controlled three-agent email r",
-    "author": "Charles Xiao",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2611.21520v1"
-    ]
-  },
-  {
-    "title": "Lazy-MOSAIC: Accelerating Skill-Centric Manipulation Planning with Learned Skill-Effect World Models",
-    "link": "http://arxiv.org/abs/2611.21517v1",
-    "published": "2026-11-16T18:10:52+00:00",
-    "summary": "Long-horizon manipulation tasks require a robot to perform a sequence of physical interactions with its environment, typically combining several different skills. Planning such behaviors efficiently is challenging: given a library of parameterized skills, solutions lie in a vast hybrid space of skill sequences and their parameters, and evaluating each candidate skill's feasibility and effect with a high-fidelity world model such as a physics simulator is computationally expensive. MOSAIC, a rece",
-    "author": "Itamar Mishani, Mukund Krishnakumar, Oren Salzman, Maxim Likhachev",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2611.21517v1"
-    ]
-  },
-  {
-    "title": "The CYBER-BRIDGE project: An AI-Powered Platform for Cross-Border Cybersecurity, Compliance and Forensics in the EU",
-    "link": "http://arxiv.org/abs/2611.21497v1",
-    "published": "2026-11-16T18:00:19+00:00",
-    "summary": "Cross-border cyber attacks on European SMEs and critical-infrastructure operators expose a structural cyber-resilience gap: cybersecurity (threat sharing, detection, response), compliance (framework assessment, certification) and digital forensics (cross-jurisdictional evidence) are jointly regulated by NIS2, the CRA, GDPR and the LED, yet their tooling evolved in silos and rarely interoperates across Member States. The EU-funded CYBER-BRIDGE project integrates the three domains under one archit",
-    "author": "Nikolaos Kekatos, Georgios Koutidis, Charalampos Bratsas, Stefan Bucur, Alexandra-Mihaela Chirlejan, Mihaela Curcă, Angelos Fountoulakis, Michael Ioannou, Paul Lacatus, Alexios Lekidis, Emilios Charalambous, Avgi Michael, Tom Nianios, Simona Purcaru, Antonis Voulgaridis",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2611.21497v1"
     ]
   },
   {
