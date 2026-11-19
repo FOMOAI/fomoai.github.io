@@ -1,5 +1,224 @@
 [
   {
+    "title": "The Download: a living liver, a billion-dollar battery deal, and AI hype",
+    "link": "https://www.technologyreview.com/2026/11/19/1148979/the-download-liver-kept-alive-sila-battery-deal-ai-hype/",
+    "published": "2026-11-19T13:10:00+00:00",
+    "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. A human liver has been kept alive outside the body for seven weeks, setting a record Researchers in Australia claim they’ve kept a human liver alive on life support outside the&#8230;",
+    "author": "Thomas Macaulay",
+    "source": "MIT Tech Review",
+    "category": "media",
+    "references": [
+      "https://www.technologyreview.com/2026/11/19/1148979/the-download-liver-kept-alive-sila-battery-deal-ai-hype/"
+    ]
+  },
+  {
+    "title": "A human liver has been kept alive outside the body for a record seven weeks",
+    "link": "https://www.technologyreview.com/2026/11/19/1148934/a-human-liver-has-been-kept-alive-outside-the-body-for-seven-weeks-setting-a-record/",
+    "published": "2026-11-19T12:00:00+00:00",
+    "summary": "Researchers in Australia claim they’ve kept a human liver alive, on life support, outside the body for seven weeks, opening up speculative new possibilities in biomedical engineering. The feat, whose details are pending publication, was carried out in Sydney after a team led by surgeon and inventor Carlo Pulitano connected a donated liver to a&#8230;",
+    "author": "Antonio Regalado",
+    "source": "MIT Tech Review",
+    "category": "media",
+    "references": [
+      "https://www.technologyreview.com/2026/11/19/1148934/a-human-liver-has-been-kept-alive-outside-the-body-for-seven-weeks-setting-a-record/"
+    ]
+  },
+  {
+    "title": "What a billion-dollar deal says about the US battery market",
+    "link": "https://www.technologyreview.com/2026/11/19/1148922/sila-panasonic-battery-deal/",
+    "published": "2026-11-19T11:00:00+00:00",
+    "summary": "After a tough few years littered with some high-profile failures, there’s some positive news for next-generation batteries in the US. Sila just signed an agreement with Panasonic Energy, a global battery manufacturer, to supply silicon-carbon anode material, a possible key to smaller, lighter batteries. It’s a deal that Sila says could be worth more than&#8230;",
+    "author": "Casey Crownhart",
+    "source": "MIT Tech Review",
+    "category": "media",
+    "references": [
+      "https://www.technologyreview.com/2026/11/19/1148922/sila-panasonic-battery-deal/"
+    ]
+  },
+  {
+    "title": "Knowing What You Know: A Trait Theory of Reviewer Value in Human-AI Cognitive Systems",
+    "link": "http://arxiv.org/abs/2611.24932v1",
+    "published": "2026-11-18T18:55:07+00:00",
+    "summary": "When a capable model and a human reviewer cooperate on the same decision, which human still adds value? We argue this is a question about a single cognitive trait, metacognitive calibration: the alignment between a reviewer's behavioral confidence and the actual correctness of their judgments. We develop a trait theory of reviewer value to make it precise. The theory makes five claims: value is governed by calibration rather than by activity, speed, agreement, or tenure; calibration leaves obser",
+    "author": "Priyanka Sinha, Sugam Pandey",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2611.24932v1"
+    ]
+  },
+  {
+    "title": "Mapping the AI Supply Chain: Dependencies, Vulnerabilities, and Market Concentration in the AI Ecosystem",
+    "link": "http://arxiv.org/abs/2611.24927v1",
+    "published": "2026-11-18T18:53:58+00:00",
+    "summary": "AI systems are built across many organizations that contribute models, data, compute, capital, talent, and other assets. While the layers of the AI stack are relatively well understood, the relationships between actors and components across layers remains sparsely documented. In this work, we focus on the organizations that make up the AI supply chain: the complex network of actors that contribute to the development and deployment of AI. We motivate the examination of the organizational AI suppl",
+    "author": "Sarah H. Cen, Lindsey A. Gailmard, Joohan Kim, Rishi Bommasani, Daniel E. Ho, Percy Liang",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "https://huggingface.co/datasets/sarahcen/ai-supply-chain",
+      "https://aisupplychains.org/",
+      "http://arxiv.org/abs/2611.24927v1"
+    ]
+  },
+  {
+    "title": "Agentic Harness Engineering Beta: Requirement-Centered Evolution of Agent Harnesses",
+    "link": "http://arxiv.org/abs/2611.24924v1",
+    "published": "2026-11-18T18:52:13+00:00",
+    "summary": "Real-world harness engineering is driven by explicit and implicit user requirements, which guide development and validation. However, existing harness evolution methods often overlook implicit requirements and interaction needs, while using a single evolution agent to modify the harness and benchmark scores to select changes. This process often produces narrow patches and leads to benchmark-specific local optima. We introduce Agentic Harness Engineering Beta (AHE-Beta), a requirement-centered lo",
+    "author": "Jiahang Lin, Jiahao Chen, Yiding Wang, Shichun Liu, Chengjun Pan, Shihan Dou, Honglin Guo, Yuyang Hu, Changhao Jiang, Zhenhua Han, Hang Yan, Qi Zhang, Tao Gui, Xuanjing Huang",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2611.24924v1"
+    ]
+  },
+  {
+    "title": "Who are you? The Personal Imitation Game",
+    "link": "http://arxiv.org/abs/2611.24888v1",
+    "published": "2026-11-18T18:32:14+00:00",
+    "summary": "Large Language Models (LLMs) now perform strongly on Alan Turing's 1950 Imitation Game, so we propose a harder challenge, the Personal Imitation Game, which asks whether a machine can replicate a specific individual in conversation rather than a generic human. Testing with 30 participants, we establish a human baseline and report the identity signals interrogators rely on: stylometric features, personality traits, and biographical facts. To demonstrate the framework, we design an LLM-based syste",
+    "author": "Muhammad Rizky Wellyanto, Hajara-Yasmin Isa, Kexin Xue, Vishal Ravichandran, Wenpeng Lu, Jerry O. Talton, Ranjitha Kumar",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2611.24888v1"
+    ]
+  },
+  {
+    "title": "Local AI Agents in Power Electronics Simulation: Deployment, Measurements and Costs",
+    "link": "http://arxiv.org/abs/2611.24880v1",
+    "published": "2026-11-18T18:27:40+00:00",
+    "summary": "Agentic artificial intelligence (AI) is emerging in power electronics, where it drives the simulation loop that engineers used to close largely by hand. In this loop, a converter design, or a study of the network it connects to, is built, run, measured and revised until it satisfies its specification. Such an agent can be served from a cloud API or from an inference device on the premises. For organizations whose designs, customer data or export-controlled material cannot leave the site, and who",
+    "author": "Yuzhuo Li, Pasan Gunawardena, Yunwei Li",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2611.24880v1"
+    ]
+  },
+  {
+    "title": "Auditing black-box clinical prediction models with a large language model through queries alone: a blinded test with planted flaws",
+    "link": "http://arxiv.org/abs/2611.24877v1",
+    "published": "2026-11-18T18:24:54+00:00",
+    "summary": "Large language models (LLMs) are used to explain clinical prediction models, on the promise that they can say what a model computes, find its faults and even reveal new knowledge in it. We tested the three promises where the answers could be checked. From the International Stroke Trial we trained four kinds of model (logistic regression, explainable boosting machine, gradient-boosted trees, neural network) for two outcomes on patients randomised earlier, planted one flaw in each of 24 copies (an",
+    "author": "Zhiyu Liu, Xinyu Yang",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2611.24877v1"
+    ]
+  },
+  {
+    "title": "WorldRuler: Interactive World Modeling under Configurable Rules",
+    "link": "http://arxiv.org/abs/2611.24869v1",
+    "published": "2026-11-18T18:20:39+00:00",
+    "summary": "Rules govern how player actions change interactive worlds. Different rules create distinct gameplay experiences within similar scenes and action spaces. For customizable gameplay, generative world models must follow user-defined rules beyond real-world behaviors. However, realizing user-defined rules presents two challenges: Rule-State Persistence and Rule-to-Visual Realization. The former requires preserving rule definitions, dependencies, and world states across saving and loading, so that res",
+    "author": "Mingliang Zhai, Chuanhao Li, Jiaming Tan, Zhen Li, Yuwei Wu, Yunde Jia, Zian Meng, Yuanyang Yin, Kaipeng Zhang",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2611.24869v1"
+    ]
+  },
+  {
+    "title": "Choosing What to Observe: Budget-Paired Counterfactual Audits for Credible Evaluation of Visual Agents",
+    "link": "http://arxiv.org/abs/2611.24867v1",
+    "published": "2026-11-18T18:20:12+00:00",
+    "summary": "Visual agents that read dense documents must ration a finite observation budget across candidate regions, yet answer accuracy conflates where an agent looks, how it adapts to the reads that remain, and how it an?swers once observation stops. We introduce budget-paired counterfactual audits, an evaluation protocol that holds public evidence and region bindings fixed while perturbing only the remaining budget or de?clared task parameters, and credits every acquired history with exact continuation ",
+    "author": "Ruiqi Liu, Jinming Li, Mo Wang, Yang Lu, Yanlan Kang",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2611.24867v1"
+    ]
+  },
+  {
+    "title": "Vibe-Trading: Towards Agent-Native Trading",
+    "link": "http://arxiv.org/abs/2611.24845v1",
+    "published": "2026-11-18T18:07:57+00:00",
+    "summary": "Existing AI agents can retrieve information, call tools, run experiments, and produce multi-step outputs. Yet most are built around relatively static workflows and struggle to preserve reliable state as the environment changes. Financial trading makes this limitation especially consequential: prices, news, market conditions, portfolio positions, and available capital evolve continuously. A result is useful only when it remains tied to the correct time, data snapshot, and execution context. We pr",
+    "author": "Haozhe Wu, Zhonghang Li, Chao Huang",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2611.24845v1"
+    ]
+  },
+  {
+    "title": "General progress substitutes for specific training data in language models",
+    "link": "http://arxiv.org/abs/2611.24844v1",
+    "published": "2026-11-18T18:07:55+00:00",
+    "summary": "Language models acquire their capabilities from training data, and developers withhold data during training to keep models from learning capabilities that could be misused. How long this delays a capability, and how much data is needed to acquire it later, is unknown. Here we show that the general progress a model makes on the rest of its training data substitutes for the data that was withheld. We withheld the training signal for individual skills in models of chess, Othello, molecular strings,",
+    "author": "Mark Marosi, Peter Antal",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2611.24844v1"
+    ]
+  },
+  {
+    "title": "Does the Action Matter? Probing Action-Conditioned Semantic Forecasting as a World Model for Autonomous Driving",
+    "link": "http://arxiv.org/abs/2611.24840v1",
+    "published": "2026-11-18T18:06:20+00:00",
+    "summary": "World models are increasingly used in autonomous driving to predict how a scene evolves under the ego vehicle's actions, supporting counterfactual reasoning and model-based planning. However, existing evaluations focus on prediction fidelity and planning performance, and rarely verify that the predictions depend on the conditioning action. In this paper, we study action dependence in action-conditioned semantic forecasting, which predicts future semantic segmentation from past segmentations and ",
+    "author": "Binay Kumar Singh, Niels Da Vitoria Lobo",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "https://github.com/binayksingh/does-action-matter",
+      "http://arxiv.org/abs/2611.24840v1"
+    ]
+  },
+  {
+    "title": "A Foundation Model to Measure and Predict Human Behaviour",
+    "link": "http://arxiv.org/abs/2611.24830v1",
+    "published": "2026-11-18T17:59:08+00:00",
+    "summary": "Large language models (LLMs) are increasingly used to infer psychological attributes, predict individual behaviour, and simulate human populations. However, despite generating plausible responses, they often misrepresent individuals and distort population statistics. Here we introduce Chiron, a foundation model to measure and predict human behaviour. We jointly fine-tune an LLM to represent psychological constructs, predict individual behaviour, and align population response distributions with h",
+    "author": "Haoran Ye, Tianrui Huo, Hangzhen Li, Xin Zhang, Guojie Song",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2611.24830v1"
+    ]
+  },
+  {
+    "title": "LAaDT-DSS: decision support for non-experts on rooftop PV, incentive and grid simulations under Turkish tariff rules",
+    "link": "http://arxiv.org/abs/2611.24810v1",
+    "published": "2026-11-18T17:45:52+00:00",
+    "summary": "Rooftop photovoltaics raise three questions: should a household invest, which incentive costs the state least, and does the feeder stay within limits? Those who ask are rarely modellers. We present LAaDT-DSS, decision-support software that answers all three under Turkish tariff rules from one simulation core. Non-experts reach it by clicking a house on a 3D map or by asking in plain words; a language model is asked to call the simulation tools, not to compute. Each entry of its 125-entry paramet",
+    "author": "Baran Kaynak",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2611.24810v1"
+    ]
+  },
+  {
+    "title": "Soft Mixture of Quantum Experts for Hybrid Quantum-Classical Learning",
+    "link": "http://arxiv.org/abs/2611.24798v1",
+    "published": "2026-11-18T17:41:45+00:00",
+    "summary": "Quantum Machine Learning (QML) has attracted increasing interest as a possible route to construct feature representations that are difficult to reproduce with classical models. However, near-term QML architectures based on trainable parametrized quantum circuits remain affected by limited hardware resources, noise, and severe optimization difficulties such as barren plateaus. In this work we propose Soft-MoQE, a Soft Mixture of Quantum Experts architecture that replaces variational quantum train",
+    "author": "Valeria Repetto, Romina D'Aurizio, Piero Farinelli",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2611.24798v1"
+    ]
+  },
+  {
+    "title": "Bias-Only Training Dynamics in ReLU Networks",
+    "link": "http://arxiv.org/abs/2611.24797v1",
+    "published": "2026-11-18T17:41:18+00:00",
+    "summary": "Neural networks with randomly initialized, fixed weights and trainable biases are universal approximators, yet the dynamics of bias-only training remain largely unexplored. We study these dynamics in one-hidden-layer ReLU networks through activation codes, the binary patterns of active neurons that partition the input space into convex polyhedral regions. We show that the gradients with respect to the biases depend on each input only through its activation code, and hence the training dynamics c",
+    "author": "Shreyas Chaudhari, Jose M. F. Moura",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2611.24797v1"
+    ]
+  },
+  {
     "title": "The Gemini app is now available on lower-memory Android devices.",
     "link": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-lower-memory-devices/",
     "published": "2026-11-18T17:00:00+00:00",
@@ -25,31 +244,6 @@
     ]
   },
   {
-    "title": "Temporal Rank in Recurrent Neural Networks",
-    "link": "http://arxiv.org/abs/2611.24394v1",
-    "published": "2026-11-18T13:28:07+00:00",
-    "summary": "Recurrent Neural Networks (RNNs) are a natural framework for temporal modelling, yet are often dismissed due to their sequential, non-parallelisable computation and difficulty in capturing long-range dependencies, typically attributed to vanishing and exploding gradients. We identify a distinct and under-explored limitation: an information bottleneck induced by rank-constrained hidden state dynamics, which limits the number of independent input directions that can be preserved over time, as refl",
-    "author": "Leo Dobson, Anton Ragni",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2611.24394v1"
-    ]
-  },
-  {
-    "title": "Enhancing Active Learning Performance with Initial Data Selection Based on Foundation Models",
-    "link": "http://arxiv.org/abs/2611.24384v1",
-    "published": "2026-11-18T13:15:03+00:00",
-    "summary": "In active object detection, selecting the initial labeled pool is essential, especially in complex datasets with expensive labeling and low resource budget. This study presents an active learning framework designed to optimize the initial training cycle of active learning for the object detection task. Our approach diverges from traditional methods by utilizing feature-based clustering from the YOLO-World model and refining images based on objectness scores rather than relying on uncertainty sam",
-    "author": "Mohammad Mirzaee, Mehrshad Fallah Estalkhzir, Mohammad Reza Mohammadi",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "https://github.com/Mhrshd-fllh/ALBoost-FM",
-      "http://arxiv.org/abs/2611.24384v1"
-    ]
-  },
-  {
     "title": "The Download: AI learns to smell and hydropower struggles",
     "link": "https://www.technologyreview.com/2026/11/18/1148845/the-download-ai-learns-to-smell-hydropower-struggles/",
     "published": "2026-11-18T13:10:00+00:00",
@@ -59,164 +253,6 @@
     "category": "media",
     "references": [
       "https://www.technologyreview.com/2026/11/18/1148845/the-download-ai-learns-to-smell-hydropower-struggles/"
-    ]
-  },
-  {
-    "title": "MoE-Context: Show the Model Only What It Needs",
-    "link": "http://arxiv.org/abs/2611.24379v1",
-    "published": "2026-11-18T13:08:14+00:00",
-    "summary": "AI agents read their whole history at every step. People do not work like that: we keep what the moment needs and hold the rest as a rough note we can recall. MoE-Context applies this to language models. The context is split into blocks. Before each step a fast yes or no pass decides which blocks the step needs; the rest stay as one-line notes that can be brought back, and nothing is deleted. In the version we build, one model makes this decision and then answers, over a single key-value cache w",
-    "author": "Vedant Navale",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2611.24379v1"
-    ]
-  },
-  {
-    "title": "LLM-Assisted Multi-Fidelity Bayesian Optimization: Fusing Expert Knowledge with Numerical Data",
-    "link": "http://arxiv.org/abs/2611.24377v1",
-    "published": "2026-11-18T13:07:03+00:00",
-    "summary": "Multi-fidelity Bayesian optimization (MFBO) reduces engineering design cost by combining inexpensive low-fidelity (LF) models with a few accurate high-fidelity (HF) evaluations and sequentially selecting designs to evaluate. However, when HF data are scarce, the LF-HF discrepancy is difficult to learn from numerical data alone, especially when physics omitted in the LF model makes it design-dependent. Yet even without sufficient data, domain experts often know which physics the LF model omits an",
-    "author": "Dongjun Han, Mingyu Lee, Ikjin Lee",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2611.24377v1"
-    ]
-  },
-  {
-    "title": "PIPETTE: Prompt Injection Purple-Teaming for Robust LLM Agents",
-    "link": "http://arxiv.org/abs/2611.24362v1",
-    "published": "2026-11-18T12:56:06+00:00",
-    "summary": "Large language model (LLM) agents routinely interact with untrusted external data, exposing them to indirect prompt injection (IPI) attacks that hijack agents into executing attacker-chosen tasks. To uncover these vulnerabilities at scale, automated red-teaming methods often leverage reinforcement learning (RL) to generate attacks that achieve high attack success rates (ASR). Model developers use the attacks discovered during internal red-teaming to harden agents through adversarial training bef",
-    "author": "Lipeng He, Yihan Wang, Jiawen Zhang, N. Asokan",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2611.24362v1"
-    ]
-  },
-  {
-    "title": "Towards Pose-Robust Few-Shot Vision-Language-Action Models",
-    "link": "http://arxiv.org/abs/2611.24360v1",
-    "published": "2026-11-18T12:54:16+00:00",
-    "summary": "Fine-tuning a vision-language-action (VLA) model on a few dozen demonstrations is the standard way to put a manipulation policy on a robot, yet the resulting policy silently assumes that the camera and the robot base stay exactly where they were during data collection: a bumped tripod or a base re-docked a few centimetres away makes it reach for the wrong place. We show that both failures are one phenomenon, a change of the camera-to-base extrinsic that the policy has memorised, and that the rob",
-    "author": "Wenhao Li, Zhongyi Han, Yuhao Wei, Liang Han, Yilong Yin, Liqiang Nie",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "https://peacelwh.github.io/WACO/",
-      "http://arxiv.org/abs/2611.24360v1"
-    ]
-  },
-  {
-    "title": "Semantic Context Handoff with On-Demand Evidence for Long-Horizon Agents",
-    "link": "http://arxiv.org/abs/2611.24357v1",
-    "published": "2026-11-18T12:49:41+00:00",
-    "summary": "Traditional long-horizon LLM agents often hand off context through full-history prompting, retaining all previous action--observation interactions. As execution proceeds, this history keeps growing, increasing inference cost and potentially degrading accuracy. Existing methods control this growth by preserving compact conclusions while removing earlier observations, but doing so can discard evidence that later becomes relevant. We introduce Semantic Context Handoff (SCH), whose central abstracti",
-    "author": "Guolong Zheng, Chen Hou, Xu Yang, Jianshan Zhang, Tao Huang",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2611.24357v1"
-    ]
-  },
-  {
-    "title": "When Figures Disagree with Text: Evaluating Autonomous Visual Evidence Verification in Scientific Papers",
-    "link": "http://arxiv.org/abs/2611.24353v1",
-    "published": "2026-11-18T12:47:35+00:00",
-    "summary": "Scientific figures carry evidence for the claims that cite them, so reviewing a paper means checking that a figure agrees with the text, and not only describing what the figure shows. Benchmarks of figure-text verification typically hand the model the figure, the claim, or the knowledge that an inconsistency exists, which leaves untested whether a model can find the figure worth checking in a complete paper, relate a visual element to the claim it conflicts with, and recognize the conflict. We s",
-    "author": "Guijia Zhang, Hongbo Qiu, Jiajun Zha, Guohao Cai, Hao Zheng, Huihao Jing, Kexu Cheng, Shipeng Luo, JinYang Huang, Shing-Chi Cheung, Changsheng Lu, Haoxuan Che, Harry Yang",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2611.24353v1"
-    ]
-  },
-  {
-    "title": "OCTR2A: Real-Time RGB-to-BEV Trajectory Projection and Forecasting at Urban Intersections",
-    "link": "http://arxiv.org/abs/2611.24352v1",
-    "published": "2026-11-18T12:47:15+00:00",
-    "summary": "Trajectory forecasting at urban intersections is often studied assuming that reliable bird's-eye-view (BEV) motion histories are available, which in practice requires costly resources such as LiDAR, aerial views, HD maps, or calibrated infrastructure. We address this upstream perception-to-forecasting problem by reconstructing and predicting agents' BEV trajectories only from paired opposite-corner RGB cameras mounted on existing urban infrastructure at variable heights at inference time. We int",
-    "author": "Emanuele Iacobelli, Simone Teglia, Francesco Pro, Claudia Melis Tonti, Irene Amerini",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2611.24352v1"
-    ]
-  },
-  {
-    "title": "automodel: A Skill for Agentic Model Discovery",
-    "link": "http://arxiv.org/abs/2611.24347v1",
-    "published": "2026-11-18T12:43:45+00:00",
-    "summary": "The search for better models, whether expressed as analytical equations or neural architectures, has increasingly shifted from manual design toward data-driven automation. While a multitude of algorithms exist, ranging from exhaustive search to AlphaEvolve, recent advances in general-purpose coding agents such as Claude Code and OpenAI Codex raise the question: could providing such systems with a \"model discovery recipe\" be enough to discover or improve models? We present automodel, an agent ski",
-    "author": "Marco Virgolin, Harry Desmond, Ester Bergantin, Giorgio Morales, John W. Sheppard, Luigi Romano, Alessandro Lucantonio",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "https://github.com/unlayer-ai/automodel",
-      "http://arxiv.org/abs/2611.24347v1"
-    ]
-  },
-  {
-    "title": "Can Weight-Space Programming Alter Learned Ethical Priorities?",
-    "link": "http://arxiv.org/abs/2611.24330v1",
-    "published": "2026-11-18T12:31:23+00:00",
-    "summary": "We investigate whether a weight edit can alter how a model trades off honoring a commitment against benefiting more people. In a concept-supervised text model, we alter fitted choice weights so that the benefit required to override a formal pledge is larger than for an ordinary promise. Across six independently trained text readers, the edit selects the larger group in both orders on 100% of targeted ordinary conflicts and 83.3% of targeted formal conflicts. It preserves the source model's succe",
-    "author": "Kai Yi Ji",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2611.24330v1"
-    ]
-  },
-  {
-    "title": "Reducing Inference Cost of Coding Agents with Timeout Cascades",
-    "link": "http://arxiv.org/abs/2611.24324v1",
-    "published": "2026-11-18T12:26:42+00:00",
-    "summary": "AI coding agents have become one of the most popular applications of large language models. Yet, agentic AI comes at the cost of a tremendous amount of GPU compute resources, which limits its profitability and its viability at scale. In this paper, we investigate whether smaller, cheaper models can cut this cost without sacrificing accuracy. We evaluate 36 popular large and small open-weight models released since 2024 on a software engineering benchmark, and find that recent small models are clo",
-    "author": "Boxi Zhou, German Sviridov, Dmitrii Ustiugov, Haris Javaid",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2611.24324v1"
-    ]
-  },
-  {
-    "title": "Benchmarking LLM abilities on postdoc-level natural science problems",
-    "link": "http://arxiv.org/abs/2611.24321v1",
-    "published": "2026-11-18T12:25:33+00:00",
-    "summary": "Scientific problems have no answer key, so evaluating an agent means deciding what counts as a better solution before any agent is run. Existing benchmarks either match a symbolic answer against a key or, where they require executable work, score it by unit tests, by a rubric, or by position on a competition leaderboard. None of these is the criterion by which a field decides that one published method beats another. STEMBench adopts that criterion directly. Each of its twelve research problems i",
-    "author": "Alina Avanesyan, Alexey Boldyrev, Liqun Deng, Denis Derkach, Mary Godunova, Mikhail Hushchyn, Dmitry Ilvovsky, Irina Knyazeva, Irina Piontkovskaya, Dmitry Polubotko, Fedor Ratnikov, Ekaterina Trofimova, Zhenhe Zhang",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2611.24321v1"
-    ]
-  },
-  {
-    "title": "Fuse to Recognize the Unseen: Class-Relative Infrared-Visible Fusion for Open-Vocabulary Semantic Segmentation",
-    "link": "http://arxiv.org/abs/2611.24316v1",
-    "published": "2026-11-18T12:22:54+00:00",
-    "summary": "Visible-infrared image fusion leverages complementary thermal cues to enhance visual perception, particularly under challenging illumination. However, such perceptual complementarity does not readily translate into semantic gains in open-vocabulary semantic segmentation (OVSS), where CLIP-based models are predominantly pretrained on RGB imagery. Directly introducing IR information may instead disrupt RGB-language alignment, turning promising thermal cues into semantic interference that undermine",
-    "author": "Zehao Gao, Jie Feng, Wenda Zhao, Junpeng Zhang, Ronghua Shang, Weisheng Dong",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2611.24316v1"
-    ]
-  },
-  {
-    "title": "AutoPI: Taxonomy-Guided Adaptive Red Teaming for Prompt Injection in LLM Agents",
-    "link": "http://arxiv.org/abs/2611.24313v1",
-    "published": "2026-11-18T12:20:58+00:00",
-    "summary": "Prompt injection is the dominant unsolved security risk for LLM agents, and the community now agrees that robustness must be measured against adaptive attackers rather than fixed benchmark injections. Many adaptive red teamers exist, and most are built to maximize attack success rate (ASR). Yet ASR counts how often a target breaks, not in how many different ways. A red teamer can achieve a high ASR by reusing a few techniques that work, leaving the others untested and absent from the attacks use",
-    "author": "Stavros Damianakis, Konstantinos Psounis",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2611.24313v1"
     ]
   },
   {
@@ -436,18 +472,6 @@
     ]
   },
   {
-    "title": "The open-source movement wants Jensen Huang back",
-    "link": "https://www.technologyreview.com/2026/11/16/1148624/the-open-source-movement-wants-jensen-huang-back/",
-    "published": "2026-11-16T18:38:47+00:00",
-    "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. On Friday, a petition to reinstate Jensen Huang as CEO of Nvidia began circulating on social media, and by Monday it listed some notable signatories, including Elon Musk and several influential Nvidia&#8230;",
-    "author": "James O'Donnell",
-    "source": "MIT Tech Review",
-    "category": "media",
-    "references": [
-      "https://www.technologyreview.com/2026/11/16/1148624/the-open-source-movement-wants-jensen-huang-back/"
-    ]
-  },
-  {
     "title": "Broadening access to AI for scientists",
     "link": "https://openai.com/index/expanding-chatgpt-for-academic-researchers",
     "published": "2026-11-16T17:00:00+00:00",
@@ -472,18 +496,6 @@
     ]
   },
   {
-    "title": "Building trustworthy AI by fencing it in, not predicting it",
-    "link": "https://www.technologyreview.com/2026/11/16/1148565/building-trustworthy-ai-by-fencing-it-in-not-predicting-it/",
-    "published": "2026-11-16T16:04:28+00:00",
-    "summary": "In October this year, OpenAI disclosed that two of its AI agents had switched off the systems built to monitor them. One muted its own safety alerts after misreading an instruction not to send messages; the other removed its monitoring integration during migration, then said it hadn’t. No rule had told the agents to do&#8230;",
-    "author": "Sudhi Sinha",
-    "source": "MIT Tech Review",
-    "category": "media",
-    "references": [
-      "https://www.technologyreview.com/2026/11/16/1148565/building-trustworthy-ai-by-fencing-it-in-not-predicting-it/"
-    ]
-  },
-  {
     "title": "New Ask Maps features to help with holiday travel and prep",
     "link": "https://blog.google/products-and-platforms/products/maps/ask-maps-holiday-travel-features-2026/",
     "published": "2026-11-16T14:00:00+00:00",
@@ -493,18 +505,6 @@
     "category": "official",
     "references": [
       "https://blog.google/products-and-platforms/products/maps/ask-maps-holiday-travel-features-2026/"
-    ]
-  },
-  {
-    "title": "The Download: testing tech promises and searching for cognitive immortality",
-    "link": "https://www.technologyreview.com/2026/11/16/1148599/the-download-testing-tech-promises-cognitive-immortality-quest/",
-    "published": "2026-11-16T13:10:00+00:00",
-    "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Are we there yet? Six technologies that promised to change the world How do you measure progress towards the future? In the Impossible issue of MIT Technology Review, our series “Are&#8230;",
-    "author": "Thomas Macaulay",
-    "source": "MIT Tech Review",
-    "category": "media",
-    "references": [
-      "https://www.technologyreview.com/2026/11/16/1148599/the-download-testing-tech-promises-cognitive-immortality-quest/"
     ]
   },
   {
