@@ -12,6 +12,43 @@
     ]
   },
   {
+    "title": "Optimal Linear Regression Without a Variance",
+    "link": "http://arxiv.org/abs/2611.27983v1",
+    "published": "2026-11-20T18:58:45+00:00",
+    "summary": "We study high-probability linear regression in the infinite variance regime, wherecthe regression noise has only a finite conditional $α$-moment $ν$ for some unknown $α\\in(1,2)$, and the covariates may only have finite moments up to a given order (e.g., 4th moment). We give a black-box reduction that converts finite-variance regression procedures into weak-moment procedures. The reduction is based on empirical residual pruning and is agnostic to the moment exponent, the noise scale, the covarian",
+    "author": "Artin Tajdini, Jasper C. H. Lee, Jonathan Scarlett, Kevin Jamieson",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2611.27983v1"
+    ]
+  },
+  {
+    "title": "Non-penetrating World Models",
+    "link": "http://arxiv.org/abs/2611.27963v1",
+    "published": "2026-11-20T18:44:57+00:00",
+    "summary": "We study a new problem of preventing object penetration in interactive video world models. To understand how existing models handle this, we introduce NoPeBench, a benchmark that evaluates how world models respond to physical obstacles. Our evaluation reveals that none of the open-source models can reliably prevent such failures. Surprisingly, however, these models already encode the information needed to predict such violations. We find that the hidden states of diffusion transformers (DiTs) ca",
+    "author": "Yuhang Dai, Yinwei Wu, Ziyue Lin, Han Ji, Xingyi Yang",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "https://nopeworld.github.io",
+      "http://arxiv.org/abs/2611.27963v1"
+    ]
+  },
+  {
+    "title": "Model Carving: Training Transformers That Optimize Their Own Topology",
+    "link": "http://arxiv.org/abs/2611.27962v1",
+    "published": "2026-11-20T18:41:39+00:00",
+    "summary": "Machine learning has largely kept separate the choice of architecture and the process of training. A classic Transformer, for instance, trains a fixed set of attention and MLP sublayers at every layer, in the same order, and optimizes the weights within. This uniformity is a convention rather than a principled design choice, and it is likely suboptimal: the best architecture for a given task may be smaller, more efficient, and far from uniform. We believe that, ideally, training itself should sh",
+    "author": "Kaden Zheng, Pratyusha Sharma",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2611.27962v1"
+    ]
+  },
+  {
     "title": "The most misunderstood graph in AI just got a major update",
     "link": "https://www.technologyreview.com/2026/11/20/1149399/the-most-misunderstood-graph-in-ai-just-got-a-major-update/",
     "published": "2026-11-20T18:15:15+00:00",
@@ -21,6 +58,151 @@
     "category": "media",
     "references": [
       "https://www.technologyreview.com/2026/11/20/1149399/the-most-misunderstood-graph-in-ai-just-got-a-major-update/"
+    ]
+  },
+  {
+    "title": "BioEmu2: Scalable Emulation of Biomolecular Dynamics",
+    "link": "http://arxiv.org/abs/2611.27924v1",
+    "published": "2026-11-20T17:58:47+00:00",
+    "summary": "Despite major advances in structure prediction, modelling the motions and interactions that drive biomolecular function at scale remains a central challenge. We introduce BioEmu2, a generative model for atomically resolved biomolecular structures combining static structure prediction, equilibrium sampling and time evolution, that samples orders of magnitude faster than molecular dynamics (MD). Trained on experimental and synthetic structures and extensive MD data, it supports multi-component sys",
+    "author": "Michael Gastegger, Adam E. Foster, José Jiménez-Luna, Tim Hempel, Sarah Lewis, Yu Xie, Lixin Sun, Iryna Zaporozhets, J. Thorben Frank, Yaoyi Chen, Michael Plainer, Ludwig Winkler, Pedro B. P. S. Reis, Sven H. Giese, Roberto Sordillo, Victor García Satorras, Eray Inanc, Kacper Kapuśniak, Soojung Yang, Rishwanth Raghu, Rachel Kim, Gabriel Dernbach, Deniz Gunceler, Hannes Schulz, Bonnie Kruft, Marwin Segler, Christopher M. Bishop, Cecilia Clementi, Ryota Tomioka, Frank Noé",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2611.27924v1"
+    ]
+  },
+  {
+    "title": "SUAF: Spectral Universal Advantage Features for Zero-Shot Policy Improvement",
+    "link": "http://arxiv.org/abs/2611.27919v1",
+    "published": "2026-11-20T17:53:21+00:00",
+    "summary": "Reward-independent representations enable reinforcement learning agents to reuse knowledge across tasks, but limited representation capacity raises three fundamental questions: what statistical dependence should these representations capture, which components of that dependence should be retained for policy improvement, and how does discarding the remaining components affect decision-making? We address these questions through canonical dependence analysis. For a reference policy, we construct an",
+    "author": "Huaze Tang, Runqing Miao, Tianren Peng, Lam Nguyen, Chao Wang, Jairong Li, Wenbo Ding",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2611.27919v1"
+    ]
+  },
+  {
+    "title": "StereoVLM: Binocular Vision-Language Models for Metric 3D Spatial Reasoning",
+    "link": "http://arxiv.org/abs/2611.27915v1",
+    "published": "2026-11-20T17:52:02+00:00",
+    "summary": "Vision-language models (VLMs) exhibit strong semantic understanding but remain limited in their ability to reason about metric 3D space in the physical world. Existing VLMs typically infer 3D scene structure from one or more images without known camera calibration or cross-view geometric constraints. This makes metric 3D inference inherently ambiguous and leaves it unclear whether their spatial predictions are grounded in visual evidence or driven primarily by semantic priors. In contrast, calib",
+    "author": "Chi Yan, Guoyang Zhao, Wentao Yuan, Yixiao Ge, Yanning Zhou, Dan Xu",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2611.27915v1"
+    ]
+  },
+  {
+    "title": "Star Panoptic Quality: Selectively Evaluating Split and Merged Instances",
+    "link": "http://arxiv.org/abs/2611.27913v1",
+    "published": "2026-11-20T17:51:51+00:00",
+    "summary": "Detecting individual instances is crucial for many segmentation problems. However, expert instance annotations are often unavailable, so instances are approximated heuristically (e.g., as connected components of semantic maps), which can merge touching objects or split fragmented ones. Even when expert annotations exist, expert disagreement or structural delineation biases can yield split or merged reference instances, corresponding to over- or under-segmentation, respectively. Panoptic Quality ",
+    "author": "Erik Großkopf, Paula Tamara Buzduga, Hendrik Möller, Florian Kofler",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2611.27913v1"
+    ]
+  },
+  {
+    "title": "Functional Depth Is Learned: Isolating the Computation That Layers Produce Only Together",
+    "link": "http://arxiv.org/abs/2611.27911v1",
+    "published": "2026-11-20T17:50:26+00:00",
+    "summary": "Transformer performance scales with depth, but layer count merely counts the opportunities for sequential computation: layers could still behave as nearly independent refinements that barely depend on one another. We study how transformers develop functional depth during pretraining, introducing an exact inclusion-exclusion decomposition that isolates the connected component, i.e., the computation that appears only when a specified set of layers acts together under identity ablation. Tracking th",
+    "author": "JaeSeong Kim, KyungTae Lim",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2611.27911v1"
+    ]
+  },
+  {
+    "title": "Decision Columns as an Index: Interpretable Embeddings for Explainable Entity Matching and Search",
+    "link": "http://arxiv.org/abs/2611.27910v1",
+    "published": "2026-11-20T17:48:55+00:00",
+    "summary": "Business data systems must determine whether records refer to the same entity and retrieve records satisfying requests whose decisive properties are implicit. As agents act on these records, both tasks require auditable reasons. Dense embeddings perform well but offer opaque coordinates, cannot be filtered by meaning, and require corpus re-encoding to add new properties. We propose interpretable embeddings built from decision columns: each column stores a decision model's calibrated answer to a ",
+    "author": "Aadharsh Kannan, Robert Bruckner, Philip A. Bernstein",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2611.27910v1"
+    ]
+  },
+  {
+    "title": "The Dual-Tier Sentiment Framework: Scalable Multimodal UX Attribution in Web Search",
+    "link": "http://arxiv.org/abs/2611.27899v1",
+    "published": "2026-11-20T17:38:26+00:00",
+    "summary": "Sustaining user experience (UX) quality in large-scale web search requires scalable evaluation. Traditional surveys are slow and bottleneck rapid A/B testing, while automated metrics often lack the granularity to diagnose visual-spatial UX anomalies. To address this, we introduce the Dual-Tier Sentiment Framework, a novel industrial architecture for automated UX attribution. Tier 1 (Macro System) acts as a scalable user sentiment regression detector, utilizing a fine-tuned encoder-decoder LLM (b",
+    "author": "Yi Ding, Gaurav Kumar, Rui Min, Isabella Ye, Bhavika Goyal, Emilio Antunez, Huihui Chen, Ke Xu, Xiaowei Sun, Xin Xu, Huijie Feng, Pradyumna Narayana, Golnaz Farhadi",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2611.27899v1"
+    ]
+  },
+  {
+    "title": "TEA-Bench-BR: Can Coding Agents Turn a Branching Clinical Specification into Correct Code?",
+    "link": "http://arxiv.org/abs/2611.27895v1",
+    "published": "2026-11-20T17:35:59+00:00",
+    "summary": "Coding agents increasingly implement rules written by domain experts, and bugs in such code are silent: it runs and returns a plausible answer. We introduce TEA-Bench-BR, a benchmark built on the Brazilian pathway for early autism (TEA) screening: three fictitious instruments with the structure of real ones, a multi-professional referral flow, and export to FHIR R4 with the national RNDS profiles, all specified in Portuguese. A generator samples each task's parameters (144 tasks, 6,798 hidden ca",
+    "author": "Marcio Andre de Souza Estevam",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2611.27895v1"
+    ]
+  },
+  {
+    "title": "Speculative Decoding Is Less Speculative Than You Think",
+    "link": "http://arxiv.org/abs/2611.27891v1",
+    "published": "2026-11-20T17:33:21+00:00",
+    "summary": "Speculative decoding accelerates language-model inference by preparing candidate continuations before the target model generates them. Its efficiency depends on how well limited drafting computation anticipates the path the target will actually follow. Anticipating this path involves two sources of uncertainty: the target model's predictions and the randomness of sampling. Yet the former requires a target-model forward pass, while the latter can be fixed before drafting. Building on this observa",
+    "author": "Guanning Zeng, Andrea Zanette",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2611.27891v1"
+    ]
+  },
+  {
+    "title": "LesionAgent: Training-Free Agentic Tumor Tracking and Response Assessment in Longitudinal CT",
+    "link": "http://arxiv.org/abs/2611.27876v1",
+    "published": "2026-11-20T17:21:36+00:00",
+    "summary": "Every few months, a cancer patient's CT scans decide whether treatment continues. 3D foundation models can now detect, segment, register and track lesions, yet none of them reads the scans as a radiologist does. A radiologist decides which findings are lesions, which are the same lesion months later and whether a new spot means progression, and checks each decision against the extensive rules of a clinical guideline. We introduce LesionAgent, an LLM agent that performs this read end to end witho",
+    "author": "Maximilian Rokuss, Jeya Maria Jose Valanarasu, Alejandro Lozano, Benjamin Hamm, Yannick Kirchhoff, Fabian Isensee, Klaus Maier-Hein",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "https://github.com/MIC-DKFZ/LesionAgent",
+      "http://arxiv.org/abs/2611.27876v1"
+    ]
+  },
+  {
+    "title": "Beyond Visual Fidelity: Comparing Categorical and Continuous World Models",
+    "link": "http://arxiv.org/abs/2611.27870v1",
+    "published": "2026-11-20T17:15:30+00:00",
+    "summary": "Visual world models can now generate compelling interactive worlds, but visual realism does not guarantee faithful dynamics. We systematically compare how categorical and continuous prediction shape learned dynamics under both next-token and iterative whole-frame generation. These choices are often bundled in approaches such as autoregressive token models and whole-frame flow matching. We design controlled 2D and 3D environments and evaluate dynamics validity, calibration, and visual quality. In",
+    "author": "Sarah Parisot, Melanie Fernandez Pradier, David Bignell, Sergio Valcarcel Macua, Katja Hofmann",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2611.27870v1"
+    ]
+  },
+  {
+    "title": "Integrating Generative Artificial Intelligence with Learning Style Models: Opportunities, Challenges, and Future Directions",
+    "link": "http://arxiv.org/abs/2611.27868v1",
+    "published": "2026-11-20T17:14:52+00:00",
+    "summary": "Generative Artificial Intelligence (Generative AI) has emerged as a powerful tool for transforming learning. This review examines how Generative AI can be integrated with established learning style models (VARK, Kolb, Felder-Silverman, and Honey & Mumford) to support student engagement in large online classes. Following PRISMA 2020 guidelines, we searched Scopus, IEEE Xplore, and Google Scholar (2015 to 2026) and included 41 studies that met the eligibility criteria. The review maps Generative A",
+    "author": "Malithi Nawarathne, Prasanna Haddela, Nuwan Kodagoda",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2611.27868v1"
     ]
   },
   {
@@ -69,187 +251,6 @@
     "category": "official",
     "references": [
       "https://openai.com/index/introducing-medchembench"
-    ]
-  },
-  {
-    "title": "PlayCraft: Designing Engaging Games from Agent Play Experience",
-    "link": "http://arxiv.org/abs/2611.26624v1",
-    "published": "2026-11-19T18:59:34+00:00",
-    "summary": "Recent AI agents can generate playable games, but these games are not necessarily engaging. Mastery is a key source of engagement, yet designing for it requires extensive human play and tuning. We propose PlayCraft, an automated framework that uses a vision-based agent to play games and draws on its detailed play experience to revise them for mastery. Starting from an initial game, PlayCraft alternates between playing and crafting. In the playing stage, a player agent watches the game screen, us",
-    "author": "Weihao Cheng",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2611.26624v1"
-    ]
-  },
-  {
-    "title": "One Prior, Two Dynamics: Repurposing Video Diffusion Transformers for Self-Supervised Latent Action Learning",
-    "link": "http://arxiv.org/abs/2611.26617v1",
-    "published": "2026-11-19T18:58:14+00:00",
-    "summary": "Videos reveal how the world changes, but rarely the actions that cause those changes. Latent action learning recovers such supervision from visual transitions, yet often learns the underlying dynamics largely from scratch. We ask whether a pretrained video generator can instead provide the prior for both inverse and forward dynamics. We introduce O$^{2}$LaF, built on a simple principle: one prior, two dynamics. We initialize both models from the same pretrained video DiT and adapt them to their ",
-    "author": "Yuxin Jiang, Wenqiang Sun, Jiaqi Li, Yuchao Gu, Lvmin Zhang, Ivor Tsang, Mike Zheng Shou",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2611.26617v1"
-    ]
-  },
-  {
-    "title": "SoK: Assessing the Evolution of LLM Capability in Software Vulnerability Research",
-    "link": "http://arxiv.org/abs/2611.26601v1",
-    "published": "2026-11-19T18:54:19+00:00",
-    "summary": "LLM-based agents are becoming increasingly capable at discovering, validating and patching vulnerabilities in real software, and vendors and researchers report that this is already changing how vulnerabilities are found and fixed. These claims, however, are scattered across papers, vendor reports and disclosures and are rarely comparable. We introduce a framework that rates these capabilities on an autonomy scale modeled on the levels of driving automation, and qualifies each claim by its correc",
-    "author": "Amine Lbath, Manan Suri, Aurelien Delaitre, Vadim Okun, Massih-Reza Amini, Dinesh Manocha",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2611.26601v1"
-    ]
-  },
-  {
-    "title": "Active Feature Acquisition by Distilling an Oracle Teacher",
-    "link": "http://arxiv.org/abs/2611.26598v1",
-    "published": "2026-11-19T18:52:57+00:00",
-    "summary": "Acquiring every feature of an instance is often costly: a measurement can carry a monetary price, a time delay, or a privacy cost. Active Feature Acquisition (AFA) addresses this by learning a policy that decides, per instance, which features to acquire under a budget. Existing AFA methods train this policy by optimizing a self-constructed utility target rather than distilling an explicit teacher. We construct this teacher explicitly. At training time the label and the unobserved feature values ",
-    "author": "Yang Meng, Zixin Ding, Robert L. Grossman, Yuxin Chen",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2611.26598v1"
-    ]
-  },
-  {
-    "title": "PGX: Physically Grounded Execution for Long-Horizon Humanoid Loco-Manipulation",
-    "link": "http://arxiv.org/abs/2611.26596v1",
-    "published": "2026-11-19T18:52:18+00:00",
-    "summary": "Robotic vision-language-action (VLA) models can execute diverse individual manipulation skills, yet they still struggle with long-horizon loco-manipulation tasks, where temporal structure, skills, and precision are tightly coupled within a monolithic model. We propose Physically Grounded Execution (PGX), a framework that offloads temporal and precision control to two classical training-free components, allowing the VLA to focus on stage-specific skill dynamics. PGX decomposes long-horizon loco-m",
-    "author": "Kai Lu, Chenyang Ma, Ioannis Havoutis",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "https://kl-research.github.io/pgx",
-      "http://arxiv.org/abs/2611.26596v1"
-    ]
-  },
-  {
-    "title": "Realized versus Population Reliability: Anytime-Valid Self-Consistency Certification under Correlated Reasoning",
-    "link": "http://arxiv.org/abs/2611.26592v1",
-    "published": "2026-11-19T18:47:51+00:00",
-    "summary": "Self-consistency certification treats repeated sampling from a language model as sequential evidence accumulation and stops when an anytime-valid e-process crosses a threshold, guaranteeing finite-sample Type I error control by Ville's inequality. Prior constructions assume sampled rollouts are conditionally independent. We show this assumption fails in practice: reasoning streams are positively correlated through shared reasoning prefixes or across-prompt heterogeneity, changing not merely cert",
-    "author": "Terence D. Agbeyegbe, Toneukarin G. Agbeyegbe",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2611.26592v1"
-    ]
-  },
-  {
-    "title": "Probing the \"Conscious\" Mind: Selective Access and Global Workspace in Vision-Language Models",
-    "link": "http://arxiv.org/abs/2611.26590v1",
-    "published": "2026-11-19T18:46:50+00:00",
-    "summary": "Vision-language models (VLMs) integrate visual and textual information, but their outputs do not reveal internal concept representations. Global workspace theory (GWT) proposes that information is selected from parallel brain processes, integrated in a shared workspace, and made available to specialised processes. We introduce the Multimodal Concept Lens (MC-Lens), a multimodal Jacobian lens, to study these functions in VLM concept processing. Its vision encoder and language decoder lenses map i",
-    "author": "Jiahao Huang, Jun Wang",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2611.26590v1"
-    ]
-  },
-  {
-    "title": "Verify the Verifier: Specification-Grounded LLM Cross-Checking for Bugs That Escape UVM Scoreboards",
-    "link": "http://arxiv.org/abs/2611.26588v1",
-    "published": "2026-11-19T18:45:54+00:00",
-    "summary": "A passing UVM regression shows the design agrees with the reference model on what the scoreboard checks, not that it meets the specification. Bugs that pass every test yet violate the specification, termed scoreboard escapes, survive mature testbenches. We present Verify the Verifier, to our knowledge the first framework whose LLM-based Anomaly Cross-Checker examines a passing regression's traces against the specification. Of 564 bugs inserted into four OpenTitan IPs, 68 are candidate scoreboard",
-    "author": "Ana E. Sanchez Villalobos, Michael D. Quinn, Aakash Tyagi, Minh D. Luu, David Kebo Houngninou",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2611.26588v1"
-    ]
-  },
-  {
-    "title": "ProtoDiffusion: Token-per-Layer Generative Modeling of Multi-Layer Images",
-    "link": "http://arxiv.org/abs/2611.26586v1",
-    "published": "2026-11-19T18:45:31+00:00",
-    "summary": "Graphic designs are ordered compositions of RGBA layers whose separation enables selection, movement, and reuse. Existing layered models represent each layer with a full-canvas or region-sized spatial latent grid, so representation size grows with the cumulative spatial extent of the layers. We present ProtoDiffusion, a latent-diffusion framework built on ProtoVAE, a multi-layer variational autoencoder that encodes a design into one shared spatial prototype and one candidate vector per layer. Ea",
-    "author": "Adrià Ciurana Lanau, Harleen Hanspal, Lusine Abrahamyan, Emilio Tylson Baixauli, Yu Cao, Danai Triantafyllidou, Stefano Zorzi, Gustavo Zanoni Felipe, Peter Griger, Stefan Sietzen, Petru-Daniel Tudosiu",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2611.26586v1"
-    ]
-  },
-  {
-    "title": "GEOHunter: Mapping a Generative Engine Optimization Network in the Wild",
-    "link": "http://arxiv.org/abs/2611.26564v1",
-    "published": "2026-11-19T18:33:42+00:00",
-    "summary": "Generative engines synthesize retrieved web pages into answers, recommendations, and rankings. Generative engine optimization (GEO) services sell visibility in these answers by publishing promotional articles on user-generated-content (UGC) platforms for paying clients. Such promotion raises concerns in medical and financial domains, where misleading advice can cause harm. To study the severity of this problem, we measure one such paid-content operation across three major Chinese UGC platforms, ",
-    "author": "Sean Tang, Peiran Wang, Ying Li, Esha Shivakumar, Tao Meng, Yuan Tian",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2611.26564v1"
-    ]
-  },
-  {
-    "title": "Multi-institutional grading of Barrett's esophagus dysplasia without stain normalization using a pathology foundation model and multiple instance learning",
-    "link": "http://arxiv.org/abs/2611.26562v1",
-    "published": "2026-11-19T18:27:59+00:00",
-    "summary": "Barrett's esophagus dysplasia grading suffers substantial inter-observer variability, particularly for low-grade dysplasia, complicating clinical decision-making. We conducted a retrospective multi-institutional diagnostic accuracy study of a foundation model-based deep learning system for dysplasia grading, using 969 H\\&E-stained whole slide images from four institutions. Patch-level classifiers trained on expert annotations identified diagnostically relevant regions, followed by attribute-awar",
-    "author": "Amirali Khosravi, Jaidip M. Jagtap, D. Chamil Codipilly, Catherine E. Hagen, Jason T. Lewis, Rickey E. Carter, Shahriar Faghani, Vani J. A. Konda, Fouad Otaki, Shajan Peter, Nicholas Shaheen, Sachin Wani, Prasad G. Iyer, Bradley J. Erickson",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2611.26562v1"
-    ]
-  },
-  {
-    "title": "MM-SystemOneBias: Evaluating Bias in Multimodal Jev-Style System One Decision Models",
-    "link": "http://arxiv.org/abs/2611.26557v1",
-    "published": "2026-11-19T18:25:41+00:00",
-    "summary": "When multimodal decision models determine actions, moderation outcomes, or quality judgments, their reliability depends on preserving semantic decisions across presentation changes, ignoring irrelevant additions, and distinguishing information consistent with task evidence from information that conflicts with it. Existing evaluations study decision-interface biases and multimodal model behavior in separate settings, leaving no common protocol to compare multimodal decision models with their back",
-    "author": "Jinzhe Li, Qi Wang, Dandan Guo, Li Liu, Yuan Wu, Yi Chang",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2611.26557v1"
-    ]
-  },
-  {
-    "title": "Replication of Agentic Security Events: Audit and Investigation (ROGUE-AI)",
-    "link": "http://arxiv.org/abs/2611.26553v1",
-    "published": "2026-11-19T18:23:35+00:00",
-    "summary": "Agents based on large language models (LLMs) can now delete files and send payments on behalf of their users. News media reports routinely describe failures of these agents (e.g., Replit's coding agent deleting a production database), but a report often only says what went wrong and rarely (in)validates the incident or finds its root cause. Incident catalogs collect these reports, and benchmarks record whether agents fail, but neither replicates an incident nor tests the cause its report might i",
-    "author": "Mengxiao Wang, Mahbub Alam, Kalyan Nakka, Nitesh Saxena",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2611.26553v1"
-    ]
-  },
-  {
-    "title": "The Geometry of Lies: Knowledge and Persona Directions for Detecting Deception in Large Language Models",
-    "link": "http://arxiv.org/abs/2611.26545v1",
-    "published": "2026-11-19T18:20:01+00:00",
-    "summary": "Linear probes are the cheapest LLM lie detectors but often fail to transfer across kinds of lie. Label-free directions from honest and deceptive role-play are untested at 70B scale and on lies about knowledge, where a lie and an honest denial can be identical. We widen a published persona bank with roles that deny knowledge they have, plus honest counterparts. At each model's middle layer the resulting persona direction ranks lies across Liars' Bench better than single-dataset probes on three of",
-    "author": "Md. Abdullah Al Zami, Suraiya Shanaz, Mahdi Hasan, Shoaib Ahmed Dipu, Farig Yousuf Sadeque, Md. Sabbir Ahmed",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2611.26545v1"
-    ]
-  },
-  {
-    "title": "AURA: AUdio-dRiven streaming Avatar",
-    "link": "http://arxiv.org/abs/2611.26540v1",
-    "published": "2026-11-19T18:17:38+00:00",
-    "summary": "Current audio-driven video diffusion models can synthesize realistic talking-head videos but generally require dozens of diffusion denoising steps over multi-second video chunks, making them unsuitable for streaming applications such as voice assistants and virtual avatars, where low-latency and online causal generation are required properties. AURA generates video chunk by chunk with a rolling KV cache, requiring only the audio of the current chunk to start generating, rather than a multi-secon",
-    "author": "Nathaniel Cohen, Nicolas Dufour, Amélie Royer, Alasdair Newson, Patrick Pérez",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2611.26540v1"
     ]
   },
   {
