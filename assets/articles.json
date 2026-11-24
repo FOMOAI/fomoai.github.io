@@ -1,5 +1,54 @@
 [
   {
+    "title": "How Gemini is changing the game for Golden State's organization and fans.",
+    "link": "https://blog.google/products-and-platforms/products/gemini/gemini-golden-state/",
+    "published": "2026-11-24T16:00:00+00:00",
+    "summary": "Google Gemini partners with Golden State to power fan experiences and business operations for the Warriors, Valkyries, and Chase Center. See the news.",
+    "author": "",
+    "source": "Google AI Blog",
+    "category": "official",
+    "references": [
+      "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Google_Gemini_1.max-600x600.format-webp.webp",
+      "https://blog.google/products-and-platforms/products/gemini/gemini-golden-state/"
+    ]
+  },
+  {
+    "title": "Raising the stakes for enterprise networks with AI modernization",
+    "link": "https://www.technologyreview.com/2026/11/24/1148091/raising-the-stakes-for-enterprise-networks-with-ai-modernization/",
+    "published": "2026-11-24T15:15:16+00:00",
+    "summary": "Enterprise networks are under severe strain. As companies rush to deploy artificial intelligence, the technology is quickly becoming the biggest source of demand on the network. Now, agentic AI is adding to the load. Tasks conducted by AI agents generate an estimated 450% more network traffic than the same tasks done by human workers. As&#8230;",
+    "author": "MIT Technology Review Insights",
+    "source": "MIT Tech Review",
+    "category": "media",
+    "references": [
+      "https://www.technologyreview.com/2026/11/24/1148091/raising-the-stakes-for-enterprise-networks-with-ai-modernization/"
+    ]
+  },
+  {
+    "title": "The Download: AI’s gas power boom and a consciousness reality check",
+    "link": "https://www.technologyreview.com/2026/11/24/1149669/the-download-data-centers-gas-ai-consciousness/",
+    "published": "2026-11-24T13:10:00+00:00",
+    "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Data centers are getting their own natural gas power plants One of the biggest obstacles to building a data center is getting approval to connect to the grid, a wait that&#8230;",
+    "author": "Thomas Macaulay",
+    "source": "MIT Tech Review",
+    "category": "media",
+    "references": [
+      "https://www.technologyreview.com/2026/11/24/1149669/the-download-data-centers-gas-ai-consciousness/"
+    ]
+  },
+  {
+    "title": "Data centers are getting their own natural gas power plants",
+    "link": "https://www.technologyreview.com/2026/11/24/1149622/data-centers-natural-gas/",
+    "published": "2026-11-24T11:00:00+00:00",
+    "summary": "One of the biggest roadblocks to starting up a data center is getting approval to connect to the electric grid—a wait that could last as long as a decade. Some developers aren’t willing to wait and are instead opting to build their own off-grid, or behind-the-meter, gas power plants to fuel the AI boom.&#160;&#160; xAI’s&#8230;",
+    "author": "Casey Crownhart",
+    "source": "MIT Tech Review",
+    "category": "media",
+    "references": [
+      "https://www.technologyreview.com/2026/11/24/1149622/data-centers-natural-gas/"
+    ]
+  },
+  {
     "title": "OpenAI and Cisco introduce Shirudo",
     "link": "https://openai.com/index/introducing-shirudo",
     "published": "2026-11-23T21:20:00+00:00",
@@ -9,6 +58,189 @@
     "category": "official",
     "references": [
       "https://openai.com/index/introducing-shirudo"
+    ]
+  },
+  {
+    "title": "Language Models Steer on Injected Uncertainty Tokens, but Fail to Self-Monitor In Situ",
+    "link": "http://arxiv.org/abs/2611.31228v1",
+    "published": "2026-11-23T18:58:52+00:00",
+    "summary": "Prompting language models to verbalize stepwise numerical confidence during generation is an increasingly popular approach for triggering backtracking and error correction in agentic reasoning. This strategy presupposes two capabilities: (1) in-situ monitoring fidelity (does confidence drop when an error occurs?) and (2) downstream steering control (does an uncertainty token causally steer the model to repair its error?). We evaluated four open-weights models (Qwen2.5-7B, Llama-3.1-8B, Mistral-7",
+    "author": "Daniel Theron",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2611.31228v1"
+    ]
+  },
+  {
+    "title": "CTLink: A Text-Prompted Segmentation Model for Linking Radiology Report Findings to 3D Chest CT Scans",
+    "link": "http://arxiv.org/abs/2611.31222v1",
+    "published": "2026-11-23T18:57:26+00:00",
+    "summary": "Radiology reports describe findings in text only, without visually marking them on the scan, so readers cannot directly see which abnormality each reported finding refers to. We introduce CTLink, a text-prompted 3D segmentation model that segments findings described in a chest CT report. CTLink was trained on 4123 noncontrast chest CT scans with 9547 segmented report findings, including ReXGroundingCTv2, a newly annotated dataset of 1134 scans and 1895 findings with every instance of each findin",
+    "author": "Mohammed Baharoon, Sung Eun Kim, Mahmoud Hussain Alabbad, Lucas Bijnens, Ali Piracha, Reem Alwasiah, Talal Yahyan, Abdulrahman Alamoudi, Mashael Alshehri, Rayan Alsager, Hannah Hancock, Anna M. Hunkemöller, Peter Youssef, Mona A. Alhammad, Afnan Aljumayan, Brecht Van Berkel, Eric Bijnens, Saud Alhussain, Maarten Steyvers, Rolf Symons, Bryan Eelen, Ayed Alaklubi, Maha Buraykan Alshammari, Amirah Fahad Alshammeri, Tomas Gilvydis, Ibrahim AlTurki, Monerah Almohideb, Ali Alburkani, Shahad Alhomaiani, Fatima Jabali, Abdulrhman Aljouie, Daesung Kim, Junha Im, Michael Moritz, Hassan R. Alomaish, Pranav Rajpurkar",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "https://huggingface.co/rajpurkarlab/CTLink",
+      "https://huggingface.co/datasets/rajpurkarlab/ReXGroundingCT",
+      "http://arxiv.org/abs/2611.31222v1"
+    ]
+  },
+  {
+    "title": "Seeking in Space: Benchmarking Purposeful Active Exploration of Vision-Language Models for Spatial Reasoning",
+    "link": "http://arxiv.org/abs/2611.31215v1",
+    "published": "2026-11-23T18:55:44+00:00",
+    "summary": "Humans explore unfamiliar spaces with purpose, deciding where to look until they have gathered the evidence a spatial question requires. However, can vision-language models (VLMs), which reason increasingly well over curated images and videos, also seek in space when the evidence is not handed to them? We present ActSpace-Bench, a benchmark of 994 questions across 234 exploration episodes in 72 real-scanned indoor scenes, where a model starts from a single view, navigates real captured frames, a",
+    "author": "Xiwei Liu, Yulong Li, Xuhui Li, Xinlin Zhuang, Zhixiang Lu, Haolin Yang, Jianxu Chen, Yifan Lu, Zhiran Zhang, Yutong Xie",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2611.31215v1"
+    ]
+  },
+  {
+    "title": "ToolSmith: An Automatic Tool-Generation Framework for Multimodal Search Agents",
+    "link": "http://arxiv.org/abs/2611.31198v1",
+    "published": "2026-11-23T18:48:02+00:00",
+    "summary": "Recent multimodal search agents use reasoning, vision, and live web search across many turns to answer questions beyond parametric knowledge by orchestrating a small library of hand-crafted search and visual tools. However, the library is laborious to create and maintain, and frozen when new query types, evidence formats, and failure modes are encountered in the wild. Human practitioners, by contrast, cope with insufficient tools by fashioning new ones from familiar parts and reusing them across",
+    "author": "Rui Sun, Junhua Huang, Luca Zancato, Md Mofijul Islam, Kai-Wei Chang",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "https://threesr.github.io/toolsmith/",
+      "http://arxiv.org/abs/2611.31198v1"
+    ]
+  },
+  {
+    "title": "Learning Neurovascular Codes for EEG-to-fMRI Synthesis",
+    "link": "http://arxiv.org/abs/2611.31194v1",
+    "published": "2026-11-23T18:45:35+00:00",
+    "summary": "In this paper, we introduce Neurovascular Codes as shared EEG representations for fMRI generation. We first train a separate EEG encoder to predict each fMRI signal, learning target-specific temporal and spectral features from the same EEG window. After training, we freeze the encoders and project their concatenated hidden features into a shared neurovascular code. Conditioned on this code, stochastic interpolant transforms Gaussian noise into a vector of fMRI signals, allowing different respons",
+    "author": "Yiming Sun, Yifan Wang, Aosong Feng, Yijia Ma, Ben Cheng, Xurui Wang, Yufan He, Yucheng Tang, Qing Lyu, Daguang Xu, Pei-Fen Kuan, Mingzhou Ding, Wen Li, Chenyu You",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2611.31194v1"
+    ]
+  },
+  {
+    "title": "Know When to Abstain: Conformal Confidence Estimation for Text-to-SQL",
+    "link": "http://arxiv.org/abs/2611.31190v1",
+    "published": "2026-11-23T18:42:54+00:00",
+    "summary": "Text-to-SQL systems often return queries that execute successfully but answer the wrong question. Detecting these errors at deployment is hard because execution correctness is defined against a gold query, which exists only in labeled data. We formulate confidence estimation for Text-to-SQL as probabilistic query validation under a latent correctness variable that is observable at calibration time through gold-SQL execution and latent at deployment. Our estimator separates generation from valida",
+    "author": "Avinash Kumar Singh, Bhaskarjit Sarmah, Stefano Pasquali",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2611.31190v1"
+    ]
+  },
+  {
+    "title": "CO-GRAFT: Attributing Reinforcement Learning Gains in Search Agents via Role-Level Policy Grafting",
+    "link": "http://arxiv.org/abs/2611.31185v1",
+    "published": "2026-11-23T18:38:53+00:00",
+    "summary": "Reinforcement learning (RL) improves large language model search agents by up to 32 exact-match (EM) points over their pre-RL initializations, yet overall accuracy gains do not identify which underlying functional capabilities improve or interact during training. We introduce CO-GRAFT, a reward-agnostic interventional attribution framework in which an RL-trained agent and its pre-RL initialization jointly generate a single trajectory under closed-loop execution with live retrieval. Each policy c",
+    "author": "Ramraj Chandradevan, Sayontan Ghosh, Vinoth Selvendran",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2611.31185v1"
+    ]
+  },
+  {
+    "title": "Needwise: Generation-Free Conversational Recommendation from Need-Level Typed Decisions",
+    "link": "http://arxiv.org/abs/2611.31175v1",
+    "published": "2026-11-23T18:32:04+00:00",
+    "summary": "Conversational recommenders must rank items against needs that catalogs record only in part, while users add, withdraw and reverse needs and switch between requests. LLM rankers re-read the dialogue at every turn: they are slow, and their ordering does not show which needs an item meets. We show that a conversational recommender can be built from typed decisions instead: named questions over fixed options, answered with option probabilities rather than generated text. On each turn, one typed req",
+    "author": "Sungchul Kim, Weixiao Huang, Mekala Raja Sekhar Reddy, Amrutha Srinivasan",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2611.31175v1"
+    ]
+  },
+  {
+    "title": "Reducing Order Sensitivity in Decision Models",
+    "link": "http://arxiv.org/abs/2611.31174v1",
+    "published": "2026-11-23T18:31:54+00:00",
+    "summary": "Decision models are emerging as fast components of larger AI systems. Yet recent decision models, such as Jev, process options sequentially, leading to different predictions based on their ordering. Across ten open- and closed-source decision models, we find that \\emph{order-sensitivity} is pervasive, causing substantial accuracy degradation and unreliable decision-making. These effects become more pronounced as the number of options grows and can compound across multi-step decisions. To address",
+    "author": "Bodong Liu, Dongyoung Go, Sofian Zalouk, Kilian Q. Weinberger",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2611.31174v1"
+    ]
+  },
+  {
+    "title": "When Does Overriding the Majority Vote Help?",
+    "link": "http://arxiv.org/abs/2611.31165v1",
+    "published": "2026-11-23T18:26:09+00:00",
+    "summary": "When should additional reasoning or verification replace a majority-vote answer? We call such a replacement an override. We examine two obstacles: the availability of correct alternatives and the reliability of methods that produce or select them. We compare additional reasoning, executed programs, and cross-model reasoning on 150 competition-mathematics questions with three open reasoning models. Starting from a majority vote over 16 responses, we measure how often overrides occur and how many ",
+    "author": "Terry Ma, Aidan Zhang",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2611.31165v1"
+    ]
+  },
+  {
+    "title": "Habitats: A Framework for Open-Ended Evolution of Agent Objectives",
+    "link": "http://arxiv.org/abs/2611.31160v1",
+    "published": "2026-11-23T18:23:16+00:00",
+    "summary": "Designing what an agent should optimize can be as difficult as optimizing the agent itself. Existing language-model-based reward-generation methods typically refine objectives for predefined tasks and couple the decision of what to explore with the synthesis of how to implement it, potentially narrowing the resulting behavioral repertoire. We introduce Habitats, a framework for open-ended evolution of executable agent objectives. Habitats maintains a population of reward-policy pairs and evaluat",
+    "author": "Nicolas Bolouri, Gaya Mehenni, Daniel Toyama",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2611.31160v1"
+    ]
+  },
+  {
+    "title": "Deneb-Vritra: Descriptions, Edges and Names Examined by Blocking Via Restoring Token Representations and Attention",
+    "link": "http://arxiv.org/abs/2611.31139v1",
+    "published": "2026-11-23T18:09:20+00:00",
+    "summary": "Laya is a 421M-parameter encoder that answers a question about a text in one pass: each answer option, written as a name plus a description, gets a marker token, and one score is read from the network at each marker. We first confirm that such models can follow an option's name when it contradicts the description; the question is where in the network this happens. We locate it. On 951 synthetic questions we move each name onto another option's description and count how often the model picks the ",
+    "author": "Mohammed Nayeem Khan, Akhil P, Shahina Shaik",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2611.31139v1"
+    ]
+  },
+  {
+    "title": "SRCWDNet: Semantic-Relational Cross-Window Dual-Graph Network for Multi-Label Remote Sensing Scene Classification",
+    "link": "http://arxiv.org/abs/2611.31135v1",
+    "published": "2026-11-23T18:06:09+00:00",
+    "summary": "Multi-label remote sensing scene classification remains a challenging task due to complex spatial-spectral patterns, extreme class imbalance, and inter-label dependencies that are often insufficiently modeled. To address these challenges, we introduce a Semantic-Relational Cross-Window Dual-Graph Network (SRCWDNet), which integrates three key modules: (1) a Cross-Window Attention module that captures local and global visual context through learnable global tokens; (2) a Dual Label-Graph module t",
+    "author": "Fareeha Amir",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2611.31135v1"
+    ]
+  },
+  {
+    "title": "Genome-to-Image Translation: Reconstructing Escherichia coli Morphology from Genomic Sequences",
+    "link": "http://arxiv.org/abs/2611.31132v1",
+    "published": "2026-11-23T18:03:48+00:00",
+    "summary": "Antimicrobial resistance in Escherichia coli is established in routine practice by culture-based susceptibility testing, which is slow relative to the clinical need for an early treatment decision. Resistance status also leaves a measurable trace in cell morphology, and whole-genome sequencing of clinical isolates is increasingly available, which raises the question of whether colony appearance can be predicted directly from an isolate's genome. We formulate this as a conditional image-generatio",
+    "author": "Son T. Huynh, Thuy T. Le, Thu H. A. Huynh, Binh T. Nguyen",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2611.31132v1"
+    ]
+  },
+  {
+    "title": "FATCAT: Fault Injection Attacks Targeting Chip-level Alignment",
+    "link": "http://arxiv.org/abs/2611.31129v1",
+    "published": "2026-11-23T18:01:58+00:00",
+    "summary": "Model alignment is the primary safety and security mechanism for enforcing refusal of malicious prompts in modern foundation models; yet, existing adversarial evaluations implicitly assume underlying hardware integrity. In this paper, we present FATCAT, the first physical fault-injection attacks capable of eliminating refusal in modern large language and vision-language models. Specifically, we present a non-invasive electromagnetic (EM) fault injection attack targeting GPU-accelerated Systems-o",
+    "author": "Peter Horvath, Ilia Shumailov, Zhuoran Liu, Lukasz Chmielewski, Lejla Batina",
+    "source": "arXiv cs.AI",
+    "category": "research",
+    "references": [
+      "http://arxiv.org/abs/2611.31129v1"
     ]
   },
   {
@@ -81,190 +313,6 @@
     "category": "official",
     "references": [
       "https://openai.com/business/customer-stories/richpanel-ai-customer-support"
-    ]
-  },
-  {
-    "title": "Seeing Is Not Acting: WARD Diagnoses the Evidence-to-State-to-Action Gap in Longitudinal Clinical Agents",
-    "link": "http://arxiv.org/abs/2611.29243v1",
-    "published": "2026-11-22T05:30:24+00:00",
-    "summary": "Large language models for longitudinal clinical care must revise their assessments and actions as patient information accumulates. However, benchmarks centered on isolated responses or final task outcomes provide limited insight into intermediate failures in evidence use, state updating, and action selection. We introduce WARD, a benchmark for evaluating how clinical agents translate accumulating evidence into patient-state judgments and timely, safe actions. WARD comprises 4,560 clinical tasks ",
-    "author": "Chao Ding, Yidong Jiang, Junzhi Ning, Juncheng Wu, Yuhan Wang, Renjie Lu, Minjia Yuan, Gaopeng Wang, Liyang Wang, Pengcheng Chen, Dong Yin, Meiping Wang, Jinru Ding, Yuyin Zhou",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "https://github.com/Dingsuper-creator/WARD",
-      "http://arxiv.org/abs/2611.29243v1"
-    ]
-  },
-  {
-    "title": "GameAnything: From Any Inspirations to Playable Game Worlds",
-    "link": "http://arxiv.org/abs/2611.29238v1",
-    "published": "2026-11-22T05:17:35+00:00",
-    "summary": "AI-driven game development holds the potential to transform diverse human inspirations into interactive experiences. However, existing systems and benchmarks primarily focus on explicit development specifications, with limited support for adapting multimodal references and evaluating actual gameplay experiences. We introduce GameAnything, an open-source agentic platform that transforms multimodal inspirations into playable extensions of existing games through iterative development. GameAnything ",
-    "author": "Wenyi Wu, Siqi Liu, Yuru Feng, Zixuan Song, Aayush Salvi, Sibo Zhu, Kun Zhou, Biwei Huang",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2611.29238v1"
-    ]
-  },
-  {
-    "title": "Tenlai-TTS 2.0: Continuous-Representation LLM-Based TTS System with End-to-End Training",
-    "link": "http://arxiv.org/abs/2611.29226v1",
-    "published": "2026-11-22T04:58:09+00:00",
-    "summary": "Autoregressive text-to-speech (TTS) with continuous speech latents avoids quantization-induced information loss, but typically relies on a latent space that is learned separately and then frozen before language-model training. Such a space must satisfy two competing requirements: it must retain enough acoustic detail for high-fidelity reconstruction, yet be sufficiently structured and regularized to support autoregressive prediction by a language model. We present Tenlai-TTS 2.0, which learns co",
-    "author": "Changfeng Gao, Yong Ren, Jun Yuan, Zhengkun Tian, Ye Bai, Zhao You, Shidong Shang",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2611.29226v1"
-    ]
-  },
-  {
-    "title": "Ego-HMB: Human Motion Bridging from Egocentric Images via A Motion Bridge Diffusion Model",
-    "link": "http://arxiv.org/abs/2611.29218v1",
-    "published": "2026-11-22T04:34:37+00:00",
-    "summary": "We introduce Egocentric Human Motion Bridging, a task that generates a coherent 3D human motion sequence from two endpoint egocentric images. Unlike conventional motion in-betweening, which requires structured 3D endpoint poses, this setting uses raw first-person observations available from wearable devices in VR/AR and robotics. It presents challenges due to viewpoint variations, partial body visibility, and temporal ambiguity under cross-modal endpoint constraints. To address these challenges,",
-    "author": "Gaoge Han, Yongkang Cheng, Shaoli Huang, Jing Zhang, Mingming Gong, Fakhri Karray, Tongliang Liu",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "https://github.com/gaogehan/Ego-HMB",
-      "http://arxiv.org/abs/2611.29218v1"
-    ]
-  },
-  {
-    "title": "Direct Feedback Policy Optimization for AI Coding Agents",
-    "link": "http://arxiv.org/abs/2611.29193v1",
-    "published": "2026-11-22T03:36:09+00:00",
-    "summary": "AI coding agents generate, modify, and validate code through multi-turn interactions. Existing reinforcement learning methods often rely on sparse terminal rewards, making it difficult to assess how intermediate decisions affect task outcomes, and group-relative methods also require repeated sampling for each task. We propose Direct Feedback Policy Optimization (DFPO), a single-trajectory reinforcement learning algorithm that trains directly from a single trajectory. DFPO achieves higher task re",
-    "author": "Fei Ding",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2611.29193v1"
-    ]
-  },
-  {
-    "title": "loopxDINO: Dense Visual Prediction via Iterative Latent Reasoning",
-    "link": "http://arxiv.org/abs/2611.29180v1",
-    "published": "2026-11-22T03:19:00+00:00",
-    "summary": "Standard dense visual prediction architectures scale representation capacity by stacking deep feedforward decoders (6-16 transformer layers with 50M-200M parameters). This explicit layer stacking brings substantial activation memory overhead during backpropagation, requires high off-chip memory bandwidth for non-tied weights, and uses static computational allocation that cannot adapt to spatial image complexity. We propose loopxDINO, which replaces physical decoder depth with iterative latent re",
-    "author": "Xiangjing An, Zhibin Jiao, Aiting Chen",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "https://github.com/loopxDINO/loopxDINO",
-      "http://arxiv.org/abs/2611.29180v1"
-    ]
-  },
-  {
-    "title": "On Adaptive Step Sizes for Eligibility Traces in Deep Reinforcement Learning",
-    "link": "http://arxiv.org/abs/2611.29178v1",
-    "published": "2026-11-22T03:15:55+00:00",
-    "summary": "Many deep reinforcement learning (RL) algorithms store agent-environment interactions in a replay buffer and later learn by sampling transitions from it. However, this approach can be memory-inefficient and can delay learning because the agent can learn from a transition only when the buffer samples it. Additionally, most of these methods use one-step or short multi-step temporal-difference (TD) updates, which are slow at credit assignment. An alternative approach is to learn from the stream of ",
-    "author": "Esraa Elelimy, Martha White",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "https://github.com/esraaelelimy/ada_traces",
-      "http://arxiv.org/abs/2611.29178v1"
-    ]
-  },
-  {
-    "title": "What Makes Recurrence Generalize Across Lengths?",
-    "link": "http://arxiv.org/abs/2611.29171v1",
-    "published": "2026-11-22T03:08:21+00:00",
-    "summary": "Multi-step reasoning requires models to preserve and update intermediate information as computation unfolds. State tracking captures this fundamental requirement, but models that succeed within a fixed range of state transitions may not generalize when substantially more updates are required. Recurrent Transformers offer a natural mechanism for addressing this challenge by repeatedly applying shared Transformer blocks, allowing computation to scale with problem length. We study when such recurre",
-    "author": "Yoonsung Jung, Sunghun Jung, Louise Nayeong Koh, Yongjun Choi",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2611.29171v1"
-    ]
-  },
-  {
-    "title": "Fixed or Deleted? External Feedback Lets Cheaper AI Coding Agents Repair Rule Violations",
-    "link": "http://arxiv.org/abs/2611.29162v1",
-    "published": "2026-11-22T02:44:10+00:00",
-    "summary": "Many defects violate project rules that the code itself does not reveal, such as layering constraints or required tests. We study whether LLM coding agents repair such violations better when an external checker reports them, with their location and a repair goal. Three models, a small, medium and large model, driven by an AI agent, worked on 25 pull requests with 31 planted defects in ten open-source projects, plus 5 correct controls, five times alone and five times with findings from CodeAssure",
-    "author": "Laura Wynter",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2611.29162v1"
-    ]
-  },
-  {
-    "title": "ContextFact: Remembering Facts in Context for Long-Term Conversational Agents",
-    "link": "http://arxiv.org/abs/2611.29155v1",
-    "published": "2026-11-22T02:25:07+00:00",
-    "summary": "Agents built on large language models must maintain continuity across repeated interactions with users. However, long-term conversations scatter facts across turns and sessions, making it difficult to retrieve the right evidence with enough context. Memory for such conversations must therefore preserve facts with their context while keeping evidence selectively accessible. We first study how memory construction and retrieval-unit boundaries affect answerability and evidence access. Reading the e",
-    "author": "Jiayu Huang, Yichao Cai, Xinyu Li, Zhen Zhang, Javen Qinfeng Shi",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2611.29155v1"
-    ]
-  },
-  {
-    "title": "MVAgent: Per-Video Agents under Global Coordination for Multi-Video Understanding",
-    "link": "http://arxiv.org/abs/2611.29154v1",
-    "published": "2026-11-22T02:24:08+00:00",
-    "summary": "Multi-video understanding requires systems to combine evidence from different videos for cross-video reasoning. Answering such questions involves two kinds of decisions. Observation decisions must adapt to each video's content, whereas cross-video judgments require relating evidence from different videos based on the question. Most existing agents make both kinds of decisions in one controller, whose context accumulates observations from every video. We separate them in MVAgent, a training-free ",
-    "author": "Kewei Wei, XueXiang Wen, Bocheng Hu, Weili Xu, Haiyang Yu, Kaiyue Zhou, Gaoang Wang",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2611.29154v1"
-    ]
-  },
-  {
-    "title": "Medical Specialty Prediction from Bangla Patient Narratives: A Comparative Study of ML, DL, Transformers, and LLMs",
-    "link": "http://arxiv.org/abs/2611.29151v1",
-    "published": "2026-11-22T02:18:18+00:00",
-    "summary": "Timely access to appropriate medical specialists remains a bottleneck in Bangladesh's healthcare system, as patients describe symptoms in informal Bangla rather than clinical terms, leading to ineffective referrals. This paper compares four model families for predicting medical specialties from Bangla patient narratives: six machine learning (ML) models using hybrid TF-IDF features, four deep learning (DL) models using Word2Vec embeddings trained on the corpus, four fine-tuned transformers, and ",
-    "author": "Tasnin Tabassum Ali, Faisal Ahmed, Muhammad Anwarul Azim",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2611.29151v1"
-    ]
-  },
-  {
-    "title": "Can an Agent Trust Its Own Zoom? Cross-Magnification Provenance Verification for Whole-Slide Images",
-    "link": "http://arxiv.org/abs/2611.29150v1",
-    "published": "2026-11-22T02:10:25+00:00",
-    "summary": "Visual agents navigate whole-slide images through magnified observations associated with claimed locations. However, a visually plausible observation does not necessarily originate from its claimed location, particularly across magnifications and in regions with similar tissue structures. We formulate cross-magnification provenance verification (CMPV) to evaluate whether visual evidence supports a claimed spatial association, recover the source when possible, and abstain when evidence is insuffi",
-    "author": "Yan Wang, Yiran Song, Zizhuo Gong, Jianxiang Qi, Zhongxing Xu, Lingfei Qian, Minquan Lin",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2611.29150v1"
-    ]
-  },
-  {
-    "title": "VeriLogic: Reinforcement Learning over Verifiable Logical Reasoning Traces",
-    "link": "http://arxiv.org/abs/2611.29147v1",
-    "published": "2026-11-22T01:59:28+00:00",
-    "summary": "Logical reasoning derives conclusions from premises through explicit intermediate inference steps, providing a natural basis for process-level verification and supervision. However, existing learning methods often rely on response-level outcome signals, which overlook heterogeneous correctness within the reasoning trace: a correct answer may contain invalid reasoning, while valid intermediate steps may also appear in an incorrect response. To address this issue, we introduce Reinforcement Learni",
-    "author": "ZeLiang Chen, Yunyao Zhang, Xinglang Zhang, Wenbing Li, Junqing Yu, Zikai Song",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2611.29147v1"
-    ]
-  },
-  {
-    "title": "The Retry Tax: Why Static Same-Task Retries Can Cost More per Completion",
-    "link": "http://arxiv.org/abs/2611.29133v1",
-    "published": "2026-11-22T01:37:17+00:00",
-    "summary": "Retrying an agent after failure can complete more tasks while increasing the cost per completion. We study a static policy that stops at verified success or an attempt cap and otherwise resets the original prompt and workspace without passing feedback to the next request. Under stationary task success probabilities, independent attempts conditional on the task, and a common attempt cost, easier tasks tend to succeed earlier. When task success probabilities differ, the unresolved mix shifts towar",
-    "author": "Wei-Jung Huang",
-    "source": "arXiv cs.AI",
-    "category": "research",
-    "references": [
-      "http://arxiv.org/abs/2611.29133v1"
     ]
   },
   {
@@ -389,18 +437,6 @@
     ]
   },
   {
-    "title": "What a billion-dollar deal says about the US battery market",
-    "link": "https://www.technologyreview.com/2026/11/19/1148922/sila-panasonic-battery-deal/",
-    "published": "2026-11-19T11:00:00+00:00",
-    "summary": "After a tough few years littered with some high-profile failures, there’s some positive news for next-generation batteries in the US. Sila just signed an agreement with Panasonic Energy, a global battery manufacturer, to supply silicon-carbon anode material, a possible key to smaller, lighter batteries. It’s a deal that Sila says could be worth more than&#8230;",
-    "author": "Casey Crownhart",
-    "source": "MIT Tech Review",
-    "category": "media",
-    "references": [
-      "https://www.technologyreview.com/2026/11/19/1148922/sila-panasonic-battery-deal/"
-    ]
-  },
-  {
     "title": "How OpenAI’s Performance Factory keeps ChatGPT fast",
     "link": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast",
     "published": "2026-11-19T08:00:00+00:00",
@@ -471,30 +507,6 @@
     "references": [
       "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Gemini_app_Android_social_share.max-600x600.format-webp.webp",
       "https://blog.google/innovation-and-ai/products/gemini-app/gemini-lower-memory-devices/"
-    ]
-  },
-  {
-    "title": "The AI Hype Index: AI is everywhere",
-    "link": "https://www.technologyreview.com/2026/11/18/1148650/ai-hype-index-ai-is-everywhere/",
-    "published": "2026-11-18T14:42:44+00:00",
-    "summary": "Like a nasty rash, AI seems to spread everywhere. Google crams AI Overviews down your throat even though it costs the company billions of dollars in lost ad revenue. Leave your apartment, and you might pass two people heaving an AI-powered humanoid robot up the stairs to clean someone’s rooms. Go to the supermarket, and&#8230;",
-    "author": "Amit Katwala",
-    "source": "MIT Tech Review",
-    "category": "media",
-    "references": [
-      "https://www.technologyreview.com/2026/11/18/1148650/ai-hype-index-ai-is-everywhere/"
-    ]
-  },
-  {
-    "title": "The Download: AI learns to smell and hydropower struggles",
-    "link": "https://www.technologyreview.com/2026/11/18/1148845/the-download-ai-learns-to-smell-hydropower-struggles/",
-    "published": "2026-11-18T13:10:00+00:00",
-    "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. This smell startup says its AI nose is as good as a human’s In a New Jersey lab, researchers are trying to sniff every odor on Earth. Their careful notes—“nutty,” “peachy,”&#8230;",
-    "author": "Thomas Macaulay",
-    "source": "MIT Tech Review",
-    "category": "media",
-    "references": [
-      "https://www.technologyreview.com/2026/11/18/1148845/the-download-ai-learns-to-smell-hydropower-struggles/"
     ]
   },
   {
@@ -2370,18 +2382,6 @@
     "category": "official",
     "references": [
       "https://openai.com/index/practical-guide-building-gpt-6"
-    ]
-  },
-  {
-    "title": "The latest AI news we announced in September 2026",
-    "link": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-september-2026/",
-    "published": "2026-10-02T15:00:00+00:00",
-    "summary": "A video showing the September AI updates",
-    "author": "Blog Team",
-    "source": "Google AI Blog",
-    "category": "official",
-    "references": [
-      "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-september-2026/"
     ]
   },
   {
